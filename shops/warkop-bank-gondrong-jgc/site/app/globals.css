@@ -1,0 +1,381 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–§4. "Gerobak merah": the warkop's red cart. */
+@theme {
+  --color-merah: #ba2118;  /* cart red */
+  --color-krem: #fff1d6;   /* enamel cream */
+  --color-arang: #1f1a17;  /* tyre black */
+  --color-kuning: #ffc233; /* lamp yellow */
+  --color-hijau: #2d5a32;  /* mango leaf */
+  --color-semen: #ddd7cc;  /* worn concrete */
+}
+@theme inline {
+  --font-display: var(--font-shrikhand), Georgia, serif;
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale (design brief §4, §5). Sizes live here, never as Tailwind
+   arbitrary values with spaces. */
+:root {
+  --container: 75rem;                                   /* 1200px */
+  --gutter: clamp(1.25rem, 0.6rem + 2.667vw, 3rem);     /* 20 → 48px */
+  --section-y: clamp(4rem, 2.886rem + 4.571vw, 7rem);   /* 64 → 112px */
+  --gap: 16px;
+
+  --step-display: clamp(3.25rem, 1.857rem + 5.714vw, 7rem);   /* 52 → 112px */
+  --step-head: clamp(2rem, 1.443rem + 2.286vw, 3.5rem);        /* 32 → 56px */
+  --step-lead: clamp(1.4375rem, 1.368rem + 0.286vw, 1.625rem); /* 23 → 26px */
+  --step-body: clamp(1.125rem, 1.102rem + 0.095vw, 1.1875rem); /* 18 → 19px */
+  --step-small: clamp(0.875rem, 0.852rem + 0.095vw, 0.9375rem);/* 14 → 15px */
+
+  --leading-display: 1.05;
+  --leading-head: 1.1;
+  --leading-lead: 1.25;
+  --leading-body: 1.55;
+
+  --rail: 6px;
+  --sign-w: clamp(8rem, 6.512rem + 6.095vw, 12rem);    /* 128 → 192px */
+  --focus: var(--color-arang);
+}
+@media (min-width: 768px) {
+  :root { --gap: 24px; }
+}
+
+html {
+  background: var(--color-krem);
+  color: var(--color-arang);
+  scrollbar-color: var(--color-arang) var(--color-semen);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-sans);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-kuning); color: var(--color-arang); }
+
+/* Visible focus, coloured per ground (TRD Accessibility). */
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+@layer components {
+.ground-merah { background: var(--color-merah); color: var(--color-krem); --focus: var(--color-kuning); }
+.ground-hijau { background: var(--color-hijau); color: var(--color-krem); --focus: var(--color-kuning); }
+.ground-arang { background: var(--color-arang); color: var(--color-krem); --focus: var(--color-kuning); }
+.ground-krem  { background: var(--color-krem);  color: var(--color-arang); --focus: var(--color-arang); }
+.ground-semen { background: var(--color-semen); color: var(--color-arang); --focus: var(--color-arang); }
+
+a { text-underline-offset: 0.2em; text-decoration-thickness: 2px; }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+.grid-page {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--gap);
+}
+
+.t-display { font-family: var(--font-display); font-size: var(--step-display); line-height: var(--leading-display); font-weight: 400; }
+.t-head    { font-family: var(--font-display); font-size: var(--step-head);    line-height: var(--leading-head); font-weight: 400; text-wrap: balance; }
+.t-lead    { font-size: var(--step-lead);  line-height: var(--leading-lead); font-weight: 700; }
+.t-body    { font-size: var(--step-body);  line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small); line-height: 1.4; font-weight: 600; }
+.tnum      { font-variant-numeric: tabular-nums; }
+.measure   { max-width: 62ch; }
+
+/* The rail: a 6px tyre-black bar the sign and the menu strips hang from. */
+.rail { height: var(--rail); background: var(--color-arang); }
+
+/* Draft banner (CLAUDE.md rule 7) */
+.mockup-banner {
+  font-size: var(--step-small); font-weight: 600; line-height: 1.4;
+  text-align: center; padding: 9px var(--gutter);
+  background: var(--color-arang); color: var(--color-krem);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 48px; padding: 10px 22px;
+  font-size: var(--step-body); font-weight: 700; line-height: 1.2;
+  border: 2px solid transparent; border-radius: 6px;
+  text-decoration: none; white-space: nowrap;
+  transition: transform 120ms ease-out;
+}
+.btn:active { transform: translateY(1px); }
+.btn svg { width: 20px; height: 20px; flex: none; }
+/* Hover colour changes are instant (TRD motion spec). */
+.btn-primary { background: var(--color-kuning); border-color: var(--color-kuning); color: var(--color-arang); }
+.btn-primary:hover { background: var(--color-krem); border-color: var(--color-krem); }
+.btn-line-light { border-color: var(--color-krem); color: var(--color-krem); }
+.btn-line-light:hover { background: var(--color-krem); color: var(--color-arang); }
+.btn-line-dark { border-color: var(--color-arang); color: var(--color-arang); }
+.btn-line-dark:hover { background: var(--color-arang); color: var(--color-krem); }
+/* On light grounds a kuning fill barely separates from krem, so the primary goes cart red. */
+.btn-red { background: var(--color-merah); border-color: var(--color-merah); color: var(--color-krem); }
+.btn-red:hover { background: var(--color-arang); border-color: var(--color-arang); }
+
+.text-link {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px;
+  font-weight: 700; text-decoration: underline;
+}
+.text-link svg { width: 18px; height: 18px; flex: none; }
+
+/* ---------- Hero ---------- */
+.hero { overflow-x: clip; }
+.hero-lip { height: 12px; }
+.hero-grid { position: relative; }
+.hero-copy {
+  --hero-pt: 28px;
+  padding-top: var(--hero-pt);
+  padding-bottom: 32px;
+}
+/* Kicker, name and sign share one block as wide as the name, so the sign always hangs
+   right beside the lettering instead of at the far edge of a wide row. */
+.hero-nameblock { position: relative; width: fit-content; max-width: 100%; }
+.hero-kicker { margin-bottom: 10px; }
+.hero-name {
+  color: var(--color-krem);
+  text-shadow: 0.05em 0.05em 0 var(--color-arang);
+  letter-spacing: -0.005em;
+}
+.hero-name .line { display: block; }
+.hero-name .line-pad { padding-inline-end: calc(var(--sign-w) + 16px); }
+.hero-plate-gap { font-size: 0.1em; }
+.hero-plate {
+  display: inline-block;
+  font-family: var(--font-sans); font-size: var(--step-lead); font-weight: 800;
+  line-height: 1; letter-spacing: 0.04em;
+  color: var(--color-merah); background: var(--color-krem);
+  text-shadow: none;
+  padding: 0.26em 0.34em 0.22em; border-radius: 5px;
+  margin-inline-start: 8px;
+  vertical-align: calc(var(--step-display) * 0.12);
+}
+.hero-sub { margin-top: 20px; max-width: 30ch; }
+.hero-actions { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.hero-actions .text-link { color: var(--color-krem); margin-inline-start: 4px; }
+
+.hero-photo {
+  position: relative;
+  margin-inline: calc(-1 * var(--gutter));
+  height: clamp(260px, 40svh, 380px);
+  background: var(--color-arang);
+}
+.hero-photo img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: 50% 42%;
+}
+
+/* The hanging sign. Its top edge is the hook on the rail, so it pivots from 50% 0.
+   The strings are long enough to centre the plate on the seam between name lines 1 and 2. */
+.sign {
+  position: absolute; right: 0;
+  top: calc(-1 * (var(--hero-pt) + var(--rail) / 2));
+  width: var(--sign-w);
+  transform-origin: 50% 0;
+  z-index: 2;
+  --drop: max(24px, calc(var(--hero-pt) + var(--rail) / 2 + 1.4 * var(--step-small) + 10px + 1.05 * var(--step-display) - 52px));
+}
+.sign-hook {
+  position: absolute; left: 50%; top: -3px; width: 12px; height: 12px; margin-left: -6px;
+  border-radius: 50%; background: var(--color-arang); box-shadow: 0 0 0 2px var(--color-merah);
+}
+/* The strings run 11px onto the plate so they end in its two holes. */
+.sign-strings { position: relative; z-index: 1; display: block; width: 100%; height: calc(var(--drop) + 11px); margin-bottom: -11px; overflow: visible; }
+.sign-strings line { stroke: var(--color-arang); stroke-width: 2px; stroke-linecap: round; }
+.sign-plate {
+  position: relative;
+  background: var(--color-kuning); color: var(--color-arang);
+  border-radius: 6px;
+  padding: 16px 10px 12px;
+  text-align: center;
+  box-shadow: 0 10px 18px -8px rgb(31 26 23 / 0.55);
+}
+.sign-plate::before, .sign-plate::after {
+  content: ""; position: absolute; top: 7px; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--color-merah); box-shadow: 0 0 0 2px var(--color-arang);
+}
+.sign-plate::before { left: 14%; transform: translateX(-50%); }
+.sign-plate::after { right: 14%; transform: translateX(50%); }
+.sign-word { display: block; font-size: var(--step-lead); font-weight: 800; line-height: 1.1; letter-spacing: 0.08em; }
+.sign-time { display: block; margin-top: 4px; font-size: var(--step-body); font-weight: 700; line-height: 1.2; font-stretch: 88%; font-variant-numeric: tabular-nums; }
+.sign-days { display: block; margin-top: 2px; font-size: var(--step-small); font-weight: 600; line-height: 1.3; }
+
+/* Narrow phones: at the brief's sizes "Warkop" (52px) and the sign (128px) can't share a
+   line, so the sign hangs beside the kicker and the name starts under it. */
+@media (max-width: 479.98px) {
+  .hero-nameblock {
+    display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 16px;
+    width: auto; margin-top: calc(-1 * var(--hero-pt));
+  }
+  .hero-kicker { grid-column: 1; grid-row: 1; align-self: end; margin: 0; padding-bottom: 4px; }
+  .sign { position: relative; grid-column: 2; grid-row: 1; top: calc(-1 * var(--rail) / 2); right: auto; --drop: 22px; }
+  .hero-name { grid-column: 1 / -1; grid-row: 2; margin-top: 16px; }
+  .hero-name .line-pad { padding-inline-end: 0; }
+}
+
+@media (min-width: 1024px) {
+  .hero-lip { height: 16px; }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--gap);
+    min-height: min(calc(100svh - 4rem), 860px);
+  }
+  /* 1024–1279: the name needs 8 columns beside the sign; the portrait photo takes 4. */
+  .hero-copy { grid-column: 1 / span 8; --hero-pt: 72px; padding-bottom: 64px; }
+  /* The sign hangs 12px into the gutter beside the photo; the name keeps 16px clear of it. */
+  .sign { right: -12px; }
+  .hero-name .line-pad { padding-inline-end: calc(var(--sign-w) + 4px); }
+  .hero-sub { margin-top: 28px; }
+  .hero-actions { margin-top: 40px; gap: 16px; }
+  .hero-photo {
+    grid-column: 9 / span 4;
+    margin-inline: 0 calc(-1 * max(var(--gutter), (100vw - var(--container)) / 2));
+    height: auto;
+  }
+  .hero-photo img { object-position: 50% 40%; }
+}
+@media (min-width: 1280px) {
+  .hero-copy { grid-column: 1 / span 7; --hero-pt: 104px; padding-bottom: 72px; }
+  .hero-photo { grid-column: 8 / span 5; }
+}
+
+/* ---------- Menu strips (renceng) ---------- */
+.strips {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: var(--gap);
+  align-items: start;
+}
+.strips > .rail { grid-column: 1 / -1; }
+.strips > .rail:not(:first-child) { margin-top: 48px; }
+@media (min-width: 768px) {
+  .strips { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .strips > .rail.rail-pair { display: none; }
+}
+
+/* No hover tilt: the strips aren't links, so moving under the pointer would promise a click
+   that does nothing (removed in the remove-one-thing pass). */
+.strip-hook { display: block; width: 4px; height: 14px; margin-inline: auto; background: var(--color-arang); }
+.strip-tab {
+  display: block; position: relative;
+  background: var(--color-arang); color: var(--color-krem);
+  text-align: center; text-transform: uppercase; letter-spacing: 0.12em;
+  padding: 18px 8px 9px; border-radius: 4px 4px 0 0;
+}
+.strip-tab::before { /* the hanging hole */
+  content: ""; position: absolute; left: 50%; top: 6px; width: 8px; height: 8px; margin-left: -4px;
+  border-radius: 50%; background: var(--color-krem);
+}
+.strip-body {
+  --z: 8px;
+  margin-top: 4px;
+  padding-block: var(--z);
+  /* Crimped cut ends: a zigzag top and bottom, the way a sachet strip is cut. */
+  -webkit-mask:
+    conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / calc(2 * var(--z)) 51% repeat-x,
+    conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--z)) 51% repeat-x;
+  mask:
+    conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / calc(2 * var(--z)) 51% repeat-x,
+    conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--z)) 51% repeat-x;
+}
+.tone-arang  { background: var(--color-arang);  color: var(--color-krem);  --art-accent: #8a4a26; --art-hi: var(--color-krem); }
+.tone-kuning { background: var(--color-kuning); color: var(--color-arang); --art-accent: #b8743a; --art-hi: var(--color-krem); }
+.tone-merah  { background: var(--color-merah);  color: var(--color-krem);  --art-accent: var(--color-kuning); --art-hi: var(--color-krem); }
+.tone-hijau  { background: var(--color-hijau);  color: var(--color-krem);  --art-accent: var(--color-kuning); --art-hi: var(--color-krem); }
+
+.tile { position: relative; padding: 18px 12px; line-height: 1.3; }
+/* The crimped seal at each sachet's top and bottom. */
+.tile::before, .tile::after {
+  content: ""; position: absolute; left: 0; right: 0; height: 8px;
+  background-image: repeating-linear-gradient(90deg, color-mix(in srgb, currentColor 22%, transparent) 0 1.5px, transparent 1.5px 5px);
+}
+.tile::before { top: 0; }
+.tile::after { bottom: 0; }
+/* The perforation where two sachets meet. */
+.tile + .tile { border-top: 2px dashed color-mix(in srgb, currentColor 60%, transparent); }
+.tile-art { display: block; width: 64px; height: 64px; margin-bottom: 10px; }
+.tile-photo { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 3px; margin-bottom: 12px; }
+.tile-name { display: block; font-size: var(--step-body); font-weight: 700; line-height: 1.3; font-stretch: 92%; }
+.tile-price { display: block; margin-top: 6px; font-size: var(--step-body); font-weight: 800; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.tile-note { display: block; margin-top: 6px; font-size: var(--step-small); font-weight: 600; line-height: 1.35; }
+.tile-small { padding-block: 16px; }
+@media (min-width: 768px) {
+  .tile { padding: 22px 16px; }
+  .tile-small { padding-block: 18px; }
+  .tile-art { width: 96px; height: 96px; }
+}
+
+/* ---------- Day line ---------- */
+.day-line { position: relative; }
+.day-line::before { /* the line itself */
+  content: ""; position: absolute; left: 7px; top: 10px; bottom: 10px; width: 2px;
+  background: var(--color-krem);
+}
+.day-stop { position: relative; padding-left: 40px; }
+.day-stop + .day-stop { margin-top: 36px; }
+.day-dot {
+  position: absolute; left: 0; top: 6px; width: 16px; height: 16px; border-radius: 50%;
+  background: var(--color-kuning); box-shadow: 0 0 0 4px var(--color-arang);
+}
+.day-time { display: block; color: var(--color-kuning); font-variant-numeric: tabular-nums; }
+.day-text { display: block; margin-top: 6px; max-width: 30ch; }
+@media (min-width: 768px) {
+  .day-line { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--gap); padding-top: 8px; }
+  .day-line::before { left: 0; right: 0; top: 15px; bottom: auto; width: auto; height: 2px; }
+  .day-stop { padding-left: 0; padding-top: 44px; }
+  .day-stop + .day-stop { margin-top: 0; }
+  .day-dot { top: 0; left: 0; }
+}
+
+/* ---------- Place ---------- */
+.place-photo { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 6px; }
+.spot { padding-block: 16px; border-top: 2px solid color-mix(in srgb, var(--color-krem) 35%, transparent); }
+.spot:last-child { padding-bottom: 0; }
+
+/* ---------- Reviews ---------- */
+.review { border-top: 2px solid var(--color-arang); padding-top: 18px; }
+
+/* ---------- Map ---------- */
+.map-frame { position: relative; aspect-ratio: 4 / 3; background: var(--color-semen); border-radius: 6px; overflow: hidden; }
+@media (min-width: 768px) and (max-width: 1023.98px) { .map-frame { aspect-ratio: 16 / 9; } }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+/* What shows until Google's map paints over it (or if it's blocked): the pin and the street. */
+.map-fallback {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 10px; padding: 24px; text-align: center;
+}
+.map-fallback svg { width: 44px; height: 44px; color: var(--color-merah); }
+
+/* ---------- Contact + footer ---------- */
+.contact-actions { display: flex; flex-direction: column; gap: 12px; }
+.contact-actions .btn { width: 100%; justify-content: flex-start; }
+.footer-row { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding-block: 28px; }
+.footer-name { font-weight: 800; }
+@media (min-width: 768px) {
+  .footer-row { flex-direction: row; flex-wrap: wrap; align-items: center; column-gap: 0; }
+  .footer-row > * + *::before { content: "·"; display: inline-block; padding-inline: 12px; text-decoration: none; }
+}
+
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

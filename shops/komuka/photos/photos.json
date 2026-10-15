@@ -1,0 +1,38 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "KOMUKA | Cafe & Eatery | Kafe Cakung | Metland Menteng | JGC | ASYA | Harapan Indah | Pulo Gebang",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "KOMUKA | Cafe & Eatery | Kafe Cakung | Metland Menteng | JGC | ASYA | Harapan Indah | Pulo Gebang",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-3.jpg",
+    "author": "KOMUKA | Cafe & Eatery | Kafe Cakung | Metland Menteng | JGC | ASYA | Harapan Indah | Pulo Gebang",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Puteri Sarah Ramdani",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Sarah Dian Nurmala",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Kristian Nugroho",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

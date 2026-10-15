@@ -1,0 +1,357 @@
+@import "tailwindcss";
+
+/* Palette: docs/design-brief.md §3. Six named colours, each with one job. */
+@theme {
+  --color-tile: #F2F3EE;
+  --color-steel: #1E2427;
+  --color-timber: #D3A26B;
+  --color-fern: #3C5A39;
+  --color-copper: #B8652F; /* illustrations only: never text, never a button */
+  --color-grout: #D9DCD4;
+}
+/* Fonts: Montagu Slab (display) + Hanken Grotesk (body), loaded by next/font in layout.tsx. */
+@theme inline {
+  --font-display: var(--font-montagu), "Zilla Slab", Georgia, serif;
+  --font-body: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale: design brief §4 and §5. Sizes live here as variables, never as
+   Tailwind arbitrary values with spaces. */
+:root {
+  --container: 75rem;                                         /* 1200px */
+  --gutter: clamp(1.25rem, 0.786rem + 1.905vw, 2.5rem);       /* 20 -> 40 */
+  --section-y: clamp(3.5rem, 2.2rem + 5.333vw, 7rem);         /* 56 -> 112 */
+  --grid-gap: 24px;
+  --head-gap: clamp(24px, 21.7px + 0.6vw, 32px);              /* heading -> content */
+
+  --step-display: clamp(2.5rem, 1.7571rem + 3.0476vw, 4.5rem);  /* 40 -> 72 */
+  --step-head: clamp(1.875rem, 1.55rem + 1.3333vw, 2.75rem);    /* 30 -> 44 */
+  --step-lead: clamp(1.375rem, 1.2821rem + 0.381vw, 1.625rem);  /* 22 -> 26 */
+  --step-body: clamp(1.0625rem, 1.0393rem + 0.0952vw, 1.125rem);/* 17 -> 18 */
+  --step-small: clamp(0.8125rem, 0.7893rem + 0.0952vw, 0.875rem);/* 13 -> 14 */
+
+  --leading-display: 1.05;
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  --rim: #272D30;            /* matte black plate rim, 4% lighter than steel */
+  --focus: var(--color-steel);
+}
+
+html { background: var(--color-tile); color: var(--color-steel); }
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-timber); color: var(--color-steel); }
+.ground-fern ::selection, .ground-steel ::selection { background: var(--color-tile); color: var(--color-steel); }
+
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+/* Type roles */
+.t-display {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: var(--step-display); line-height: var(--leading-display);
+  letter-spacing: -0.01em; text-wrap: balance;
+}
+.t-head {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: var(--step-head); line-height: var(--leading-head);
+  letter-spacing: -0.005em; text-wrap: balance;
+}
+.t-h3 {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: var(--step-lead); line-height: 1.25; text-wrap: balance;
+}
+.t-lead { font-size: var(--step-lead); line-height: 1.35; font-weight: 500; text-wrap: pretty; }
+.t-body { font-size: var(--step-body); line-height: var(--leading-body); }
+.t-small { font-size: var(--step-small); line-height: 1.4; font-weight: 600; }
+.measure { max-width: 62ch; }
+.nums { font-variant-numeric: tabular-nums; }
+
+/* Section grounds, morning to evening: tile -> timber -> tile -> fern -> steel -> steel */
+.ground-tile { background-color: var(--color-tile); color: var(--color-steel); --focus: var(--color-steel); }
+.ground-timber {
+  background-color: var(--color-timber); color: var(--color-steel); --focus: var(--color-steel);
+}
+.ground-fern { background-color: var(--color-fern); color: var(--color-tile); --focus: var(--color-tile); }
+.ground-steel { background-color: var(--color-steel); color: var(--color-tile); --focus: var(--color-tile); }
+
+/* Skip link */
+.skip-link {
+  position: absolute; left: 12px; top: -100px; z-index: 50;
+  background: var(--color-steel); color: var(--color-tile); --focus: var(--color-steel);
+  padding: 12px 16px; border-radius: 4px; font-weight: 600;
+}
+.skip-link:focus-visible { top: 12px; }
+
+/* Buttons: hover overlay + press scale. Variants per ground. */
+.btn {
+  position: relative; isolation: isolate;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 48px; padding: 12px 24px; border-radius: 4px;
+  font-family: var(--font-body); font-weight: 600; font-size: var(--step-body); line-height: 1.2;
+  text-decoration: none; white-space: nowrap;
+  transition: transform 120ms ease-out;
+}
+.btn::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; z-index: -1;
+  background: currentColor; opacity: 0; pointer-events: none;
+  transition: opacity 180ms ease-out;
+}
+.btn:hover::after { opacity: 0.12; }
+.btn:active { transform: scale(0.98); }
+.btn-fern { background: var(--color-fern); color: var(--color-tile); }
+.btn-timber { background: var(--color-timber); color: var(--color-steel); }
+.btn-pending {
+  background: transparent; color: var(--color-tile); cursor: not-allowed;
+  border: 1px dashed color-mix(in oklch, var(--color-tile) 60%, var(--color-steel));
+}
+.btn-pending::after { display: none; }
+.btn-pending:active { transform: none; }
+
+.text-link {
+  display: inline-flex; align-items: center; min-height: 44px;
+  font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px;
+  text-underline-offset: 0.28em; transition: text-decoration-thickness 180ms ease-out;
+}
+.text-link:hover { text-decoration-thickness: 2px; }
+
+/* Header */
+.site-header .nav-link {
+  display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; padding-inline: 6px;
+  text-decoration: none; font-weight: 500;
+}
+@media (min-width: 768px) { .site-header .nav-link { padding-inline: 10px; } }
+.site-header .nav-link:hover { text-decoration: underline; text-underline-offset: 0.28em; }
+
+/* ---------- Hero ---------- */
+.hero { position: relative; overflow: hidden; }
+.hero-text { padding-block: 28px 36px; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; }
+.today-line { min-height: calc(1.55em); }
+
+.hero-plan {
+  position: relative; height: 300px; overflow: hidden;
+  container-type: inline-size;
+  --t: 19cqw;        /* one table's width */
+  --row-x: 50%;
+  --row-y: 52%;
+  --row-n: 4;        /* tables in the long table on phone */
+  --k: 0.6;          /* scattered offsets are 0.6x on phone */
+}
+@media (min-width: 768px) {
+  .hero-plan { height: 380px; --t: 10cqw; --row-n: 6; --k: 1; --row-y: 45%; }
+}
+@media (min-width: 1024px) {
+  .hero-inner { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); min-height: 600px; align-items: center; }
+  .hero-text { grid-column: 1 / span 6; padding-block: 56px 72px; }
+  .hero-plan {
+    position: absolute; top: 0; bottom: 0; right: 0; left: calc(50% + 12px);
+    height: auto; --t: 12cqw; --row-y: 44%; --row-x: 50%;
+  }
+}
+
+.plan-scene { position: absolute; inset: 0; }
+.plan-floor {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(to right, var(--color-grout) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-grout) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center center;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 34%);
+  mask-image: linear-gradient(to bottom, transparent, #000 34%);
+}
+@media (min-width: 1024px) {
+  .plan-floor {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 22%), linear-gradient(to bottom, transparent, #000 16%);
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(to right, transparent, #000 22%), linear-gradient(to bottom, transparent, #000 16%);
+    mask-composite: intersect;
+  }
+}
+.plan-beam { position: absolute; border: 0 dashed color-mix(in oklch, var(--color-steel) 32%, transparent); }
+.plan-beam--v { top: 0; bottom: 0; border-left-width: 2px; }
+.plan-beam--h { left: 0; right: 0; border-top-width: 2px; }
+
+/* Positioned pieces: left/top are the piece's centre, in % of the plan. */
+.plan-piece { position: absolute; left: var(--x); top: var(--y); width: calc(var(--t) * var(--w)); transform: translate(-50%, -50%); }
+.plan-piece > svg { display: block; width: 100%; height: auto; }
+.plan-column { z-index: 3; }
+.plan-lounge { z-index: 2; }
+.plan-fern { z-index: 4; }
+
+.plan-row {
+  position: absolute; left: var(--row-x); top: var(--row-y); z-index: 2;
+  transform: translate(-50%, -50%);
+}
+.plan-tables { position: relative; z-index: 1; display: flex; }
+.plan-table { position: relative; flex: none; width: var(--t); }
+.plan-table > svg { display: block; width: 100%; height: auto; }
+.plan-dish { position: absolute; left: 50%; top: 50%; width: 64%; transform: translate(-50%, -50%); }
+.plan-dish > svg { display: block; width: 100%; height: auto; }
+.plan-glows { position: absolute; inset: 0; z-index: 0; opacity: 0.24; pointer-events: none; }
+.plan-glow {
+  position: absolute; left: calc(50% + var(--i) * var(--t)); top: 50%;
+  width: calc(var(--t) * 2.7); aspect-ratio: 1; border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(closest-side, var(--color-copper) 0 50%, rgb(184 101 47 / 0) 100%);
+}
+/* pendant shade from above: copper rim, darker inside, steel cord */
+.plan-pendant {
+  position: absolute; z-index: 2; left: calc(50% + var(--i) * var(--t)); top: 50%;
+  width: calc(var(--t) * 0.34); aspect-ratio: 1; border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle closest-side, var(--color-steel) 0 20%, #96572D 20% 55%, var(--color-copper) 55%);
+}
+.plan-caption {
+  position: absolute; z-index: 5;
+  left: calc(var(--row-x) - var(--row-n) * var(--t) / 2);
+  top: calc(var(--row-y) + var(--t) * 0.66 + 12px);
+  max-width: calc(var(--row-n) * var(--t));
+}
+.plan-table--desk-only { display: none; }
+@media (min-width: 768px) { .plan-table--desk-only { display: block; } }
+.plan-hide-phone { display: none; }
+@media (min-width: 768px) { .plan-hide-phone { display: block; } }
+.plan-desk-only { display: none; }
+@media (min-width: 1024px) { .plan-desk-only { display: block; } }
+
+/* Piece positions: phone band, tablet band, desktop side plan. */
+.pb-v1 { left: 22%; } .pb-v2 { left: 78%; } .pb-h { top: 12%; }
+.pc-fern-a { --x: 3%; --y: 20%; --w: 1.3; }
+.pc-fern-b { --x: 97%; --y: 22%; --w: 1.4; }
+.pc-fern-c { --x: 93%; --y: 100%; --w: 1.7; }
+.pc-col-a { --x: 12%; --y: 22%; --w: 0.5; }
+.pc-col-b { --x: 88%; --y: 80%; --w: 0.5; }
+.pc-lounge { --x: 24%; --y: 84%; --w: 2.6; }
+@media (min-width: 768px) {
+  .pb-v1 { left: 26%; } .pb-v2 { left: 74%; } .pb-h { top: 14%; }
+  .pc-fern-a { --x: 3%; --y: 22%; --w: 1.6; }
+  .pc-fern-b { --x: 98%; --y: 24%; --w: 1.7; }
+  .pc-fern-c { --x: 60%; --y: 104%; --w: 1.8; }
+}
+@media (min-width: 1024px) {
+  .pb-v1 { left: 34%; } .pb-v2 { left: 78%; } .pb-h { top: 12%; }
+  .pc-fern-a { --x: 8%; --y: 17%; --w: 2.1; }
+  .pc-fern-b { --x: 99%; --y: 20%; --w: 2.5; }
+  .pc-fern-c { --x: 64%; --y: 100%; --w: 2; }
+  .pc-col-a { --x: 57%; --y: 13%; --w: 0.55; }
+  .pc-col-b { --x: 86%; --y: 84%; --w: 0.55; }
+}
+
+/* Signature pre-state: scattered tables, unlit pools. Only when motion is allowed (head script). */
+html[data-motion="on"] .plan-table {
+  transform:
+    translate(calc(var(--dx) * var(--t) * var(--k)), calc(var(--dy) * var(--t) * var(--k)))
+    rotate(calc(var(--r) * 1deg));
+}
+html[data-motion="on"] .plan-glow { opacity: 0; }
+
+/* ---------- Menu andalan ---------- */
+.menu-head { display: grid; gap: 12px; margin-bottom: clamp(40px, 30px + 2.5vw, 64px); }
+@media (min-width: 1024px) {
+  .menu-head { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); align-items: end; }
+  .menu-head > h2 { grid-column: 1 / span 6; }
+  .menu-head > p { grid-column: 7 / span 6; padding-bottom: 6px; }
+}
+.menu-list { display: grid; row-gap: 32px; }
+.menu-item { display: grid; grid-template-columns: 128px minmax(0, 1fr); column-gap: 16px; align-items: start; }
+.menu-plate { display: flex; justify-content: center; align-items: flex-end; }
+.menu-plate > svg { display: block; width: var(--plate-m); height: auto; }
+.menu-label { margin-bottom: 4px; }
+.menu-note { margin-top: 8px; }
+.menu-price { margin-top: 8px; font-weight: 600; }
+@media (min-width: 768px) {
+  .menu-list { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--grid-gap); row-gap: 56px; }
+  .menu-item { grid-template-columns: none; grid-row: span 2; grid-template-rows: subgrid; row-gap: 16px; }
+  .menu-plate { justify-content: flex-start; }
+  .menu-plate > svg { width: var(--plate-d); max-width: 100%; }
+}
+@media (min-width: 1024px) {
+  .menu-list { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 64px; }
+}
+
+/* ---------- Datang untuk ---------- */
+.uses-list { display: grid; row-gap: 48px; margin-top: var(--head-gap); }
+.use-panel { display: block; width: 100%; height: auto; overflow: visible; margin-bottom: 20px; }
+@media (min-width: 768px) {
+  .uses-list { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--grid-gap); }
+  .use-panel { margin-bottom: 28px; }
+}
+
+/* ---------- Kata mereka ---------- */
+.reviews-grid { display: grid; row-gap: 40px; }
+.reviews-list { display: grid; row-gap: 36px; }
+@media (min-width: 768px) {
+  .reviews-list { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--grid-gap); row-gap: 48px; }
+}
+@media (min-width: 1024px) {
+  .reviews-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); }
+  .reviews-intro { grid-column: 1 / span 4; }
+  .reviews-list { grid-column: 5 / span 8; }
+}
+
+/* ---------- Kunjungi kami ---------- */
+.visit-grid { display: grid; row-gap: 40px; }
+@media (min-width: 1024px) {
+  .visit-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); align-items: start; }
+  .visit-info { grid-column: 1 / span 5; }
+  .visit-map { grid-column: 6 / span 7; }
+}
+.hours-table { width: auto; max-width: 22rem; border-collapse: collapse; }
+.hours-table caption { caption-side: top; text-align: left; padding-bottom: 4px; }
+.hours-table th, .hours-table td { padding: 10px 0; text-align: left; vertical-align: baseline; }
+.hours-table tr + tr th, .hours-table tr + tr td { border-top: 1px solid color-mix(in oklch, var(--color-tile) 16%, var(--color-steel)); }
+.hours-table th { font-weight: 500; padding-right: 24px; }
+.hours-table td.time { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.hours-table td.mark { padding-left: 12px; white-space: nowrap; color: var(--color-timber); }
+.map-frame {
+  position: relative; width: 100%; aspect-ratio: 4 / 3;
+  border: 1px solid var(--color-grout);
+  background: color-mix(in oklch, var(--color-tile) 7%, var(--color-steel));
+}
+.map-fallback { position: absolute; inset: 0; display: grid; place-items: center; padding: 24px; text-align: center; }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* ---------- Hubungi kami ---------- */
+.contact-grid { display: grid; row-gap: 40px; }
+@media (min-width: 1024px) {
+  .contact-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); align-items: center; }
+  .contact-text { grid-column: 7 / span 6; grid-row: 1; }
+  .contact-art { grid-column: 1 / span 6; grid-row: 1; }
+}
+.contact-art > svg { display: block; width: 100%; height: auto; }
+.contact-actions { display: flex; flex-wrap: wrap; gap: 16px 16px; align-items: flex-start; }
+.divider-steel { border-top: 1px solid color-mix(in oklch, var(--color-tile) 14%, var(--color-steel)); }
+
+/* Footer link: tall hit area without changing the line */
+.footer-link { padding-block: 14px; text-decoration: underline; text-underline-offset: 0.25em; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px; line-height: 1.35; text-align: center; padding: 8px 16px;
+  background: var(--color-steel); color: var(--color-tile);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active { transform: none; }
+}

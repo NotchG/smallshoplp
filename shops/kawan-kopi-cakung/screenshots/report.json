@@ -1,0 +1,452 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6053,
+    "sizes": [
+      {
+        "el": "h1 \"Kawan Kopi Cakung · Jakarta Timur\"",
+        "fontSize": 70.6,
+        "lineHeight": "67.051px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#kopi-kami-judul \"Kopi kami\"",
+        "fontSize": 38.1,
+        "lineHeight": "40.026px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Americano\"",
+        "fontSize": 22,
+        "lineHeight": "24.2px",
+        "textWidth": 83,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Kopi Kawan Lama\"",
+        "fontSize": 22,
+        "lineHeight": "24.2px",
+        "textWidth": 134,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Dirty Latte\"",
+        "fontSize": 22,
+        "lineHeight": "24.2px",
+        "textWidth": 85,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"V60 hari ini\"",
+        "fontSize": 22,
+        "lineHeight": "24.2px",
+        "textWidth": 87,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#teman-ngopi-judul \"Teman ngopi\"",
+        "fontSize": 38.1,
+        "lineHeight": "40.026px",
+        "textWidth": 166,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"French toast\"",
+        "fontSize": 22,
+        "lineHeight": "24.2px",
+        "textWidth": 99,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Salad\"",
+        "fontSize": 22,
+        "lineHeight": "24.2px",
+        "textWidth": 42,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Sandwich panggang\"",
+        "fontSize": 22,
+        "lineHeight": "24.2px",
+        "textWidth": 153,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Pastri\"",
+        "fontSize": 22,
+        "lineHeight": "24.2px",
+        "textWidth": 46,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#kerja-judul \"Kerja atau santai\"",
+        "fontSize": 38.1,
+        "lineHeight": "40.026px",
+        "textWidth": 222,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#kata-judul \"Kata mereka\"",
+        "fontSize": 38.1,
+        "lineHeight": "40.026px",
+        "textWidth": 167,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 27,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Pelayanan\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 62,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Kalau ada salah\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 93,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Suasana & harga\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 100,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kunjungi-judul \"Kunjungi kami\"",
+        "fontSize": 38.1,
+        "lineHeight": "40.026px",
+        "textWidth": 185,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 17,
+        "lineHeight": "26.3841px",
+        "textWidth": 66,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#hubungi-judul \"Hubungi kami\"",
+        "fontSize": 38.1,
+        "lineHeight": "40.026px",
+        "textWidth": 179,
+        "pctOfContentWidth": 51
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 24
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5867,
+    "sizes": [
+      {
+        "el": "h1 \"Kawan Kopi Cakung · Jakarta Timur\"",
+        "fontSize": 94,
+        "lineHeight": "89.3152px",
+        "textWidth": 704,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#kopi-kami-judul \"Kopi kami\"",
+        "fontSize": 48.7,
+        "lineHeight": "51.1392px",
+        "textWidth": 163,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Americano\"",
+        "fontSize": 24.6,
+        "lineHeight": "27.0336px",
+        "textWidth": 93,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Kopi Kawan Lama\"",
+        "fontSize": 24.6,
+        "lineHeight": "27.0336px",
+        "textWidth": 149,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Dirty Latte\"",
+        "fontSize": 24.6,
+        "lineHeight": "27.0336px",
+        "textWidth": 95,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"V60 hari ini\"",
+        "fontSize": 24.6,
+        "lineHeight": "27.0336px",
+        "textWidth": 97,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#teman-ngopi-judul \"Teman ngopi\"",
+        "fontSize": 48.7,
+        "lineHeight": "51.1392px",
+        "textWidth": 212,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"French toast\"",
+        "fontSize": 24.6,
+        "lineHeight": "27.0336px",
+        "textWidth": 110,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Salad\"",
+        "fontSize": 24.6,
+        "lineHeight": "27.0336px",
+        "textWidth": 47,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Sandwich panggang\"",
+        "fontSize": 24.6,
+        "lineHeight": "27.0336px",
+        "textWidth": 84,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Pastri\"",
+        "fontSize": 24.6,
+        "lineHeight": "27.0336px",
+        "textWidth": 51,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#kerja-judul \"Kerja atau santai\"",
+        "fontSize": 48.7,
+        "lineHeight": "51.1392px",
+        "textWidth": 283,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#kata-judul \"Kata mereka\"",
+        "fontSize": 48.7,
+        "lineHeight": "51.1392px",
+        "textWidth": 213,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 27,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Pelayanan\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 62,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Kalau ada salah\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 93,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Suasana & harga\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 100,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#kunjungi-judul \"Kunjungi kami\"",
+        "fontSize": 48.7,
+        "lineHeight": "51.1392px",
+        "textWidth": 236,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 17.7,
+        "lineHeight": "27.4387px",
+        "textWidth": 69,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#hubungi-judul \"Hubungi kami\"",
+        "fontSize": 48.7,
+        "lineHeight": "51.1392px",
+        "textWidth": 229,
+        "pctOfContentWidth": 33
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 24
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4865,
+    "sizes": [
+      {
+        "el": "h1 \"Kawan Kopi Cakung · Jakarta Timur\"",
+        "fontSize": 135.7,
+        "lineHeight": "128.896px",
+        "textWidth": 690,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#kopi-kami-judul \"Kopi kami\"",
+        "fontSize": 67.5,
+        "lineHeight": "70.896px",
+        "textWidth": 226,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Americano\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 106,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Kopi Kawan Lama\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 170,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Dirty Latte\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 108,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"V60 hari ini\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 111,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#teman-ngopi-judul \"Teman ngopi\"",
+        "fontSize": 67.5,
+        "lineHeight": "70.896px",
+        "textWidth": 294,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"French toast\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 125,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Salad\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 53,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Sandwich panggang\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 195,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Pastri\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 58,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h2#kerja-judul \"Kerja atau santai\"",
+        "fontSize": 67.5,
+        "lineHeight": "70.896px",
+        "textWidth": 393,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#kata-judul \"Kata mereka\"",
+        "fontSize": 67.5,
+        "lineHeight": "70.896px",
+        "textWidth": 295,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 27,
+        "pctOfContentWidth": 2
+      },
+      {
+        "el": "h3 \"Pelayanan\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 62,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Kalau ada salah\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 93,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Suasana & harga\"",
+        "fontSize": 13.5,
+        "lineHeight": "18.9px",
+        "textWidth": 100,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h2#kunjungi-judul \"Kunjungi kami\"",
+        "fontSize": 67.5,
+        "lineHeight": "70.896px",
+        "textWidth": 328,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 18.9,
+        "lineHeight": "29.3136px",
+        "textWidth": 74,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#hubungi-judul \"Hubungi kami\"",
+        "fontSize": 67.5,
+        "lineHeight": "70.896px",
+        "textWidth": 317,
+        "pctOfContentWidth": 26
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 24
+  }
+}

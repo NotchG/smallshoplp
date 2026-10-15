@@ -1,0 +1,452 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6244,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"PABBO UNIFIRST\"",
+        "fontSize": 45.5,
+        "lineHeight": "47.7225px",
+        "textWidth": 232,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h2#daynight-title \"Siang ngopi, malam nongkrong.\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 263,
+        "pctOfContentWidth": 75
+      },
+      {
+        "el": "p \"Siang ngopi,\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 184,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "p \"malam nongkrong.\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 278,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 211,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3#kat-minuman \"KOPI & MINUMAN\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 134,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h4 \"Es Kopi Susu Pabbo\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 211,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h4 \"Matcha Latte\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 141,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3#kat-makanan \"MAKANAN\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 79,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h4 \"Nasi Goreng Pabbo\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h4 \"Rice Bowl Daging Cincang\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 165,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3#kat-camilan \"CAMILAN MALAM\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 132,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h4 \"Indomie Goreng Telur\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 137,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h4 \"Roti Bakar\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 113,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h4 \"Kentang Goreng\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 173,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#musik-title \"Musik & acara\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 211,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "p \"BOSSA NOVA\"",
+        "fontSize": 23,
+        "lineHeight": "23px",
+        "textWidth": 169,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 190,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 213,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6501,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"PABBO UNIFIRST\"",
+        "fontSize": 66.2,
+        "lineHeight": "69.552px",
+        "textWidth": 339,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#daynight-title \"Siang ngopi, malam nongkrong.\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 263,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "p \"Siang ngopi,\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.8816px",
+        "textWidth": 223,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "p \"malam nongkrong.\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.8816px",
+        "textWidth": 336,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.8816px",
+        "textWidth": 255,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3#kat-minuman \"KOPI & MINUMAN\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 134,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h4 \"Es Kopi Susu Pabbo\"",
+        "fontSize": 25,
+        "lineHeight": "31.28px",
+        "textWidth": 230,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h4 \"Matcha Latte\"",
+        "fontSize": 25,
+        "lineHeight": "31.28px",
+        "textWidth": 154,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3#kat-makanan \"MAKANAN\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 79,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h4 \"Nasi Goreng Pabbo\"",
+        "fontSize": 25,
+        "lineHeight": "31.28px",
+        "textWidth": 222,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h4 \"Rice Bowl Daging Cincang\"",
+        "fontSize": 25,
+        "lineHeight": "31.28px",
+        "textWidth": 300,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3#kat-camilan \"CAMILAN MALAM\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 132,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h4 \"Indomie Goreng Telur\"",
+        "fontSize": 25,
+        "lineHeight": "31.28px",
+        "textWidth": 149,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h4 \"Roti Bakar\"",
+        "fontSize": 25,
+        "lineHeight": "31.28px",
+        "textWidth": 123,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h4 \"Kentang Goreng\"",
+        "fontSize": 25,
+        "lineHeight": "31.28px",
+        "textWidth": 98,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#musik-title \"Musik & acara\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.8816px",
+        "textWidth": 255,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "p \"BOSSA NOVA\"",
+        "fontSize": 25,
+        "lineHeight": "25.024px",
+        "textWidth": 184,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.8816px",
+        "textWidth": 229,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.8816px",
+        "textWidth": 257,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.8816px",
+        "textWidth": 249,
+        "pctOfContentWidth": 35
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5057,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"PABBO UNIFIRST\"",
+        "fontSize": 103.2,
+        "lineHeight": "108.36px",
+        "textWidth": 528,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#daynight-title \"Siang ngopi, malam nongkrong.\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 263,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "p \"Siang ngopi,\"",
+        "fontSize": 47.7,
+        "lineHeight": "52.448px",
+        "textWidth": 293,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "p \"malam nongkrong.\"",
+        "fontSize": 47.7,
+        "lineHeight": "52.448px",
+        "textWidth": 442,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 47.7,
+        "lineHeight": "52.448px",
+        "textWidth": 336,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3#kat-minuman \"KOPI & MINUMAN\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 134,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h4 \"Es Kopi Susu Pabbo\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 257,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h4 \"Matcha Latte\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 172,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3#kat-makanan \"MAKANAN\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 79,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h4 \"Nasi Goreng Pabbo\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 249,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h4 \"Rice Bowl Daging Cincang\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 201,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3#kat-camilan \"CAMILAN MALAM\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 132,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h4 \"Indomie Goreng Telur\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 166,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h4 \"Roti Bakar\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 138,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h4 \"Kentang Goreng\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 211,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#musik-title \"Musik & acara\"",
+        "fontSize": 47.7,
+        "lineHeight": "52.448px",
+        "textWidth": 336,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "p \"BOSSA NOVA\"",
+        "fontSize": 28,
+        "lineHeight": "28px",
+        "textWidth": 206,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 47.7,
+        "lineHeight": "52.448px",
+        "textWidth": 302,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 47.7,
+        "lineHeight": "52.448px",
+        "textWidth": 339,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 47.7,
+        "lineHeight": "52.448px",
+        "textWidth": 328,
+        "pctOfContentWidth": 27
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  }
+}

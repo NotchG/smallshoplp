@@ -1,0 +1,377 @@
+{
+  "id": "ChIJQXT1Ct2LaS4RBb7oxc0tZXU",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0812-1248-2907",
+  "internationalPhoneNumber": "+62 812-1248-2907",
+  "formattedAddress": "Perumahan Jakarta Garden City, Jln Jl. Srikaya, RT.007/04/RW.No 25, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=8459217836897254917&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 5,
+          "minute": 30
+        },
+        "close": {
+          "day": 1,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 5,
+          "minute": 30
+        },
+        "close": {
+          "day": 2,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 5,
+          "minute": 30
+        },
+        "close": {
+          "day": 3,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 5,
+          "minute": 30
+        },
+        "close": {
+          "day": 4,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 5,
+          "minute": 30
+        },
+        "close": {
+          "day": 5,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 5,
+          "minute": 30
+        },
+        "close": {
+          "day": 6,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 5,
+          "minute": 30
+        },
+        "close": {
+          "day": 0,
+          "hour": 0,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 5:30 AM – 12:00 AM",
+      "Tuesday: 5:30 AM – 12:00 AM",
+      "Wednesday: 5:30 AM – 12:00 AM",
+      "Thursday: 5:30 AM – 12:00 AM",
+      "Friday: 5:30 AM – 12:00 AM",
+      "Saturday: 5:30 AM – 12:00 AM",
+      "Sunday: 5:30 AM – 12:00 AM"
+    ],
+    "nextOpenTime": "2026-10-14T22:30:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+  "userRatingCount": 90,
+  "displayName": {
+    "text": "Warkop Bank Gondrong JGC",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/reviews/ChZDSUhNMG9nS0VJQ0FnSUNabTlPT2JREAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Ok",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Ok",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Muhamad fadilah Dillah",
+        "uri": "https://www.google.com/maps/contrib/116752971981440713496/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKH_q9zmlLdTV-6hlMrkll81eC_R_r2xMxEZJYO3sn3AW-KIw=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2023-09-18T17:51:53.932689Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNabTlPT2JREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNabTlPT2JREAE!2m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/reviews/ChdDSUhNMG9nS0VLdjF5cXlzOHJTMXp3RRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "The place is nice and cool, you can enjoy your time while watching the waiters, they have long hair but Hello Kitty's heart is full of jokes, it's really cool",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Tempatnya enak adem bisa sambil cuci mata pelayanya gondrong tapi hati hello Kitty banyak bercanda nya pokoknya jos lah",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Syam Amirulloh",
+        "uri": "https://www.google.com/maps/contrib/102415228675925258703/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2HatjDVnSeAHzMMGAboAcQJK-pbUqDgd1-UnlSNZMp5-mZqll=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-06-03T11:22:43.809899Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VLdjF5cXlzOHJTMXp3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VLdjF5cXlzOHJTMXp3RRAB!2m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/reviews/ChZDSUhNMG9nS0VJQ0FnSURmc2N6UERBEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "The shop is nice for sitting and relaxing, lots of traders are also hanging around.\n\nGood luck for long-haired bro...👍👍😃",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Warkopnya enak buat duduk² nyantai,bnyk kang dagang juga  yg mangkal.\n\nSukses buat bang gondrong..👍👍😃",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Putri Kania",
+        "uri": "https://www.google.com/maps/contrib/110937401744429305089/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVTnzwch-6x2clT28uHunpTinlTsZe2G_Ly-HhNskPuTpucSzfL=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-01-07T15:05:04.539730Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURmc2N6UERBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURmc2N6UERBEAE!2m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/reviews/ChdDSUhNMG9nS0VJQ0FnSURma2ZuSHFRRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "The place is cool under the mango trees, there are many types of drinks, and the prices are pocket-friendly.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Tempatnya adem di bawah pohon mangga, jenis minuman banyak, harga ramah kantong.",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "fajar fix",
+        "uri": "https://www.google.com/maps/contrib/105181425174956184334/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUF-BP_e0N0UO4voB5GeFzaHpF3hWE3FudPmX0O9afWLOqA5mxH=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-01-07T12:19:44.154956Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURma2ZuSHFRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURma2ZuSHFRRRAB!2m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xJeFJWSXpSM295Um5CbGFHWlJkVXRSUkdJMFUwRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Usually bitter coffee always accompanies this coffee shop",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Biasa kopi pait selalu menemani D warkop ini",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Fais Moh",
+        "uri": "https://www.google.com/maps/contrib/111716000695155060468/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIdiS5rt_qfqN2mv5Xvzn3MhapIDC5qkLqueoMZwfSY1JaiEQ=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-09-20T11:39:16.625501269Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xJeFJWSXpSM295Um5CbGFHWlJkVXRSUkdJMFUwRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xJeFJWSXpSM295Um5CbGFHWlJkVXRSUkdJMFUwRRAB!2m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMawHQefi9raUqomrsxG5hCymKFv-T8Bsb-FGvQTQW8Z7n5BpidSpOrPf7mfCLXRr6rMNYncFTDQ8bwFh_dZ5z13myLkoBdZC4FHPRtRFDCDS9nMCHC_TA8UCpYjuo0SLw_zVxhFQneeHj-RgJTD0jTsIut056ruXTTXQvZo_GDzxbcCYPGKtqwS5oS7nxEJ49H7lhpTUhrQtbvgTeKurI6IVTKEZDzKm-jePtAFfbsYfqCx1No93gLvzDR7DxExBVkB8UTF0afBbl-mIUlbuug2EvKoxYYbBoYxbqKx9eVtKYc4LtNCHYfWSOfBT0FGM6dBnPW5L9e4DcMBRVdWLdHtW4F7yuwOlpqkXHwcaOzA-fJt8XQ9qj4Nq-GacdiCoLqaKdobWs9cog9Kc72yH_-5pu72Wsw",
+      "widthPx": 1080,
+      "heightPx": 1920,
+      "authorAttributions": [
+        {
+          "displayName": "Warkop Bank Gondrong JGC",
+          "uri": "https://maps.google.com/maps/contrib/103657850003640861912",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKVRXg1g-IYRLZetQJ6LYuCcI3o_-Jz2cQp7Tan5Xtajz12=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID6vrOGhAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID6vrOGhAE!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMZ-9l4Uenx-Z8ITB5ahfSc8iJ-WdT8DOY7INKijplvaRQNwNns6HtAqBoXXRoMxXdGwoKCgKo9gdFUpl-XShv0pIgz7KF7eTsMqzX9VlQq1WwTod9C1lyjITlEen9Y2-NCMgTi994B4uBy7ejqPL_dpTd0juaECtn62Kf-YoMOOyU_c9xEBqlVcmRq5TvZdZ_-JUNrgrcGGc6ZjgU479dm5sfiNCRTiMeJQT-jlkLjMx2m0woD63x6FkEj9Wq8vw6cxtL8ouc6Fkt0JpN0yONWJpmtuZDh0dXvoTqU9jan_C4H0Y053YI-6ybdeYgBPkvGjOGe0LtXmOX4p5mXn0JF1ST39NqLOg_-HNUDhoSM8_1uZsi8YJGstW2BVxsx94k8KTdYQciMV-Ph8mjybWvrQ5YRmbRkp9XJZRIAobTjpYw",
+      "widthPx": 4128,
+      "heightPx": 3096,
+      "authorAttributions": [
+        {
+          "displayName": "Warkop Bank Gondrong JGC",
+          "uri": "https://maps.google.com/maps/contrib/103657850003640861912",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKVRXg1g-IYRLZetQJ6LYuCcI3o_-Jz2cQp7Tan5Xtajz12=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBmsZO6QtntJxITeLHLZE-v&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBmsZO6QtntJxITeLHLZE-v!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMbhXfIcawNPC9LOxistekbMaCIzsv8ZOPYs-mUrAY2ZmCd_l_38twcD8kRfm0YLhDjCblgNx5mCiN3FxC874GE5ZhwwqsNCTAu7D9px-m1expw6kkSBy7uUe99WvyMScjIAllaOykDWwkoP28Fvivlj78l3z98x0qrXxn2Y2wY66aXU6hlhpG9fme3sgdfznG6XQcQh-lV_mfNlfXNju27ZhzypAUj0SWhBQitsgaRQqsbvuNRhJekJyJ7k1lmz4YZN_DoiKCrbsoDJM2UTGe8P9mZBy34-Uh7GZcx8Gps34rXT-sF-tO2RcoU8uZITiYGOhOxcIlvEpXjTGzMBASKeMZyLMV_nO-0dHBIcxCbfBv2GUy1Rw8k4L7tzYyl73JjonjsPOUC-PXgs7-flf58JkwNZcsiI0TTZQH3uHBSG3w",
+      "widthPx": 1884,
+      "heightPx": 4080,
+      "authorAttributions": [
+        {
+          "displayName": "Achmad Sawqi",
+          "uri": "https://maps.google.com/maps/contrib/113370996559385777217",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW_RhNqvFzBh1_umyRMn4I6WFQok1hYdqt-VmmXfClMK1cxM-g=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCZZKGC3yo8wVV3zoi4-Bvd&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCZZKGC3yo8wVV3zoi4-Bvd!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMaNJkIa_zsLwqp5zEDyGecBmBEW98RaaAHFKmLS05ZjfEI_1DHK0bob2JaQsPOcfIYmKZmlSXbwQKZx8OBpMgVZpEVUWCIJ5llWuDiwn1-T2RgoRJ7DJunehUTDHH1--0a7l8_ny1sDJGraeF81GkuJGxxNyESW0L4yiiBszyuVe-x2FLQCXv5tNqv1vyTdO20HGhT3qjJXs0_YRFzCHyJ3vtwqFX450mEoJwqMpUi_lVkaWhrL3KuINBmWev5tGW7w1nVaTF7WKv-vXk3YM3y2JFmCmOO63Z62PGff4z8Ngb5ZGCGN4Xpm1mRyvjHk9KGJFBcTydMaj6z0T60HOU_f8DMHz_tvhhtbWYcUTHX9Cz0TdeIBRlWSfw0reEOBZFqxCCDYEwhOtOnOOhiPZMMQpoM",
+      "widthPx": 1080,
+      "heightPx": 1920,
+      "authorAttributions": [
+        {
+          "displayName": "D'gunraz CHANNEL",
+          "uri": "https://maps.google.com/maps/contrib/101324007732677434592",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2XIjmHQrlY5gAx-LzNNsL382eRM-ikAxcGAUv12nkDElwQEVV=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID758qNDg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID758qNDg!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMa6cJ7Yj3Xc-t4z3OUyrjZCbRIMhgM4qAR4fO6QwUNA_VUBksxTLj0yxt3mGJ9s4CxDDekMyHasJ6Pjzheq1c-g9kL1hlLVGfuGxwuPHy5B9PxNMK5RSGUP7AgPqi0yGKYZx1biKFPpTvDYWSKBZPs5E0gNV5s9EDBr5-skRJuUeWAaGMORddKDNCBHBJSP4L77ZPa-YB54jiu1ZgR3Fcq8wMYODdb1RFfFWM6v4ePMfIx1FxKGnRbNTnFYN6EVItHsjZzH_OB24jFfE__cXgMD09s4G4fSia_uNhytSiu3QJEJfkIr3i76MJTlPbmr6ywU2YLOMIezh5_F69uSSGIu2GAB0UG0nd5TYijfQ5LIV6_uHG3zDdlCCPiaPy7VTzCxZQAS5kntRMf4KX47IC1ddM8",
+      "widthPx": 1080,
+      "heightPx": 1920,
+      "authorAttributions": [
+        {
+          "displayName": "D'gunraz CHANNEL",
+          "uri": "https://maps.google.com/maps/contrib/101324007732677434592",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2XIjmHQrlY5gAx-LzNNsL382eRM-ikAxcGAUv12nkDElwQEVV=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID756qoYw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID756qoYw!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMbbWM_1ZAe7oS90tQQopGkqR0mQoUxHUmaKBoJQegGpceyx5jAU514bz5QdLGLNAtSINrvVVROciFbewXvLw9HL9Wgx2yPb_PQ4rcon1MatrWRWAWDkr2HWk6vRJkyXQHVrVeQ4HviWnkpLbtm8q-7yXt6ox8cde5RzbIseqJazkW1KocOik9iFe5A_qchCL9qg3VJ_Bmth-enSPCYjAArwYarv8BVKKPqqTH6KnT9apgrFDDLJ5BKptnP4hUJjVUA7IzCiDVOOBuGdHbUJH-JU_kSXJB2unKrcy5EDwIE5xECYaFp2LUOghcgthTJjcPUInIXPHkvvVteWCVvfeIdCrl8Nb0yOyXr4fOmVs9nRf0aPZ0y6I0LRMPoe2GLD1wHBe1FYlqMmRodjMQWR3jfemtyyymc",
+      "widthPx": 1080,
+      "heightPx": 1920,
+      "authorAttributions": [
+        {
+          "displayName": "D'gunraz CHANNEL",
+          "uri": "https://maps.google.com/maps/contrib/101324007732677434592",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2XIjmHQrlY5gAx-LzNNsL382eRM-ikAxcGAUv12nkDElwQEVV=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID758rVigE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID758rVigE!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMZUB_qXy5jYm_WkBxyKQ9AFKogdhHK_7-1gcZMYHvJS8gbEYf1pEEEFxaOU1H0r2LeM3kbmXL0Sb70yXA8LARWUlPuXuN19Fw0R3zK0LpZ7ww91UyCB8dWelE9f0N6LOfdtbdLgP9r2YJvKoMYHxQvmvxuZcLg74q_SBxaLkkHCUSuEzZDzu5xLAqX4quf3cZBq-nx9pTOZlR5sUchiT-U4iVR2TZh595yyIOrl5Z56rKR_ftBEd7e5v_9CmYSp2wm8JgzjFRYpR1GTZm1SRpWULXYkL76l2ESZ5Pmqdyjv55bHiDD3F-17LBUMlp7k57tXK34SoIY2kgo5jcNWPKepUBr0_NiNXj3Kpf4Ou9r7oVNZoM7K3apxD1x8AyawEe4ZXYGTSnt2Vt-7RiTsDg7eZa3DPuLFt7bp2nRqEiGh",
+      "widthPx": 1204,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "Warkop Bank Gondrong JGC",
+          "uri": "https://maps.google.com/maps/contrib/103657850003640861912",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKVRXg1g-IYRLZetQJ6LYuCcI3o_-Jz2cQp7Tan5Xtajz12=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCtHzZc20FzWkV7bwNiHQjf&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCtHzZc20FzWkV7bwNiHQjf!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMbxijuwymL4UQOym56ho-_UWJXDHxFe6eIZSl8kb6dPHsa71JST76WLpCsvi0hGf-P0xGw5HI85pAH9MIjj3aCzWcDkLHo12iRySMY7VL1i4EMtH-POb2EWDWw4Iq3DulzpCD3l8MLQTpSknxjytddPJJp4NN8V4pXXRs3L_VRYU0sT-qW6Rnk4rD6GBObKQjIDOk-7VLJIlLMz7SadscvCIIWwjBQvlPTnI-JAx42TUi5hxPdc1iTdGBxhtKpTbTVi_wsjudvm_KTjHth80Avq6i6WlX80QJWHo7-LCcVzN5ZGcKAQhZ2Ttp9ubBTrgH-pm_XyQjgedv6NZNRYLvlurrxgyRCeoprqWPElYe_-gr9e6nHfzF9HQ9HpHRAj2xnhiCjbBi3hIpcPd6q-oTmfVXc",
+      "widthPx": 1080,
+      "heightPx": 1920,
+      "authorAttributions": [
+        {
+          "displayName": "D'gunraz CHANNEL",
+          "uri": "https://maps.google.com/maps/contrib/101324007732677434592",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2XIjmHQrlY5gAx-LzNNsL382eRM-ikAxcGAUv12nkDElwQEVV=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID758r_BQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID758r_BQ!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMapbw-wAnyR-1A8zL-2d_-VhB6seRy78Tx-4avRacuQ31z2gD1v0W6vvv8F-jWkwSv7nWU9XF4r4KgGWx_ZmKLjsJn-9mVW-SB7-b7sdp9HkgKrFJN4W-9LHwmQ8X-oudRjXlvdr0cPD6PN-RrkyAe2HEz6L6ynRAT9_FU_D4BkzecaVCYZRzcspCFuDkN4Ll32w6_lZn-a1f5XmLAPPqx6Xb0wBtN1iMmiCH6Mf2L6MFPMZ2yM3jWx7ngE8sj0iBHc_6Y8jiWK31ogk6j0IKUtZBqEA1RyWF671_Jz5bx5uIEzrgsqqUCFgPxIPGCSwfkcHTNAVUnpqEOhcLmjBT_hEC3pwO2MRm2jO2FZnNroS0ZQ7PpOdGnRi4MXKkJExXFcbFTwAAirJZxFNjWJi36huAQ",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Warkop Bank Gondrong JGC",
+          "uri": "https://maps.google.com/maps/contrib/103657850003640861912",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKVRXg1g-IYRLZetQJ6LYuCcI3o_-Jz2cQp7Tan5Xtajz12=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDPkvryXg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDPkvryXg!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    },
+    {
+      "name": "places/ChIJQXT1Ct2LaS4RBb7oxc0tZXU/photos/Aa-ngMZY4ER4dYi_k0IX97xhnHiZNoB3YjoMcPEEymihyc8h7odR37_Dy9MFCCDVQyAsZrGAnqOuZTG2xhnIss4Zeo0Y0WrUMxsDlo6-oSiQ_x6cYjJYXUP4tlxzgOJrCvXn7tRa-hA-jm_m3A3VOxfz4sdmzQ_QMt581jTXV31IXsAAmmuV6xUk6Ly43fMiMplRoyIbVkIJTGCQkRmuKsiot6apBjGlrfCkaLvRYvoZRqKgyuB4Au4pUMb-fYkb483MYU0r3M4mQhcHuKIJpUnuMd_rkjdHXPjxXunCLYtYY_mjPa3wD8DBvscI-oqsAj_oVJNkgDn_es6Gpi-DhEhitUYl9XpuDKO3to-XveUPaFHEmCnmkQJyJumm2grlWELRT8aXpbGr4JhShQ8rmPHwgzSbcA",
+      "widthPx": 1080,
+      "heightPx": 1920,
+      "authorAttributions": [
+        {
+          "displayName": "D'gunraz CHANNEL",
+          "uri": "https://maps.google.com/maps/contrib/101324007732677434592",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX2XIjmHQrlY5gAx-LzNNsL382eRM-ikAxcGAUv12nkDElwQEVV=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID758qHNQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID758qHNQ!2e10!4m2!3m1!1s0x2e698bdd0af57441:0x75652dcdc5e8be05"
+    }
+  ]
+}

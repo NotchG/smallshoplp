@@ -1,0 +1,410 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 8143,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"ULUSALU coffee and roastery\"",
+        "fontSize": 82.2,
+        "lineHeight": "73.98px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#roaster-title \"Dari roaster kami\"",
+        "fontSize": 36,
+        "lineHeight": "37.8px",
+        "textWidth": 177,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#favorit-title \"Favorit pelanggan\"",
+        "fontSize": 36,
+        "lineHeight": "37.8px",
+        "textWidth": 184,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Dari bar & dapur\"",
+        "fontSize": 14,
+        "lineHeight": "19.6px",
+        "textWidth": 97,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Dari etalase\"",
+        "fontSize": 14,
+        "lineHeight": "19.6px",
+        "textWidth": 71,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#menu-title \"Menu\"",
+        "fontSize": 36,
+        "lineHeight": "37.8px",
+        "textWidth": 57,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Kopi & teh\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 102,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Makanan berat\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 147,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"Pastry & camilan\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 167,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#stay-title \"Untuk keluarga & WFC\"",
+        "fontSize": 36,
+        "lineHeight": "37.8px",
+        "textWidth": 227,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h3 \"Buka mulai 07.00\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 168,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Colokan di beberapa meja\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 254,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h3 \"Favorit anak-anak\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 179,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3 \"Sampai tengah malam\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 220,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#reviews-title \"Kata mereka\"",
+        "fontSize": 36,
+        "lineHeight": "37.8px",
+        "textWidth": 130,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "37.8px",
+        "textWidth": 144,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 23,
+        "lineHeight": "28.75px",
+        "textWidth": 90,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "37.8px",
+        "textWidth": 140,
+        "pctOfContentWidth": 40
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6517,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"ULUSALU coffee and roastery\"",
+        "fontSize": 136.6,
+        "lineHeight": "122.95px",
+        "textWidth": 402,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#roaster-title \"Dari roaster kami\"",
+        "fontSize": 43.2,
+        "lineHeight": "45.36px",
+        "textWidth": 213,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#favorit-title \"Favorit pelanggan\"",
+        "fontSize": 43.2,
+        "lineHeight": "45.36px",
+        "textWidth": 221,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Dari bar & dapur\"",
+        "fontSize": 14,
+        "lineHeight": "19.6px",
+        "textWidth": 97,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Dari etalase\"",
+        "fontSize": 14,
+        "lineHeight": "19.6px",
+        "textWidth": 71,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#menu-title \"Menu\"",
+        "fontSize": 43.2,
+        "lineHeight": "45.36px",
+        "textWidth": 69,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Kopi & teh\"",
+        "fontSize": 25.8,
+        "lineHeight": "32.2px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Makanan berat\"",
+        "fontSize": 25.8,
+        "lineHeight": "32.2px",
+        "textWidth": 165,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Pastry & camilan\"",
+        "fontSize": 25.8,
+        "lineHeight": "32.2px",
+        "textWidth": 187,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#stay-title \"Untuk keluarga & WFC\"",
+        "fontSize": 43.2,
+        "lineHeight": "45.36px",
+        "textWidth": 272,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Buka mulai 07.00\"",
+        "fontSize": 25.8,
+        "lineHeight": "32.2px",
+        "textWidth": 188,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Colokan di beberapa meja\"",
+        "fontSize": 25.8,
+        "lineHeight": "32.2px",
+        "textWidth": 284,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Favorit anak-anak\"",
+        "fontSize": 25.8,
+        "lineHeight": "32.2px",
+        "textWidth": 200,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Sampai tengah malam\"",
+        "fontSize": 25.8,
+        "lineHeight": "32.2px",
+        "textWidth": 246,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#reviews-title \"Kata mereka\"",
+        "fontSize": 43.2,
+        "lineHeight": "45.36px",
+        "textWidth": 156,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 43.2,
+        "lineHeight": "45.36px",
+        "textWidth": 173,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 25.8,
+        "lineHeight": "32.2px",
+        "textWidth": 100,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 43.2,
+        "lineHeight": "45.36px",
+        "textWidth": 167,
+        "pctOfContentWidth": 24
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5950,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"ULUSALU coffee and roastery\"",
+        "fontSize": 176,
+        "lineHeight": "158.4px",
+        "textWidth": 713,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#roaster-title \"Dari roaster kami\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 276,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#favorit-title \"Favorit pelanggan\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 286,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Dari bar & dapur\"",
+        "fontSize": 14,
+        "lineHeight": "19.6px",
+        "textWidth": 97,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Dari etalase\"",
+        "fontSize": 14,
+        "lineHeight": "19.6px",
+        "textWidth": 71,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#menu-title \"Menu\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 89,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Kopi & teh\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 124,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Makanan berat\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 179,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Pastry & camilan\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 203,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#stay-title \"Untuk keluarga & WFC\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 353,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Buka mulai 07.00\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 204,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Colokan di beberapa meja\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 177,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Favorit anak-anak\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 218,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Sampai tengah malam\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 180,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#reviews-title \"Kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 203,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 224,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 109,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 217,
+        "pctOfContentWidth": 18
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  }
+}

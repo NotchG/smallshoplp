@@ -1,0 +1,377 @@
+{
+  "id": "ChIJS1vi9VqLaS4RaFDBGn2cK1k",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "food",
+    "store",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0812-8058-2016",
+  "internationalPhoneNumber": "+62 812-8058-2016",
+  "formattedAddress": "Jl. Jkt Garden City Boulevard Unit A1, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+  "rating": 4.7,
+  "googleMapsUri": "https://maps.google.com/?cid=6425401354507866216&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 0,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:00 AM – 10:00 PM",
+      "Tuesday: 7:00 AM – 10:00 PM",
+      "Wednesday: 7:00 AM – 10:00 PM",
+      "Thursday: 7:00 AM – 10:00 PM",
+      "Friday: 7:00 AM – 12:00 AM",
+      "Saturday: 7:00 AM – 12:00 AM",
+      "Sunday: 7:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-15T00:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 91,
+  "displayName": {
+    "text": "ULUSALU coffee and roastery",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/reviews/ChZDSUhNMG9nS0VJQ0FnSUNaN0lmZkdBEAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 4,
+      "text": {
+        "text": "It is strategically located in the food garden area of ​​the Jakarta Garden City housing complex.\n\nThe updated menu is in front of the cashier, yes, what is put on the table is the old menu and may not be available, yesterday I ordered hot tea according to the menu on the table but apparently they don't sell it anymore, there is only Twinnings brand premium tea.\n\nAnd the menu I ordered for spaghetti Oglio Olio turned out to be very spicy, it used chopped chilies and the cashier didn't inform me that the menu was spicy.\n\nFor the rest, the cafe atmosphere is quite cozy, there is no music and there are several tables with electric sockets.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "It is strategically located in the food garden area of ​​the Jakarta Garden City housing complex.\n\nThe updated menu is in front of the cashier, yes, what is put on the table is the old menu and may not be available, yesterday I ordered hot tea according to the menu on the table but apparently they don't sell it anymore, there is only Twinnings brand premium tea.\n\nAnd the menu I ordered for spaghetti Oglio Olio turned out to be very spicy, it used chopped chilies and the cashier didn't inform me that the menu was spicy.\n\nFor the rest, the cafe atmosphere is quite cozy, there is no music and there are several tables with electric sockets.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Puspa Indah",
+        "uri": "https://www.google.com/maps/contrib/110336477286453019265/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoEv_26KL00dM5KWbJWEjDS-tR9m_bM04ay6PNAqq7aft077Y=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2023-09-06T02:22:14.452040Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNaN0lmZkdBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNaN0lmZkdBEAE!2m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/reviews/ChZDSUhNMG9nS0VJQ0FnTURvemNYX1hnEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "This cafe has a nice ambiance, delicious and affordable meals. There are lots of meals and drinks to choose from. The main course meals are incredibly delicious. The drinks are great. The pastry we usually order is the Choco Banana and the Tiramisu, it’s a must try! My children also love the Risoles and Sosis Solo. For my family and I, this place is a 10 out of 10 ❤️",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "This cafe has a nice ambiance, delicious and affordable meals. There are lots of meals and drinks to choose from. The main course meals are incredibly delicious. The drinks are great. The pastry we usually order is the Choco Banana and the Tiramisu, it’s a must try! My children also love the Risoles and Sosis Solo. For my family and I, this place is a 10 out of 10 ❤️",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Indriana Pratiwi",
+        "uri": "https://www.google.com/maps/contrib/101680252190233231161/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWLAb4TRSTLe0j7NbDUVa2pv12mgYsXBil1Z5gXoyzB03dpswbu=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-04-27T14:09:32.861175Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTURvemNYX1hnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTURvemNYX1hnEAE!2m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/reviews/Ci9DQUlRQUNvZENodHljRjlvT2toTmVIZFRNMmRZWWxsTkxVeGFWVWt0VURKVlgxRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "I was here at Ulusalu and the food was delicious",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I was here at Ulusalu and the food was delicious",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dini Priadi",
+        "uri": "https://www.google.com/maps/contrib/108830267139061442793/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVWfRFgfTq4NSfYNGXEROffA-1CZUUHAnbskx6uLTfw7On9eq-0=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-07-12T00:21:01.797210366Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2toTmVIZFRNMmRZWWxsTkxVeGFWVWt0VURKVlgxRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2toTmVIZFRNMmRZWWxsTkxVeGFWVWt0VURKVlgxRRAB!2m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/reviews/ChdDSUhNMG9nS0VJQ0FnSUN6NUtpdWd3RRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Best aren latte in jgc area, ohhh… and the mushroom cream soup, will always b ma fave! 😁",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Best aren latte in jgc area, ohhh… and the mushroom cream soup, will always b ma fave! 😁",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Gladis Mangivera",
+        "uri": "https://www.google.com/maps/contrib/102080787168468514364/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX_8gF4mR5t3m57LiJqEOVNTj8fErwYPh7ikfwkumG4RHwb6AVe=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-05-31T01:59:18.158427Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN6NUtpdWd3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN6NUtpdWd3RRAB!2m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/reviews/ChdDSUhNMG9nS0VJQ0FnSUR6Ny0tTndnRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Come here for WFC. they have a good ambience. Food and Coffee also good so enak WFC disni",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Come here for WFC. they have a good ambience. Food and Coffee also good so enak WFC disni",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "theo dorick",
+        "uri": "https://www.google.com/maps/contrib/107641700931388291468/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXrz5cIoSwbUqL6MqF6eyj-72_pvTYmMIuMos9GmI93pY7-HM9L=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2024-06-13T15:30:07.630470Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR6Ny0tTndnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR6Ny0tTndnRRAB!2m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMabKo_wr8Q4TmVzGvAH93djmOe6ZCPUgc1oPbavCaaUlEDIXAPhxQP3x1fWMdUHQn9xAiol83eL9PXVa9Sdtx4j6qp84IkYI57Co4ub51g5AujMrkQBb7FFDqK4Dd08OvHSxTgK0MVSTPhUN-6OXBT4X3UI7WrxJEuzLm4fqbsEKBeS2fp87vW1vv5WNM7qfVx3inHr-jdSL5TqJGOx9-5kBXQdn13RgIAb4s3HBSIpqe3QOnuPRbqpttkVyOSKt4qVV_m7fBH60dkMQEeZaJxKzq0KIY_LpGtphBTMGkLYpbdhiT0s5Z4YeRTwx3NMAiw49a1yiRlwECZusnaaIBnakBO56fY3A0oag8ywCn2OLZjr2VNmgU80cvpzbRImvAmtLQJWdBJt64CYScUR6EziANU",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "ULUSALU COFFEE ROASTERY & RESTO",
+          "uri": "https://maps.google.com/maps/contrib/108316638309990827610",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKhyXePg9QwbVuagsUYZYJFRK3MBghRhxZCF7UzYYoC9nnkcA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDpqY-3Lg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDpqY-3Lg!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMaXA19Ztpsijd66bNUmeVg_VG-gN93t21bH9zWNCLQi19VIObb4gShNYUZfk0Z-bfeiLu-dZ3zTdl7ofUY1QzU-3eVa-4g8ltSZOSveHCcG0V56BHpIxq0GgbqBjERfBa75GkM21AxMZFGPOX2owbCvRNaYnhrSkxNHPV8gD5d-o3KN4n1kUJrCpl4a3RYycPRUnd3Ve-WTgyjRDB1z1H9Prlkw8iXUTSNiXdjEn6vM7BadCLdSsb52gqrlZ8ohAAMWIqH1D0pP1VZqgpAX3JCneSdrJRtLUdF8aD1nGWRbnhiXi6hJg_Ns2xzJ6FAEJqPbDQ45buXCpgp66a_0FbcqWWo9EN-6ElZ93TtxvKO9vyARfam0Ve_nsFvLWMvtovVfACpCa3K7ptNQPq_fOdy_Y_cc8zy7lNzBT2AxPb91",
+      "widthPx": 3264,
+      "heightPx": 1470,
+      "authorAttributions": [
+        {
+          "displayName": "Anatheorisi",
+          "uri": "https://maps.google.com/maps/contrib/101565886520674782494",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVh7DQr2FS8JaADVnrWhkxe6DVpOUIwRQUG1hlFbaLqSsAxiK8d9Q=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCWC--vrBs7o2EN_wFhZbKH&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCWC--vrBs7o2EN_wFhZbKH!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMZNzc6YaZwjnaZlS4m41tuwr2ciinhLeupoGU60L6H8Hvxbt_E4gGLPNmogQy2QG8ATmzkiSHi28AXf4pcFLLrmRe8-3ar3Q5ETBd26Rr2pna6RoOf89pOY3bGFTeq4Fsf1pb0BhJWlLmX36vz6b1fhfl7vqUemsf7oqbsjBFMgnB9oO-wtjBGGfnTnwDWgdctv-pFOsr8iN-fu4SaOsLZPpC0REviKBOrz1IJTisHLa_3tZpI9VFUOFL2r6xZJGDq5soSZMLwMifhjYXjwQ2iC_4uhpVNuj2BDpjRILJuvfGOk7HegA0ACre1oEbkFvTbe5AAi4B4cU-fuU4MZZP2KFEp3CQ8oNWb09JIES9F2R7rBIGEQdqLPt5tg9FgVyq4uOEniKcGmhIhBoYaxNCP3P1CEWoE",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "ULUSALU COFFEE ROASTERY & RESTO",
+          "uri": "https://maps.google.com/maps/contrib/108316638309990827610",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKhyXePg9QwbVuagsUYZYJFRK3MBghRhxZCF7UzYYoC9nnkcA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDZre-31wE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDZre-31wE!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMYGt_8d5LxBwGLBe9jU8hyS3Mk2vJxdvwL2j-o0NEj1OudNWUPzHR9u9qmljfKfdnioX-U0PD-OcQ8WSxzjnwxUQmnaiCqhfnuX3n6DV74AxuVkSJH1U9CX1m-P9mhBpi8vvOKynSd7OxaUEKm-TpnC0T6TWJe4oVWRIgNZ_B5_q4wG_Nide1vD9UYFWgG5Ti3m-1jObtn1MfMgeLb6a5NbzRujGz241zsIZjHTgtZmtQAnzj-JJmM-bMaL7QkGwcy4FPz70v1K5843v3qPyMM0OgeLV8WRHhLY81LWykKnKpC3zbowdK2vfww0N4aTt463IzmpFkhm5FOJYjq8Y4Vk6UL1DDcANoihK1r1NUKiwRFlURHlWal1-XCSLREFSP4steu8IY5cKOYc5hduepVp1yZT",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Dindin daniz cool",
+          "uri": "https://maps.google.com/maps/contrib/111574028531175311556",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVb0pwNYdJ6LluwzWK4B7pZqhBe0LLdfbC3FM1omwmkDnWepl8=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID_6uXa5AE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID_6uXa5AE!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMZVfVomU6_8fhocwZtuGeIIqXZ3Pqd-kJvb52eWyvYJzMYwuh6NAuk8XUuhpP5-bo8X0Jx4Wzu158wbasdQ__AIWEFkK-13jYb7BEH3gAW9cGA04oa69wd-3avvSdUEOrsgSH1TFbPoLwcY8O4Zh001OOm1wfKzHsW0yE8A63QhuWAuq5w12lXiOKitQfpQ8WsRsx4T4rYF7hIp5UdfKyuFqx4fTeQfSYD080dQ-bKr11tSa-sH7qteWSOoHzqZyWvf4QQ4qk0URYFa42eqNRZSsUQlg_AATjnkVm2lVbeqHXcFRKz90Z2yfuBG7_A0dOfdEjjUVCKj6jJfYc-LjBF86Liy09rXR1u69FWeB4lONH2ldWhlaQQZ5wAaTxw2dJ0aWQiCjbNaZxQXHwcLaFEOhr6MTwmgkBjyBbA5uW0Msw",
+      "widthPx": 3264,
+      "heightPx": 1470,
+      "authorAttributions": [
+        {
+          "displayName": "Anatheorisi",
+          "uri": "https://maps.google.com/maps/contrib/101565886520674782494",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVh7DQr2FS8JaADVnrWhkxe6DVpOUIwRQUG1hlFbaLqSsAxiK8d9Q=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCgDiUne6C9XkNO5fUzuSWK&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCgDiUne6C9XkNO5fUzuSWK!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMad6d5iPSeuLC3Yolug2wCwr1--1TrSBIDYCV4VQaiRV-QAdTb3JyeA6-Z4DeScj0xYeXyLxTHwf-wgUTpYooasMD4iTpw726I6ZIHLAMF8EJs1nQuMPQOzW35_D_plysOMjqxAwFiJ4MWfJni6eLZMWxIZGuTWtpaplT3fI0k69U-zPSdv8jlLo302iKa4ivj_IuiPCXDa9XK4qesW9zDX_H7YPHva6fKnYzqkJD520molag7TIr0fs_yQjbA5XTPH2mLTceto-srx09-KXlh_gOtwUrza5mZSRbn_DbVx1xYpYPc7flypNOYGGmBPuLiWpROxxrk71mALcQR75VM4BrGDV4EKbjbow492SEsmcAGiM0XkS0EFXKBKaM1j6P-VUG46rbOEcl6WUlzmH74TRVFNv9w",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "ULUSALU COFFEE ROASTERY & RESTO",
+          "uri": "https://maps.google.com/maps/contrib/108316638309990827610",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKhyXePg9QwbVuagsUYZYJFRK3MBghRhxZCF7UzYYoC9nnkcA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDpqc-g4wE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDpqc-g4wE!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMb2eFJKa-pJ6GwTA9kD4GcJmeuvAwSPuY_byivuWbf8IktUSjjWfajeRzgeTCV25IMbU0SxTchHb2Q9MqzWwdJrBSKzwp1K2FsujsrSLqToSqzrmyEngG09mItRImMs2SIEks8h8Yc7M1x5pj7RsQs-zWCo_aUeTWDUa1OdPD8URSR0AVpuj3YQYc5ObLAaVkV7L5ima7cNH4nYE0Nrys_2bTQIrkxqt4ZyDZK6Qdv1IBwQuW7hh-LeXs-j8J8NCxl_CtyedjzGrFy0MmRCsElrkvbSEFUeaZ4mP_vdZAfPt8elpaSPb3qPWEVla3w9l9jQxVhQXPSmyQQrVG3UcrKGp6zqnP28QH9vIUT1otUHFWZ2UGcdUoh8QcBxtv93mbgjyAHT4Emyso1Ww6DsZGCes8PkwbnNwxewfpF9gLry",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Rehulinta Valerina",
+          "uri": "https://maps.google.com/maps/contrib/107615260337181085798",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVSQ17bsDoPgwlqtlGa9meSszEuyNkbhy6VXm0h9ST2EGiAHH4uIQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC6X97fJJ5Nkd5OqERfP9Zo&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC6X97fJJ5Nkd5OqERfP9Zo!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMbS_BrbtGF_KPDk2MfGxTltl6t5RJiPnFELRrFT6e_dp4uc5WjuJTIIrXHCG5VzcFZVZGs8zh3fkLTt_bU3zenhldQcZ2iZVRjni9Ifmr4g1asCan0_FN_YB0uiqLCTD6poyfZ5VYBIupijHe-4wHrh9WsHCcrpfxxCYDS5cgmftlQNVGxfu4OHuTg_EuXRnK0Oh0LIBj5IYwSQU5pKP7KNwq9uXN-VK5WNT02aRCLFWkOfnty2jOwFvJnE9WwnDtSEXU51hZU3ibJCq7x8P4Y2M6b_C-Ny2Qsl30XCQv5SiObkixpZs3aFyHiqhId_G5uWMm6Qq6goc1eaUsqof64ecFtOa5uT9UHqMMWUj1nVqYmrTQt-LTm4CUlXY9FDukwc9FznD8cDRSXwreI__6H7A16Z380",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Ulusalu Coffee",
+          "uri": "https://maps.google.com/maps/contrib/115756429128192758798",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXQW94Hy6xUJTRtNPBc-zvCGf9eiSzZKEJyEVmO1w7iyiOq7Uo=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDx3aOK3AE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDx3aOK3AE!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMbyGxcRAmui8kOY6YYAkdjkwRxrR1QKc9pPHpXqJyV9TpjtiTymweiU3vuG93Bda4R6NHT41-Bsypes4mB3iNP3LNjIr_XeJlSr6mlwJ0A4QRZCqA_5Bp-F6ooR6pnCwxQJPEL9JV71d6nmdzRIvyn4I3EPZQ2lB62z_UmGi5Px2N9rDq9OvomRz-NEqIRcSkuShUJjV1dFlFhGkj2-Zvdk7BIS2mB04CGCGZT_buHtcue89VyvOPeR36XurJ-_HxlBrs7HzOSQRcCjcQyK4AnKENVdIzbRhAvAbsWuJztUmJUuYW0HmRbZNs7HpUpL-B7WwMwdXSDt2ob9lbiV8MiN73_CzFTZcPJcMrbQP3GSj-6jA8zym065U8N_-FihGlLrUYZQl8n3-UyNErW3tGsv7szTXql5XLTOsFcIFDnz",
+      "widthPx": 2268,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Alexandra",
+          "uri": "https://maps.google.com/maps/contrib/116935753187296527615",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVQ0AVAIgh9z2Cuq-GJzy4iPW1q-JPJkYr-m-GAwkKsXVIHF13L=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhANCB1PlL7iuncfl104C74V&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhANCB1PlL7iuncfl104C74V!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    },
+    {
+      "name": "places/ChIJS1vi9VqLaS4RaFDBGn2cK1k/photos/Aa-ngMa8jU2NCZc-yQoHKpykXsy3tIbADzCpXd18n-4FcN2j51j1xmeksz2iOn58inCv3GNkyJqr4UaE5fHZLdCDUfI4O8Z2RlwtCyvjU7y5qRzQeKwMdzMXAGwVXU1sZzOPvG0htDwJGe0OMRWWEfWubotYu8dm98K1DIjmneVhja8_bHuWLX33FWEo4AOM04INojf_HVqxO3fznap5ExP4UrklJq5te_CBMoaCOI7zKsRVfrt4xxFITef-4dwQIBNI2JmMOnec8mvusUc-wNJ0mclmU9JXfGQpVGwvlD7O0Hbu4r9R0ur_VUL8zOk7AyPgb9H6scPrZ77Djc_bQJNRt6lirwUl-10ulK9tSfDiQ7Zm7mgCGqLZdLzbke5uoltELQrz11e5gdF-3P4bPloqPwG81Kw4gDQ",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "ULUSALU COFFEE ROASTERY & RESTO",
+          "uri": "https://maps.google.com/maps/contrib/108316638309990827610",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKhyXePg9QwbVuagsUYZYJFRK3MBghRhxZCF7UzYYoC9nnkcA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID58NiL4QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID58NiL4QE!2e10!4m2!3m1!1s0x2e698b5af5e25b4b:0x592b9c7d1ac15068"
+    }
+  ]
+}

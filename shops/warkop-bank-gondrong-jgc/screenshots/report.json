@@ -1,0 +1,179 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6458,
+    "sizes": [
+      {
+        "el": "h1 \"Warkop Bank Gondrong JGC\"",
+        "fontSize": 52,
+        "lineHeight": "54.6px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#menu-heading \"Ngopi dulu, urusan belakangan.\"",
+        "fontSize": 32,
+        "lineHeight": "35.2037px",
+        "textWidth": 344,
+        "pctOfContentWidth": 98
+      },
+      {
+        "el": "h2#place-heading \"Di bawah pohon mangga\"",
+        "fontSize": 32,
+        "lineHeight": "35.2037px",
+        "textWidth": 256,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h2#day-heading \"Dari subuh sampai tengah malam\"",
+        "fontSize": 32,
+        "lineHeight": "35.2037px",
+        "textWidth": 324,
+        "pctOfContentWidth": 93
+      },
+      {
+        "el": "h2#reviews-heading \"Kata mereka\"",
+        "fontSize": 32,
+        "lineHeight": "35.2037px",
+        "textWidth": 218,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#visit-heading \"Kunjungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2037px",
+        "textWidth": 253,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "h2#contact-heading \"Mampir, ya.\"",
+        "fontSize": 32,
+        "lineHeight": "35.2037px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5156,
+    "sizes": [
+      {
+        "el": "h1 \"Warkop Bank Gondrong JGC\"",
+        "fontSize": 73.6,
+        "lineHeight": "77.2753px",
+        "textWidth": 488,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h2#menu-heading \"Ngopi dulu, urusan belakangan.\"",
+        "fontSize": 40.6,
+        "lineHeight": "44.7089px",
+        "textWidth": 687,
+        "pctOfContentWidth": 97
+      },
+      {
+        "el": "h2#place-heading \"Di bawah pohon mangga\"",
+        "fontSize": 40.6,
+        "lineHeight": "44.7089px",
+        "textWidth": 325,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#day-heading \"Dari subuh sampai tengah malam\"",
+        "fontSize": 40.6,
+        "lineHeight": "44.7089px",
+        "textWidth": 412,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#reviews-heading \"Kata mereka\"",
+        "fontSize": 40.6,
+        "lineHeight": "44.7089px",
+        "textWidth": 277,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#visit-heading \"Kunjungi kami\"",
+        "fontSize": 40.6,
+        "lineHeight": "44.7089px",
+        "textWidth": 322,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#contact-heading \"Mampir, ya.\"",
+        "fontSize": 40.6,
+        "lineHeight": "44.7089px",
+        "textWidth": 262,
+        "pctOfContentWidth": 37
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5215,
+    "sizes": [
+      {
+        "el": "h1 \"Warkop Bank Gondrong JGC\"",
+        "fontSize": 112,
+        "lineHeight": "117.593px",
+        "textWidth": 685,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#menu-heading \"Ngopi dulu, urusan belakangan.\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 564,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#place-heading \"Di bawah pohon mangga\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 448,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#day-heading \"Dari subuh sampai tengah malam\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 567,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#reviews-heading \"Kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 382,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#visit-heading \"Kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 443,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#contact-heading \"Mampir, ya.\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 360,
+        "pctOfContentWidth": 30
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  }
+}

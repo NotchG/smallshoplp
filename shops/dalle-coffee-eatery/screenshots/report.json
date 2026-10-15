@@ -1,0 +1,452 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 5901,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Dalle COFFEE AND EATERY\"",
+        "fontSize": 75.1,
+        "lineHeight": "71.345px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#menu-title \"Menu Dalle\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 158,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Dalle Iced Tea\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 139,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "p \"Rp 25rb\"",
+        "fontSize": 17,
+        "lineHeight": "22.1px",
+        "textWidth": 61,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Dalle Iced Coffee\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 171,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "p \"Rp 28rb\"",
+        "fontSize": 17,
+        "lineHeight": "22.1px",
+        "textWidth": 61,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Es latte cookie crumble\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 154,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Pizza Coklat Keju\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 169,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Dari dapur\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 106,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#kerja-title \"Kerja dengan tenang\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 284,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h3 \"Tenang\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 72,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Nyaman & bersih\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 171,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h3 \"10.00–21.00\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 109,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Makan siang\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 125,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#meeting-title \"Ruang meeting\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"Ruang privat\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 126,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 172,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 192,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 188,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "a \"0851-8337-5752\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 168,
+        "pctOfContentWidth": 48
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 20
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 4807,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Dalle COFFEE AND EATERY\"",
+        "fontSize": 109.1,
+        "lineHeight": "103.664px",
+        "textWidth": 341,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#menu-title \"Menu Dalle\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.776px",
+        "textWidth": 190,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Dalle Iced Tea\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 151,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "p \"Rp 25rb\"",
+        "fontSize": 17.5,
+        "lineHeight": "22.7968px",
+        "textWidth": 62,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Dalle Iced Coffee\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 185,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "p \"Rp 28rb\"",
+        "fontSize": 17.5,
+        "lineHeight": "22.7968px",
+        "textWidth": 62,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Es latte cookie crumble\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 166,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Pizza Coklat Keju\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 183,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Dari dapur\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 115,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#kerja-title \"Kerja dengan tenang\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.776px",
+        "textWidth": 342,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Tenang\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 78,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Nyaman & bersih\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 185,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"10.00–21.00\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 118,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Makan siang\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 135,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#meeting-title \"Ruang meeting\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.776px",
+        "textWidth": 249,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Ruang privat\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 136,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.776px",
+        "textWidth": 207,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.776px",
+        "textWidth": 231,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.776px",
+        "textWidth": 227,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "a \"0851-8337-5752\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.76px",
+        "textWidth": 182,
+        "pctOfContentWidth": 26
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 20
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4932,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Dalle COFFEE AND EATERY\"",
+        "fontSize": 144,
+        "lineHeight": "136.8px",
+        "textWidth": 486,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#menu-title \"Menu Dalle\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 231,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Dalle Iced Tea\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 165,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "p \"Rp 25rb\"",
+        "fontSize": 18,
+        "lineHeight": "23.4px",
+        "textWidth": 64,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Dalle Iced Coffee\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 202,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "p \"Rp 28rb\"",
+        "fontSize": 18,
+        "lineHeight": "23.4px",
+        "textWidth": 64,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Es latte cookie crumble\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 182,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Pizza Coklat Keju\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 200,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Dari dapur\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 126,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#kerja-title \"Kerja dengan tenang\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 416,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Tenang\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 85,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Nyaman & bersih\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 202,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"10.00–21.00\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 129,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Makan siang\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 147,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#meeting-title \"Ruang meeting\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 302,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Ruang privat\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 149,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 252,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 281,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 276,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "a \"0851-8337-5752\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 199,
+        "pctOfContentWidth": 17
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 20
+  }
+}

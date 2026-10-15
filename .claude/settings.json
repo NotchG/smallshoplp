@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./scripts/discover.sh:*)",
+      "Bash(./scripts/fetch-details.sh:*)",
+      "Bash(./scripts/add-candidates.sh:*)",
+      "Bash(./scripts/set-status.sh:*)",
+      "Bash(jq:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp -r templates/site-starter:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npx jsrepo:*)",
+      "WebFetch(domain:reactbits.dev)",
+      "WebFetch(domain:gsap.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(npm run shots:*)",
+      "Bash(npx playwright install:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Bash(cat .env)"
+    ]
+  }
+}

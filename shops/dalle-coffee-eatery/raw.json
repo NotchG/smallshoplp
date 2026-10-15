@@ -1,0 +1,374 @@
+{
+  "id": "ChIJtefUZ_gDai4RVNiPQzcT87k",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0851-8337-5752",
+  "internationalPhoneNumber": "+62 851-8337-5752",
+  "formattedAddress": "Ruko The Savoy, Jakarta garden city No.12 Blk c1, RW.7, Cakung Tim., Kec. Cakung, Jakarta, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+  "rating": 4.8,
+  "googleMapsUri": "https://maps.google.com/?cid=13399074444434987092&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 21,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 10:00 AM – 9:00 PM",
+      "Tuesday: 10:00 AM – 9:00 PM",
+      "Wednesday: 10:00 AM – 9:00 PM",
+      "Thursday: 10:00 AM – 9:00 PM",
+      "Friday: 10:00 AM – 9:00 PM",
+      "Saturday: 10:00 AM – 9:00 PM",
+      "Sunday: 10:00 AM – 9:00 PM"
+    ],
+    "nextOpenTime": "2026-10-15T03:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 59,
+  "displayName": {
+    "text": "Dalle Coffee and Eatery",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/reviews/ChZDSUhNMG9nS0VJQ0FnTURvOVp6OVFnEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 4,
+      "text": {
+        "text": "Cafe nya nyaman dan bersih.\nNext time will back to try the coffee",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Cafe nya nyaman dan bersih.\nNext time will back to try the coffee",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Christi Novalia",
+        "uri": "https://www.google.com/maps/contrib/110662058008715313503/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJkf2YWmcYguTDNm-Nu_FImWepdA5yzDxDtHGy1OZRtjDA1XA=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-04-27T10:07:31.262220Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTURvOVp6OVFnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTURvOVp6OVFnEAE!2m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/reviews/ChZDSUhNMG9nS0VJQ0FnSURmdHZ2eFlnEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "good",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "good",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "irfan hakim",
+        "uri": "https://www.google.com/maps/contrib/109428653427472047427/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWKpsCoWkxsM7nGBkMx1dZ9ZTvCetKHvs5J7gTzi1Fj7Twd-1lKcw=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-01-06T11:39:22.657863Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURmdHZ2eFlnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURmdHZ2eFlnEAE!2m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/reviews/Ci9DQUlRQUNvZENodHljRjlvT25OWmVsZGZkbXhMUkVGQk5qaGhWVFUyYkhCc1FsRRAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 3,
+      "text": {
+        "text": "I ordered Dalle iced tea, it had nata de coco and chia seeds. But unfortunately they didn't give me a big straw, they only gave me a small spoon. So it was a bit difficult. This Dalle iced tea has a slight pandan flavor. I want to try Dalle iced coffee next time.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Td pesen dalle ice tea, ada nata de coco n chia seed.. tp sayang ga di ksh sedotan besar cuma di ksh sendok kecil. Jdnya aga sulit ya. Es teh dalle ini berasa pandan dikit. Next mw cb dalle ice coffee deh.",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "dheybhie eats n travels book",
+        "uri": "https://www.google.com/maps/contrib/113421679918297880082/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXoMApq2QpbYFAT7FGXKA6nl353RgqNSKKHpjMqT715Otg4MpE=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2026-04-14T12:42:58.583540717Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25OWmVsZGZkbXhMUkVGQk5qaGhWVFUyYkhCc1FsRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25OWmVsZGZkbXhMUkVGQk5qaGhWVFUyYkhCc1FsRRAB!2m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xkalowNUtSVEZJZHkxRFpXZGliSFJNYjBwa00wRRAB",
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 5,
+      "text": {
+        "text": "The coffee is delicious.\nThe pizza is okay.\nThe service is good.\nThe other menu items are interesting.\n\nThere's a private room for meetings.\n\nThe only shame is that there aren't any straws.\nCafes should still provide straws.\nStraws are cheap but crucial.\n\nIf you really want to go green, don't use plastic for your beverage packaging.\nThe important thing is that there are straws.\n\nThank you",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Kopi2an enak.\nPizza nya oke,\nService baik.\nMenu lain menarik2.\n\nAda private room bisa untuk meeting\n__\nCuma sayang nya 1 ga ada sedotan,\nHarusnya cafe tetap menyediakan sedotan.\nSedotan itu benda murah tp crusial.\n\nKalau emang mau go green kemasan minuman jgn plastik ganti beling,\nYg penting ada sedotan.\n\nTengkiu",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Budi P",
+        "uri": "https://www.google.com/maps/contrib/117123254812011662503/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVv-ofh_NqsJjEywX7fqpuAjKwDESBPOZ6HIwLQEN3_1ZAfNpM=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-12-28T06:52:01.095772509Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xkalowNUtSVEZJZHkxRFpXZGliSFJNYjBwa00wRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xkalowNUtSVEZJZHkxRFpXZGliSFJNYjBwa00wRRAB!2m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xKNFNGY3RUelo2U1dOcWREbE5kakpXVkUxWE5uYxAB",
+      "relativePublishTimeDescription": "5 months ago",
+      "rating": 5,
+      "text": {
+        "text": "The food is all delicious.\nService is a bit slow.\nBut it's worth it because the food is delicious.\n\nThe atmosphere is also calm, perfect for hanging out while working.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Makanan enak semua.\nService agak lama.\nTapi terbayarkan karna rasanya enak.\n\nAtmosphere jg tenang, cocok untuk nongkrong di sini sambil kerja.",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Christorodjito",
+        "uri": "https://www.google.com/maps/contrib/104067133165254614570/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVgNBWDeNvnUit5KKrEhtg4d8jVHUW2yoJBhbIo0zFxvC7DPv4=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2026-05-13T11:16:44.625058176Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xKNFNGY3RUelo2U1dOcWREbE5kakpXVkUxWE5uYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xKNFNGY3RUelo2U1dOcWREbE5kakpXVkUxWE5uYxAB!2m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMZAWl2HGqW4dzWSEswN_033K7kH9n3rK1LbJkAhtlZZLvp8p2b6g-IuNnKP3MoeFncgqx9h7ntBECk7VPHNJLhf74gumK72uP5aAErphUEGEI6b4nAmfGI6cBJsGUqY8SiFbh6DCj4ZHVTqdWeY2rOY2AESbl2x9TAQsB3wNw4cSbhgNwEO32PBVnzXqx7iyfZ_h_xlDRctmzb1yaS9oc1RBue0LOaWTlcaNPkBg4hH4GZUiqsZCdBIoHSUSMBhWs2Zn8WTgtX3Kc1LywT21eojnjlrDROOs6e7nWTKx7A0RT0UFMuDuwbzRDzSTLPD1yNBnjzlaLRlvMewEx6OjfUsNRT5CCDXu1YN_TG1g8WkjPB9pKP_J1y3ImV_OUl--FUjqih0T35ib0mRUrqE959JGA05wMs",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Dalle Coffee and Eatery",
+          "uri": "https://maps.google.com/maps/contrib/115349178399303025420",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWOhgZBO6JEpB03pvTKg28B64AlIz_BvN0lFsnVXusWGgS8eec=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICHnJyxlQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICHnJyxlQE!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMYFkdnnQdtjNUc3LloieYuG08QBW_Vc_GO3ebj2YF5leklQ32OuvSR98vdy2ziv-JS06rmwv8LRNZdNZajdbfPyxAv8Dvjw-v7ApgMAvY1dJfoocPtSpFO2wMhoh_gmpiXgNVucL7Bnk_DFDh3395GH4ysuiFNaLG-j1_wmo4jLH46LY0mbcHSiMFsdPpnWF7cxhbRxw4gfjV22Q35FJnNUBcDw7Htv2EK4wFuxeicvoKeF8TPmrOEWF4TLE-j1lHMyJ5fErlpsXWRwiJ4LTACIzQcv82cUOjpSEJobDlHePkTIcWgdOfwSwZbo8EDmhqPtifRMMmcXuzaL4WoqEL1gUo8M3tSAvGMPbV9qgN3PVHR4mHR0XBbG_MjcG-cTCgnzElNgRpGsZn4swCoBFUiR7Cs",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Najwa Syahfitri",
+          "uri": "https://maps.google.com/maps/contrib/102782999424613627365",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJ7miNDKeN_GVSKpiAXMFA32exTxU5MSJOPLNJZwGsh0k4RKg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC_x7baXw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC_x7baXw!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMbBXExpZfWIB1kqMZwKO60GQS-OweGFRTCn-btil7vQNNbKxjrFB7Wa9La1htKUtdX9447POl8d6QwR1NRF3DREzFswTIvK7cVRC6NY7hUimoBdWt2UiShMfQIGgE5aUEbhV_EJ37SlIgFOaYIDdeuORRkaSjxUobWFPDXpmhwqODOA3XbyX2WbwLzF3RGiYhVzY0El3Zwa1-15WCfqM23qb7cmODoTlKY2EyGM8B8dXRjWlmHgxDFaXGFy9y-TbZAbNK8FvOj4dz47LDbMjMMHKZIzwLIdXduxrpU4e5AvgJI-_803G9YJ1NTmKfsiFqvSFXvF4rWw1g0OTEiusZWCRIsMy5IhnlEIOGfC2zURv9hW6FBY-eienWW_fxmMx7HXIVBYiYGRn5T1_8oqUSFvo7-YC2Qoz5pNnmVQXpM4Lw",
+      "widthPx": 1080,
+      "heightPx": 1440,
+      "authorAttributions": [
+        {
+          "displayName": "Nensi Juniyanti",
+          "uri": "https://maps.google.com/maps/contrib/116752343585180659384",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJSI5ld81fzunl6btOsJgue67PLWatJF3l2MWFzFfSu4sOyNA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBOwEDdGm1i_FNRyhBHBbb-&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBOwEDdGm1i_FNRyhBHBbb-!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMYUX-FywDuCd_rt6imtaslW7BjAIzNcgRqn0JI8zTOXtm4bkGNpGRlGb6GC6bMr8h9xirKkqMFP782smZSJSuss_XDU6-r1cOGXZruIKWT3ex8Rdue3bEYJlZYXMX7B-sES9rZYY4bb4T3onAwKYeJQf_5yGN3nRABhFZgvoPuWdUIzr2dfE1TClqZdn6FZ_m_fzWZJN5-vL_p9mjIDzIc4ChdWoehQssIc2IfT_eeb1nYsK9E7rpbpXgR4GcdE5gL5hDGlB709C2irDGcKbRM0bZu1-LjW8dROnJkKRNrm30VL6Rv1nVQWyEZBjM4ywPeskqkYpiyV7gCMYr5X50ueNObPvHs-hEseav2BBq0yKPGkANnCQXdGR5c9T0BLWW0rpWLg9_pw2zzb21HaBEq2hQAVpaPAbtLIjPQKha5Q",
+      "widthPx": 2268,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Nadia Rahmah",
+          "uri": "https://maps.google.com/maps/contrib/118189114199779679229",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVmZ58dy5a7vxmMWzdCTyU_NUHUyy9wDLMdy9XylJlZIiatAPmqVA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhApV_NhklZgfQREcnlVnU15&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhApV_NhklZgfQREcnlVnU15!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMYGk2u4luG3E8OOrYvKb6rUo9CHiJSbr3fcZnVsbmEuJZ8jLo0-ph5YJzvPNBBUmlzkF4eS1bfzzcSr1_vF3xp7CpyAgcROgujiI5zzJytXzTrNw_fsl4304zDaoVxIxKSxpkFIs025FHmZ7anW4cVSlSWgeHgOeV4QTTT17PMk6LqFEfgwk0dkOI59mPVMy5VYubLp8ArG0l39Q36q9H-c7DlFGglKGwMoHOZkJ1Yl4s_loyeP1vV5-73ll9VmuZGvOfqLQcYZDiJYKFqhxKsxyP6l-Md9EL4kAFZZG5VJNurQq42YED_guovb9ukzCURX1vG6OTK4aU0ayw6uFJ9An9IWYUDYT7jlcT_4DPE_Ko16C88b2xASxjwDTs8sfWt6M8eN1WdgHL56aTJyZYuVldFFSmGaDMHcqQ9k-qiC",
+      "widthPx": 1080,
+      "heightPx": 1440,
+      "authorAttributions": [
+        {
+          "displayName": "Christorodjito",
+          "uri": "https://maps.google.com/maps/contrib/104067133165254614570",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVgNBWDeNvnUit5KKrEhtg4d8jVHUW2yoJBhbIo0zFxvC7DPv4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAJMg3zvW0Y_3_QAsEX4sC8&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAJMg3zvW0Y_3_QAsEX4sC8!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMameDd2l0VWkiqaeYkbxRAFCz7FjxxFAnN7TfOF1HZUNn1nGqWfn3yqdwg-C8Ql726vmHXUxEQJPt_qlG8T0RTMdkYk5N7RXdgE5n6SHXB-s-rDKLzDeaaT04p1oOJQFohB0bOz0OS35ECw0ZINW7PNa2RhTpUVrbULo4Y9iWT7yqklQjRnGZA5UI9cVdE9dQzenRxUfo-syAPVG4jy01uNzNwV5FzABgWRWr2kDsViMvv_BudJYhUd4C6VOrYiy16wtGyuk4yD1YpE5AmitI3WzU-j_qeau9E-I_1qUDrEFNLyxlSOgM8Oedo5wkHURKsetb4l23vQXFXCtkxRyL4aMUXvWALNfZSKxiR8jeYeo-lpcAhB7mCgIQFxPc4Fhtfqo6p5kQUrZAhHt34O3KhHqspaG3zXF-kM2v2QPwEI",
+      "widthPx": 4160,
+      "heightPx": 2340,
+      "authorAttributions": [
+        {
+          "displayName": "Gatot H. Susatyo",
+          "uri": "https://maps.google.com/maps/contrib/100060377891315733894",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU6hXrLDMr48zEICHGJvOHnvFc88Y8vh_Mna2RhSIoHc6aFGBoG0A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDTz6OPXwd12uI05NSWzAN3&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDTz6OPXwd12uI05NSWzAN3!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMZAL2MEBOTEfxX463YqawtBLpFYdKnrdR3ZuO29NzKm6NPavIv7LNF1g65sabFjDWJz0ucIN9R4gnwYUHXFnqjZCCeazMaT6VOsSBXie37-l-6SJoKxa3jAzLzay2osNGKIZhukQkdy9cf3G94MHVsazDcUnw1R9DZArTihbQ_93SvaAelxd7zqzZA1oj__pW0eCHRT5kPcwYyBb45dYrJvSrRHZiOCuEQA-26Om_wBQ4DUJ5tUrHzYqady2aBRD4xJe2U2tP8BKYXwox6ltsQXv6YGkTtKh4nii7BzpadQ1VNApddDcUOcHUlHIT8KJpbXXBzcVEQDpFguc0eMrJV12rTmcIoU_XufwS3TrvtL4qajXS_41rY7y8aAcdJvtXGw0bzgdKt_ZNbxU2K8ypKQL044",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Andi Tasya",
+          "uri": "https://maps.google.com/maps/contrib/108565327829968335758",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVIXvVQ9tS7w4aPp5b_A18JMD0uDNN127i07JkwJDSehX8HAbkg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICHk7OovgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICHk7OovgE!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMZh2F7dpDdexCQXH9kMerLzjPCgdqqoWeqYGBk5wpOKCM1xK9R3ZWbH64ZXw5DYsvQTA-F-wmTPjLs99sVobxsKLxFctNdqdjiblOkc8oIfs_AtBjggIhdq3Jpnlwjn-tY7IAS-TLF9us_OvYJoSyOH4EjZh1S-WtVvYnNVPQTICvj0VAkZTqcFEXPd3bjqL2kGSC79epcSnUlDnXJ9VvX6FAKdNdn6N7kYzqfFXxQIjvswqUaaYZlIlcwQAXo8WLAmEGg7KkgbQQVsFzs-cVmf1P0wk6kxYqzeqbLvR0eCIEC6KU5hn3njW_xE2JyBeqS4KDGoGD1e9mFEyeUFs8yazo3qCs_Bv4DQf5Y_67wFJu9fYB3QGrbwDzbLzQxS88opDp3txyUS9mXM4JfxG29iVDoNN_M",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Andi Tasya",
+          "uri": "https://maps.google.com/maps/contrib/108565327829968335758",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVIXvVQ9tS7w4aPp5b_A18JMD0uDNN127i07JkwJDSehX8HAbkg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICHk7O8kAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICHk7O8kAE!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMaGtkC8_fyRpjkt2pdrqPbbbY-2brg6ydAsdqXxVKjXDcFOHxczihnW0r5q2amdwY0feqqaQxVpjasKuTEch_5sBytmpDHLGur44FEF4iFHp-xIxH-COIpVME7Tfqn8mmRmert9aM7beiOmuV9LyEQpX1u4587eCsI3c4off6qdQTG7QNI9ukw2XdB6QBPslEFrqhS0IpMCJacZtGP33_BKFsHdAXwlMvjsRAEULjEau70quIfDY8usvXlN-prd79eqtqdVKihlgRCUEHZbwEFhSfAS3C4ONXDnCcrS7lZcQwTXOU4eT3RX8hmW_xqW2uTOCetmeafM1humPNnUVlY-_GLzbuQVLXc8B0Kn6-I9lMVbLsAXPgtaEv8HB79V7tqJs9xSDHta0NYGRkK2a4i90w0",
+      "widthPx": 4800,
+      "heightPx": 3600,
+      "authorAttributions": [
+        {
+          "displayName": "Christi Novalia",
+          "uri": "https://maps.google.com/maps/contrib/110662058008715313503",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJkf2YWmcYguTDNm-Nu_FImWepdA5yzDxDtHGy1OZRtjDA1XA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMDo9Zz9Ug&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDo9Zz9Ug!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    },
+    {
+      "name": "places/ChIJtefUZ_gDai4RVNiPQzcT87k/photos/Aa-ngMb7OwfKRL26OIgKW4dbBu0scGgi9oiWf-v_40veONt5VWRRJKSvXQ8emZ4BUjj07n4fMBPbHMIla_Bgdv0ybhaGYrLTZExoke0h2QWER4gJm3cXj01o4P33aDqTzL1vzyS0fq18KlnmiJSwIPcC8uk2xNomeR86E8PdClTfArt-xWmwzBRcwO06d1MT0uFjalyY7am1bNx0sl1A0215CI9YZ-3oyiCvWhSYT__UWBU8ysVg0VRelV55l5_gfU6ADxgIvq7A771AbuKhWspiGGn9ER5-MotSPsPzRq6YnmuFSqeBH6TF4NDQj4Bfv1rzMxV-ZvhjPRR-4Js31pYq9FahIzZirJK8AWC-yYtbm-JOg7Hos0-mfL_fXU08GkCbbOv7fz8qbB6c31KtPxgXs3HiL_SHlXl0TNiGxJt9PPetYg",
+      "widthPx": 4160,
+      "heightPx": 2340,
+      "authorAttributions": [
+        {
+          "displayName": "Gatot H. Susatyo",
+          "uri": "https://maps.google.com/maps/contrib/100060377891315733894",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU6hXrLDMr48zEICHGJvOHnvFc88Y8vh_Mna2RhSIoHc6aFGBoG0A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBCK_3_zLk7qNTopaA99Q56&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBCK_3_zLk7qNTopaA99Q56!2e10!4m2!3m1!1s0x2e6a03f867d4e7b5:0xb9f31337438fd854"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+# smallshoplp
+
+Landing pages for small local shops, built from their Google Maps listings.
+The `/shop-landing` skill runs the pipeline. Per shop, the `shop-planner` subagent writes the
+PRD, TRD, design brief and implementation plan, then the `shop-builder` subagent builds a
+Next.js mockup site from them.
+
+## Pipeline and statuses
+
+Every shop lives in `data/shops.json` with a `status`. Only act on shops in the
+status your step expects, and move them forward when you finish.
+
+```
+candidate ──► approved ──► brief_ready ──► brief_approved ──► planned ──► built ──► owner_approved
+    │                          │   ▲
+    ▼                          ▼   │
+ rejected                  brief_rework
+```
+
+- `candidate`, `approved`, `rejected`: set by discovery (candidate) and by the human in the approval app.
+- `brief_ready`: set by Claude after writing `shops/<slug>/brief.md`.
+- `brief_rework`: set by the human, with a note in `brief_note`. Claude revises the brief and sets `brief_ready` again.
+- `brief_approved`: set by the human. `[MOCKUP]` lines may remain; they go on the mockup site.
+- `planned`: set by Claude after the four docs exist in `shops/<slug>/docs/`.
+- `built`: set by Claude after the site builds and passes its screenshot review
+  (`site/out/index.html` and `screenshots/report.json` exist).
+- `owner_approved`: set by the human after the shop owner signs off.
+
+Never set `approved`, `rejected`, `brief_approved` or `owner_approved` yourself. Those are human decisions.
+
+## Hard rules
+
+1. **Sites are mockups for pitching the owner, so filling gaps is fine, but tag it.**
+   Facts from `raw.json` (description, reviews, type, hours) carry their source. Anything you
+   inferred or made up to make the page feel complete (products, menu items, example prices,
+   personality, section copy) is a `[MOCKUP]` line in the brief, and gets listed in the shop's
+   `owner-checklist.md` so the owner can confirm or correct it.
+   **Never invent, even as `[MOCKUP]`:** testimonials or reviews, ratings, awards, certifications,
+   years in business, staff or owner names. Those only come from the listing.
+2. **Stay in your folder.** When working on a shop, only read and write inside `shops/<slug>/`,
+   plus status updates through `scripts/set-status.sh`.
+3. **Edit `data/shops.json` only through the scripts** (`add-candidates.sh`, `set-status.sh`).
+   Never hand-edit it. The approval app reads it too, and a broken file breaks the app.
+4. **Never read or print the API key.** Scripts load `GOOGLE_PLACES_KEY` from `.env` themselves.
+5. **Photos:** `photos/photos.json` says who uploaded each one.
+   - `owner-*.jpg` were uploaded to Google by the business itself. They may appear on the mockup.
+   - `photo-*.jpg` are customer uploads: reference only, for reading the shop's look and feel.
+     Never on the site.
+6. **Reviews are paraphrased, never quoted verbatim on a site,** and never attributed to a named reviewer.
+7. Sites are mockups until `owner_approved`. Every mockup shows a small banner saying it's a draft
+   and has `noindex`. Do not deploy anything.
+8. **Plan before building.** No site is built without its four docs. The stack is fixed by
+   `templates/site-starter/`; motion follows `.claude/skills/shop-landing/templates/motion-rules.md`.
+9. **Templates are required.** If `.claude/skills/shop-landing/templates/` or any file in it is
+   missing, stop and say so. Never improvise around it.
+10. **Every site is reviewed in screenshots before it counts as built** (`npm run shots`).
+11. **impeccable is the only design skill.** It decides visual direction and guides motion,
+    within this project's templates and motion rules. Ignore any other design skill.
+
+## Layout
+
+```
+.claude/skills/shop-landing/   pipeline skill + templates/ (doc templates, motion rules)
+.claude/skills/impeccable/      the design skill
+.claude/agents/shop-planner.md one-shop planner subagent (writes docs/)
+.claude/agents/shop-builder.md one-shop builder subagent (writes site/)
+templates/site-starter/        Next.js + Tailwind + GSAP + Lenis starter every site copies
+scripts/                       Places API + shops.json helpers (need curl and jq)
+data/shops.json                source of truth for every shop
+data/searches/                 raw discovery results
+approve-app/                   Next.js app where the human approves candidates and briefs
+shops/<slug>/                  raw.json, photos/, brief.md, docs/, site/, screenshots/, owner-checklist.md
+```

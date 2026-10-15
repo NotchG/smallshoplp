@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* Design tokens. Replace every value with the ones in docs/design-brief.md.
+   Colours and fonts become Tailwind utilities (bg-paper, text-ink, font-display...). */
+@theme {
+  --color-paper: #ffffff;
+  --color-ink: #111111;
+  --color-muted: #666666;
+  --color-accent: #333333;
+  --font-display: ui-serif, Georgia, serif;
+  --font-body: ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;          /* max content width */
+  --gutter: 16px;               /* page margin on phone */
+  --section-y: 64px;            /* section padding on phone */
+
+  --step-display: clamp(3rem, 10vw, 8rem);
+  --step-head: clamp(2rem, 1.4rem + 2.6vw, 3.5rem);
+  --step-lead: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --step-body: clamp(1rem, 0.97rem + 0.15vw, 1.125rem);
+  --step-small: 0.875rem;
+
+  --leading-display: 0.95;      /* single-line display only */
+  --leading-head: 1.1;          /* never below 1.05 for anything that can wrap */
+  --leading-body: 1.55;
+}
+@media (min-width: 768px) {
+  :root { --gutter: 24px; --section-y: 112px; }
+}
+
+html { background: var(--color-paper); color: var(--color-ink); }
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.35; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.4; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px; text-align: center; padding: 8px 16px;
+  background: var(--color-ink); color: var(--color-paper);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

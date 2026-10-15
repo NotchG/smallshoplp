@@ -1,0 +1,443 @@
+{
+  "query": "cafes in Jakarta Garden City, Cakung Timur, Jakarta Timur",
+  "includedType": "cafe",
+  "fetched_at": "2026-10-14T13:04:46Z",
+  "count": 25,
+  "places": [
+    {
+      "id": "ChIJS1vi9VqLaS4RaFDBGn2cK1k",
+      "formattedAddress": "Jl. Jkt Garden City Boulevard Unit A1, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=6425401354507866216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 91,
+      "displayName": {
+        "text": "ULUSALU coffee and roastery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJj7x9wQGLaS4Rai6OpBSAXQ8",
+      "formattedAddress": "Jakarta Garden city, ruko the Boulevard no 30, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=1107181909551492714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/haveatreat_/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 183,
+      "displayName": {
+        "text": "Have A Treat",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ8eYMJtiLaS4RpOiKeaXUJGc",
+      "formattedAddress": "Jl. Menteng Timur No.9-10 Blok F4, RT.01/RW.07, Ujung Menteng, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13960, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=7432299092242000036&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2441,
+      "displayName": {
+        "text": "KOMUKA | Cafe & Eatery | Kafe Cakung | Metland Menteng | JGC | ASYA | Harapan Indah | Pulo Gebang",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJDXB1iNyLaS4RlPtTZxBhtfk",
+      "formattedAddress": "Ruko New East, Jl. Jkt Garden City Boulevard No.23, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=17993394609309612948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://instagram.com/alternotecoffee",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 45,
+      "displayName": {
+        "text": "ALTERNOTE Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJbVbSLwCLaS4RUJwfviY1mKQ",
+      "formattedAddress": "Jalan Jakarta Garden City Blok B2, 11, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=11860288059194973264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1467,
+      "displayName": {
+        "text": "Publika Eat and Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJtefUZ_gDai4RVNiPQzcT87k",
+      "formattedAddress": "Ruko The Savoy, Jakarta garden city No.12 Blk c1, RW.7, Cakung Tim., Kec. Cakung, Jakarta, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=13399074444434987092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 59,
+      "displayName": {
+        "text": "Dalle Coffee and Eatery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ60dHYcSLaS4RdeOGs1elQyA",
+      "formattedAddress": "Ruko New East, Jl. Jkt Garden City Boulevard No 16, RT.7/RW.9, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=2324883628746007413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1313,
+      "displayName": {
+        "text": "Lim Kok Tong Kopitiam Jakarta Garden City",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "restaurant"
+    },
+    {
+      "id": "ChIJp7wM6dmLaS4RUixdISvxVLk",
+      "formattedAddress": "Ruko Maison De Wisteria 2 No.11, RT.1/RW.8, Ujung Menteng, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13960, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=13354563962606005330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 233,
+      "displayName": {
+        "text": "Kawan Kopi, Cakung",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJYSwS6ZmLaS4Ri68E9ykJS-k",
+      "formattedAddress": "Ruko Cleon Park, Jl. Jkt Garden City Boulevard Unit 23, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=16810540109933096843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 33,
+      "displayName": {
+        "text": "Foresthree Coffee JGC",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ64BTIiuLaS4RyamBPUhs6QI",
+      "formattedAddress": "Ruko New East, Jl. Jkt Garden City Boulevard no 60, RT.11/RW.8, Cakung Tim., Kec. Cakung, Jakarta, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=209817915174791625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 35,
+      "displayName": {
+        "text": "2Sons Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJL3N_ZwCLaS4Rg8x8Gtit1PM",
+      "formattedAddress": "Food Garden, RT.11, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=17569859189948075139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 328,
+      "displayName": {
+        "text": "Pabbo Unifirst - Coffee & Social Space",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJz18ytHOLaS4Ro8iTKWWkolI",
+      "formattedAddress": "Jalan Pulo Jawa Blok C6 No.20 Pulogebang Permai Cakung RT.4/RW.9 Pulo Gebang, RT.4/RW.9, Pulo Gebang, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13950, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=5954502411733420195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://dinskopiinspiringstory.shop/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1125,
+      "displayName": {
+        "text": "Din's Kopi - Inspiring Story",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee roastery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_roastery"
+    },
+    {
+      "id": "ChIJ40HBfQCLaS4RJtJI75vnU38",
+      "formattedAddress": "Ruko Cleon Park, Jl. Jkt Garden City Boulevard No.37, RW.9, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=9174931522804306470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 28,
+      "displayName": {
+        "text": "Happy Kopi",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJga2yy0eLaS4RW5jU6f4o3qo",
+      "formattedAddress": "RXG3+GHC, Jl. Jkt Garden City Boulevard, RT.8/RW.9, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=12312323506587342939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/kopi.panti?igsh=enlwbmNkdmJyOGdj",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 30,
+      "displayName": {
+        "text": "Kopi Panti",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJT18ciimLaS4RK-hAsKLqlOM",
+      "formattedAddress": "Ruko Boulevard, Jl. Jkt Garden City Boulevard No.11, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=16398990127625463851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://pointcoffee.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 97,
+      "displayName": {
+        "text": "POINT COFFEE",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJfaMufCzzaS4RCqRbvcY1T_M",
+      "formattedAddress": "Jl. Jkt Garden City Boulevard No.1, RT.8/RW.6, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=17532291002073326602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://gofood.link/u/xxMLL",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1647,
+      "displayName": {
+        "text": "Roti Pisang Bakar Ghifari",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Indonesian Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "indonesian_restaurant"
+    },
+    {
+      "id": "ChIJmaz_LTDtaS4Rf89F9trsZVg",
+      "formattedAddress": "Jl. Abdulrahman No.46, RT.14/RW.5, Cibubur, Kec. Ciracas, Jakarta, Daerah Khusus Ibukota Jakarta 13720, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=6369757673164230527&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://terasrumahnenek.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 7059,
+      "displayName": {
+        "text": "Teras Rumah Nenek",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJAQBAhy3xaS4RHypWabHiivo",
+      "formattedAddress": "Jl. Jakarta Garden City, Food Garden, Jl. Cakung Timur unit C no 6, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.1,
+      "googleMapsUri": "https://maps.google.com/?cid=18053491307872397855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 126,
+      "displayName": {
+        "text": "Kedai Tok Tong",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ909Q8COLaS4RhHwwt6-CsQ4",
+      "formattedAddress": "Jl. Sedayu City, Kec., Jl. Sedayu Boulevard Raya, RT.1/RW.9, Cakung Bar., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=1058771078613073028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1318,
+      "displayName": {
+        "text": "TERAS DAPUR JUM",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Indonesian Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "indonesian_restaurant"
+    },
+    {
+      "id": "ChIJM9PRLcqLaS4Rdrsq0VHft7o",
+      "formattedAddress": "Ruko The Savoy, Jl. Jkt Garden City Boulevard C2 16A, RW.7, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=13454467954287229814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 33,
+      "displayName": {
+        "text": "Family Kopitiam - Ruko The Savoy JGC",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Breakfast Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "breakfast_restaurant"
+    },
+    {
+      "id": "ChIJLfuAkV-LaS4RGgqq8GzbGi8",
+      "formattedAddress": "Ruko cleon Park, Jl. Orchid Jl. Jkt Garden City Boulevard No.8 unit 7, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=3394266530117716506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://sudobrew.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 454,
+      "displayName": {
+        "text": "Sudo Brew JGC",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJdVzP_ZWLaS4R5AOzZe4RV7w",
+      "formattedAddress": "Jl. Dr. Sumarno, RT.5/RW.4, Penggilingan, Kec. Cakung, Jakarta, Daerah Khusus Ibukota Jakarta 13940, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=13571335717710398436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 331,
+      "displayName": {
+        "text": "Kakaku Coffee Roasters - Dr. Sumarno | Coffee Shop | Penggilingan | Cakung | Pulo Gebang | Pondok Kopi | Walkot Jakarta Timur",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJQXT1Ct2LaS4RBb7oxc0tZXU",
+      "formattedAddress": "Perumahan Jakarta Garden City, Jln Jl. Srikaya, RT.007/04/RW.No 25, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=8459217836897254917&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 90,
+      "displayName": {
+        "text": "Warkop Bank Gondrong JGC",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJGVSN3fnzaS4R3w9qNDpIbjs",
+      "formattedAddress": "Hotel Rasuna Icon Lt. 3A, Jalan Karet Pedurenan No.3, Setiabudi, Jl. Karet Pedurenan No.3, RT.6/RW.7, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=4282439710500589535&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.skygardencafe.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 489,
+      "displayName": {
+        "text": "Sky Garden Cafe",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJJbGaLQCLaS4Rj8U5mk5e0Zk",
+      "formattedAddress": "RX92+4MQ, Jl. Jkt Garden City Boulevard, RT.7/RW.9, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 1,
+      "googleMapsUri": "https://maps.google.com/?cid=11083743849623438735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/greencoffee.space?igsh=NHpxY2tzM3FtYjkw",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Green Coffee Space",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    }
+  ]
+}

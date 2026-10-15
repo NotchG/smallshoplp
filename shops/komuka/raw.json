@@ -1,0 +1,363 @@
+{
+  "id": "ChIJ8eYMJtiLaS4RpOiKeaXUJGc",
+  "types": [
+    "cafe",
+    "asian_fusion_restaurant",
+    "fusion_restaurant",
+    "asian_restaurant",
+    "family_restaurant",
+    "coffee_shop",
+    "indonesian_restaurant",
+    "food_store",
+    "place_of_worship",
+    "store",
+    "restaurant",
+    "food",
+    "event_venue",
+    "point_of_interest",
+    "association_or_organization",
+    "service",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0811-9117-845",
+  "internationalPhoneNumber": "+62 811-9117-845",
+  "formattedAddress": "Jl. Menteng Timur No.9-10 Blok F4, RT.01/RW.07, Ujung Menteng, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13960, Indonesia",
+  "rating": 4.9,
+  "googleMapsUri": "https://maps.google.com/?cid=7432299092242000036&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 11:00 AM – 10:00 PM",
+      "Thursday: 11:00 AM – 10:00 PM",
+      "Friday: 11:00 AM – 10:00 PM",
+      "Saturday: 11:00 AM – 10:00 PM",
+      "Sunday: 9:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-15T04:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 2441,
+  "displayName": {
+    "text": "KOMUKA | Cafe & Eatery | Kafe Cakung | Metland Menteng | JGC | ASYA | Harapan Indah | Pulo Gebang",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/reviews/Ci9DQUlRQUNvZENodHljRjlvT2paMVp6a3RSVXBzZW5OV1VtMU9lazVaYjBwd1MwRRAB",
+      "relativePublishTimeDescription": "4 months ago",
+      "rating": 4,
+      "text": {
+        "text": "They're easy to find, located on the hook.\n\nThey offer more than just coffee, they have tea, and even full-course meal.\n\nThey do have a nice atmosphere that I can't put into word. You'll have to try it yourself. If you need a space to yourself, this one might be your place. You can work or even enjoy reading a book here.\n\nThey just updated their menu last month, i provide some of them here.\n\nRecommended, and might come back again in the near future.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "They're easy to find, located on the hook.\n\nThey offer more than just coffee, they have tea, and even full-course meal.\n\nThey do have a nice atmosphere that I can't put into word. You'll have to try it yourself. If you need a space to yourself, this one might be your place. You can work or even enjoy reading a book here.\n\nThey just updated their menu last month, i provide some of them here.\n\nRecommended, and might come back again in the near future.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "jim",
+        "uri": "https://www.google.com/maps/contrib/101821506909413029927/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWCdDmCB96tHSHNwPmb2IiPkC1NQBWSmG0IXzeVJ_IzGRdDp-A=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2026-05-26T10:35:23.532073322Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2paMVp6a3RSVXBzZW5OV1VtMU9lazVaYjBwd1MwRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2paMVp6a3RSVXBzZW5OV1VtMU9lazVaYjBwd1MwRRAB!2m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/reviews/Ci9DQUlRQUNvZENodHljRjlvT21OTldXZHdaM2RMZEdNd2NpMWxPR05uY0RKWWJYYxAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 4,
+      "text": {
+        "text": "First time coming here, ordered hojicha latte and their signature toast. I would say so-so. Never tried other menu so cant really judge. But pretty instagrammable place, with many seating options.\nBetter come here with many people like family and friends (solo seating options arent as many)\nService was great. They were clear and communicative.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "First time coming here, ordered hojicha latte and their signature toast. I would say so-so. Never tried other menu so cant really judge. But pretty instagrammable place, with many seating options.\nBetter come here with many people like family and friends (solo seating options arent as many)\nService was great. They were clear and communicative.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Diana Mustika",
+        "uri": "https://www.google.com/maps/contrib/103399543724782308425/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJ5_SvsFoFlO8w11T-TlS32OI3qxvfsoIsQ68FMtW4VRyE1KaQ=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-06-26T18:19:57.600068148Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21OTldXZHdaM2RMZEdNd2NpMWxPR05uY0RKWWJYYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21OTldXZHdaM2RMZEdNd2NpMWxPR05uY0RKWWJYYxAB!2m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tGd2F6WlZUalZoVDNGV1ZrNVJhbm81ZG5wNGMzYxAB",
+      "relativePublishTimeDescription": "11 months ago",
+      "rating": 5,
+      "text": {
+        "text": "I love with this place, It feels warm, cozy and really comforting, all staff really friendly and helpful amd they can help you to choosw what you gonna have when you confuse what to eat or drink. So i choose their signature toast was such a fun surprise. It’s unique and when I paired it with the caramel coffee.. blends so perfectly...\nNot that only,I also tried the Spaghetti Bolognese Brûlée and it was satisfied me, it's meaty, creamy and super satisfying. I had it with the Soul Sister drink, and they matched so well!\nOverall, I had a really good experience here. Good food, good vibes, good drinks. I would love to comeback again!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I love with this place, It feels warm, cozy and really comforting, all staff really friendly and helpful amd they can help you to choosw what you gonna have when you confuse what to eat or drink. So i choose their signature toast was such a fun surprise. It’s unique and when I paired it with the caramel coffee.. blends so perfectly...\nNot that only,I also tried the Spaghetti Bolognese Brûlée and it was satisfied me, it's meaty, creamy and super satisfying. I had it with the Soul Sister drink, and they matched so well!\nOverall, I had a really good experience here. Good food, good vibes, good drinks. I would love to comeback again!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Elfi Supriyanti",
+        "uri": "https://www.google.com/maps/contrib/108285810942184166845/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVukDPIjVzENs6Zme8NGXzZfMbSsiI0BQot1Vl1Qi7XQ5lvaws=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-11-15T14:25:43.676403874Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tGd2F6WlZUalZoVDNGV1ZrNVJhbm81ZG5wNGMzYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tGd2F6WlZUalZoVDNGV1ZrNVJhbm81ZG5wNGMzYxAB!2m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pORE9FbHJPWFY0WmpCSlFsWlBWbEpwYUcxU1NIYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "If it's your first time coming to Komuka then you have to try:\n\n1. Komuka chips\n2. Lumpiaaa\n3. Kwetiau goreng\n4. Sop buntuuutt\n5. Dirty chai\n6. V60 with whatever beans they offered\n7. Pudding manggaa\n\nthen you have to comeback to try the other dishes and drinks because everything is sooo so good!!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "If it's your first time coming to Komuka then you have to try:\n\n1. Komuka chips\n2. Lumpiaaa\n3. Kwetiau goreng\n4. Sop buntuuutt\n5. Dirty chai\n6. V60 with whatever beans they offered\n7. Pudding manggaa\n\nthen you have to comeback to try the other dishes and drinks because everything is sooo so good!!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "adra world",
+        "uri": "https://www.google.com/maps/contrib/103644825617605115721/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXhfE2kXyzz3Y2JjO_pyHRF2Oge-qxzZxQnQNWWxxzVbrnC5SDT=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-06-24T14:21:49.397952828Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pORE9FbHJPWFY0WmpCSlFsWlBWbEpwYUcxU1NIYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pORE9FbHJPWFY0WmpCSlFsWlBWbEpwYUcxU1NIYxAB!2m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/reviews/Ci9DQUlRQUNvZENodHljRjlvT25CSGNFMUZOSFZuZFRCdU1GaEJTR0pHYUZObmExRRAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Recommend coffee & eatery spot in Cakung area! Vip room also available",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Recommend coffee & eatery spot in Cakung area! Vip room also available",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Arnold H Taihuttu",
+        "uri": "https://www.google.com/maps/contrib/114312939708291001327/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUUexi-PiHLefKjcl6_ghNIjuOdvB0CyuF9p5JfxAqhzHnDhwGC=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2026-06-28T09:50:03.432405542Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25CSGNFMUZOSFZuZFRCdU1GaEJTR0pHYUZObmExRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25CSGNFMUZOSFZuZFRCdU1GaEJTR0pHYUZObmExRRAB!2m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMYRBZSCmerWuUXKvBKZhZivhRP-jsgZb0HTIRd2dkip50ienWJcA2oIy9pCZXeY4vWFJV5x_uXbHg4cYtPq335Z-ArZ0q-x8wvYhFcde5yaj1_RrH7D59w4ssOXkW_pHp9Te_xb21N35cmobgMtYqTtjGCeV4yKhoQ3ZPdzM7KDwtRTTZ0ztIUg0pu2PCZ2vG6D3-gB8jw859-1eG96FBhvdOlVqAG_InI-ICy-LWOU-1eBzvXlH-Xu_E-CQmltyrH2jewmplBK-nInlsL1o4PyF4dfqM6KoDJMzcvRHDXzgLVTo0P0U7HCh9ZkNnz-DFFXXHvOkpvzFB5YraSeHTk1N_OirZIK78gnB85TSK5pFey6XgyLkKAdsxo_LU6f7bWEWcBKsFXdN68TR_y3ZpOWXkM",
+      "widthPx": 4160,
+      "heightPx": 3120,
+      "authorAttributions": [
+        {
+          "displayName": "KOMUKA | Cafe & Eatery | Kafe Cakung | Metland Menteng | JGC | ASYA | Harapan Indah | Pulo Gebang",
+          "uri": "https://maps.google.com/maps/contrib/104885757069077586071",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVjPYJAfHJqGmYkbb8R2wW0-1ISIGLWnit0D5DKHXTzvBPxaAI=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICLpI6CMQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICLpI6CMQ!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMaRvxdwgkmWvd_uzCvcwUrcm2KDWODqchmHLEMwUK9XuMayBAvYHtDlK9N048cL32cFi1VENq06Kow-3CN9jkv_NlwdLBe3Q1ijzLLoNNOdk2UtKF90PC-D4tAeymphqgnAavwRBMnw1otApgbv3uAg94FaoaeJm3ZLYUCNwRf9FjgpQzU-XBfqVX50-yZ2ECtvrTsgSMjs4rugxwq3H5E1-5pnyOB3fujWLvJHxs0aH3mY1x2FjRrAvhEEOmsolNCoB_MidlDuDc8bMSUa4ChcgcBdtl5m8-D5dh8QjhuM_QW-KzZMsGAtbh_O7tH6LEsGnjH-RQcsBRDJzsp4hjlLe2vKCWn122uPXNL98LXs7DH7u13wTORV6nX2ODjmnhCMCRw8z-MAePYOe8PRkTaQPAI",
+      "widthPx": 1280,
+      "heightPx": 961,
+      "authorAttributions": [
+        {
+          "displayName": "KOMUKA | Cafe & Eatery | Kafe Cakung | Metland Menteng | JGC | ASYA | Harapan Indah | Pulo Gebang",
+          "uri": "https://maps.google.com/maps/contrib/104885757069077586071",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVjPYJAfHJqGmYkbb8R2wW0-1ISIGLWnit0D5DKHXTzvBPxaAI=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID2wLGMXQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID2wLGMXQ!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMZRwkgQa2zmjj5Mflidn-zMGUbYPRjC0mBC0KDGqVSlvHPQLFCvzZXqraglQ4VYL18wbL6ngVuy_Md4CYam4aEfBBNw1BVuIHaea0LcyEQ5md57Ctx3U09hYGdzfXBAHfR1lEkjthlzsBJc2TKuGEblvBdCoTXuUK8F0WFN41ekX--KnIgzPPIXRZDvupUMzWW8bIgWitE-5xF9SxjIGqqDSrd9zCRJTDTTlQsceOlghM42sWd2xAhxogIWum9RA6n_LROVpOLH2XhnQHxkHrXCFa_x7fMnPz6ev_P6VZsc_hCliIGAsSDZwAcmKGH1LA-rg5wjTTC_pXwkM1ruOjuR2gd9imISCOplzhARGC_P7F3IDuB7gBjzEJ1JGye_p_xl-c7oLshqX83pv4RrAAXL1Ues_6RFemFfVQHF9KeN6g",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Puteri Sarah Ramdani",
+          "uri": "https://maps.google.com/maps/contrib/117255043810999211360",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW4iuin5fdLGx6iUQi9gkRNmF5zw-s5ame2Uxvn6yPOCmzEtkoG=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBx5d4rWGeuYB3CMhaXC9js&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBx5d4rWGeuYB3CMhaXC9js!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMZsQZi9VlQHgom0kbM736okDMMhyRdZ9m2BP705a7axqoYvOCirJQezi1D3V-Z0hYNmNpwix9AxpjzJjkfJ6lrpFj6U4UtZQpLITAcsyJj-X8fe30DmzjwfjxSGuiWZlJ8mmJltWKcrbMXc1CKW_ux8flwIsP2BIweu_QZLmk3G0HgRrzjdxQdW6VnvBbSpISB605dAlMkC1WcpIZfRE9ZzgUYRaz0CmNCI9BxPyrFueN8hLSe7ir9WzpxyTqT9yOAKXbDwyV8sEUZO-BrARiDP-fAWwl2H6ZuO88R5QklK4uJ6ZLY0TN46Qd2kPH9kj6t_AExpD4VGN1AhkonYt9iCKv4UZb3bExjG0fLVWUnvHPK0cZNogWI4ccjKqKemJHR5h9J4i2azXD33Hf9qJBt8pA",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "KOMUKA | Cafe & Eatery | Kafe Cakung | Metland Menteng | JGC | ASYA | Harapan Indah | Pulo Gebang",
+          "uri": "https://maps.google.com/maps/contrib/104885757069077586071",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVjPYJAfHJqGmYkbb8R2wW0-1ISIGLWnit0D5DKHXTzvBPxaAI=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMCAp9zNCg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCAp9zNCg!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMapm0V5DqZGjuKyVAWpcsVcfgvc0nAQ4D514qKci0nys47klDz5WSrVi6CUv-SnFjK__Uu1cUJka_ZHLTxgwNaQac2CypCZa1ybydl41IjeXNGg15cJPZxFpbL6uncnNsNFl1d7GpKuWp4xhdMlNnjDufqUftORSlmerijet0pnqhbV5d3AHk1qCZODvS804_n51zH36tGfw2p1QlfmwqMiuxz6QchG0KQ96wpX8GTr7i1N2eeyb7N0HCmz5heA2SYhmENmpLjzTlINkhsmDML5zSnyk5MgZDllaskfQSxM2U4lVf2kh7m-t0luRLbVt58X4pIgfNco3ABQ8pffPMi35M7bVd-6-IaI-CgmLTw6sr5rkfvousxSpcqb0MxL9CV3DAv1jOfMkFvBcIQ5024bb2o34o4ATW0GUBTxcco0EQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Sarah Dian Nurmala",
+          "uri": "https://maps.google.com/maps/contrib/116220933673914512033",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJOw4AHOZencKHsbI0Vlmj3hltJv4l-xmKkhICKPVhhk1co-CYw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB2kmBPgqQuxc2IUYQcF5Jf&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB2kmBPgqQuxc2IUYQcF5Jf!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMZpSNLm4uhT9f0BNBg8PpwFZf2BujYSgHcVxpC6D1gKItRNCA9CpCQyWPcXUeKFG8wmFyQZ-5MJ96YyhrWor86sjJZgf6q9WbPidOdlQnpUG1mWpSXOpVD85q-6bzTvuoIU1Q7035IAUPLFd3xfNhDL5pnyI0GuugzI6N0O0buyyp06S5-RIudh6VUoVVxvii1Zb5asBqJ9JgmycViTdE7nka919JyuYVfL6MRQ5nqyJoLRf8gVFdVfXUavgIctrWyKOQ4miqRsZga0vZMn6UA46bkAyKE97nznj4PdK4oMtupWtmZhrhV86rBdyFNgOtF4TVfdnKeM4u9ONxOXGBescsZ1A_1A1eQvsd1nFT8ZijAcNpB2OJEXGdTn1YUn6L9VZ5K-NX9UW7FreB9Koa0EsqmL86q6QcVUHgOuZvtZMA",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Kristian Nugroho",
+          "uri": "https://maps.google.com/maps/contrib/101329749985793182174",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW9qcjrhBCio2yJPRgI6BY3HYHmdsig_YCi_-34O0iwex_rrhxc=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCUS768wPf3YNV0r1OJSANE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCUS768wPf3YNV0r1OJSANE!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMav4HDz-ymEXpruok3VyvzcDUg0i-KUSdRv4hEN6XqeqZKFAD_BQDyh9TWzrW8DR8YUhI-a9jmtXcMr-lDhzHSSCDAH1lqHj5AmYWTk6925yFy-GI2V3lgaThWfYfJ2lMUJJkfFvwy-iJHmbRQ9I451_WGxjCvulzJ6TxLwbOoacqcXFwll_upV86Scjp6K9RiSXMwBjF9fNwcVKMTsgdVNeirfMJFFIMhQG9QZOLKUIXHZ4qUlld10mfmfrF-7OqzWru_q2A075yG5gDAD1bCkLIzCgfenfUXIhR5HZ0nI3a36k_q7Zv9dwPChMyCvmySh__PNUcaM_uv9q67D7nwlMy1pOURJ4MAxjPeXk5n5vnScE9nKFSAnBxrG5MJtfEzpO6-MVduZv08ffTDOdoRAK3u8kCFddQozvUS-eCeD",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "Leonard",
+          "uri": "https://maps.google.com/maps/contrib/117770805447994024075",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV-bMColUbiPwddZqtn0B5kIMbVmqmlxNDr8VdczSNLPa10OeBe=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC5oOvRDgwePaVA7lRAlciC&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC5oOvRDgwePaVA7lRAlciC!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMa3wqnZlWDGL2KRuntAQolD7gJT49tN_b8cJmg1HA91w33_1STc8UxUsra9Razg7cxhrvn7Har88PWOzLcVmQKcFckBhWv6QXKn0KGtkOb5SUxqKrRUoxxIudmneRJ_LfDQueYFAH_ij2eSPnTL67GpoB9lBaK1Z2T_HrFTJ9xPgqk8F9XVAT1ERi305GT4nQQupQALrMLsdfXDs7oCdWd7KcJiZuIhcPFBvNW42phedmKFHQHCeAObtHW1TzF4cdQOvUGDvca-_RSHtHET5lQ1eIR1GUMcZ6jmk8LMaVFLfa8ggsgwf3wcA6br8zdVwijUjj09GWueKGnlz32FeXy6S1Ey5TBjUaUsJAWWzuMWjAOGT58Sq36Fb_1Wbq1UibRUPPLqXOcyFFX-tYAzvTfOLcWMUP6s_mvG1JPdyhapFg",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "Leonard",
+          "uri": "https://maps.google.com/maps/contrib/117770805447994024075",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV-bMColUbiPwddZqtn0B5kIMbVmqmlxNDr8VdczSNLPa10OeBe=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAToE0uUdilHb0GZ1WXcKyg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAToE0uUdilHb0GZ1WXcKyg!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMasfKAZYirLaVYg4IGR1C65H1XhigAgQQAC1zh8haDKDJCJaXs8sJMEtvJwS9rVgxbqsY3Vt0QfKhCBeUJtzZ7Zli_Z6MHz-_DDS2LCLDsY1kWIWjz4gZthbx65auRtjJtMLZ-isSVGvgcuF0wEz4dEEytkoc21bYm08hS_9YFsfqB22hhbwYT3T7poB6LWU5f9C3eEfTWHMZReobsjkLCkExs1BtuhKNeTt_UHUY0VFBG4UwF4uguM6_VnPlUZYN33gjysE6c1-qV8eZZoGcAM1RuKdYQJf_GjMMCXn8gR6rAFCuQZu5SUkN9a6EbUGO_Y1SpBmhBlxmLPzM3U6exvmEOyIVs6n_3DuSkXU1SjAPKyYg9tjB1bRiEwG2ShyLUKFfRxO9Ox0Q4Dgr0tgE4FhsqlbokcRNmxQw4LmB2voA",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Natasya Novita",
+          "uri": "https://maps.google.com/maps/contrib/101867704030688422607",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVbJAJ-xf-JrALBQ888L9F4UFNYHsMEFFn_sZ5PHHSx1Hn8TAra=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDUWqEW2dDiYKcJFMZriKEt&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDUWqEW2dDiYKcJFMZriKEt!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    },
+    {
+      "name": "places/ChIJ8eYMJtiLaS4RpOiKeaXUJGc/photos/Aa-ngMZAju19WAk0R_OXQJBPgZT_DRTon1Chj0ERIeOz3K3fcIMVeJGZV0d2CfT72YCmVhzjyB7sa2u7HXGwfDHq7Q_XcUqlv8v8g-xK_P_OfiO14BkmaV02WB-hZ2DWGI8xb-9H33GW1K4F0UkClZ2Kksqdgh3DpJ_cXlI-trW6v4OQa5TMBukO4lVHmsi005HZURZECIuwFUBytP-ZJiUoqdxrKJpyKkn6oWabbpIcFGELKTloW3jD90Rx9WoRg7xBEIzESOmyXeD2ynG0OUBuWGcM850jZCoLwEWldve_-AkocevAr7OA7olkQuClAkWqGlcFp0umPJ33t9AWwkuw0XnGLUfsdQci0BXUTUzMZ6RLxc5Ec8CFB1BQlM1JqIViQOnJxiLkz52L8_JIz7xehVUw6lpadts--my8YXhuonkdMw",
+      "widthPx": 4800,
+      "heightPx": 2701,
+      "authorAttributions": [
+        {
+          "displayName": "jim",
+          "uri": "https://maps.google.com/maps/contrib/101821506909413029927",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWCdDmCB96tHSHNwPmb2IiPkC1NQBWSmG0IXzeVJ_IzGRdDp-A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCfaBACvXEEsy1dR-a7o82S&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCfaBACvXEEsy1dR-a7o82S!2e10!4m2!3m1!1s0x2e698bd8260ce6f1:0x6724d4a5798ae8a4"
+    }
+  ]
+}

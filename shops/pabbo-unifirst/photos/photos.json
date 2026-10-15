@@ -1,0 +1,20 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "Evi Amri",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Annisa Ulhu",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Bunga Dien Islami",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

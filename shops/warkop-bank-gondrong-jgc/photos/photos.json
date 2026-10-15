@@ -1,0 +1,44 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Warkop Bank Gondrong JGC",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "Warkop Bank Gondrong JGC",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-3.jpg",
+    "author": "Warkop Bank Gondrong JGC",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-4.jpg",
+    "author": "Warkop Bank Gondrong JGC",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Achmad Sawqi",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "D'gunraz CHANNEL",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "D'gunraz CHANNEL",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

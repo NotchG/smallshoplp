@@ -1,0 +1,374 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Colours and fonts become Tailwind utilities (bg-ubin, text-lampu, font-display...). */
+@theme {
+  --color-ubin: #3b4943;      /* tile: hero counter front, Kopi kami, Kunjungi kami */
+  --color-nat: #566660;       /* grout: 1px lines on ubin only, never text */
+  --color-lampu: #fbf4e8;     /* light: panels, text on dark, cards, Kerja + Kata */
+  --color-kayu: #a65220;      /* wood: hero wall, Teman ngopi, Hubungi kami */
+  --color-matahari: #f2b45a;  /* sun: primary buttons, focus on dark, "hari ini" */
+  --color-tinta: #1c2420;     /* ink: text on lampu, ceiling, counter edge, footer */
+
+  --font-display: var(--font-sofia-condensed), "Arial Narrow", sans-serif;
+  --font-body: var(--font-sofia), ui-sans-serif, system-ui, sans-serif;
+
+  --breakpoint-xl: 75rem;     /* 1200px: 4-up grids */
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --grid-gap: 16px;
+
+  --step-display: clamp(4.25rem, 2.9rem + 6.2vw, 9.5rem);   /* 71 / 94 / 136 */
+  --step-head: clamp(2.375rem, 1.7rem + 2.8vw, 4.25rem);     /* 38 / 49 / 68 */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem);     /* 22 / 25 / 28 */
+  --step-body: clamp(1.0625rem, 1.02rem + 0.18vw, 1.1875rem); /* 17 / 17.7 / 19 */
+  --step-small: 0.84375rem;                                  /* 13.5 */
+
+  --leading-display: 0.95;
+  --leading-head: 1.05;
+  --leading-body: 1.55;
+
+  --radius: 3px;
+  --focus: var(--color-matahari);
+
+  /* Signature bands */
+  --ceiling-h: 76px;
+  --tile-w: 30px;
+  --tile-h: 66px;
+
+  /* Drawn drinks: 1 SVG unit = --art-scale px, so glasses keep their real proportions */
+  --art-scale: 0.85;
+  --hero-art-scale: 1;
+}
+@media (min-width: 768px) {
+  :root {
+    --gutter: 32px;
+    --section-y: 96px;
+    --grid-gap: 24px;
+    --ceiling-h: 120px;
+    --tile-w: 44px;
+    --tile-h: 96px;
+    --art-scale: 1.2;
+    --hero-art-scale: 1.3;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --gutter: 40px;
+    --section-y: 120px;
+    --ceiling-h: 152px;
+    --hero-art-scale: 1.75;
+  }
+}
+
+html {
+  background: var(--color-tinta);
+  color: var(--color-tinta);
+  scrollbar-color: var(--color-nat) var(--color-tinta);
+}
+body {
+  background: var(--color-lampu);
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-matahari); color: var(--color-tinta); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--grid-gap);
+}
+
+.t-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+.t-head {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  letter-spacing: -0.005em;
+  text-wrap: balance;
+}
+.t-lead  { font-size: var(--step-lead);  line-height: 1.3; }
+.t-name  {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--step-lead);
+  line-height: 1.1;
+}
+.t-body  { font-size: var(--step-body);  line-height: var(--leading-body); }
+.t-small {
+  font-size: var(--step-small);
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.measure-lead { max-width: 34ch; }
+.measure-body { max-width: 60ch; }
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Grounds. Each sets its own focus colour: matahari on dark, tinta on light. */
+.ground-ubin  { background-color: var(--color-ubin);  color: var(--color-lampu); --focus: var(--color-matahari); }
+.ground-kayu  { background-color: var(--color-kayu);  color: var(--color-lampu); --focus: var(--color-matahari); }
+.ground-tinta { background-color: var(--color-tinta); color: var(--color-lampu); --focus: var(--color-matahari); }
+.ground-lampu { background-color: var(--color-lampu); color: var(--color-tinta); --focus: var(--color-tinta); }
+
+/* Stack-bond tile from the bar front: 1px nat grout on ubin, aligned (not offset). */
+.tile-ground {
+  background-color: var(--color-ubin);
+  background-image:
+    linear-gradient(to right, var(--color-nat) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-nat) 1px, transparent 1px);
+  background-size: var(--tile-w) var(--tile-h);
+  color: var(--color-lampu);
+  --focus: var(--color-matahari);
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: var(--radius);
+}
+
+/* ---------- Hero: ceiling band (signature) ---------- */
+.ceiling {
+  position: relative;
+  height: var(--ceiling-h);
+  overflow: hidden;
+  background: var(--color-tinta);
+}
+.ceiling-row {
+  position: absolute;
+  left: -40px;
+  right: -40px;
+  top: 50%;
+  height: 52%;
+  display: flex;
+  gap: 8px;
+  transform: translateY(-50%) rotate(-2deg);
+}
+.ceiling-panel {
+  flex: 1 1 0;
+  border-radius: 2px;
+  background: var(--color-lampu);
+  box-shadow: 0 0 48px rgb(251 244 232 / 0.35);
+}
+.ceiling-panel:nth-child(n + 4) { display: none; }
+@media (min-width: 768px) {
+  .ceiling-row { gap: 12px; }
+  .ceiling-panel:nth-child(n + 4) { display: block; }
+}
+
+/* First-paint rule: dim until the timeline runs. A head script adds .js before paint.
+   The 2.5s fail-safe lands after the 1.0s timeline has finished. */
+.js .ceiling-panel {
+  opacity: 0.12;
+  animation: lights-on 0s 2.5s forwards;
+}
+@keyframes lights-on { to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .js .ceiling-panel { opacity: 1; animation: none; }
+}
+
+/* Counter edge: the black lip the drinks stand on */
+.counter-edge { height: 10px; background: var(--color-tinta); }
+
+/* ---------- Drawn glasses ---------- */
+.art-svg { display: block; flex: none; overflow: visible; }
+.glass-fill { fill: #e3eae5; fill-opacity: 0.7; }
+.glass-edge { fill: none; stroke: var(--glass-edge, rgb(59 73 67 / 0.55)); stroke-width: 2; stroke-linejoin: round; }
+.glass-ripple { fill: none; stroke: var(--glass-edge, rgb(59 73 67 / 0.55)); stroke-opacity: 0.45; stroke-width: 1.25; }
+.on-dark { --glass-edge: rgb(251 244 232 / 0.8); }
+
+/* Layer keys: HTML text joined to the layer by a 16px tick, ≤24px from the glass */
+.layer-key {
+  position: absolute;
+  left: calc(100% + 2px);
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: max-content;
+  max-width: var(--key-w, 140px);
+}
+.layer-key::before {
+  content: "";
+  flex: none;
+  width: 16px;
+  height: 1.5px;
+  background: currentColor;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding-inline: 24px;
+  border-radius: var(--radius);
+  font-size: var(--step-body);
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: transform 150ms ease-out, background-color 150ms ease-out;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: scale(0.98); transition-duration: 100ms; }
+.btn-primary { background: var(--color-matahari); color: var(--color-tinta); }
+.btn-primary:hover { background: #f5c173; }
+.btn-ghost { box-shadow: inset 0 0 0 1.5px currentColor; color: inherit; }
+.btn-ghost:hover { background: rgb(251 244 232 / 0.08); }
+@media (prefers-reduced-motion: reduce) {
+  .btn:hover, .btn:active { transform: none; }
+}
+
+/* ---------- Hours bars: lit spans on a tile track (06.00–24.00) ---------- */
+.hours-track {
+  position: relative;
+  height: 52px;
+  border-radius: var(--radius);
+  background-color: var(--color-ubin);
+  background-image: linear-gradient(to right, var(--color-nat) 1px, transparent 1px);
+  background-size: calc(100% / 18) 100%;
+}
+.hours-lit {
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  border-radius: 2px;
+  background: var(--color-lampu);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10px;
+  color: var(--color-tinta);
+}
+@media (min-width: 768px) {
+  .hours-track { height: 60px; }
+  .hours-lit { padding-inline: 14px; }
+}
+
+/* Tile bullet: 6×12 ubin tile */
+.tile-bullet {
+  flex: none;
+  width: 6px;
+  height: 12px;
+  border-radius: 1px;
+  background: var(--color-ubin);
+  margin-top: 0.42em;
+}
+
+/* Map */
+.map-frame {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--color-nat);
+}
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.map-frame:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; }
+/* Shown only until the map loads (or if it never does): a drawn pin, no text on nat. */
+.map-pin { position: absolute; left: 50%; top: 50%; width: 36px; transform: translate(-50%, -100%); }
+@media (min-width: 768px) { .map-frame { aspect-ratio: 4 / 3; } }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+  padding: 8px 16px;
+  background: var(--color-tinta);
+  color: var(--color-lampu);
+  border-bottom: 1px solid rgb(251 244 232 / 0.14);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* ---------- Hero drinks on the counter edge ---------- */
+.hero-drinks { --s: var(--hero-art-scale); }
+
+/* ---------- Drink cards ---------- */
+.drink-card {
+  --s: var(--art-scale);
+  border-radius: var(--radius);
+  padding: 20px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.drink-card-art { flex: none; width: 104px; display: flex; justify-content: center; padding-top: 4px; }
+.drink-card-art .layer-key { display: none; }
+.drink-card-text { flex: 1 1 auto; min-width: 0; }
+@media (min-width: 768px) {
+  .drink-card { flex-direction: column; padding: 24px; gap: 24px; }
+  .drink-card-art {
+    width: auto;
+    height: calc(150px * var(--s));
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-top: 0;
+  }
+  .drink-card-art .layer-key { display: flex; }
+  .drink-card-keys { display: none; }
+}
+
+.price {
+  font-size: var(--step-body);
+  font-weight: 600;
+  line-height: 1.3;
+  font-variant-numeric: tabular-nums;
+}
+
+.today-tag {
+  background: var(--color-matahari);
+  color: var(--color-tinta);
+  padding: 1px 8px;
+  border-radius: var(--radius);
+}
+
+.hours-scale { position: relative; height: 1.4em; }
+.hours-scale span { position: absolute; top: 0; transform: translateX(-50%); }
+.hours-scale span:first-child { transform: none; }
+.hours-scale span:last-child { transform: translateX(-100%); }
+
+.plate-art { width: 100%; height: auto; }
+
+/* "Cakung · Jakarta Timur" inside the h1: body face, normal tracking */
+.hero-area {
+  font-family: var(--font-body);
+  font-weight: 500;
+  letter-spacing: 0;
+  white-space: normal;
+}

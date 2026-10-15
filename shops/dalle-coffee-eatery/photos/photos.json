@@ -1,0 +1,26 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Dalle Coffee and Eatery",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Najwa Syahfitri",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Nensi Juniyanti",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Nadia Rahmah",
+    "owner": false,
+    "usable_on_site": false
+  }
+]
