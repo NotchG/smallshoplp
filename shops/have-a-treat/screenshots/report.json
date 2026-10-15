@@ -1,0 +1,410 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6956,
+    "sizes": [
+      {
+        "el": "h1 \"have a treat\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 159,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#manis-h \"Yang manis-manis\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 238,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h3 \"Tiramisu\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 90,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Cheesecake lemon\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 192,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"French toast\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 132,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Kue hari ini\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 114,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#sarapan-h \"Sarapan & makan\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 232,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"Omelette breakfast\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"Chicken wings\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 145,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#minuman-h \"Kopi & minuman\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 211,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Cappuccino\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 120,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Matcha latte\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 132,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"HP Potion\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 102,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#sudut-h \"Sudut favorit\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 175,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3 \"Cocok buat\"",
+        "fontSize": 23,
+        "lineHeight": "29.9044px",
+        "textWidth": 117,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 166,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 181,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 177,
+        "pctOfContentWidth": 51
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 10
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5066,
+    "sizes": [
+      {
+        "el": "h1 \"have a treat\"",
+        "fontSize": 70.4,
+        "lineHeight": "73.9166px",
+        "textWidth": 200,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#manis-h \"Yang manis-manis\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 278,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Tiramisu\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 94,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Cheesecake lemon\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 129,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"French toast\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 75,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Kue hari ini\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 120,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#sarapan-h \"Sarapan & makan\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 271,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Omelette breakfast\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 210,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Chicken wings\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 152,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#minuman-h \"Kopi & minuman\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 141,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Cappuccino\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 126,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Matcha latte\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 81,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"HP Potion\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 106,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#sudut-h \"Sudut favorit\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 204,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Cocok buat\"",
+        "fontSize": 24.1,
+        "lineHeight": "31.3098px",
+        "textWidth": 123,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 194,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 211,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 207,
+        "pctOfContentWidth": 29
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 10
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5368,
+    "sizes": [
+      {
+        "el": "h1 \"have a treat\"",
+        "fontSize": 96,
+        "lineHeight": "100.8px",
+        "textWidth": 273,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#manis-h \"Yang manis-manis\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 349,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Tiramisu\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 101,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Cheesecake lemon\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 139,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"French toast\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 149,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Kue hari ini\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 129,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#sarapan-h \"Sarapan & makan\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 340,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Omelette breakfast\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 226,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Chicken wings\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 164,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#minuman-h \"Kopi & minuman\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 310,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Cappuccino\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 136,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Matcha latte\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 149,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"HP Potion\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 115,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#sudut-h \"Sudut favorit\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 257,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Cocok buat\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 133,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 243,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 265,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 260,
+        "pctOfContentWidth": 22
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 10
+  }
+}

@@ -24,8 +24,8 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false }, // mockup: keep out of search until the owner approves
 };
 
-// Runs before first paint: the hero tables start scattered only when motion is allowed.
-// With reduced motion or no JS there is no data-motion, so the tables are already joined.
+// Runs before first paint. The closing tables start scattered only when motion is allowed;
+// with reduced motion or no JS there is no data-motion, so they are already joined and lit.
 const motionFlag = `try{if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.dataset.motion='on'}}catch(e){}`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

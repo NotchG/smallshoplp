@@ -1,0 +1,12 @@
+{
+  "_help": "Copy to data/coolify.json. UUIDs: see README (Coolify URLs or the API).",
+  "project_uuid": "the smallshoplp project",
+  "environment_name": "mockups",
+  "server_uuid": "Servers → localhost (or your server)",
+  "github_app_uuid": "Sources → your GitHub App",
+  "git_repository": "your-github-user/smallshoplp",
+  "git_branch": "main",
+  "domain_pattern": "{slug}-mockup.achmedfidel.com",
+  "domain_scheme": "http",
+  "preview_scheme": "https"
+}

@@ -1,0 +1,871 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Colours and fonts become Tailwind utilities (bg-plaster, text-felt, font-display...). */
+@theme {
+  --color-plaster: #f5ede0;
+  --color-sand: #eadcc6;
+  --color-teak: #8a4f26;
+  --color-felt: #211c18;
+  --color-amber: #f2ae4b;
+  --color-lilac: #bba5da;
+
+  /* Illustration-only tints (never for text) */
+  --color-cocoa: #5a3a26;
+  --color-sponge: #b98252;
+  --color-cream: #f7e6c4;
+  --color-toast: #d9963f;
+  --color-matcha: #8da65a;
+  --color-peach: #f2a07b;
+  --color-cupwhite: #fbf7f0;
+
+  --font-display: var(--font-fredoka), ui-rounded, system-ui, sans-serif;
+  --font-body: var(--font-fredoka), ui-rounded, system-ui, sans-serif;
+  --font-script: var(--font-sacramento), cursive;
+}
+
+/* Layout and type scale (design brief §4–5). Sizes live here as variables, never as
+   Tailwind arbitrary values with spaces. All clamps run 390 → 1440. */
+:root {
+  --container: 75rem; /* 1200px */
+  --gutter: clamp(1.25rem, 0.786rem + 1.905vw, 2.5rem); /* 20 → 40px */
+  --section-y: clamp(4rem, 2.886rem + 4.571vw, 7rem); /* 64 → 112px */
+  --hero-top: clamp(1.5rem, 0.943rem + 2.286vw, 3rem); /* 24 → 48px */
+
+  --step-display: clamp(3.5rem, 2.571rem + 3.81vw, 6rem); /* 56 → 96px */
+  --step-head: clamp(1.875rem, 1.55rem + 1.333vw, 2.75rem); /* 30 → 44px */
+  --step-lead: clamp(1.4375rem, 1.368rem + 0.286vw, 1.625rem); /* 23 → 26px */
+  --step-body: 1.125rem; /* 18px */
+  --step-small: 0.875rem; /* 14px */
+
+  --leading-display: 1.05;
+  --leading-head: 1.1;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+  --leading-small: 1.45;
+
+  --shelf: 8px; /* teak shelf at the bottom of a niche */
+  --frame: 10px; /* teak frame of niches and letterboards */
+}
+
+html {
+  background: var(--color-plaster);
+  color: var(--color-felt);
+  scrollbar-color: var(--color-teak) var(--color-plaster);
+  caret-color: var(--color-teak);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection {
+  background: var(--color-lilac);
+  color: var(--color-felt);
+}
+
+/* Focus: teak ring on light grounds, amber on teak and felt. */
+:focus-visible {
+  outline: 3px solid var(--color-teak);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+.on-dark :focus-visible {
+  outline-color: var(--color-amber);
+}
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section {
+  padding-block: var(--section-y);
+}
+
+/* Type helpers */
+.t-display {
+  font-family: var(--font-display);
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+}
+.t-head {
+  font-family: var(--font-display);
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.t-lead {
+  font-size: var(--step-lead);
+  line-height: var(--leading-lead);
+  font-weight: 500;
+  text-wrap: pretty;
+}
+.t-body {
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  text-wrap: pretty;
+}
+.t-small {
+  font-size: var(--step-small);
+  line-height: var(--leading-small);
+  font-weight: 500;
+}
+.t-script {
+  font-family: var(--font-script);
+  font-size: var(--step-head);
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--color-teak);
+}
+.t-board {
+  font-family: var(--font-display);
+  font-size: var(--step-lead);
+  font-stretch: 75%;
+  font-variation-settings: "wdth" 75;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.measure {
+  max-width: 60ch;
+}
+
+/* Buttons: pills, 48px tall, colour shift + 1px lift. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding-inline: 1.125rem;
+  border-radius: 999px;
+  font-size: var(--step-body);
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color 180ms ease-out,
+    color 180ms ease-out,
+    border-color 180ms ease-out,
+    transform 180ms ease-out;
+}
+@media (min-width: 768px) {
+  .btn {
+    padding-inline: 1.5rem;
+  }
+}
+.btn:hover {
+  transform: translateY(-1px);
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn-primary {
+  background: var(--color-teak);
+  color: var(--color-plaster);
+}
+.btn-primary:hover {
+  background: #74401d;
+}
+.btn-ghost {
+  background: transparent;
+  color: var(--color-teak);
+  box-shadow: inset 0 0 0 2px var(--color-teak);
+}
+.btn-ghost:hover {
+  background: var(--color-sand);
+}
+.btn-amber {
+  background: var(--color-amber);
+  color: var(--color-felt);
+}
+.btn-amber:hover {
+  background: #f6c06c;
+}
+
+/* Arched niche, cut like the shop's teak bookshelves. */
+.niche {
+  position: relative;
+  background: var(--color-teak);
+  padding: var(--frame) var(--frame) 0;
+  border-radius: 999px 999px 6px 6px;
+}
+.niche-inner {
+  position: relative;
+  height: 100%;
+  border-radius: 999px 999px 0 0;
+  background: var(--color-sand);
+  overflow: hidden;
+}
+.niche-inner[data-tone="lilac"] {
+  background: var(--color-lilac);
+}
+.niche-inner::after {
+  /* the shelf the treat stands on */
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: var(--shelf);
+  background: var(--color-teak);
+  z-index: 1;
+}
+.niche-art {
+  position: absolute;
+  left: 50%;
+  bottom: var(--shelf);
+  width: 90%;
+  /* crop 168×180, baseline at y=176: drop the 24 units under the baseline onto the shelf */
+  transform: translate(-50%, 13.333%);
+}
+
+/* Letterboard: felt panel with grooves, teak frame. */
+.board {
+  display: inline-block;
+  background-color: var(--color-felt);
+  color: var(--color-plaster);
+  border: var(--frame) solid var(--color-teak);
+  border-radius: 6px;
+  padding: 0.5em 1.4em;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent calc(1.5em - 2px),
+    rgb(245 237 224 / 0.07) calc(1.5em - 2px),
+    rgb(245 237 224 / 0.07) 1.5em
+  );
+  background-origin: content-box;
+  box-shadow: 0 10px 24px -14px rgb(33 28 24 / 0.55);
+}
+.board > .sr-only {
+  font-size: 1px;
+  line-height: 1px;
+}
+.board-line {
+  display: block;
+  line-height: 1.5em;
+  height: 1.5em;
+  white-space: nowrap;
+  text-align: center;
+}
+.board-char {
+  display: inline-block;
+}
+.board-gap {
+  display: inline-block;
+  width: 0.45em;
+}
+/* No-flash recipe: hidden only when JS is on, shown by a failsafe after 1.2s, handed to GSAP on mount. */
+.js [data-lb="anim"] [data-lb-char] {
+  opacity: 0;
+  animation: lb-show 0s 1.2s forwards;
+}
+.js [data-lb="run"] [data-lb-char] {
+  animation: none;
+}
+@keyframes lb-show {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Wave rule, from the black-and-white cushions. */
+.wave-rule {
+  display: block;
+  width: 100%;
+  height: 28px;
+}
+
+/* Breakfast plate labels */
+.plate-chip {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+.plate-chip-text {
+  background: var(--color-plaster);
+  color: var(--color-felt);
+  font-size: var(--step-small);
+  line-height: var(--leading-small);
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 14px;
+  white-space: pre-line;
+  text-align: center;
+  box-shadow: 0 4px 10px -6px rgb(33 28 24 / 0.6);
+}
+.plate-chip-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: var(--color-plaster);
+  box-shadow: 0 0 0 2px var(--color-felt);
+  flex: none;
+}
+.plate-chip-leader {
+  background: var(--color-plaster);
+  flex: none;
+}
+/* The dot sits on the food (x, y); the chip sits beyond a short leader on the given side. */
+.plate-chip[data-side="top"] {
+  flex-direction: column;
+  transform: translate(-50%, calc(-100% + 4.5px));
+}
+.plate-chip[data-side="bottom"] {
+  flex-direction: column-reverse;
+  transform: translate(-50%, -4.5px);
+}
+.plate-chip[data-side="left"] {
+  flex-direction: row;
+  transform: translate(calc(-100% + 4.5px), -50%);
+}
+.plate-chip[data-side="right"] {
+  flex-direction: row-reverse;
+  transform: translate(-4.5px, -50%);
+}
+.plate-chip[data-side="top"] .plate-chip-leader,
+.plate-chip[data-side="bottom"] .plate-chip-leader {
+  width: 1.5px;
+  height: var(--len, 16px);
+}
+.plate-chip[data-side="left"] .plate-chip-leader,
+.plate-chip[data-side="right"] .plate-chip-leader {
+  width: var(--len, 16px);
+  height: 1.5px;
+}
+
+/* Arched photo frame: half-width radius on top, card radius below. */
+.arch-photo {
+  border-radius: 999px 999px 16px 16px;
+}
+
+/* Drinks shelf: each drawing's baseline (y=176 of 200) lands on the shelf line. */
+.shelf-art {
+  display: block;
+  width: 100%;
+  transform: translateY(13.333%);
+}
+.shelf-line {
+  position: relative;
+  z-index: 1;
+  height: 3px;
+  background: var(--color-plaster);
+}
+
+/* Contact rows: 56px, arrow 8px after the text. */
+.contact-row {
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+  text-decoration: none;
+  color: var(--color-plaster);
+  font-size: var(--step-lead);
+  font-weight: 500;
+  line-height: 1.25;
+  border-bottom: 1px solid rgb(245 237 224 / 0.18);
+  transition:
+    color 180ms ease-out,
+    transform 180ms ease-out;
+}
+.contact-row:hover {
+  color: var(--color-amber);
+}
+.contact-row:hover .contact-arrow {
+  transform: translateX(3px);
+}
+.contact-arrow {
+  display: inline-block;
+  vertical-align: -0.12em;
+  margin-left: 8px;
+  transition: transform 180ms ease-out;
+}
+
+/* ------------------------------------------------------------------ */
+/* Section layouts (design brief §7). Phone first; 12 columns from 768. */
+:root {
+  --col-gap: 1rem;
+}
+@media (min-width: 1024px) {
+  :root {
+    --col-gap: 1.5rem;
+  }
+}
+
+.price-line {
+  margin-top: 0.5rem;
+  color: var(--color-teak);
+}
+.bg-teak .price-line {
+  color: var(--color-plaster);
+}
+.treat-text {
+  margin-top: 12px;
+}
+.treat-name {
+  font-weight: 600;
+}
+.treat-note {
+  margin-top: 6px;
+}
+
+/* Hero */
+.hero-inner {
+  padding-top: var(--hero-top);
+  padding-bottom: clamp(2.5rem, 1.9rem + 2.3vw, 4rem);
+}
+.hero-grid {
+  display: grid;
+  gap: 2.5rem var(--col-gap);
+}
+.hero-line {
+  margin-top: 1.25rem;
+  max-width: 27ch;
+}
+.hero-motto {
+  margin-top: 0.25rem;
+}
+.hero-board {
+  margin-top: 1rem;
+}
+.hero-actions {
+  margin-top: 1.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+.hero-address {
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .hero-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    align-items: center;
+  }
+  .hero-copy {
+    grid-column: 1 / 7;
+  }
+  .hero-photo {
+    grid-column: 7 / -1;
+  }
+}
+
+/* Yang manis-manis: a wall of arched niches; all shelves and names line up. */
+.sweets-grid {
+  display: grid;
+}
+.sweets-head {
+  margin-bottom: 2rem;
+}
+.niche-large {
+  aspect-ratio: 9 / 10;
+}
+.niche-large .niche-art {
+  width: 84%;
+}
+.niche-small {
+  aspect-ratio: 4 / 5;
+}
+.sweets-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+.sweets-item {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+}
+.sweets-item .treat-text {
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .sweets-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: auto auto auto;
+    column-gap: var(--col-gap);
+  }
+  .sweets-head {
+    grid-column: 6 / -1;
+    grid-row: 1;
+    margin-bottom: 2.5rem;
+  }
+  .sweets-feature {
+    grid-column: 1 / 6;
+    grid-row: 1 / 4;
+    display: grid;
+    grid-template-rows: subgrid;
+  }
+  .sweets-feature .niche {
+    grid-row: 1 / 3;
+    align-self: end;
+  }
+  .sweets-feature .treat-text {
+    grid-row: 3;
+  }
+  .sweets-list {
+    grid-column: 6 / -1;
+    grid-row: 2 / 4;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: subgrid;
+    column-gap: var(--col-gap);
+    row-gap: 0;
+    margin-top: 0;
+  }
+  .sweets-item {
+    grid-row: span 2;
+    grid-template-columns: none;
+    grid-template-rows: subgrid;
+    gap: 0;
+    align-items: stretch;
+  }
+  .sweets-item .niche {
+    align-self: end;
+  }
+  .sweets-item .treat-text {
+    margin-top: 12px;
+  }
+}
+
+/* Sarapan & makan */
+.breakfast-grid {
+  display: grid;
+}
+.breakfast-head {
+  margin-bottom: 1.75rem;
+}
+.breakfast-photo {
+  width: 100%;
+  max-width: 36rem;
+}
+.breakfast-body {
+  margin-top: 1.5rem;
+}
+.wings-row {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgb(33 28 24 / 0.18);
+}
+.wings-art {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .wings-row {
+    grid-template-columns: 8.5rem minmax(0, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .breakfast-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: 1fr auto auto 1fr;
+    column-gap: var(--col-gap);
+  }
+  .breakfast-photo {
+    grid-column: 1 / 7;
+    grid-row: 1 / 5;
+    max-width: none;
+  }
+  .breakfast-head {
+    grid-column: 8 / -1;
+    grid-row: 2;
+  }
+  .breakfast-body {
+    grid-column: 8 / -1;
+    grid-row: 3;
+    margin-top: 0;
+  }
+}
+
+/* Kopi & minuman: three drinks standing on one shelf line. */
+.drinks-grid {
+  display: grid;
+  gap: 2.5rem var(--col-gap);
+}
+.drinks-shelf {
+  display: grid;
+  gap: 1.75rem;
+}
+.drink {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  column-gap: 1.25rem;
+}
+.drink-art {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+}
+.drink .shelf-line {
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
+.drink-text {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  margin-top: 0;
+  padding-bottom: 0.75rem;
+}
+@media (min-width: 768px) {
+  .drinks-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    align-items: center;
+  }
+  .drinks-head {
+    grid-column: 1 / 5;
+  }
+  .drinks-shelf {
+    grid-column: 5 / -1;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+  }
+  .drink {
+    display: block;
+  }
+  .drink-art {
+    padding-inline: 6%;
+  }
+  .drink-text {
+    margin-top: 12px;
+    padding-bottom: 0;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Sudut favorit */
+.room-grid {
+  display: grid;
+  gap: 2.5rem var(--col-gap);
+}
+.room-text {
+  margin-top: 1rem;
+}
+.room-list {
+  margin-top: 0.75rem;
+  display: grid;
+  gap: 0.5rem;
+}
+.room-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.room-bullet,
+.review-bullet {
+  flex: none;
+  color: var(--color-teak);
+}
+@media (min-width: 768px) {
+  .room-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    align-items: start;
+  }
+  .room-main {
+    grid-column: 1 / 7;
+  }
+  .room-for {
+    grid-column: 8 / -1;
+    padding-top: 0.5rem;
+  }
+}
+
+/* Kata mereka */
+.reviews-grid {
+  display: grid;
+  gap: 2rem var(--col-gap);
+}
+.reviews-note {
+  color: var(--color-teak);
+}
+.reviews-list {
+  display: grid;
+  gap: 1.75rem;
+}
+.review {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 0.75rem;
+}
+.review-bullet {
+  margin-top: 0.55em;
+}
+.review p {
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .reviews-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+  .reviews-head {
+    grid-column: 1 / 5;
+  }
+  .reviews-list {
+    grid-column: 5 / -1;
+  }
+}
+@media (min-width: 1024px) {
+  .reviews-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+}
+
+/* Felt close: Kunjungi kami, Hubungi kami, footer */
+.close-top {
+  padding-top: clamp(2.5rem, 1.9rem + 2.3vw, 4rem);
+}
+.visit-grid {
+  display: grid;
+  gap: 2.5rem var(--col-gap);
+}
+.visit-hours {
+  color: var(--color-amber);
+  font-weight: 600;
+  margin-top: 0.125rem;
+}
+.visit-map {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #2e2722;
+}
+.visit-map-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: rgb(245 237 224 / 0.75);
+  text-align: center;
+  padding: 1.5rem;
+}
+.visit-map iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+@media (min-width: 768px) {
+  .visit-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    align-items: center;
+  }
+  .visit-info {
+    grid-column: 1 / 6;
+  }
+  .visit-map {
+    grid-column: 6 / -1;
+  }
+  .visit-map {
+    aspect-ratio: 16 / 10;
+  }
+}
+.contact-section {
+  padding-top: 0;
+}
+.contact-grid {
+  display: grid;
+  gap: 3rem var(--col-gap);
+}
+.contact-list {
+  margin-top: 1.25rem;
+  border-top: 1px solid rgb(245 237 224 / 0.18);
+}
+.contact-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.board-lg {
+  padding: 1.1em 2.2em;
+}
+.board-shelf {
+  width: 100%;
+  max-width: 26rem;
+  height: var(--shelf);
+  border-radius: 2px;
+  background: var(--color-teak);
+}
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    align-items: end;
+  }
+  .contact-info {
+    grid-column: 1 / 6;
+  }
+  .contact-board {
+    grid-column: 7 / -1;
+  }
+}
+.site-footer {
+  color: rgb(245 237 224 / 0.72);
+  padding-bottom: 2.25rem;
+}
+.footer-text {
+  border-top: 1px solid rgb(245 237 224 / 0.14);
+  padding-top: 1.5rem;
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.mockup-banner {
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+  padding: 8px 16px;
+  background: var(--color-felt);
+  color: var(--color-plaster);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .js [data-lb] [data-lb-char] {
+    opacity: 1;
+    animation: none;
+  }
+  .btn:hover,
+  .btn:active,
+  .contact-row:hover .contact-arrow {
+    transform: none;
+  }
+}

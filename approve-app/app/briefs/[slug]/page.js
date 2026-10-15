@@ -89,7 +89,7 @@ export default function BriefReview() {
 
   return (
     <>
-      <Link href="/briefs" className="back">Back to briefs</Link>
+      <Link href={`/shops/${slug}`} className="back">Back to {shop.name}</Link>
       <h1>{shop.name}</h1>
       <p className="lede">{[shop.type, shop.address].filter(Boolean).join(", ")}</p>
 

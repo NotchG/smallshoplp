@@ -1,25 +1,6 @@
-import { PlanSprite } from "@/components/art/plan";
-import { Contact, Footer, Header, Hero, Menu, Reviews, Uses, Visit } from "@/components/Sections";
-import { nav } from "@/content";
-
-// Morning to evening: tile hero -> timber menu -> tile uses -> fern reviews -> steel visit -> steel contact.
+// Intentionally empty. Build every section from docs/design-brief.md, using
+// <Container> for content width, .section for vertical padding, .t-* for type,
+// <Reveal> for section-level motion and {...mock(...)} for [MOCKUP] content.
 export default function Home() {
-  return (
-    <>
-      <a className="skip-link" href="#konten">
-        {nav.skip}
-      </a>
-      <PlanSprite />
-      <Header />
-      <main id="konten">
-        <Hero />
-        <Menu />
-        <Uses />
-        <Reviews />
-        <Visit />
-        <Contact />
-      </main>
-      <Footer />
-    </>
-  );
+  return <main id="konten" />;
 }

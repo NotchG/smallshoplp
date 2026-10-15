@@ -20,11 +20,11 @@ export const LABELS = {
 // Moves the human is allowed to make from this app.
 export const HUMAN_MOVES = {
   candidate: ["approved", "rejected"],
-  rejected: ["candidate"],
+  rejected: ["candidate", "built"],
   approved: ["candidate"],
   brief_ready: ["brief_approved", "brief_rework"],
   brief_approved: ["brief_ready"],
-  built: ["owner_approved"],
+  built: ["owner_approved", "rejected"],
   owner_approved: ["built"],
 };
 

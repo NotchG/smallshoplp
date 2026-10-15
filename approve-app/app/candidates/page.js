@@ -95,7 +95,7 @@ export default function Candidates() {
                   checked={picked.has(s.slug)} onChange={() => toggle(s.slug)} />
               ) : <span />}
               <div>
-                <p className="name">{s.name}</p>
+                <p className="name"><a href={`/shops/${s.slug}`} style={{ textDecoration: "none" }}>{s.name}</a></p>
                 <p className="meta">
                   {[s.type, s.address, s.reviews != null && `${s.reviews} reviews`, s.rating && `${s.rating}★`]
                     .filter(Boolean).join(", ")}

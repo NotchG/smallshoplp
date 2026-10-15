@@ -57,3 +57,44 @@ export async function writeBrief(slug, text) {
   await fs.mkdir(path.dirname(briefPath(slug)), { recursive: true });
   await writeAtomic(briefPath(slug), text);
 }
+
+// --- Shop detail: listing facts, docs and screenshots (read-only) ---
+
+export async function readRaw(slug) {
+  try {
+    return JSON.parse(await fs.readFile(path.join(ROOT, "shops", slug, "raw.json"), "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+async function listDir(dir, filter) {
+  try {
+    return (await fs.readdir(dir)).filter(filter).sort();
+  } catch {
+    return [];
+  }
+}
+
+export async function shopFiles(slug) {
+  const base = path.join(ROOT, "shops", slug);
+  const exists = async (p) => fs.access(path.join(base, p)).then(() => true, () => false);
+  return {
+    brief: await exists("brief.md"),
+    checklist: await exists("owner-checklist.md"),
+    docs: await listDir(path.join(base, "docs"), (f) => f.endsWith(".md")),
+    screenshots: await listDir(path.join(base, "screenshots"), (f) => f.endsWith(".png")),
+  };
+}
+
+// Only files inside these folders of a shop can be served, nothing else.
+const SERVABLE = /^(docs\/[a-z0-9-]+\.md|screenshots\/[a-z0-9-]+\.png|owner-checklist\.md|brief\.md)$/;
+
+export async function readShopFile(slug, rel) {
+  if (!validSlug(slug) || !SERVABLE.test(rel)) return null;
+  try {
+    return await fs.readFile(path.join(ROOT, "shops", slug, rel));
+  } catch {
+    return null;
+  }
+}

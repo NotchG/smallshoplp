@@ -1,0 +1,50 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "2Sons Coffee",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "2Sons Coffee",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-3.jpg",
+    "author": "2Sons Coffee",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-4.jpg",
+    "author": "2Sons Coffee",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-5.jpg",
+    "author": "2Sons Coffee",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Victor Osman",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Silvia Sandy",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Yon Cahyadi",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

@@ -1,0 +1,375 @@
+{
+  "id": "ChIJj7x9wQGLaS4Rai6OpBSAXQ8",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0812-8434-6371",
+  "internationalPhoneNumber": "+62 812-8434-6371",
+  "formattedAddress": "Jakarta Garden city, ruko the Boulevard no 30, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+  "rating": 4.8,
+  "googleMapsUri": "https://maps.google.com/?cid=1107181909551492714&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "websiteUri": "https://www.instagram.com/haveatreat_/",
+  "regularOpeningHours": {
+    "openNow": true,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 10:00 AM – 10:00 PM",
+      "Tuesday: 10:00 AM – 10:00 PM",
+      "Wednesday: 10:00 AM – 10:00 PM",
+      "Thursday: 10:00 AM – 10:00 PM",
+      "Friday: 10:00 AM – 10:00 PM",
+      "Saturday: 10:00 AM – 10:00 PM",
+      "Sunday: 10:00 AM – 10:00 PM"
+    ],
+    "nextCloseTime": "2026-10-15T15:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 183,
+  "displayName": {
+    "text": "Have A Treat",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/reviews/ChZDSUhNMG9nS0VJQ0FnSURlaXRhbGNBEAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 4,
+      "text": {
+        "text": "A very cute cafe with a nice ambience. Not too big, cozy enough. Interesting menu as well.\n\nI ordered:\nOmelette breakfast 7/10 - Could've added more salt, egg not fluffy, sausage and bacon a bit too oily\nTiramisu 9/10 - Balanced flavor and cute presentation\nHP Potion 8/10 - unique and refreshing but the peach tastes a bit too artificial\n\nWould love to go back again but not for working/having a meeting. The music is too loud and distracting.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "A very cute cafe with a nice ambience. Not too big, cozy enough. Interesting menu as well.\n\nI ordered:\nOmelette breakfast 7/10 - Could've added more salt, egg not fluffy, sausage and bacon a bit too oily\nTiramisu 9/10 - Balanced flavor and cute presentation\nHP Potion 8/10 - unique and refreshing but the peach tastes a bit too artificial\n\nWould love to go back again but not for working/having a meeting. The music is too loud and distracting.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Rizka",
+        "uri": "https://www.google.com/maps/contrib/115704533350393275748/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjULSRrTGiyqlUCky_Fwn92TNM8eMdWnaYBpDiB0AaODvA6nlzD7=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2022-10-07T07:23:30.325973Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURlaXRhbGNBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURlaXRhbGNBEAE!2m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/reviews/ChdDSUhNMG9nS0VJQ0FnSUNoN1liM3JRRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Underrated cafe near JGC area. Great ambience, cozy and the music is not too loud so it’s perfect to get your works done. I tried the matcha latte, it was good because hasn’t had the artificial flavor and not too sweet. Also the tiramisu is enjoyable because it has the right amount of sweetness and balance of bitter from the chocolate and the creaminess from whipped cream. Overall, I had an impressive experience and looking forward to come back to this place!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Underrated cafe near JGC area. Great ambience, cozy and the music is not too loud so it’s perfect to get your works done. I tried the matcha latte, it was good because hasn’t had the artificial flavor and not too sweet. Also the tiramisu is enjoyable because it has the right amount of sweetness and balance of bitter from the chocolate and the creaminess from whipped cream. Overall, I had an impressive experience and looking forward to come back to this place!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Accesstia Christy",
+        "uri": "https://www.google.com/maps/contrib/113387451438939260637/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW1Rl4JJ_BP5hBYCA7OmfC8qvdV3ACF8SyUhXEk6mTbjA-2Xq2R=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2023-02-19T16:46:33.831019Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNoN1liM3JRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNoN1liM3JRRRAB!2m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/reviews/ChZDSUhNMG9nS0VJQ0FnSURCbE9PVVRnEAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Well, no doubt, this is the best aesthetic cafe in Jakarta. The design is visually pleasing and comfortable, fresh and nice drink, and awesome food.\nTrying their cheese cake and french toast. The cheesecake was great, soft and lil bit lemon taste. The french toast, this is the best\nWill come back to try other foods",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Well, no doubt, this is the best aesthetic cafe in Jakarta. The design is visually pleasing and comfortable, fresh and nice drink, and awesome food.\nTrying their cheese cake and french toast. The cheesecake was great, soft and lil bit lemon taste. The french toast, this is the best\nWill come back to try other foods",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Apri yanto",
+        "uri": "https://www.google.com/maps/contrib/117144071361888599730/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJBfAwGqND01QETSzTtiX2Iou5qGgPu_ujYa--l0f5VwISFw-U=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2023-01-12T11:50:40.597298Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURCbE9PVVRnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURCbE9PVVRnEAE!2m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/reviews/ChZDSUhNMG9nS0VJQ0FnSURoN2JuM0pnEAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Cozy place, beautiful decoration, comfortable, dessert and drinks are delicious and fresh. Suitable and good cafe for hanging out, dating, and gathering with friends or small family. Recommended!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Cozy place, beautiful decoration, comfortable, dessert and drinks are delicious and fresh. Suitable and good cafe for hanging out, dating, and gathering with friends or small family. Recommended!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ghina Fatikah Salim",
+        "uri": "https://www.google.com/maps/contrib/115557936686329477996/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUowNmpiNno2Z8soeokZfSeEUHQcIdJwIdARtFNXPfDcVNEIM3x=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2023-03-15T08:19:43.216268Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURoN2JuM0pnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURoN2JuM0pnEAE!2m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/reviews/ChZDSUhNMG9nS0VJQ0FnSUNHb3BhUFBnEAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Best cappuccino in town. Jangan lupa pesen chicken wings nya, not expecting a cafe will have great food, but my mind's has blown. The food just as amazing as the beverages. Vibes also nice with great health protocol. Absolutely will back again 💯",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Best cappuccino in town. Jangan lupa pesen chicken wings nya, not expecting a cafe will have great food, but my mind's has blown. The food just as amazing as the beverages. Vibes also nice with great health protocol. Absolutely will back again 💯",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Robertus Jovian",
+        "uri": "https://www.google.com/maps/contrib/114457071070782072506/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLaYvnGqFYPCU-SmtxvVT5FGVxLvVnyL-bvgbqPFKH3jpbTSg=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2021-10-24T10:38:17.394465Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNHb3BhUFBnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNHb3BhUFBnEAE!2m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMbnaZrEC5TcZvTYCkftJI3d8jV3vOHPfP7phACuGxd6VMVxlc4CAnnvm15zbOqWIjiQJ_s0ntGEurZxJKEUPfWQKBPsfJgYIG2LUYCLWVlv8JKplC-vdcOj5cZCllnBf7_7m_kr4bX_mcHV2_9gJ9PK5kPSox2mIf9liJI-nJ8UDxsgh4ip1nJxH58HV1sfCzDQAIsCXjwtDdL8q5lMNpIGh9rfMughuY08BGYDF_b1wVbinClnePcacvfoDzKRnaxmCO50J_kVvS3ivc1YWfy4hCh5Bg7cP0wITPG2v7aZnaDS0_pdZd5WsMroLK6I5JSB7EDtZZ-7GIu-jiRMBlpzlxUrVArtP62kji9iHXs4y-orn1cUmrKdTEBKhJ-rG28sdSi7_iUnRuhcg_M8NQFaqZCw050",
+      "widthPx": 3200,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Have A Treat",
+          "uri": "https://maps.google.com/maps/contrib/117398547999304702221",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWP50qiEOF2avFEVmWxPAGE7nsT51bhQEBxoFHRgBFnY-g-erxC=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICaiNHb9gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICaiNHb9gE!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMbcqDVojreRn9hujm7pq-isqXIt9-ducfHpHFh2-o47dJyN4vs9h4DMQnd2OVm5n-cfkqqtgMKnebv3LsPIl5DKY_eP4CoX0HfmP1QPa13csCEaae0DVgnNXqMA9Rn61Z2b0qZguclfCcRzDZ0PvXTnt89AhnbMRhbbU2p7uBdH4AghaVZzAMjV8Z_TXSsS5V4X9Awui2gmq9GOAkdmOuD3-wWUl8BCsudVtGiunTU3mBiRwFZMfM165HckZrp4QK90hBpm5t2Vbohnd3XBi6zMMM6wiMqbpLMpo5VrZ5-692cNVBTQtLg_dih2h8spaeuG_SlVyzJW-L5F9nnKo8rX2rGg3kL6G7oi5lsDqld0UTNuFohFFxH-U5GE3V5DWZejgEbOIokLpH1XY6lzOme_1n-bimQ",
+      "widthPx": 4515,
+      "heightPx": 4515,
+      "authorAttributions": [
+        {
+          "displayName": "Have A Treat",
+          "uri": "https://maps.google.com/maps/contrib/117398547999304702221",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWP50qiEOF2avFEVmWxPAGE7nsT51bhQEBxoFHRgBFnY-g-erxC=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDW9-6urwE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDW9-6urwE!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMbX987-ORTZuiXcNpqua87ZnDWrCLp73gKPFJxXrD7Oj3en3Rk4R4vfe3pHglUbvzVdkGcmDB0uHnfaJkJTk1p-r1LFLrVPjMq1jXVtz_7W_OtY8VPJD2_jY4-2dkGGwMHRs4I59HEDHqh8OtPsJqMyElEqf5qPDnoFv2GYFMM0xXC8d2-GBeEjoVfkgXGd9xzeLzBwo2HiU-bCwFXpGZw4QGQoqUNvkzduRTh1jJxqQEsTZXQ8-QG6C2N9IMViNoJ5dgGEI6pOwYYD7T9vH8It0mph3x4gLx1lgN5Lo-s9oj09BRc6_SgXvEojYGlbV4XUePXp8zc5tM28lN3tsoOOZCp0sF4sser-8SMWWc8sJEJ2n44yNVUFBhm6wn8umgFt0UUoiZr2xuMoiNI4zDfVUVPSktB0o1bIamezpww2Tw",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "GHANIA ALMAHYRA OVEELIA",
+          "uri": "https://maps.google.com/maps/contrib/114614155623268823390",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZfG6ylb6ahlHAKZfb9ngEYVJmSrUeBwLCdCLYOmjrN4-vcw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDyWdsuwx-YUDbapBSiUGYx&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDyWdsuwx-YUDbapBSiUGYx!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMbs-FeMXNSsz2ODIhD1q1Lk64bw_2eoUcpumFEraXxyyXUVEdCrqIBtq5zfPUwl5-OsnW6NAPfgNd0_6JjJEhFqCuRu8T7uDYQbv-i49X_1d9F9h1yOMV_FXwKTxITqKXlmeRs97D0OhDOQztk_7f2HXsTByGVr8CHDlQ9ZDID-H3lTjqZ_wG1om-Q_JjIzyxhkkUpevNAY4rx1y5thyKZtr0f7dyeN7vU3J_LwSp_iXuQqZGMnUOTnjQvE0gN9_5riiwN5v7o8Jh8Eajxphz7WWOOJDuKAoWCfzsGTIJ-NCSr0ipMY7cTHsJVpCvJ-Guo2QTUFfD8Az-R9aDXKqXC1ZSzO7Bd3Cb7mKSvf800C7SGneXaN0QSJDU86p4N8OEqseEYeSR-HZlAhRKrx6UbmFoHRrr1SRb1C11hkgDpryQ",
+      "widthPx": 2600,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "W",
+          "uri": "https://maps.google.com/maps/contrib/109660614780903153286",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIUb2fRqR6uFvv9g0YgEH5PXOg3FEZ7_BLj5yCn0DkUftIC48UK=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDrNDKAKvpaNIxC14AsGvb-&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDrNDKAKvpaNIxC14AsGvb-!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMaSSlFVeoMFU2n5Xc-_zDhI0DrXpePqeu5Tqh0Ln76zd7NMJVvHSsnUTXZyG3kF-72WOTaYGtgECPJeg_1dBr0To4DKRhDs4bhjnWWkUja4UEnynLobwtb24VN7db-2UoTNzJvMPp1S0j0Y_VU4DYG7VGeymQoHCxHmSvro4wM6zlWAYPGtRaENYSlg1XRu4ocTtPeCdXZUZ8Tqtnx7d6RuIL4S_BJDkkWoAGE-bjh-icAS2M1aYsKpavFqUCpiDZAMHq5n_ZL8SOnCoc8khgL2hmRkFAokUR0IxggVoXHvzsBTq0LfTPC2ebeRnyxpWrOh_rWTOpkWbFZaupSDocPHKYYBUBJovXhJZRCMF1TMxP3H-YnPtsZ4-knIXCvZB8eNB0V_I6NJ1aJn6qAIHEl84XlL7urCkyhBGpEba5WbpQ",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "GHANIA ALMAHYRA OVEELIA",
+          "uri": "https://maps.google.com/maps/contrib/114614155623268823390",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZfG6ylb6ahlHAKZfb9ngEYVJmSrUeBwLCdCLYOmjrN4-vcw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBrBb4dQAOehHLgDzwSAKKZ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBrBb4dQAOehHLgDzwSAKKZ!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMacL5g3L5ZBo4vcPDuCO-Y_I9qCnZRrRXwLcilgVZq4F2YfpUo7EogQsud6xvzkfsl1EFieE9ZKpF2kFfIxWGDsMcRpRrcuqH0uY1KSGy63zq02fEotT0HrK3D53sGX8iN1I3vBlwp0dx42QFOC4zO3TNYz6tp3w5oeG8LFtbhIdoaw9Bme15aI6o1Gl9v7-6SPGWivF5O4dfkKjWQO0Y6iQzn1ySCJsghuv3JlmkcQomvH_aGcL_L3MJd3oMus4gVrgw0PceMTuVW9No5g_kDMUXISY-u76UxILWuinOyKFIRsDDWA75zdcsqDBjHVuIo6FM497lWz5KhVSc5tfk4M1oipgnb5vnj6f7SdWJ6G72eM0ifFT3qSGeP_G4gP9MrCV-K-GtmM6RIB6ZJNCBUXpypABD1Wt16PK25B-zJq",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "GHANIA ALMAHYRA OVEELIA",
+          "uri": "https://maps.google.com/maps/contrib/114614155623268823390",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZfG6ylb6ahlHAKZfb9ngEYVJmSrUeBwLCdCLYOmjrN4-vcw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDX02Dzjc7DwWAzNZ65Q3Mf&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDX02Dzjc7DwWAzNZ65Q3Mf!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMbN2ENGzLnIpvTeqlKHxAkbahB1lhFdV5ZgCISdR23y7w0MJ5sJyw-bCNDLp7BJvy3uQ9x4F-JqSRjJ3TV4Vk43H9q6DP_ikUlviDhbcPHaKOIR4AUBPrk8lCNv7v8FQyUD_n9ENwivIsECVz_fRQd8hbwLdj-wlimYQm3HJzVcbZNNRGm2_fKpUcQqZebu04A6c_diY7FAJeVLx6uV_MwWbqbV08zuBrHLK1ffJV0-xy356qii92fsl_sOyLkR-QhoDZbFl9LSFsWvDIoDi_zDHltXwRPFQ84SIfZTpI1m9XyIv8Yg5cxvbv_MHEBLcw0QFaz2L9CDc7IIJzKoNfwHl9yQs3UprcfEYMsl-36NwnYBVcxRI1d3TCIBNqaujHZc6B2nLYq830pf9gtiTRakE15oGuc",
+      "widthPx": 3468,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "Lisa Rahmawati",
+          "uri": "https://maps.google.com/maps/contrib/115724097628476534098",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXiOetOGcvCyb54MYR_J1tzjaoUbUaQAQseQiQgDpXKXGmBt0L4Nw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIClg52jgQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIClg52jgQE!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMbteLiwyAnXImr-FjGfbX6KYlzov4UfLEM_xSjHez0zEh0CYRJqXD9RDwBWLlhBKjxVn6UWkUln1I9WP8nrUisduaLUUHjlIMcDc9t50y8cavXbT2vQUc4J6lp6w1UxcHUSe_TCFRUtnSJxRz64FnJ09TfvZjRCEAvVH-3M2v5X69fC50Ml9caTxURA3dVzJMsTKIN93ijb_S2vi38VLIa7HnBN7oow1UBvsQr7_tYaOlmMuS_QsGYRu1B-wIa1mBqzx5_jdVSmIC096iuAMnG9Bg9j80AYd7Wezv--PfPO7uZuysB6Xw7DhbtpsoKrRTlPAZPurmE7AlgHUlq47CbpkeOnPjfAGttmEJWnphiOZdIC3Df5pl2ldMiEkncbTyPBuJQJ-Ewc8FfaTokpXYO3wg-pmhiIM2CZcnF2s82t",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "GHANIA ALMAHYRA OVEELIA",
+          "uri": "https://maps.google.com/maps/contrib/114614155623268823390",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZfG6ylb6ahlHAKZfb9ngEYVJmSrUeBwLCdCLYOmjrN4-vcw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCDsv2hmRawWhfvl1Enj502&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCDsv2hmRawWhfvl1Enj502!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMaHqTqG_2Xxrd_KAcgxsvuO_4KJJoy1AVQFtKgAoPAXrQJSm2CHrx_LD5ba82vCdmsVLwf5f5FZWbQPGC7amT9nmpRc3OI-J0Wx9EmBN5xYNyddepCF51L5hFq5aflwqAOBZfShUZHVEOpYjKele1oqjvStVlgzYmWPjLthFtuLy1zF9pWScWKuLiU6wK2bSblVUW3iVKlDw44fIIFtXqEvli7rtCuwUkEcX62LPQiUI8hs7mggFXiA77SX-Q2tB3KG3CK-cK9uwq3rIY0BIGTZSw2Ju-htjm5KYpRqw5QEQ3YPxo22S0kQIkDe0A65w351FYOb9vfkBe87TaG56KtZq4EtTtRwCZrgmGwu4rS1oYbEWYQ98OKle9b6KiwpZUwtEWNkA7QG0G3Rl7nRYh_5Z7Ms",
+      "widthPx": 2741,
+      "heightPx": 3705,
+      "authorAttributions": [
+        {
+          "displayName": "The Rukmanas Family",
+          "uri": "https://maps.google.com/maps/contrib/116574003259805573825",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWNKlgdqliKLppMj8mP6jZUljGd_fskc5R-3K_1N6Q595e38Ytf4A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDf_dG4ogE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDf_dG4ogE!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    },
+    {
+      "name": "places/ChIJj7x9wQGLaS4Rai6OpBSAXQ8/photos/Aa-ngMatQvOqnoQp6GaR-aPQyHCTjslRp7MDls-X0QO8S7Jc54VJJjkweYJo4eVoM5L_4DqGMMDorgbFBcMKWZd6bwnjX4zSdUwxgVg1hiZ0geq7xMqBPhp0qkgOAy-_Swadt7JF6_qPJ6oT60reDKtdd8Se3hTJkP-yFDsTmgca1OS8_HqMHtdhFp6DdJSzgO_V499HbP-gEyTOTfqkDZkWAmY2fDL_FExWLA0HGtaK2QypPyg4udBswJH-cYm14Dj8o6y9HCD3W8R49HeeZz6GbgFXsCtdjdbtR7vWg07v9hY79ltG_5_7opTnGG87u62axeojf1LZTQvRjZBO9j6GChe-N3XNlgtb2PEss7sqn7wdRRhi6uJtb-xMmOlmHT49HgpBzH45ApUMod3XHtOmy9f604WF",
+      "widthPx": 720,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Syam Wasito",
+          "uri": "https://maps.google.com/maps/contrib/112213831703275163307",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX7DjPbdA1tGJ8h8_HBC4OtK2WbcJlV9PBOlWSdeHiof6WFLCqBaw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICm-tb--gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICm-tb--gE!2e10!4m2!3m1!1s0x2e698b01c17dbc8f:0xf5d8014a48e2e6a"
+    }
+  ]
+}

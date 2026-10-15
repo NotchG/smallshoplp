@@ -1,0 +1,284 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6171,
+    "sizes": [
+      {
+        "el": "h1 \"2sons coffee\"",
+        "fontSize": 88.8,
+        "lineHeight": "79.92px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h2#kopi-h \"kopinya bener.\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 213,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"Si biru, dalam kaleng 2sons.\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 265,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "h3 \"Minuman espresso\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 86,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Manual brew (V60)\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 106,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#makan-h \"bukan cuma kopi.\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 256,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h3 \"Beef cheese melt sandwich\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 251,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "h3 \"Roti telur & keju\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 148,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#ruang-h \"betah lama di sini.\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 263,
+        "pctOfContentWidth": 75
+      },
+      {
+        "el": "h2#ulasan-h \"kata mereka.\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 179,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#lokasi-h \"kunjungi kami.\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h2#kontak-h \"hubungi kami.\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 15
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5332,
+    "sizes": [
+      {
+        "el": "h1 \"2sons coffee\"",
+        "fontSize": 119,
+        "lineHeight": "107.136px",
+        "textWidth": 276,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#kopi-h \"kopinya bener.\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 270,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Si biru, dalam kaleng 2sons.\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 146,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Minuman espresso\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 194,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Manual brew (V60)\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 201,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#makan-h \"bukan cuma kopi.\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 323,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Beef cheese melt sandwich\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 280,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Roti telur & keju\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 166,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#ruang-h \"betah lama di sini.\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 332,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#ulasan-h \"kata mereka.\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 226,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#lokasi-h \"kunjungi kami.\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 261,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#kontak-h \"hubungi kami.\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 259,
+        "pctOfContentWidth": 36
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 15
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4480,
+    "sizes": [
+      {
+        "el": "h1 \"2sons coffee\"",
+        "fontSize": 160,
+        "lineHeight": "144px",
+        "textWidth": 370,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#kopi-h \"kopinya bener.\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 355,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Si biru, dalam kaleng 2sons.\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 167,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Minuman espresso\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 109,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Manual brew (V60)\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 135,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#makan-h \"bukan cuma kopi.\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 265,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Beef cheese melt sandwich\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 320,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Roti telur & keju\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 189,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#ruang-h \"betah lama di sini.\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 437,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#ulasan-h \"kata mereka.\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 298,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#lokasi-h \"kunjungi kami.\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 344,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kontak-h \"hubungi kami.\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 340,
+        "pctOfContentWidth": 28
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 15
+  }
+}

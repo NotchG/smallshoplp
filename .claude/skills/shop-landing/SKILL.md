@@ -1,6 +1,6 @@
 ---
 name: shop-landing
-description: Run the smallshoplp pipeline. Find small shops in an area with the Google Places API, write shop briefs from their listings, plan (PRD, TRD, design brief, implementation plan) and build their Next.js mockup sites with shop-planner and shop-builder subagents, or report pipeline status. Use when asked to discover or find shops in an area, write or redo briefs, build shop sites, or check where shops are in the pipeline.
+description: Run the smallshoplp pipeline (discover, brief, plan and build, publish to Coolify, status). Find small shops in an area with the Google Places API, write shop briefs from their listings, plan (PRD, TRD, design brief, implementation plan) and build their Next.js mockup sites with shop-planner and shop-builder subagents, or report pipeline status. Use when asked to discover or find shops in an area, write or redo briefs, build shop sites, or check where shops are in the pipeline.
 ---
 
 # shop-landing
@@ -9,6 +9,11 @@ Four modes. Work out which one the user wants from their request; if unclear, ru
 and suggest the next step. Read `CLAUDE.md` first if you have not: its rules apply to every mode.
 
 All `data/shops.json` changes go through `scripts/`. Never hand-edit that file.
+
+**One shop or all of them.** If the request names one or more shop slugs
+(`/shop-landing build komuka`, `/shop-landing brief kopi-teduh, sate-madura`), act only on those,
+and say so if a named shop isn't in the status that mode expects. Without slugs, act on every
+shop in the expected status. The dashboard copies commands in both forms.
 
 ---
 
@@ -157,6 +162,23 @@ builders run `npm install` and full Next.js builds, so they're the heaviest step
 
 The stack is fixed by `templates/site-starter/`: Next.js (static export), Tailwind, GSAP,
 Lenis, plus up to two React Bits components chosen in the TRD.
+
+---
+
+## Mode 5: publish
+
+Puts built shops online in Coolify, each at `<slug>.<domain_suffix>`, auto-deploying from GitHub.
+
+1. Only works where Coolify is reachable (the user's local network). In a cloud session,
+   don't try: tell the user to run `./scripts/coolify-publish.sh --all` locally.
+2. The site must be committed and pushed to the branch in `data/coolify.json` first,
+   because Coolify builds from GitHub. If it isn't, say so and stop.
+3. `./scripts/coolify-publish.sh <slug>` for one shop, or `--all` for every built shop
+   without an app yet. Use `--dry-run` first if `data/coolify.json` was just created.
+4. Report each preview URL. If the script lists settings to set by hand, pass that list on.
+   Coolify takes a minute or two to build before the URL works.
+
+Shops that already have an app redeploy automatically on push; don't publish them again.
 
 ---
 

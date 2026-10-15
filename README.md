@@ -11,9 +11,27 @@ and build a Next.js mockup site for each.
 2. **Tools.** The scripts need `curl` and `jq` (`brew install jq` / `apt install jq`).
 3. **Design skill.** Copy impeccable into `.claude/skills/impeccable/`. It's the only design
    skill the pipeline uses. See `.claude/skills/README.md`.
-4. **Approval app.** `cd approve-app && npm install && npm run dev`, then open http://localhost:3030.
+4. **Dashboard.** `cd approve-app && npm install && npm run dev`, then open http://localhost:3030.
 5. **Example data.** `data/shops.json` and `shops/example-bakery/` hold made-up shops so the app
    has something to show. Reset with `echo '{"shops":[]}' > data/shops.json && rm -rf shops/example-*`.
+
+## The dashboard
+
+http://localhost:3030 (run from `approve-app/`). Local only, no login: it reads and writes the
+project files directly.
+
+- **Home:** what's waiting on you (candidates, briefs, mockups to send, owners to hear back
+  from), what's waiting on Claude Code with a copy-ready command per group, and every built
+  site with its screenshot and whether its mockup is online.
+- **Shop page** (click any shop): the 8 steps with the current one highlighted, and a Next
+  step panel. For your steps it has the buttons; for Claude's steps, the exact command to copy
+  (`/shop-landing build komuka`); once the mockup is online, the WhatsApp message to the owner,
+  filled in, editable, with Copy, Open in WhatsApp, and Mark as sent. Below: screenshots and
+  the planning docs.
+- **Candidates** and **Briefs:** the approval screens, as before.
+
+The owner message lives in `approve-app/lib/outreach.js` if you want to change the wording.
+Your name for the message is entered once on a shop page and remembered in that browser.
 
 ## The loop
 
@@ -69,6 +87,36 @@ start the next cloud session.
 
 Don't approve in the app while a local Claude session is writing to the same `data/shops.json`.
 Both write atomically, but the last write wins.
+
+## Hosting the mockups (Coolify)
+
+One Coolify project (`smallshoplp`) with one environment (`mockups`); each shop is an app in it,
+served at `<slug>-mockup.achmedfidel.com` and redeployed whenever its `shops/<slug>/site/`
+changes on GitHub.
+
+Setup, once:
+1. In Coolify: enable the API (Settings), create an API token (Keys & Tokens), create the
+   `smallshoplp` project with a `mockups` environment, and connect the repo with a GitHub App.
+2. Add `COOLIFY_URL` and `COOLIFY_TOKEN` to `.env`.
+3. `cp data/coolify.example.json data/coolify.json` and fill it in. The UUIDs are in Coolify's
+   URLs when you open the project, the server and the GitHub App.
+4. `domain_pattern`: each shop's address, with `{slug}` replaced: `{slug}-mockup.achmedfidel.com`
+   gives `komuka-mockup.achmedfidel.com`. Keep it one level below your domain, since Cloudflare's
+   free certificate covers `*.achmedfidel.com` but not deeper levels. The tunnel needs a wildcard
+   hostname `*.achmedfidel.com` → `http://localhost:80` (partial wildcards like `*-mockup` aren't
+   possible in DNS). (`domain_suffix` still works instead, giving `slug.suffix`.)
+5. `domain_scheme`: the scheme Coolify serves on. `http` behind a Cloudflare Tunnel (the tunnel
+   does HTTPS; `https` here causes redirect loops). `https` only if Coolify is reachable directly
+   and should get its own certificates.
+6. `preview_scheme`: the scheme in the link you send owners. `https` behind the tunnel.
+
+Then, after a shop is built and pushed:
+```bash
+./scripts/coolify-publish.sh --dry-run <slug>   # check what will be created
+./scripts/coolify-publish.sh <slug>             # or --all for every built shop
+```
+The preview URL is saved to `shops.json` as `preview_url`. Or tell Claude
+`/shop-landing publish`. This runs locally only, since cloud sessions can't reach your Coolify.
 
 ## Statuses
 

@@ -1,0 +1,365 @@
+{
+  "id": "ChIJ40HBfQCLaS4RJtJI75vnU38",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "point_of_interest",
+    "food",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0813-9972-8000",
+  "internationalPhoneNumber": "+62 813-9972-8000",
+  "formattedAddress": "Ruko Cleon Park, Jl. Jkt Garden City Boulevard No.37, RW.9, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+  "rating": 4.9,
+  "googleMapsUri": "https://maps.google.com/?cid=9174931522804306470&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": true,
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 21,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 9:00 PM",
+      "Tuesday: 8:00 AM – 9:00 PM",
+      "Wednesday: 8:00 AM – 9:00 PM",
+      "Thursday: 8:00 AM – 9:00 PM",
+      "Friday: 8:00 AM – 9:00 PM",
+      "Saturday: 8:00 AM – 9:00 PM",
+      "Sunday: Closed"
+    ],
+    "nextCloseTime": "2026-10-15T14:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 28,
+  "displayName": {
+    "text": "Happy Kopi",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/reviews/ChdDSUhNMG9nS0VJQ0FnSUNieXJTdzdRRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "the place is nice, comfortable, cool, the service is super friendly, the coffee is really delicious, I ordered butterscotch, it's just right super good tasted",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "the place is nice, comfortable, cool, the service is super friendly, the coffee is really delicious, I ordered butterscotch, it's just right super good tasted",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Henny Dewi",
+        "uri": "https://www.google.com/maps/contrib/112964345275067285046/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX9Yu4-V5jRYZ7PZLjoNZ_kqlOFqa9E9Yxula_KFojYpmS5IIhg=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2024-07-25T17:07:55.846258Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNieXJTdzdRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNieXJTdzdRRRAB!2m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/reviews/ChZDSUhNMG9nS0VJQ0FnSURYLTlpcFVREAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "comfy place ever!! 🤍🤍",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "comfy place ever!! 🤍🤍",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "normaa",
+        "uri": "https://www.google.com/maps/contrib/112483416155604161577/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXnjyu1hOE_jw154VwiGDHwfKHehpvp6mMkEJ4leOltGA8yIDtb=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-10-31T12:05:44.749335Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURYLTlpcFVREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURYLTlpcFVREAE!2m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/reviews/ChdDSUhNMG9nS0VJQ0FnSURMamUyOHdnRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice place to work from cafe. For meal you can go down stair and try the bakso campur one",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place to work from cafe. For meal you can go down stair and try the bakso campur one",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "adeline ad",
+        "uri": "https://www.google.com/maps/contrib/114150603993765517410/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUAoDkgKcSUiy8BtCujWL7DAuXJB0Sgs-0UF-WTFGiCl4rbNs4=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2024-06-29T12:05:54.045658Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURMamUyOHdnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURMamUyOHdnRRAB!2m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/reviews/ChZDSUhNMG9nS0VJQ0FnSURMdGZYamFnEAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Mantap with good service & beverages !",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Mantap with good service & beverages !",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Lee Joe Ee",
+        "uri": "https://www.google.com/maps/contrib/111502381261938016243/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUAWvzoZb5QejIMOiagGwS-ng76SDEC8pj3OUhSTTn9o141R2LI=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-06-29T08:59:14.060045Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURMdGZYamFnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURMdGZYamFnEAE!2m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/reviews/ChdDSUhNMG9nS0VJQ0FnSURIeWVHaXlBRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice place to eat. Good service, good taste.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place to eat. Good service, good taste.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dian Tanjaya",
+        "uri": "https://www.google.com/maps/contrib/117358414888361763321/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLtRP0KzNNRAANQ5v1YBZ7Xe4_D0lPSKJLvg1Ikbe_6N1Qthg=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-09-17T13:02:47.527202Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURIeWVHaXlBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURIeWVHaXlBRRAB!2m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMYqNJzrieuREiz1soteQlZ7RB3ga3sxXlOX1xlONNxaUQxVssxca9lTV3R84c6Cd8nWLHDsu-Jk90wu9TnmZxC4GUPz9Q9hGjhONdQTZjNfr_b3yx2pZxkY589dk-t3fCjOQPrZ7eaogyExENYDh3dACPIQSYa1n8E42Ci0DAKNWYBfXmnkTWUIBCZmrKQ7zmcV-2v55gyWgIJevtrU5ZqbTxLUsKcIsF9hcIXQmBGcxy7t8LHamfMm1-Aa6QUWu9xgEOJAQ9W3G01UmEuFGuSFVgy5C2ZAR5pq-4y1kcrcMNkx9c5wgmsamxiUKcVuNne3R-IBYjxTwqZAl4Omc90g2rrClOtpUL-xfn9shIIu6hG2xPkvoFykuJXex7JMu1yOwpGGIxIYVLqDvdgGMi66wGLGc7Q",
+      "widthPx": 1200,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "Happy Kopi",
+          "uri": "https://maps.google.com/maps/contrib/101049326758099894437",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZmUw4DeZAL85FH8VbdhPOvlr-8vZthJkZPRPHGv4AouGKlg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICbzNjOigE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICbzNjOigE!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMaAXdysbQ_pivDqpj1MYEaU0GTzMuOCm8tGc1agJJ3J1BrALVPGBd1J9nSpXVd4ed4VVSwb9dtYxP7D1akEmu5nPL8F5jkV1UKE4_NvNDYIesENv48dJkxTjwl5pwLdqdOPDciVm5LtbAvJj5MPGSjUrOZHg3dCs9mSsaU0oBr1n51MvPvXCcZDWgAyCeaGM8nyJi6b7KeZ_QZWHpZpQyMQuU4_xdsLJhrKH554ZlcTrKo3oOBmN6QWrPSlUPahJKOusbCJRiNZOGNSQ5pdnjD9LgxvW_LJT-4y4EaU-nM87faOHsXOk9YiFnyml8boYcMbNfV-YtTM95Xxu9c-7ATYinX75imjY9TTZcSsjAH0N1bTuvch0M8shzc5Z1on4AbboDhe-P8BayTpbVa3KhVSKg",
+      "widthPx": 3024,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Happy Kopi",
+          "uri": "https://maps.google.com/maps/contrib/101049326758099894437",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZmUw4DeZAL85FH8VbdhPOvlr-8vZthJkZPRPHGv4AouGKlg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICbzNiZHg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICbzNiZHg!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMaWvnETSt4YqDM0SIcB5RExi5n5t8QrJkuDRRqJ8Qc3j8x5rudDcKobOUfChacTxQySn-WEZiIHMRGLO6Q9mN1x9Kr7rY1GXwQ9slFR3smRNuJM0ZafkPWUXArvFmVYHuuurcI_IN2GpdHKgU67wUnH_KR9Sw_iee_BGInSc60dhZTtH_WwQ-NmOcuXFxnKC6o6ZJ_I3Z32HbdV3W-i9pXK0PA9-KE0b2YqIhfov6J2aUX7ihnM2R0mx8NjXDSTOdjLgguai4TtZiCzEpd5wGrM7Xsc168x4Rr__Ecf-D99-owowBcpWeWf4L0RwdLz0raGrnltvnyG3I9Kpl5Tk5bPsQ6Ga-FWkFq4_Ve3YrN_HryHrnhVkVLdhi7W4ifOaJ8-8232ryQNp-hknsni1-4AbWk",
+      "widthPx": 960,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Happy Kopi",
+          "uri": "https://maps.google.com/maps/contrib/101049326758099894437",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZmUw4DeZAL85FH8VbdhPOvlr-8vZthJkZPRPHGv4AouGKlg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICbzLilOA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICbzLilOA!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMaS28iCc-BMVK47tUSPYbFnAgB_dHGvd4xLW7jwvG7EOSm-P5VNGUOBpbo9GPF0UWn3PkQpF6M21qmd_lneO5rlz9h64gQ5rMsmwyjTYMxDhBqfL_PL28FPaOOppRIw7mQiLxI2VGMHdDTXpgUhjramm-hpNtKd2ZMCtQmCRvxjsgUuebcvzJRnNil6_DKnGIr9gm32MR5Oy4ekcrDnQ9iN-HBy2G09DTjZN20ntf5JU-qAKnDBy-oaACeitLuK2kQfyNojZbok4ZKA0BeTdi65-3y4_Ip8_CcCU9NSB8vuF3SUZLZQPZNQlO9uXy2aCpPwIeH-Qq5bkDdY2H11Z-Kpev0k0MKbURzR4hfHDXGFZVBIqDef9Hlzsx6TZwwGcedJEzDn829M-akt3rtoC_HXY1w",
+      "widthPx": 2951,
+      "heightPx": 2213,
+      "authorAttributions": [
+        {
+          "displayName": "Happy Kopi",
+          "uri": "https://maps.google.com/maps/contrib/101049326758099894437",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZmUw4DeZAL85FH8VbdhPOvlr-8vZthJkZPRPHGv4AouGKlg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICbzNj-Fw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICbzNj-Fw!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMZjoqcNp3gdyDFMS96JUi7gAwRykrvCAbQDLkFJ4QYfsrIvamCYBk03ufPSyF5STyAOlPf5ZG1Mps_vrZxXfPAUtXuBGYTTbuAtCm5eu9-la6jMePaxdjCK0CF9SjFZMLivhplAMkcEZf_Afuku86Oxmcx8c3BKcisVFTZUJb_VLaNWjfraw7jfc4sKjH6BUJ0M0s36Arsd1hOkQ3iLf7PYHfgbFmxcpdZCgbqPaT3ZYi8zjIMSgNSakWfw9Hq7jGZ5an7THJ_8-D47hubrplgMTJFnvZAensiOOwz_oEbnPkrXnYyQFUTXU29w6QlAVJlUhm_Q-enrPiU5V5m582uvq3bis_FkrLGUanMSTkO4fzsNP0YNk4Y7fTrkJn9Z3pweswGtUJVMavRK4b3lPzjSNDWDTWw",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Happy Kopi",
+          "uri": "https://maps.google.com/maps/contrib/101049326758099894437",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZmUw4DeZAL85FH8VbdhPOvlr-8vZthJkZPRPHGv4AouGKlg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICbzNjZ3wE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICbzNjZ3wE!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMZ7JUzvkAS-ZSbqE6ogduMNAYiAHNJNPyriXnKlTSB7uegUtge1EFLkaCXJmoVR6XAHT9QL47BW20sJ34ssXVVc2VoIIf-KXO8Bt_wbVR76ebgqSSjDWtafjOIRRymzbS-5LigNRsYw85UILpMXFgqIoXvd7auAAPQMeoaGmWjHRk94QihzS3gxH54vwvKZsu7JE1NCOa3kugydkcKeYOT7HplAB9-X48qw32HDM56ePr3lKJPm57TR-BV_M9fXfxHkbfz3YuIqjgGtIO_Zs2Gq6gEIAj81LJwscUgZdkS8RnzHw1ZIoOobClU8Nm_QbFE-pkiZH3PKUSFNX9kBlTXdkBz0y9srQj-gpRLnIt9ohjFk-KQVorD-lsIA3DONPi2DVLHjqp7kzacz2x86UW3kKlJ2",
+      "widthPx": 4096,
+      "heightPx": 2304,
+      "authorAttributions": [
+        {
+          "displayName": "Ire Rosana Ullail",
+          "uri": "https://maps.google.com/maps/contrib/116903004821522683478",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWUDrVDV5ax2tn8vjU8R_uoexlCheQSOFcHX6vnxp54-0-6cPVW=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEOzA5fnsrI6AiQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEOzA5fnsrI6AiQE!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMaayJxM3TZWUz1narwC7LD8kOXKAsxDZe-GAwo1iBG8hFiU2lOZRBWOBYwPZijNuiMO6sJvu8zdrWOgXDE82KLXBTkLDnUBz48daNaAN3Jj1U0NdP_e0xgvU-7TOh4nR5ibHZ-Q8QagbUmGY7Enxwzd3KLqLWPKjcq1LzeVdFvTCuEGKBbdRH_qxLGehHlFFBWVUlKiBGmieU6ZrWyMNIRilW_x70sbInkU3u22GnARZ6T9LbacBFB4ZpjNsfXkBvXbE4iBp4PMseX3minKG7HgwYdIuEUzVJ_FjJ9bm6qyVi3quU27MCp0RnrWNSbILQLiMB6VcEGifypz9ak9s-cQyCPQEqJbAYrQXp32WHRVLr6JKGcskqDWVdV88xomDiqcJqoSc1D1m9Uf3fr55Q6UUuc",
+      "widthPx": 1200,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "Happy Kopi",
+          "uri": "https://maps.google.com/maps/contrib/101049326758099894437",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZmUw4DeZAL85FH8VbdhPOvlr-8vZthJkZPRPHGv4AouGKlg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICbzNiGJw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICbzNiGJw!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMYwEtzbtlNixMg570QTWpobQrfcuvZc-Q82WXpKYk2p1ABY4iNqbr7ZTlIv919w9Fc5pAP2mxmm0u0PQ652YbZQyCbZOp6f-yv9m9eP9a_Fb5M2vLc-9MJHKOe2WXB371daeQ_Beks-sSFAJILlr1-oKncZhEk7F0Iks18ZkKzIGqBamT_JSVZkLg3jLoMbaKF41nyHBOzA8L5fYVXPtUlnlB-cnPAnq1Z_phmzxiClevjbWWU44mRY56B_53krtEdOpG7TiK9fq82wjHrODaqWwsIUHKbuKydRO7uarQj5q3qGmWHvxReQXo0P76BK-RVen1NCmrTOblMexIwYeevlIo2hO_RqHMsTfa4ZAZP3ThnJKMFSIZ5ThRvmv00vHmx81hKAUc-pPIbRNW6K1WtVZuaTr6HjriSyw-bk3oOaYQ",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Abdulloh",
+          "uri": "https://maps.google.com/maps/contrib/103116828827426886048",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVBV503ifdm4Sqivz55nmuOQ53iNLmblhF5yNJkoRmro3Cy8CU=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCLn9_drjRdJ5MSs8-5-hCk&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCLn9_drjRdJ5MSs8-5-hCk!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMbR1wLGOodzsAkvKcoN0pMEDJjfN_EO55gPns8_1z5_3DKzVGAIoJNwZvGv1e5vKm8hSMwZHL0PM51qURFeiZTPu6WhbKcO3xmWSUPGIp_-8uqd_JVoNK_B36OA0RZEUe-SarZDE2fAHGU04pKfokymPEv7YPCZST6ItXSw9g5l2TYSR8PdOIboaSkmYfKAIiwSyf3onHqtjj2cKxaIZFCsU7h5sjERFsDPyrh-QPZ3YWwbmVOnEV4KQ0lmpNPF42eZUhR1dc6pDi0P-cxTo1oQUPGtiujeidvRkk701jLPO_EGVmQ5XDjgJLPLF2XvIMypKH-y_D8a8POAYoVApG001xNfAqkbxjsgwMuozG7a1cMig9YlXEqaZGjJdhaWedFY35BYClVGPRDiQAwH1He-vgY",
+      "widthPx": 3024,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Happy Kopi",
+          "uri": "https://maps.google.com/maps/contrib/101049326758099894437",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKZmUw4DeZAL85FH8VbdhPOvlr-8vZthJkZPRPHGv4AouGKlg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDLmJGUew&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDLmJGUew!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    },
+    {
+      "name": "places/ChIJ40HBfQCLaS4RJtJI75vnU38/photos/Aa-ngMYo1UesK-vuI7CReOdugNrZ_kdU6VxWoLjsow9YPiuWlwsSspETc-eRMISzef7jY_8Yi6zJOsuAli9aAE6q_URI99SXlnwSNXMx-x2PVZ_uAeo7jOX0L1cpk3XL1I3jqUAe9alXJzOms_KhtU6zxBgGjmmMCAMPzzTbEpTSjb1vFooONww609HlzHlfPMBJxLNHRobonvmWMcSqycaohFVH0yxwBvyo7ifym9Xng-E76C4St5prurENlFsKPwJUMtq2wbR4v_x19ubkv6bg_U161KDf6pZ7i9u7wBLRG8ZvXmMr0x-l09DaIO7I7o8joYmIBeqq7fRUbCC3qAvCyhdDlTJmY05Y6H2u_fME-SBe28l2e6QKOh1nG0HXTl3eazoxJjHkwL3Iw9qsEWFtd-S8e4A",
+      "widthPx": 2304,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Ire Rosana Ullail",
+          "uri": "https://maps.google.com/maps/contrib/116903004821522683478",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWUDrVDV5ax2tn8vjU8R_uoexlCheQSOFcHX6vnxp54-0-6cPVW=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEN7-hcLv3KKlYA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEN7-hcLv3KKlYA!2e10!4m2!3m1!1s0x2e698b007dc141e3:0x7f53e79bef48d226"
+    }
+  ]
+}
