@@ -260,7 +260,9 @@ img { max-width: 100%; }
   box-shadow: 0 0 28px rgba(255, 255, 255, 0.5);
 }
 .art-tile svg { display: block; width: 100%; height: 100%; }
-.art-tile--sm { --tile: var(--tile-sm); }
+/* Remove-one-thing pass: the halo stays on the big sandwich tile only. On a small tile a
+   white glow against a white lit cell is invisible, so it was decoration without a job. */
+.art-tile--sm { --tile: var(--tile-sm); box-shadow: none; }
 .art-tile--lg { --tile: var(--tile-lg); }
 
 /* Coffee: wall 4 + shelf 8. The can is the tall cubby; the drawings stack beside it. */

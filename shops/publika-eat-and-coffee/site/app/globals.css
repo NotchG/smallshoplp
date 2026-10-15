@@ -21,6 +21,7 @@
   --container: 75rem;                                            /* 1200px */
   --gutter: clamp(1.25rem, 0.786rem + 1.905vw, 2.5rem);          /* 20 -> 40 */
   --section-y: clamp(3.5rem, 2.2rem + 5.333vw, 7rem);            /* 56 -> 112 */
+  --section-y-join: clamp(3rem, 2.55rem + 1.905vw, 4.5rem);      /* 48 -> 72: two sections on one ground */
   --grid-gap: 24px;
   --head-gap: clamp(24px, 21.7px + 0.6vw, 32px);                 /* heading -> content, 24 -> 32 */
 
@@ -34,15 +35,14 @@
   --leading-head: 1.1;
   --leading-body: 1.55;
 
-  --divider-steel: color-mix(in oklch, var(--color-tile) 16%, var(--color-steel));
-  --seam: color-mix(in oklch, var(--color-timber) 88%, var(--color-steel));
+  --divider-steel: color-mix(in oklab, var(--color-tile) 16%, var(--color-steel));
   --focus: var(--color-steel);
 }
 
 html {
   background: var(--color-tile);
   color: var(--color-steel);
-  scrollbar-color: color-mix(in oklch, var(--color-steel) 45%, var(--color-tile)) var(--color-tile);
+  scrollbar-color: color-mix(in oklab, var(--color-steel) 45%, var(--color-tile)) var(--color-tile);
 }
 body {
   font-family: var(--font-body);
@@ -90,8 +90,6 @@ body {
 .ground-tile { background-color: var(--color-tile); color: var(--color-steel); --focus: var(--color-steel); }
 .ground-timber {
   background-color: var(--color-timber); color: var(--color-steel); --focus: var(--color-steel);
-  /* the long tabletop: a 1px plank seam every 180px */
-  background-image: repeating-linear-gradient(to bottom, transparent 0 179px, var(--seam) 179px 180px);
 }
 .ground-fern { background-color: var(--color-fern); color: var(--color-tile); --focus: var(--color-tile); }
 .ground-steel { background-color: var(--color-steel); color: var(--color-tile); --focus: var(--color-tile); }
@@ -125,7 +123,7 @@ body {
 /* WhatsApp without a number yet: not a link, not focusable, visibly waiting */
 .btn-pending {
   background: transparent; color: var(--color-tile); cursor: not-allowed;
-  border: 1px dashed color-mix(in oklch, var(--color-tile) 55%, var(--color-steel));
+  border: 1px dashed color-mix(in oklab, var(--color-tile) 55%, var(--color-steel));
 }
 .btn-pending::after { display: none; }
 .btn-pending:active { transform: none; }
@@ -138,18 +136,21 @@ body {
 .text-link:hover { text-decoration-thickness: 2px; }
 
 /* ---------- Header ---------- */
-.site-header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 8px; }
+.site-header-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 8px; }
 .wordmark { font-family: var(--font-display); font-weight: 600; font-size: var(--step-body); line-height: 1.2; }
-.site-nav ul { display: flex; gap: 4px; }
+.wordmark { white-space: nowrap; }
+@media (max-width: 379.98px) { .wordmark { white-space: normal; } }
+.site-nav ul { display: flex; gap: 0; margin-right: -6px; }
 .nav-link {
-  display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; padding-inline: 8px;
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; padding-inline: 6px;
   text-decoration: none; font-weight: 500;
 }
 .nav-link:hover { text-decoration: underline; text-underline-offset: 0.28em; }
 .nav-wide { display: none; }
 @media (min-width: 768px) {
   .nav-wide { display: block; }
-  .site-nav ul { gap: 12px; }
+  .site-nav ul { gap: 12px; margin-right: -10px; }
+  .nav-link { padding-inline: 10px; }
 }
 
 /* ---------- Hero ---------- */
@@ -246,9 +247,10 @@ body {
 .map-frame {
   position: relative; width: 100%; aspect-ratio: 3 / 2; overflow: hidden;
   border: 1px solid var(--divider-steel);
-  background: color-mix(in oklch, var(--color-tile) 6%, var(--color-steel));
+  background: color-mix(in oklab, var(--color-tile) 6%, var(--color-steel));
 }
 .map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.map-frame:has(iframe:focus-visible), .map-frame:has(iframe:focus) { outline: 2px solid var(--focus); outline-offset: 3px; }
 /* what shows until (or if) the embed loads: a pin and the address, never an empty box */
 .map-fallback {
   position: absolute; inset: 0; display: grid; place-content: center; justify-items: center;
@@ -259,12 +261,13 @@ body {
 .map-link .text-link { font-size: var(--step-small); }
 
 /* ---------- Hubungi kami ---------- */
+.visit { padding-bottom: var(--section-y-join); }
 .contact { padding-top: 0; }
-.contact-inner { border-top: 1px solid var(--divider-steel); padding-top: var(--section-y); }
+.contact-inner { border-top: 1px solid var(--divider-steel); padding-top: var(--section-y-join); }
 .contact-grid { display: grid; row-gap: 24px; }
 .contact-actions { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; margin-top: 28px; }
 .wa-group { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
-.wa-note { color: color-mix(in oklch, var(--color-tile) 82%, var(--color-steel)); }
+.wa-note { color: color-mix(in oklab, var(--color-tile) 82%, var(--color-steel)); }
 @media (min-width: 1024px) {
   .contact-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); align-items: start; }
   .contact-grid > h2 { grid-column: 1 / span 6; padding-right: 24px; }
@@ -283,13 +286,14 @@ body {
 @media (min-width: 768px) {
   .lt { padding-top: 64px; --t: 14cqi; --ky: 1; }
 }
-.lt-ferns { position: absolute; inset: 0; pointer-events: none; }
+.lt-ferns { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+/* hanging ferns seen from above, over the outer corners of the table */
 .lt-fern { position: absolute; display: block; height: auto; }
-.lt-fern--a { left: -4cqi; top: 0; width: 15cqi; }
-.lt-fern--b { right: -5cqi; bottom: -2cqi; width: 17cqi; }
+.lt-fern--a { left: 0; top: 4px; width: 13cqi; }
+.lt-fern--b { right: 0; bottom: -10px; width: 14cqi; }
 @media (min-width: 768px) {
-  .lt-fern--a { left: -2.5cqi; top: 4px; width: 11cqi; }
-  .lt-fern--b { right: -3cqi; bottom: -1cqi; width: 12cqi; }
+  .lt-fern--a { left: 0; top: 8px; width: 10cqi; }
+  .lt-fern--b { right: 0; bottom: -14px; width: 11cqi; }
 }
 .lt-row { position: relative; display: flex; justify-content: center; }
 .lt-glows { position: absolute; inset: 0; z-index: 0; opacity: 0.42; pointer-events: none; }
@@ -321,9 +325,9 @@ html[data-motion="on"] .lt-table {
 html[data-motion="on"] .lt-glow { opacity: 0; }
 
 /* ---------- Footer ---------- */
-.site-footer-inner { border-top: 1px solid var(--divider-steel); padding-block: 24px 32px; display: grid; gap: 4px; }
-.footer-link { text-decoration: underline; text-underline-offset: 0.25em; padding-block: 12px; }
-.footer-note { color: color-mix(in oklch, var(--color-tile) 82%, var(--color-steel)); }
+.site-footer-rule { border-top: 1px solid var(--divider-steel); padding-block: 24px 32px; display: grid; gap: 12px; }
+.footer-link { text-decoration: underline; text-underline-offset: 0.25em; padding-block: 14px; }
+.footer-note { color: color-mix(in oklab, var(--color-tile) 82%, var(--color-steel)); }
 
 /* Lenis */
 html.lenis, html.lenis body { height: auto; }

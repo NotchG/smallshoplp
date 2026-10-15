@@ -123,8 +123,15 @@ publish() {
     .shops |= map(if .slug == $s then . + {coolify_uuid: $u, preview_url: $url, updated_at: $now} else . end)
   ' "$SHOPS_JSON" | write_shops_json
 
-  api GET "/deploy?uuid=$uuid" >/dev/null && echo "✓ $slug: deploying → $preview" \
-    || echo "! $slug: app ready but deploy didn't start; press Deploy in Coolify"
+  # Coolify versions differ on how a deploy is started; try each form quietly.
+  if api POST "/deploy?uuid=$uuid" >/dev/null 2>&1 \
+    || api GET "/deploy?uuid=$uuid" >/dev/null 2>&1 \
+    || api POST "/applications/$uuid/start" >/dev/null 2>&1 \
+    || api GET "/applications/$uuid/start" >/dev/null 2>&1; then
+    echo "✓ $slug: deploying → $preview"
+  else
+    echo "! $slug: app ready but deploy didn't start; press Deploy in Coolify"
+  fi
 
   if [ "${#manual[@]}" -gt 0 ]; then
     echo "  Set by hand in Coolify (this version's API refused them):"

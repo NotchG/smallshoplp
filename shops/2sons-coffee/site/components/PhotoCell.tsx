@@ -41,7 +41,7 @@ export default function PhotoCell({
           style={{ objectPosition: photo.position }}
           {...(priority
             ? { fetchPriority: "high" as const, loading: "eager" as const }
-            : { loading: "lazy" as const, decoding: "async" as const })}
+            : { loading: "lazy" as const })}
         />
       </div>
       {(caption || children) && (

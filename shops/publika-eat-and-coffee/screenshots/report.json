@@ -1,0 +1,347 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6227,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Makan dan ngopi di Jakarta Garden City\"",
+        "fontSize": 40,
+        "lineHeight": "42px",
+        "textWidth": 264,
+        "pctOfContentWidth": 75
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 237,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h3 \"Nasi Goreng Wagyu\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 151,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Tuna Bakar Sambal Matah\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 181,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Kopi & teh\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 129,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Pisang Goreng & Teh\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 167,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Tiramisu\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 112,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Banana Split\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 162,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#datang-title \"Datang untuk…\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 255,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h3 \"Pagi akhir pekan\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 210,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Kerja\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 67,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Rombongan & meeting\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 277,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 214,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 236,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#rombongan-title \"Ketemu di Publika, ya?\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 21
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6137,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Makan dan ngopi di Jakarta Garden City\"",
+        "fontSize": 51.5,
+        "lineHeight": "54.0951px",
+        "textWidth": 577,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 35,
+        "lineHeight": "38.5437px",
+        "textWidth": 275,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Nasi Goreng Wagyu\"",
+        "fontSize": 23.4,
+        "lineHeight": "29.2996px",
+        "textWidth": 255,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Tuna Bakar Sambal Matah\"",
+        "fontSize": 23.4,
+        "lineHeight": "29.2996px",
+        "textWidth": 192,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Kopi & teh\"",
+        "fontSize": 23.4,
+        "lineHeight": "29.2996px",
+        "textWidth": 137,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Pisang Goreng & Teh\"",
+        "fontSize": 23.4,
+        "lineHeight": "29.2996px",
+        "textWidth": 273,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Tiramisu\"",
+        "fontSize": 23.4,
+        "lineHeight": "29.2996px",
+        "textWidth": 119,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Banana Split\"",
+        "fontSize": 23.4,
+        "lineHeight": "29.2996px",
+        "textWidth": 172,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#datang-title \"Datang untuk…\"",
+        "fontSize": 35,
+        "lineHeight": "38.5437px",
+        "textWidth": 296,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Pagi akhir pekan\"",
+        "fontSize": 23.4,
+        "lineHeight": "29.2996px",
+        "textWidth": 223,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Kerja\"",
+        "fontSize": 23.4,
+        "lineHeight": "29.2996px",
+        "textWidth": 71,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Rombongan & meeting\"",
+        "fontSize": 23.4,
+        "lineHeight": "29.2996px",
+        "textWidth": 295,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 35,
+        "lineHeight": "38.5437px",
+        "textWidth": 249,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 35,
+        "lineHeight": "38.5437px",
+        "textWidth": 274,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#rombongan-title \"Ketemu di Publika, ya?\"",
+        "fontSize": 35,
+        "lineHeight": "38.5437px",
+        "textWidth": 434,
+        "pctOfContentWidth": 61
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 21
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4946,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Makan dan ngopi di Jakarta Garden City\"",
+        "fontSize": 72,
+        "lineHeight": "75.599px",
+        "textWidth": 464,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 44,
+        "lineHeight": "48.3995px",
+        "textWidth": 343,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Nasi Goreng Wagyu\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 282,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Tuna Bakar Sambal Matah\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 213,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Kopi & teh\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 152,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Pisang Goreng & Teh\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 303,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Tiramisu\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 131,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Banana Split\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 191,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#datang-title \"Datang untuk…\"",
+        "fontSize": 44,
+        "lineHeight": "48.3995px",
+        "textWidth": 369,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Pagi akhir pekan\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 247,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Kerja\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 79,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Rombongan & meeting\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 326,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "48.3995px",
+        "textWidth": 311,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.3995px",
+        "textWidth": 342,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#rombongan-title \"Ketemu di Publika, ya?\"",
+        "fontSize": 44,
+        "lineHeight": "48.3995px",
+        "textWidth": 541,
+        "pctOfContentWidth": 45
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 21
+  }
+}

@@ -42,7 +42,7 @@ Work top to bottom. Tick each step only when its "done when" holds.
       Check with reduced motion: no `data-motion` attribute, page lit from the first frame, Lenis off.
       Check with JS off: the page is lit and every text is visible. Then check the skip link, focus
       ring, 48px buttons, alt text, the map iframe title, and that TodayHours says its status in text.
-- [ ] 9. Visual review. `npm run build && npm run shots`, then open the screenshots in
+- [x] 9. Visual review. `npm run build && npm run shots`, then open the screenshots in
       `shops/2sons-coffee/screenshots/` and `report.json`. Fix and repeat, up to 3 rounds.
       Shop-specific checks:
       - h1 "2sons" is about 89px at 390 and 160px at 1440; h2 is 36px and 60px.
@@ -53,12 +53,12 @@ Work top to bottom. Tick each step only when its "done when" holds.
       Done when: report.json shows no overlapping text and no horizontal scroll; display and
       heading sizes match the design brief; and the 390 and 1440 screenshots pass the
       builder's visual checklist.
-- [ ] 10. Remove-one-thing pass. Cut one animation or decoration that isn't earning its place.
+- [x] 10. Remove-one-thing pass. Cut one animation or decoration that isn't earning its place.
       First candidates: the LED-tick bullets in "kata mereka.", the light falloff in non-hero cells,
       and the halo on small art tiles.
-- [ ] 11. Final checks. Build passes; banner present; `data-mockup` on every mockup item;
+- [x] 11. Final checks. Build passes; banner present; `data-mockup` on every mockup item;
       `noindex` on; final `npm run shots` so the screenshots match the finished site.
       Also check that no `photo-*.jpg` is in `public/`, no review is quoted or named, and kopi gula
       aren is not featured.
-- [ ] 12. Write `shops/2sons-coffee/owner-checklist.md` from the PRD's open questions plus every placeholder.
+- [x] 12. Write `shops/2sons-coffee/owner-checklist.md` from the PRD's open questions plus every placeholder.
       That is all 16 PRD questions plus anything added while building.
