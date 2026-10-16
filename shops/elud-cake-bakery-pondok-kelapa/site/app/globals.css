@@ -1,0 +1,323 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–5.
+   Colours and fonts become Tailwind utilities (bg-lemon, text-brick, font-display...). */
+@theme {
+  --color-lemon: #f2e94e;  /* signboard: hero panel, Produk baru, primary buttons on dark */
+  --color-brick: #a3201c;  /* fascia band, Kue, footer; plaque border and text */
+  --color-ink: #1a1712;    /* top strip, Kunjungi, text on light grounds */
+  --color-tag: #b3145a;    /* price tags only, never decoration or buttons */
+  --color-white: #ffffff;  /* Roti, Kata mereka, plaques, fridge, banner */
+  --color-tray: #ece7df;   /* travertine trays, fridge racks, cake boards */
+  --color-paper: #ffffff;
+}
+
+@theme inline {
+  --font-display: var(--font-holtwood), "Rockwell", serif;
+  --font-body: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;          /* max content width */
+  --gutter: 20px;               /* page margin on phone */
+  --section-y: 64px;            /* section padding on phone */
+
+  /* All clamps run over 390 → 1440px. */
+  --step-display: clamp(6rem, 2.657rem + 13.71vw, 15rem);        /* 96 → 240: "ELUD" only */
+  --step-head: clamp(1.875rem, 1.364rem + 2.095vw, 3.25rem);     /* 30 → 52 */
+  --step-lead: clamp(1.375rem, 1.236rem + 0.5714vw, 1.75rem);    /* 22 → 28 */
+  --step-body: clamp(1.0625rem, 1.039rem + 0.09524vw, 1.125rem); /* 17 → 18 */
+  --step-small: 0.8125rem;                                       /* 13 */
+
+  --leading-display: 0.9;       /* one word only */
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  --plaque-gap: 32px;           /* plaque to content */
+  --ease-out-quint: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Per-ground helpers; overridden by the .ground-* classes below. */
+  --focus: var(--color-ink);
+  --wire: rgb(26 23 18 / 0.35);
+  --btn-bg: var(--color-ink);
+  --btn-fg: var(--color-lemon);
+  --btn-line: var(--color-ink);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 32px; --section-y: 112px; --plaque-gap: 48px; }
+}
+@media (min-width: 1024px) {
+  :root { --gutter: 40px; }
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  scrollbar-color: var(--color-brick) var(--color-tray);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: lining-nums;
+}
+::selection { background: var(--color-ink); color: var(--color-lemon); }
+a { text-underline-offset: 0.2em; }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.3; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.4; }
+.measure   { max-width: 60ch; }
+
+/* ---------- Grounds (full-bleed section colours) ---------- */
+.ground-white { background: var(--color-white); color: var(--color-ink); }
+.ground-lemon { background: var(--color-lemon); color: var(--color-ink); }
+.ground-lemon ::selection { background: var(--color-ink); color: var(--color-lemon); }
+.ground-brick, .ground-ink {
+  color: var(--color-white);
+  --focus: var(--color-lemon);
+  --wire: rgb(255 255 255 / 0.5);
+  --btn-bg: var(--color-lemon);
+  --btn-fg: var(--color-ink);
+  --btn-line: var(--color-white);
+}
+.ground-brick { background: var(--color-brick); }
+.ground-ink { background: var(--color-ink); }
+.ground-brick ::selection, .ground-ink ::selection { background: var(--color-lemon); color: var(--color-ink); }
+
+/* Visually hidden, still read by screen readers. */
+.vh {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; opacity: 0;
+}
+
+/* ---------- Focus, skip link ---------- */
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+.skip-link {
+  position: absolute; left: 12px; top: -200px; z-index: 50;
+  background: var(--color-ink); color: var(--color-lemon);
+  padding: 12px 18px; border-radius: 10px; font-weight: 700;
+  --focus: var(--color-ink);
+}
+.skip-link:focus { top: 12px; }
+
+/* ---------- Draft banner (white, above the ink strip) ---------- */
+.mockup-banner {
+  font-size: var(--step-small); line-height: 1.4; text-align: center; padding: 8px 20px;
+  background: var(--color-white); color: var(--color-ink);
+  border-bottom: 1px solid var(--color-tray);
+}
+
+/* ---------- Fascia (hero brick band) ---------- */
+.fascia { display: grid; }
+.fascia-name { display: grid; }
+.fascia-elud {
+  font-size: var(--step-display); line-height: var(--leading-display);
+  letter-spacing: 0; /* wood type is already wide; no tracking */
+}
+@media (min-width: 1280px) {
+  /* ELUD left; "Cake & Bakery" and the location stacked to its right, on ELUD's baseline. */
+  .fascia {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr auto;
+    column-gap: 40px;
+  }
+  .fascia-name {
+    grid-column: 1 / 3; grid-row: 1 / 3;
+    grid-template-columns: subgrid; grid-template-rows: subgrid;
+  }
+  .fascia-elud { grid-column: 1; grid-row: 1 / 3; align-self: end; }
+  .fascia-rest { grid-column: 2; grid-row: 1; align-self: end; }
+  .fascia-loc { grid-column: 2; grid-row: 2; padding-bottom: 0.35em; }
+}
+
+/* ---------- Plaque (section h2 as a hanging shelf sign) ---------- */
+.plaque-wrap { position: relative; display: inline-block; max-width: 100%; padding-top: 28px; }
+.plaque-wire {
+  position: absolute; top: 0; width: 1px; height: 28px; background: var(--wire);
+}
+.plaque {
+  display: block;
+  background: var(--color-white); color: var(--color-brick);
+  border: 3px solid var(--color-brick); border-radius: 10px;
+  padding: 10px 20px;
+  font-size: var(--step-head); line-height: var(--leading-head);
+  font-weight: 800; text-transform: uppercase; letter-spacing: 0.02em;
+  text-wrap: balance;
+}
+
+/* Small shelf signs (Croissant, Roll...). Same sign, smaller. */
+.shelf-sign {
+  display: inline-flex; align-items: baseline; flex-wrap: wrap; column-gap: 10px;
+  background: var(--color-white); color: var(--color-brick);
+  border: 2px solid var(--color-brick); border-radius: 8px;
+  padding: 6px 14px;
+  font-size: var(--step-body); line-height: 1.25; font-weight: 800;
+  text-transform: uppercase; letter-spacing: 0.03em;
+}
+.shelf-sign-price {
+  color: var(--color-tag); text-transform: none; letter-spacing: 0; font-weight: 700;
+}
+
+/* ---------- Price tag (magenta = price, nothing else) ---------- */
+.tag {
+  position: relative;
+  display: inline-flex; flex-direction: column; align-items: flex-start;
+  background: var(--color-tag); color: var(--color-white);
+  border-radius: 6px;
+  padding: 10px 14px 11px;
+  transform: rotate(-3deg); transform-origin: 0 0;
+  box-shadow: 0 8px 18px -8px rgb(26 23 18 / 0.45);
+  font-variant-numeric: tabular-nums lining-nums;
+}
+.tag::before {
+  /* the printed white frame of Elud's acrylic tags */
+  content: ""; position: absolute; inset: 4px; border-radius: 3px;
+  border: 1px solid rgb(255 255 255 / 0.4); pointer-events: none;
+}
+.tag-name { font-size: var(--step-body); font-weight: 700; line-height: 1.2; text-wrap: balance; }
+.tag-prices { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 8px; row-gap: 6px; margin-top: 10px; }
+.tag-was {
+  font-size: var(--step-small); font-weight: 500;
+  text-decoration: line-through; text-decoration-thickness: 2px;
+}
+.tag-now { font-size: var(--step-lead); font-weight: 800; line-height: 1.1; }
+
+/* Hero size */
+.tag-hero { padding: 14px 20px 16px; border-radius: 8px; }
+.tag-hero::before { inset: 5px; border-radius: 4px; }
+.tag-hero .tag-prices { column-gap: 14px; margin-top: 12px; }
+.tag-hero .tag-was {
+  position: relative; display: inline-block;
+  font-size: var(--step-lead); text-decoration: none; line-height: 1.2;
+}
+.tag-hero .tag-now { display: inline-block; font-size: var(--step-head); }
+.strike { position: absolute; left: -3px; right: -3px; top: 52%; height: 3px; overflow: hidden; }
+.strike-bar { display: block; width: 100%; height: 100%; background: var(--color-white); border-radius: 2px; }
+
+/* ---------- Trays and fridge ---------- */
+.tray {
+  position: relative;
+  background: var(--color-tray);
+  border-radius: 16px;
+  box-shadow: inset 0 0 0 6px rgb(26 23 18 / 0.04);
+}
+.tray-tag { position: absolute; left: 12px; bottom: -14px; }
+
+.fridge {
+  background: var(--color-white); color: var(--color-ink);
+  border-radius: 16px;
+  box-shadow: 0 24px 48px -28px rgb(0 0 0 / 0.55);
+  --focus: var(--color-ink);
+}
+.rack { border-bottom: 6px solid var(--color-tray); }
+
+.after-plaque { margin-top: var(--plaque-gap); }
+.tag-unit { font-size: var(--step-small); font-weight: 600; white-space: nowrap; }
+.tray-tag { max-width: calc(100% - 24px); }
+
+/* Roti trays: the tag sits on the tray's lower-left edge, touching the bag. */
+.tray-card { padding: 10px 8px 22px; }
+.tray-card + .tray-tag { align-self: flex-start; margin: -30px 0 0 10px; position: relative; }
+.tray-art { display: block; width: 100%; height: auto; }
+@media (min-width: 1024px) { .tray-card { padding: 16px 14px 26px; } .tray-card + .tray-tag { margin-left: 14px; } }
+
+/* Hero tray: three bags of Roti Smoke Beef, the tag on the lower-left edge. */
+.hero-tray { aspect-ratio: 4 / 3; }
+.hero-bag { position: absolute; height: auto; }
+.hero-bag-back1 { left: 2%; top: 1%; width: 50%; }
+.hero-bag-back2 { left: 47%; top: -2%; width: 50%; }
+.hero-bag-front { right: 1%; top: 22%; width: 68%; }
+.hero-tray > .tray-tag { position: absolute; left: 12px; bottom: -28px; }
+@media (min-width: 768px) {
+  .hero-tray { aspect-ratio: 16 / 9; }
+  .hero-bag-back1 { left: 6%; top: 4%; width: 42%; }
+  .hero-bag-back2 { left: 50%; top: 2%; width: 42%; }
+  .hero-bag-front { right: 4%; top: auto; bottom: 6%; width: 58%; }
+  .hero-tray > .tray-tag { bottom: -14px; }
+}
+
+/* Kue fridge: white panel; cakes stand on tray-colour racks that run the full row,
+   tags hang from the rack edge. Subgrid keeps every rack in a row at one height. */
+.fridge-grid {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 0; row-gap: 0;
+  padding: 20px 6px 8px;
+}
+.fridge-item { display: grid; grid-row: span 3; grid-template-rows: subgrid; padding-bottom: 32px; }
+.fridge-lead { grid-column: 1 / -1; }
+.fridge-cell { display: flex; align-items: flex-end; justify-content: center; padding: 8px 10px 0; }
+.fridge-art { display: block; width: 100%; height: auto; }
+.fridge-lead .fridge-art { max-width: 400px; }
+.fridge-item > .tag { justify-self: start; align-self: start; margin: -12px 0 0 12px; max-width: calc(100% - 20px); }
+@media (min-width: 1024px) {
+  .fridge-grid { grid-template-columns: 1.4fr 1fr 1fr; padding: 28px 24px 8px; }
+  .fridge-lead { grid-column: auto; }
+  .fridge-cell { padding: 12px 24px 0; }
+  .fridge-item:not(.fridge-lead) .fridge-art { max-width: 280px; }
+  .fridge-item > .tag { margin-left: 24px; }
+}
+
+/* Produk baru: no trays; the tag tucks under the item. */
+.baru-art { display: block; width: 100%; height: auto; }
+.baru-tag { align-self: flex-start; margin: -14px 0 0 8px; max-width: calc(100% - 8px); }
+
+/* ---------- Buttons ---------- */
+.btn {
+  position: relative; isolation: isolate;
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 48px; padding: 10px 22px;
+  border-radius: 10px;
+  font-size: var(--step-body); font-weight: 700; line-height: 1.2;
+  text-decoration: none; white-space: nowrap;
+  transition: transform 150ms ease-out;
+}
+.btn::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; z-index: -1;
+  background: currentColor; opacity: 0; transition: opacity 150ms ease-out; pointer-events: none;
+}
+@media (hover: hover) { .btn:hover::after { opacity: 0.12; } }
+.btn:active { transform: translateY(1px); }
+.btn-primary { background: var(--btn-bg); color: var(--btn-fg); }
+.btn-secondary { border: 2px solid var(--btn-line); color: var(--btn-line); padding-inline: 20px; }
+.btn svg { flex: none; }
+
+/* ---------- Signature: the hero tag marks itself down (CSS only, from first paint) ---------- */
+@keyframes strike-draw { from { transform: translateX(-101%); } to { transform: translateX(0); } }
+@keyframes price-drop {
+  from { transform: translateY(-14px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes tag-nudge {
+  0% { transform: rotate(-3deg); }
+  35% { transform: rotate(-6deg); }
+  70% { transform: rotate(-1.5deg); }
+  100% { transform: rotate(-3deg); }
+}
+.sig-strike { animation: strike-draw 0.3s var(--ease-out-quint) 0.3s both; }
+.sig-now { animation: price-drop 0.35s var(--ease-out-quint) 0.5s both; }
+.sig-tag { animation: tag-nudge 0.55s ease-in-out 0.55s both; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  /* The rule above shortens duration but not delay: show the signature's final state at once. */
+  .sig-strike, .sig-now, .sig-tag { animation: none !important; }
+}

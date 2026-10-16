@@ -1,0 +1,342 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–§5.
+   Colours and fonts become Tailwind utilities (bg-fondant, text-grape, font-display...). */
+@theme {
+  /* Palette */
+  --color-fondant: #fffbfc;      /* page ground, cards inside bands */
+  --color-grape: #2e1a47;        /* all text and headings, footer, letter colour 3 */
+  --color-strawberry: #c2255c;   /* actions, gallery CTA card, letter colour 1 */
+  --color-laut: #0b7178;         /* letter colour 2, step numerals, focus ring, links on Fondant */
+  --color-bubblegum: #ffd3e1;    /* hero arch card, Hubungi band, order plaque, gallery cards */
+  --color-butter: #ffe38a;       /* Cara pesan band, gallery cards, flavour chips */
+  /* Tints */
+  --color-toska: #c9eeec;
+  --color-lilac: #e6dbf7;
+  --color-grape-soft: #5a4a6e;   /* captions and secondary text */
+  /* Letter extrusion shades */
+  --color-strawberry-deep: #8a1640;
+  --color-laut-deep: #064a4f;
+  --color-grape-deep: #170c26;
+
+  --font-display: var(--font-corben), "Corben", ui-serif, Georgia, serif;
+  --font-body: var(--font-mplus), "M PLUS Rounded 1c", ui-rounded, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;                                  /* max content width */
+  --gutter: clamp(1.25rem, 0.5rem + 3vw, 2.5rem);       /* 20 / 40px */
+  --section-y: clamp(3.5rem, 2rem + 6vw, 7rem);         /* 56 / 112px */
+  --head-gap: clamp(1.5rem, 1.2rem + 0.8vw, 2rem);      /* space under a heading, 24–32px */
+  --gap: 24px;                                          /* grid gap */
+
+  /* Hero name only. cqi = the hero name wrapper (container-type: inline-size). */
+  --step-display: clamp(3rem, 15cqi, 7rem);     /* 52px at 390 so KITCHEN fits; ≈103px at 1440 */
+  --step-head: clamp(2rem, 1.4rem + 2.4vw, 3rem);       /* 32 / 48px */
+  --step-lead: clamp(1.375rem, 1.3rem + 0.3vw, 1.5rem); /* 22 / 24px */
+  --step-body: clamp(1.0625rem, 1.03rem + 0.15vw, 1.125rem); /* 17 / 18px */
+  --step-small: clamp(0.85rem, 0.82rem + 0.12vw, 0.9rem);    /* 13.6 / 14.4px */
+
+  --leading-display: 1.05;
+  --leading-head: 1.1;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+
+  /* Corners */
+  --r-card: 24px;
+  --r-photo: 16px;
+  --r-button: 16px;
+
+  /* Size silhouettes: drawn to one scale (design brief §6) */
+  --cm: 5px;
+}
+@media (min-width: 768px) {
+  :root { --gap: 24px; --cm: 6.5px; }
+}
+@media (min-width: 1024px) {
+  :root { --cm: 8px; }
+}
+
+@layer base {
+  html {
+    background: var(--color-fondant);
+    color: var(--color-grape);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: var(--step-body);
+    line-height: var(--leading-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Browser surfaces, themed from the palette */
+  ::selection { background: var(--color-bubblegum); color: var(--color-grape); }
+  input, textarea { caret-color: var(--color-strawberry); }
+  :focus-visible {
+    outline: 3px solid var(--color-laut);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .on-strawberry :focus-visible { outline-color: var(--color-fondant); }
+
+  .container-page {
+    width: 100%;
+    max-width: calc(var(--container) + 2 * var(--gutter));
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+  .section { padding-block: var(--section-y); }
+  .head-gap { margin-bottom: var(--head-gap); }
+
+  .t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+  .t-head    { font-family: var(--font-display); font-weight: 700; font-size: var(--step-head); line-height: var(--leading-head); letter-spacing: -0.01em; text-wrap: balance; }
+  .t-lead    { font-family: var(--font-display); font-weight: 400; font-size: var(--step-lead); line-height: var(--leading-lead); text-wrap: pretty; }
+  .t-body    { font-size: var(--step-body); line-height: var(--leading-body); }
+  .t-small   { font-size: var(--step-small); line-height: 1.45; }
+  .t-strong  { font-weight: 800; }
+
+  .measure { max-width: 62ch; }
+
+  /* Text links on Fondant: Laut. On bands: Grape, underlined. */
+  .link {
+    color: var(--color-laut);
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.22em;
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .link-on-band { color: var(--color-grape); }
+
+  /* ---------- Fondant letters (hero name + order plaque preview) ---------- */
+  .fondant-name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+  }
+  .fondant-word { white-space: nowrap; display: inline-block; }
+  .fondant-letter {
+    display: inline-block;
+    margin-right: 0.025em;
+    color: var(--l);
+    text-shadow:
+      0 0.055em 0 var(--l-deep),
+      0 0.11em 0.14em rgb(46 26 71 / 0.16);
+    will-change: auto;
+  }
+  .fondant-letter[data-c="0"] { --l: var(--color-strawberry); --l-deep: var(--color-strawberry-deep); }
+  .fondant-letter[data-c="1"] { --l: var(--color-laut); --l-deep: var(--color-laut-deep); }
+  .fondant-letter[data-c="2"] { --l: var(--color-grape); --l-deep: var(--color-grape-deep); }
+
+  /* Hero letters: hidden only when motion is allowed and JS has flagged the page
+     (inline head script). A 2 s failsafe shows them even if GSAP never runs. */
+  html[data-motion="ok"] .hero-name .fondant-letter {
+    opacity: 0;
+    animation: letter-failsafe 0.01s linear 2s forwards;
+  }
+  @keyframes letter-failsafe { to { opacity: 1; } }
+
+  .hero-name-wrap { container-type: inline-size; }
+  .hero-name { font-size: var(--step-display); line-height: var(--leading-display); }
+
+  /* Order card preview letters: equal to the section heading, never larger. */
+  .plaque-word { font-size: var(--step-head); line-height: 1.15; }
+  .plaque.is-live .fondant-letter {
+    transition: opacity 180ms ease-out, translate 180ms ease-out;
+  }
+  @starting-style {
+    .plaque.is-live .fondant-letter { opacity: 0; translate: 0 -6px; }
+  }
+  .fondant-letter.is-placeholder { opacity: 0.45; }
+
+  /* Scalloped plaque: bumps along every edge around a Bubblegum fill. */
+  .plaque {
+    --r: 9px;
+    --dot: radial-gradient(circle closest-side, var(--color-bubblegum) 97%, #0000 100%);
+    background:
+      var(--dot) left top / calc(2 * var(--r)) calc(2 * var(--r)) round no-repeat,
+      var(--dot) left bottom / calc(2 * var(--r)) calc(2 * var(--r)) round no-repeat,
+      var(--dot) left top / calc(2 * var(--r)) calc(2 * var(--r)) no-repeat round,
+      var(--dot) right top / calc(2 * var(--r)) calc(2 * var(--r)) no-repeat round,
+      linear-gradient(var(--color-bubblegum), var(--color-bubblegum)) center / calc(100% - 2 * var(--r)) calc(100% - 2 * var(--r)) no-repeat;
+  }
+
+  /* ---------- Buttons: fondant slab with a static darker bottom edge ---------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6em;
+    min-height: 52px;
+    padding: 0.7em 1.4em;
+    border-radius: var(--r-button);
+    font-family: var(--font-body);
+    font-weight: 800;
+    font-size: var(--step-body);
+    line-height: 1.2;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 150ms ease-out;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn svg { width: 1.2em; height: 1.2em; flex: none; }
+  .btn-row { justify-content: flex-start; text-align: left; }
+  .btn-primary {
+    background: var(--color-strawberry);
+    color: var(--color-fondant);
+    box-shadow: 0 3px 0 var(--color-strawberry-deep);
+  }
+  .btn-secondary {
+    background: var(--color-fondant);
+    color: var(--color-grape);
+    box-shadow: inset 0 0 0 2px var(--color-grape), 0 3px 0 var(--color-grape);
+  }
+  .btn-light {
+    background: var(--color-fondant);
+    color: var(--color-strawberry-deep);
+    box-shadow: 0 3px 0 var(--color-strawberry-deep);
+  }
+  @media (hover: hover) {
+    .btn:hover { transform: translateY(-2px); }
+  }
+  .btn:active { transform: translateY(1px); }
+
+  /* ---------- Cards, fields, chips ---------- */
+  .card { border-radius: var(--r-card); }
+  .label {
+    display: block;
+    font-size: var(--step-small);
+    line-height: 1.3;
+    font-weight: 800;
+    margin-bottom: 6px;
+  }
+  .input {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    background: #fff;
+    color: var(--color-grape);
+    font: inherit;
+    font-weight: 500;
+    border: 2px solid var(--color-grape-soft);
+    transition: border-color 150ms ease-out;
+  }
+  .input::placeholder { color: var(--color-grape-soft); opacity: 1; }
+  .input:hover { border-color: var(--color-grape); }
+  .input:focus-visible { border-color: var(--color-laut); outline-offset: 2px; }
+  .input[type="date"] { appearance: none; -webkit-appearance: none; min-width: 0; }
+  .input[type="date"]::-webkit-date-and-time-value { text-align: left; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 6px 16px;
+    border-radius: 999px;
+    background: var(--color-butter);
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  .note-pill {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 12px;
+    background: var(--color-fondant);
+    font-weight: 800;
+  }
+  .numeral {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: var(--step-lead);
+    line-height: var(--leading-lead);
+    color: var(--color-laut);
+    min-width: 1.4em;
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+
+  /* ---------- Photo cards ---------- */
+  .field-toska { background: var(--color-toska); }
+  .field-butter { background: var(--color-butter); }
+  .field-bubblegum { background: var(--color-bubblegum); }
+  .field-lilac { background: var(--color-lilac); }
+
+  .photo { border-radius: var(--r-photo); object-fit: cover; width: 100%; display: block; }
+  .arch { border-radius: 999px 999px var(--r-card) var(--r-card); }
+
+  /* Gallery: 2 columns on phone, 3 from 768, 4 from 1024 */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .gallery-grid > .is-feature,
+  .gallery-grid > .is-cta { grid-column: span 2; }
+  @media (min-width: 768px) {
+    .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); }
+    .gallery-grid > .is-feature { grid-column: span 2; grid-row: span 2; }
+  }
+  @media (min-width: 1024px) {
+    .gallery-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  }
+
+  /* Size silhouettes: one shared scale, one shared table line */
+  .size-stage {
+    height: calc(24 * var(--cm));
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-bottom: 2px solid var(--color-grape);
+    margin-inline: calc(var(--gap) / -2);
+    padding-inline: calc(var(--gap) / 2);
+  }
+  /* The table line runs unbroken across the gaps but stops at the content edges. */
+  .sizes-list > li:nth-child(odd) .size-stage { margin-left: 0; padding-left: 0; }
+  .sizes-list > li:nth-child(even) .size-stage { margin-right: 0; padding-right: 0; }
+  @media (min-width: 1024px) {
+    .sizes-list > li .size-stage {
+      margin-inline: calc(var(--gap) / -2);
+      padding-inline: calc(var(--gap) / 2);
+    }
+    .sizes-list > li:first-child .size-stage { margin-left: 0; padding-left: 0; }
+    .sizes-list > li:last-child .size-stage { margin-right: 0; padding-right: 0; }
+  }
+
+  /* Map: fixed aspect box so it can't shift layout */
+  .map-box { aspect-ratio: 16 / 9; }
+  @media (min-width: 1024px) {
+    /* Beside the pickup photo the map fills the rest of the column. Its height comes
+       from the photo's fixed aspect ratio, so it still can't shift layout. */
+    .map-box { flex: 1 1 auto; aspect-ratio: auto; min-height: 22rem; }
+  }
+  .map-box iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+  /* Lenis */
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+  .lenis.lenis-stopped { overflow: hidden; }
+
+  .mockup-banner {
+    font-size: 13px; line-height: 1.4; text-align: center; padding: 8px 16px;
+    background: var(--color-grape); color: var(--color-fondant);
+    font-weight: 500;
+  }
+
+  [id] { scroll-margin-top: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:hover, .btn:active { transform: none; }
+}

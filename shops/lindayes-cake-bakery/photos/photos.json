@@ -1,0 +1,26 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "LINDAYES Cake & Bakery",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Lenawaty Fang",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Bimbel Les Privat Online Mandiri Prestasi Teladan",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Daniel junaedi samosir",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

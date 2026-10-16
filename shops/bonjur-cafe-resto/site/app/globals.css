@@ -1,0 +1,238 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Colours and fonts become Tailwind utilities (bg-paper, text-ink, font-display...). */
+@theme {
+  --color-paper: #FBFAF6;      /* Putih Tenda: page ground, awning white */
+  --color-ink: #131A3A;        /* Malam: body text, night grounds, banner */
+  --color-muted: #4A5170;      /* secondary text on paper (7.4:1) */
+  --color-accent: #C8322A;
+  --color-red: #C8322A;        /* Merah Balon: primary actions, CAFE & RESTO, roof strip */
+  --color-blue: #1F3A8F;       /* Biru Bonjur: wordmark, h2 on light, stripes, menu ground */
+  --color-blue-soft: #C9D3F0;  /* secondary text on blue (6.8:1) and on ink (11.4:1) */
+  --color-amber: #F2B544;      /* Lampu: bulbs, midday panel, prices on blue */
+  --color-green: #2C5A35;      /* Dinding Hijau: family ground, Ruang kaca tile */
+  --color-green-soft: #CFE0D1; /* secondary text on green (5.8:1) */
+  --color-tile: #F1ECE1;       /* morning panel, Taman tile */
+}
+@theme inline {
+  --font-display: var(--font-yellowtail), "Brush Script MT", cursive;
+  --font-body: var(--font-rubik), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;          /* max content width */
+  --gutter: 20px;               /* page margin on phone */
+  --section-y: 64px;            /* section padding on phone */
+
+  --step-display: clamp(5rem, 3rem + 9vw, 10.5rem);       /* 83px @390, 168px @1440: "Bonjur" only */
+  --step-head: clamp(2.125rem, 1.6rem + 2.4vw, 3.5rem);   /* 35px / 56px: section h2 */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.6vw, 1.75rem);  /* 22px / 28px: lead, h3, paraphrases */
+  --step-body: clamp(1.0625rem, 1.02rem + 0.15vw, 1.125rem); /* 17px / 18px */
+  --step-small: 0.8125rem;                                /* 13px */
+
+  --leading-display: 0.9;       /* one word only */
+  --leading-head: 1.1;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+
+  /* Awning valance: red roof strip + stripes + one scallop per stripe (brief §7). */
+  --awning-h: 45px;             /* 10.5 red + 22.5 stripes + 12 scallop */
+  --awning-tile: 48px;          /* two stripes of 24px */
+  --edge-h: 12px;
+
+  /* Per-ground roles. Sections override these. */
+  --focus: var(--color-blue);
+  --mock-line: var(--color-muted);
+  --soft: var(--color-muted);
+  --btn-line: var(--color-blue);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 28px; --section-y: 88px; }
+}
+@media (min-width: 1024px) {
+  :root {
+    --gutter: 40px;
+    --section-y: 112px;
+    --awning-h: 60px;           /* 14 red + 30 stripes + 16 scallop */
+    --awning-tile: 64px;        /* two stripes of 32px */
+    --edge-h: 16px;
+  }
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  scrollbar-color: var(--color-blue) var(--color-tile);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  caret-color: var(--color-red);
+}
+::selection { background: var(--color-amber); color: var(--color-ink); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); font-weight: 700; letter-spacing: -0.02em; text-wrap: balance; }
+.t-lead    { font-size: var(--step-lead);    line-height: var(--leading-lead); text-wrap: pretty; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.4; }
+.measure   { max-width: 60ch; }
+p, li { text-wrap: pretty; }
+.balance { text-wrap: balance; }
+
+/* Grounds: each sets its text colour and the roles derived from it. */
+.ground-paper { background: var(--color-paper); color: var(--color-ink); }
+.ground-blue {
+  background: var(--color-blue); color: var(--color-paper);
+  --focus: var(--color-amber); --mock-line: var(--color-blue-soft); --soft: var(--color-blue-soft);
+  --btn-line: var(--color-paper);
+}
+.ground-ink {
+  background: var(--color-ink); color: var(--color-paper);
+  --focus: var(--color-amber); --mock-line: var(--color-blue-soft); --soft: var(--color-blue-soft);
+  --btn-line: var(--color-paper);
+}
+.ground-green {
+  background: var(--color-green); color: var(--color-paper);
+  --focus: var(--color-amber); --mock-line: var(--color-green-soft); --soft: var(--color-green-soft);
+  --btn-line: var(--color-paper);
+}
+.ground-tile { background: var(--color-tile); color: var(--color-ink); --mock-line: var(--color-muted); --soft: var(--color-muted); }
+.ground-amber { background: var(--color-amber); color: var(--color-ink); --mock-line: var(--color-ink); --soft: var(--color-ink); --focus: var(--color-ink); }
+.text-soft { color: var(--soft); }
+
+/* [MOCKUP] content: dashed underline in the section's secondary colour. */
+[data-mockup] {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--mock-line);
+  text-underline-offset: 4px;
+}
+.example-tag {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: var(--step-small);
+  line-height: 1.4;
+  color: var(--soft);
+}
+
+/* Focus: 3px blue on paper, 3px amber on dark grounds. */
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+iframe:focus { outline: 3px solid var(--focus); outline-offset: 3px; }
+.skip-link {
+  position: absolute; left: 12px; top: -100px; z-index: 50;
+  background: var(--color-ink); color: var(--color-paper);
+  padding: 12px 16px; font-weight: 600; --focus: var(--color-amber);
+}
+.skip-link:focus { top: 12px; }
+
+/* Buttons: pills, 48px tall. Colour swaps instantly; only transform eases. */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 48px; padding: 0 22px; border-radius: 999px;
+  font-size: var(--step-body); font-weight: 600; line-height: 1.2; text-decoration: none;
+  transition: transform 150ms ease-out;
+  white-space: nowrap;
+}
+.btn svg { flex: none; }
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: scale(0.98); }
+.btn-primary { background: var(--color-red); color: var(--color-paper); }
+.btn-primary:hover { background: #A92720; }
+.btn-secondary { border: 2px solid var(--btn-line); color: var(--btn-line); }
+.btn-secondary:hover { background: var(--btn-line); color: var(--color-ink); }
+.ground-paper .btn-secondary:hover, .btn-secondary.on-paper:hover { color: var(--color-paper); }
+
+.text-link {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 44px;
+  font-weight: 600; text-decoration: underline; text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+.text-link:hover { text-decoration-thickness: 3px; }
+
+/* Hero: awning over everything, photo bleeds right from 1024px. */
+.hero { position: relative; container-type: inline-size; }
+.awning {
+  display: block; width: 100%; height: var(--awning-h);
+  background-image: url("/art/awning.svg");
+  background-repeat: repeat-x;
+  background-size: var(--awning-tile) var(--awning-h);
+}
+.hero .awning { position: absolute; inset-inline: 0; top: 0; z-index: 2; }
+.awning-edge {
+  display: block; width: 100%; height: var(--edge-h);
+  background-image: url("/art/awning-edge.svg");
+  background-repeat: repeat-x;
+  background-size: calc(var(--awning-tile) / 2) var(--edge-h);
+}
+.hero-text { padding-top: calc(var(--awning-h) + 24px); }
+.hero-photo { margin-top: 40px; }
+@media (min-width: 1024px) {
+  .hero-text { padding-top: calc(var(--awning-h) + 48px); padding-bottom: 72px; }
+  /* Photo top tucked under the scallops. */
+  .hero-photo { margin-top: calc(var(--awning-h) - var(--edge-h)); padding-bottom: 24px; }
+}
+.awning-edge { position: relative; margin-top: -1px; }
+.bleed-x { margin-inline: calc(-1 * var(--gutter)); }
+@media (min-width: 1024px) {
+  .bleed-x { margin-inline: 0; }
+  .bleed-right {
+    margin-right: calc(-1 * ((100cqw - min(100cqw, var(--container) + 2 * var(--gutter))) / 2 + var(--gutter)));
+  }
+}
+.wordmark { font-family: var(--font-display); font-weight: 400; letter-spacing: 0; }
+.wordmark-sub {
+  display: block;
+  margin-top: calc(var(--step-display) * 0.24);
+  font-size: var(--step-lead); line-height: 1.1; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-red);
+}
+
+/* Day bar */
+.daybar-svg { display: block; width: 100%; height: 40px; }
+@media (min-width: 1024px) { .daybar-svg { height: 48px; } }
+
+/* Menu lists: inline items with middots between. */
+.dot-list { display: flex; flex-wrap: wrap; column-gap: 0; row-gap: 2px; }
+.dot-list > li:not(:last-child)::after { content: "·"; content: "·" / ""; padding-inline: 0.5em; color: var(--soft); text-decoration: none; display: inline-block; }
+
+/* Hours table */
+.hours-table { border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.hours-table th { width: 9rem; text-align: left; font-weight: 400; padding: 10px 0; }
+.hours-table td { padding: 10px 0; font-weight: 600; }
+
+/* Red rule above each paraphrase. */
+.rule-red::before {
+  content: ""; display: block; width: 24px; height: 3px; margin-bottom: 16px;
+  background: var(--color-red);
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small); line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-ink); color: var(--color-paper);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:hover, .btn:active { transform: none; }
+}

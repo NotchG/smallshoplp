@@ -1,0 +1,377 @@
+{
+  "id": "ChIJ9S3rlpX0aS4RxL8wl8-ILCA",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0812-9884-0096",
+  "internationalPhoneNumber": "+62 812-9884-0096",
+  "formattedAddress": "Jl. Pinang Raya No.10, RT.4/RW.9, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+  "rating": 4.3,
+  "googleMapsUri": "https://maps.google.com/?cid=2318378333365125060&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 11,
+          "minute": 30
+        },
+        "close": {
+          "day": 0,
+          "hour": 21,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 11,
+          "minute": 30
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 11,
+          "minute": 30
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 11,
+          "minute": 30
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 11,
+          "minute": 30
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 11,
+          "minute": 30
+        },
+        "close": {
+          "day": 5,
+          "hour": 21,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 14,
+          "minute": 30
+        },
+        "close": {
+          "day": 6,
+          "hour": 21,
+          "minute": 30
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 11:30 AM – 9:30 PM",
+      "Tuesday: 11:30 AM – 9:30 PM",
+      "Wednesday: 11:30 AM – 9:30 PM",
+      "Thursday: 11:30 AM – 9:30 PM",
+      "Friday: 11:30 AM – 9:30 PM",
+      "Saturday: 2:30 – 9:30 PM",
+      "Sunday: 11:30 AM – 9:30 PM"
+    ],
+    "nextOpenTime": "2026-10-16T04:30:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "userRatingCount": 708,
+  "displayName": {
+    "text": "Rumah Mantan Cafe & Nostalgia",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "editorialSummary": {
+    "text": "Tempat nongkrong yg lucu, unik, dan kreatif dengan aneka menu snack, makanan dan minuman yg unik.",
+    "languageCode": "en"
+  },
+  "reviews": [
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/reviews/ChdDSUhNMG9nS0VJQ0FnSUNRdHVHeS1nRRAB",
+      "relativePublishTimeDescription": "9 years ago",
+      "rating": 3,
+      "text": {
+        "text": "Affordable price of food and beverages. But the chicken bowl got so much rice on it with just a little chicken. I prefer its fried rice (nasi goreng spesial mantan). The ambience is not good. They try so hard in order to fit the youngster, but the result is not quite good. The music is so loud, and it came from a bad speaker, more like a disturbing than comforting.\n\nOther than that, it packed with some uncivilized kids (alay).",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Affordable price of food and beverages. But the chicken bowl got so much rice on it with just a little chicken. I prefer its fried rice (nasi goreng spesial mantan). The ambience is not good. They try so hard in order to fit the youngster, but the result is not quite good. The music is so loud, and it came from a bad speaker, more like a disturbing than comforting.\n\nOther than that, it packed with some uncivilized kids (alay).",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ias Naibaho (iaszz)",
+        "uri": "https://www.google.com/maps/contrib/117054489390609115531/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVC_QlTlW-eGs5DjTfG_1Xb6fMRcPmmUDqj74CnlDFDi4vBn0BbIA=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2017-08-26T17:24:34.141Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNRdHVHeS1nRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNRdHVHeS1nRRAB!2m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/reviews/ChZDSUhNMG9nS0VJQ0FnSUNVbmNDZEZ3EAE",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 3,
+      "text": {
+        "text": "The coffee is not bad and the food is so so. Nice deco but so many mosquitos when you choose the smoking area. Not my favourite coffee&resto afterall.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The coffee is not bad and the food is so so. Nice deco but so many mosquitos when you choose the smoking area. Not my favourite coffee&resto afterall.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ezra Natalyn",
+        "uri": "https://www.google.com/maps/contrib/114209558883129906430/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUBeAgDczSFHcjoaG3FlLid9xX6oBgBhU9zOiS2LOregs6rD1o=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2019-11-13T18:08:10.177396Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNVbmNDZEZ3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNVbmNDZEZ3EAE!2m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/reviews/ChZDSUhNMG9nS0VJQ0FnSUR5azVMd1NREAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "I enjoy the coffee latte taste, not the latte drawing😁",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I enjoy the coffee latte taste, not the latte drawing😁",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Danang Lagi Ngopi",
+        "uri": "https://www.google.com/maps/contrib/103215067154288035665/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX25NOvq5AxO4JbYGfLC3_Gd_KPjxy2gxYe2jwG66-S83gqIEg=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2021-03-16T15:06:44.537672Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUR5azVMd1NREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUR5azVMd1NREAE!2m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/reviews/ChdDSUhNMG9nS0VJQ0FnSUNZMUtIZTd3RRAB",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 5,
+      "text": {
+        "text": "I sing every Saturday from 8-11pm here. They've made some changes and renovation for this place. It becomes more cozy, more exclusive, and they serve great coffees and foods. If you're looking for a place to hang out with your friends, just come here. The price is pretty cheap also.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I sing every Saturday from 8-11pm here. They've made some changes and renovation for this place. It becomes more cozy, more exclusive, and they serve great coffees and foods. If you're looking for a place to hang out with your friends, just come here. The price is pretty cheap also.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "jeydenisee",
+        "uri": "https://www.google.com/maps/contrib/107143587660955831917/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVO5xJTiTh3ii8nthmMAZuxcoIGKuf1DtH2EZYZfXUU-7eb1D2G=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2019-04-04T10:24:12.074768Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNZMUtIZTd3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNZMUtIZTd3RRAB!2m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/reviews/ChZDSUhNMG9nS0VJQ0FnSURZbnNtcVZREAE",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Never been here since I graduated. A lot more comfy than before. Foodbwas good, price is cheap. I suggest you to order carbonara here because it taste beyond my expectation",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Never been here since I graduated. A lot more comfy than before. Foodbwas good, price is cheap. I suggest you to order carbonara here because it taste beyond my expectation",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Zulfi Putraji",
+        "uri": "https://www.google.com/maps/contrib/113170064901296552895/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIxjrGiVGtdvRGE7u-3_mioVJAvDERfSLUXygNLkxugNc1GIcY=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2019-05-13T14:46:45.237677Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURZbnNtcVZREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURZbnNtcVZREAE!2m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngMbssoXsrAm8Qg7tF0drxkJ9MpIunjyExge5L20bATdybUWTdOQHx_ay9hsDmS-CVS5WFe4iqtWmebyV7Q7-aUtg3yNyg5WFT2HqvrB0eGH0K9wdnBVh2oHPB4D2BCS24KcZfc319adSSJur74NAnkVsmu1ch6-URlQ6uYj1SyIttErQhRK9UI8MGvUyl2dRSnZgvWY5mRDXofGrCzNpHkkhUC7Y-jMT_vc8c8qfA7CJ0hwg42guxg7BLpXiK5mU1ygD1y9AJOzegHIKoxpUIZ05PTPVKNCKeiiVf7b3pOS36S9E0yPOe_Ue5eixOxBtH56oqs7Bbkpa5AIC5HRVvgSTXLZm1RQ028VsGzjSPb1QTsWg6mr_CAMLI2orfxnxLJN_Lk92noKaouB3lD_fl0X-gXltShc",
+      "widthPx": 2048,
+      "heightPx": 1152,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Mantan Cafe & Nostalgia",
+          "uri": "https://maps.google.com/maps/contrib/107780127022108983781",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUaiHkkCQ3MrWKv8CnbTgdyEZwvaPgqZlE8DpWRTPJEMI--XHY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC6tafJ0gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC6tafJ0gE!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngMZHxh9-9LTMMxU_7yVdI10iX3a5EbS8FT4EC_odr2XLPdfRSYFPR-BdcfeyZzIRtHNySM1zxrr-l2pLGT6PzdUjy2PdinJOMjFosqKmwR8-R44tklfOrjJNcR1u3oiYYGI3N5i4Hj9dYgdebiPiJZGZaxtHDv783rwf8xfugho8qy49WeVzJA57FdpUhvkLMmCV_yCof_0bWPOmlH-jIce_rFkERkt5U8QU7B3qs0BGhxhP1AVOqo1ENsWNH2lLJMvVpxPsarOSO7asYhvuo6RCqcpE12MxmIHfrbrL0bA-bHpYinwERzugRA2y3ug5HxQdvbOuAB0vf4_6BrKL1MMh-RoRoqKRtm9WLnlg---dnvavRQnpxtf5HC94Q_kwLLvFTuu_y3VQ_b35HiishMZLlfE",
+      "widthPx": 480,
+      "heightPx": 346,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Mantan Cafe & Nostalgia",
+          "uri": "https://maps.google.com/maps/contrib/107780127022108983781",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUaiHkkCQ3MrWKv8CnbTgdyEZwvaPgqZlE8DpWRTPJEMI--XHY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC894yldA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC894yldA!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngMboETpR5vDb1odV3bvNy_wfcws4oKPvLfh9jmewMRf9f5t2N5hcz_jl8KvxtWEM1SjlRE063_ZJhuso5OBXB0c_p_sWM3BcYItDa1L-UmhvH7WaGnGCUHpqBO-Ask_UVXMC2yFIIhcRd_FH3cpyaiPyd2wAeVvFQFQJGAI_o7dzjXDVr-oxvnoaXA5TAlm3xNrVw3_ar9TxQc0znwO1vwouZZ1boMRRfhValmwf5wqFQfy1l7xbDvQG0Is-j6tVVSNANmrYEYcr9nE3UO-zOh11dseC77tA_3fBLk9o-kwclLoHpkSpzJiAdIvbpWjxTOgn6W5cFBLc6zL2StFZPKWi8HD-csYqO4xK7lOtmp4jnrE4kB2tkGYPCYzRdxMYPaJUi_4roC4flla15FcL1MqoqtR9",
+      "widthPx": 1920,
+      "heightPx": 1080,
+      "authorAttributions": [
+        {
+          "displayName": "Adi Ningghar",
+          "uri": "https://maps.google.com/maps/contrib/101334266725745731782",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXOlNZaq8RBA4VA__h73GWGJFgegjb2ABuMlwkrw2rcrZ_Sm9s1=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICEloK1nwE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICEloK1nwE!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngMYZ8HWmD4eIY_CESElSF9NcCmUce-4sLvSo0nO9Ku3c1K8ax1LS-UFEg8eb1yf9oZFmJTYfvCGVK2naDr8h4dGuvzgcMYNNfeORgtcOGE8MIsSt4lTgqivUQE2sg3EstrE_N67Su_rCssUYzOnh_jrvG1mVAmu1edENZV6LlAtZa0pfdBhseJUX3eYJhxooyYKbbO32g75GcifhY-LtS2xiRqHGcTlDbCyDhbkv6II9lsJx43KI9yc0t-LP1EqPo2uk-svJQb2JZM0yZRAlMEvKXFqUslNACu2VJWzii1kQLzIECo4_gcPLUW25CMqBnIewcoRZ4HzFuDB8mbIUathqXBsFLNIYHRdJsPXpTh8M_g6tmoq-xNVArhAmRfKfa6ua8dwrIzqFHhU60NDTNu_0QYQ",
+      "widthPx": 4608,
+      "heightPx": 3456,
+      "authorAttributions": [
+        {
+          "displayName": "Danang Lagi Ngopi",
+          "uri": "https://maps.google.com/maps/contrib/103215067154288035665",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX25NOvq5AxO4JbYGfLC3_Gd_KPjxy2gxYe2jwG66-S83gqIEg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDyk7KkdA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDyk7KkdA!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngMaESFPqSevi0G-kC7j3a646WaoHa-PBKyJk_uUiytej4eQvy_wpSfHrSUOMxZHDRZGMp9agjS-OCD8TJnxh7EpTG8y_4EUY3XymnRAZT1ND5Y5ijC2iIcmA3PWomcbiHvmq6ENiEtO47gfJ1pmKWO_f9UT5xH3v7Xh8MANMHAEayWSVFitEpAqQxV-ZCPR2oPmvotOz4ACDz1V1nwRn8FRsurah312q1y8RrSTOgikEK3NVbRQEpkADy7-CTlpvENVugkJNai9kqRsg58OHBGHW4o11AQLMF5MEeceZqH-M7nMNGhxZUbAQeYaK7dRF-D_brV8654a10KRzhPMFR9s3NjMqzFB3k3nAz51TVy-Rxex5dYUqcasAvc_hUKi8vYo0-w6PDDqh8m6s8jQ",
+      "widthPx": 2992,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "gema yudha",
+          "uri": "https://maps.google.com/maps/contrib/115739998063274696507",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUwTKhzEdHhZaJ1USyWXw1dAnz5XiWzybZ9nf9JHo7r-c_cyncG=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDa751N&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDa751N!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngManFkbPXLKi3v8IMJ42wLkn0AcGMNYzUzA2fuCjea9ndRTLuqDji4O_SeXIp6cPZJIg625pSKOb06gQXFQrWbnz0DdzLSOKQr4XYa4ozsa0SUZ_GvK91OvCXyFoNLZKfn6Iul4rizsRAZo2JlAS8HCebYxRaidcVa2AI_nPVujyNipkknH_-CF4FUIwpvXGhABMFvqXo-NA5TbSZL2t_LTD6RTkvsn6ieDm1QNPiOiOYW9Xtj1dlclU3HZN3gyELm2sQ0oOa1Q4TD5yuZlt4bum_lRyyFoZJyJd3nyB5DZRzGbMqYu9K8Yjot0LAQTzZyUUrMkI_W7tpoUyqwkxMZferr_-O7zF5-_EZ8QYnOZF3mkPS5-cYUeFJhe6S_kFWL6PYEH4MxwHmmTJI48zHtq8fuoa2Yw",
+      "widthPx": 3264,
+      "heightPx": 2448,
+      "authorAttributions": [
+        {
+          "displayName": "Rama",
+          "uri": "https://maps.google.com/maps/contrib/111620204890483327072",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVPMddBJefC09XBfGxoi8lWZPwTNHysD5uXC5cTOOgNhyJ0xO8O=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDcpZe1xwE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDcpZe1xwE!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngMYJ5ON3qbFgRD-PlpxAoSRi9pXfJ6bWa9vrMz51Yxfq6OsAYkyq2OBZ-mCRyTOTUQHSaq-RKULICWwcKMX0QY1LQzwGVILjWmvRCt-Sa_70uwu-QltcYn4o4n3nkbrhlZYcaEXvWS47ykmtEWvkoFZ8EPQ907tL1q35IXkj8XIMh9xkom0U-r522YZ8NwiHAZ2_3Lx81fkiCkevioTpCwtFzEVM0ugFs2toORo1OXMNP_8lHQv9F06a1RDatPuXsa6uKCvXDu9wMuz9SY00gWmihWotiTHoTeC_DTO-M8hWqT4qlnpd7OCzqUGZA4TR5zn59BJ2x3gHjETpl_I9BecUTfW9ivEjHmyOFipS96aIQB0gcOOSiTWoMeozcxr6dWrWZS3OIF3MiFhde1nTns3kLhSPMmQ",
+      "widthPx": 3328,
+      "heightPx": 1872,
+      "authorAttributions": [
+        {
+          "displayName": "Riyanto Prasetyo",
+          "uri": "https://maps.google.com/maps/contrib/117701346642427525987",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVGVy4p_qx2WvVelFyL8t2XZyAKWV0plBwh1lD-7ZiCMeOZ7D6_=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC0wJjVgQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC0wJjVgQE!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngMaASRU2JLWL8xx044DzsLx8rDeuMcVhi7yzqND-AIElVjf3qVZWJUCsAeHKRJRrAj3Gw8YqYkQI-v9Y_0Vj8tp7XlmU-dnot0pL37CfNSAjTith0SdGTJzXj7xmSuAYVmJZuRL-nASlBMW4XyVD6QJzxK_EQTgVATBLXhd9phiM5z8mj0eViPo9lTaC_t3gcWyXGTzDfk1NT2XiRTsld7aA6WbCBowni3DsBh3599lwa_ItTu-jtGMRk1uNUkZtja0ShYX8slhyVX6cekU_-vE0Yj43s4a-YERhNErALQTDiLNh0sdiHarzREA5wKupgNh1mXnf2JDMfr1nQomgm4SxjOnoRoxhOXmZo3H4DgdmP6QGzIa7xp8I5YsWhriYgguTBlByWdHJlLmKXg1M-4fRnyQzJZk",
+      "widthPx": 3000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Emjet",
+          "uri": "https://maps.google.com/maps/contrib/107817088537395337234",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWujbIzK_usCKWbgtOL6nxlct3J2CgSF13yz0ACORRHoO36r4z7=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC8vO25kQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC8vO25kQE!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngMYaZzdhUzJcTpgUojICSeO_AJNhdS-aLtqqNmk2-828n-MTBSV5ivyjnywI8U8YtOgtGkLxWzv_PA6KNGyJ-KSyVD7RHBQFf6LIkpCABqPpEMpr5GLc6bD7Rwz1d60y9LGSSSzqBuozWNeAf7LSEvy5q7QkU2b7XnTWEbVyIOHowh5_GE4zyGkBD_EeDMPVh6yrjVuMpIe2C9x3KBiQu7mMA51sjetsAg8rcMgaAGEB2rXucwqwQCDykF35IN6Ky0NM-4kWVLz0o8c7Ztd7-IbGPVElD3AzRm6y-sSFxRfL8-Rh8VeeQlOXDorxXr7e5Q-BJFgdMWydg6oaeTgYDpUomjJOXxUpqyEMJpVidgsK3xDUkjwm7u56tzCo0uFw19ueJ1DyaCfc8mQVtfyFdUxSHQnM6qg",
+      "widthPx": 3998,
+      "heightPx": 2998,
+      "authorAttributions": [
+        {
+          "displayName": "Iwan Haniyoto",
+          "uri": "https://maps.google.com/maps/contrib/106075596823670677804",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWwGnoYhd7gEkx-DTNea2OVX5RBRH089gB8iI6fDDfYEeimAq-K=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDchZbflAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDchZbflAE!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    },
+    {
+      "name": "places/ChIJ9S3rlpX0aS4RxL8wl8-ILCA/photos/Aa-ngMa69G4CbcSwCk6kxnGBZhq_ARWtcH8WX8uOa2u8tXbPQTjpaHzb_9ZwhS-uwoWV8UC7EnBVFLtHq8QCRgMyljyFuLboIzVA1LIDh3Eo1QTw2-QTRvPk7OjKUpp4m2IQ8MOueBDFwEPSAroG3-lxz941z5Be8o9slSjawDbMvHUPwU9XToVZ7mJXnaQXnUp-VjmMrFLf1HwSy8_4Cis1JyymFdRHlkXLbzlAQqXT3C9NBq4AnK4xyX9RpZknIrB-2e3E5jXbymsCzF2gGscyc98AIxGNxSYqvD1fDMk_cvlR2Y0hQZZ0GghrQxe1K8HLLJjf61H31elzAWOn9pLiFQDCB-hGR1HPg0OPJhPtqEHeWjUg9mkCyHozhsIw729OYlkHmHIstopOu8mtJWrfGoxp9xrf",
+      "widthPx": 4608,
+      "heightPx": 2592,
+      "authorAttributions": [
+        {
+          "displayName": "Dian",
+          "uri": "https://maps.google.com/maps/contrib/112892332525834889531",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXrKq_fPpwW32MgPL9b7HizrJrD3qJYZ3jzyhOUyg8dvzJerBs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICcwdi7iQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICcwdi7iQE!2e10!4m2!3m1!1s0x2e69f49596eb2df5:0x202c88cf9730bfc4"
+    }
+  ]
+}

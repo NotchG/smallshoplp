@@ -1,0 +1,20 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "a husen (ahusen)",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Warni",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "SIFA Wakaba",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

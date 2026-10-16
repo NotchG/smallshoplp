@@ -1,0 +1,473 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7518,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Bonjur CAFE & RESTO\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "span \"Bonjur\"",
+        "fontSize": 83.1,
+        "lineHeight": "74.79px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#dayparts-title \"Dari pagi sampai malam\"",
+        "fontSize": 35,
+        "lineHeight": "38.456px",
+        "textWidth": 239,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h3 \"Pagi · mulai 07.00\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 157,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Siang\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 62,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Malam · sampai 22.00\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 195,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 35,
+        "lineHeight": "38.456px",
+        "textWidth": 232,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3#menu-cat-0 \"Makanan berat\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 163,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3#menu-cat-1 \"Camilan\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 88,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3#menu-cat-2 \"Kopi & minuman\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 175,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h2#spaces-title \"Ruang di Bonjur\"",
+        "fontSize": 35,
+        "lineHeight": "38.456px",
+        "textWidth": 266,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "h3 \"Ruang kaca\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 127,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Taman\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 72,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Rooftop\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 89,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#family-title \"Seru untuk keluarga\"",
+        "fontSize": 35,
+        "lineHeight": "38.456px",
+        "textWidth": 339,
+        "pctOfContentWidth": 97
+      },
+      {
+        "el": "h3 \"Area kelinci\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Kolam ikan\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 118,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Parkir luas\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 117,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 35,
+        "lineHeight": "38.456px",
+        "textWidth": 210,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 35,
+        "lineHeight": "38.456px",
+        "textWidth": 236,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 35,
+        "lineHeight": "38.456px",
+        "textWidth": 229,
+        "pctOfContentWidth": 65
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 28
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7670,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Bonjur CAFE & RESTO\"",
+        "fontSize": 17.5,
+        "lineHeight": "27.0816px",
+        "textWidth": 712,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "span \"Bonjur\"",
+        "fontSize": 117.1,
+        "lineHeight": "105.408px",
+        "textWidth": 282,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#dayparts-title \"Dari pagi sampai malam\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 495,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h3 \"Pagi · mulai 07.00\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 164,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Siang\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 67,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Malam · sampai 22.00\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 205,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 293,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3#menu-cat-0 \"Makanan berat\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 176,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3#menu-cat-1 \"Camilan\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 95,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3#menu-cat-2 \"Kopi & minuman\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 189,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#spaces-title \"Ruang di Bonjur\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 334,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Ruang kaca\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 137,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Taman\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 78,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Rooftop\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 96,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#family-title \"Seru untuk keluarga\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 427,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Area kelinci\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 138,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Kolam ikan\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 127,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Parkir luas\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 126,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 265,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 297,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 289,
+        "pctOfContentWidth": 41
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 28
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5738,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Bonjur CAFE & RESTO\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 481,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "span \"Bonjur\"",
+        "fontSize": 168,
+        "lineHeight": "151.2px",
+        "textWidth": 404,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#dayparts-title \"Dari pagi sampai malam\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 383,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Pagi · mulai 07.00\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 177,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Siang\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 78,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Malam · sampai 22.00\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 222,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 372,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3#menu-cat-0 \"Makanan berat\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 206,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3#menu-cat-1 \"Camilan\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 112,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3#menu-cat-2 \"Kopi & minuman\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 222,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#spaces-title \"Ruang di Bonjur\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 425,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Ruang kaca\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 160,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Taman\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 91,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Rooftop\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 113,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#family-title \"Seru untuk keluarga\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 298,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Area kelinci\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 162,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Kolam ikan\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 149,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Parkir luas\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.192px",
+        "textWidth": 147,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 336,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 378,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 367,
+        "pctOfContentWidth": 31
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 28
+  }
+}

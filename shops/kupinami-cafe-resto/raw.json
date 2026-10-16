@@ -1,0 +1,386 @@
+{
+  "id": "ChIJX9Q8fkDtaS4Rd0jejuahz3w",
+  "types": [
+    "noodle_shop",
+    "indoor_playground",
+    "playground",
+    "halal_restaurant",
+    "family_restaurant",
+    "coffee_roastery",
+    "indonesian_restaurant",
+    "cafe",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0811-1314-314",
+  "internationalPhoneNumber": "+62 811-1314-314",
+  "formattedAddress": "Jl. Bina Marga No.44, RT.2/RW.4, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820, Indonesia",
+  "rating": 4.7,
+  "googleMapsUri": "https://maps.google.com/?cid=8993584992493652087&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:00 AM – 10:00 PM",
+      "Tuesday: 7:00 AM – 10:00 PM",
+      "Wednesday: 7:00 AM – 10:00 PM",
+      "Thursday: 7:00 AM – 10:00 PM",
+      "Friday: 7:00 AM – 10:00 PM",
+      "Saturday: 7:00 AM – 10:00 PM",
+      "Sunday: 7:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-16T00:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 2883,
+  "displayName": {
+    "text": "Kupinami Cafè & Resto",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Noodle Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "noodle_shop",
+  "editorialSummary": {
+    "text": "Mellow, minimalist coffee shop & cafe with a a kids' play area serving gourmet drinks & light fare.",
+    "languageCode": "en"
+  },
+  "reviews": [
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/reviews/Ci9DQUlRQUNvZENodHljRjlvT25CdlRtOVFWV1ZDU21WWlNVcEdVRXRTYjBoR1RsRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "the restaurant that lives up to its name. The food here is absolutely delicious! Every dish we tried was flawless with flavor and cooked to perfection. Highly recommend the chicken carbonara and their lemonade coffee. Also they have quite huge but limited children playground.\nNo music humming in this place. Neat and clean prayer room instead.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "the restaurant that lives up to its name. The food here is absolutely delicious! Every dish we tried was flawless with flavor and cooked to perfection. Highly recommend the chicken carbonara and their lemonade coffee. Also they have quite huge but limited children playground.\nNo music humming in this place. Neat and clean prayer room instead.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Pramudya Maulana",
+        "uri": "https://www.google.com/maps/contrib/116211573746299827461/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVAZS8xm4eH5rTqyx6uWoBRvSjcy_fn5LT2MZfGMCQG8gJYwFTN=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2025-06-29T13:59:15.331423218Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25CdlRtOVFWV1ZDU21WWlNVcEdVRXRTYjBoR1RsRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25CdlRtOVFWV1ZDU21WWlNVcEdVRXRTYjBoR1RsRRAB!2m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/reviews/Ci9DQUlRQUNvZENodHljRjlvT21wbWFFVkpVa05EVVdSZlZXOVVTRWt6UjNod1kzYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "No music, a quite place to enjoy your moment, food and work. A good place for grouping, family or even your kids. I brought my kids while here a several weeks ago and spent a lot of time in their playground. The parking lot is spacious, they have mosque and upstair floor for some event",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "No music, a quite place to enjoy your moment, food and work. A good place for grouping, family or even your kids. I brought my kids while here a several weeks ago and spent a lot of time in their playground. The parking lot is spacious, they have mosque and upstair floor for some event",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Boneng Kiyosaki",
+        "uri": "https://www.google.com/maps/contrib/103528288904629851864/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKheDyRL-jSe8wItKAH7mjWrWKTEJ44UvcbAYNSMZ5LqI7WRvw=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-08-10T10:08:10.779776382Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21wbWFFVkpVa05EVVdSZlZXOVVTRWt6UjNod1kzYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21wbWFFVkpVa05EVVdSZlZXOVVTRWt6UjNod1kzYxAB!2m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/reviews/ChdDSUhNMG9nS0VJQ0FnSUREdmF2TGtBRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Nestled on a quaint street corner, this charming coffee shop immediately catches the eye with its warm and inviting atmosphere. Upon entering, the smell of freshly brewed coffee greets you, setting the mood for a delightful experience ahead.\n\nThe cozy seating area is adorned with plush chairs and wooden tables, creating a welcoming ambiance perfect for both solo visits or catching up with friends. The walls are adorned with artwork, adding to the unique and artistic vibe of the place.\n\nThe highlight of this coffee shop is undeniably the coffee. From rich espressos to creamy lattes, every cup is crafted with precision and care, resulting in a perfect balance of flavor and aroma. The baristas are knowledgeable and passionate about their craft, ensuring that every sip is a delight for the senses.\n\nIn addition to their exceptional coffee, the menu boasts an array of delicious treats and bites. Freshly croissant and yummy samosa, every item is made with high-quality ingredients and packed with flavor. The pisang goreng with brown sugar is a must-try for breakfast or brunch.\n\nOverall, this coffee shop is a hidden gem that offers a delightful escape from the hustle and bustle of daily life. Whether you're looking for a quick pick-me-up or a cozy spot to relax, this coffee shop is sure to exceed your expectations with its great coffee, yummy food, and charming ambiance.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nestled on a quaint street corner, this charming coffee shop immediately catches the eye with its warm and inviting atmosphere. Upon entering, the smell of freshly brewed coffee greets you, setting the mood for a delightful experience ahead.\n\nThe cozy seating area is adorned with plush chairs and wooden tables, creating a welcoming ambiance perfect for both solo visits or catching up with friends. The walls are adorned with artwork, adding to the unique and artistic vibe of the place.\n\nThe highlight of this coffee shop is undeniably the coffee. From rich espressos to creamy lattes, every cup is crafted with precision and care, resulting in a perfect balance of flavor and aroma. The baristas are knowledgeable and passionate about their craft, ensuring that every sip is a delight for the senses.\n\nIn addition to their exceptional coffee, the menu boasts an array of delicious treats and bites. Freshly croissant and yummy samosa, every item is made with high-quality ingredients and packed with flavor. The pisang goreng with brown sugar is a must-try for breakfast or brunch.\n\nOverall, this coffee shop is a hidden gem that offers a delightful escape from the hustle and bustle of daily life. Whether you're looking for a quick pick-me-up or a cozy spot to relax, this coffee shop is sure to exceed your expectations with its great coffee, yummy food, and charming ambiance.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Maris",
+        "uri": "https://www.google.com/maps/contrib/103099791798415315032/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW2-88VwNTXbOuW8xO6HDuyahu_J_Pw1qk7TFxBlYkWH3r4Pwr2=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2024-04-13T08:53:39.446148Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUREdmF2TGtBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUREdmF2TGtBRRAB!2m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/reviews/ChdDSUhNMG9nS0VJQ0FnSUM5dC1MYV9RRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Recommendation for eating with family, here the place is comfortable and quiet because there is no music here, there is a playground area for children, and a prayer room.\nfor the food, I ordered mie aceh beef wagyu and mie goreng oriental, the Mie Aceh beef wagyu were delicious and tasted of broth, the meat was tender and the pieces were quite large,\nI tried the hot cappuccino and hot coffee latte, the coffee was served with peanut cake and given 2 kinds of sugar sachets so that we could determine the level of sweetness",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Recommendation for eating with family, here the place is comfortable and quiet because there is no music here, there is a playground area for children, and a prayer room.\nfor the food, I ordered mie aceh beef wagyu and mie goreng oriental, the Mie Aceh beef wagyu were delicious and tasted of broth, the meat was tender and the pieces were quite large,\nI tried the hot cappuccino and hot coffee latte, the coffee was served with peanut cake and given 2 kinds of sugar sachets so that we could determine the level of sweetness",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Muhammad Fahmi",
+        "uri": "https://www.google.com/maps/contrib/103621866817345993051/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXpxy-FUxK3Geslo7yLBFGUx-rmKQosO97Pmv6_U20PGI_e72fV=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2024-04-03T01:55:27.493098Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUM5dC1MYV9RRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUM5dC1MYV9RRRAB!2m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tGd2NsSTJRVkk0V25rNFpFbHRZVlZXZVhFM1NGRRAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 5,
+      "text": {
+        "text": "the carbonara is so good!! The place is so nice and so well built.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "the carbonara is so good!! The place is so nice and so well built.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "iam Aurora Lady",
+        "uri": "https://www.google.com/maps/contrib/114819779476167836379/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWxEPmzKE6ufqtL2KTf47tGiAEpvXOBx1LcoPgE3Y0wd81j9ctY=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-06-21T07:07:48.443873995Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tGd2NsSTJRVkk0V25rNFpFbHRZVlZXZVhFM1NGRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tGd2NsSTJRVkk0V25rNFpFbHRZVlZXZVhFM1NGRRAB!2m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMb1dlqNrBST_8leCs7DbCy8rXAtgO7rC5GDl-mE0Hp5ORpeRVL-dX3YIwdGZb7YsBxpWdrDtc7l3bTDPRZPicYRALQ7nYCbol5OsJgLMNUacKcLFSsYxxEulAa-duETEaqZtW2d6ZiqDlWKRqcsJF8Li1Qxm7XHH-kxjkOJGfIMWL0lWDnxz9hThPH6Q2Dc6GXs-IpBBMDJQpi7qlu7grS1N0SJdMIV9uQu4NzyHIgH_hoSzy7A-IAMhY3BglvVfh96W_ghkMqi8EppuzOLTf1lHdM_H85xjsA_BrDZxEjuqudyoLg66PzS8oGM_ebkJF5tCWy-xR8X-zC6qkzyd7gjd2qf47Kb4rwJPa9tIZ4O5KR-sutTPat6mviGffsqlokOE6Epqyl-YXYZ1Rt6tzLz08w5SgM",
+      "widthPx": 1280,
+      "heightPx": 958,
+      "authorAttributions": [
+        {
+          "displayName": "Milanti Zulqaidah Daulat",
+          "uri": "https://maps.google.com/maps/contrib/112486800972783778623",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVM5J7dJfk4iIjPYxzBhm0IvRyP4JjlEVjyjfWmBLPw-0ueKOc=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICWzqjE9QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICWzqjE9QE!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMZNdlwMugf5nqKqcIW7r2A5hLobUCU2ao7maryLKpPhORECz5woTeilk3MT5rHWQBeu9P3rDBhKOpVWqnkk88j_OZcqbQSgAXGqYjC1O-gMPBVsnYT8aNi6-77elLsbtZegjPqAbJEZ2OnjkNZrcBFze2L1TCPpVo423stGyoeqym0-EaEd5vSgTt7SEFyTdsDPix4XlgQcG8rVBzR8Mapa7yp1dTqNE6NzgZgZ7502b7Dqz9pxAfQksRZsciYSmLbzWkFsvhi5UgfLnFqnWkQRVF4CVZdsP-7CXzg4maDpOo6eu2OviJs8wQOnWTncEyTjNRT2GKKCuvUwSRxKrD9rz8hqC2fTvs1cG4q4Pd5Rk0IIwF67QOfGwdMOu7WbsDOURQWw4gKQGIjNOjOtyd7ZK3Ju",
+      "widthPx": 1080,
+      "heightPx": 1920,
+      "authorAttributions": [
+        {
+          "displayName": "Kupinami Cafè & Resto",
+          "uri": "https://maps.google.com/maps/contrib/106600146154749589575",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV4O9XRBNmCFgwQaM6MLw3coGjYVEOrRdw_FiCay1oG1PL9yRea=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMCA1u_d-gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCA1u_d-gE!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMbEByt3UD1LutjTduSJHZK5pQYpw4oYTuJEKw-yQxWtkVqhw2eWAG0hBoTxCaZYF-v-zjDzT_LL_XS7PJBCS9d_lCqfTSo0LSZuIGqDCohGnJPE5WMGJHoGC0USbEshMHSva6Z6ZGNpzmAd0uUHewQCMd-EL7_N18hwB238RRYmn4lCsiApdoU9aChSehU-Wn--Aw5mi259A6Oov5iqCA-4mt0OLM_wgHgcOuNttWuC45ywTmdu0vGZw8KWSoFElD3IrQegpQ6jegKwAGDR5ZGJgp-6qHdPRlmzJha2wHNfQnythnmp6zGRH7hR7OoPTN69I4K3Ib5yHSkfN_Wq_BnQIuyWuGvXmrvbQ-MZUHxhBN_oaGdCTxbgJeF5OleSrbjTHsLVn2NlsbyLPcELnyY4yr0O9uWd4s4j2qnBuyn6TA",
+      "widthPx": 4080,
+      "heightPx": 2304,
+      "authorAttributions": [
+        {
+          "displayName": "Fairuz 07 (Fai)",
+          "uri": "https://maps.google.com/maps/contrib/101848181671233927860",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVqgvEA_NZv7fdReSxVmL0uLjkbZydhkLH4g8Skktg-LVdGHEAI=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBkpFUqcpuHoWFI6apcKbO_&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBkpFUqcpuHoWFI6apcKbO_!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMan27JhDuCHCD1H3IHan5hu8TmP-z1vFs6_YsIHGiZTyaS3J3Xu0YXNIqrOWG8Ib-2chkm1mOME58Vv6t-fZW9rx0mKgYTIagsi4pM_VZ6YcaZ6f4plUereu-HJGoX2ekbN0sLI-iDUIW-xWe_1ExWPF05osmeXHvO04bfOQNb1tGMcqhI6nViilCZrzUuCJCl2Q7myz3ZB_I3S3_6I_nM5Z65UxW6PeuRPeYHmaFSmhLAV3OtAL61Zk_wYNbvVxyJ67UkErzvHoj5hxqsFh5qxqCETL5ZWeOFgfGOtLoiQO2-aD61jtgt-1ldUbpeJpME4AyQeiGrSPtT-VyGVJo9ydhr4IPWWt7vAEblcUZfGc0K3S5WzcWO5aQ0TDr15-_Xvo2qADFksdd-TY7Rry5KJzpI",
+      "widthPx": 720,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Kupinami Cafè & Resto",
+          "uri": "https://maps.google.com/maps/contrib/106600146154749589575",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV4O9XRBNmCFgwQaM6MLw3coGjYVEOrRdw_FiCay1oG1PL9yRea=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICO8IGyCg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICO8IGyCg!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMbgpwckDhKCElLKuLDk1vVZlPiju94l5cUq3yv-0W2wB9o7qdGxvtleciVkDEnvc0WIYcZPHyXsp5_CtMZmCwRqi0uSt3CHoHhEffyZ6OVb8OIiqzF8bFRTr8-3jY3I7NshtX7Aia7RRnb0cjRoTn2j7qCScfE96CUO7yLVlkZTGTdUsTwYc4q75j-8JAa4M12OSFqHxdFavYfKhliPX5ncLTcpqjQoxKsSuM5fRgiK0iEQgTzNEs5oBx_LGrt4IpUOGOuzmhkxefLu60SOdSVRjROY3Kbx6mIsZLsZLwMfdcJ-F0rQ8N6aoHqJa7kYaxkwpp0RfwM6K0FuVbz1jekOXYSmQTrIBIYmPZUq8DxcNyjMTvRlgzUNmjUCXYbwIVTMB9p050YV_AeUuQyMLp9hrTdyVuhifra-M5dtV1nznw",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "dadin nuryadin",
+          "uri": "https://maps.google.com/maps/contrib/109939729173804902785",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVWTkrG_Rt7qzQwfGYa6_ewSfOjPjpmF_ZbQ9p6mLkPQ_b0NXg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC9ZnS2ZjUHc0WGUh_cGU56&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC9ZnS2ZjUHc0WGUh_cGU56!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMbCoVzNgI-7pTSCYX-Y5GS6gEXsXGPhZ6r0CkTLpljrhjpylcMITVqLOP089-6ZMWVq2Puf-I5qDAYBedfodEI6NU3XEII_QpYpqgSNdG8SRDZ_TL3v279cNx1XKk5WUNiHnmTKsiAd5FYbnhks3gUFtuD8wrm-5rG88n5tKIeJjpuSW4Tghgo0FU9pxQjtjcU4K_faeXMTVXA2H4wuD4ZHckJrl_20RjmNgQC5exfWeLdahq0IeWraMrMvlVxfr3JImwXYfLJSyAK9elAMxp6AtuFzK2bJF5jqsVpwfokp1jkrL5-iWlEHqGx0T1k1grpb1Dqff--QyjmRj3TffbtLwK3pDSzHXxgn0EOL30r5fF50agIbwgCtdGNrWiLCvn3SQokWG77Bk13NbVeywFIOO2BilDmHM9HvRNjpBexv",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Eaz Eryanda",
+          "uri": "https://maps.google.com/maps/contrib/104269683776486531324",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUe1Y8qWRn6REQjpv6KAM0Ki3gM_RWYW11SyQQlClN6Nje1iXgt=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB8m_-8B0dcTPG5Ej2La1gC&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB8m_-8B0dcTPG5Ej2La1gC!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMajflO5iwR1htjN6uP_CBdLxvv5gVP155UoGMeNg9bgs4ddEwpeB8v0ZJmpujekA0RnEL8uaAJGT9azvf3XrhrxKg35v2MeuF8jXx-4KO28Qt0V6Ig60oGytaANKrbabudw_w_doefHntuVvkpY2JVGxHk7xhOwJWUlbfH64_cYhXrmjYTPvZx3iY520obmQB3OwnSWYVOG-Ak-4yhidDncXTB6Nj8A0qtnJ_ULJx6FnSXfC7rjiQub6W7OJIC8Vp8gxlHkYdGkr4F9QUUG1RcERr8FaaDtNYOsCSh4RSp38JBklgroj-qvTcixWKUwO250HxMyz4EjUZg9rTCn9iS5psg2wpe3Diu1ncxO7lFWvuBKspeRhYBQAs_Y7zZxvDpwt1SbezyyQZhtjqLF8Aujp01BWHFSRznvRovjwsv0FQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Acha Hafsyah",
+          "uri": "https://maps.google.com/maps/contrib/116627297841732619389",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVsNavzspLcTK_mnEvVl_pczgKp6mzawuhU7xNEwbYqygpVN41T=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB7M28KaZq8GKaoPZkDLi2W&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB7M28KaZq8GKaoPZkDLi2W!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMaGV6RJr39gnBRcytTehyr1L_kLuplyQMHAmbzr2SwW5mVuBJVxCEO9RPgSNxSf1TT874MAv1_zhw_KSvqkwbUDtPhnd97GPVdV0kG3OuHz4aLcOX0uO5oSwQJ1gHs_02HQI9M-pyjOgn2DcjPhTPpIyCiqnzeQHpr5g_T8Ke8N0jBMN32JQPJkxDJbgE3FDGB1Rondj_zWSB4WCi7R6ESV6FehLqjj6GsFZriNMyvqGn6-clnzrevOx1633_reylLuHfeEgD5agBRXSt82vQe6Yo3v7e6qH4-7zP6E-HOZk0NljWbsHXJq0ZH2792bJ162R4ALK_wLtVRR6X3OQTvUGYYFODC6xnMguHh_0nvphqwP6MldY6MNNBSgwweik4T1tjo7mhhBDv7ZsFO4BeADO84mKtPH1t7JPEPeB_jD",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Anita Nofiyanti",
+          "uri": "https://maps.google.com/maps/contrib/107680079148238801571",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX87O_dZK772QsY-o_Tel4Nubr99CJSGYec2AR-u8DNHiZECm-h=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAX-hUSUGLFLIrYnXLBtHi4&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAX-hUSUGLFLIrYnXLBtHi4!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMZUKwOzW_ICp9Us9jgJDdUbWZNHEEJB32s36DXQsDLr8ONzx_ust78h8GCJPBG3ws1xwU1v-U00pXLiFe4EYzDG2p9CEzFlccAidU5g2Moi9kYhuMfTJLQ_I-ts6eTrj-6w8oG-YyMkgultYiN_DE6QSBxqohJRY2RrufPLAUaqlyew9pJS5-KeZX4cJtCFUTtlF_SJCo8dpPB35rdC0xkIwd7-XxGKesOXmpoq4jI-hipPg_0HzFO8w5XqRCEQZk8GnaG6_D_KCSH1OSe9JyDlVpAYPZJ1oKabN6JbXa2j3YEzrue1CaVgmJTQAMFvlsPfldjj2QHlOjIVfwK2R036e5HwQWx4spSCqxoHIbP-UFlvxWjtV4hsW-DKlUdui-2hOjOYVXLPJkVz_12Nta6_LWPwgdTenE5soodZKYdK",
+      "widthPx": 3468,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "Edward Nagacholie",
+          "uri": "https://maps.google.com/maps/contrib/101771718696237436582",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXqaXIJSVOfftPUmlXed6KtrEQI9ye6_JQW0d_Xt-8wbr1oqms=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCXXZm0n7_cLq_aH9TaDtYw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCXXZm0n7_cLq_aH9TaDtYw!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    },
+    {
+      "name": "places/ChIJX9Q8fkDtaS4Rd0jejuahz3w/photos/Aa-ngMZclUVQQ_BNIMikRL1Pj9kl95diS-69g-QjurULHJSDFYIq61G4CeHl_QvYfYqP9q6p8hALSC3brGB7Eq5LnAPLZogIPoliGczXCsbuT5JWFJCB_vDjq99xBSs2ND7pqvMPzU9JKVSFRLVVKxg-PsAP73DXq-XiJRXVOlZct9Co-0h9iu0aI-g9p390gsLLu-c6v4H_UNFafRklbeEQnHw9di_ek7no36xaap5EIqieouivcxNyhzFBvTkov4WUQYSr5yNu_ed-yja8PUXMEIEd1x5JckhLEeFpIKRLJxE8nmkzAADMteguB9ULgbEnZt0H4rVIUMR5IxDW7BkxvlXz7zLignty3Fz0n_yWUjo5TdJyV60ZA2GAtS0rgocNm6l0Z62nAhn4aV2RV_ArCw4BENM",
+      "widthPx": 4000,
+      "heightPx": 2250,
+      "authorAttributions": [
+        {
+          "displayName": "ArindaDY",
+          "uri": "https://maps.google.com/maps/contrib/112158927201804629662",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXnpXZmKlTejyLUkR6kaBlpNyAeW2f56a7SZ7gf_fZ9bV41RHY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICZ9YaSFg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICZ9YaSFg!2e10!4m2!3m1!1s0x2e69ed407e3cd45f:0x7ccfa1e68ede4877"
+    }
+  ]
+}

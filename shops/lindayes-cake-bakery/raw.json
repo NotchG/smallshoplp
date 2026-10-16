@@ -1,0 +1,389 @@
+{
+  "id": "ChIJm2PPcUKLaS4RKYaCqZquOp4",
+  "types": [
+    "bakery",
+    "pastry_shop",
+    "catering_service",
+    "cake_shop",
+    "dessert_shop",
+    "confectionery",
+    "food_delivery",
+    "wholesaler",
+    "manufacturer",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "service",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0818-0898-9381",
+  "internationalPhoneNumber": "+62 818-0898-9381",
+  "formattedAddress": "Jl. Raya Penggilingan No.14, RT.8/RW.7, Penggilingan, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13940, Indonesia",
+  "rating": 4.1,
+  "googleMapsUri": "https://maps.google.com/?cid=11401617385933932073&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 21,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 6:00 AM – 9:00 PM",
+      "Tuesday: 6:00 AM – 9:00 PM",
+      "Wednesday: 6:00 AM – 9:00 PM",
+      "Thursday: 6:00 AM – 9:00 PM",
+      "Friday: 6:00 AM – 9:00 PM",
+      "Saturday: 6:00 AM – 9:00 PM",
+      "Sunday: 6:00 AM – 9:00 PM"
+    ],
+    "nextOpenTime": "2026-10-15T23:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 490,
+  "displayName": {
+    "text": "LINDAYES Cake & Bakery",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Bakery",
+    "languageCode": "en-US"
+  },
+  "primaryType": "bakery",
+  "editorialSummary": {
+    "text": "Bright, contemporary bakeshop offering a wide selection of cakes, brownies, cookies & breads.",
+    "languageCode": "en"
+  },
+  "reviews": [
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/reviews/ChZDSUhNMG9nS0VJQ0FnSUNhX1otNkt3EAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Good and nice Bakery now being changed tobe Bakery Cafe",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Good and nice Bakery now being changed tobe Bakery Cafe",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "victor tobing",
+        "uri": "https://www.google.com/maps/contrib/105241972244058755638/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUMB-Xjqgb5J06X3y9BJOxaqdELpjqU8DbV9vF8pzz_Iqr8J2Xd=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2021-08-07T23:53:06.497993Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNhX1otNkt3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNhX1otNkt3EAE!2m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xkQmFqRk1YM1J1YWtKU1JXVkhkV05yVkVWT1lVRRAB",
+      "relativePublishTimeDescription": "11 months ago",
+      "rating": 5,
+      "text": {
+        "text": "good service",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "good service",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Johny Gojek",
+        "uri": "https://www.google.com/maps/contrib/118282000162908776287/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUarXsbH-Csfu_IQ3UZs4zP75Rt2Rywwc37voekCP79WyMAvhA2=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2025-10-22T07:03:17.808334352Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xkQmFqRk1YM1J1YWtKU1JXVkhkV05yVkVWT1lVRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xkQmFqRk1YM1J1YWtKU1JXVkhkV05yVkVWT1lVRRAB!2m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/reviews/ChZDSUhNMG9nS0VJQ0FnSURRby02NVd3EAE",
+      "relativePublishTimeDescription": "9 years ago",
+      "rating": 4,
+      "text": {
+        "text": "I love the brownies and the bread here",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I love the brownies and the bread here",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dena P",
+        "uri": "https://www.google.com/maps/contrib/110077354451219872883/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWqLUkIlKR-UrD6tlhbBevPuWiZGNisDZZwXnM0Z51427j5oDYAYA=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2017-05-06T21:26:11.699Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURRby02NVd3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURRby02NVd3EAE!2m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/reviews/ChdDSUhNMG9nS0VJQ0FnSUR5eF9QSXZBRRAB",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Lack of staff knowledge about bakery",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Lack of staff knowledge about bakery",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Adien Novarisa",
+        "uri": "https://www.google.com/maps/contrib/108979617881624692868/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUP81rEsEHZ55nTKmA-JEcHie3qaXScKwAQ1zsxsnmpCSKwkP6QMQ=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2021-03-19T20:07:20.243070Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR5eF9QSXZBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR5eF9QSXZBRRAB!2m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/reviews/ChdDSUhNMG9nS0VJQ0FnSUNlMWVfRnl3RRAB",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Delicious cake and bread, verry like it",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Delicious cake and bread, verry like it",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Bayu solihun",
+        "uri": "https://www.google.com/maps/contrib/108472003973094713286/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVGNDbu5bFV6qK0j41GxHjO0PKGYeb83WSpcfbL0OedCKgtozJ3=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2022-09-20T02:11:15.221747Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNlMWVfRnl3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNlMWVfRnl3RRAB!2m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMbaI0ufOM_tje25GV35e86BfmQekL3vNm-shtL7bi0O0-iLchr1rr2njq5qEsP1ScPF3EWpIpcb-Ps3SozQbz-S0F--Qk0ASksgJnwkxrwvyq52yCv96AinTSEhFCqILFTl2vV-4ivHj0ph9VwQuJ6KrOV4V69ua2iQJIjYDs0cWL40rQm-ie1KxXxjOeDRJpKYQaKxtG_uxbRiit3BNhYtW32SxPyHtAsau8jHZ-CrqI5UTS8GG3_2y-SSyxe0a92otzHxTScOrcwqc4yN-RaHfYCH8-Ktjgt0CWkuQDDpwLJMXLMCppa0UAvy3zj7okeKstlHbHqigZL7_0xYL3QGNnZIaH_j03Uk-XCi0e54xBElKyCDkk0Tt1RjjMqOggRkA2frehtVfotKOQaxo4c-KE4",
+      "widthPx": 1440,
+      "heightPx": 810,
+      "authorAttributions": [
+        {
+          "displayName": "LINDAYES Cake & Bakery",
+          "uri": "https://maps.google.com/maps/contrib/114386475234380732009",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI2HO1RZt-C4ErgvG9fNJjPcSQSRiJtGCSAbs5cCwVeZ9eSdA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC68ZWKQw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC68ZWKQw!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMaKYWTFvDquNpxZlRMBwzur3_1FqHcvrMKzw7mhxgNvEsBwsSRFfQntM4B7W9DSIeCqvZt9Qh_MTPggqDe1na44GKl2n6JQQ5zNFT1nNkvlekAhLMpPexVuma3XxnHktQBcu2-RGrfM1zdK8_sHCOj43yqzRRAyAKbe8cRifR0u5Fs9MaCf1Cz9TlXtzQk_xSxSTkOnPvxzbmkbIZ1gNn1wF4egtfY1CtV8RekN6nspff9Rh8CvqOYKSiv71R87I7YAXwC692wcNBNU4I9tkApENsfyz0cRZQW9kairq2OHypi6Jbupne94CU4NRw6s2JPZS-v9_SYJJ-pr1eWHS0W9L-ds0f2NYGFw0Npqp6Ghtgp4kCE7mwc4yE-Cri4mo9glp3rOZ_Ux37mbMmhnxIDE7oSH8us",
+      "widthPx": 3456,
+      "heightPx": 4608,
+      "authorAttributions": [
+        {
+          "displayName": "Lenawaty Fang",
+          "uri": "https://maps.google.com/maps/contrib/116726102342135496858",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJ9S6Gb2uAooVR3f9GN5UJafEoeJVwmHxABRuwnVaTsvzlVZg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDK1Oyu7gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDK1Oyu7gE!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMahVtUW-MmJ0sfgxyYm2rGxQbVCp2KL6YwsygA3Jp51DJhOGf8P6xXHc7S4VxVLc_3SPzAY7ZSTbnPzy5UukfpGAohH2n3bew0PwXA1GupOT-4L_0ioyHna36HFrtLwOeguCwJiuhwVjSUQw7M6Jr_2Y87t2LsEqzFCnNRuYvnqUvJp2JCNWRopo3F9A_m41K0fLCgUdBjrohaVaKRXMrkYVtLpmnm193a-Jv91W2zT8fw1Pl3x4qLH1se_lSyQXyJnTpdQETmNGyqifuAoOAeL5gf6TnQOY5qxz28-l2O8bzk-GOiGybSUlFipCVqUNVJRMrytzEnb8CZPr9UBqmz28yqXNXvJhB2Km8wFe_JinLXKWx94yHagbf-1ZqeM3S7sY_PXhbS0aaVOSbiGn3zkPao0-q4",
+      "widthPx": 1280,
+      "heightPx": 720,
+      "authorAttributions": [
+        {
+          "displayName": "Bimbel Les Privat Online Mandiri Prestasi Teladan",
+          "uri": "https://maps.google.com/maps/contrib/114195176931704565972",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVerOX6Y1_RAfHYBwXUP5hlMaJtlEpiVTLrr9sFiWTflFt6FVg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC6mdjWyQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC6mdjWyQE!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMYcS4CSwWmLnZyX9hFEkJ2nUZJI1QEd5jfDShhKsQt6-AyL32-tSx4tniamEOL_kdCyWyAaKO5C38kcKmXgXztxsl7CwuUqkX2ymIuUZm5L6uZcJobzzcCMQDB_4lk40Hvz_YCSn9-E-VM73C5NaXkNnMAR0Tj2FhO7PBv7pGKBZNVs3Xqv0FW3eIlwX7ikY-3G_UjfYYX_lLl3J9IL2ce0g3Gkt3IBg4udIdVilNnyTU8uYVM6kknHbfnBTPA4UPj5MaPQJSegikS7dEa0un4qyk7qkKCChhn6Ks6e1I0DvFn56b18FBcdq2VDVC0pCfbL_YGKtQJ6QwVkxJKJLSpXOWAd7jHlS6NpWTYDk0L0kbensx0m6XXAuGVAOiuKDZFNk4qOMu4l8oo123D3qwYZ2tXDOjAyq1Eofzl4hkG-BQ",
+      "widthPx": 2160,
+      "heightPx": 3840,
+      "authorAttributions": [
+        {
+          "displayName": "Daniel junaedi samosir",
+          "uri": "https://maps.google.com/maps/contrib/107827356476521481898",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUI6qoiL1vwEOYgOC2AQiDFwzYzHZqQ-tzuFnTRZFSvFBeWtvbL=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBxFTd11zKASAa7D6p_RiBQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBxFTd11zKASAa7D6p_RiBQ!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMbwjBWJI90nqfxWYhqXL46LZT4feIhE7RW1RjCxQnHyyv6VgfuxTkY0YLPzPrpazy7um1ulJk8OnNVaOPsx4MU9ffLT-tlgThpTbnnM8HDHlXG8pBwZLs-eaUY0CEUsuxxyRGki1aeLZPSsxmg9viAkwWusywwHUQEuaKJlaPmNTLN5AYeN3hyggIegXksJmod3xiOkZAW9mSxJO96lxfPqFiRUHzFT8DUKqp0QbscA57giGxzCOPVm9d_rwlS3ApGkkQcSZBfBwpNkIgbe1Y4ACKUHoHTcLKjCjpjBQcgWhb0-cGSgmGkdUfEDOQii55OkSiqAgFOCxQQA9Ymo6ur8vyDIUbi4yNnypjn3fXZ-gIIpDHCIKnVkKbUObqOlrpsqQUTzRT7bVx2c3Bu5GKJa68A",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Ahmdadi_p",
+          "uri": "https://maps.google.com/maps/contrib/113323665442662031076",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXW9SNg6OZSslgl-K2fC4aKjjsDhl3T7XfU8IyEnD_Z4mTgq-4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDmwKCqEA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDmwKCqEA!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMZZOm6O_M9CiaoPIQfOisOj9-0EOfo1iyeMUqqDPovgo3HIZJu1gxalt3--l0a8sodAyrIM9BgFWWMS_W-pIX25gzgoKWJtKLjWR1a_aMXld8MeT5a5iJJaCc_9KaoxddqlEzDiEpfPTz61QvG2JjS-0U01meCd0iIyAsnHoq42cEwQhSUYI69fCqZhuzRzHUJlc5v5PKrgz0gOs4oHGVjdo0LZLMAk-mh_Zvw2sLE_DYsudVLty8EsPHlkggQlH5U0Ko_gW4986NhC50hhqDEoeH-L01uZbI-cX69EY-I8VeLj_5M5Sa-4qATBx0Uqn5hvus6rzZs7jfcWguYkjgzdya5W9L727Tr9w6_yB5MEWcWXhLippFetvHGbP5EX5ANk_S0pMG2a6rt68gInlgjslqw",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Ahmad Rindi",
+          "uri": "https://maps.google.com/maps/contrib/108631212115314395938",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWE7La9UM_9aUVN47SVhlUwJNbRjigl4xcn8dFx5V0DHHkmwVwu5A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDB08eacQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDB08eacQ!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMY52HUle5JzeWX2vxqyZHZyHETx_sM2Tj6oZvEWdooqCA8Wss37uUJdZRXJW-9q1XLhO6qUr2NYNFBQPprw1xCNVqSZMt_v4WvH8-s4CoBBvWA0a0ngZ2qwDkNT8BTN-fcooqgsxzKdumJiz8NMKiaYgO4CZ8FxdBnKjTqLkJsBGDJYcbGzbno7Ik8Yywx-0FVKlyGsXb4Pexk_topq6K2nfNQ5lnPGLWLs0mpy8OFWOwYbiLHK2BsYikcZjqSwnqlBAATroq3XYI0qV3mrXHnSQ63bl1K-U8hs4dXVm4v6HEsDcokwlo3X7v01CcMrKylTmDX9-62crfkCILRghLR9mYCpdtlsRaRTCVpDjzYUyIq1kvoBG4nTmo6ZcLg8-brJVw7jb0BzwnLqdt_OxKVfU0N76j-VplK_zJi2zXue",
+      "widthPx": 1440,
+      "heightPx": 1920,
+      "authorAttributions": [
+        {
+          "displayName": "Dinno Wahani",
+          "uri": "https://maps.google.com/maps/contrib/113264547536151878977",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVYcShTnfhATQnRFold37tKOgkY2jJYcYd6EBZkCmSm-gEfnMHKHQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDfVIXqX4UNnD3iXwrmKH71&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDfVIXqX4UNnD3iXwrmKH71!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMaQCWrTvo74rZEZLZNdkS2Ark2Se5DNRhg_lcwFY5hcnLD4MHzPH4VgmKEtekCHAhIss6ddDAn0Y7KxL87uvIWg7QkPPPxSnopXjOfErj5VeJ32NyoDtsAOueCfCx4v0deAqJe7WOwihzHUfBWG4ezMIV6sH9MeTkotNO_eSJ9xSnkSXAXCKSp97QTJKMFdVZkegfGL9cVU_Zps0DjG_onQGtOfPrE00UQ4AYZb2iIVFClqfIedaUZQOK1mKr45awHIfDB_q36Du1aBydsb9bGJKBGHREoPgCOE6aKqpn7fVLcyEIYNemUnx1nr057nVUiduclp7UDajOtsz6WkllCdXlYcG_w_uCcdqj6aKJXtNq3lXN81f5m4dYyJq5ujEwOftOZcTBUlyMW50d309MdduSw",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Ilham Ramadhan",
+          "uri": "https://maps.google.com/maps/contrib/116754921664708370483",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUmZEFKGgumZNBvuh3obOJgLb-rd8L9bCjx6joPqee-RXCMVh11=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDB87yJVw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDB87yJVw!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMb5rS048AQd6JFsv4tFZe80_gYkAsV9agj_3E1MHRh6y5u9M2SkJ7TabqvOgPJMlJdTLcIFlqWo8j_Ci75tOZAb_kabh8VtpBCCR9qhoyhHbiiH8KtXQjdHAbh5CYTiEn-16OhOqbAZeErynAvQfVpNmHeCb_QCMvsIiwx9P0WiI5_5wScV9TPN4MGVrtLofF85bISXDkorPkREackM_E4W9FbhBn-zskCgBqUsU8xroq2bO3w5FLVvtrkLiKY_Qfmz0MOhutw5-r9ISEYeDcyptPlrv1ygqkiOlrvSn_WIYWquAYTCIRsd32e4Fdt88ls1HUCWuBz_vZofjCub1jQ0kglZabqv2-kFZUYgBVcpgN0XW2bpskMIknOiI1XIqAEPeT9ZlYAMrUa-A3lEq1xHUtENZFE",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Ahmad Rindi",
+          "uri": "https://maps.google.com/maps/contrib/108631212115314395938",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWE7La9UM_9aUVN47SVhlUwJNbRjigl4xcn8dFx5V0DHHkmwVwu5A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDB08eWmgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDB08eWmgE!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    },
+    {
+      "name": "places/ChIJm2PPcUKLaS4RKYaCqZquOp4/photos/Aa-ngMbkXRVNwBov1-iQ02LKh3vh0YkDpAIYFSbVQKDgxc17Uw147f5F0uRx4RaUufUJcSgdLVg0rYIBIBixsEZGScYdgwVfYqX8tyFoGo3SaEvJ5oBL-TXF0s4LRZPyOcfAFKr_AOOGr1IyKVJ-9BRDq2J52V1H_11xm7OsPEBOO5D-Ef9K5hS6dj8WZKxy9opcAjr501ACP7eSxHr_KaepKfE0GJEb3JdxLBkZug8itYPjkOFoHhWh6-exoa40IXaikji_gZgZN7TKTfQSbuIVsBkQlzsTIiUbtV_OQRS8goBF3iqj3rNNg2ntXlvl6-Uc9P0UeLhc009owBzYLplU5fHtLx28dksOs3IPjF1QB4BAGWTR5niUswHakwpm-r_RxYYuu29BHTtvL4yRnZlpl175JcLHjOY",
+      "widthPx": 4096,
+      "heightPx": 2304,
+      "authorAttributions": [
+        {
+          "displayName": "Mimilim Evelyn",
+          "uri": "https://maps.google.com/maps/contrib/110844898063774276720",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNaaacPsC07n-l8UuOMIGAiX5r_J6QZh8NTq9pzlyIdq_ITQ6M0g=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDcpJWRwgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDcpJWRwgE!2e10!4m2!3m1!1s0x2e698b4271cf639b:0x9e3aae9aa9828629"
+    }
+  ]
+}

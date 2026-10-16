@@ -1,0 +1,368 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7560,
+    "sizes": [
+      {
+        "el": "h1 \"RUMAH MANTAN CAFE & NOSTALGIA\"",
+        "fontSize": 80,
+        "lineHeight": "76px",
+        "textWidth": 266,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "h2#dinding-h \"Dindingnya penuh kode\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 306,
+        "pctOfContentWidth": 87
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 182,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Kopi latte\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 80,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Nasi goreng spesial mantan\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Carbonara\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 88,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Hot dog roti hitam\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 152,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 66,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Minuman\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 71,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#pojok-h \"Pojok favorit\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 176,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3 \"Teras depan\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 102,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Ruang kaca\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 96,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Area merokok\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 114,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 172,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#mampir-h \"Mampir ke rumah mantan\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 341,
+        "pctOfContentWidth": 97
+      },
+      {
+        "el": "h2#kabarin-h \"Kabarin dulu\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 167,
+        "pctOfContentWidth": 48
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 19
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6255,
+    "sizes": [
+      {
+        "el": "h1 \"RUMAH MANTAN CAFE & NOSTALGIA\"",
+        "fontSize": 109.4,
+        "lineHeight": "103.968px",
+        "textWidth": 544,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h2#dinding-h \"Dindingnya penuh kode\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 400,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 237,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Kopi latte\"",
+        "fontSize": 23.4,
+        "lineHeight": "28.1088px",
+        "textWidth": 86,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Nasi goreng spesial mantan\"",
+        "fontSize": 23.4,
+        "lineHeight": "28.1088px",
+        "textWidth": 136,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Carbonara\"",
+        "fontSize": 23.4,
+        "lineHeight": "28.1088px",
+        "textWidth": 94,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Hot dog roti hitam\"",
+        "fontSize": 23.4,
+        "lineHeight": "28.1088px",
+        "textWidth": 162,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 23.4,
+        "lineHeight": "28.1088px",
+        "textWidth": 70,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Minuman\"",
+        "fontSize": 23.4,
+        "lineHeight": "28.1088px",
+        "textWidth": 75,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#pojok-h \"Pojok favorit\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 230,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Teras depan\"",
+        "fontSize": 23.4,
+        "lineHeight": "28.1088px",
+        "textWidth": 108,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Ruang kaca\"",
+        "fontSize": 23.4,
+        "lineHeight": "28.1088px",
+        "textWidth": 102,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Area merokok\"",
+        "fontSize": 23.4,
+        "lineHeight": "28.1088px",
+        "textWidth": 121,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 225,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#mampir-h \"Mampir ke rumah mantan\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 446,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#kabarin-h \"Kabarin dulu\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 218,
+        "pctOfContentWidth": 31
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 19
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5641,
+    "sizes": [
+      {
+        "el": "h1 \"RUMAH MANTAN CAFE & NOSTALGIA\"",
+        "fontSize": 160,
+        "lineHeight": "152px",
+        "textWidth": 532,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#dinding-h \"Dindingnya penuh kode\"",
+        "fontSize": 64,
+        "lineHeight": "70.4px",
+        "textWidth": 270,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 64,
+        "lineHeight": "70.4px",
+        "textWidth": 323,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Kopi latte\"",
+        "fontSize": 24,
+        "lineHeight": "28.8px",
+        "textWidth": 88,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Nasi goreng spesial mantan\"",
+        "fontSize": 24,
+        "lineHeight": "28.8px",
+        "textWidth": 252,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Carbonara\"",
+        "fontSize": 24,
+        "lineHeight": "28.8px",
+        "textWidth": 96,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Hot dog roti hitam\"",
+        "fontSize": 24,
+        "lineHeight": "28.8px",
+        "textWidth": 166,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 24,
+        "lineHeight": "28.8px",
+        "textWidth": 72,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Minuman\"",
+        "fontSize": 24,
+        "lineHeight": "28.8px",
+        "textWidth": 77,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#pojok-h \"Pojok favorit\"",
+        "fontSize": 64,
+        "lineHeight": "70.4px",
+        "textWidth": 313,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Teras depan\"",
+        "fontSize": 24,
+        "lineHeight": "28.8px",
+        "textWidth": 111,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Ruang kaca\"",
+        "fontSize": 24,
+        "lineHeight": "28.8px",
+        "textWidth": 105,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Area merokok\"",
+        "fontSize": 24,
+        "lineHeight": "28.8px",
+        "textWidth": 124,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 64,
+        "lineHeight": "70.4px",
+        "textWidth": 306,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#mampir-h \"Mampir ke rumah mantan\"",
+        "fontSize": 64,
+        "lineHeight": "70.4px",
+        "textWidth": 355,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#kabarin-h \"Kabarin dulu\"",
+        "fontSize": 64,
+        "lineHeight": "70.4px",
+        "textWidth": 297,
+        "pctOfContentWidth": 25
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 19
+  }
+}

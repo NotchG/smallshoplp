@@ -1,0 +1,376 @@
+{
+  "id": "ChIJbQOYNQD1aS4Rr02JTGw23B0",
+  "types": [
+    "bakery",
+    "food_store",
+    "food",
+    "store",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0822-6184-2007",
+  "internationalPhoneNumber": "+62 822-6184-2007",
+  "formattedAddress": "Jl. I Gusti Ngurah Rai No.21, RT.1/RW.15, Klender, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13470, Indonesia",
+  "rating": 4.3,
+  "googleMapsUri": "https://maps.google.com/?cid=2151654560744689071&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 21,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:00 AM – 9:00 PM",
+      "Tuesday: 7:00 AM – 9:00 PM",
+      "Wednesday: 7:00 AM – 9:00 PM",
+      "Thursday: 7:00 AM – 9:00 PM",
+      "Friday: 7:00 AM – 9:00 PM",
+      "Saturday: 7:00 AM – 9:00 PM",
+      "Sunday: 7:00 AM – 9:00 PM"
+    ],
+    "nextOpenTime": "2026-10-16T00:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 1071,
+  "displayName": {
+    "text": "GULA JAWA BAKERY",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Bakery",
+    "languageCode": "en-US"
+  },
+  "primaryType": "bakery",
+  "reviews": [
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/reviews/Ci9DQUlRQUNvZENodHljRjlvT21KTFUwbHNPVFpZUTBkTGNrOVBTblp1ZWt4d1pHYxAB",
+      "relativePublishTimeDescription": "4 months ago",
+      "rating": 3,
+      "text": {
+        "text": "I bought cheesecake brownies square (I forgot the name) and chicken karage bread. The taste was average. The topping in the roti chicken karage as so little so few and less I was surprised they didn't put any filling there. The cheesecake cost me 50.000 IDR the slice was thick but taste average. They also put cheesecake selections in the board which was not available, so unprofessional what's the point showing it to us right at the cashier. But the service was very well improved, they were asking me if I want to reheat the bread and the cake. Thanks for that. Overall it's really not worth it!!! Put more topping dong or filling. Compares to all the hype better go to Mako or Global Bakery Klender.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I bought cheesecake brownies square (I forgot the name) and chicken karage bread. The taste was average. The topping in the roti chicken karage as so little so few and less I was surprised they didn't put any filling there. The cheesecake cost me 50.000 IDR the slice was thick but taste average. They also put cheesecake selections in the board which was not available, so unprofessional what's the point showing it to us right at the cashier. But the service was very well improved, they were asking me if I want to reheat the bread and the cake. Thanks for that. Overall it's really not worth it!!! Put more topping dong or filling. Compares to all the hype better go to Mako or Global Bakery Klender.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ove Invictus",
+        "uri": "https://www.google.com/maps/contrib/116118103816966282817/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJpNAnzpVGPhMdaVby-3jRS4srqOul3b7KOdJHkjyBC8LNXzyg=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2026-05-28T06:47:16.933638630Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21KTFUwbHNPVFpZUTBkTGNrOVBTblp1ZWt4d1pHYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21KTFUwbHNPVFpZUTBkTGNrOVBTblp1ZWt4d1pHYxAB!2m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tnNVNWUm5SVmhET1ZkR2VreGlZbHBzZDBaaUxVRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "They famous for their abon roll but you surely dont wanna miss their pastry!! Buttery, crisp outside moist inside, and its relatively big for the price. Their abon roll indeed yummm. I went there just when they got viral so maybe thats why staff seems overwhelming. Lots of goodies almost out of stock by just 10 am (they open 8am). Seating area is limited and staff didnt clean it up after someone's leaving. So trash is all over the table. But overall they serve good stuff! Worth to try.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "They famous for their abon roll but you surely dont wanna miss their pastry!! Buttery, crisp outside moist inside, and its relatively big for the price. Their abon roll indeed yummm. I went there just when they got viral so maybe thats why staff seems overwhelming. Lots of goodies almost out of stock by just 10 am (they open 8am). Seating area is limited and staff didnt clean it up after someone's leaving. So trash is all over the table. But overall they serve good stuff! Worth to try.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Labiba Hanani",
+        "uri": "https://www.google.com/maps/contrib/114589588545903191738/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV6wn8DPjkWyWdnrK9gaojdcGlZrdIBjRSDmVpy08HK9YHDx84Oxg=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-07-20T13:29:37.108980256Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tnNVNWUm5SVmhET1ZkR2VreGlZbHBzZDBaaUxVRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tnNVNWUm5SVmhET1ZkR2VreGlZbHBzZDBaaUxVRRAB!2m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/reviews/Ci9DQUlRQUNvZENodHljRjlvT204dE5tWnJTVWhGU1VSNGQyZHZRVWRsUjBNeVNtYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Discover an hidden gem of a bakery in East Jakarta, nestled near the railway! This place boasts an open kitchen, inviting you to witness the delightful sight of fresh bread and buns being baked right before your eyes. The star of the show is their incredible floss roll—or as locals call it, abon gulung. But be warned: it sells out in a flash! Make sure to get there quickly before it’s gone!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Discover an hidden gem of a bakery in East Jakarta, nestled near the railway! This place boasts an open kitchen, inviting you to witness the delightful sight of fresh bread and buns being baked right before your eyes. The star of the show is their incredible floss roll—or as locals call it, abon gulung. But be warned: it sells out in a flash! Make sure to get there quickly before it’s gone!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ilham Rehda",
+        "uri": "https://www.google.com/maps/contrib/108390085420108086617/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUYV2Zijbjz5M8xvsjiBDQ6NCQzLBsWUzQSeWoPz6waOgxoKjw3=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-06-06T04:17:16.462890670Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT204dE5tWnJTVWhGU1VSNGQyZHZRVWRsUjBNeVNtYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT204dE5tWnJTVWhGU1VSNGQyZHZRVWRsUjBNeVNtYxAB!2m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/reviews/Ci9DQUlRQUNvZENodHljRjlvT25sMGJHSXpNRzFEZEdGVk9XZE9hMFU1WTNGRlVYYxAB",
+      "relativePublishTimeDescription": "2 months ago",
+      "rating": 3,
+      "text": {
+        "text": "Dropped by this afternoon and picked up their tiramisu donut, chocolate sourdough, cheese bread, and srikaya bread—everything tasted OK!\n\nMy only gripe is that there weren't many options left late in the afternoon, and a lot of the trays were already empty. Definitely come earlier if you want the full selection (or not?). Still, a solid bakery spot in Klender tho!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Dropped by this afternoon and picked up their tiramisu donut, chocolate sourdough, cheese bread, and srikaya bread—everything tasted OK!\n\nMy only gripe is that there weren't many options left late in the afternoon, and a lot of the trays were already empty. Definitely come earlier if you want the full selection (or not?). Still, a solid bakery spot in Klender tho!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Riska Dewi Barus",
+        "uri": "https://www.google.com/maps/contrib/103603501638887848549/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL66XHrT3E0aK8ZWcTxDwGOGRWeSFDizXsdPXrEvuOSYGw2_p8=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2026-07-18T08:37:09.256284986Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25sMGJHSXpNRzFEZEdGVk9XZE9hMFU1WTNGRlVYYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25sMGJHSXpNRzFEZEdGVk9XZE9hMFU1WTNGRlVYYxAB!2m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xReVFuQndja0p5YUhndFMyeDRVMVJQYWpob2FFRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 2,
+      "text": {
+        "text": "Many of the breads were empty. There were no waiters to help. Everyone was busy chatting. There was only one cashier. And the most disappointing thing was that the cheesecake was frozen.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Many of the breads were empty. There were no waiters to help. Everyone was busy chatting. There was only one cashier. And the most disappointing thing was that the cheesecake was frozen.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Andi",
+        "uri": "https://www.google.com/maps/contrib/106865026012781441719/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXS6j7_b_iefCJV-k2MHHvC6rrEczZsveovaSgqR_O_wNvWfP7ugA=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-09-02T07:59:04.710702097Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xReVFuQndja0p5YUhndFMyeDRVMVJQYWpob2FFRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xReVFuQndja0p5YUhndFMyeDRVMVJQYWpob2FFRRAB!2m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMbJG6VXj-VigHktYXza8ItfQWnJtV8P6htiM2DAENYKtkWU2rRQEYwspi58yWQSLjQS1gKJMSgjd6yTErZICsBNQNElSHz3g1PItt8ACFBsMSz_28h_ScMes8m18H7NtDuHgRSS_rRKkA_-3KpdhdLdAKRMehV4Ssr2lqYhIPK0kNnetzhU2CWXQpng3LpF0xB0ujWYhj9rOaRQmI0lG3mJ2b6xphEJ9otXAcVcco9hgVIwm5AIEVfBe-o8ATmdcCnWzMyYrxDxKFh4zbmIAek8RBRZoYQygrauR8vrFxzVQJG8q6mylCQ-JGu928RVbNwVRhfJ0r3QctXiyxos25vXS9pa64cUZas2MKlnqPOKYAIMrhXP5cIvKFIQ1KqBqukolx3pc6Dz3N6QA2zDVTt1xcwREmlKKR1JFlDF4YoXdw",
+      "widthPx": 4800,
+      "heightPx": 3600,
+      "authorAttributions": [
+        {
+          "displayName": "FoodTravellers",
+          "uri": "https://maps.google.com/maps/contrib/105974373736597545479",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVPPifehJ5pougnytT3--Uuh4wbs7-sAttKxIIjeVUF4_JOwDQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAbsgdkWDZmgtzzu2XFxZVq&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAbsgdkWDZmgtzzu2XFxZVq!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMaLcVy7MKc-BofB21UbgIIGNs48xY7Vc4YjUVWuBMOhbtgs33t1GEyBAaYwUx3MJ0sfIEdQacft2V9xh2fIpJsMcdxSUHOpHh3Hke3chgzlDvAJsdSBAPnitJKuhj-n25WVmpRvGxv2VAF5ZlEHi_yzI5tyJwdmjvRsj7JeIBXetV_p2VXnNSww4fDHv0lKl9pLXD88oxwCZ5zC07Urzl4t1SiWX2bc6rN6OesQQTO2I0LCmXr9r022yGHVcCScJqqnQwMYZRYPOhZ1e5n397nU3HSmN9nHGRPMoN9930FT5ZOZfWpIiJrYoQKCbCvu0NOz13d-NS68MxxsbMWMuqPPmWD3kh0oVdKu6o3c8Sk45DOWz5nDyea1ptK4sKrdSqAawdBPvckmFanv1605frWKmX4GQm7pWlj3pJltX2q2",
+      "widthPx": 4800,
+      "heightPx": 3600,
+      "authorAttributions": [
+        {
+          "displayName": "FoodTravellers",
+          "uri": "https://maps.google.com/maps/contrib/105974373736597545479",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVPPifehJ5pougnytT3--Uuh4wbs7-sAttKxIIjeVUF4_JOwDQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDD7KtaSTO3YhvbxyEVDvey&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDD7KtaSTO3YhvbxyEVDvey!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMbhgi1tFXWfzaLvAAH11zU6vRIfX1vQRggWLLkE-bDISCqQJWCvnHOU6nVfIRu1RtqJsKSnwMPva3MgAjZidTiDEJ3iRTiKxsPMI2wHl3pcR1YhHg8JXJyO14f7o16f7JCNhgUwktwnd5LEvbLM0t2dUEmX_mLzLFz7CeZV9u9KDK7vHgMyNODyqIQy0zItmjJEb6PNiZ77hhYRCSz7HbgBgC5oeoXBY5UsIIZLjFvnD73C_Aee4T5n7OJlgYGcU-W2YyjHcptaL4UDb1g2Xi2fik8cB7ckUlMuNpcOwjf3_nNyX1nMNZ1sse_MiXUrVMCMVzYZnCvwTSeAM3ELdlfsUDYBs2ZaNQcYv6fD8ENt93HnHx5YsTwILi1mfU4l3Ktt5gjhIFALUtv9f-SOAtWlLlEWfycnm671RBlmH22IsQ",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhArMzrrF4gcIH4L8jIP1hFU&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhArMzrrF4gcIH4L8jIP1hFU!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMb7Tj3OSi9wMcD8eI5J13F1NwQJGHhOs-Fp3kheq8Eu_H_U9nIErpB5JITjKf8Jry8aqp7gdZhY_t132mMUDKN_bxU-6UFqv5790XgsV5gnT3PJiOdZ_0pjfn-ZAA0DDZ6cV0lqubQ15lwr8PwrW-9vWhE_HQPLwTZM9oNoreWrt4s6mWlyZWKtCG1ynGX02dUvF5pAV4Oq9OuCHy51xYvsuuUv7VuX5XUajrwtJ6Eq0xpMxCRwRVqHCC9EGh3XRnNE2pKT-2AzPXZOM6FzCkAJJMwcysI8d_-mzw64CvVyqJ3VBLpYUuStAeakKxWieQ2Geqsbr0nOAaCD7AyTmreI7jD91-hrGL0sW7xaRpj5ULYw1qi2Ja_4YKjeYhlm0-MZ7IqlajKIS0j7lh6A0VG6LdoNOpf43_ZmnOr-gbOpuA",
+      "widthPx": 4080,
+      "heightPx": 3060,
+      "authorAttributions": [
+        {
+          "displayName": "Andi",
+          "uri": "https://maps.google.com/maps/contrib/106865026012781441719",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXS6j7_b_iefCJV-k2MHHvC6rrEczZsveovaSgqR_O_wNvWfP7ugA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhA00wtq_RsllAq6Hg6ZE6hE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhA00wtq_RsllAq6Hg6ZE6hE!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMa8qoxW6Tl5QrtAPz9eKndTiQfZOHjAL35heXSWv0hl_YMo6BspTe193letCYcdj9_srtvdAP7TXxgA4GWTlUww_6MjaeL8eRSkFQUS5aFjmU9J1gU6Rq1Sz4Tgs1OUF-fkLO0arkyKnnCzz0XiYIkk6Bi29JL4m0Q7ti9y18ayq4sRlEV8kvDPQ56gTvvXde7ASrSAVonfQsuJPjQnuGyVP-KmnPaaY9t3o9Q0_k4BPJWGQUDst2KrYj6E8wIza5NRIGnPSRpajG3PX0XGJl5YYUEA_j97iIxfDK8xob63E5pIy_xRoqctqWA8XK9nBAxDZZSlh7p-_8F9ewNTJP_P1Ei_6YsK5qd1GjPdZE9OVLIUTFAx9RzdFg0Ve4h1p9J4PkIWDfvuROVSH7aGH884H8Dw_oO_B-OvoXtiXLldXg",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Kulinerku",
+          "uri": "https://maps.google.com/maps/contrib/103655787140884651530",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXMy8A03zmkGnYda9n8dM9vCSjNCyQP7rL2u5uBEe4ELkfW2-I=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBzeSUnWHtuCkLglpMAAtCX&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBzeSUnWHtuCkLglpMAAtCX!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMbkLRexYTnTd9Tfr7AYYaafSbVlcczPp62SS0HwRq6b2GelUrS1gJf3msEOvQqAmiQpQ7y2nLTSovGANub9krrb5Z4a6Di0OTQa0_zS1wjJwo3tRo0Wewas9tAt9m9g0mJ_LJHCOBoSU2zIjsXSCI-ByyqqI4trddQRXBca6naqmT3puOeOmU2dO9Zl7iOhLtVQV29a8DV96yEdL3ab30rGsyM4h069DQK5kLRPhLG4h1uCtT3TQ_ISXkqhkxdSG6tJjSj8kUR7aZ44yJ3OujgEmLQWe3wV2Np5QkWpFilPYRE_FNzc5ird7G_-7Vr7mPidQzvSoYZwaQchzgjSoIlJYSTuaXJqCEU4HLLXd1EK6kuFzJ2_Odhqz7ND59bu5YW7Ac1KoVGbJgeiO9CMwI3QnGSSiIfmm3abrXcKd_9Vtg",
+      "widthPx": 3264,
+      "heightPx": 2448,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCLXn4mKtYqJzcslgGT5J3H&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCLXn4mKtYqJzcslgGT5J3H!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMa0IxjbPDQ_9_DTb1X2yt_wAVhskTX0HSH7vj5jsZ_7DBm0msxiuHwKf9Ob9uzEF4nIF8D2Lvx4yDTftjQDAqvrtEwv1TfjLLM5W875mMRYOpvwACSHoMsFbRJfKiHQB1NXLzkXyuL0MTLSMJ5WZ--PaOfwVUxAq4g0_OxoUIaaU8Vuip5P_dSSQ3HbAivjqJMeDUcZuPcHyGkjEmdWaHGCrBMTvyCupWOGppGau3Q2gd505f1cwkUcAHJXV3-q8mBFIcM2aPsw1DQUijY3EYP4IwopbEZQEr7xANfW9roRaTm-5IZB8r5tsyQWgBJ0O9UDH67GZjEMlBR0gEAj8TzJpB8AcaYIIi_xI_cVbY59SC5RFvjR8SIE2IxHPVt4uyU9AcmfM6lwFFDJaCNeL1WpAoqTdze3GF2_xtnu9KMiAQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Fitria Elyanda",
+          "uri": "https://maps.google.com/maps/contrib/109240391083370709244",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWuQ5xIaFitD8aEAWKDmPkyPzy5qzVfaWZBzfj3mq-YndvbngkY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBzwrpQsPZRKW2zS3cltaOU&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBzwrpQsPZRKW2zS3cltaOU!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMZOkvFBZJ_xKgNlBXpMxO5ddQMaD8FoFI-Z6RY9zeTo9AXenUxmhdcKGK6930PLTuW7BWajKgssSjd-osOpiMyzBL4NvTr1YkgGmZRUDQLjTU2ljvi1CNSVShp_Wf2CjyC0KhEp0Tp2D5prZqfflKOILDek81mpeTwC9iiQstLsnjJFyeaZHuNrNKAZrCo8sQZsp3LXFmcY-GkqmtxPFHcpgdP6hHPJVlx_GKrwl5-_4ztFHlTjgr-WGgzufcX85u95E2J9C09KH616dVZBdrRrGSlbV0YuNKhVVeGIrviS4hyoUAI_-1gCRbELCBzXBjGUjB93kJvYKdnPqWYcNRyEw7sLP_q49r9UMRY2oUkCqhqDeDfSQ4_Wv0kTzmXn4WMEB3vg57U7NdCSqE4bkR9iEwP_5XJu0fPeuLCxr3Xv",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAfL29FChWrF82Ops3fjhKi&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAfL29FChWrF82Ops3fjhKi!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMaWTueZgTQwwsQo5X81QfBSkO3xJgIFslNqft97VfBpD8kTGsL5Ps0_5Zoe4pe5tYztdJPLI3wa4Mj4iVeLb9CNYKQzB9dSbKFUwY-X1rgldgogFltHXTmtDLlXcHTeAeCp5Wm1DlKHKPK-Kc3_5V6JaQ9WTWTleGqBStLVJ4k0QX7A_8kX6mS2ihUYb6DW1HIs7bowSpyVc9GB3BGO-ww6sFXc1V9ALv8KTZ_7J0KsYmZhuN8e5K76jDzHHzf85_F-4KxB1kYRoTM03j5X7zzUIif72E4W_CKkewFSf6ueowL4-pujekmB_U4cg2338rSk-U3CLquIZ1RWbErCXKnI6uyIGL152_VmKlTrd2F7stC0XnKX-kXpyur70dlZVFEBqpSNNi64Ud3Rj28yLup-mKQfT2hE5wd_MUNd1NS6",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "Hana Fitriani Nurnastiti",
+          "uri": "https://maps.google.com/maps/contrib/111568806033490915660",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI14naaJ8yNTiU3qE-vqj04f1GsGhQt-Y-5V89tu2tMP9F2Qw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC2UEInj64k416ybNDJoVSW&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC2UEInj64k416ybNDJoVSW!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    },
+    {
+      "name": "places/ChIJbQOYNQD1aS4Rr02JTGw23B0/photos/Aa-ngMbpVenpQFQoGIHVZMHY_cgkOnSCZNkRBoa0y2A4M0QPQobZONY5ZjlfMjBK4yTQXK9d9F-08O2pzsM0s73ykR5tmQbljLmDiYo0vrt8VsN797e2TW000q5ytm9UlvTthMkHY52v6QCmG3MCWVrg6JxL2uk9jwcaG3HcHtLdiTFwYpDrcnbsfAv9doloR-i8A5H3eI-BrDJpk0I5s8jd0v06NBnY4Az7i0MQQBSbxQLHgDfUEgXFas0_GQFFwMkr-wWagPr-txeT-_tNmmjEypzmBU208ufwIyT55ufbSiB_isqo8bsfOvy9ARxh7l0DMrurZZlDNBjBDtKb88sP8Hrw0uChfBZkDZoX0KgKEOVzxlFwWB7Ixv3gMbGT_fzCW3QbJauqvTZfJmetEujNSiDBkzvURVhlXfMmRkpNYGGS",
+      "widthPx": 3060,
+      "heightPx": 4080,
+      "authorAttributions": [
+        {
+          "displayName": "Dini Marta",
+          "uri": "https://maps.google.com/maps/contrib/104311992498322088441",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUc8h5CU3Md9i4EJAUebNcyRmREwkFstptI07WBoFObJwmXyQhuLQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBF30NsksQ3MNcU9DL5Cdvc&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBF30NsksQ3MNcU9DL5Cdvc!2e10!4m2!3m1!1s0x2e69f5003598036d:0x1ddc366c4c894daf"
+    }
+  ]
+}

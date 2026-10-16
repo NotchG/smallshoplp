@@ -1,0 +1,329 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7333,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Gula Jawa Gula Jawa BAKERY\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 191,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "span \"Gula Jawa\"",
+        "fontSize": 80,
+        "lineHeight": "84px",
+        "textWidth": 191,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#dicari-title \"Yang paling dicari\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 230,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"Abon gulung (abon roll) Rp 22rb\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 269,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h3 \"Pastry mulai Rp 25rb\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 178,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#oven-title \"Dari oven kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 192,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"Roti manis & asin mulai Rp 12rb\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 281,
+        "pctOfContentWidth": 80
+      },
+      {
+        "el": "h3 \"Pastry & donat mulai Rp 25rb\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 256,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h3 \"Kue & cheesecake\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 186,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#dapur-title \"Dapur terbuka\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 186,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 166,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 186,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 179,
+        "pctOfContentWidth": 51
+      }
+    ],
+    "overlappingText": [
+      "span \"Gula\"  ×  span \"Jawa\"",
+      "span \"Gula\"  ×  span \"Gula\"",
+      "span \"Gula\"  ×  span \"Jawa\"",
+      "span \"Jawa\"  ×  span \"Gula\"",
+      "span \"Jawa\"  ×  span \"Jawa\"",
+      "span \"Gula\"  ×  span \"Jawa\"",
+      "span \"Gula Jawa\"  ×  span \"Gula Jawa\""
+    ],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 28
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5449,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Gula Jawa Gula Jawa BAKERY\"",
+        "fontSize": 18.4,
+        "lineHeight": "28.5696px",
+        "textWidth": 205,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "span \"Gula Jawa\"",
+        "fontSize": 85.6,
+        "lineHeight": "89.9136px",
+        "textWidth": 205,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#dicari-title \"Yang paling dicari\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 277,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Abon gulung (abon roll) Rp 22rb\"",
+        "fontSize": 18.4,
+        "lineHeight": "28.5696px",
+        "textWidth": 275,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Pastry mulai Rp 25rb\"",
+        "fontSize": 18.4,
+        "lineHeight": "28.5696px",
+        "textWidth": 182,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#oven-title \"Dari oven kami\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 231,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Roti manis & asin mulai Rp 12rb\"",
+        "fontSize": 23.9,
+        "lineHeight": "31.0336px",
+        "textWidth": 290,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Pastry & donat mulai Rp 25rb\"",
+        "fontSize": 23.9,
+        "lineHeight": "31.0336px",
+        "textWidth": 264,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Kue & cheesecake\"",
+        "fontSize": 23.9,
+        "lineHeight": "31.0336px",
+        "textWidth": 193,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#dapur-title \"Dapur terbuka\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 223,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 200,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 223,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 216,
+        "pctOfContentWidth": 31
+      }
+    ],
+    "overlappingText": [
+      "span \"Gula\"  ×  span \"Jawa\"",
+      "span \"Gula\"  ×  span \"Gula\"",
+      "span \"Gula\"  ×  span \"Jawa\"",
+      "span \"Jawa\"  ×  span \"Gula\"",
+      "span \"Jawa\"  ×  span \"Jawa\"",
+      "span \"Gula\"  ×  span \"Jawa\"",
+      "span \"Gula Jawa\"  ×  span \"Gula Jawa\""
+    ],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 28
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5672,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Gula Jawa Gula Jawa BAKERY\"",
+        "fontSize": 19,
+        "lineHeight": "29.45px",
+        "textWidth": 229,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "span \"Gula Jawa\"",
+        "fontSize": 96,
+        "lineHeight": "100.8px",
+        "textWidth": 229,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#dicari-title \"Yang paling dicari\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 338,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Abon gulung (abon roll) Rp 22rb\"",
+        "fontSize": 19,
+        "lineHeight": "29.45px",
+        "textWidth": 283,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Pastry mulai Rp 25rb\"",
+        "fontSize": 19,
+        "lineHeight": "29.45px",
+        "textWidth": 188,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#oven-title \"Dari oven kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 282,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Roti manis & asin mulai Rp 12rb\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 309,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Pastry & donat mulai Rp 25rb\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 280,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Kue & cheesecake\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 210,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#dapur-title \"Dapur terbuka\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 272,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 243,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 272,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 263,
+        "pctOfContentWidth": 22
+      }
+    ],
+    "overlappingText": [
+      "span \"Gula\"  ×  span \"Jawa\"",
+      "span \"Gula\"  ×  span \"Gula\"",
+      "span \"Gula\"  ×  span \"Jawa\"",
+      "span \"Jawa\"  ×  span \"Gula\"",
+      "span \"Jawa\"  ×  span \"Jawa\"",
+      "span \"Gula\"  ×  span \"Jawa\"",
+      "span \"Gula Jawa\"  ×  span \"Gula Jawa\""
+    ],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 28
+  }
+}

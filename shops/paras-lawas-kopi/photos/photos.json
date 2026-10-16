@@ -1,0 +1,32 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Paras Lawas kopi",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "Paras Lawas kopi",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Nasywan Faiz",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Ross 9320",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "keyla rylie",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

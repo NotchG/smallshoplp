@@ -1,0 +1,711 @@
+{
+  "query": "cafes in Jakarta Timur",
+  "includedType": "cafe",
+  "fetched_at": "2026-10-15T17:00:16Z",
+  "count": 40,
+  "places": [
+    {
+      "id": "ChIJmaz_LTDtaS4Rf89F9trsZVg",
+      "formattedAddress": "Jl. Abdulrahman No.46, RT.14/RW.5, Cibubur, Kec. Ciracas, Jakarta, Daerah Khusus Ibukota Jakarta 13720, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=6369757673164230527&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://terasrumahnenek.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 7059,
+      "displayName": {
+        "text": "Teras Rumah Nenek",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ-5QwxqPtaS4RfLduZRMOG2s",
+      "formattedAddress": "1, Jl. Pertengahan No.5, RT.1/RW.3, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=7717777862898399100&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/hakunamatata.jakarta",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2168,
+      "displayName": {
+        "text": "Hakuna Matata Jakarta",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "restaurant"
+    },
+    {
+      "id": "ChIJC_KbAl_zaS4RJvFekDQDIe4",
+      "formattedAddress": "Jl. Laksamana Malahayati, RT.13/RW.2, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=17158999579553624358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://drive.google.com/file/d/13i2qKJxb1UrQBGJ2_Dop_NRCiLq0Dylp/view?usp=drivesdk",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1528,
+      "displayName": {
+        "text": "Coverage Coffee & Eatery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJaXLYWgD1aS4R3EtYyerNn_c",
+      "formattedAddress": "Jl. Pulo Asem Utara Raya No.59, RT.15/RW.2, Jati, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=17843206656949242844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://linktr.ee/rangkairasa.eatery",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 306,
+      "displayName": {
+        "text": "Rangkai Rasa Rooftop Coffee & Eatery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Indonesian Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "indonesian_restaurant"
+    },
+    {
+      "id": "ChIJYVXNW2GNaS4R0onBYTlL1RE",
+      "formattedAddress": "Jl. Malaka Baru No.12, RT.8/RW.11, Pd. Kopi, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 14360, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=1285015978509437394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/mizurooftop",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 173,
+      "displayName": {
+        "text": "Mizu Rooftop cafe",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJr8K9asvzaS4R19qBYn2g1i4",
+      "formattedAddress": "Jl. Wirajasa Jl. Raya Jatiwaringin No.1, RT.010/RW.001, Cipinang Melayu, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13620, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=3375061431144798935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1328,
+      "displayName": {
+        "text": "Kyō Coffee Roaster",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJbTWhhsbzaS4Rwv352RasYf8",
+      "formattedAddress": "Jl. Balai Rakyat No.20, RT.11/RW.9, Pd. Bambu, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13430, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=18402178766558854594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/seiya.coffee?igshid=MzRlODBiNWFlZA==",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 639,
+      "displayName": {
+        "text": "Seiya Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJJ29MB6bzaS4RonqnaF1Tblg",
+      "formattedAddress": "Jl. Eretan II No.101, RT.1/RW.1, Balekambang, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13530, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=6372122183428700834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/suduttimur.id?utm_medium=copy_link",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1171,
+      "displayName": {
+        "text": "Sudut timur",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJI_lHQQGNaS4Rj3ZUYIhorD4",
+      "formattedAddress": "Komp. Billy Moon, Jl. Janur II Jl. Raya Kalimalang, RT.9/RW.10, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=4516099461286753935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://tripical.coffee/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 142,
+      "displayName": {
+        "text": "Tripical Coffee and Bar",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJX9Q8fkDtaS4Rd0jejuahz3w",
+      "formattedAddress": "Jl. Bina Marga No.44, RT.2/RW.4, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=8993584992493652087&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2883,
+      "displayName": {
+        "text": "Kupinami Cafè & Resto",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Noodle Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "noodle_shop"
+    },
+    {
+      "id": "ChIJGVSN3fnzaS4R3w9qNDpIbjs",
+      "formattedAddress": "Hotel Rasuna Icon Lt. 3A, Jalan Karet Pedurenan No.3, Setiabudi, Jl. Karet Pedurenan No.3, RT.6/RW.7, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=4282439710500589535&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.skygardencafe.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 489,
+      "displayName": {
+        "text": "Sky Garden Cafe",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJUXyCManzaS4RtinpvkHotlQ",
+      "formattedAddress": "8, Jl. Cipinang Cempedak IV No.20, RT.2/RW.3, Cipinang Cempedak, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=6104321714020755894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 757,
+      "displayName": {
+        "text": "Saturday Coffee 2.0",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJuUbOZADzaS4R0HyBrTpwB7Q",
+      "formattedAddress": "Jl. Raya Protokol Halim Perdanakusuma, RT.7/RW.9, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=12972460648985361616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://yo-ben.localo.site/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 667,
+      "displayName": {
+        "text": "Yo Ben Coffee & Eatery - Cafe & Resto Keluarga: Live Music, WFC, & Outdoor Area",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Family Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "family_restaurant"
+    },
+    {
+      "id": "ChIJj8xdM0b1aS4RZA4a4Q_XXdA",
+      "formattedAddress": "Jl. Kayu Putih Tengah IC No.42, RT.9/RW.7, Pulo Gadung, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13260, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=15014393195924164196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/Upalacoffee",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 691,
+      "displayName": {
+        "text": "Upala - Kayu Putih",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJkaZqJO6TaS4RGa943dc7-zE",
+      "formattedAddress": "Jl. Pd. Rangon No.11, RT.3/RW.2, Pd. Ranggon, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13860, Indonesia",
+      "rating": 4.2,
+      "googleMapsUri": "https://maps.google.com/?cid=3601538125332524825&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 618,
+      "displayName": {
+        "text": "Rene Cafe",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ51BVVPv1aS4R8Ks8U7qAaMg",
+      "formattedAddress": "Jl. Tawes No.21, RT.3/RW.7, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=14440933742912252912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://desty.page/noesantarajkt",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 502,
+      "displayName": {
+        "text": "Noesantara Coffee & Culinary",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJX9CUizqNaS4R--M2k-7VbC0",
+      "formattedAddress": "Jl. Perumkar DKI, RT.16/RW.2, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=3273226249840288763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 646,
+      "displayName": {
+        "text": "Kaneki",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJrQBNoGj1aS4RDQyV1OkjIjI",
+      "formattedAddress": "Jl. Utan Kayu Raya No.30, RT.2/RW.5, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4,
+      "googleMapsUri": "https://maps.google.com/?cid=3612489338305448973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 145,
+      "displayName": {
+        "text": "INSOMNIA JAKARTA",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJZy1oeoGNaS4Ros5_z0P9PyE",
+      "formattedAddress": "Komp. Billy Moon, Janur 1 No.8 Blok CF 1, RT.3/RW.7, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=2395911994470289058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 546,
+      "displayName": {
+        "text": "Bonjur Cafe & Resto",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "restaurant"
+    },
+    {
+      "id": "ChIJj7x9wQGLaS4Rai6OpBSAXQ8",
+      "formattedAddress": "Jakarta Garden city, ruko the Boulevard no 30, RT.11/RW.8, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=1107181909551492714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/haveatreat_/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 183,
+      "displayName": {
+        "text": "Have A Treat",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJp4_ZYX3zaS4RJqjlDvRoPEY",
+      "formattedAddress": "Jl. Pahlawan Revolusi No.55, RT.3/RW.5, Pd. Bambu, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13430, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=5061035478688835622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 569,
+      "displayName": {
+        "text": "Marhaba! Duduk Enak Makan Enak",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ-YOaSQCNaS4RF_g6uMqA524",
+      "formattedAddress": "Jl. Pd. Klp. Tim. II No.Blok RW No.14, RT.11/RW.11, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=7991497671954855959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 40,
+      "displayName": {
+        "text": "Lannys Coffee & Eatery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJpb-tR-fzaS4RDVDiKlgOh8A",
+      "formattedAddress": "Jl. Bumi Raya No.3, RT.2/RW.3, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=13873072948977487885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 199,
+      "displayName": {
+        "text": "Coffee House duapertigabumi",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJZRhjMmvzaS4RrWuq19k_7Ik",
+      "formattedAddress": "Jl. Biru Laut VIII No.48.C, RT.9/RW.11, Cipinang Cempedak, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=9938388682558565293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 326,
+      "displayName": {
+        "text": "Nuansa coffee and barber",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJOxn6LKztaS4RoCk_N-ZkK-I",
+      "formattedAddress": "Jl. Balai Kimia No.15, RT.15/RW.9, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=16297230616502413728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/taocafejkt?utm_medium=kopi_link",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 247,
+      "displayName": {
+        "text": "TAO Cafe Jakarta",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJCWq7K3KNaS4RYQ3iDDzn8Ak",
+      "formattedAddress": "Jl. Rawa Domba No.17, RT.4/RW.16, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=716326585852104033&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://klangen.coffee/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 570,
+      "displayName": {
+        "text": "Klangen Coffee & Resto",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJz18ytHOLaS4Ro8iTKWWkolI",
+      "formattedAddress": "Jalan Pulo Jawa Blok C6 No.20 Pulogebang Permai Cakung RT.4/RW.9 Pulo Gebang, RT.4/RW.9, Pulo Gebang, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13950, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=5954502411733420195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://dinskopiinspiringstory.shop/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1125,
+      "displayName": {
+        "text": "Din's Kopi - Inspiring Story",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee roastery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_roastery"
+    },
+    {
+      "id": "ChIJDxlKE4XzaS4REhIT3BHeii0",
+      "formattedAddress": "Jl. K No.18, RT.13/RW.3, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=3281679446780875282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 226,
+      "displayName": {
+        "text": "D'rooftop & Garage Brew House",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJtSE930DtaS4RgkaX9pGatQc",
+      "formattedAddress": "Jl. Monumen Pancasila Sakti No.9 6, RT.6/RW.8, Lubang Buaya, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=555520080748168834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://orycacoffee.website2.me/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 329,
+      "displayName": {
+        "text": "Oryca Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ9S3rlpX0aS4RxL8wl8-ILCA",
+      "formattedAddress": "Jl. Pinang Raya No.10, RT.4/RW.9, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=2318378333365125060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 708,
+      "displayName": {
+        "text": "Rumah Mantan Cafe & Nostalgia",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJnc9XRciNaS4RpBJhc0ccLt8",
+      "formattedAddress": "QWHF+PFW, Jl. Radin Inten II No.6, RT.8/RW.15, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 15310, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=16081822412590617252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://stores.fore.coffee/fore-coffee-buaran-coffee-shop-kec-duren-sawit-tangerang-selatan-562025/Home?utm_source=locator&utm_medium=googleplaces",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 997,
+      "displayName": {
+        "text": "Fore Coffee - Buaran",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJZ3frHBX0aS4Rb3PvKlxkrHk",
+      "formattedAddress": "Jl. Surabaya No.20, RT.15/RW.5, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=8767492921603617647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.giyanticoffeeroastery.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 4409,
+      "displayName": {
+        "text": "Giyanti Coffee Roastery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJL7CEWFfyaS4RJKM6sgeZ4mk",
+      "formattedAddress": "Jl. Raya Condet No.7, RT.3/RW.16, Cililitan, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13640, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=7629828977053049636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/griyaxkoffieoetami",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 759,
+      "displayName": {
+        "text": "Griya Oetami x Koffie Oetami",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Indonesian Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "indonesian_restaurant"
+    },
+    {
+      "id": "ChIJZeZ3i5_0aS4RNp69cYSUq84",
+      "formattedAddress": "Jl. Bekasi Timur Raya No.52d, RT.9/RW.8, Cipinang, Jakarta, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13240, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=14892159889395523126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/alunaluncoffee.eatery",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 229,
+      "displayName": {
+        "text": "Alun-Alun Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJJTLAmMKNaS4R-HDtQZDLW4o",
+      "formattedAddress": "RW Jalan Swakarsa IV No.2, RT.4/RW.2, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=9969786020556534008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 103,
+      "displayName": {
+        "text": "Paras Lawas Kopi",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJnSAi5GuNaS4RAhc1XwY1cFM",
+      "formattedAddress": "Jl. Pendidikan Raya No.32a, RT.3/RW.14, Duren Sawit, Kec. Duren Sawit, Jakarta, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=6012363804023002882&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/naiacoffeecafe?utm_medium=copy_link",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 54,
+      "displayName": {
+        "text": "Naia Coffee Cafe",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Food Store",
+        "languageCode": "en-US"
+      },
+      "primaryType": "food_store"
+    },
+    {
+      "id": "ChIJkwopEgCLaS4Rdv4yL6G5GTM",
+      "formattedAddress": "Jl. Abdul Hamid I No.31-57, RT.10/RW.5, Penggilingan, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13940, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=3682178272284835446&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 9,
+      "displayName": {
+        "text": "the way coffee saung timur",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJZd1d61bzaS4Ru0i_3jB8PIQ",
+      "formattedAddress": "Jl. Bulak Raya No.56, RT.3/RW.7, Klender, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13470, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=9528627460946479291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 15,
+      "displayName": {
+        "text": "Amang Coffe & Mabar Gaming",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJgY8CmbSMaS4RX_uggnhxM-U",
+      "formattedAddress": "Jl. Pendidikan Raya, RT.13/RW.2, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=16515669020899343199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://narasispartan.blogspot.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 65,
+      "displayName": {
+        "text": "CAHAYA CAFE",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJhQLZ2aiNaS4RSY2gLJiukts",
+      "formattedAddress": "Jl. Radin Inten II, RT.9/RW.15, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=15821900409512955209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 36,
+      "displayName": {
+        "text": "SPOT Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    }
+  ]
+}

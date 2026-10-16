@@ -1,0 +1,382 @@
+{
+  "id": "ChIJO-nfmZT0aS4RTGfvOQ-x-wc",
+  "types": [
+    "bakery",
+    "breakfast_restaurant",
+    "food_store",
+    "store",
+    "restaurant",
+    "point_of_interest",
+    "food",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "(021) 4896888",
+  "internationalPhoneNumber": "+62 21 4896888",
+  "formattedAddress": "Jl. Balai Pustaka Timur No.C 2, RT.5/RW.10, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=575248056374486860&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 6,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 6:00 AM – 10:00 PM",
+      "Tuesday: 6:00 AM – 10:00 PM",
+      "Wednesday: 6:00 AM – 10:00 PM",
+      "Thursday: 6:00 AM – 10:00 PM",
+      "Friday: 6:00 AM – 10:00 PM",
+      "Saturday: 6:00 AM – 10:00 PM",
+      "Sunday: 6:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-15T23:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+  "userRatingCount": 1009,
+  "displayName": {
+    "text": "Jessy Bread",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Bakery",
+    "languageCode": "en-US"
+  },
+  "primaryType": "bakery",
+  "editorialSummary": {
+    "text": "Tempat roti dan kue dengan menu makanan international dan Indonesia, plus parkir dan wifi.",
+    "languageCode": "en"
+  },
+  "reviews": [
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/reviews/ChZDSUhNMG9nS0VJQ0FnTURnLVlxc0hBEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Super delicious chocolate and cheese cakes with delicate texture surround them. The shop is super clean with helpful and friendly staffs. The toilet is super clean, too.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Super delicious chocolate and cheese cakes with delicate texture surround them. The shop is super clean with helpful and friendly staffs. The toilet is super clean, too.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Bobby Yuskar",
+        "uri": "https://www.google.com/maps/contrib/114211810012216239698/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU-9EBKIPEB1GFA9eHBjXckyvX2zTs2FPuytUgSeUoSEcYUc_Y=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-02-26T01:06:11.128769Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTURnLVlxc0hBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTURnLVlxc0hBEAE!2m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/reviews/ChdDSUhNMG9nS0VJQ0FnSURXOC03cXVBRRAB",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 4,
+      "text": {
+        "text": "They have a lot of different bread here. Always fresh and whole grain and multi grain bread. We always buy birthday cake here. Black forest cake is our favorite.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "They have a lot of different bread here. Always fresh and whole grain and multi grain bread. We always buy birthday cake here. Black forest cake is our favorite.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "hendrik hautkamp",
+        "uri": "https://www.google.com/maps/contrib/105693743278917646333/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUDumMILfwHphfCC4OGjP8xs9s2ct6pfVYuGjV7NHyQ1CNWRcYnrQ=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2022-04-03T22:14:51.125502Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURXOC03cXVBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURXOC03cXVBRRAB!2m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/reviews/ChZDSUhNMG9nS0VJQ0FnSURJOGQta0JREAE",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 4,
+      "text": {
+        "text": "it's a small bakery store that has price is cheaper than another bakery store around it. this place has two floors, you can eat there or you can take away your bread.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "it's a small bakery store that has price is cheaper than another bakery store around it. this place has two floors, you can eat there or you can take away your bread.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Herna Hernaherna",
+        "uri": "https://www.google.com/maps/contrib/112222237526552773877/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUrINEDDGSHByLdY4W6uQrDPQZBVhdGC79M34MjChdP_pwFnoM=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2019-01-10T03:26:05.660102117Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURJOGQta0JREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURJOGQta0JREAE!2m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/reviews/ChZDSUhNMG9nS0VJQ0FnSUNhX3BhaWZREAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Old bakery and fave by so many people, and that is for a good reason.\nThere is 2 location of Jessy Bread that I know, the other one is at Cibubur and I visited it several times.\n\nFamous for their affordable cakes, match quality for that price range. Quite complete selection including those trendy one like Red Velvet and Rainbow cake.\nBut I like their traditional cakes and bread selection more.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Old bakery and fave by so many people, and that is for a good reason.\nThere is 2 location of Jessy Bread that I know, the other one is at Cibubur and I visited it several times.\n\nFamous for their affordable cakes, match quality for that price range. Quite complete selection including those trendy one like Red Velvet and Rainbow cake.\nBut I like their traditional cakes and bread selection more.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Mo's",
+        "uri": "https://www.google.com/maps/contrib/115004602298533832111/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVTYDc4i3kctTrDCBfZR2rhLqIE_XRMLudsbQJ_VJowg59DdKXLXQ=s128-c0x00000000-cc-rp-mo-ba8"
+      },
+      "publishTime": "2021-08-02T08:42:00.153440Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNhX3BhaWZREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNhX3BhaWZREAE!2m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/reviews/ChdDSUhNMG9nS0VJQ0FnSURBbktiZ253RRAB",
+      "relativePublishTimeDescription": "8 years ago",
+      "rating": 5,
+      "text": {
+        "text": "This place has two floors, in the first floor, they open a bakery shop and in the second floor, they open a restaurant. For the bakery, they have wide varieties of bread and cake, the taste are quite good. For the restaurant, they open from 12.00 until 21.00, they serves not to much varieties of food but the taste are quite good and the price are inexpensive.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "This place has two floors, in the first floor, they open a bakery shop and in the second floor, they open a restaurant. For the bakery, they have wide varieties of bread and cake, the taste are quite good. For the restaurant, they open from 12.00 until 21.00, they serves not to much varieties of food but the taste are quite good and the price are inexpensive.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Aming Nugroho",
+        "uri": "https://www.google.com/maps/contrib/112161608172659161580/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW7rZxXfXs1tjn4u4liIGrdpD9G2kVf5mh3QfEfvvCQOxUSKaWF=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2018-01-15T07:43:37.202Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURBbktiZ253RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURBbktiZ253RRAB!2m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMZGKieGDx-FQC4YZYYr8oSSfgpYArIb2-n6bV4sc87tSJOu7HRwWrXaVnf0HQyS0L65wYQ9f8-S5MPTPBHF-tV9eb4lixSqLWpINxAd_jFF1nbJrCoEycry-SuRM1UadnlFOyCzptCCwi4CoAkXwPQZIBsfCKHsXxEXvdMp-kA29Hv6qeX07r50iypLj1P86Llgt3U10h4HImvvN6twRsEX3Mhd7sBN0LOobWCWfiCvqKINVKCSgWO2HmRAnoOBZE4d2GAlNMI7cM2DFu0AHJWRT36gjAYmgsYEubO9-fKaDk3yo0cXoQK76G5-XaETOXItw04rjzShMF5j925H0RZs6GsMOaEQxdNi-hkMVDqQsji7XSv2CFNtTQFOEWiTMsbAjCfsmsK7JHuqJG6B07LH0Q",
+      "widthPx": 1599,
+      "heightPx": 899,
+      "authorAttributions": [
+        {
+          "displayName": "Reza Damora",
+          "uri": "https://maps.google.com/maps/contrib/113144980653894774749",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUX5XdVyziumhZutJ_1rLsrhvtQaD6ynAzlQSkqJiuB94WBf-NVBw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICmitn3Hg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICmitn3Hg!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMY4Oa8lj7MmgEOcsh-uAQgXpjfqKXrHUaL7SlJGZxx2VKOqQIYKUC9n8jMnYIeIjEPlQiJM90M20UuSME_neOMLU1CPAOBrvnOR_b7M3saQPzybHCXMCFlYAg59oDq8R86yjfUGl0IOwx3G5mhX1yxEhJ86fUjczrIpx3oXHvNXwTJaDsG1i7SmbhJztUREfugeyg1OeL0GU1VT9eFRO9-f5LZQHDe3qpwNDDEcIpWASOBKFWD4u5yjp130cmg3hmCh1FmyHvTf4oLaMqkQ6QlPeDRgUIeBBEdryvKz-F84V3bwFIHkhJy9WJAvDCcR_toEslLE_KIOZT9d0_8daEsBFX4bmm3bjGqW5wePdY60yGnMwb-VIeKGM0Dc4Q1lEx9xgO-xNSm1COGd8LAfSkaTZY0hNfUxLyFChNn3ypnXAA",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Saktiana Dwi Hastuti",
+          "uri": "https://maps.google.com/maps/contrib/117715147050194587279",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKkGGRqk_9ResDDAimC7acitMk_mbifmY5XyFprE-CLg8z1UQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDPtdN9L7de-FwRdgvg-wxb&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDPtdN9L7de-FwRdgvg-wxb!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMYb5gFY6aA48HBg6rzWIxCrigizZqx25rKJHwpHc7SUHHI0pWmuSRQ1bXKjDzeH2aXHYV2dMBhSkGXgowBCtBh337gFMY7Hixg3hDaK7ES4O32v4axvuNCw3GJTZNpE3isuG3LDjNK3iAjfyCUMpNeeTd2EhPnrpx61l4Sq0QiUAqu3roY-XAm7-qBZpxBQ_RPi_vJzZQvOkWZ4dxOIpzDq-G5gpiIF7MJEEEGZVJhAu9XwWp9m-7wZDqtpq8ThTr-lDMBpe__f0gKDNkN23nKi7CBdJyvrkB6onPZ2Bf62HQ0hZ--AGS5AElqSDmXWFKdxgflPxmyXRjxH4dryjI0q41VP4xyg-HlIu1uw8c1W5UAGG1nH4AXORHE9H51Ws7GJhSYOP6Q9SubwvwxYqmEFtcg_e7c",
+      "widthPx": 4160,
+      "heightPx": 2340,
+      "authorAttributions": [
+        {
+          "displayName": "Ipam Kurniawan",
+          "uri": "https://maps.google.com/maps/contrib/113460124858892024603",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWsIAFV2yYS7Wi4WGELXyx1Np5e34MIP1AvV1ZOnPUU-hNyX90=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID5yKLP4gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID5yKLP4gE!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMa8eJzhp-mHjtzmAdnjZ6YHKRdXiYc8TsF9xLWcpsm1LWz2-qaNODVvl3lCIMHN7gCPhHB-kLsyqhWvwAk_sEya2tdQ8Tn8c1SgMuN9juZSrXpis2H1QdAXimhktGdPWv9hsALvvUlT-H9RXgg7SOdG8hMA1i3ZTXVczYXPq-XKZFC0NVvzzzUTdZ5SdyHef8GI40cXkDO0XPKl0kSqOybQR_vegI209YDlqIxfpeqIKHBL2OWBm2s6f63RDIu_GjZfPqzGHfO0y5iYwwZwGrKgF7wzJQzKsdlYAqUj5jLqdYotqoJfIMsBRA6Suw7jktrKAQXKyJAwz0o-RdfTtSuWx2icLEcPE2j60dNQZaoIl4bdRFt_BLrV1bvsEaMSsaKmbYPBk2ENdNzXZ5-ReVM0CA",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Lusi Yani Anjaswari",
+          "uri": "https://maps.google.com/maps/contrib/104993170739977189156",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUD0Vls67DwBSBh2zv1gcAhDfHmq-4lxj3pN5FNrpY6OQsffxlm=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICh5IuPTg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICh5IuPTg!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMYG-olMvdafsdcMUMCbb5SQwEP0IFWmpSWOAII5b8qMIxIeH1whBb1M-wHhbg41tr-A9VxiD-1dKvl2wzIpUefF2oDdlQz8SbiS3_Nrl9-LDJu3ir5jGPXYRjf0zVZ44vP8BCMNSzyhSe2leD__1fgxXhamXa0kMUiHJSnX-Q9BBcPw6puH1D8g_Gspmei-ph2MzCq30MUoW8SLk679JvkOfAVZYI3qzDgU2ncf91yzSX9-H72udYNy4fY9ksjWCcuYMIsHD1_9S1CNQsRElwgO2FMEEXny6PW1aK4XMMAHIzoj38HYmL3biZRRpamv7DIK5hCwrOLfGojVzbW99X__Cj28Zk47EuygzqcQPsFrmmcQWQDS2GiVX3NfUIyjweMlui0vSYYz_379KSwLKUSeQAHWJiCX0yNdh2uA4XMkLg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "LAYLA SABRINATUL Q",
+          "uri": "https://maps.google.com/maps/contrib/115846358480195426273",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXI32N8D4ll3dbTGszw3l6T_b_vFm4V5CqkwvzNB1GUaXra1uGX=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhD9gT98pFmjzDAEu0B2xY77&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD9gT98pFmjzDAEu0B2xY77!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMYfDz3guqRBS3lrF_ix6V-qCENVBcWxvm7xzrPbV9rTOTEGbmSBfEb6UpXieRyj932t-n-F8Ns-ABUlRgIF9TrodELE6Nsg3AxIWscP7usqTu5QXgXkTxhAFhnmvUWuJRi8zrLsP9JzfoSUowAAPwyWPjTH76GvWYrL8fVB1cg61NAMtO-kPdKUx5-QRUQoqR4S9t84YkoH0Q89PZpi8-lYcMlqFcNTGdLiKZhXl0jEIrAK4-zMmCTDOVyDMSI0YOLIQfLfmV0_r4kYykp4SVZo-SxQ2jQAizucuc714jvGhX6JPUo3BJBq5PXM6hACqjjw_RbG8Mx7NJIgFEQw2XUJNusP0UI3BQrj4jUl-E7HPI3tLgWC804uCjNA3oaKiSIMh0VpDF77Z_BojZ36YFNUtHQYEv4ksuuxR7Z5cZgXkQ",
+      "widthPx": 1832,
+      "heightPx": 4080,
+      "authorAttributions": [
+        {
+          "displayName": "Tia",
+          "uri": "https://maps.google.com/maps/contrib/105908810940094906209",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVMt5k1TYRKsD-RU2Od4OzkYtYLxNCfb8RYmgi3sAiSpcLNl7c=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDfPfdpiSFBkO9UFtaGtQlb&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDfPfdpiSFBkO9UFtaGtQlb!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMYLC2_kNdJXorxbLZpBeYobb2JcH7QpN3Uy_Usm30e-4bNViA2o6sUNdU484siXR569EQfT7ZwYrktwp7A7e5P6oO_4Eulkv5toIVKCeab7cfFvWm0dkq9c4MbN5ozTCtyH-KDlLrgjcFJk3rJWwLcpijuiNd6RXxtprCLcAj7rMZeIfiEifQWnwZuvmAEIXVPg7brx3CUremKEBe4aDO2hXTFIo1pm6zJfQzOlMubf0Pc7r45Vth_jfVjb4rWvN5eFgeAWCuKj2eqKPdsiVhaTkoYpSeREz-cSBqPQ370EGHZnj4WC1IwS3SoszOV1fsgNFOJrcmvJjZxAqq4-NV1NFQU-we-4qMCNHlO5VtXIQyowLXA2rmTwVAImGkvn8Z0qvoknsmOtTODlgxjVip6fy4RDs-ftDGD8eEFPkTRQ",
+      "widthPx": 3264,
+      "heightPx": 2448,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAvpuPKw4SER97l427TByep&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAvpuPKw4SER97l427TByep!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMZ4rrmDQ7pNHlj69ZlKxj-7pN_FYIh3B-vBJ5WOIc1Ua6fv6Xxhm3Qh_TJM2htHqXEipC53BtObDdwCKno9Bq6sea-RmOqm6jdZUKpHsPj9JvgGPz4SAZH-I-l84GQe_MrkxE0vRRK5IxSiotMjpzQa9oy0z-SLWp01tkO49-U-RApcJQCGan1LGftvkE_H3TYZEPkyoqacVKkBk205PEB4fRD4hOTpRKWV4XxVSZ-fKxri9atexEMSAYEDiIUebhdfmxPZDrFNpA9orP6FA8EVlC2Pd3dysAnuMS4G_J_ZxeS2n0hN4cJlEJg6OtgIiwKajwAm_ewrsU_zkGzDsRZxNIyi4DCxc9no7NVeywUABrng4a-3MKAwXJhtSBlms1hWQ5Sw81MftplEdY9k2Ezp5r9rIyA",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Annie Astony",
+          "uri": "https://maps.google.com/maps/contrib/115419857672789372832",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVrEWpfhjucgw6EtYOaqhe2MOT5kXa47V7fBCrp-47tBshwj9YY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDG_7ik8gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDG_7ik8gE!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMZ_6dncz3GJ7wYpTQuWuRZD-tfJFs62SGX2SIzjg3cD5HIvG1XSQWTZEKpZdyRvaHj2QoGv6Pe6p3cch4GoIS8Ais6TZEmI5mxUaqqB0e0ccQkPuBuTFkwal3o98hq82vqXxgmyuwC9gb9uRjY647eiBnAC09UFZm9SgFIomwiIc9MxzG5ZbNqiAWmXF5b9JEfeCVQf1asnK0KFnjAGbQY9UI2lBtRNVQ0h-F3EPs0nJssweN8vBQa1CN9VRScSsXvgDsE0tIKmRrXRVFCQDNlkJYldmfFaZIFFZ7jwTQApll-oPXlPbOvjlxZSr2dC1QyVtYW_xIKDhaNFcx4GqEEI5FIx4zqYx0z05iTYM8yJaDtWHAD0xkJpl9FNXY70ONAxtHklXZPZL_UAWBMfmP2L_g",
+      "widthPx": 2560,
+      "heightPx": 1440,
+      "authorAttributions": [
+        {
+          "displayName": "rena",
+          "uri": "https://maps.google.com/maps/contrib/111446797557577074883",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXkY_UtTugKszQtjHN69ajqCuAER5GOEeSXQ1n201DwpCk8oy2pxg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICxr7OFBw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICxr7OFBw!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    },
+    {
+      "name": "places/ChIJO-nfmZT0aS4RTGfvOQ-x-wc/photos/Aa-ngMaWD_4BW0LvZ8fR_nzrPhRi-C3SD8lDTRhgYzUQ7CO-ceRiNoF9QkMyqQ-_sCq3SMuC4-SCg0U2pBF7tDdRTNpruO4-tbeIzATEPYtjiQ8SlSwuYc-7Dffaf3rzBIq4UgOE6dONXoNDuirGsYctp27i69A4McL5BCwCDemR_ywbIx2mpdn3Qy6istmt4O5BAoAwu2gjnJS9snZokChHmvk53sg5EstXtisKytumQYh9DGqcd3CX8wTMLSQYUxdw36e7WqCgoV4WsxD6LgaFSyKC6GMW00Vn7MuladrAwMZBWNGgdIRgkDqLC8H9-AKCiQAHpY4CPyJ-a54PhbHPaeVjdJcI7MjH0H4RRtvte4WOlidDllBLrDKshv4l14JpbXjkafkrXNe3uf4_gbSF1qeE9g",
+      "widthPx": 2560,
+      "heightPx": 1440,
+      "authorAttributions": [
+        {
+          "displayName": "rena",
+          "uri": "https://maps.google.com/maps/contrib/111446797557577074883",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXkY_UtTugKszQtjHN69ajqCuAER5GOEeSXQ1n201DwpCk8oy2pxg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICxr7OFZw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICxr7OFZw!2e10!4m2!3m1!1s0x2e69f49499dfe93b:0x7fbb10f39ef674c"
+    }
+  ]
+}

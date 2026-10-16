@@ -1,0 +1,311 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7229,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Jessy Bread\"",
+        "fontSize": 80.1,
+        "lineHeight": "84.063px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#kue-title \"Kue untuk setiap perayaan\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.787px",
+        "textWidth": 301,
+        "pctOfContentWidth": 86
+      },
+      {
+        "el": "h2#roti-title \"Roti setiap hari\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.787px",
+        "textWidth": 276,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h2#lantai-title \"Makan di lantai dua\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.787px",
+        "textWidth": 192,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.787px",
+        "textWidth": 234,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 22.1,
+        "lineHeight": "29.8958px",
+        "textWidth": 211,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Langganan kue ulang tahun\"",
+        "fontSize": 22.1,
+        "lineHeight": "29.8958px",
+        "textWidth": 323,
+        "pctOfContentWidth": 92
+      },
+      {
+        "el": "h3 \"Kue cokelat & keju\"",
+        "fontSize": 22.1,
+        "lineHeight": "29.8958px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"Pilihannya banyak\"",
+        "fontSize": 22.1,
+        "lineHeight": "29.8958px",
+        "textWidth": 223,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "h3 \"Bersih dan ramah\"",
+        "fontSize": 22.1,
+        "lineHeight": "29.8958px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"Lantai dua hemat\"",
+        "fontSize": 22.1,
+        "lineHeight": "29.8958px",
+        "textWidth": 202,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.787px",
+        "textWidth": 270,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 36.2,
+        "lineHeight": "39.787px",
+        "textWidth": 261,
+        "pctOfContentWidth": 75
+      }
+    ],
+    "overlappingText": [
+      "span \"Jessy\"  ×  span \"Bread\""
+    ],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 29
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6872,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Jessy Bread\"",
+        "fontSize": 108,
+        "lineHeight": "113.434px",
+        "textWidth": 704,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#kue-title \"Kue untuk setiap perayaan\"",
+        "fontSize": 44.9,
+        "lineHeight": "49.3504px",
+        "textWidth": 604,
+        "pctOfContentWidth": 86
+      },
+      {
+        "el": "h2#roti-title \"Roti setiap hari\"",
+        "fontSize": 44.9,
+        "lineHeight": "49.3504px",
+        "textWidth": 343,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#lantai-title \"Makan di lantai dua\"",
+        "fontSize": 44.9,
+        "lineHeight": "49.3504px",
+        "textWidth": 457,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 44.9,
+        "lineHeight": "49.3504px",
+        "textWidth": 290,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 24.2,
+        "lineHeight": "32.7024px",
+        "textWidth": 230,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Langganan kue ulang tahun\"",
+        "fontSize": 24.2,
+        "lineHeight": "32.7024px",
+        "textWidth": 274,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Kue cokelat & keju\"",
+        "fontSize": 24.2,
+        "lineHeight": "32.7024px",
+        "textWidth": 219,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Pilihannya banyak\"",
+        "fontSize": 24.2,
+        "lineHeight": "32.7024px",
+        "textWidth": 244,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Bersih dan ramah\"",
+        "fontSize": 24.2,
+        "lineHeight": "32.7024px",
+        "textWidth": 223,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Lantai dua hemat\"",
+        "fontSize": 24.2,
+        "lineHeight": "32.7024px",
+        "textWidth": 221,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 44.9,
+        "lineHeight": "49.3504px",
+        "textWidth": 335,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 44.9,
+        "lineHeight": "49.3504px",
+        "textWidth": 324,
+        "pctOfContentWidth": 46
+      }
+    ],
+    "overlappingText": [
+      "span \"Jessy\"  ×  span \"Bread\""
+    ],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 29
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5690,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Jessy Bread\"",
+        "fontSize": 157.8,
+        "lineHeight": "165.648px",
+        "textWidth": 584,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#kue-title \"Kue untuk setiap perayaan\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 499,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#roti-title \"Roti setiap hari\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 458,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#lantai-title \"Makan di lantai dua\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 611,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 229,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 27.9,
+        "lineHeight": "37.692px",
+        "textWidth": 266,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Langganan kue ulang tahun\"",
+        "fontSize": 27.9,
+        "lineHeight": "37.692px",
+        "textWidth": 316,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Kue cokelat & keju\"",
+        "fontSize": 27.9,
+        "lineHeight": "37.692px",
+        "textWidth": 252,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Pilihannya banyak\"",
+        "fontSize": 27.9,
+        "lineHeight": "37.692px",
+        "textWidth": 282,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Bersih dan ramah\"",
+        "fontSize": 27.9,
+        "lineHeight": "37.692px",
+        "textWidth": 257,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Lantai dua hemat\"",
+        "fontSize": 27.9,
+        "lineHeight": "37.692px",
+        "textWidth": 255,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 448,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 433,
+        "pctOfContentWidth": 36
+      }
+    ],
+    "overlappingText": [
+      "span \"Jessy\"  ×  span \"Bread\""
+    ],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 29
+  }
+}

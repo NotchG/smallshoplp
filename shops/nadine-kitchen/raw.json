@@ -1,0 +1,379 @@
+{
+  "id": "ChIJQwZhB7WMaS4RcQ6gRHh6M1c",
+  "types": [
+    "cake_shop",
+    "bakery",
+    "food_store",
+    "manufacturer",
+    "store",
+    "wholesaler",
+    "service",
+    "point_of_interest",
+    "food",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0857-1112-5253",
+  "internationalPhoneNumber": "+62 857-1112-5253",
+  "formattedAddress": "Jl.Swadaya Raya ,Kp, Jl. Rawa Domba Gg. Buntu No.24A, RT.:02, RW:07/RW.7, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+  "rating": 5,
+  "googleMapsUri": "https://maps.google.com/?cid=6283500562077978225&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 17,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 5:00 PM",
+      "Tuesday: 8:00 AM – 5:00 PM",
+      "Wednesday: 8:00 AM – 5:00 PM",
+      "Thursday: 8:00 AM – 5:00 PM",
+      "Friday: 8:00 AM – 5:00 PM",
+      "Saturday: 8:00 AM – 5:00 PM",
+      "Sunday: 8:00 AM – 5:00 PM"
+    ],
+    "nextOpenTime": "2026-10-16T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "userRatingCount": 257,
+  "displayName": {
+    "text": "Nadine Kitchen",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cake Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cake_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1M3Y3My1nRRAB",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Recomended, mantab",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Recomended, mantab",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Panji Winarno",
+        "uri": "https://www.google.com/maps/contrib/109364414303267570079/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUKfAvI2uqHH-ZBNXHt79uzC_LZtLDH2hdTbSjzeBc44YzBWZfv=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2022-07-29T08:06:52.699171Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN1M3Y3My1nRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN1M3Y3My1nRRAB!2m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/reviews/ChdDSUhNMG9nS0VJQ0FnSUN5bkstaS1RRRAB",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Good",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Good",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Wulan Dari",
+        "uri": "https://www.google.com/maps/contrib/110470400572443792742/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNNnorGt2CS9PcsD_80eDVLdvL0KJ4GCPbgf6LomoG0Ctip1HL=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2021-01-23T07:54:20.531766Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN5bkstaS1RRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN5bkstaS1RRRAB!2m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/reviews/ChZDSUhNMG9nS0VJQ0FnSUR5enQ3bFNBEAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "good services",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "good services",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "ahmad syafiq",
+        "uri": "https://www.google.com/maps/contrib/101085911073072042750/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWDXnEImx3ZyYtCdGhFH7lrlciAlpC_2SkN_-6rEVU53rMLNSo=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2021-03-07T17:56:15.042524Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUR5enQ3bFNBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUR5enQ3bFNBEAE!2m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/reviews/Ci9DQUlRQUNvZENodHljRjlvT2kxcmVFc3lNM0poUm5CemFGcHpOWEJRU1ZWRmJtYxAB",
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 5,
+      "text": {
+        "text": "MasyaAllah the cake is delicious, the shape is cute, the price is quite cheap, thank you, sis, the seller is also friendly",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "MasyaAllah kue nya enak bentuk nya lucu harga nya termasuk murce makasi ya kak penjual nya juga ramah",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Refly A Yuandhika",
+        "uri": "https://www.google.com/maps/contrib/116489673551711296521/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjURK0QfiQ4zX6Ha3YXZl0ps7-q_762NTm2q2hOr-0f5Xr837K6Y=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-01-06T10:48:09.380710013Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2kxcmVFc3lNM0poUm5CemFGcHpOWEJRU1ZWRmJtYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2kxcmVFc3lNM0poUm5CemFGcHpOWEJRU1ZWRmJtYxAB!2m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/reviews/ChdDSUhNMG9nS0VJQ0FnSUNqanRXTTZ3RRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Orders made one day in advance were still well-served. The custom cakes were very detailed. The cakes tasted delicious. For such a high-quality and large cake, I think the price is quite reasonable. I hope the shop continues to grow rapidly. Thank you for making my son's birthday so festive.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Order H-1 tetep dilayanin dengan baik. Hasil custom kue sangat detail. Rasa kue enak. Untuk kualitas dan kue tinggi besar gitu harga segitu murah menurut saya. Semoga toko nya dapat berkembang pesat. Terima kasih ultah anak saya jadi meriah.",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "adityo mukti",
+        "uri": "https://www.google.com/maps/contrib/113292505390280190115/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIs12rusV8hewiK1XMnne9KIM79qAXzxQSzQeku4czdZwqnmg=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-04-21T15:22:32.586539Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNqanRXTTZ3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNqanRXTTZ3RRAB!2m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMbkGjqpDRE7GanKt8dhZ1jUedavl4s74bWky-INwV4TV4bDqHOiPPSzZ-LZKjn8u_w372xh0GrpUPLvjZr7cBRo9IqGo_-xGpvdnGeV6EsuE1vMlfM-sRJivDQrIxkRLdrAb4lszMuUzhXlvjk26J3Gf2fmkCSnsydiUDxlsLJvOaY4yqNEKsZCUVpsJ0JjRliv1JB975khkhfX_inPXr0p4cKuqbBiikqHWCjIfdq4uzbXZOWl3fX-v_bIdC7QN9-NKYuyFLMV5IBUjUzbIos-gJcOb7S7gypCEm9wvZo6IueHUrkC_3qWTkll6z47L7vPZ0o96j6u5JYS9rNcBxmCnsX19PpA9CceNrea8JCnO4dbKXDk7qSxewG3mNPVvGzRRwCB5G47tIVpRf7ol1dVbA",
+      "widthPx": 2154,
+      "heightPx": 3999,
+      "authorAttributions": [
+        {
+          "displayName": "Nadine Kitchen🎂CAKE ULANG TAHUN🎂",
+          "uri": "https://maps.google.com/maps/contrib/106283733381026424500",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl5Ry1MAECmvHL64o2AMN2yTSCrV31KLjxyhL2d3g3GvFk1cZY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICy5fjzIg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICy5fjzIg!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMZqrK67bYdt06vO3vG5x8ysoG4bqO4ixGnZvvRYhvHB8tokn0Yz-V4k15wdIjb6PUyPL_2j2Rnka3E8mq08dEf4Q6juzmwcCR4qhx5Nop6yqQxlqZE-ggXbVd-E9qgaypC7_Ol5hdIIKW5BZO85G8pxoBZwJq1f7YPSrlV4lPggaUwM9V2ZwFj1mKjpj-27s-OHHTx4Rk728VT9CRN0TrsDirUZboA1ZFqEIAqZ3J9OMcdYyXtQkCu1_qPj4v_S9ILj8gxeet5hBA4MbTejldqn8P1nfFpQULHUICprt9oHLLwG2Sa04wqrtIPncJi35k5XRKYZ4zawkgLWC4BsjbTpLCUwOgUOp7mT-GjrhqmlwDLAxQPNyU9LItqU2KKnjm9TvvHXSpuHLpfZH_s6aIVQj--Y",
+      "widthPx": 792,
+      "heightPx": 990,
+      "authorAttributions": [
+        {
+          "displayName": "Nadine Kitchen🎂CAKE ULANG TAHUN🎂",
+          "uri": "https://maps.google.com/maps/contrib/106283733381026424500",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl5Ry1MAECmvHL64o2AMN2yTSCrV31KLjxyhL2d3g3GvFk1cZY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDC3bSvsAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDC3bSvsAE!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMZ9vtSZyFdujltjRBeUUavvY599Z3ibdKGuqLAkcbOTt2tdNM7nw1x_fPcLiTC09regivWgkUHzpmBUU5Myy0hVWbjCBfMe06tfn98qBkBV1KXNpMH0fVW8Mq-pMcMpJT-0lkv7E4mvcM2QV_CyDywoYw_AwQW_NasQAEuThtCkaNQ4bJMYHGGBgQStUi9z-DK0_Kq7aVk5ockH8HK751GHAZpNlFIobDHoksZDgy0lL1PTumCLSMMe9B8ogPV8WRssoItClqU5pBLnuc_ED-gX4EddIKoNHOFTAF2EHDJiCpgb1wMHn2kzLEB6ZqoIAHDtMK-bwLVFCZOumAuWlSFIsbJl7S8wMmTT_npVhVJj1DHWebfKFxeqU-RroG6blSdwow3c623WQCYj1827Ea5NJ9SGk5ViOBeyiG2Z80wXRQ",
+      "widthPx": 1200,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "Nadine Kitchen🎂CAKE ULANG TAHUN🎂",
+          "uri": "https://maps.google.com/maps/contrib/106283733381026424500",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl5Ry1MAECmvHL64o2AMN2yTSCrV31KLjxyhL2d3g3GvFk1cZY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhD7QToOA44OwFAi9HnhzBFA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD7QToOA44OwFAi9HnhzBFA!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMYCR01jA5D5x7Ef1SaWu-lzNhaRp9XedTupvjMQ3WSupGwXcRlr3A_Vf8jaz3brlJo-1EsrMahz7QdXapYrbzJhRS45XqrddHA7T2CxI-wIRVX1IIR8usC_6U41CVxWrvfVdihwVhrWO3NXWK8f5IBe7a8HkVqSDVfrN0pOgbSAoz4cuPiDbf7o_LAir8Di1CZzmMGq_6RZeZD6yGqEzZPyUuUZGXa5If8CQVfx1HfebYs1HLvIXfrH0fpuHgVE7E9_2bEN9wx0Y9FX3dDphauAw3MC47oqJ2sv6uYaOAclU6UbSpXyIIyvi3HoZWfxVpeaYCqYUEZBL--y4p_Xl2usnfimNR79psKLwJWggn8lX94Jb8YO3i24oawHtx7F4QgGpR-gZ1JIVJAxfXVhnVFEIa3PkhLHKx6j6DLiS64M",
+      "widthPx": 1080,
+      "heightPx": 1062,
+      "authorAttributions": [
+        {
+          "displayName": "Nadine Kitchen🎂CAKE ULANG TAHUN🎂",
+          "uri": "https://maps.google.com/maps/contrib/106283733381026424500",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl5Ry1MAECmvHL64o2AMN2yTSCrV31KLjxyhL2d3g3GvFk1cZY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDCTvKcED-RKLsaKoHcuwbI&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDCTvKcED-RKLsaKoHcuwbI!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMb_AtDa0vJge5gV-LK8LG5ssYaRBV5Sg2jtiZPHaMpjAPvW8-CfqMH1Y4JIK9MEz2NES18f5GZ5Py9MNBLde7Resyg_05VvJHSEEduwJUxIvgAWbCUeSdwb5r2Mv7uixVH_cXBvn_sFRbZ5Fpxd_QZH4xSi69XJUPieN_dNJaQFeFKZhPh_aq4Gw6Oxwfah-GvyLsvz7QAu6bX4ORDv_nCVtSJhcZlDXxjdXLHPysZn9qyAR1z5CLsJkLOmAL6b8Hyf1yZ8AG46ujwwIBAV3BDnsvK82wNRsu6WqZn-fCccTYaepk8kbibvstPy_PpQuGOXV8RsG_O6T-f7EQB2b-HDua8NFvALJqDKH8a6RlKMUUdQ0IxnFwHeKvUO8iw6zRbr8hIVXazUa7fJUQZRATfEN0ul",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Nadine Kitchen🎂CAKE ULANG TAHUN🎂",
+          "uri": "https://maps.google.com/maps/contrib/106283733381026424500",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl5Ry1MAECmvHL64o2AMN2yTSCrV31KLjxyhL2d3g3GvFk1cZY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDPi72G1AE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDPi72G1AE!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMY7OV83GY1ih4T_H1rnEqNrGxUPx0NDREBRicXac3iQD7_W3MTAoa-WJrCxG8lx4HqXYWphGLHyeTjyqa_zvVb2kryIPEEW--V5odmy6Igk6VSOe8FUKNlfRIhOyqQBRD7L4qyyK2SO9G8zoicMoNHjgqojVT27-HObi9tdfwYiyAbGnkXrlfJxB0q5eP5qhyku67Z7Y_rZcXrN67RW23a7mW_mEwz6y9GppZCjmZd6oZZMmvD-PyEbAJ0u9-ggZH6gU_5HY-n3jgkyfgK9VOWDHXYmZxZAntcYEcL7StDpqbV7ZQbH6UvNrhPqcyUoWhw_9EB-K7GSc1CNh5fV-TAGgc17n0s3P7SLQFdtwTw1_bBBJ3XC1XwOahFbcUHNJ9YVIqznyN-yN0tobjVkl-xtbFfKA_BhWIe4Gs50fgLqCg",
+      "widthPx": 716,
+      "heightPx": 723,
+      "authorAttributions": [
+        {
+          "displayName": "Marlina Hasyim",
+          "uri": "https://maps.google.com/maps/contrib/110581248574422321373",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUWf1xL5RanSsaKcu6kXjKtFC8rqjtUh6gy-G_c9RfjulayWt_z=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCl2oFjpPgEqlCp5PTQYEmB&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCl2oFjpPgEqlCp5PTQYEmB!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMYcDw92RJkRBJn76UfX1GneCIf2ivNzcS1vum-M870Bq-r0o7jlgp8MBq7YH6ygJu2ZpWu8j1akx1qa3Ado20OaEXFOuEp2EIgP5Wl_3ja781vxBrVHe6idR-Mep0eiD8SnFnWPNVfRAYQm4_y0ENxCspiAhhP78CEFSSmIDD5fyU97M34a75coFjiyfLTil15L_YQLcgIYSeK0L4U4LVzK8A0ckKcfv3W9Dr6V9V2Gnugajt3skfDxZduMBfyCnYz5RVhBg7DVZHOSWlT_41PICM4q8EIpRn9nJBqwn7lbLVuzXcfenfzWLy7ymyVO6Y5ES1SnansYSMdSFq5qxxbaySE8uJLRC98jaFtPAp8zVS6bAHKyX0iG48xuCeLtmzXrmt6vp48gK9uh5RSxa0F-MZayUcqWNiVfR7Ofbo9K",
+      "widthPx": 1200,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "Nadine Kitchen🎂CAKE ULANG TAHUN🎂",
+          "uri": "https://maps.google.com/maps/contrib/106283733381026424500",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl5Ry1MAECmvHL64o2AMN2yTSCrV31KLjxyhL2d3g3GvFk1cZY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDz-cXIEboj9XLzW56yMx7R&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDz-cXIEboj9XLzW56yMx7R!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMaPEhMgZPlfGxjO2thN4swCp9ScAbrmRE9nno7HegdjUUvY2QHrE2MMWzpEL4_B3P3y1zxhpOGKmjqn7BMiRX31PDcR8muu5LeY8QZRZYrN-t6_UYwG4tBCmAWt4fkCLrqyAvEvp1ckjg611-5BqQLFLkgIyqw5WEWZLwaxdTOeDisHr6rNzc8aSMarQcXySj4QNnS0OnBisBctXuXaRqcdJElePzUNuDu3Gi5GdpCTJ3uUJ0i7KwHen-3VrZ1hxL3JF-PuBRj4ChrEMJNwIUpZFaSYKRTgOGLz_BHp1IoGF56UaD89G9s2nrbr--IiB1wqb3ts8W4ra-wdLBl0OQz68_JH9xSuUeUVHbt7BFFERjzGTUOwPyaq8ZM56iOHES2H8odo_YdNMP6-lF7_tADCSQ2U6XuAgxdWPnOxGimJGw",
+      "widthPx": 1170,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Nadine Kitchen🎂CAKE ULANG TAHUN🎂",
+          "uri": "https://maps.google.com/maps/contrib/106283733381026424500",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl5Ry1MAECmvHL64o2AMN2yTSCrV31KLjxyhL2d3g3GvFk1cZY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDnvJgVE3LcvAS99kVr5HLZ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDnvJgVE3LcvAS99kVr5HLZ!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMaI4vQbEP3sUSXN9KYCqdszkbhWfOpEPKGxomBFBKJKmc1_I93ei5qBsu4lwnFyRHnfWvNLdvkVl8D6zZ8tg-HWO8cJRTz4LVC4Gkkl47H2bV7zWZ1HXoKet7wRXW4yiSAK4nRpxU5AVhIRejsDfB0_FRTJrWijhA-VxO_r5E4ax3TdaN0xBPLhEGU2TcyGgFZwgPmApCPRnNx2bPumb7KFZJIhxa191bnf44Tug7_flLL9XGAUsarbkk_881AJzQxDMGIrhIwjxtUEfyMW1tHHOUtrK94bAwrr12GO46KJ5rTi4om2LicLKnE-B5GcdJam-id1cZP0xW-9FpOM9P7eri9BuA9meQpF3TdWLoBzyyxgktfU5y8hntc93aUv3ZxNbI3lFpSYo7fU6Rfmq0L60Gd4UG6HHED6RlC7ohl7",
+      "widthPx": 1080,
+      "heightPx": 1243,
+      "authorAttributions": [
+        {
+          "displayName": "Nadine Kitchen🎂CAKE ULANG TAHUN🎂",
+          "uri": "https://maps.google.com/maps/contrib/106283733381026424500",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl5Ry1MAECmvHL64o2AMN2yTSCrV31KLjxyhL2d3g3GvFk1cZY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAQ2_gbPwirvyuy-i7rjQ0P&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAQ2_gbPwirvyuy-i7rjQ0P!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    },
+    {
+      "name": "places/ChIJQwZhB7WMaS4RcQ6gRHh6M1c/photos/Aa-ngMZdxub2JXm6mOX6p9H5y3tHVJ3vyScTi4gIrdA-jmjCHye1t7l--pSMFuHvDJdZ5_AL5jFxNnHJQZzSUgrKViOSwqcZ3PZy6yW_AIgPe3w_fAzyC1vOoSYyOgDYS3VnDvCLIrnvjnx1qbMvqda3rzuyMalg8QJK5JgxwjddNMzRrBtoN8yu7-Z4rw-u4w4L8_tZXvlJINMBXHb2vYlj0rph-pep16W6B4XUXP2Fi68-gVJLSLZr601MosZ-rumDS3tLvoMxhypWooajhZP-XVKCLtRHdM-nLp0K51SK7i_rS-CKfzjeCvusSDMXIHCQzNFqzC6izsouUDbZ2a3Rg65Wqv1cWMY0P3AVbc_vARDVVcj3HCmjX3MmQuyKbnzE6CP7GLgAY0hIruw8GJJwqww7AYY",
+      "widthPx": 1496,
+      "heightPx": 1496,
+      "authorAttributions": [
+        {
+          "displayName": "Nadine Kitchen🎂CAKE ULANG TAHUN🎂",
+          "uri": "https://maps.google.com/maps/contrib/106283733381026424500",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl5Ry1MAECmvHL64o2AMN2yTSCrV31KLjxyhL2d3g3GvFk1cZY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICV1oKsSw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICV1oKsSw!2e10!4m2!3m1!1s0x2e698cb507610643:0x57337a7844a00e71"
+    }
+  ]
+}

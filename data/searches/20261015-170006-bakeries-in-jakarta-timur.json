@@ -1,0 +1,705 @@
+{
+  "query": "bakeries in Jakarta Timur",
+  "includedType": "bakery",
+  "fetched_at": "2026-10-15T17:00:11Z",
+  "count": 40,
+  "places": [
+    {
+      "id": "ChIJN3EQvnDzaS4RvScc6otGhJ8",
+      "formattedAddress": "Jl. Pedati Raya No.23, RT.13/RW.4, Cipinang Cempedak, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=11494389715698460605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.surelysomedaykitchen.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 522,
+      "displayName": {
+        "text": "Surely Someday Kitchen",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Pastry Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "pastry_shop"
+    },
+    {
+      "id": "ChIJW3mgWh_zaS4R6nTOcpRfyd0",
+      "formattedAddress": "Jl. Monumen Pancasila Sakti No.14, RT.14/RW.9, Lubang Buaya, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=15981409843886847210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 290,
+      "displayName": {
+        "text": "Rise n Roll cake and bakery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJIbuYl_XtaS4RwxH6foI3KzU",
+      "formattedAddress": "Jl. Cipayung Raya No.RT. 10, RT.10/RW.1, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=3831216941624332739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://amorcakes.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 474,
+      "displayName": {
+        "text": "Amorcakes and Bakery - Cipayung Jakarta Timur",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJR423nWuLaS4RxHzTFirE9H0",
+      "formattedAddress": "Jl Inspeksi irigasi RT. 003 RW. 002, Jl. Kelurahan, RT.3/RW.2, Ujung Menteng, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13960, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=9076094834109021380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1077,
+      "displayName": {
+        "text": "Global Bakery Ujung Menteng",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJxcZWXbmNaS4RYRMzxQLzFk4",
+      "formattedAddress": "Jl. Pd. Kelapa Raya No.3B, RT.2/RW.4, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=5626951977669956449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.dcikabakery.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1559,
+      "displayName": {
+        "text": "Dcika Cakes & Bakery Pondok Kelapa",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJbQOYNQD1aS4Rr02JTGw23B0",
+      "formattedAddress": "Jl. I Gusti Ngurah Rai No.21, RT.1/RW.15, Klender, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13470, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=2151654560744689071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1071,
+      "displayName": {
+        "text": "GULA JAWA BAKERY",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJE92S1pCMaS4RwgiN-MCYDMA",
+      "formattedAddress": "Jl. Robusta Raya No.146, RT.1/RW.3, Pd. Kopi, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13460, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=13838603709573826754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1267,
+      "displayName": {
+        "text": "Maharaja Super Cake Pondok Kopi",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJt0UFVjGNaS4Rh_jCa_ojhtQ",
+      "formattedAddress": "Jl. Elang Malindo No.12, RT.010/RW.001, Cipinang Melayu, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13620, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=15313967141376686215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.instagram.com/pico9_/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1117,
+      "displayName": {
+        "text": "Pico9 Cake & Ice Cream Shop",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJq3UafYKLaS4RTIWeZFxeAMk",
+      "formattedAddress": "Jl. Tipar Cakung No.2, RT.5/RW.8, Cakung Bar., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=14483680152541627724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 388,
+      "displayName": {
+        "text": "Global Bakery Cakung",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJO-nfmZT0aS4RTGfvOQ-x-wc",
+      "formattedAddress": "Jl. Balai Pustaka Timur No.C 2, RT.5/RW.10, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=575248056374486860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1009,
+      "displayName": {
+        "text": "Jessy Bread",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJzVI9PybzaS4RACy00-zx1wQ",
+      "formattedAddress": "Cipinang Elok II Blok AL/4 RT. 015/010, RT.15/RW.10, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=349013495610878976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 64,
+      "displayName": {
+        "text": "Aneka Kue dan Pastry Jakarta Timur",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJlUFYHf-LaS4Rz-QAgec3J4w",
+      "formattedAddress": "Jl. Jkt Garden City Boulevard No.5, RT.7/RW.9, Cakung Tim., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=10099102156842919119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://jaktim.latezzacakehampers.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 555,
+      "displayName": {
+        "text": "Latezza JGC ( Korean Cake )",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJyTSluPf1aS4RDq9nWizik-0",
+      "formattedAddress": "Jl. Balai Pustaka Timur No.178, RT.4/RW.11, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=17119275288688570126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.dcikabakery.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 857,
+      "displayName": {
+        "text": "Dcika Cakes & Bakery Rawamangun",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJX58ECLvtaS4R6UYP1HflvoU",
+      "formattedAddress": "Jl. H. Hasan No.4B, RT.2/RW.2, Baru, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13780, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=9637392555441080041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 658,
+      "displayName": {
+        "text": "Dalmonde Cake & Bakery Kalisari",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJm2PPcUKLaS4RKYaCqZquOp4",
+      "formattedAddress": "Jl. Raya Penggilingan No.14, RT.8/RW.7, Penggilingan, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13940, Indonesia",
+      "rating": 4.1,
+      "googleMapsUri": "https://maps.google.com/?cid=11401617385933932073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 490,
+      "displayName": {
+        "text": "LINDAYES Cake & Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJMynLYpKLaS4R4nL1FNYRQBA",
+      "formattedAddress": "Jl. Kavling Kowilhan No.8 Blok A3, RT.7/RW.5, Setu, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13880, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=1170955514288632546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://msha.ke/nasyawebsite#links",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 857,
+      "displayName": {
+        "text": "Bake with Nasya (Online Order only)",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJkWJep370aS4RSeAIdHc3gjM",
+      "formattedAddress": "Jl. Matraman Raya No.135, RW.9, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=3711590029094084681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/shintanabakery/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 452,
+      "displayName": {
+        "text": "Shintana Bakery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJv7zTuMKMaS4RJxKsY3xBOuM",
+      "formattedAddress": "Jl. Pd. Kelapa Raya No.1 Blk E9, RT.10/RW.11, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=16373471397762830887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/chezinibakery",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 62,
+      "displayName": {
+        "text": "Chezini Bakery Cake Cafe",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJARreBGTzaS4RLYXR1-JSSE8",
+      "formattedAddress": "Jl. Raya Pd. Gede No.5C, RT.5/RW.2, Pinang Ranti, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13560, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=5712907261556393261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.dcikabakery.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1522,
+      "displayName": {
+        "text": "D'cika Cakes & Bakery Pinang Ranti",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ_yVNDvTyaS4RF8uAA5ljXD0",
+      "formattedAddress": "Jl. Raya Bogor No.6-7 Blok R, RT.9/RW.10, Kramat Jati, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13510, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=4421518443010902807&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.majestykbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 726,
+      "displayName": {
+        "text": "Majestyk Bakery & Cake Shop Kramat Jati",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJV587rUKLaS4RcP5w1CAclxs",
+      "formattedAddress": "Jl. Raya Penggilingan No.14, RT.8/RW.6, Penggilingan, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13940, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=1988088687836069488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 470,
+      "displayName": {
+        "text": "Global Cake & Bakery Penggilingan",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ35_Vqh3zaS4RG6aUVkV4Zjg",
+      "formattedAddress": "Jl. Pahlawan Revolusi, RT.1/RW.6, Klender, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13470, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=4064067952949110299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 641,
+      "displayName": {
+        "text": "Global Bakery Klender",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJUZnebJX0aS4RS3xX7_qwVzM",
+      "formattedAddress": "Jl. Waru No.20B, RT.6/RW.7, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=3699620210711952459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 107,
+      "displayName": {
+        "text": "Manaree Bread & Cake",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJFW2qORqNaS4RSoVlo_tI76I",
+      "formattedAddress": "Jl. Pondok Kelapa VI No.10 4, RT.10/RW.4, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=11740682999193503050&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 234,
+      "displayName": {
+        "text": "Elud Cake and Bakery pondok kelapa",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJdSPZDxn0aS4RsQF-gtKf2qw",
+      "formattedAddress": "Jl. Sumenep No.9 11, RT.11/RW.4, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=12455443445927772593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1425,
+      "displayName": {
+        "text": "Chicory European Patisserie",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Pastry Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "pastry_shop"
+    },
+    {
+      "id": "ChIJ35BPL-nxaS4RAxk9jjK4ip0",
+      "formattedAddress": "Jl. Gunawarman No.11 A, RT.6/RW.3, Selong, Kec. Kby. Baru, Jakarta, Daerah Khusus Ibukota Jakarta 12110, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=11352088338015000835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.ismaya.com/brands/flor",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2713,
+      "displayName": {
+        "text": "FLOR Gunawarman",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJPUXxwn_zaS4RB6ByB6L8sRA",
+      "formattedAddress": "Jl. Jatinegara Timur No.109, RT.1/RW.2, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=1203020348324487175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hollandbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2446,
+      "displayName": {
+        "text": "Holland Bakery Jatinegara",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJdx3xdz3zaS4RDtDvBTyvppY",
+      "formattedAddress": "jl. lubang buaya ruko D'Monumental no 1, RT.6/RW.8, Lubang Buaya, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 18310, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=10855556624155660302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 15,
+      "displayName": {
+        "text": "Dalmonde Cake & Bakery Lubang Buaya",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJx2KBpyL0aS4RVijymjP8DBI",
+      "formattedAddress": "Jl. HOS. Cokroaminoto No.42A, RT.6/RW.4, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=1300691690976323670&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://exquisepatisserie.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1030,
+      "displayName": {
+        "text": "Exquise Patisserie Cake & Bakery - Menteng",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJL8gyBpXzaS4RAlC9zGOniIc",
+      "formattedAddress": "Jl. Raya Tengah No.1, RT.8/RW.8, Gedong, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13760, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=9766239839031480322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 256,
+      "displayName": {
+        "text": "D'almonde Cake & Bakery Ps. Rebo",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJQwZhB7WMaS4RcQ6gRHh6M1c",
+      "formattedAddress": "Jl.Swadaya Raya ,Kp, Jl. Rawa Domba Gg. Buntu No.24A, RT.:02, RW:07/RW.7, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=6283500562077978225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 257,
+      "displayName": {
+        "text": "Nadine Kitchen",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJExQvKsLsaS4RO4OmdNqTiXw",
+      "formattedAddress": "Ciracas, Jl. Lap. Tembak Blok Mesjid 3 No.57, RT.1/RW.10, Klp. Dua Wetan, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13720, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=8973866298981647163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 166,
+      "displayName": {
+        "text": "Dalmonde Cake & Bakery Cibubur",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ62BYLmWLaS4R6rXV-ChzXLU",
+      "formattedAddress": "Jl. Dr. KRT Radjiman Widyodiningrat No.24, RT.8/RW.10, Jatinegara, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13930, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=13068446838532978154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 103,
+      "displayName": {
+        "text": "GLOBAL BAKERY PASAR PULOJAHE",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJWag0a6-MaS4RStqtlyCKMVI",
+      "formattedAddress": "Jl. Buaran Raya No.104 8, RT.8/RW.15, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13470, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=5922666857557252682&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://harvestbakes.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 489,
+      "displayName": {
+        "text": "Harvest - Duren Sawit",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJo5lCGgCLaS4Rp1g5KQOlpbY",
+      "formattedAddress": "5, Jl. Raya Rw. Kuning No.65, RT.5/RW.16, Pulo Gebang, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13950, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=13161106919055251623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 63,
+      "displayName": {
+        "text": "Global Bakery Rawa Kuning",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ7Uqu-wn2aS4ROdQ18C-CT_s",
+      "formattedAddress": "Jl. Hayam Wuruk 5-6, RT.10/RW.9, Maphar, Kec. Taman Sari, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11180, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=18108835769085187129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 5050,
+      "displayName": {
+        "text": "Suisse Bakery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJS_LL0NiNaS4RivyxRSZAyHQ",
+      "formattedAddress": "Jl. Teratai Putih I, RT.13/RW.4, Malaka Sari, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13460, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=8415046436863999114&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 54,
+      "displayName": {
+        "text": "ELUD BAKERY TERMINAL KLENDER",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJzUwCAHDzaS4Rmu8LyCYPWDU",
+      "formattedAddress": "Jl. Cipinang Jaya I No.8, RT.8/RW.7, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=3843838941200117658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.majestykbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1535,
+      "displayName": {
+        "text": "Majestyk Bakery & Cake Shop Cipinang",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJnTlS8ZTxaS4RCps2zu5GMZ0",
+      "formattedAddress": "Jl. Cipete Dalam No.9, RT.2/RW.3, Cipete Sel., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12420, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=11326912529289353994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.levantboulangerie.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 3346,
+      "displayName": {
+        "text": "Levant Boulangerie & Restaurant",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "French Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "french_restaurant"
+    },
+    {
+      "id": "ChIJpyEZr6CNaS4RU3ixnNCYS4o",
+      "formattedAddress": "Jl. Buaran I No.17 Blok L3, RT.4/RW.12, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=9965226622236850259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 203,
+      "displayName": {
+        "text": "Global Bakery Buaran",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    }
+  ]
+}

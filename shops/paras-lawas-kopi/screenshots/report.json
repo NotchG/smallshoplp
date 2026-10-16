@@ -1,0 +1,410 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7920,
+    "sizes": [
+      {
+        "el": "h1 \"PARAS LAWAS KOPI · PONDOK KELAPA, JAKART\"",
+        "fontSize": 48,
+        "lineHeight": "45.6px",
+        "textWidth": 319,
+        "pctOfContentWidth": 91
+      },
+      {
+        "el": "h2#menu-title \"Papan Menu\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"Kopi 24–27rb\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 123,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Cemilan\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 82,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Makanan\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 97,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#bundling-title \"Paket Bundling\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 237,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h3 \"Sosis Solo + saus + es teh\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 232,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"Mi + es teh\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 106,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Mentaiki + es teh manis\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 234,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#tn-title \"Kopi Toean Njonja\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 282,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h2#sudut-title \"Sudut Lawas\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 194,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"Rak piringan hitam\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 195,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h3 \"Lagu lawas\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 112,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Teras papan catur\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 179,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3 \"Dek atas\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 83,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#praise-title \"Kata Mereka\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 203,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#visit-title \"Mampir Doeloe\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 245,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h2#contact-title \"Hubungi Kami\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 226,
+        "pctOfContentWidth": 65
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 20
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 8614,
+    "sizes": [
+      {
+        "el": "h1 \"PARAS LAWAS KOPI · PONDOK KELAPA, JAKART\"",
+        "fontSize": 62,
+        "lineHeight": "58.8544px",
+        "textWidth": 411,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h2#menu-title \"Papan Menu\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 248,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Kopi 24–27rb\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 131,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Cemilan\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 92,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Makanan\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 109,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#bundling-title \"Paket Bundling\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 295,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Sosis Solo + saus + es teh\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 260,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Mi + es teh\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 118,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Mentaiki + es teh manis\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 261,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#tn-title \"Kopi Toean Njonja\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 215,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#sudut-title \"Sudut Lawas\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 242,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Rak piringan hitam\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 218,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Lagu lawas\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 125,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Teras papan catur\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 200,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Dek atas\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 92,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#praise-title \"Kata Mereka\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 252,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#visit-title \"Mampir Doeloe\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 305,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#contact-title \"Hubungi Kami\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 281,
+        "pctOfContentWidth": 41
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 20
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5835,
+    "sizes": [
+      {
+        "el": "h1 \"PARAS LAWAS KOPI · PONDOK KELAPA, JAKART\"",
+        "fontSize": 86,
+        "lineHeight": "81.7px",
+        "textWidth": 570,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#menu-title \"Papan Menu\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 327,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Kopi 24–27rb\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 143,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Cemilan\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 105,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Makanan\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 124,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#bundling-title \"Paket Bundling\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 388,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Sosis Solo + saus + es teh\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 296,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Mi + es teh\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 135,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Mentaiki + es teh manis\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 298,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#tn-title \"Kopi Toean Njonja\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 462,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#sudut-title \"Sudut Lawas\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 318,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Rak piringan hitam\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 248,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Lagu lawas\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 143,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Teras papan catur\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 228,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Dek atas\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 105,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#praise-title \"Kata Mereka\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 332,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#visit-title \"Mampir Doeloe\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 402,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#contact-title \"Hubungi Kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 370,
+        "pctOfContentWidth": 31
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 20
+  }
+}

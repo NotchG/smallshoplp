@@ -1,0 +1,20 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "Reza Damora",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Saktiana Dwi Hastuti",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Ipam Kurniawan",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

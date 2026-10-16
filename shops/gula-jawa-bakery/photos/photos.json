@@ -1,0 +1,20 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "FoodTravellers",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "FoodTravellers",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Ursandnic JKT",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

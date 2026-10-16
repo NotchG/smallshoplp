@@ -1,0 +1,389 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7514,
+    "sizes": [
+      {
+        "el": "h1#judul \"Rene Cafe , Pondok Ranggon, Jakarta Timu\"",
+        "fontSize": 55.2,
+        "lineHeight": "55.2px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#ruang-hijau \"Ruang hijau\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"Taman\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 78,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Teras kayu\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 125,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Ruang bata & kaca\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 213,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#wajib-dicoba \"Wajib dicoba\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 221,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Pangsit Kuah\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 152,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Ayam Penyet\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 149,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Bebek Keranjang\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 119,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Matcha Latte\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 149,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#menu-andalan \"Menu andalan\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 244,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h3 \"Kopi & non-kopi\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 190,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h3 \"Makanan berat\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 172,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 95,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#kata-mereka \"Kata mereka\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 217,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#kunjungi \"Kunjungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 256,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h2#hubungi \"Hubungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 244,
+        "pctOfContentWidth": 70
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 18
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 8024,
+    "sizes": [
+      {
+        "el": "h1#judul \"Rene Cafe , Pondok Ranggon, Jakarta Timu\"",
+        "fontSize": 85.4,
+        "lineHeight": "85.44px",
+        "textWidth": 688,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#ruang-hijau \"Ruang hijau\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 272,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Taman\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 89,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Teras kayu\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 142,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Ruang bata & kaca\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 242,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#wajib-dicoba \"Wajib dicoba\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 292,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"Pangsit Kuah\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 172,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Ayam Penyet\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 169,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Bebek Keranjang\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 222,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Matcha Latte\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 169,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#menu-andalan \"Menu andalan\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 323,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Kopi & non-kopi\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 215,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Makanan berat\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 195,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 108,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#kata-mereka \"Kata mereka\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 287,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#kunjungi \"Kunjungi kami\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 338,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#hubungi \"Hubungi kami\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 323,
+        "pctOfContentWidth": 47
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 18
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5546,
+    "sizes": [
+      {
+        "el": "h1#judul \"Rene Cafe , Pondok Ranggon, Jakarta Timu\"",
+        "fontSize": 100,
+        "lineHeight": "100px",
+        "textWidth": 588,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#ruang-hijau \"Ruang hijau\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 360,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Taman\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 98,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Teras kayu\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 157,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Ruang bata & kaca\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 267,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#wajib-dicoba \"Wajib dicoba\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 196,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Pangsit Kuah\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 190,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Ayam Penyet\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 187,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Bebek Keranjang\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 246,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Matcha Latte\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 187,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#menu-andalan \"Menu andalan\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 428,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Kopi & non-kopi\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 238,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Makanan berat\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 215,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 119,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#kata-mereka \"Kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 380,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#kunjungi \"Kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 447,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#hubungi \"Hubungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 428,
+        "pctOfContentWidth": 36
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 18
+  }
+}

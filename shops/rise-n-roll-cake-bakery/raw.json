@@ -1,0 +1,380 @@
+{
+  "id": "ChIJW3mgWh_zaS4R6nTOcpRfyd0",
+  "types": [
+    "bakery",
+    "cafe",
+    "cake_shop",
+    "wholesaler",
+    "manufacturer",
+    "food_store",
+    "store",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "service",
+    "establishment"
+  ],
+  "formattedAddress": "Jl. Monumen Pancasila Sakti No.14, RT.14/RW.9, Lubang Buaya, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810, Indonesia",
+  "rating": 4.9,
+  "googleMapsUri": "https://maps.google.com/?cid=15981409843886847210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 9:00 PM",
+      "Tuesday: 8:00 AM – 9:00 PM",
+      "Wednesday: 8:00 AM – 9:00 PM",
+      "Thursday: 8:00 AM – 9:00 PM",
+      "Friday: 8:00 AM – 9:00 PM",
+      "Saturday: 8:00 AM – 10:00 PM",
+      "Sunday: 8:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-16T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 290,
+  "displayName": {
+    "text": "Rise n Roll cake and bakery",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Bakery",
+    "languageCode": "en-US"
+  },
+  "primaryType": "bakery",
+  "reviews": [
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pBMVRWSjFXRFZxV214d1dqWTFaRWhCVTJwQ09FRRAB",
+      "relativePublishTimeDescription": "a month ago",
+      "rating": 5,
+      "text": {
+        "text": "i finally tried this small cafe shop just nearby! i thought they have some other pastries turns out it was just types of cheesecake shop (not a complaint!) i ordered the blueberry one….this ones SUPERB! i really love the flavor! it’s very rich, the blueberry, mixed with the cheese as a cake…YES! the second one i got was this biscoff one, it was gooood but im not a fan of it because its got some cinnamon in it (personal reference) and the latte was good. the space was not too big not too small, i came around 3pm on sunday, it was only 2 tables available. they also have the outdoor area! overall it’s 5/5. i might come back to try their main dishes!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "i finally tried this small cafe shop just nearby! i thought they have some other pastries turns out it was just types of cheesecake shop (not a complaint!) i ordered the blueberry one….this ones SUPERB! i really love the flavor! it’s very rich, the blueberry, mixed with the cheese as a cake…YES! the second one i got was this biscoff one, it was gooood but im not a fan of it because its got some cinnamon in it (personal reference) and the latte was good. the space was not too big not too small, i came around 3pm on sunday, it was only 2 tables available. they also have the outdoor area! overall it’s 5/5. i might come back to try their main dishes!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Sabila Putri",
+        "uri": "https://www.google.com/maps/contrib/104717742917826630015/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVap6ERXo6w4BqszRdiFf3kp_d0j7vGriYQe7CP8307oPFDJ0Os=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2026-08-30T11:07:42.155369411Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pBMVRWSjFXRFZxV214d1dqWTFaRWhCVTJwQ09FRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pBMVRWSjFXRFZxV214d1dqWTFaRWhCVTJwQ09FRRAB!2m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xnd2MzSnZhMng0Wkd4c1NsaHhYMVJJUTFGME9IYxAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "I absolutely loved the cheesecake here. it’s easily one of the best I’ve ever had. The texture is perfectly creamy and the flavor is rich without being too heavy 😭😭",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I absolutely loved the cheesecake here. it’s easily one of the best I’ve ever had. The texture is perfectly creamy and the flavor is rich without being too heavy 😭😭",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Lucky Qonita Saraswati",
+        "uri": "https://www.google.com/maps/contrib/113376738757421007672/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUKJiaw0f75UVIor7Rn98JTqdcKo433rjI24ifJtVsESvkQlfGPtA=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2026-04-09T08:34:43.795988982Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xnd2MzSnZhMng0Wkd4c1NsaHhYMVJJUTFGME9IYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xnd2MzSnZhMng0Wkd4c1NsaHhYMVJJUTFGME9IYxAB!2m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/reviews/ChdDSUhNMG9nS0VJQ0FnSUN2ci1qYzJnRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "I've probably been here ten times because the place is comfortable and clean, almost all menus have been tried, sometimes the taste of the food is not consistent, but I recommend risol ayam keju, mac n cheese, matah chicken bowl, bitterballen, carrot cake, sus krakelin chocolate, and pie susu. The staff always greet you warmly and friendly, the parking lot is there but not big, waiting for orders is not long, there is a prayer room in the cafe.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I've probably been here ten times because the place is comfortable and clean, almost all menus have been tried, sometimes the taste of the food is not consistent, but I recommend risol ayam keju, mac n cheese, matah chicken bowl, bitterballen, carrot cake, sus krakelin chocolate, and pie susu. The staff always greet you warmly and friendly, the parking lot is there but not big, waiting for orders is not long, there is a prayer room in the cafe.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ge Zoeya",
+        "uri": "https://www.google.com/maps/contrib/115691857249198078072/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVE99dZYICzW5S6YkNrKlUSSrX8UNPp0DStGBxXGBl5uoKnWA4=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-12-16T00:56:52.662391Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN2ci1qYzJnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN2ci1qYzJnRRAB!2m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xablJYTXdkelJMWVhsak4wcHpOWEZUYmtSbFVtYxAB",
+      "relativePublishTimeDescription": "12 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice place, good food, harga affordable, nice atmosphere, one of my favourite place in lubang buaya, jakarta timur area",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place, good food, harga affordable, nice atmosphere, one of my favourite place in lubang buaya, jakarta timur area",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "melka neria",
+        "uri": "https://www.google.com/maps/contrib/111539327496657857840/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLiAxxoWtiqSF0Ups_7sabpkNEM34HDU8qV-We-3emQp6czTQ=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-10-16T08:55:09.669729467Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xablJYTXdkelJMWVhsak4wcHpOWEZUYmtSbFVtYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xablJYTXdkelJMWVhsak4wcHpOWEZUYmtSbFVtYxAB!2m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2t0Mk9ERTVhM2MzT1VWQllUaHlZa2N4YURrMVQwRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice place with nice people and great foods will complete your wonderful life ✨",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place with nice people and great foods will complete your wonderful life ✨",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Anastasia Rizky",
+        "uri": "https://www.google.com/maps/contrib/111651457770971682350/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJ4qRUtnVISgeMf7AfxrXUKaCZYGp_3tfvED0enJm-MSlDhNw=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-07-18T12:02:08.455860879Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2t0Mk9ERTVhM2MzT1VWQllUaHlZa2N4YURrMVQwRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2t0Mk9ERTVhM2MzT1VWQllUaHlZa2N4YURrMVQwRRAB!2m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMZLNyRObbAiXpq7pxtsBt4MqcC_-QYN9B8ixsqv7chkcVgMJCRhA--aTvCEA0rul-uslKo3HpKRhSRzkw_fzdGOTg0KXVdxsFh2WP6q-kgl81Kopjc2fFJ7QyfCHs_2rt5VWgMyGpiDNCcx43mnmpkudSLtEG19EtQxsvY7CD5j7HoClgsFM0GoppGelzDBgBFhPnkOwyuwkpGewFTfsLjlkhG-kJN1w6Fa2PpeOFUk50JamPo0SJbDoDgLBcnwcrIzey10pEbkmeYyXoJqFjLuRC5wrFHItNb8LLrW78V834xIFnXzNNW8cuZcgdAlSkkI_OC5ptq_ssb37mIWYUt0KO7yS3LmEW2lxSFVhAN4bpDsQV_uYIJOy61b0Bcyma8i23KqqBxcltiSi4ZtjWMHET03",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Rise n Roll Cake, Pastry, and More.. (Jakarta)",
+          "uri": "https://maps.google.com/maps/contrib/118064631838653069421",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWsge6fmq8H5suZhuDVRWq7a65IDvSP45JffeEoDS4Jcxrw2OZX=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDtq_nE5gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDtq_nE5gE!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMbvDl9qvh_7ds6I3bOsZN7Ub8OFrs0OcsjHFtYSlQfK9deVBWkdhMvYgrbbJKrzTgaLYiDQumIKRyn-42-cYC1UnbIqGDzZpqfZnx7l4dsmTDunL8_QA9ZJxbMWpjOJBNdbiaknYvJw6x3KgZM1dMxWnJD0oALW9oV0BSm3j7e1ImIsbWMkx79b3KYP3zj45pIWyclVCerw8ZAgRZtNwEKg8T84cqCv_lHCspWts6Zn7WB_nyZSYFhsFMS7mJ4k6RtE-Max7LcSLlclqvJoC639nrGYK-Iq_7JfVT26HeaFgmtZHV-2pBzu-pcYyx_kwqtJdKQMlnku8PYvq_wxxhxQ0jSOrabLd3Vw7QVoPfDNTVCjaVKrVvfdc7P19IRYLSsZHXAbBnsmvfnx6DUDy0Atk24iIjTjRGnP3JFhJCM8eA",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Yeti Nurfauziah",
+          "uri": "https://maps.google.com/maps/contrib/108615110879746758349",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWRB8FVFrRPEe8KuH70y7UjNuMNSycsAyCqb-NwvJaLhU3lI-0M=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCaWzHQJ8A1l6gwkNtBUbvU&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCaWzHQJ8A1l6gwkNtBUbvU!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMbDJG6pTrhxzMgSxGC_IBLVfe5Y6enYuQiAjkSHekQRa2S92-Pf4KCUI_fg4IqORW77UTvecEv2fdP8MfFDqx1FyM05hgC1Kfh8SXLQFUDIenlj6EgdwibTtP7RbrGCmgurRxR5_Dgl6nJG3boY2YxSM1iQrGfdnQ2IZe7ct15i5fRmruBh06K2BDhGxvNGNJZQlAYWKU0ldUF5BtvUN5A6BbxSmwavczPhh2YiLjDqHLlIbmHZblWVs5MZnm-5SoEsnapai2s0HLO2n8llasyHDG4VcpNjKyOfGJ2qjyUXhcphfKT5tNjhAYV6or3CL_bqOTLYQz8E_9Wu5Q3AZIm7IFWz4Kauyvmi61q3TfL-88YzcL6ml9-Yvqs2C8owJjvLoE-0Ec2jUaUg4Jg_o4nDoIMWi3w",
+      "widthPx": 1200,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "Rise n Roll Cake, Pastry, and More.. (Jakarta)",
+          "uri": "https://maps.google.com/maps/contrib/118064631838653069421",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWsge6fmq8H5suZhuDVRWq7a65IDvSP45JffeEoDS4Jcxrw2OZX=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDtq8GzlgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDtq8GzlgE!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMb6P86vLr-06E8rsh-Kes-cDJgu-Bdc6yRN79nW6FCcvQQhGKT67E-rXXxU1BPgH1NJRXrWSmhQobSuRYy3QIoF31eSQ6I3F8Q4TRQlTCMEneLqF_SHEN7Nz_OvC7poH1MWa_LoYw_v6WZad6pcIq4ydqGKlV5VSB7vGcfwUjsFjz_6WBa2bfkIeg-D3wCfcFvQePeSYnSMAG1VMuUmeXGjjSlDYIeoGXQVsurqRAJdrxVfPHyFizex-6rTpPGK_B113KsuImLkigkio1vcEyxv_xVtXLrXS0I0lle-dCuIySstjBTqLubVAVbZFANwZdCm1k4bKgwwUx8fCXHaNQDVDAfyp6dyI2TfcZX_79KJwKHpa45ky25kp1v9guqHMlX6qSQLoSX9dmGbnnCkJMVBGfpK-dqyWX3J7mkBMxHT",
+      "widthPx": 4800,
+      "heightPx": 3600,
+      "authorAttributions": [
+        {
+          "displayName": "Hafshah Nibros",
+          "uri": "https://maps.google.com/maps/contrib/112497719782762377452",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU1axQZOWcx7ILGKR5l9SIh6n12Vn9gyDqEHK1zCbpCiFF1207p=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAMzvNM5FvKMrnsvB4EwT-w&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAMzvNM5FvKMrnsvB4EwT-w!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMaxPS0PRVkIraxRQOjEfa26FsYm6TYuWiz9fdCQ6CJAQHTwamMBA9e4GlQYutBT_z4IHP-1GQuvDRE74CC5UBgB-jjFk7ruhj0oHPNinS7p8g8xVj8u_AxvOQAj5n-7PwuslvEjwwgI-LD9nQe9Jzx1aOpVLfJA0UBHFpprBvNjHtCH9v4f_15ROtcC2ir4CGD2uWcJfXh8QXkwPmiaB0YsPdKOIQBVfwnKrrd00Q8a48KEWi4Reo_1aAJqU-TN9Qmx5zLE2sG-hF9dS27Xj0p9lwTlIu2KoBU8I1-90f7XZEAmL3cwjEbG5eY_RNsAHXJd4qA2UIWXqs0RBQ1CtJpL8ACdOUsvDfdaaKhhehI-sLdPfbPbyOTDhbxejnIJ52M6QHkUeB03hZhRap5s73R_LXPaqwKH_--RJO_byyze",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Muhammad Fajar Fauzan",
+          "uri": "https://maps.google.com/maps/contrib/100524615938827702460",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWg0E-DBllWS5nDTECLCBEuQ2HfgPb-6DbYE1t-IDqie5lDRP7f=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAWftJuzsVP6kQkqdvdsKtA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAWftJuzsVP6kQkqdvdsKtA!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMZ6PaWXNL0kjdOK_zBjlwadFlsUJqg0BDpfroaqVUTZCGucthnJgBqLngZGefTmOSXfJ5vUddVDyw8m1xVkAa6pIwc8Q14C5YHTi4HhEEbGog36_s9CjTATwwr2V7UDvrkQrDhhwwJu2a_KbT3IxmbValbDX-ibx_N3egKKBbCtqZw5QySNFffhP_YnsGJMnz_U1iqJj2zAN0oxhNDyNzfBqRbCXnXI0ptBDqcOeOJ3zBOeLSknHzvgI6SiIzuPh5mGME-LLKnil39Pv2fXM0gT52UHkAAml7Tj78fpRikT7JFOLcygWiYSSz5JHjUnCWRqSQsY2X1iuJNgdpLHZCWtyCCzHzKGTl0oLBL0t9rg0d8Fhp0-WeTBGhCc6W8EUkLB89L_DYm4lUwa37ZlR2b6NAHLqxqLiVd9DVgN7fyuFg",
+      "widthPx": 4080,
+      "heightPx": 3060,
+      "authorAttributions": [
+        {
+          "displayName": "YUNITA SARI",
+          "uri": "https://maps.google.com/maps/contrib/114963916600068480985",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUxqP6lptjasOKSo_8pBNzq0iJZtZHIo3kMBDke0Au3gx9CtUxP=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCYXP3Nqi8tKg59_sHXC1VI&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCYXP3Nqi8tKg59_sHXC1VI!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMbnHibfPGzXPAbGYDlaVf2CtPaB1MLCwp_twgMKUxrvTCTS1tjITyWSabspRheQ_o8qIpUABXU7An7WK-CulqS_FXJkgMVeAb8ocJzstrNdDQxPhZDR8CFdBRnHS9E5csPbRXVuGcwPGRF66IcTaKuulyimcDfTvzbCAKoHYR2gAWI5aHpRhxUTz6tO9RqbnjjBDwzCNzuchGuzf5efHuAR23ZwBd6hdmN2vh5VjLCPjhyHz_Q3uq5MYq_R7Bmm41cn1uZRoYy-jIeKjr6abf0ldaJcgA8CNsAUT0Rsn0JEg8PDtkuJlcDpzDhb5oLpdqi3PN447ZnoAy5nKNMbOUZGvvyDUTRqkJB0zwauMJe31ADHoJK70klk5FKQZoZhFZM63op8zoiccHm5YzSFCWYBLHnDZ50VUPgIZfY5YA3hNQ",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Rismawirawan Rismawirawan",
+          "uri": "https://maps.google.com/maps/contrib/114362799137374973765",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVTzrgn67MdjRqQBcrKsBihxRR6FPIvVMEYq2Fsxj6SAihm4UEQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBonxqDFjbdaOluLQLLkwA7&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBonxqDFjbdaOluLQLLkwA7!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMbUPHOdbfYgZ5-4Jyy87TbvD7ictrMDwRRVIkL93AmHTfbVo9Sxsm5R_KrFWIpX40Afv-4MSfPCknlL8jxvweMs2XbRj2MWN8YHIi63atRVDa0W80l04Q5ChzM-pD4tai9Bbb8sW4i-8WGBwadMmmqPRpZ80XP5IDcMZiLM4OpqCfnY-eUE8AzCW0pvUO643kVu4VbJIpeAaDOOlr2l-U9wxFZImVvOon6rI6mdVlbuvFzlcjS0D0e9ErfRbYXN9RpVdyrxQM4-X5sriyW4vsViMxknxsLTf8BSBPOX67MNTY4sarHcTd_DJE74o6SJdNjKG143CLR_XYLdu7IiExhIZjmoEh2GyM0Xw4Bu_QAABncThSHtchSsPaOuZnZisHTd0u-cc0X8092sn0rqHpJczAfM7aXrLhk2Cr4X2IH8YQ",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Anita Nofiyanti",
+          "uri": "https://maps.google.com/maps/contrib/107680079148238801571",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX87O_dZK772QsY-o_Tel4Nubr99CJSGYec2AR-u8DNHiZECm-h=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB-u1cSwqG8oH472aRHyH94&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB-u1cSwqG8oH472aRHyH94!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMYC4LuH3KrHQX1-L_cmZuE5NEqg_KAwoSpv8hdnXf0yWeoBwyCxEotUaSIo4PrEAMQVOZ5_za4KiTYA5lCbCUwDWDmmvfM8QrgoamcJqW6iym4yH9JzLZTgk_U_17SXVPHf0MIff24pkUfBuYA6X9g8CLKGJrlLRjG0cRI-WWh8rpxg4_tM7ZSwTeCQjYk4qLwR8N7vmzGGgh6FuFurF3dYAhJ2AXFdYK5ZssqNrYYCck2AV_L050AcJfkk8EOSFJtIdn0J3MV4wJ0jMbA0_CV5PtQZnZyxEkkyI2JS15nPXhQ0ywGpqGp7o2_SYatfbHfFFlWXuO9WKdtoEPR06KOrcSZX_-1fMt-bYFG-UhBiuUihPLYM1T1VAj-rIH-gRy9ogstx8dq76BHCnq9RwYCfHpNZ88Kv-1Tll9x8K4LiDQ",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Syska Tri Yulianti",
+          "uri": "https://maps.google.com/maps/contrib/105341552123583561922",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVBn5dAoi3f8P5obN72D2J3luJs5KlxTgKDbEoPF9qkJ_RwDoFz=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBlGEEy4qj77DvD2Ogbct6Z&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBlGEEy4qj77DvD2Ogbct6Z!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    },
+    {
+      "name": "places/ChIJW3mgWh_zaS4R6nTOcpRfyd0/photos/Aa-ngMbOAQCzImAIuSkM3_y00M2SSik1UPv7BMEXi-7G_R9UAzUA6_CfpPpkcjsLwzxvxj60AGaVo8xge4J4bFuI1uYGs-EboSILtdfzxShWXl0I1ZQU-Eq7euA2naJnJ6tr8_0K9o7Fdf1nhk5E5H9d16VD7GMAX669yRE068tOZOEKB5B-XbvNbkR8lSmhoo2SbIbC8_IZZ1D6H2P3402S6JIlgq3vl04R_CJNoYBS_oW82fhBwCD9RZoLtqWDugRxbzYLwaSZn45Jg-NQYYSQJ2c-8BeCrw05AmxQQdw1rwWiY3lF1oav66g7SDqJsQjr9JgmRlhz28RPR5CS7POQ5zIHda4ozf4GfQVMElX4fgJZaaICwM7O5ucOuIu7MJb9txlh1DTtmhn032_SZdfOPdXgIsc02LHzSYCHOaCkcHiWOA",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Nur Yulita",
+          "uri": "https://maps.google.com/maps/contrib/103031733938720648926",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUn52-5FJj7PCgeWWq1jQ6DaUmGQbSCUcFZ4LL8Rfk5loAj4VhM=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB3LgYnSGnj5R5GI1aDpixu&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB3LgYnSGnj5R5GI1aDpixu!2e10!4m2!3m1!1s0x2e69f31f5aa0795b:0xddc95f9472ce74ea"
+    }
+  ]
+}

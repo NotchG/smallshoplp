@@ -1,0 +1,375 @@
+{
+  "id": "ChIJZy1oeoGNaS4Ros5_z0P9PyE",
+  "types": [
+    "restaurant",
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0858-9139-6021",
+  "internationalPhoneNumber": "+62 858-9139-6021",
+  "formattedAddress": "Komp. Billy Moon, Janur 1 No.8 Blok CF 1, RT.3/RW.7, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+  "rating": 4.4,
+  "googleMapsUri": "https://maps.google.com/?cid=2395911994470289058&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:00 AM – 10:00 PM",
+      "Tuesday: 7:00 AM – 10:00 PM",
+      "Wednesday: 7:00 AM – 10:00 PM",
+      "Thursday: 7:00 AM – 10:00 PM",
+      "Friday: 7:00 AM – 10:00 PM",
+      "Saturday: 7:00 AM – 11:00 PM",
+      "Sunday: 7:00 AM – 11:00 PM"
+    ],
+    "nextOpenTime": "2026-10-16T00:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 546,
+  "displayName": {
+    "text": "Bonjur Cafe & Resto",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Restaurant",
+    "languageCode": "en-US"
+  },
+  "primaryType": "restaurant",
+  "reviews": [
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/reviews/ChdDSUhNMG9nS0VJQ0FnSUM2NWJ1TzdRRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice place to hang out with family and friends, i really like the rooftop bcs it is an open space and calm, windy an even at night time is really beautiful. Very recommended, the other thing that should be improved is only live music, i think it should be more interesting especially for young adult/adult visiter. The food is good, but need to be improved on the concept of dish variations.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place to hang out with family and friends, i really like the rooftop bcs it is an open space and calm, windy an even at night time is really beautiful. Very recommended, the other thing that should be improved is only live music, i think it should be more interesting especially for young adult/adult visiter. The food is good, but need to be improved on the concept of dish variations.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ruth Venya Stephanie",
+        "uri": "https://www.google.com/maps/contrib/101155410654671211512/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWz_Y91v0hKrAemvRwvTUXvSV0AN7jU-9zyCcVFspWCLP-VQB4D1w=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2023-01-29T18:53:18.349764Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUM2NWJ1TzdRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUM2NWJ1TzdRRRAB!2m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/reviews/ChZDSUhNMG9nS0VJQ0FnSUNLbjhYdU9nEAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Overall this place was awesome😍 they keep the cleaning, good services, facilities, protocol during covid-19, huge area parking, and they also have rabbit land & fish pond🐰🐠",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Overall this place was awesome😍 they keep the cleaning, good services, facilities, protocol during covid-19, huge area parking, and they also have rabbit land & fish pond🐰🐠",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Devita Rahmadani",
+        "uri": "https://www.google.com/maps/contrib/109779977989701901993/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJ36rzG_IjXYx9cI5zmynUlKuxYOE7k6GCfbK-E-SehJ3VG1Yc=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2021-04-24T13:36:53.465102Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNLbjhYdU9nEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNLbjhYdU9nEAE!2m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/reviews/ChZDSUhNMG9nS0VJQ0FnSUNxcWJDUE5BEAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "The beef teriyaki is tastes so good, I really like it",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The beef teriyaki is tastes so good, I really like it",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Rizki Ikhbar",
+        "uri": "https://www.google.com/maps/contrib/115004886712502432570/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVspAxlsFbhRy33_gbEZ4glKv5gGR9X4yvF5Md8t6Q5XmHiTJhI=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2021-06-11T05:24:53.958023Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNxcWJDUE5BEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNxcWJDUE5BEAE!2m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/reviews/ChdDSUhNMG9nS0VJQ0FnSUNKbkpQdXNnRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Recommended for family, food and coffee is available. Have a loud sound from speakers and I'm not enjoy with a loud sound from speakers. So far is good place and recommended",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Recommended for family, food and coffee is available. Have a loud sound from speakers and I'm not enjoy with a loud sound from speakers. So far is good place and recommended",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Andi Nugroho",
+        "uri": "https://www.google.com/maps/contrib/101906649646526955700/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWN-2clih9UqH4aGF1fVLGiP2htv3BRboRLBexbzcmagi-r9hSy=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2023-06-22T19:11:18.239703Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNKbkpQdXNnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNKbkpQdXNnRRAB!2m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/reviews/ChdDSUhNMG9nS0VJQ0FnSUM2ODliaTBnRRAB",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 3,
+      "text": {
+        "text": "Nice atmosphere and staffs, standard seating layout, standard food and drinks. What makes it 3 stars is the mosquitoes, it's literally everywhere, maybe the management could plant some mosquitoes-deterrent plant, might help.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice atmosphere and staffs, standard seating layout, standard food and drinks. What makes it 3 stars is the mosquitoes, it's literally everywhere, maybe the management could plant some mosquitoes-deterrent plant, might help.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Adrian",
+        "uri": "https://www.google.com/maps/contrib/117663197167198306087/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWl4OxTOzTTUEi41x4mPCV7ipkGEj6rCeICVja7iRa-l6qAnk9Ipg=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2021-09-12T17:25:54.851924Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUM2ODliaTBnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUM2ODliaTBnRRAB!2m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMZWURVogm09MfCPF6Ze0AxIFH06pwLF4-p_YK2qUJ4WlYP3gVvuvbvizY3HpOoZY3bUyNarLXVcnDmTcnq_V2UO0lEv-xq1C8epYy402AFZ06s4ha-UW9cVRlH1I_SwjQCthvlS6-zoFVr_yQiipDe7TWds3ha1JiSx6rcL-PCSs62os6GR0KDm87Q0MHa702QtETs6DXYr14KhGbFbrVwnZJowBQna7X17sA0NYwL4T0ySon6RV2kJzgCUUhQF6x9QBV4UheZaAuM4d2Oh2lExQDYqClnN3MAJBp5vruGogsyY_r8iDMs1udT5gKoto8UNH-OQYr-hJrT1r6BsqcgP7UtLLBVmrNPyipye5N7SqcH94A-rtHPf6F4FMH5lE8CR62s6ohTKkEmOYMqjdVYlJcdKin0",
+      "widthPx": 1280,
+      "heightPx": 720,
+      "authorAttributions": [
+        {
+          "displayName": "Bonjur Cafe & Resto",
+          "uri": "https://maps.google.com/maps/contrib/100955300362349574619",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXtcdktAMe_eDvEg15vw1ZRKTlao4AA8cWtFV-2LLq6v6PfJ_ED=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC6nJPS-gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC6nJPS-gE!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMbFfQyTJfGIpfbxe8ecIdg5FK8lYSzMZqEqRZ8F-a9cvnUBQQytm8xcx27iBNMEnojrP9SDa54nRRu-nV0kYsZ5dVqKD7qh-jSOhOIT6ae4G4mtxaIdxmIm18OV424thWKTcRzHj1bzXXkmz56R0bfY2ReuYb-Mn5kbm0SwW1FoGS3AHGeehdTGco2TDqPNo19IkpKQjAN3JcIrh3SPJrqJvNA5nKBFMvUORUIKWgybnPe1v9eD7AJDUS8B2Ax8VGlhezLXYzihS8cfrckky04zoTCfVHOCjj36SC2r4KvFNcgoFA5Jl0VarPhav4pYGifqMxMLjkmjAZACGV85SBTpUj1zR-SbEd1BwC8C6r7XifNetZPcQ6mpYeOKguAt0aHdsuF6yOTn8idAPU2XHrA5o5o",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "Bambang Triyadi",
+          "uri": "https://maps.google.com/maps/contrib/116295493567759445111",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVodiL3U0XrsuARn3aav2gu_8tipFE2H9WOQZWiu2Bsb2Abxb-l=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDj4tu4Cg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDj4tu4Cg!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMaLBJx8barcDLfIq0jDQffdPekhLRBf9NsQx3z0qPlkDD8bYMFpIgDfhS3iyCe4LQ8MK875UBX_RuuxjiuLxOfyPsyI4YFHUcle_BB36sfjOToF5Hxs090WBeniqUUcZ0N6FumZ7JoPWiSrODHhFD65WbOP24A2vpnr2TneZIkKEAROUkCFjJAOQibuubQQYRveYDapvVpgHPJ1vkrwB3mSFxY1ut24J00eMg6gs1Yrydqr_tpJAwf5aXp9UR3HyyY9TLKujzjD5voMnAdQ9UGL0Xn7kyGwb7lTcQJ9MeCJ_1bHNzJROz71ljZyYJ7wboSpMHKQLW4RPLRs1eDvaYGZX_ZHEw8-JizkBq_AuyYWFzeYQ0Ld287XGG4g-fDcYrQnnRMSpTxXh895nP1jQKRroQQKhhC3qIva2hR-oaNO",
+      "widthPx": 3264,
+      "heightPx": 2448,
+      "authorAttributions": [
+        {
+          "displayName": "Hanny Ameena",
+          "uri": "https://maps.google.com/maps/contrib/108713849599239339489",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXQMZRGQyZVpZGekxWuOeva3-sA4VK7gnnuY6YVidz_MGBBRo7n=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBGTqxX7quhsskH8g8NiL-j&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBGTqxX7quhsskH8g8NiL-j!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMaQBrbOhulG1lEwLORXk8XktIDUvyL8q45Mu7CS3KNZg_qrRRWn21QuwOzdfy5UWJKvxEmlarJOwI5jbkSHQr1QSjQioVFcNtZ3VgMU4kWS33KQolBNbkkoYANWNoD0fzUmazRV4ZSf6XDqBzoj1dBcDRPsqJsEB1NaHsWUJrEtU5aha0qhmsHkot29xGe9YRvj6Km1QqSi8iGaSW5S6n727l5FLqd_tYzUPGbwB-QHtxrSgTTpH5lFYO-HKotUSNzh9LMkdF7bOJvTYQemFIRRVeRQXsZLhT6tuU_TJYPXXT9CNCOPP9AqCooaLLWWaxY6-lXZinasOgbl0iWxqclpldirwvF_AY9BeGL-9pSS-AR6atRHXn-W7YGakqC2A5JQoe9hyV25haiyFaRLqdcQ4hk",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Wahyu DJ",
+          "uri": "https://maps.google.com/maps/contrib/105378158820878245614",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUp-erpTfTrayd2nRbXzt-ksX_2EQVfZ8KGvrh4SI8aVeD0z1vP=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICFnbS8FA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICFnbS8FA!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMZ2zFzT_-tQR09SciufuS8ddbGKGl_9FOOejOiEoYVruRgOtzFoVJ8YrAfSyTjwXfYhyN7YzL8vZJ-lBakxjGlE_dp_IdUOvxIyW6kPVQH5-2nQVsf2CvZQEkFcop7DUatT610g6At-Xvv86ASdea-7sh5sJWtmx4IHXx5ktDtcI78eEW-liDCJYPGAD91FaPF5je77NH7teg0xjbeIzdmi5ZGBb1zE24ppP_CTLaJYO60rB5ellQ_x8OxjKxKQSHTStRzposCdtVLxGmSn4M3kHUmwHvAaKMoDHf-qb8nYHkrHAxJGU8G6bB_j6W5nJMRNt7m2zIX1lRzTduZF6JeaN_9JPQXv8kWLE_pkPmTV_tRk5pLMI5ipL4azpKW3pRyR_skXTnW0kW5b0FvHWrNXpUQ",
+      "widthPx": 1280,
+      "heightPx": 958,
+      "authorAttributions": [
+        {
+          "displayName": "Bonjur Cafe & Resto",
+          "uri": "https://maps.google.com/maps/contrib/100955300362349574619",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXtcdktAMe_eDvEg15vw1ZRKTlao4AA8cWtFV-2LLq6v6PfJ_ED=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC6nJPSeg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC6nJPSeg!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMZHo4Fk3SzgHnJlG7DrigVWWUR0KO1zSWlIksKCv4o2yIhBj_1XkWvs2NBfcDF4V-9-uemHjnScOJG5SyJeCm9OxlVxdgo846QL-LTlo1wrWPwZcBbF_PBmMfruFKJM2kBjA26Q8NZtzxRbI6xZ0yPsm_BjAQtDAysWyPr-O2Zn_Z9HOM-qnTGMriNKlAl_57GIORFvAEx-pYvg_5izZO-C5NoZ_Rl8ATiM0bo1wG9DR5GszT2i0MSAUJqpti1k5vF9-sTi-1zusZNMuSw7fVtAsQRguUWsXppDpPv_lotOtAlUgE2YSYWNV-dHzS6hqkD1Af44DmmivBzU9DwqgRbQyU975AkQX-4EobiKVTfuZa4sgbaQMjh41juoIYf-Nd75qQYt6CXEr77exOm6XPSuIdXggsqqnnV8khgMMytSpw",
+      "widthPx": 554,
+      "heightPx": 554,
+      "authorAttributions": [
+        {
+          "displayName": "Ignasius Rudolfus",
+          "uri": "https://maps.google.com/maps/contrib/101618839778723659532",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVzM5rpvp_jKKsSPq5m0zJ6IsMGAdeH08fWPyH-sGz2icCvckg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCo_OPGglbki6YKW3catfQl&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCo_OPGglbki6YKW3catfQl!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMZsXNQs5P3xORNNj6pKwmIxOBp25GwJCFfowjFjdcQcPv3WLhmOyE5uH7JqJR4BMSYPSQ7Cfw-MlxDNxXqE87pZWucGDCiPQVUjoH6XDNQnRKCg-quUKhVMM8AsTGkC613XEyCZfXT7WjAYUrK2d8xNMvvdCabIcJnuOivI6F_SSiA-VrJiG7goviynSo64mwZu2B1KsFWvVreRjFQn_9WlI63qiUeyjvw1Jmrinlu7IGXAotc7VjuS6HzpBWyAShLOAVYir9fQ34nCXL0zOwcJ7UGSe2fYW5xjGjurl7vf6TBq2a31cnu9_K4XPsvK1HDxSYr3R9K9VGOUlFGbRUimc7pRMPuelG4V9nxh2GEvJbO4onCnP7SmvH30SpS3cK_ba-LliuiHDN2bKsUpcb05Ew",
+      "widthPx": 3024,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Andri Djaya",
+          "uri": "https://maps.google.com/maps/contrib/115689060473306083450",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWBdMju0ibPC9j2Dry2hnxi5e_pKjkiCy2XiYFqStpE-Kf8xEbvjA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDG5bXYPQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDG5bXYPQ!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMaTaF4bwSpiimjrka6pRZtMyz2UcvEWWRK-mRiF2Kg_VAgMkk2giiw6Wx3UfzuJ1YT8r_L7V1KkcKAH6MTtN-3Xb9OsLmnFEmH6FYxjqz0LXue-B9Yh29S_wHCrEX-8rOeNBfgqAqUn0wjxqovHE9glgMLnjtg8jESE3y1dDi1HPaG72rV7MWDmucOyco3jUX-V7UB4zFfuvnjgAr8hCXKRHNUimmOvWfxU03gcRPdzfK-R-2XAVYxOOPwWAM5lVjueFNRLc6aHIlSBZnoasBV0KabArZl1wXeZgRlTevVP76kkjYfr6tbcemKWFwTYiVq027wLSn56HpPxAdmtnNL5wyEwlcSeCcXBioVw7W5WSd61_ul5wQky1h1kYZ7a_QLO-6pdff1mG0E4DqiVgYzJnYLThNW6NgqMeMJ2ruLx6Q",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "sulthan Zaidan Athallah",
+          "uri": "https://maps.google.com/maps/contrib/112222049461726810420",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVPzVMjzlcqEqkUNg87KorAbo0d7jiEV7NaMy0BOWCYimlB94iX=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAx0Qc6RWuN9fMNuo7uhIhf&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAx0Qc6RWuN9fMNuo7uhIhf!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMaNnEa-5Re8oklUcjnN0VAFiPmQaKqgQMSXGNnPRN65QDK7qXqrb57pW4C9GCHVlpc9exG5zCya5bSiUnKCiy5LNi_79Q6KEaJrZShk3DWIGOaMYJt-PbWsPfJ554wpQCovBL1j3yw72BQxkac3ThkQUFWzPRW0Gy_Nl4ALJBxJYetg92prBq5QrCUuKI8crgVfAWgkLbxS21cYsh0tDEhUchR4sxJW9e3Q1eLzlYyLBGfyXeG5-GKVtKE3ldngmXPawFBJ60E7oGyx9MVYdjnYIOYMRWr5MHEc6-n5i3V_iEWgoxGdrgRu71DSvd8wGBkmp_vop6qmbS9OWhZfwgwWQsmEE2pmW-_IEbNwGaZ6tqkbMt350ero29yooCnbz7BXvGJSnk_B0x4A83iy_LJvq3KSHk0",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "Andi Arsianto",
+          "uri": "https://maps.google.com/maps/contrib/110972456906177796130",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXHOhoUat2Su4AuZwT_aB-2t2CN8sdXFVhBYHG8xptbRIlxEd0=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDxwKiatgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDxwKiatgE!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    },
+    {
+      "name": "places/ChIJZy1oeoGNaS4Ros5_z0P9PyE/photos/Aa-ngMYUY-3R3EPjG9LBHperRS-JRZtetizMgRTBGiZ54LWjOlEIPBJCNjIxlLvyVOBj5LBCJFmyYXLT87q5w4Let8PJCMOzPm3IzgK-ocBSsSTVB7e9Q5neKD5m2bik5Ujr98aI1VRlnJiTUlQEV8kEwpWz07SkofjG0-hkVB_qAYVc280sYUwfsY9pszzH4cXoLK_6CDoFbTDIdXP9OgGyzkS3OV5wYIo-vlsladWh46yPzIPrxtVR1nlN31ScmVP54ms_f50tAu8jbzzSVg2EfV2iUU9G3Ofa1SWvseSmKsQcWf0he07iECvh1xz4D_ijGZb7UkQT5CHDM01qnVw9NIvdPPaHcbqmTtLLWRJxXS15IO7PhwUgo4ey6fcll6rhKRY2urucnZKJebHWeyFPnLKXdQ",
+      "widthPx": 1280,
+      "heightPx": 577,
+      "authorAttributions": [
+        {
+          "displayName": "Bonjur Cafe & Resto",
+          "uri": "https://maps.google.com/maps/contrib/100955300362349574619",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXtcdktAMe_eDvEg15vw1ZRKTlao4AA8cWtFV-2LLq6v6PfJ_ED=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICKl77feQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICKl77feQ!2e10!4m2!3m1!1s0x2e698d817a682d67:0x213ffd43cf7fcea2"
+    }
+  ]
+}

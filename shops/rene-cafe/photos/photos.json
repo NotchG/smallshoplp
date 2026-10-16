@@ -1,0 +1,20 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "Polevy Ezekiel",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "thalia julita alsa susanti",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "wahyu wijanarko",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

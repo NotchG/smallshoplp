@@ -1,0 +1,420 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 5701,
+    "sizes": [
+      {
+        "el": "h1 \"ELUD Cake & Bakery\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "span \"ELUD\"",
+        "fontSize": 96,
+        "lineHeight": "86.4px",
+        "textWidth": 312,
+        "pctOfContentWidth": 89
+      },
+      {
+        "el": "h2#roti-judul \"ROTI HARI INI\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 217,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h3 \"Roti Smoke Beef\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 93,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Roti Banana Crumble\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 99,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Roti Cokelat\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 99,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Roti keju\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 71,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#kue-judul \"KUE ULANG TAHUN & TART\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 236,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h3 \"Tart ulang tahun\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 131,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Blackforest\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 94,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Brownies Bakar Spesial\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 113,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#baru-judul \"PRODUK BARU\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 239,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h3 \"Soft Sourdough\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 127,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Salt Bread Original\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 85,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Strudel\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 60,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Pizza Cinta\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 90,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#ulasan-judul \"KATA MEREKA\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 230,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h2#kunjungi-judul \"KUNJUNGI KAMI\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 265,
+        "pctOfContentWidth": 76
+      }
+    ],
+    "overlappingText": [
+      "p \"TOKO ANEKA KUE & ROTI DISKON\"  ×  span \"ELUD\"",
+      "span \"ELUD\"  ×  span \"Cake & Bakery\""
+    ],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 13
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6710,
+    "sizes": [
+      {
+        "el": "h1 \"ELUD Cake & Bakery\"",
+        "fontSize": 17.4,
+        "lineHeight": "26.9009px",
+        "textWidth": 704,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "span \"ELUD\"",
+        "fontSize": 147.8,
+        "lineHeight": "133.024px",
+        "textWidth": 480,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h2#roti-judul \"ROTI HARI INI\"",
+        "fontSize": 37.9,
+        "lineHeight": "41.705px",
+        "textWidth": 274,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Roti Smoke Beef\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 137,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Roti Banana Crumble\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 175,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Roti Cokelat\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 101,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Roti keju\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 72,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#kue-judul \"KUE ULANG TAHUN & TART\"",
+        "fontSize": 37.9,
+        "lineHeight": "41.705px",
+        "textWidth": 299,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"Tart ulang tahun\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 133,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Blackforest\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 96,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Brownies Bakar Spesial\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 196,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#baru-judul \"PRODUK BARU\"",
+        "fontSize": 37.9,
+        "lineHeight": "41.705px",
+        "textWidth": 301,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Soft Sourdough\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 130,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Salt Bread Original\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 155,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Strudel\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 61,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Pizza Cinta\"",
+        "fontSize": 17.4,
+        "lineHeight": "20.8265px",
+        "textWidth": 92,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#ulasan-judul \"KATA MEREKA\"",
+        "fontSize": 37.9,
+        "lineHeight": "41.705px",
+        "textWidth": 290,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#kunjungi-judul \"KUNJUNGI KAMI\"",
+        "fontSize": 37.9,
+        "lineHeight": "41.705px",
+        "textWidth": 335,
+        "pctOfContentWidth": 48
+      }
+    ],
+    "overlappingText": [
+      "p \"TOKO ANEKA KUE & ROTI DISKON\"  ×  span \"ELUD\"",
+      "span \"ELUD\"  ×  span \"Cake & Bakery\"",
+      "span \"ELUD\"  ×  p \"Pondok Kelapa, Jakarta Timur\""
+    ],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 13
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5004,
+    "sizes": [
+      {
+        "el": "h1 \"ELUD Cake & Bakery\"",
+        "fontSize": 18,
+        "lineHeight": "27.893px",
+        "textWidth": 1200,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "span \"ELUD\"",
+        "fontSize": 239.9,
+        "lineHeight": "215.942px",
+        "textWidth": 780,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h2#roti-judul \"ROTI HARI INI\"",
+        "fontSize": 52,
+        "lineHeight": "57.1912px",
+        "textWidth": 376,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Roti Smoke Beef\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 142,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Roti Banana Crumble\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 182,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Roti Cokelat\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 105,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Roti keju\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 75,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#kue-judul \"KUE ULANG TAHUN & TART\"",
+        "fontSize": 52,
+        "lineHeight": "57.1912px",
+        "textWidth": 410,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Tart ulang tahun\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 138,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Blackforest\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 100,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Brownies Bakar Spesial\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 203,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#baru-judul \"PRODUK BARU\"",
+        "fontSize": 52,
+        "lineHeight": "57.1912px",
+        "textWidth": 413,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Soft Sourdough\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 135,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Salt Bread Original\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 161,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Strudel\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 63,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Pizza Cinta\"",
+        "fontSize": 18,
+        "lineHeight": "21.5945px",
+        "textWidth": 96,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h2#ulasan-judul \"KATA MEREKA\"",
+        "fontSize": 52,
+        "lineHeight": "57.1912px",
+        "textWidth": 398,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#kunjungi-judul \"KUNJUNGI KAMI\"",
+        "fontSize": 52,
+        "lineHeight": "57.1912px",
+        "textWidth": 460,
+        "pctOfContentWidth": 38
+      }
+    ],
+    "overlappingText": [
+      "div \"Draf mockup untuk Elud Cake & Bakery. Be\"  ×  span \"ELUD\"",
+      "p \"TOKO ANEKA KUE & ROTI DISKON\"  ×  span \"ELUD\""
+    ],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 13
+  }
+}

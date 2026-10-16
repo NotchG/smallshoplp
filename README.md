@@ -29,8 +29,21 @@ project files directly.
   filled in, editable, with Copy, Open in WhatsApp, and Mark as sent. Below: screenshots and
   the planning docs.
 - **Candidates** and **Briefs:** the approval screens, as before.
+- Written in TypeScript (strict). `npm run typecheck` checks it without building.
+- **Docs:** every Claude Code command, terminal command and reusable prompt, grouped by step,
+  each with a Copy button. Pick a shop and an area at the top and the commands fill in.
+  Content lives in `approve-app/lib/docs.ts`.
 
-The owner message lives in `approve-app/lib/outreach.js` if you want to change the wording.
+After you mark the message as sent, the shop page tracks the owner:
+- a timer ("No answer for 2 days 5 hours"); after 3 days with no reply, the follow-up message
+  appears with Copy, Open in WhatsApp and Mark follow-up as sent;
+- 3 days after the follow-up with still no reply, Mark as not answered closes it (reopen any time
+  with Owner replied);
+- once they reply, a deal stepper: Prospect → Hot prospect → DO (ordered), or Owner declined.
+
+The home page lists follow-ups due, deals in progress, and owners you're waiting on.
+
+Both messages and the 3-day timings live in `approve-app/lib/outreach.ts`.
 Your name for the message is entered once on a shop page and remembered in that browser.
 
 ## The loop

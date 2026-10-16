@@ -1,0 +1,240 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–§5.
+   Colours and fonts become Tailwind utilities (bg-abu, text-arang, font-display...). */
+@theme {
+  --color-abu: #f1f0ec;      /* facade grey: hero, bread, visit */
+  --color-kartu: #ffffff;    /* price-card white: tent cards, Kata mereka, hours pill */
+  --color-arang: #1f1d1b;    /* charcoal: text, "Jessy", primary buttons, cake case, footer */
+  --color-oranye: #e46219;   /* bag orange: "Bread", trim band, contact band */
+  --color-emas: #c9a042;     /* case gold: rails and boards only, never text */
+  --color-madu: #d29458;     /* honey wood: upstairs ground, bread-rack line */
+  --color-redup: #5e5a54;    /* muted text on abu / kartu (6.0) */
+  --color-redup-gelap: #b9b3aa; /* muted text on arang (8.1) */
+
+  --font-display: var(--font-paytone), "Arial Rounded MT Bold", ui-rounded, sans-serif;
+  --font-body: var(--font-rubik), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --grid-gap: 16px;
+
+  --step-display: clamp(5rem, 3.2rem + 7.4vw, 10rem);        /* 80 → 158px, logotype only */
+  --step-head: clamp(2.25rem, 1.7rem + 2.3vw, 3.75rem);       /* 36 → 60px */
+  --step-lead: clamp(1.375rem, 1.25rem + 0.55vw, 1.75rem);    /* 22 → 28px */
+  --step-body: clamp(1.0625rem, 1.02rem + 0.2vw, 1.1875rem);  /* 17 → 19px */
+  --step-small: 0.8125rem;                                     /* 13px */
+
+  --leading-display: 1.05;  /* two forced lines, "Jessy" / "Bread" */
+  --leading-head: 1.1;
+  --leading-lead: 1.35;
+  --leading-body: 1.55;
+
+  --focus: var(--color-arang);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 32px; --section-y: 88px; --grid-gap: 24px; }
+}
+@media (min-width: 1024px) {
+  :root { --gutter: 40px; --section-y: 112px; --grid-gap: 32px; }
+}
+
+html {
+  background: var(--color-abu);
+  color: var(--color-arang);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection { background: var(--color-oranye); color: var(--color-arang); }
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+/* Dark grounds flip the focus ring to abu. */
+.on-dark { --focus: var(--color-abu); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); letter-spacing: -0.01em; text-wrap: balance; }
+.t-lead    { font-size: var(--step-lead);    line-height: var(--leading-lead); }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.4; }
+
+.measure { max-width: 60ch; }
+.price { font-variant-numeric: tabular-nums; }
+
+/* 12-column desktop grid, 32px gap (design brief §5). */
+.grid-12 { display: grid; gap: var(--grid-gap); }
+@media (min-width: 1024px) {
+  .grid-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 32px; }
+}
+
+/* ---------- Skip link ---------- */
+.skip-link {
+  position: absolute; left: 12px; top: -100px; z-index: 50;
+  background: var(--color-kartu); color: var(--color-arang);
+  padding: 12px 16px; border-radius: 999px; font-weight: 500;
+}
+.skip-link:focus-visible { top: 12px; }
+
+/* ---------- Mockup banner ---------- */
+.mockup-banner {
+  font-size: var(--step-small); line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-arang); color: var(--color-abu);
+}
+
+/* ---------- Logotype (the bread bag's lettering) ---------- */
+.logotype { font-family: var(--font-display); font-weight: 400; letter-spacing: -0.015em; }
+.logotype > span { display: block; }
+.logotype .lt-bread { padding-left: 0.55em; color: var(--color-oranye); }
+
+/* ---------- Buttons: pills, like the oval sign ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 48px; padding: 10px 24px; border-radius: 999px;
+  font-weight: 500; font-size: var(--step-body); line-height: 1.2;
+  text-decoration: none; white-space: nowrap;
+  transition: transform 0.2s ease-out;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn:active { transform: scale(0.98); transition-duration: 0.15s; }
+.btn svg { width: 18px; height: 18px; flex: none; }
+.btn-primary { background: var(--color-arang); color: var(--color-abu); }
+.btn-secondary { background: transparent; color: var(--color-arang); box-shadow: inset 0 0 0 2px var(--color-arang); }
+.btn-order { background: var(--color-oranye); color: var(--color-arang); }
+
+/* ---------- Hours pill ---------- */
+.pill {
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: 44px; padding: 8px 18px; border-radius: 999px;
+  background: var(--color-kartu); font-weight: 500;
+}
+
+/* ---------- Hero ---------- */
+.hero-band { height: 24px; background: var(--color-oranye); }
+/* The card stands in front of the board's right end, on the orange band (the shelf edge). */
+.hero-cake { display: flex; flex-direction: column; width: 100%; max-width: 330px; margin-inline: auto; }
+.hero-cake .tent { align-self: flex-end; position: relative; margin-top: -30px; }
+@media (min-width: 768px) {
+  .hero-cake { max-width: 440px; margin-right: 0; }
+}
+@media (min-width: 1024px) {
+  .hero-cake { max-width: 520px; }
+  .hero-cake .tent { margin-top: -40px; }
+}
+.motion-ok .hero-cake [data-part="cake"],
+.motion-ok .hero-cake .tent { visibility: hidden; }
+
+/* ---------- Tent card (the shop's white price card) ---------- */
+.tent {
+  background: var(--color-kartu); color: var(--color-arang);
+  border-radius: 6px; padding: 8px 12px 9px;
+  text-align: center;
+}
+.tent-name { font-family: var(--font-display); line-height: 1.15; }
+.tent-size { color: var(--color-redup); }
+.tent-price { font-weight: 700; font-variant-numeric: tabular-nums; }
+.tent-ask { font-weight: 500; color: var(--color-redup); }
+.tent-hero { padding: 12px 18px 13px; min-width: 9.5em; }
+
+/* ---------- Cake case ---------- */
+.case-shelf {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 16px; row-gap: 40px;
+  position: relative; padding-bottom: 12px;
+}
+.case-shelf::after { /* the gold rail at the shelf front */
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 6px;
+  background: var(--color-emas); border-radius: 2px;
+}
+@media (max-width: 767px) {
+  /* phone: a rail under every pair of cakes */
+  .case-shelf { padding-bottom: 0; row-gap: 0; }
+  .case-shelf::after { display: none; }
+  .case-item { padding-bottom: 12px; margin-bottom: 20px; position: relative; }
+  .case-item:nth-child(odd)::after {
+    content: ""; position: absolute; left: 0; right: calc(-100% - 16px); bottom: 0; height: 6px;
+    background: var(--color-emas); border-radius: 2px;
+  }
+}
+@media (min-width: 768px) {
+  .case-shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 24px; }
+}
+.case-item { display: flex; flex-direction: column; align-items: center; }
+/* Cards in a shelf share one height, so they all stand on the rail like the real ones. */
+.case-item .tent {
+  margin-top: -22px; position: relative; width: min(100%, 15rem); flex: 1 0 auto;
+  display: flex; flex-direction: column; justify-content: center;
+}
+
+/* ---------- Bread rack ---------- */
+.rack { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px; row-gap: 36px; }
+.rack-art { position: relative; }
+.rack-art::after { /* honey-wood rack line, continuous across the row */
+  content: ""; position: absolute; left: -10px; right: -10px; bottom: -8px; height: 8px;
+  background: var(--color-madu);
+}
+.rack-item:nth-child(odd) .rack-art::after { left: 0; }
+.rack-item:nth-child(even) .rack-art::after { right: 0; }
+.rack-label { margin-top: 20px; } /* 8px rack line + 12px gap */
+
+/* ---------- Upstairs menu ---------- */
+.menu-list { border-top: 1px solid rgb(31 29 27 / 0.28); }
+.menu-list li { border-bottom: 1px solid rgb(31 29 27 / 0.28); padding-block: 10px; }
+
+/* ---------- Praise ---------- */
+.praise-grid { display: grid; grid-template-columns: 1fr; }
+.praise-grid > li { border-top: 1px solid rgb(31 29 27 / 0.14); padding-block: 20px 24px; }
+@media (min-width: 768px) {
+  .praise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; }
+}
+
+/* ---------- Map ---------- */
+.map-wrap { position: relative; border-radius: 12px; overflow: hidden; }
+.map-fallback {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
+  background: #e3e1db; color: var(--color-redup);
+}
+.map-fallback svg { width: 28px; height: 28px; }
+.map-frame {
+  position: relative; width: 100%; aspect-ratio: 4 / 3; border: 0; display: block; background: transparent;
+}
+
+/* ---------- Text links ---------- */
+.text-link {
+  text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px;
+  display: inline-flex; align-items: center; min-height: 44px;
+}
+.text-link:hover { text-decoration-thickness: 2px; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:hover, .btn:active { transform: none; }
+}
