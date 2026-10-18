@@ -1,14 +1,14 @@
 {
   "390": {
     "horizontalOverflow": false,
-    "pageHeight": 6227,
+    "pageHeight": 6981,
     "sizes": [
       {
         "el": "h1#hero-title \"Makan dan ngopi di Jakarta Garden City\"",
-        "fontSize": 40,
-        "lineHeight": "42px",
-        "textWidth": 264,
-        "pctOfContentWidth": 75
+        "fontSize": 44,
+        "lineHeight": "43.12px",
+        "textWidth": 287,
+        "pctOfContentWidth": 82
       },
       {
         "el": "h2#menu-title \"Menu andalan\"",
@@ -112,18 +112,18 @@
     "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
-    "mockupItems": 21
+    "mockupItems": 25
   },
   "768": {
     "horizontalOverflow": false,
-    "pageHeight": 6137,
+    "pageHeight": 6799,
     "sizes": [
       {
         "el": "h1#hero-title \"Makan dan ngopi di Jakarta Garden City\"",
-        "fontSize": 51.5,
-        "lineHeight": "54.0951px",
-        "textWidth": 577,
-        "pctOfContentWidth": 81
+        "fontSize": 50.1,
+        "lineHeight": "49.1098px",
+        "textWidth": 557,
+        "pctOfContentWidth": 78
       },
       {
         "el": "h2#menu-title \"Menu andalan\"",
@@ -227,18 +227,18 @@
     "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
-    "mockupItems": 21
+    "mockupItems": 25
   },
   "1440": {
     "horizontalOverflow": false,
-    "pageHeight": 4946,
+    "pageHeight": 5106,
     "sizes": [
       {
         "el": "h1#hero-title \"Makan dan ngopi di Jakarta Garden City\"",
         "fontSize": 72,
-        "lineHeight": "75.599px",
-        "textWidth": 464,
-        "pctOfContentWidth": 39
+        "lineHeight": "70.56px",
+        "textWidth": 460,
+        "pctOfContentWidth": 38
       },
       {
         "el": "h2#menu-title \"Menu andalan\"",
@@ -342,6 +342,6 @@
     "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
-    "mockupItems": 21
+    "mockupItems": 25
   }
 }

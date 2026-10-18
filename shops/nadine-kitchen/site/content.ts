@@ -63,6 +63,48 @@ export const hero = {
   caption: "Beruang & pelangi, ulang tahun ke-1",
 };
 
+// The hero's 3D cakes, one per finish in the owner's photos (brief: Signature products):
+// smooth fondant with a rainbow topper (owner-5), rainbow stripes with a white drip (owner-2),
+// turquoise-to-purple ombre cream with gold pearls (owner-8). They are illustrations of those
+// finishes, not photos of real orders, so the hero marks them as mockup.
+export const heroCakes = {
+  label: "Pilih kue",
+  prev: "Kue sebelumnya",
+  next: "Kue berikutnya",
+  pause: "Hentikan putaran otomatis",
+  play: "Putar kue otomatis",
+  motion: "Gerakkan kue dengan HP", // iPhones: asks for motion access so the cake follows the phone
+  nav: [
+    { label: "Galeri", href: "#galeri" },
+    { label: "Cara pesan", href: "#cara-pesan" },
+    { label: "Harga", href: "#harga" },
+    { label: "Lokasi", href: "#lokasi" },
+  ],
+  items: [
+    {
+      id: "cake-pink",
+      name: "Fondant & pelangi",
+      finish: "Fondant halus, krim mawar",
+      field: "bubblegum",
+      alt: "Ilustrasi 3D: kue ulang tahun pink yang tinggi dengan pelangi fondant, awan, bintang bertangkai dan pinggiran krim mawar putih",
+    },
+    {
+      id: "cake-rainbow",
+      name: "Pelangi drip",
+      finish: "Krim pelangi, drip putih",
+      field: "butter",
+      alt: "Ilustrasi 3D: kue bergaris pelangi dengan drip putih, cone es krim terbalik, hati dan sprinkle",
+    },
+    {
+      id: "cake-ombre",
+      name: "Ombré laut",
+      finish: "Krim ombré, mutiara emas",
+      field: "toska",
+      alt: "Ilustrasi 3D: kue krim ombré dari toska ke ungu dengan mutiara emas, layar gula dan kerang",
+    },
+  ] as { id: string; name: string; finish: string; field: "bubblegum" | "butter" | "toska"; alt: string }[],
+};
+
 export type Field = "toska" | "butter" | "bubblegum" | "lilac";
 export type GalleryItem = Photo & {
   theme: string;

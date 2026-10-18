@@ -1,14 +1,14 @@
 {
   "390": {
     "horizontalOverflow": false,
-    "pageHeight": 8485,
+    "pageHeight": 9244,
     "sizes": [
       {
         "el": "h1#hero-title \"NADINE KITCHEN\"",
-        "fontSize": 52.5,
-        "lineHeight": "55.125px",
-        "textWidth": 350,
-        "pctOfContentWidth": 100
+        "fontSize": 52.7,
+        "lineHeight": "55.3711px",
+        "textWidth": 352,
+        "pctOfContentWidth": 101
       },
       {
         "el": "h2#galeri-title \"Galeri kue\"",
@@ -147,18 +147,18 @@
     "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
-    "mockupItems": 21
+    "mockupItems": 22
   },
   "768": {
     "horizontalOverflow": false,
-    "pageHeight": 7234,
+    "pageHeight": 8626,
     "sizes": [
       {
         "el": "h1#hero-title \"NADINE KITCHEN\"",
-        "fontSize": 51.1,
-        "lineHeight": "53.7026px",
-        "textWidth": 341,
-        "pctOfContentWidth": 48
+        "fontSize": 105.9,
+        "lineHeight": "111.185px",
+        "textWidth": 706,
+        "pctOfContentWidth": 100
       },
       {
         "el": "h2#galeri-title \"Galeri kue\"",
@@ -297,18 +297,18 @@
     "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
-    "mockupItems": 21
+    "mockupItems": 22
   },
   "1440": {
     "horizontalOverflow": false,
-    "pageHeight": 6313,
+    "pageHeight": 6470,
     "sizes": [
       {
         "el": "h1#hero-title \"NADINE KITCHEN\"",
-        "fontSize": 103.5,
-        "lineHeight": "108.675px",
-        "textWidth": 690,
-        "pctOfContentWidth": 57
+        "fontSize": 72,
+        "lineHeight": "75.6px",
+        "textWidth": 480,
+        "pctOfContentWidth": 40
       },
       {
         "el": "h2#galeri-title \"Galeri kue\"",
@@ -447,6 +447,6 @@
     "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
-    "mockupItems": 21
+    "mockupItems": 22
   }
 }

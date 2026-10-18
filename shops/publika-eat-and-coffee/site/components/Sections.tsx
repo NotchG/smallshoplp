@@ -4,8 +4,9 @@ import Image from "next/image";
 import Container from "./Container";
 import Reveal from "./Reveal";
 import LongTable from "./LongTable";
+import SodaHero from "./SodaHero";
 import { Button, PendingButton } from "./Button";
-import { HoursTable, TodayLine } from "./TodayHours";
+import { HoursTable } from "./TodayHours";
 import { Dish } from "./art/dishes";
 import { UsePanel, UsesStrip } from "./art/scenes";
 import { mock } from "@/lib/mockup";
@@ -13,7 +14,8 @@ import { contact, footer, hero, menu, nav, reviews, shop, uses, visit, type Menu
 
 export function Header() {
   return (
-    <header className="ground-tile">
+    // follows the hero's ground (tile, timber or fern) through the root --soda-* variables
+    <header className="site-header soda-ground">
       <Container className="site-header-inner">
         <p className="wordmark">{shop.name}</p>
         <nav aria-label={nav.label} className="site-nav">
@@ -27,49 +29,16 @@ export function Header() {
             ))}
           </ul>
         </nav>
+        <a className="header-cta" href={shop.directionsUrl}>
+          {hero.cta}
+        </a>
       </Container>
     </header>
   );
 }
 
 export function Hero() {
-  const p = hero.photo;
-  return (
-    <section className="hero ground-tile" aria-labelledby="hero-title">
-      <Container className="hero-grid">
-        <div className="hero-text">
-          <h1 id="hero-title" className="t-display">
-            {hero.title}
-          </h1>
-          <p className="hero-lead t-lead">{hero.lead}</p>
-          <div className="hero-actions">
-            <Button href={shop.directionsUrl} variant="fern">
-              {hero.cta}
-            </Button>
-            <a className="text-link" href="#menu">
-              {hero.menuLink}
-            </a>
-          </div>
-          <TodayLine />
-        </div>
-        <figure className="hero-figure">
-          <div className="photo-frame">
-            <Image
-              src={p.src}
-              width={p.width}
-              height={p.height}
-              alt={p.alt}
-              sizes="(min-width: 1024px) 588px, 100vw"
-              preload
-              loading="eager"
-              fetchPriority="high"
-            />
-          </div>
-          <figcaption className="t-small">{p.caption}</figcaption>
-        </figure>
-      </Container>
-    </section>
-  );
+  return <SodaHero />;
 }
 
 // Display sizes (desktop / phone), in px: design brief §6.
