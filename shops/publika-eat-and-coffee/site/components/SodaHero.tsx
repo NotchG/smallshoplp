@@ -7,7 +7,10 @@
 // switch it by hand: the big dish spins twice and swaps at the peak, the small ones implode to the
 // centre, swap and burst back out, and the ground (hero and header) moves between tile, timber and
 // fern. The 3D models (lib/soda3d) follow DOM anchors that carry all of that motion; without WebGL
-// the anchors' own flat drawings show instead. Reduced motion: still, no cycling, instant switch.
+// the anchors' own flat drawings show instead. Phones have no cursor, so there the tilt follows
+// the phone itself (device orientation; iPhones ask for motion access first, through a button), a
+// sideways drag on the dish, or, with neither, a slow sway, so the dish still reads as 3D.
+// Reduced motion: still, no cycling, instant switch.
 import { useEffect, useRef, useState, type CSSProperties } from "react";
 import Image from "next/image";
 import { gsap } from "@/lib/gsap";
@@ -76,6 +79,7 @@ type Live = {
   cur: { x: number; y: number };
   inView: boolean;
   hover: boolean;
+  touch: boolean; // a phone or tablet: no cursor, so tilt comes from the phone, a drag or a sway
 };
 
 export default function SodaHero() {
@@ -99,7 +103,11 @@ export default function SodaHero() {
     cur: { x: 0, y: 0 },
     inView: true,
     hover: false,
+    touch: false,
   });
+  // iPhones only report motion after the visitor allows it, from a tap: the button asks
+  const [askMotion, setAskMotion] = useState(false);
+  const enableMotionRef = useRef<(() => void) | null>(null);
 
   // where every dish is right now, for the 3D scene
   const frame = (): SodaFrame | null => {
@@ -121,8 +129,8 @@ export default function SodaHero() {
         y: br.top + br.height / 2 - S.top,
         size: bob.offsetWidth,
         z: 0,
-        tilt: 1.0 - L.cur.y * 0.4,
-        yaw: L.cur.x * 0.55,
+        tilt: 1.0 - L.cur.y * (L.touch ? 0.6 : 0.4),
+        yaw: L.cur.x * (L.touch ? 0.85 : 0.55),
         spin: (L.spin.val * Math.PI) / 180,
         visible: true,
       },
@@ -167,13 +175,68 @@ export default function SodaHero() {
     if (prefersReducedMotion()) return;
 
     const mouse = { x: 0, y: 0, px: -9999, py: -9999 };
+    const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v));
+    L.touch = window.matchMedia("(hover: none) and (pointer: coarse)").matches;
+    // the phone's own tilt, relative to how it is being held (that baseline re-centres slowly)
+    const phone = { x: 0, y: 0, at: -1e9, bx: NaN, by: 0 };
+    const onOrient = (e: DeviceOrientationEvent) => {
+      if (e.beta == null || e.gamma == null) return;
+      const angle = screen.orientation?.angle ?? 0;
+      let x = e.gamma;
+      let y = e.beta;
+      if (angle === 90) [x, y] = [e.beta, -e.gamma];
+      else if (angle === 270 || angle === -90) [x, y] = [-e.beta, e.gamma];
+      if (Number.isNaN(phone.bx)) [phone.bx, phone.by] = [x, y];
+      phone.bx += (x - phone.bx) * 0.003;
+      phone.by += (y - phone.by) * 0.003;
+      phone.x = clamp((x - phone.bx) / 30, -0.5, 0.5);
+      phone.y = clamp((y - phone.by) / 30, -0.5, 0.5);
+      phone.at = performance.now();
+      setAskMotion(false); // it is reporting: no need to ask
+    };
+    // a sideways drag on the dish turns it; the stage lets vertical swipes scroll the page
+    const drag = { on: false, id: -1, x0: 0, x: 0 };
+    const onDown = (e: PointerEvent) => {
+      if (e.pointerType === "mouse") return;
+      Object.assign(drag, { on: true, id: e.pointerId, x0: e.clientX, x: 0 });
+      mouse.px = e.clientX;
+      mouse.py = e.clientY;
+    };
+    const onUp = (e: PointerEvent) => {
+      if (e.pointerId !== drag.id) return;
+      drag.on = false;
+      mouse.px = mouse.py = -9999;
+    };
     const onMove = (e: PointerEvent) => {
-      if (e.pointerType === "touch") return;
+      if (e.pointerType !== "mouse") {
+        if (!drag.on || e.pointerId !== drag.id) return;
+        drag.x = clamp((e.clientX - drag.x0) / (stage.clientWidth / 2 || 1), -0.5, 0.5);
+        mouse.px = e.clientX; // the small dishes move away from the finger too
+        mouse.py = e.clientY;
+        return;
+      }
       mouse.x = e.clientX / window.innerWidth - 0.5;
       mouse.y = e.clientY / window.innerHeight - 0.5;
       mouse.px = e.clientX;
       mouse.py = e.clientY;
     };
+    // The motion API only exists on secure pages (https or localhost) in browsers that have it:
+    // over plain http on a LAN, Chrome leaves DeviceOrientationEvent undefined. Without it the
+    // phone still gets the drag and the sway.
+    const DOE = (window as unknown as { DeviceOrientationEvent?: { requestPermission?: () => Promise<string> } }).DeviceOrientationEvent;
+    if (DOE) window.addEventListener("deviceorientation", onOrient);
+    const perm = DOE?.requestPermission;
+    let askTimer = 0;
+    if (L.touch && DOE && typeof perm === "function" && window.isSecureContext) {
+      // Chrome on Android has requestPermission too but reports motion at once: only ask if the
+      // phone stays silent for a moment (that is an iPhone waiting for a tap)
+      askTimer = window.setTimeout(() => {
+        if (phone.at < 0) setAskMotion(true);
+      }, 700);
+      enableMotionRef.current = () => {
+        perm.call(DOE).catch(() => "denied").finally(() => setAskMotion(false));
+      };
+    }
     const io = new IntersectionObserver(([e]) => {
       L.inView = e.isIntersecting;
     });
@@ -183,6 +246,12 @@ export default function SodaHero() {
       if (!L.inView) return;
       const time = performance.now() / 1000;
       const cur = L.cur;
+      if (L.touch) {
+        // drag wins, then the phone's tilt while it is reporting, else a slow sway
+        const live = time * 1000 - phone.at < 1000;
+        mouse.x = drag.on ? drag.x : live ? phone.x : Math.sin(time * 0.6) * 0.3;
+        mouse.y = drag.on ? 0 : live ? phone.y : Math.sin(time * 0.43 + 1) * 0.14;
+      }
       cur.x += (mouse.x - cur.x) * 0.05;
       cur.y += (mouse.y - cur.y) * 0.05;
       tilt.style.transform = `rotateX(${(-cur.y * 20).toFixed(2)}deg) rotateY(${(cur.x * 28).toFixed(2)}deg) rotate(${L.spin.val.toFixed(2)}deg)`;
@@ -223,10 +292,19 @@ export default function SodaHero() {
       draw();
     };
     window.addEventListener("pointermove", onMove, { passive: true });
+    stage.addEventListener("pointerdown", onDown);
+    window.addEventListener("pointerup", onUp);
+    window.addEventListener("pointercancel", onUp);
     gsap.ticker.add(tick);
     return () => {
       gsap.ticker.remove(tick);
       window.removeEventListener("pointermove", onMove);
+      if (DOE) window.removeEventListener("deviceorientation", onOrient);
+      stage.removeEventListener("pointerdown", onDown);
+      window.removeEventListener("pointerup", onUp);
+      window.removeEventListener("pointercancel", onUp);
+      enableMotionRef.current = null;
+      clearTimeout(askTimer);
       io.disconnect();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -507,6 +585,15 @@ export default function SodaHero() {
               </div>
             </div>
           </div>
+          {askMotion && (
+            <button type="button" className="soda-motion" onClick={() => enableMotionRef.current?.()}>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
+                <rect x="7" y="2.5" width="10" height="19" rx="2.5" />
+                <path d="M3 9.5a9 9 0 0 0 0 5M21 9.5a9 9 0 0 1 0 5" />
+              </svg>
+              Gerakkan hidangan dengan HP
+            </button>
+          )}
           <div className="soda-layer soda-front" aria-hidden="true">
             {FRONT.map((f, i) => (
               <div key={i} className={`soda-item soda-dish${f.phone === false ? " no-phone" : ""}`} style={item(f.x, f.y, f.s)}>

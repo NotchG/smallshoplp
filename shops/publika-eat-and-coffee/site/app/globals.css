@@ -216,7 +216,16 @@ body {
 img.soda-card-art { object-fit: contain; }
 
 /* the stage: the big dish and everything that floats around it */
-.soda-stage { position: relative; z-index: 1; height: clamp(320px, 84vw, 440px); --k: 0.55; }
+.soda-stage { position: relative; z-index: 1; height: clamp(320px, 84vw, 440px); --k: 0.55; touch-action: pan-y; }
+/* iPhones: the one tap that lets the dish follow the phone */
+.soda-motion {
+  position: absolute; z-index: 4; left: 50%; bottom: 0; transform: translateX(-50%);
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 18px; border-radius: 999px;
+  font: 600 var(--step-small)/1.2 var(--font-body); color: var(--soda-ink); white-space: nowrap; cursor: pointer;
+  background: var(--soda-bg); border: 1px solid color-mix(in oklab, currentColor 40%, transparent);
+  transition: background-color 250ms ease-out;
+}
+.soda-motion:active { transform: translateX(-50%) scale(0.98); }
 .soda-layer { position: absolute; inset: 0; pointer-events: none; }
 .soda-far { z-index: 0; } .soda-back { z-index: 1; } .soda-centre { z-index: 2; } .soda-front { z-index: 3; }
 .soda-item {
