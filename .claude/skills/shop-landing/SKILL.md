@@ -140,13 +140,13 @@ Every site is planned before it's built. Two subagents per shop, in this order:
 
 **Plan** (shops with status `brief_approved`)
 0. Check `.claude/skills/shop-landing/templates/` has all five files. If not, stop and tell the user.
-1. Launch one `shop-planner` subagent per shop, at most 3 at a time:
+1. Launch one `shop-planner` subagent per shop, at most 25 at a time:
    "Plan the mockup site for shop `<slug>`."
 2. When it finishes, check `shops/<slug>/docs/` has `prd.md`, `trd.md`, `design-brief.md` and
    `implementation-plan.md`, then `./scripts/set-status.sh <slug> planned`.
 
 **Build** (shops with status `planned`)
-3. Launch one `shop-builder` subagent per shop, at most 3 at a time:
+3. Launch one `shop-builder` subagent per shop, at most 25 at a time:
    "Build the mockup site for shop `<slug>`."
 4. When it finishes, check that `shops/<slug>/site/out/index.html`,
    `shops/<slug>/screenshots/report.json` and `shops/<slug>/owner-checklist.md` exist, and that
