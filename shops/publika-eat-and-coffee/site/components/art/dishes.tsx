@@ -205,24 +205,6 @@ const ART: Record<DishId, () => ReactNode> = {
   tiramisu: TiramisuArt,
 };
 
-/** Dishes as <symbol id="dish-…"> for <use>, where one drawing repeats many times. Render once. */
-export function DishSymbols({ ids }: { ids: DishId[] }) {
-  return (
-    <svg aria-hidden="true" focusable="false" width="0" height="0" style={{ position: "absolute", width: 0, height: 0, overflow: "hidden" }}>
-      <defs>
-        {ids.map((id) => {
-          const Draw = ART[id];
-          return (
-            <symbol key={id} id={`dish-${id}`} viewBox="0 0 200 200">
-              <Draw />
-            </symbol>
-          );
-        })}
-      </defs>
-    </svg>
-  );
-}
-
 type DishProps = {
   /** Display width in px. Omit to size with CSS. */
   size?: number;
