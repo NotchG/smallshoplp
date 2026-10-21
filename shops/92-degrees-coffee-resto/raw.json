@@ -1,0 +1,374 @@
+{
+  "id": "ChIJnQVpeCSNaS4RgU77ArFOpdw",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0852-8556-0957",
+  "internationalPhoneNumber": "+62 852-8556-0957",
+  "formattedAddress": "Jl. Delima Raya No.6, RT.1/RW.5, Malaka Sari, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13460, Indonesia",
+  "rating": 4.8,
+  "googleMapsUri": "https://maps.google.com/?cid=15899200581667606145&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 9:00 AM – 10:00 PM",
+      "Tuesday: 9:00 AM – 10:00 PM",
+      "Wednesday: 9:00 AM – 10:00 PM",
+      "Thursday: 9:00 AM – 10:00 PM",
+      "Friday: 9:00 AM – 11:00 PM",
+      "Saturday: 9:00 AM – 11:00 PM",
+      "Sunday: 9:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T02:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 920,
+  "displayName": {
+    "text": "92 Degrees Coffee & Resto",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/reviews/Ci9DQUlRQUNvZENodHljRjlvT21ka2NXbGpjR2RZVFc1TVJHSlFhMWxuWVc1M09WRRAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "The place is cozy and spacious, with several floors to choose from. I booked the VIP room, which requires a minimum order of 1 million IDR, and it comes with live music, definitely worth it.\n\nIt’s a great spot for hanging out with friends or even for family gatherings. The food tastes good, and their signature coffee is really outstanding.\n\nOverall, a comfortable place with good vibes and great coffee.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The place is cozy and spacious, with several floors to choose from. I booked the VIP room, which requires a minimum order of 1 million IDR, and it comes with live music, definitely worth it.\n\nIt’s a great spot for hanging out with friends or even for family gatherings. The food tastes good, and their signature coffee is really outstanding.\n\nOverall, a comfortable place with good vibes and great coffee.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Rosyid Shidiq",
+        "uri": "https://www.google.com/maps/contrib/104980798708749276205/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVcNGCp4dlfsTPzc6BdwCityyCO5mecQ0nGL2gV_VA7L2yFDP8GYg=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2026-04-07T05:51:45.245254091Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21ka2NXbGpjR2RZVFc1TVJHSlFhMWxuWVc1M09WRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21ka2NXbGpjR2RZVFc1TVJHSlFhMWxuWVc1M09WRRAB!2m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/reviews/Ci9DQUlRQUNvZENodHljRjlvT2w5WmVIUlpSRzlxYVhZMVdqRmlhRTlEVEVGaU5YYxAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Came here and was genuinely impressed. De 92 Degrees has everything you need for work, hangouts, or events. Here’s the full breakdown:\n\nWhat I loved:\n- Space & Facilities: It’s a huge 4-floor building. Parking is adequate for both motorbikes and cars, which is a big plus in East Jakarta. They also have a lift to access the 3rd & 4th floor, so it’s convenient.\n- Food & Drinks: Super affordable and genuinely tasty. I ordered the Vietnam Drip and Pisang Caramel and both were 9/10. The menu is also very diverse, from light snacks to heavy meals, so everyone’s covered.\n- Zoning: 2nd floor is dedicated non-smoking, perfect if you want to work or chill without smoke. 3rd floor has an indoor smoking area so you won’t get overheated during the day. 4th floor is smoking area with the best spot to catch the sunset in the afternoon.\n- Events: The 3rd floor can be booked for meetings, seminars, bukber, or other intimate events with a capacity of up to 100 people. Great option for community gatherings.\n- Service: Staff were attentive and really friendly. Don’t hesitate to ask for anything! Just ask politely and they’ll help you right away.\n\nFloor Guide:\n- Floor 2 = Non-smoking\n- Floor 3 = Indoor smoking + event space\n- Floor 4 = Smoking area + sunset view\n- Lift available to 3rd & 4th floor\n\nVerdict: For the space, food quality, price, and service, this place is a 10/10. Whether you want to WFC, hangout, or host an event, De 92 Degrees has you covered. Will definitely be back!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Came here and was genuinely impressed. De 92 Degrees has everything you need for work, hangouts, or events. Here’s the full breakdown:\n\nWhat I loved:\n- Space & Facilities: It’s a huge 4-floor building. Parking is adequate for both motorbikes and cars, which is a big plus in East Jakarta. They also have a lift to access the 3rd & 4th floor, so it’s convenient.\n- Food & Drinks: Super affordable and genuinely tasty. I ordered the Vietnam Drip and Pisang Caramel and both were 9/10. The menu is also very diverse, from light snacks to heavy meals, so everyone’s covered.\n- Zoning: 2nd floor is dedicated non-smoking, perfect if you want to work or chill without smoke. 3rd floor has an indoor smoking area so you won’t get overheated during the day. 4th floor is smoking area with the best spot to catch the sunset in the afternoon.\n- Events: The 3rd floor can be booked for meetings, seminars, bukber, or other intimate events with a capacity of up to 100 people. Great option for community gatherings.\n- Service: Staff were attentive and really friendly. Don’t hesitate to ask for anything! Just ask politely and they’ll help you right away.\n\nFloor Guide:\n- Floor 2 = Non-smoking\n- Floor 3 = Indoor smoking + event space\n- Floor 4 = Smoking area + sunset view\n- Lift available to 3rd & 4th floor\n\nVerdict: For the space, food quality, price, and service, this place is a 10/10. Whether you want to WFC, hangout, or host an event, De 92 Degrees has you covered. Will definitely be back!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Monic",
+        "uri": "https://www.google.com/maps/contrib/106100925938241503472/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW8hiUBYzZLDSCGXTmbfYsVaECxcdFf-96oNITz65FDqXYi_ok=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2026-04-17T04:05:15.332271142Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2w5WmVIUlpSRzlxYVhZMVdqRmlhRTlEVEVGaU5YYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2w5WmVIUlpSRzlxYVhZMVdqRmlhRTlEVEVGaU5YYxAB!2m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xkTVVHUkJSRkpyTVhSUldsQk9TV2RmTjBseVdYYxAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Cool place, ambience is great, service is amazing, very clean and neat (including toilet). It has 4 floors and u can take the elevator. Quite pricey tho but the portion size is huge",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Cool place, ambience is great, service is amazing, very clean and neat (including toilet). It has 4 floors and u can take the elevator. Quite pricey tho but the portion size is huge",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Nayla Frisly Mahadewi",
+        "uri": "https://www.google.com/maps/contrib/107543471989870013116/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVZ7HNkoVBPxQrANHmQHwBKxnUmx1eoDuYO3Sb17SJb47XSrO-zow=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2026-03-25T06:32:56.660378058Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xkTVVHUkJSRkpyTVhSUldsQk9TV2RmTjBseVdYYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xkTVVHUkJSRkpyTVhSUldsQk9TV2RmTjBseVdYYxAB!2m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tWTk1WbG5NbTl3T0dOWlpWZDBZVzFtUVdSM09IYxAB",
+      "relativePublishTimeDescription": "5 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Having bfast here with Ibu².\nNice place to hang out.\nNot bad for bfast.\nSmall parking lot.\nTaste : 8/10\nAmbience : 8 /10",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Having bfast here with Ibu².\nNice place to hang out.\nNot bad for bfast.\nSmall parking lot.\nTaste : 8/10\nAmbience : 8 /10",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "The Sulistiawan's",
+        "uri": "https://www.google.com/maps/contrib/114134348862338793758/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUTS1fq-tnsNBRyndT3-pBFcfr0a-09PKbZYUOaMGFCS7ut6Zw=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2026-05-10T15:25:17.336365481Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tWTk1WbG5NbTl3T0dOWlpWZDBZVzFtUVdSM09IYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tWTk1WbG5NbTl3T0dOWlpWZDBZVzFtUVdSM09IYxAB!2m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/reviews/Ci9DQUlRQUNvZENodHljRjlvT25oM2IxOHpibTFOZUhkeFdVUlRRWEI1Y2s1TFlYYxAB",
+      "relativePublishTimeDescription": "11 months ago",
+      "rating": 4,
+      "text": {
+        "text": "Came here at lunch time, warm welcoming by a friendly receptionist girl (unfortunately i forgot the name) her service was excellent. She was followed us upstairs to make sure we have a seat & serve well.\nShe was busy arrange our seats while her mates (a man) just starring without help, until my husband told him to help her. She worth to have award 👏🏻\n\nNice ambience but unfortunately the food (dori, chicken, tempe & tofu) were not tasty, seems lack of marinated. The chicken was over cooked (too brown & a bit hard) but the sayur asem, nasi liwet & drink was okay.\nThe toilet was clean but better put a garbage bin inside the bathroom.\nThe parking lot was very narrow (only 2/3 cars) but they provide & charged 15k for vallet service (which supposedly not charge to customer).",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Came here at lunch time, warm welcoming by a friendly receptionist girl (unfortunately i forgot the name) her service was excellent. She was followed us upstairs to make sure we have a seat & serve well.\nShe was busy arrange our seats while her mates (a man) just starring without help, until my husband told him to help her. She worth to have award 👏🏻\n\nNice ambience but unfortunately the food (dori, chicken, tempe & tofu) were not tasty, seems lack of marinated. The chicken was over cooked (too brown & a bit hard) but the sayur asem, nasi liwet & drink was okay.\nThe toilet was clean but better put a garbage bin inside the bathroom.\nThe parking lot was very narrow (only 2/3 cars) but they provide & charged 15k for vallet service (which supposedly not charge to customer).",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Nia Novijanto",
+        "uri": "https://www.google.com/maps/contrib/116042992714859110469/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLl6RooXbXU701FH9-JmSZ55anVSQkCiFgJUuZlWZSVk92C3tA=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2025-11-02T11:08:40.230325325Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25oM2IxOHpibTFOZUhkeFdVUlRRWEI1Y2s1TFlYYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25oM2IxOHpibTFOZUhkeFdVUlRRWEI1Y2s1TFlYYxAB!2m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMb6sfaPu2pAVUdK6UV78Qg4EF7Bm0AYOsp6ai4827JVpIphuPLN2lgleqh8T7_XPDZZT4zauT9JqlZ6e3gOxU7hEp-kkFEA70m8dFllMLKvRAyBalP-agIkck6XJ-5V-YLKx7Cl6mV738tvIX3s3H2fSfq4VHukrebf026IvQpdSgXMzkO-cj7-a_N6rqaSrF6b1u06KZZwB5OJ1Uk9xxTX3CM8hlEnA7GrxuvFB-B6KO8LVQ4seEMLNH5EYzDb069KE0I24hYSqvTjkWF1xVe99Ho9MwZUObvXDq_MlI46VUGPcEHi1Pirv3ft9I3HWN3uFLNhomF04UsrTyxB-xS1soC2JjzL5Iobyi8o95ZpXrw3F2eYOPt6CeE1sHc-hy0Wr7pceg0Kcc7RukltgIbmcIC_33HQ8RbLg-BAsZ0jSw",
+      "widthPx": 3840,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "92 Degrees Coffee & Resto",
+          "uri": "https://maps.google.com/maps/contrib/102136545876045877580",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVG3pIM5aNqejEkjthKbphakpH3BSaxWJAferv12e0m2QtH47U=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhApTW_geQfz_aILUVg4hUkA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhApTW_geQfz_aILUVg4hUkA!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMa3UVCp8yb77KjXYvG09PI7Yp_bgZkwxT2JM5_h-tnwRsgBLteKwKt8n48iwF2YO50YrH7-w2uK-LJMg4W_rs2WjWNzECP2vSZjMKU2F5uHE-cMAnbaQM8IcaU6NnGAQFu211yQzRcN3bueJ5wRrJOMXqSzRbO_L5ET2WXHRuGNsrWQemTBF9fwP5nBxFxX5wl9nGvKdJZ-qjnhttfPwaLWVs2QNglBp_9kHS2i8-tTIlN2eibrnfhzcmGnHIS664lDcg7aby-sr2FNZyWmjP0LLoNefAGaOALJZJrKPG-WM7dCDSyVkf8QD7FPsrNC8YQ36JEZjPI0Rlpn4ydPCk-h2wHCW-kfWtN5b6JAJ71EOvFUHdI-JGgfqxYy33OBGJqrAXJTlHmGiqpHuz6w4pU6b5xKSzcxwAhG9fLQokMSWw",
+      "widthPx": 2700,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "92 Degrees Coffee & Resto",
+          "uri": "https://maps.google.com/maps/contrib/102136545876045877580",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVG3pIM5aNqejEkjthKbphakpH3BSaxWJAferv12e0m2QtH47U=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCj0y5ktvX9xLi0niGw95vB&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCj0y5ktvX9xLi0niGw95vB!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMaAhM1vhxRVx9Uq04xOVP0UdsHGjLAs-_YvvF0EQ9TF6V1GYAgCU3Ng33rPAXeLS5Np6UF8GTetZHbleo8TTBYDnJE1dlSs2gNAo8xALWgUHOd-BERQGJ5jxDNBUgNjNPkfMbV5NZJYSJI107n87ZLCtWgjDbl947fQZb8KQSL64GMuBuPfaDwl-KvF8orXp6jc1evo_8vCV2VBC4HwCbc9WMMe_IV-lHC1Npy1SR2E8lQ2OY5nfMTMSPPt2zM4fzACN3nZvLgjHjU68UfL5cUVJK0_VFfCQLQX271-focWBpqclGG_7Z_pz22CIrhKcrC9McNUoGwc4iLj5n9ozUujPvd6wpYIaM8--OjCwHs6BT5VDSlZIfj8JNHGXM-nxjdzGWWJ-x490n8FAyAERDa3JZd-0fu3IEv9nKa5xuPbSQ",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Deborah Sondang",
+          "uri": "https://maps.google.com/maps/contrib/117615692318430379044",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVpKJfpcem8rfIBPoXGvEqw4Eh0QcGruDfyTzi65FNDL0Ebwg63rw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBwGSXWPVwQRuCD23tkIheQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBwGSXWPVwQRuCD23tkIheQ!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMaILuiQx34e2166_Nm4cIOcOsw_1WuxNrwN85UCX4JlBEZVzbHRJBEL2ygffuXOaSblPS8D4C4j197o2-JlB2p-VJZG1i3zrWmC9Bud_LZDXik92CwefJvqEbkWYqnDy3mTmH2tlySBZs_YVsFewLFRNmI3HWzuuMZKcebcAg28jxGWW_PO_4xr4uPNtSmE5vnZveCDJWYjzjCAW4HFYlKAVMomENAKSp01_0xwJ2QSDlzNX0K_iztnEoMd63gi8v-P6cHueXuo580mgnAn1UbdRmqNmCy2qswcDJZ2fkf2NlFOCPqY5ywGpLzsEt3uAkzkM_QciTKlbq5B-ms11OM4Dkkwr8At6vRmU4R06txH3J1epd1UCuBXnBKPjeQcNI5DYIkfnHtYvNkWyCnYsDbmNQgt4yaTBfNyOWW44Gr0Kw",
+      "widthPx": 793,
+      "heightPx": 1122,
+      "authorAttributions": [
+        {
+          "displayName": "92 Degrees Coffee & Resto",
+          "uri": "https://maps.google.com/maps/contrib/102136545876045877580",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVG3pIM5aNqejEkjthKbphakpH3BSaxWJAferv12e0m2QtH47U=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBngojIxx0T_htZHPwkIx8L&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBngojIxx0T_htZHPwkIx8L!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMaIE4v9y23PAFrrbM9hVaBBGeSFsXiGGHTHPmolJHSEv3aL0TJIHXnlGbOuVkodOuIuzbfa0qREvChQfRtlZYSGJvqUsnhIgHpermrzmaBvhphE_CEVoHnadKuJ2fq2KX_9z01DMGQUAE5KgL0Y1kCbzTY4nZkHUW2IKH3Ua8RawAxEbbt-0Pky3KW_n9D9CPd8HA3vifqsVluP43MLUbZmZdZp2X-I7G7FkWQypuT7qPN5-LjC2P5AS-ZxSWDjlCBzv6JTLFaQChOVOR5p9I4rRsbnKKkCVZ6SGmRrgwdguBazqYP7NedemLmsivZoYgguVNvYanKgmzTfeI4O3OWbSKblhdg_dKqUM5Y3u85mTQB7KzkCgaqg8Fwaxs9CK9_mcIkMGg18vF9tBF6e0cyL7JR2EPOesAXnrALoPOV0Kg",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Aisyah Miftahul",
+          "uri": "https://maps.google.com/maps/contrib/113892175038851502976",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXXwbo2AGJTvbcmVLwe-_GVlxSzAFLA9tgZC7hpgilJJUivuaVG=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAX9KiwaDNe8Z26CoZfhgaE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAX9KiwaDNe8Z26CoZfhgaE!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMaQEU_K29wje8QfRt8wBuTBepcuSmIaQe70NwsekDhxE8rfsSjhNF_4Ka4D9pxXDewOw6CmSH_qAVgsx0AemTGLGN2iiSdLFoqgBGOEi1NvmLjAps8epZEGg9g16QF40X0uYvUE7JpH5gGMLysLgsccqgy5st3bNy-wDeWLphjSQ1MMyV8zap7nOkpZZZKWvkiU10Wc6xKA-kuCpn-HIXW1J7NL0rfYUxc7CeBGenL52qT6NI4sCnhzAPfRuvSR0O4d-pvl_dEPm4mhBgVjX7LnW0ZDahRF7T70HPsx4H0GwUrqSXpKPMieLYrqb4_Tuyn6-kFiIWTnntZdwK73wuZBWFh1OCa25mXQI5V_Fq28K8egsSVyZ7vb8o--_OqJz2ir5HkJbvA0NofGaFyUnxSU-r4qHBGfjCB6aY88UJrSBA",
+      "widthPx": 793,
+      "heightPx": 1122,
+      "authorAttributions": [
+        {
+          "displayName": "92 Degrees Coffee & Resto",
+          "uri": "https://maps.google.com/maps/contrib/102136545876045877580",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVG3pIM5aNqejEkjthKbphakpH3BSaxWJAferv12e0m2QtH47U=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDDYiaC8ed9AzdG0o4pBLdN&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDDYiaC8ed9AzdG0o4pBLdN!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMZ5Z1eRb78uV8Ye_CYigGlK8EUQp94KHFcAT4Y9o09_kiFwJe8_HLnFUkQU0mU-MtcVQ2Yxe2qciFqBokwio-p4SUPGqiD_4CpdtJji5QdoxmE-koTijLQAfYUMDJ_TRdy8UQcNd1hSCqzIGb5-Y3VFIZJZKL52a-UzJ2JtimvjWSD1WeLGd75tWEjvxKu6vduxrzEVCjfIJLo5EPP_VFoeWb3HyOFW9wBOAZyM6Ciycf8yvFFy4MfW-7p-l6prGktzL4f7BFwIpV2cugmnHgd4DxvaTB6SSmAzEhfyTEwV7ENwp5hqL2upqzB7HWQeE3LHZRCObAxIKhbSC1FnX7A0EBjxFeV95I6WQIWnJK2jUD8CdBWm_1nox3i2vvTlWqNdc17ph0UpH1aAL2hWVO7yVdQ-EcfdDXTGq-2Nw2v-4g",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Yuli ayu",
+          "uri": "https://maps.google.com/maps/contrib/116478085903622731970",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKwKPYyThCKKm82S_uNSDgrTAP4A2_QpA0WAywESowUX7Gxlg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBTPQ5kxBaxF5Nzyk0_ccRH&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBTPQ5kxBaxF5Nzyk0_ccRH!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMbgl3wEzJ6M9qmHsasXUUxyl05ReQzQIdMzgag67WjH_LDpZRSxbwgsaXKxomsUDC-Vb1s10mFk0334UwhcPUF-OmJu4bscE7FdqeCIdPkD4Dzsw9wx0OkFH7_wn-EuB_DX-0E5w0fExrH9DyJK7WqZ9t3fMTCQ3B5hXr4SXbmRx_Sqm9WIbb7qlpdu_CbUV9ttZKePCLlghib0cDhpsX3Ggqb-6yQwZMKckR2HZcIV7yFOl7aM6JtSVnbWzBBE65AhE6UNIXJPv28FZ04ljLzDOVY2l99xlKOvDrhzmV0v-a7a0CvphAuLAYDeohuTJ-jwheAXibzmCsorjizYEdojsd9kD4-k-RgG9YMN5tEkyDDXIUqDMgwTAwjd1PO8KhJqQRlvQDXT7ZdyZk8rrlj5BfbplfPMmSdRC24e-sgUcA",
+      "widthPx": 3204,
+      "heightPx": 2286,
+      "authorAttributions": [
+        {
+          "displayName": "Arief Oesmanto",
+          "uri": "https://maps.google.com/maps/contrib/104943360034690634883",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU33NlJ_b6vvL-rGSrEaHtxJmCPnLio7zjbdeLeBaG8zMJj5Cg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCcEYqqidNAQ2QRa2MX54F8&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCcEYqqidNAQ2QRa2MX54F8!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMZe3CWCIHlhgs8sTnHCEJoxGcMmXr3_C03vB_RVYxqDNYAgIwncrCa9CWJg8_xkwUsOFCNFbwHEUN2JbE2f0CYZFArSZ6IcziTVuyAO5ZgkD4vRvL_6B3KpyRAUJDc6k8DsyBib54gxSW4TzkeBNIV4Q0bjWcbUKE8HiQAwq1B14VyrqrXcrqVBJEUkt08YFt5VRM19oflMkgO9lD7E-RrhokDEAkZ9-JcKKVxHuQfAgUOsTJIDyWC5JHvIlGVqcHcVzAKNhO3vocS--qYrGEpclcpvLSocnrsBCLcunpBj9pwhFFMRHnV4atzHgGDhcG5SB-kS_TQvJoqDaSd_nVKKG1lbvOS9wo1Iy2dMAw-qddQwfRa-RzqageBlKr_3wX7fvqv9hDCFHmq4QHj47imZQ95D-r3gnvt6DETiOvYo",
+      "widthPx": 4000,
+      "heightPx": 2250,
+      "authorAttributions": [
+        {
+          "displayName": "Rama Wijaya",
+          "uri": "https://maps.google.com/maps/contrib/116969898827464664077",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWnlc4ZK7yhg1pFge3cWfad2Qiw3ac_m-DeP8pg0jXRlO9vQ4k3Vg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDSloBEKZBKAuNgmjo0cItx&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDSloBEKZBKAuNgmjo0cItx!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    },
+    {
+      "name": "places/ChIJnQVpeCSNaS4RgU77ArFOpdw/photos/Aa-ngMYCUHz152oFyS8swKrXMO4OlJ3jc0m8PjkctHI7hyUhtePJn40rkbyl-Y0iK3bXkZaW3EDm5Y0bAMteUArECIF5BEjdQ6PWa7PqkwhKIPrKYwn74FYVrOWehkDpGcbrsdndilRgoAi63S0ioJYoHzGnI8zDlGo15dv867Sn1GpovzPna4MDiEZAxouq_QmXETF69pjlQuiGCAkefmeOt7jhTtUtvU5KJWFiZM2sYgfUXmgK5krJoXIYZL8L4k1ehud5LWS3HWQgf3Dk7rLSxJIjvbOuVSzaH9gV57wxU9tawifgDBB8b3LKm63xB9XvzvY6iSWAqZsLAeBmyVrZY5xjNF1m1RMrQzkDqcRvYUq3LYKy0qb4LGUO-Tpe47t1bdIN8BfbfcHDcGivmaJaX0P1yFTWp3Gq_Q18MQLdC1qT6A",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Dewi Septiani",
+          "uri": "https://maps.google.com/maps/contrib/118045725880372974638",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWsGsh-OFesXCuh9rWWYMnABY2EdDM5kk3acptfb_zsmWTMhj1vKQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCK82QpeiD3QyyeQq8I114B&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCK82QpeiD3QyyeQq8I114B!2e10!4m2!3m1!1s0x2e698d247869059d:0xdca54eb102fb4e81"
+    }
+  ]
+}

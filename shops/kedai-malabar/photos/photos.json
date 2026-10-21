@@ -1,0 +1,26 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "KEDAI MALABAR 1",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Tamba Rex",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "My Bee",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Maulinda Amalia",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

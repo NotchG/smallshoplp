@@ -1,0 +1,377 @@
+{
+  "id": "ChIJm7zVRVnyaS4RksGGDyUgm4Y",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0856-9991-113",
+  "internationalPhoneNumber": "+62 856-9991-113",
+  "formattedAddress": "Budaya 69, Condet, Jakarta Timur, RT.5/RW.4, Batu Ampar, Kec. Kramat jati, DKI Jakarta, Daerah Khusus Ibukota Jakarta 13520, Indonesia",
+  "rating": 4.7,
+  "googleMapsUri": "https://maps.google.com/?cid=9699381566018863506&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": true,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 2,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 2,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 10:00 AM – 1:00 AM",
+      "Tuesday: 10:00 AM – 1:00 AM",
+      "Wednesday: 10:00 AM – 1:00 AM",
+      "Thursday: 10:00 AM – 1:00 AM",
+      "Friday: 10:00 AM – 1:00 AM",
+      "Saturday: 10:00 AM – 2:00 AM",
+      "Sunday: 10:00 AM – 2:00 AM"
+    ],
+    "nextCloseTime": "2026-10-20T18:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 216,
+  "displayName": {
+    "text": "Undertwenty Coffee Co",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/reviews/ChZDSUhNMG9nS0VJQ0FnSUNzOGNLVEZ3EAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Such a lovely place to enjoy every cup of your coffee in East Jakarta",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Such a lovely place to enjoy every cup of your coffee in East Jakarta",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Alan M",
+        "uri": "https://www.google.com/maps/contrib/111328123230760460988/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVRocjB4QYgHzlTy0DnPl8FcktqopxauCpAGcrjPrOaB0D0zhWS=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2021-05-12T06:32:26.164539Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNzOGNLVEZ3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNzOGNLVEZ3EAE!2m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/reviews/ChdDSUhNMG9nS0VJQ0FnSUNxN29XczhnRRAB",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 4,
+      "text": {
+        "text": "I accidentally find this place to stay while waiting for the rain to stop. But it turns out that this place is pretty comfortable and has plenty of coffee options too. I didn't expect they have manual brew, cause it just looks like a common and tiny coffee shop from the outside.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I accidentally find this place to stay while waiting for the rain to stop. But it turns out that this place is pretty comfortable and has plenty of coffee options too. I didn't expect they have manual brew, cause it just looks like a common and tiny coffee shop from the outside.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Mahar",
+        "uri": "https://www.google.com/maps/contrib/108789696525753212349/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXKL8yxf1mOkUKxxv3S_4yuMzWSoohKh3KYVA70DScX-uy65fX0=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2021-06-07T13:59:20.312172Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNxN29XczhnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNxN29XczhnRRAB!2m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/reviews/ChdDSUhNMG9nS0VJQ0FnSUNKeWZXMDZ3RRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Having great experience, doing Live Tiktok & making content.. Good Coffee, nice ambience & the hospitality",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Having great experience, doing Live Tiktok & making content.. Good Coffee, nice ambience & the hospitality",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Marissa Festiyanti",
+        "uri": "https://www.google.com/maps/contrib/103045311762276514934/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXkuG32769K3hRPdoE5R6oSzTEvs_GBi3ZEDGUmJwls0_1SXsw=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2023-06-30T01:30:01.857904Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNKeWZXMDZ3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNKeWZXMDZ3RRAB!2m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/reviews/ChZDSUhNMG9nS0VJQ0FnSUN3dzdya1RREAE",
+      "relativePublishTimeDescription": "8 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice place to spend the evening with freshly brewed coffee!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place to spend the evening with freshly brewed coffee!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Bayu Sukamto",
+        "uri": "https://www.google.com/maps/contrib/104780950706717106605/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXKbHEfl6ajz5xkm2p4vBXjHBJ2hS8u96rek_WYxShBlpZFIAi0=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2018-01-26T16:00:21.282Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUN3dzdya1RREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUN3dzdya1RREAE!2m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/reviews/ChZDSUhNMG9nS0VJQ0FnSURBNVByWVN3EAE",
+      "relativePublishTimeDescription": "9 years ago",
+      "rating": 5,
+      "text": {
+        "text": "The best green tea latte i've ever taste 👍",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The best green tea latte i've ever taste 👍",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dina Khairina",
+        "uri": "https://www.google.com/maps/contrib/106831490618293616120/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQMLZRH8k__f5B3gXnNrzd8Db0bkzye7ExN3fcrjOWn8CgRArB=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2017-03-04T13:07:41.079Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURBNVByWVN3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURBNVByWVN3EAE!2m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMYxYD-pf81dpw-3x7W6NgVMqZoXIG529uJ_miueqskjdwFxG_XaK4mw-J0JOyZN7dFI_t4Gux-YHrLoaZjz5WYyWOSxAJobjDkoa_tE2PE0NwKQBV9yO7wvkwbgtygj73t7gzgLGutQ2oMO8n_LUQKf9eAANAGo_lo2sv9KXidPrfhN0qamsRh-PefMVYO4hIAASP5L77Yqs0QygTFZsHD1tB6WsM_XP-q0WKrX05LrCrw83OpOtbqlbpLe3bVq16iWBkO02OyqEeUYOYFBXE4BF_zolv7QObp33WChsEF4htFeWebMNFVjUS802t7C3_s6ozRzKCtViLXuPqDu1PQX28OXyOI8Gbc9LohcXu5ozpBdSQgz_7TyfK10vDwIBnn91riRlZyNlbk9JxZRTTNpl7FUGaUp8HZIs-AxHJxHow",
+      "widthPx": 1160,
+      "heightPx": 868,
+      "authorAttributions": [
+        {
+          "displayName": "Undertwenty Coffee Co",
+          "uri": "https://maps.google.com/maps/contrib/104830551448107602521",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWAGhbDhG24LVMjrUZqgcptEM--JsWkMVdVBFAs3--pCUsPA-89=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCAHRKIhWZoaNSf6JXUXGhp&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCAHRKIhWZoaNSf6JXUXGhp!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMao5GCku-7IthY4NijIUNFkeI6O4_RRoTAClH_T34J-t2jWoB5SH4v7V0uFXUu9dI6bKsaHUVZiZy7h_0qlWF__JhqXT-idzcjMOyDB0M4xI1uTw0axywFxiS2PZX6ULbiyOO2bnRu9rAgMRlfHnK4sKRQ70i31Hha8SbrRDdeaN35FChqSx2QIv6qnkECBeqcWMg32oyIGfNU6jtHhMUuPCY3GytOfe84RbpzE6-03pPAMgH6lL1BCWR1jinRIq5tjHo_LGag4b5sUHZtoNdI8vNbYPFwDLSTu4fzDPNrtBQw3489-sCHSeaBDN_VcyQg7l8d0aJLITz0usdJfd716UVzoD6S8fcrJtfhAeeFaXKDuOt4Ni_W2TTrm7eejIIThSNyNPoSdOGB_FeY6qXf_tna8QG6bAKAon78X878BHQ",
+      "widthPx": 1200,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "Undertwenty Coffee Co",
+          "uri": "https://maps.google.com/maps/contrib/104830551448107602521",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWAGhbDhG24LVMjrUZqgcptEM--JsWkMVdVBFAs3--pCUsPA-89=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBm3jpixXGIIp5ykHk_A8Iw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBm3jpixXGIIp5ykHk_A8Iw!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMbrULV2q8x4f0XnfRvAvc6k7o0J-88O4tfEfepRaQpWkKCqa5Q6erA0Wnk0-1lnL1mAPjUtl17ECdyJtx9eU24GoFsGO3mvs76ZaIcRkvDtHPlMY3144_-0wZerp-AM-UCcqo1yfpZDdbXGti_mR-uuf-sWOddNarXpFLDRX_miyQOGVQT_8dn4sxQECtKC5Zwmd3AAMOCh44sxjbnxKH3NulwJL_KqYNsotAMl7I2xoEVSW0lAHK4QMEqbCOT1hlxpVoD4iS6kd2IqQ1aQNC_OAc5HQKFQDhHWAM0KVOMnIWhhUqsmpqNtL6yJgBWHO2TyX3w6-0rwaAirVYqhKZhfvvO6nvuchFJWFjC2AS4BMzk6NZZv89Y4-sCDkiY7144LzpoP5oZ-xqUT2aTjzk8XRgQw5VuhrC34EcZ5EuRu",
+      "widthPx": 1944,
+      "heightPx": 2592,
+      "authorAttributions": [
+        {
+          "displayName": "Muhammad Dzaky",
+          "uri": "https://maps.google.com/maps/contrib/112195596718290569263",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVA4AO1nRgKsb-Oj2HC7DtbhZTaux2W2xdBhGCG6FTX79cHnl-t=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCeG5_6fXiS8CwTb3pl7TjE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCeG5_6fXiS8CwTb3pl7TjE!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMahdpNnxj4D09h0dcnLAQswFnRIohPv0naLuySc7hBmI2skRxxn0IR6b7GK1hB0x-Azs4dJKGYtO2qM2VChgFww46mWY0ctB1f928m4VRbVn2Hvt-GQ3cS00TeDs-kD4BmmjkrYcyzzWei4QXQYfbOTRaNoNnywEVdo7ZyNFHqagHr5AU6h7ub_eoi8LvEjHPfvSNmzT-QZVl64M9L2anhetH9q2LTkaDktxOdOV8UIzW-8LvZzF1CqVNfRS583obu0lHKtlYpILK7B09ZT9_6qLiPZmxYLtBu0Zo0yYHwAsOu8z0RIeW8NOWOB5IMP1svHwE3TRaRlWZBQbCWi3bGlwyPudgYSVLOS0ahsUKPK8bAV8WOS8BSKAr9oOA8VV8oV8A6EttW35-s5pYXhH-tjJoQ",
+      "widthPx": 3522,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "gandi purwandi",
+          "uri": "https://maps.google.com/maps/contrib/111952504502304447427",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUmHjbFQ-LdBt7sg5iXljHc7CCGrrmA7u9-98TeYEP-wj-Gckbd=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC4w6_cVg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC4w6_cVg!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMZ7SOHTP16KMsNgsRm-4CqKwRjYUWBpnk0SevosEeS4dZyFUTyAlkFEjja1ts0rUE53wR1zUDRLchrM1OwABCJtc8BvtKTgQ76ps_x3k3wkfVA49IPaSwYV2vIdNAwerxBwBPm-mMf5oM13ckZJHwj6LXhcK_ILkvbNvSnBMxhEDTOPuVRS1kZWIaizJZs1rgnlOqWeHZ3iegW_iy_CeQoTRZw1vvG22GzHaMxzCZQiiBB2r7SkgIWVFt_SuhRvYOltBFDxLiauAworRiY_GvdKWb6tM9PTzEP60HIRyy957r2iYI3PZUg7rxz4W86R1hlFDA6ErIoYY1kL5BtijOMz-HTtzNay8urwAodspBhkUV1JVpFlYxXENbZE7sYN2gUur-T5Whb93voeGdNH-tp5kq3DUsJfEyiSB8MnvTDijA",
+      "widthPx": 3048,
+      "heightPx": 4064,
+      "authorAttributions": [
+        {
+          "displayName": "Maechel Adami",
+          "uri": "https://maps.google.com/maps/contrib/115859136536959030859",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKamH39Iim-U2zRos__AXd2v0ZVxlL386TiD_Myc20zpa35uQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBZmIWo1sijFyF7j8GtGtpa&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBZmIWo1sijFyF7j8GtGtpa!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMa-gld5oKhY8R4kXl_lR7yyS4jni1qk0SqM0RxHXIzSr4J0TKHWHZasoXsttUyjIm_astR5KCFQ4HdHxGnDTm9akxeaLE7y0iu1TIC-V3bwmInMvfsthXhBCVkNjWeiGw4gFzafQMa1sGiIT7xrfE3iPws41WzkCUXGYYz9NLUfsZBAfWQhwVY7R0jWzmmqO3urAc1fg5dUYVTEbPRN2ih1u4wx2ClroBRzu4bvkFt0lyYwhugmrzebMvqBMhVzEmFVf6_blGhOSIfB4KZdp4m1QaJBCZuQaUTShsiTbdI4dl1QytElaJkD4jXgkvuh6rkior0VtqN9OL4LfyaAKFxLLofhGO3gHRy2nwu_aRK6V5D7cv6TwmMxjJMaGw6tKddWAui-o7ufOfXPPRfMmq0YyoZvDi0",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "M. I. Mappasenge",
+          "uri": "https://maps.google.com/maps/contrib/117396176849139936978",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUc-T8jlnHuzPNmLEgJlL_7K8wO_tSn9Dl67xIOHRkXIX8azzg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICkwa7g8QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICkwa7g8QE!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMZCUnWZdH3lHAIenQ23OaWnflE-9aC5VHmwuDZtuVULEqPUmO0huvDqFAs0lLzpwe1L_wjicMw6JNCWWFbaNJA_agDATAc4AoIC1qHQTY81ad2r0GZihnld7zuukXk7csBeuxn44oH4lk0I0KIlN8_spl6geZeICpDcTagj8_MkA74VlHb3-oPmhLfsaEz77wLh8vUxOg_o25ffsDVLmQNgiLAMUm5Xzv5USeWHSEnKoMZysMKulIpa0zlgUmy_sDxG_LXwf_vNJpffzkcKYzDcS2z40JbnMKVM-IdECv6foDqhKxCuGJQ2hMz1_EoknPSG-QkU5w_PQXwcNsYY_5b2HQPwWrFkdrKQiB5hpx_Oa89FTWZOuS0QZH41Baskx3WEcTU58bbZb1yuTCBn9ED6bQ",
+      "widthPx": 3591,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Ksatrianto F",
+          "uri": "https://maps.google.com/maps/contrib/116263105987176978888",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXFxzKWfo39egvuz9V3hjtMV6ehIIcJ8rUcKSdVyYIpUZ0EUsatxQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDCr_Xmeg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDCr_Xmeg!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMYa6JTYyKgZXurQUXSkKRL_JWI47TOPC4LiXh4YQJxmCcsuA7M-46esX_T8LlS7NewV893beE-nvk9X7Sz_aJJjIynxXSVg93y30s0jU8A8lJcfibmonxiDmlfzXljnNuxCvZ8y0vO8xJDTAEE7oH8lAUTYRT6h8VE7Sfkz1sFmq1-EaXC_7OzgO3F80NNxs6sPR3eTamMFh3MSFjYoetgWiQwDJ95676_cSNYJSuJD9tEq4sAC1FMUiTK557Q8cLsUnmxMyEI99okajdSo6LOBcbcc5s0jHp-jsUrkF-9XiBCT_0yOizKsn6yLvJD7-rIm0jonQm9n7glSXbj3rPA8ZzCEq3flGdoiQIqdLebW9KywaPXqedUknfxatLF0pQ_N5FK2v9QnFoAalG9LYfDSQw",
+      "widthPx": 2304,
+      "heightPx": 2855,
+      "authorAttributions": [
+        {
+          "displayName": "Rivaldi",
+          "uri": "https://maps.google.com/maps/contrib/100664350368614896155",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVkf8t-qlqbJC0H8sdQC9XUcSIdt8Y-yf2lT68cPSWbsKgGBGw6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICEp4nJcg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICEp4nJcg!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMbzLEUk5fCmg5MOXjndQo2qx4gQVrbQ1S9r-gPR0xLVHrbndiuAU_3metqNX1rxLbl5vAw1yljFBml9EgzNMkJmEzjxN8Lue4wscimC-SJe97PCSweZd6QXjqUV1E42BVvtmtz9nfOlco5kqv42tFiGe4UnnCMa1uA99VDWHa2MjkfP3auN0iPYnP3oQLIzigbb01InNe3I0WkmHlzIxsuzRsMw06QpUSbx8LbEl3RRJp_O4GM56ObsVRB_5Oh2I-rHO9KPcb9__RqoDYgdnSOUBSpnu9bx-NEOM9rszf7j3b69CR3ifJ6R04BSEE_q8bQ14UK9rH1dcbN4v7aqhrdSPy364Ars7H57r_b2aXJ319iJnL_3nGIS85gHR7Rxgg-6dJNqnB1z22S7FtZaogEIZXk0uaI",
+      "widthPx": 2304,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Rivaldi",
+          "uri": "https://maps.google.com/maps/contrib/100664350368614896155",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVkf8t-qlqbJC0H8sdQC9XUcSIdt8Y-yf2lT68cPSWbsKgGBGw6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDcl-Xg3gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDcl-Xg3gE!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    },
+    {
+      "name": "places/ChIJm7zVRVnyaS4RksGGDyUgm4Y/photos/Aa-ngMZgcr13Jqqxz0y8mEJPCT4U0bTb6f6CG5VLRDS6QIM2kf71-5pIiRyplcHbTRn7Gf2QQ8Hxj6sg0g4yJNdutIUZOMc13OQPfl1Nhc5HezYauoAhV3dxGw9Wp8_zN5kOyOh9D-hqZM-hEApQwn7nzdmLXCFeEnhEn_Bpxbsf8GEqxPKuoNZZiQ6cP84ZXPJmLSnJMeIzDd-MPpR8irxJISTAUIgszCXClTaMGHyPLkxe87Pcf2zSXti4hOM43RNKq4dAtMZ82cet_I-CAmj1Sxab15sQoBu_1cYeSv1a3rNFa15FIhRt3y-R4Sw5gv2ySEj8ExJEfg2v-G6FVhqNn7a1LP5kTXSqVGS4Y8Yd7nuYPdE9kmxYZuVOapDE9PcMZjaare9KRwM-Hn6dyTIuS2YVRAN_AVg",
+      "widthPx": 4800,
+      "heightPx": 3516,
+      "authorAttributions": [
+        {
+          "displayName": "gandi purwandi",
+          "uri": "https://maps.google.com/maps/contrib/111952504502304447427",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUmHjbFQ-LdBt7sg5iXljHc7CCGrrmA7u9-98TeYEP-wj-Gckbd=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC4w6_c9gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC4w6_c9gE!2e10!4m2!3m1!1s0x2e69f25945d5bc9b:0x869b20250f86c192"
+    }
+  ]
+}

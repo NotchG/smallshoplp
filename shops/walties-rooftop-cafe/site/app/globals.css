@@ -1,0 +1,255 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4. Hex values mirror lib/palette.ts. */
+@theme {
+  --color-malam: #121C35; /* night sky */
+  --color-krem: #F5EBD7;  /* tile cream */
+  --color-lampu: #F4B740; /* bulb amber */
+  --color-bata: #9E3F2C;  /* tile brick */
+  --color-daun: #24402E;  /* plant green */
+  --color-kayu: #6E4A2E;  /* wood frame */
+  --font-display: var(--font-antonio), "Arial Narrow", sans-serif;
+  --font-body: var(--font-gantari), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale (design-brief.md §4–5). Sizes live here as variables, never as
+   Tailwind arbitrary values with spaces. */
+:root {
+  --container: 1200px;
+  --gutter: clamp(1.25rem, 4vw, 3rem);          /* 20px phone, 48px desktop */
+  --section-y: clamp(4rem, 2.5rem + 6vw, 7rem); /* 64px phone, 112px desktop */
+
+  --step-display: clamp(5rem, 3rem + 11vw, 11rem);       /* ≈91 → 176px */
+  --step-head: clamp(2rem, 1.45rem + 2.3vw, 3.5rem);     /* 32 → 56px */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.6vw, 1.625rem); /* 22 → 26px */
+  --step-body: clamp(1.0625rem, 1rem + 0.15vw, 1.125rem); /* 17 → 18px */
+  --step-small: clamp(0.8125rem, 0.78rem + 0.1vw, 0.875rem); /* 13 → 14px */
+
+  --leading-display: 0.9;
+  --leading-head: 1.05;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+  --leading-small: 1.45;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --hover-ms: 180ms;
+}
+
+html {
+  background: var(--color-malam);
+  color: var(--color-krem);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+}
+
+::selection { background: var(--color-lampu); color: var(--color-malam); }
+html { caret-color: var(--color-lampu); accent-color: var(--color-lampu); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+/* Type helpers */
+.t-display {
+  font-family: var(--font-display);
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.t-head {
+  font-family: var(--font-display);
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+.t-lead  { font-size: var(--step-lead);  line-height: var(--leading-lead); font-weight: 500; text-wrap: pretty; }
+.t-body  { font-size: var(--step-body);  line-height: var(--leading-body); }
+.t-small { font-size: var(--step-small); line-height: var(--leading-small); font-weight: 500; }
+/* Antonio caps with wide tracking: "ROOFTOP CAFÉ" and menu category labels */
+.t-spaced {
+  font-family: var(--font-display);
+  font-size: var(--step-lead);
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+.num { font-variant-numeric: tabular-nums lining-nums; }
+.measure { max-width: 34ch; }
+
+/* Light text on dark grounds reads thin; give body copy a touch more weight there. */
+.ground-dark p, .ground-dark li, .ground-dark td, .ground-dark th { font-weight: 450; }
+
+/* Focus: 2px lampu on dark, bata on krem, krem on bata; offset 3px. */
+:focus-visible { outline: 2px solid var(--color-lampu); outline-offset: 3px; }
+.ground-light :focus-visible { outline-color: var(--color-bata); }
+.ground-bata :focus-visible { outline-color: var(--color-krem); }
+
+/* Text links */
+.link {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  transition: text-decoration-color var(--hover-ms) var(--ease-out);
+}
+.link:hover { text-decoration-color: currentColor; }
+
+/* ---------- Buttons (ActionButton) ---------- */
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.75rem 1.375rem;
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    transform var(--hover-ms) var(--ease-out),
+    background-color var(--hover-ms) var(--ease-out),
+    color var(--hover-ms) var(--ease-out),
+    border-color var(--hover-ms) var(--ease-out);
+}
+.btn:hover, .btn:focus-visible { transform: translateY(-2px); }
+.btn:active { transform: translateY(0); }
+.btn-primary { background: var(--color-lampu); color: var(--color-malam); }
+.btn-primary:hover { background: var(--color-krem); }
+.btn-secondary { color: var(--color-krem); box-shadow: inset 0 0 0 1.5px var(--color-krem); }
+.btn-secondary:hover { background: color-mix(in srgb, var(--color-krem) 12%, transparent); }
+.btn-onbrick { background: var(--color-krem); color: var(--color-bata); }
+.btn-onbrick:hover { background: var(--color-malam); color: var(--color-krem); }
+@media (prefers-reduced-motion: reduce) {
+  .btn:hover, .btn:focus-visible, .btn:active { transform: none; }
+}
+
+/* ---------- Strand (festoon of bulbs) ---------- */
+.strand { display: block; width: 100%; pointer-events: none; }
+.strand-desk { display: none; height: max(96px, 6.667vw); }
+.strand-phone { height: max(64px, 16.41vw); }
+@media (min-width: 768px) {
+  .strand-desk { display: block; }
+  .strand-phone { display: none; }
+}
+
+/* Signature moment, initial "off" state. Only with JS (inline head script) and motion allowed;
+   otherwise the final, lit state shows. Text and buttons never start hidden. */
+.hero-scrim { opacity: 0; }
+@media (prefers-reduced-motion: no-preference) {
+  .js .hero-strand .bulb-lit, .js .hero-strand .bulb-halo { opacity: 0; }
+  .js .hero-scrim { opacity: 0.45; }
+}
+
+/* ---------- Hero panorama (owner-3, 1170px native) ---------- */
+.hero-pano {
+  position: relative;
+  overflow: hidden;
+  height: 240px;
+}
+.hero-pano img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 40%; }
+@media (min-width: 768px) {
+  .hero-pano { height: auto; aspect-ratio: 1170 / 460; max-width: 1170px; margin-inline: auto; }
+  .hero-pano img { object-position: 50% 30%; }
+}
+
+/* ---------- Tegel ---------- */
+.tegel-band {
+  height: 28px; /* 24px of tile between two 2px kayu rules */
+  border-block: 2px solid var(--color-kayu);
+  background-size: 24px 24px;
+  background-repeat: repeat-x;
+  background-position: center;
+}
+.tabletop {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border: 6px solid var(--color-kayu);
+  background-size: 20% auto; /* five tiles across, like the café's tabletops */
+  background-position: center;
+}
+.tegel-mark { display: block; width: 20px; height: 20px; background-size: 20px 20px; flex: none; }
+
+/* ---------- Photo crops (hide the baked-in handle / logo bands) ---------- */
+.crop { overflow: hidden; }
+.crop img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.crop-bolvano { aspect-ratio: 9 / 10; }
+.crop-terrace { aspect-ratio: 8 / 9; }
+.crop-indoor { aspect-ratio: 8 / 7; }
+
+/* Dua suasana: indoor column starts lower on desktop */
+@media (min-width: 768px) {
+  .room-offset { padding-top: 64px; }
+}
+@media (min-width: 1024px) {
+  .room-offset { padding-top: 120px; }
+}
+
+/* Hours table */
+.hours { width: 100%; max-width: 18rem; border-collapse: collapse; }
+.hours th, .hours td { padding-block: 0.4rem; text-align: left; vertical-align: baseline; }
+.hours td { text-align: right; }
+.hours tr + tr th, .hours tr + tr td { border-top: 1px solid color-mix(in srgb, var(--color-krem) 16%, transparent); }
+
+.map-frame { display: block; width: 100%; aspect-ratio: 4 / 3; border: 0; background: color-mix(in srgb, var(--color-krem) 8%, transparent); }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px; line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-krem); color: var(--color-malam); font-weight: 500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* The hero runs at the panorama's native 1170px so the photo edge and the name share a line. */
+.hero-container {
+  width: 100%;
+  max-width: calc(1170px + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+@media (min-width: 768px) {
+  .hero-pano-wrap {
+    max-width: calc(1170px + 2 * var(--gutter));
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+}
+/* "ROOFTOP CAFÉ" sits about 0.2em of the name below it, as on the sign; this also clears
+   Antonio's tall glyph box (its content area runs ~0.2em past the 0.9 line box). */
+.hero-sub { margin-top: calc(var(--step-display) * 0.2 + 2px); }
+
+/* Map: fallback panel shows until (or unless) the embed paints over it. */
+.map-wrap { position: relative; aspect-ratio: 4 / 3; background: color-mix(in srgb, var(--color-krem) 7%, var(--color-malam)); }
+.map-wrap .map-frame { position: absolute; inset: 0; height: 100%; background: transparent; }
+/* Chrome doesn't match :focus-visible on iframes; keyboard users still need the ring. */
+.map-frame:focus { outline: 2px solid var(--color-lampu); outline-offset: 3px; }

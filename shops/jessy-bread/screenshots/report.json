@@ -95,9 +95,7 @@
         "pctOfContentWidth": 75
       }
     ],
-    "overlappingText": [
-      "span \"Jessy\"  ×  span \"Bread\""
-    ],
+    "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
     "mockupItems": 29
@@ -198,9 +196,7 @@
         "pctOfContentWidth": 46
       }
     ],
-    "overlappingText": [
-      "span \"Jessy\"  ×  span \"Bread\""
-    ],
+    "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
     "mockupItems": 29
@@ -301,9 +297,7 @@
         "pctOfContentWidth": 36
       }
     ],
-    "overlappingText": [
-      "span \"Jessy\"  ×  span \"Bread\""
-    ],
+    "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
     "mockupItems": 29

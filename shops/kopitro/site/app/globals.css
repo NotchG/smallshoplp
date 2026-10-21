@@ -1,0 +1,314 @@
+@import "tailwindcss";
+
+/* Kopitro tokens, from docs/design-brief.md §3–5.
+   Colours and fonts become Tailwind utilities (bg-malam, text-kayu, font-display...). */
+@theme {
+  --color-malam: #15120f;   /* night / banner ground; all text on kayu */
+  --color-spanduk: #f3eee4; /* text and lines on malam */
+  --color-kayu: #e2a42b;    /* yellow-stained pine counter */
+  --color-merah: #c7311f;   /* only the shape behind KOPITRO */
+  --color-baja: #a9a49b;    /* steel: secondary text on malam, hairlines. Never text on kayu */
+  --color-seduh: #b4621c;   /* brew liquid in illustrations only. Never text */
+  --font-display: var(--font-sofia-xc), "Arial Narrow", sans-serif;
+  --font-body: var(--font-sofia), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+
+  --step-display: clamp(6rem, 2.4rem + 17vw, 15.25rem);
+  --step-head: clamp(2.5rem, 1.6rem + 3.6vw, 4.75rem);
+  --step-lead: clamp(1.375rem, 1.2rem + 0.75vw, 1.875rem);
+  --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --step-small: 0.8125rem;
+
+  --leading-display: 0.9;
+  --leading-head: 1.05;
+  --leading-body: 1.55;
+
+  --hairline: color-mix(in srgb, var(--color-baja) 30%, transparent);
+  --focus: var(--color-kayu);
+  --ink: var(--color-spanduk);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 40px; --section-y: 112px; }
+}
+
+@layer base {
+html {
+  background: var(--color-malam);
+  color: var(--color-spanduk);
+  color-scheme: dark;
+  scrollbar-color: var(--color-baja) var(--color-malam);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+}
+
+::selection { background: var(--color-kayu); color: var(--color-malam); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+}
+
+@layer components {
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+/* ---------- Type ---------- */
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.3; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.45; }
+
+/* KOPITRO only. Extra Condensed 900 caps, one line. */
+.f-name {
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
+}
+/* Section h2 */
+.f-head {
+  font-family: var(--font-display);
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+}
+/* h3, product names, board items: Extra Condensed 800 caps at --step-lead */
+.f-caps {
+  font-family: var(--font-display);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  line-height: 1.1;
+}
+.t-label {
+  font-size: var(--step-small);
+  line-height: 1.3;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+/* Light-on-dark compensation for running text on malam */
+.on-dark { font-weight: 430; letter-spacing: 0.01em; line-height: 1.6; }
+.on-dark.t-lead, .on-dark .t-lead { line-height: 1.35; }
+.tabular { font-variant-numeric: tabular-nums; }
+.measure { max-width: 60ch; }
+.statement { max-width: 26ch; text-wrap: pretty; }
+
+/* ---------- Grounds ---------- */
+.ground-malam { background: var(--color-malam); color: var(--color-spanduk); --focus: var(--color-kayu); --ink: var(--color-spanduk); }
+.ground-kayu  { color: var(--color-malam); --focus: var(--color-malam); --ink: var(--color-malam); }
+.ground-kayu ::selection { background: var(--color-malam); color: var(--color-spanduk); }
+
+/* Pine counter: kayu with a static plank texture (seams malam 14%, grain malam 6%). */
+.wood-field {
+  background-color: var(--color-kayu);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1600' height='392' fill='none'%3E%3Cg stroke='%2315120f' stroke-opacity='.14'%3E%3Cpath d='M0 .5h1600M0 86.5h1600M0 182.5h1600M0 262.5h1600'/%3E%3C/g%3E%3Cg stroke='%2315120f' stroke-opacity='.06' stroke-width='1.5'%3E%3Cpath d='M0 22c240-6 520 8 820 2s560-10 780-4M0 47c300 5 610-7 900-3s500 9 700 4M0 66c200-4 460 3 760 0s620-6 840 2'/%3E%3Cpath d='M0 112c260 6 540-6 860-1s520 7 740 1M0 139c210-5 500 4 780 1s580-8 820-2M0 161c320 4 600-5 880 0s480 6 720-1'/%3E%3Cpath d='M0 205c280-5 560 6 840 1s520-7 760 0M0 231c240 4 520-4 800-1s560 6 800 0'/%3E%3Cpath d='M0 290c300 5 560-6 860-2s500 8 740 2M0 318c220-4 480 5 760 1s600-7 840-1M0 349c260 5 600-4 880 0s460 6 720 0M0 374c300-3 620 4 900 1s480-5 700 0'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-position: center top;
+}
+
+/* The counter's black steel edge: 12px malam band, 1px baja line on top. */
+.rail {
+  height: 13px;
+  background: var(--color-malam);
+  border-top: 1px solid var(--color-baja);
+}
+
+.hairline-top { border-top: 1px solid var(--hairline); }
+.hairline-list > li + li { border-top: 1px solid var(--hairline); }
+.ground-kayu .hairline-list > li + li { border-top-color: color-mix(in srgb, var(--color-malam) 35%, transparent); }
+
+/* Road centre line under "Malam di Kopitro": 48x4 dashes, 40px gaps, spanduk 50%. Static. */
+.road-dashes {
+  height: 4px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='4'%3E%3Crect width='48' height='4' fill='%23f3eee4' fill-opacity='.5'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: 20px 0;
+}
+
+/* ---------- Interaction ---------- */
+.btn {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  min-height: 48px;
+  padding: 0.6rem 1.35rem;
+  border-radius: 3px;
+  font-size: var(--step-body);
+  font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 120ms ease-out;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease-out;
+}
+.btn:hover::after, .btn:focus-visible::after { opacity: 1; }
+.btn:active { transform: translateY(1px); }
+
+.btn-solid-kayu { background: var(--color-kayu); color: var(--color-malam); }
+.btn-solid-kayu::after { background: color-mix(in srgb, var(--color-malam) 10%, transparent); }
+.btn-solid-malam { background: var(--color-malam); color: var(--color-spanduk); }
+.btn-solid-malam::after { background: color-mix(in srgb, var(--color-spanduk) 12%, transparent); }
+.btn-outline { color: var(--ink); box-shadow: inset 0 0 0 2px var(--ink); }
+.btn-outline::after { background: color-mix(in srgb, var(--ink) 10%, transparent); }
+
+.link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+  transition: text-decoration-thickness 180ms ease-out;
+}
+.link:hover { text-decoration-thickness: 2px; }
+
+.skip-link {
+  position: absolute; left: 12px; top: -100px; z-index: 50;
+  padding: 12px 16px; background: var(--color-kayu); color: var(--color-malam);
+  font-weight: 650; border-radius: 3px;
+}
+.skip-link:focus { top: 12px; --focus: var(--color-spanduk); }
+
+/* ---------- Illustrations (inline SVG) ---------- */
+.art { --paper: var(--color-spanduk); overflow: visible; display: block; }
+.art .ln, .art .fp, .art .fs, .art .fi {
+  stroke: var(--ink);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+.art .ln { fill: none; }
+.art .fp { fill: var(--paper); }
+.art .fs { fill: var(--color-baja); }
+.art .fi { fill: var(--ink); }
+.art .fk { fill: var(--color-kayu); stroke: var(--ink); stroke-width: 2.5; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.art .brew { fill: var(--color-seduh); }
+.art .milk { fill: var(--paper); }
+.art .ink-fill { fill: var(--ink); }
+.art .tube-out { fill: none; stroke: var(--ink); stroke-width: 9; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.art .tube-in  { fill: none; stroke: var(--color-baja); stroke-width: 4; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.art .handle-in { fill: none; stroke: var(--color-malam); stroke-width: 4; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.art .cup-print { fill: var(--color-malam); font-family: var(--font-display); font-weight: 900; }
+.art .fm { fill: var(--color-malam); stroke: var(--ink); stroke-width: 2.5; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.art .night { fill: var(--color-malam); }
+.art .bean { fill: none; stroke: var(--color-malam); stroke-width: 2; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.art .cup-print-sm { font-family: var(--font-body); font-weight: 650; }
+#pour-liquid { transform-box: fill-box; }
+
+/* Hero bar scene: objects in one row, standing on the rail. --u = px per drawing unit. */
+.bar-scene {
+  --u: 0.56px;
+  display: flex;
+  align-items: flex-end;
+  gap: calc(26 * var(--u));
+  background: transparent;
+}
+@media (min-width: 768px) { .bar-scene { --u: 0.74px; } }
+@media (min-width: 1024px) { .bar-scene { --u: 0.84px; } }
+@media (min-width: 1280px) { .bar-scene { --u: 0.88px; } }
+
+/* ---------- Hero ---------- */
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr); }
+.hero-name { grid-row: 1; }
+.hero-line { grid-row: 2; margin-top: 1.25rem; max-width: 22ch; }
+.hero-scene { grid-row: 3; margin-top: 2rem; justify-self: end; }
+@media (min-width: 1280px) {
+  .hero-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; grid-template-rows: auto 1fr; }
+  .hero-name { grid-column: 1 / span 7; }
+  .hero-line { grid-column: 1 / span 6; padding-bottom: 3.5rem; }
+  .hero-scene { grid-column: 7 / -1; grid-row: 1 / span 2; align-self: end; margin-top: 0; }
+}
+.hero-title { position: relative; display: inline-block; isolation: isolate; margin-left: -0.035em; }
+.hero-mark {
+  position: absolute;
+  z-index: -1;
+  width: 0.62em;
+  height: 0.62em;
+  right: 0.5em;
+  top: -0.08em;
+  border-radius: 50%;
+  background: var(--color-merah);
+}
+.hero-tagline {
+  margin-top: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* Tracked until it is nearly as wide as KOPITRO (2.86em of the display size), never wider:
+     MANUAL BREW is 6.49em of its own size untracked; 10.5 gaps share the difference. */
+  letter-spacing: clamp(0.35em, calc((2.7 * var(--step-display) - 6.49 * var(--step-lead)) / 10.5), 0.85em);
+  white-space: nowrap;
+}
+
+/* ---------- Menu shelf ---------- */
+.menu-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 3rem; }
+.menu-item-wide { grid-column: span 2; }
+.menu-shelf { display: flex; align-items: flex-end; border-bottom: 2px solid var(--color-malam); padding-inline-end: 1rem; }
+.menu-text { padding-top: 1rem; padding-inline-end: 1.25rem; }
+@media (min-width: 1024px) {
+  .menu-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .menu-shelf { height: 256px; }
+}
+
+/* Menu drawings stand on the shelf line: heights from design brief §6. */
+.menu-art { height: 120px; width: auto; }
+.menu-art-wide { height: 200px; width: auto; }
+@media (min-width: 768px) {
+  .menu-art { height: 160px; }
+  .menu-art-wide { height: 220px; }
+}
+@media (min-width: 1024px) {
+  .menu-art { height: 180px; }
+  .menu-art-wide { height: 240px; }
+}
+
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+/* Draft note above the hero: reads as a note, not as part of the KOPITRO banner. */
+.mockup-banner {
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+  padding: 8px 20px;
+  background: var(--color-malam);
+  color: var(--color-spanduk);
+  border-bottom: 1px solid var(--color-baja);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active { transform: none; }
+}

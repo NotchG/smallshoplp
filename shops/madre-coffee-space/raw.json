@@ -1,0 +1,378 @@
+{
+  "id": "ChIJiZ1MydrtaS4RGKqdS36wk2A",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "restaurant",
+    "point_of_interest",
+    "food",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0851-2110-2047",
+  "internationalPhoneNumber": "+62 851-2110-2047",
+  "formattedAddress": "Jl. Gongseng Raya No.1, RT.4/RW.11, Cijantung, JAKARTA, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+  "rating": 4.7,
+  "googleMapsUri": "https://maps.google.com/?cid=6959099905698540056&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 10:00 PM",
+      "Tuesday: 8:00 AM – 10:00 PM",
+      "Wednesday: 8:00 AM – 10:00 PM",
+      "Thursday: 8:00 AM – 10:00 PM",
+      "Friday: 8:00 AM – 11:00 PM",
+      "Saturday: 8:00 AM – 11:00 PM",
+      "Sunday: 8:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 519,
+  "displayName": {
+    "text": "Madre Coffee Space",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s0dGJtY3lWbXBFY1djeWFYZ3lUWGhuUVRsWWFtYxAB",
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 5,
+      "text": {
+        "text": "makanan beragam: indo & western. ada menu anak2, small bites. pastry, dessert, aneka coffee/tea/milk based drinks.\npesanan saya: ayam afrika with nasi kebuli (rempah berasa) & gyudon andaliman.\nhonorable mention to kak surya (barista) saya pesan black basil, di-adjust espresso-nya jadi 15ml (base recipe) + 5ml + 7ml (27ml in total). if you like strong coffee, pls kindly ask the barista to add more espresso to this menu. the base recipe has sweet main taste, too overpowers the coffee taste. with some adjustments, finally i can taste the opposite: main arabica with sweet fruity secondary taste (from the strawberry syrup & grape juice added) & it still has after-taste strong coffee flavor in my palate",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "makanan beragam: indo & western. ada menu anak2, small bites. pastry, dessert, aneka coffee/tea/milk based drinks.\npesanan saya: ayam afrika with nasi kebuli (rempah berasa) & gyudon andaliman.\nhonorable mention to kak surya (barista) saya pesan black basil, di-adjust espresso-nya jadi 15ml (base recipe) + 5ml + 7ml (27ml in total). if you like strong coffee, pls kindly ask the barista to add more espresso to this menu. the base recipe has sweet main taste, too overpowers the coffee taste. with some adjustments, finally i can taste the opposite: main arabica with sweet fruity secondary taste (from the strawberry syrup & grape juice added) & it still has after-taste strong coffee flavor in my palate",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Diahsanti L",
+        "uri": "https://www.google.com/maps/contrib/107461326354386277472/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXqBE6hc0jQMjBljCWwKwU2xJ6eGvt-w8Viu542pUlDjcZcxzM=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2026-01-06T08:33:38.595990520Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s0dGJtY3lWbXBFY1djeWFYZ3lUWGhuUVRsWWFtYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s0dGJtY3lWbXBFY1djeWFYZ3lUWGhuUVRsWWFtYxAB!2m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s5Q1kydGpiMlZyU0ZKc2RVOHpURXBHV1V4SVZrRRAB",
+      "relativePublishTimeDescription": "7 months ago",
+      "rating": 5,
+      "text": {
+        "text": "very good food, coffee, and service. my new fav place in Kalisari 👍🏼👍🏼👍🏼👍🏼",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "very good food, coffee, and service. my new fav place in Kalisari 👍🏼👍🏼👍🏼👍🏼",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Nabila Hidayah",
+        "uri": "https://www.google.com/maps/contrib/115430468617163830586/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU3Tpn66nZS3rFoiZKRndQDvsa82Pa4dw1Jr3ArveLHWYKO_qnS=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2026-03-23T16:25:54.568622298Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s5Q1kydGpiMlZyU0ZKc2RVOHpURXBHV1V4SVZrRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s5Q1kydGpiMlZyU0ZKc2RVOHpURXBHV1V4SVZrRRAB!2m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xreVJERXRWSFpMVURoUlpuRkVWVVpsVkUxalRuYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice place and good ambiance. Super kids friendly, love it. The playground and kids menu d’best :)",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place and good ambiance. Super kids friendly, love it. The playground and kids menu d’best :)",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Vichi Yunar",
+        "uri": "https://www.google.com/maps/contrib/107601951450258237092/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXZ8g2lJ_NwUEX3oKdwc3ShZakN3-MPmKeZ9DAj9Jv7oZ47kX4=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-07-15T23:36:10.940263281Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xreVJERXRWSFpMVURoUlpuRkVWVVpsVkUxalRuYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xreVJERXRWSFpMVURoUlpuRkVWVVpsVkUxalRuYxAB!2m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/reviews/Ci9DQUlRQUNvZENodHljRjlvT2poaFkwbE5SMWw2VHpkc1ExTk5jWGR6U0hCUFFWRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "The Food and drinks here perfect as always. Service? No doubt five stars. The vibe is homey but sometimes crowded and noisy since it's kids friendly place.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The Food and drinks here perfect as always. Service? No doubt five stars. The vibe is homey but sometimes crowded and noisy since it's kids friendly place.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Fatme Habsyi",
+        "uri": "https://www.google.com/maps/contrib/107287722443395607412/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWABO_Y0paSv5QRxm-sIQVqjmxCWNrRNR8dlGRZl_LVwo_-Hfhu=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-07-25T12:11:27.122056624Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2poaFkwbE5SMWw2VHpkc1ExTk5jWGR6U0hCUFFWRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2poaFkwbE5SMWw2VHpkc1ExTk5jWGR6U0hCUFFWRRAB!2m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/reviews/ChdDSUhNMG9nS0VJQ0FnSURYbXJlNzZ3RRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "We ordered several main course menu such as Beef Dabu-Dabu, Ayam Afrika, Cordon Bleu, etc.\n\nI love their Beef Dabu-Dabu that served with mashed potato, the smokiness of the beef is 10/10.\n\nBeen loving their Ayam Afrika since the first time I try it in 2022.\n\nTheir ambience is also 10/10 for hangingout or work from cafe.\n\n100% would love to comeback again.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "We ordered several main course menu such as Beef Dabu-Dabu, Ayam Afrika, Cordon Bleu, etc.\n\nI love their Beef Dabu-Dabu that served with mashed potato, the smokiness of the beef is 10/10.\n\nBeen loving their Ayam Afrika since the first time I try it in 2022.\n\nTheir ambience is also 10/10 for hangingout or work from cafe.\n\n100% would love to comeback again.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Raden Muhammad Alfian",
+        "uri": "https://www.google.com/maps/contrib/111568648372793382737/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXE0eNARxToJzXUXUbGMuX0drb5vRaemertMo6kiedft_Cx3k4=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2024-10-26T08:35:19.048744Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURYbXJlNzZ3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURYbXJlNzZ3RRAB!2m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMYIREwkhgAAdhFgAZINPWZVts3SpH3W6xhUI2oWQn7W_u4UehZ1sP7hFlulBZsz0cWHMJpMyTkVO5bdz3bXXpmViUOvJky7sRkiHiPtsrBB0Uk9uk7snKix3F_AECXN4Ft00LVl1ccMOH0aNPt72noMQgCt3czI3JY0ZKQuV18WigVul3DmaiLwrW1mvU0IjX7uQjr0Z1Cse6YOaB2tiOPHkni0avlZb0CX-al8j8c99W-P_IY_KECBuym8V8PRsljzzgNc2EzK1CBPnlG0uVfu7MvQTkShA67oAWk1rEHaO-GxCHRNjFuzYiUTgwNTwHH-r2zTh3CJXPHiodMC-skCFMYG6bksV-8kYvohuJ6TGasEgaOwBHi6VKuAL5e2t4e8dK_Y_7sAX50nNGkEG1y31Pzt8j4",
+      "widthPx": 4800,
+      "heightPx": 3202,
+      "authorAttributions": [
+        {
+          "displayName": "Madre Coffee Space",
+          "uri": "https://maps.google.com/maps/contrib/103116000032227280669",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKKCDuTQjjNoFKk3DwdLiWvW0MmD4idaavBEJZ9adqwOz7ktA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID7-OWakAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID7-OWakAE!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMZlkOONimTI2lUlYflRyAFXFQUxE2gsXnhk7SYg9FPd2jGg2KFNpYD_A9cyS_AEENpdL-7QQfjAvL0gmJS7L1tZbTZDh_Pec-GumagfR9XjfwKbHPkJBa0N0PzrFKtMj-b2gC2DuYFnnTXhhXs46gietBVr6W1l6u9TaWIzMY7CWccQdMtAD7CYssX-S2Ba-97qVeAuBWEqNH0wgR--0elcPj-raQ-4sfE_VKN6VmfW2djVYfpuI-apXmW_d45RDc43aNWjP-YFK-7_VjPafWo50DiXgNWWhxpDHrmPXOlp-If75ax1BfRku13avq4LXczKb0t_Bpkm9IJ9bf0p5pc0c8LBVaMoNMm4uv8f-9JXEH91Q76LtWpbTutHE-OjhwxJq3_NGNKZ8UOc2mCaZE8fP8w",
+      "widthPx": 2624,
+      "heightPx": 3936,
+      "authorAttributions": [
+        {
+          "displayName": "Madre Coffee Space",
+          "uri": "https://maps.google.com/maps/contrib/103116000032227280669",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKKCDuTQjjNoFKk3DwdLiWvW0MmD4idaavBEJZ9adqwOz7ktA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID7-OXgHQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID7-OXgHQ!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMb4bfqnpim1GBcP4no1aJ3E3LAiFP30oXW6apaQLAU2ajnWQyWFH7Ltk7CwSaDZnEVJMc-gOMaJj0zej9rrD3oLfn4sZQdYS7Zh1M_y-sGz02tweRlpNrTx0SNZNImHVzp-obh-qxZJYspNb1esl5edP0H2O568Zs7I7b9Nc46tMvVp5t0pvFoGZaCUC0V09SI9gFPAoshw9bkNoMieBTCRLSoSOMLwNcGmEzvNYLwEVQBDBwLjAW7LIcTYORiHTDviGe6yUwKeo1DRxhxbPsekmzNsfyPb9s5N5cgQ2B-SeT6GR6TY-Z9D6JBm-DUaFG9OWu5KEU8i9ekSH0XYTD9vNWcUCrRBhVWodo0UD7hePJqCcvBdlwIks7FcgSc8htwEWi9kZtFnAH6DPOXklvdmKedXj3Jj7rDzQj4u3jC_zw",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "Sulist Yanti",
+          "uri": "https://maps.google.com/maps/contrib/110975573531165933961",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVoNngPJF7Bqnt7mf8i2ljZE3pPex_EmabIoSS8eg6r-tJFKbRk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCSsC24Bu3weTLiS4wh87ut&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCSsC24Bu3weTLiS4wh87ut!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMbuO0-r3fdd9-2i7ajdU7mby_6nS4NpyvHSVZTIT6qej48YNXa1Qjzk9MxsORdUqhK5G-yhY3Apg6yXFJPaodioUXD0dHS2RKCXbPR4bTYpr3qlqbBIPeEXfVPYnZi2K2QfrxqA97x7bR8eC88N6WCUwlbwCE8H8Muyq7_jJNhC6V_ZYI7Qjut3uRJeR3QLrEqRSDq1ARhAmaV5N4jgiZYYf3l1Z785em2nBjM3oQA6GUcgR6e7XSE9vPoAkgYBTmgo14W46Ec2b5tI9pTaaUGKML87CvkIqf5ktiz8wfJgJisJfFyXy9MiWrifjZERrAEWYaHnknrhCd5kg99EEIykVikepHQJhcm_qtEXCGVjGlxA4Cfw4rNSWPE68-XEazkgG7Zc2IssCQfxRnEr4PU2QKNDW4xmjljYEV0TSHPVnA",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Rizky Hariyani",
+          "uri": "https://maps.google.com/maps/contrib/107613348365015309349",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWP6KPm7XDinJjOHLIcAoxfYZVZarul4E8e09uoXwk5axUQ2Ko=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBc4Vl-v0VrlWhOxReI0dO3&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBc4Vl-v0VrlWhOxReI0dO3!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMbJfYEn4zJKukRg07b9qP0AqC9WDQpgDnILK4_AOsPc5TTG5Kh1_dcVO7wZM2jqIJq-i1sQ6kBndYPE12IXMNSg5RmYYHzG-tvpC8Ih3yRK1i1lH-4AQk7-BVJ9ITOCfZhbFftG9PKTyxg5kFzj-24w_91CxNqTIU45zUBu1pUEbpTiJJwcU6gydXkv8nrpD-v31Dy5ddGcglqlIdfErIaI7NONVvh_Rk4bn7oRDr3XY_HvPg44ylWUbVLyzFptUU2buY1Z6U7fq67zqpdANxdVY_wLUxJQpM1Gg7qt7VDZ5VjuYbC4Nz04UExRvL_THVD7uOejEUa11iXS5fvJWgvVDqIjh1GLttmQ4rjJVy4NYKTbAgsZQzuhpAaJAFzW0XkGk5GwZjNyIMrF3VErA5ZhwTESzdAl_tumY2caUC9mcQ",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "Novi Indah",
+          "uri": "https://maps.google.com/maps/contrib/116377934670003982358",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXqF2epAAvIB8rpq5nATFAWOGVgny-cvJmyKO6WF1Lu-Lk2U93uxQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCp_grE7ItcFvqzYIMaNAOl&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCp_grE7ItcFvqzYIMaNAOl!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMZB4sqkJirFjDC3l6pEfDVsatln2_t75ab-VuCbFd3pFyLjKydC0MvajAwCkRd2__32WMm-JY63W7mBf4S2uCJzGrXtrdX6dvYaSv0tc7Ft4EJQqtWYgMvXADZCgTgXKRTTgJrovvmbK_o57_zm6X-nD2NSSjf8AG_-2RmVA1ExyQjrXaANI0_sJLczeSFUIjO7Fgyn0mwzLJzpDCiE84VxOIfhTlnFRrMr1UjW4RhYtp1NaJtNKsvMrk_clXbsFqgYomYjXLDpoZyvrcASygpeu1-43X0E_NAeym0ugULWfc5YdvUIhoVDaBJFxTnl7kX97yGkvgO480LHsDUdYJzJkXAE7D5ju76Zm4XsBssfDjTr5G4ZTlFVKDqN9EGIdmoGHpIB_B7wSyG3KVukN7QCA0k",
+      "widthPx": 3200,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Madre Coffee Space",
+          "uri": "https://maps.google.com/maps/contrib/103116000032227280669",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKKCDuTQjjNoFKk3DwdLiWvW0MmD4idaavBEJZ9adqwOz7ktA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID7-OW1QA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID7-OW1QA!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMbhSOzaCr1XTUpmqFJqr8KZdRtle_uHE0yhC3P2NYe4K_SnPXCI-G7mvYvkipeiA9NTj0tdgKh6b6ua4KAh2LxSnkTEJ4R5-9oi9r10s5f9YjyurABG3AxeO-24jKwfDOZj_twQzSUAUaQofs5BLs9_fiQdiVf0VS4ZXcF05Pf9cV2UKwIWWmOjROgC83KJGK33AliufpgZm3_SOSSxROetQ5trYcJXSTAyMYNgKZqBzdMSycEobNMZ8nMazSQ5WFjQ6MUWCzaRuylpZs5WQQRpMaqTO69MVqzt6QNrvU39qJT8WD_jlAA9dQbrfd8V4yhVSplJDgy7mc3pLKZh-7-WBwtGIpiQ6O0Cu-1aWQ99NFSNZXtgh3_UdyucGJwls9hh31z1KYtjxR3vVM6aTAIP2pdmCZI",
+      "widthPx": 3200,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Madre Coffee Space",
+          "uri": "https://maps.google.com/maps/contrib/103116000032227280669",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKKCDuTQjjNoFKk3DwdLiWvW0MmD4idaavBEJZ9adqwOz7ktA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID7-JXwkQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID7-JXwkQE!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMbyfh7aQfQUNZ9KNta3K8noDH70Kv0-48g3x8nbZXmcbxLMbSfwyxkEjiGvijULEOcwn02oLcmsIs1aHjTNm-yivzWZUA28rdwl_2dpqm4Hj464FNHROTbTvz26_ZZIU1NhBDEbPKZ-x92fAzRCposugnLjOFWocGmpVTevYbRGyr3FH5X3EUEZGfQeIPomA_-ms6sIWjkwTY0fe78x8n0Nas0dA5gUFkk9icdf-liW4rOj2CwbzuUuORaPjLeeFGtIp31yZ58-UKKkmGlOJo1t8-EynBiRSGKWyDP6xv9Lo_ePUId9MHUh-clboKuy8V-m7mavV2F0MjSksfLzxj1XU2RLnahw83VVlTRgVTWqYjz7Lcd7CnBjlSNcb5oiLDStM1VSEk-MPmOUmS4hxf9iva2O",
+      "widthPx": 2624,
+      "heightPx": 3936,
+      "authorAttributions": [
+        {
+          "displayName": "Madre Coffee Space",
+          "uri": "https://maps.google.com/maps/contrib/103116000032227280669",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKKCDuTQjjNoFKk3DwdLiWvW0MmD4idaavBEJZ9adqwOz7ktA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID7-OWEgwE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID7-OWEgwE!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMYZMA55uTrCiMSrK5PgSSL5W5Wp4s0RGt0ZROIBXctBBy7UUMyouuwPD8rOCDbutbTXrta5RIbYQegE2wqx9-iVN3O6MLyMhz5TQcN8dtODr5yWqpLp9uv8yQR_7AevVubNSvwEM1F1R2Tzazxfp8AIWyriw_D0d3k0qzPVj5I9N3t0Bmi46MFZq6yy2VGoQE6bPYlvBE_J_GnVZhCDkT_x3qon4ZYYnkX2OkAh6k6ZeuZTzoILPxEg5yH7YbMVZ5mYqbVDPMu4t3Kri-svNaJhMeph2Ri49EktgfhtvPO15u9WJzHT2vVqpEEMFDuhBYmz0SDf9x_qOdfFZX3hZrPGUAObsvwWzB1GP8G-euv7lJ4bEkLBrglPdTQePgSrhnzy5-jwL5V1LBAl6FICmydsWZQqe8U",
+      "widthPx": 4800,
+      "heightPx": 3202,
+      "authorAttributions": [
+        {
+          "displayName": "Madre Coffee Space",
+          "uri": "https://maps.google.com/maps/contrib/103116000032227280669",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKKCDuTQjjNoFKk3DwdLiWvW0MmD4idaavBEJZ9adqwOz7ktA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID7-OWHpgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID7-OWHpgE!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    },
+    {
+      "name": "places/ChIJiZ1MydrtaS4RGKqdS36wk2A/photos/Aa-ngMbksuC9W4CV5uzSsnQxOiuh8trQYTrvKykrjiWk9bPWdFTrWeLyj4I1ORKwSAzsmzozleOJf70oGTw8RKfO6AACaceFrVqsAVG-8Usm8njzXNgHBnN7wmD6NpmFJsDd0hIrgebUPB-o2Ht6uCTw6xx_vq9YcjRwbw7id7Vr4H8OiZyOF13OefkBTuCyeWNssjEDvlHU6o-vmOPUlqeGdubft4ZDXjszt47WnQArT3TN-JkjoEMPvu6vg8KytP9FPvhH9fYW5QvLfc0FG0Td0Y--6_rvNRZuQV_R6FLDnNl-cNoEJmGwJ-MzwE3V9pE1DCHayCREfAn3onxm6bGQC02zxBS8JoM7mcUpAePN7Pyq4FfsAOo8Wdk7ioteOl0jGLDGaCnY3Ye5d2Z1v9LZZflUSWg",
+      "widthPx": 3200,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Madre Coffee Space",
+          "uri": "https://maps.google.com/maps/contrib/103116000032227280669",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKKCDuTQjjNoFKk3DwdLiWvW0MmD4idaavBEJZ9adqwOz7ktA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID7-OWuLA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID7-OWuLA!2e10!4m2!3m1!1s0x2e69eddac94c9d89:0x6093b07e4b9daa18"
+    }
+  ]
+}

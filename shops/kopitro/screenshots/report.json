@@ -1,0 +1,389 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 5827,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KOPITRO\"",
+        "fontSize": 104.7,
+        "lineHeight": "94.23px",
+        "textWidth": 296,
+        "pctOfContentWidth": 85
+      },
+      {
+        "el": "p \"MANUAL BREW\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 289,
+        "pctOfContentWidth": 83
+      },
+      {
+        "el": "span \"Buka sekarang · sampai 02.00\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 287,
+        "pctOfContentWidth": 82
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 40,
+        "lineHeight": "42px",
+        "textWidth": 209,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"V60\"",
+        "fontSize": 22.1,
+        "lineHeight": "24.3375px",
+        "textWidth": 29,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"VIETNAM DRIP\"",
+        "fontSize": 22.1,
+        "lineHeight": "24.3375px",
+        "textWidth": 102,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"ES KOPI SUSU KOPITRO\"",
+        "fontSize": 22.1,
+        "lineHeight": "24.3375px",
+        "textWidth": 96,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"ROTI BAKAR\"",
+        "fontSize": 22.1,
+        "lineHeight": "24.3375px",
+        "textWidth": 85,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"KENTANG GORENG\"",
+        "fontSize": 22.1,
+        "lineHeight": "24.3375px",
+        "textWidth": 131,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#brew-title \"CARA KAMI MENYEDUH\"",
+        "fontSize": 40,
+        "lineHeight": "42px",
+        "textWidth": 301,
+        "pctOfContentWidth": 86
+      },
+      {
+        "el": "h3 \"METODE\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 60,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"CONTOH BIJI MALAM INI\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 176,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h2#night-title \"MALAM DI KOPITRO\"",
+        "fontSize": 40,
+        "lineHeight": "42px",
+        "textWidth": 250,
+        "pctOfContentWidth": 71
+      },
+      {
+        "el": "h2#praise-title \"KATA MEREKA\"",
+        "fontSize": 40,
+        "lineHeight": "42px",
+        "textWidth": 182,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h2#visit-title \"KUNJUNGI KAMI\"",
+        "fontSize": 40,
+        "lineHeight": "42px",
+        "textWidth": 205,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 72,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#contact-title \"HUBUNGI KAMI\"",
+        "fontSize": 40,
+        "lineHeight": "42px",
+        "textWidth": 195,
+        "pctOfContentWidth": 56
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6411,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KOPITRO\"",
+        "fontSize": 169,
+        "lineHeight": "152.064px",
+        "textWidth": 477,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "p \"MANUAL BREW\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 395,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "span \"Buka sekarang · sampai 02.00\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 324,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 53.2,
+        "lineHeight": "55.9104px",
+        "textWidth": 278,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"V60\"",
+        "fontSize": 25,
+        "lineHeight": "27.456px",
+        "textWidth": 32,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"VIETNAM DRIP\"",
+        "fontSize": 25,
+        "lineHeight": "27.456px",
+        "textWidth": 115,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"ES KOPI SUSU KOPITRO\"",
+        "fontSize": 25,
+        "lineHeight": "27.456px",
+        "textWidth": 182,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"ROTI BAKAR\"",
+        "fontSize": 25,
+        "lineHeight": "27.456px",
+        "textWidth": 96,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"KENTANG GORENG\"",
+        "fontSize": 25,
+        "lineHeight": "27.456px",
+        "textWidth": 148,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#brew-title \"CARA KAMI MENYEDUH\"",
+        "fontSize": 53.2,
+        "lineHeight": "55.9104px",
+        "textWidth": 401,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"METODE\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 60,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"CONTOH BIJI MALAM INI\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 176,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#night-title \"MALAM DI KOPITRO\"",
+        "fontSize": 53.2,
+        "lineHeight": "55.9104px",
+        "textWidth": 333,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#praise-title \"KATA MEREKA\"",
+        "fontSize": 53.2,
+        "lineHeight": "55.9104px",
+        "textWidth": 243,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#visit-title \"KUNJUNGI KAMI\"",
+        "fontSize": 53.2,
+        "lineHeight": "55.9104px",
+        "textWidth": 272,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 72,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#contact-title \"HUBUNGI KAMI\"",
+        "fontSize": 53.2,
+        "lineHeight": "55.9104px",
+        "textWidth": 260,
+        "pctOfContentWidth": 38
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4604,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KOPITRO\"",
+        "fontSize": 244,
+        "lineHeight": "219.6px",
+        "textWidth": 689,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "p \"MANUAL BREW\"",
+        "fontSize": 30,
+        "lineHeight": "39px",
+        "textWidth": 475,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "span \"Buka sekarang · sampai 02.00\"",
+        "fontSize": 30,
+        "lineHeight": "39px",
+        "textWidth": 389,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 76,
+        "lineHeight": "79.8px",
+        "textWidth": 397,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"V60\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 39,
+        "pctOfContentWidth": 3
+      },
+      {
+        "el": "h3 \"VIETNAM DRIP\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 139,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"ES KOPI SUSU KOPITRO\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 130,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"ROTI BAKAR\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 116,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"KENTANG GORENG\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 177,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#brew-title \"CARA KAMI MENYEDUH\"",
+        "fontSize": 76,
+        "lineHeight": "79.8px",
+        "textWidth": 282,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"METODE\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 60,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"CONTOH BIJI MALAM INI\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 176,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#night-title \"MALAM DI KOPITRO\"",
+        "fontSize": 76,
+        "lineHeight": "79.8px",
+        "textWidth": 475,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#praise-title \"KATA MEREKA\"",
+        "fontSize": 76,
+        "lineHeight": "79.8px",
+        "textWidth": 347,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#visit-title \"KUNJUNGI KAMI\"",
+        "fontSize": 76,
+        "lineHeight": "79.8px",
+        "textWidth": 389,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 72,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#contact-title \"HUBUNGI KAMI\"",
+        "fontSize": 76,
+        "lineHeight": "79.8px",
+        "textWidth": 371,
+        "pctOfContentWidth": 31
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  }
+}

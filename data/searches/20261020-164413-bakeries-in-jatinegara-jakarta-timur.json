@@ -1,0 +1,702 @@
+{
+  "query": "bakeries in Jatinegara, Jakarta Timur",
+  "includedType": "bakery",
+  "fetched_at": "2026-10-20T16:44:18Z",
+  "count": 40,
+  "places": [
+    {
+      "id": "ChIJN3EQvnDzaS4RvScc6otGhJ8",
+      "formattedAddress": "Jl. Pedati Raya No.23, RT.13/RW.4, Cipinang Cempedak, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=11494389715698460605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.surelysomedaykitchen.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 522,
+      "displayName": {
+        "text": "Surely Someday Kitchen",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Pastry Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "pastry_shop"
+    },
+    {
+      "id": "ChIJp-ajTZLzaS4RX8KKH2LbXxo",
+      "formattedAddress": "Jl. Mutumanikam No.9, RT.7/RW.11, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=1900478782256104031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 19,
+      "displayName": {
+        "text": "Milli Bakehouse",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJPUXxwn_zaS4RB6ByB6L8sRA",
+      "formattedAddress": "Jl. Jatinegara Timur No.109, RT.1/RW.2, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=1203020348324487175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hollandbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2446,
+      "displayName": {
+        "text": "Holland Bakery Jatinegara",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJzVI9PybzaS4RACy00-zx1wQ",
+      "formattedAddress": "Cipinang Elok II Blok AL/4 RT. 015/010, RT.15/RW.10, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=349013495610878976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 64,
+      "displayName": {
+        "text": "Aneka Kue dan Pastry Jakarta Timur",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJewy4YX7zaS4R_dKUxy3dfZA",
+      "formattedAddress": "Jl. Jatinegara Timur II No.29 12, RT.12/RW.2, Rw. Bunga, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13350, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=10411721102242140925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 73,
+      "displayName": {
+        "text": "Rosa Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ72VXD3HzaS4RhKDSano04Ts",
+      "formattedAddress": "Jl. Cipinang jaya raya, RT. 04/RW.07, jatimegara, RT.4/RW.7, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=4314787618380488836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 218,
+      "displayName": {
+        "text": "Global Bakery Cipinang Besar",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJYUtmGs3zaS4R0SlhEFeCKa8",
+      "formattedAddress": "Jl. Jatinegara Timur IV No.91G 10, RT.10/RW.2, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 4.2,
+      "googleMapsUri": "https://maps.google.com/?cid=12621762741131094481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.mbrownex.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 19,
+      "displayName": {
+        "text": "Mbrownex Bakery Jatinegara",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ3602UwDzaS4RL9KnvbgRDMg",
+      "formattedAddress": "QV9C+728, Jl. Otista 3, RT.2/RW.1, Cipinang Cempedak, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=14414915992459661871&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 66,
+      "displayName": {
+        "text": "Toko Roti Ratu Otista",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJqQY2s4nzaS4ReVOHw2luj50",
+      "formattedAddress": "Jl. Cipinang Muara Raya No.6 6, RT.12/RW.3, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=11353414586155357049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 612,
+      "displayName": {
+        "text": "Global Bakery Cipinang Muara",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ-51PQV7zaS4RH9VbbyQPiVI",
+      "formattedAddress": "Jl. Tebet Timur Dalam I No.34, RT.8/RW.4, Tebet Tim., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12820, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=5947301432080979231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/littlehousebakedgoods?igshid=cevexuxasqky",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 389,
+      "displayName": {
+        "text": "Little House Baked Goods - Tebet",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJbQOYNQD1aS4Rr02JTGw23B0",
+      "formattedAddress": "Jl. I Gusti Ngurah Rai No.21, RT.1/RW.15, Klender, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13470, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=2151654560744689071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1071,
+      "displayName": {
+        "text": "GULA JAWA BAKERY",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJdTOcWmjzaS4RzdlubaWs7S4",
+      "formattedAddress": "Jl. Cipinang Muara I No. 20, RT 12 / RW 03 Cipinang Muara, Jatinegara, RT.16/RW.3, Pd. Bambu, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13430, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=3381548721730673101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 942,
+      "displayName": {
+        "text": "Sedap Wangi Bakery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJDb2p5EPzaS4RhT_DbAiB9j8",
+      "formattedAddress": "Jl. Prumpung Tengah No.6A, RT.14/RW.10, Cipinang Besar Utara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=4609013141844737925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 9,
+      "displayName": {
+        "text": "Waroeng Bakery & Cake",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJred_MSrzaS4R9Ni7IHH3hOI",
+      "formattedAddress": "Jl. Tanjung Lengkong No.44, RT.2/RW.7, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=16322443014750066932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 21,
+      "displayName": {
+        "text": "INTAN Cake-Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJ80nIv6mLaS4RdK3jsoby08k",
+      "formattedAddress": "Perumahan Jatinegara Indah Blok CA 1, Jl. Gn. Lawu No.12, RT.7/RW.9, Jatinegara, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13930, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=14543234282050268532&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 17,
+      "displayName": {
+        "text": "Citra Pastry and Catering (@revedepastries)",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Food",
+        "languageCode": "en-US"
+      },
+      "primaryType": "food"
+    },
+    {
+      "id": "ChIJL5JG9n_zaS4RDACuJ5Vq_9s",
+      "formattedAddress": "Jl. Cipinang Jaya Raya No.Raya, RT.5/RW.7, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=15852506402215821324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://khasanahsari.co.id/cabang/cipinang/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 248,
+      "displayName": {
+        "text": "Khasanah Sari Bakery Cipinang",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJzUwCAHDzaS4Rmu8LyCYPWDU",
+      "formattedAddress": "Jl. Cipinang Jaya I No.8, RT.8/RW.7, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=3843838941200117658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.majestykbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1535,
+      "displayName": {
+        "text": "Majestyk Bakery & Cake Shop Cipinang",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJK3xb0mDzaS4RyQOmsFcW-_M",
+      "formattedAddress": "8, Jl. Cipinang Jaya Raya No.74 8, RT.8/RW.7, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=17580670136252498889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 935,
+      "displayName": {
+        "text": "Mardin Baklava Patisserie",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Buffet Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "buffet_restaurant"
+    },
+    {
+      "id": "ChIJJ47HXgD1aS4Rxw_ikcP76gA",
+      "formattedAddress": "Jl. Matraman Raya No.173a, RT.7/RW.6, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 3.7,
+      "googleMapsUri": "https://maps.google.com/?cid=66141961934999495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 30,
+      "displayName": {
+        "text": "MAKO BAKERY & CAKE Jatinegara City Plaza",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJb85rIoDzaS4Rke4N7f4IY1k",
+      "formattedAddress": "Gang Obat, Rt/14 Rw/25, RT.10/RW.5, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=6441001783061769873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/roti_jadoel_jatinegara/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 473,
+      "displayName": {
+        "text": "Toko Roti Gelora Jatinegara",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJeYSmKCnzaS4R8qvGy4zUvBA",
+      "formattedAddress": "Jl. Cipinang Besar No.19, RT.008/RW.6, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=1206072501407755250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 7,
+      "displayName": {
+        "text": "Glassco Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJ59qfekrzaS4RFb4z0DtzzAI",
+      "formattedAddress": "Jl. Cakra Wijaya XI blok B31, RT.14/RW.2, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=201662784058146325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 7,
+      "displayName": {
+        "text": "Alica Bakes Sourdough",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJA2I2PbD0aS4RKXQyq9kEOEY",
+      "formattedAddress": "Jl. Jatinegara Kaum Gg. Pangeran Surya II No.16 3, RT.Surya 2/RW.3, Jatinegara Kaum, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13250, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=5059799514277377065&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 14,
+      "displayName": {
+        "text": "Viazza Cookies",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Pastry Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "pastry_shop"
+    },
+    {
+      "id": "ChIJkWJep370aS4RSeAIdHc3gjM",
+      "formattedAddress": "Jl. Matraman Raya No.135, RW.9, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=3711590029094084681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/shintanabakery/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 452,
+      "displayName": {
+        "text": "Shintana Bakery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJG22zaF7zaS4RLUKl7t1fgRc",
+      "formattedAddress": "Jl. Love Bird 1 No.41, RT.3/RW.8, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=1693740341664236077&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 59,
+      "displayName": {
+        "text": "Bunda Meity Cake",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJM0ByN1X1aS4RiAgjQAgRuaM",
+      "formattedAddress": "Batu, Jl. Pisangan Baru No.02, RT.8/RW.9, Pisangan Baru, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13110, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=11797479426007173256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 216,
+      "displayName": {
+        "text": "Laris Manis Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ0YEvFADzaS4RfpYsec17W7M",
+      "formattedAddress": "Jl Cipinang muara 3 RT 007/08, no.10, RT.7/RW.8, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=12924059678101247614&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 12,
+      "displayName": {
+        "text": "Baker Old Cipinang",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJyb3xm7vzaS4RYGCxzb_IfMg",
+      "formattedAddress": "Jl. Panca Warga 4 No.11C 2, RT.2/RW.4, Ke, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=14446642430812971104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/merry_dlicious?igshid=YmMyMTA2M2Y=",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 16,
+      "displayName": {
+        "text": "Merry D'Licious",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJiSWQcQD1aS4RjRrA3TBTXyE",
+      "formattedAddress": "Jl. Bekasi Barat IV No.7, RT.13/RW.2, Rw. Bunga, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13350, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=2404732195383024269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 7,
+      "displayName": {
+        "text": "Rica Rico Bakery Stasiun Jatinegara",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJH7JERHfzaS4RuOlr4-xoX7E",
+      "formattedAddress": "Jl. Pedati Raya No.50, RT.4/RW.10, Kp. Melayu, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=12781049634137827768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.jeamandakue.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 329,
+      "displayName": {
+        "text": "JeAmanda Kue Spesial",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJMZb7tCDzaS4R5Ase87h_1pA",
+      "formattedAddress": "QVHP+572, Jl. Cipinang Jaya Raya, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=10436669618807245796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hollandbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 114,
+      "displayName": {
+        "text": "Holland Bakery Cipinang Jaya",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJscAy7sb1aS4RYOqnLI6kf8E",
+      "formattedAddress": "Jl. Matraman Raya No.7, RT.7/RW.6, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 4,
+      "googleMapsUri": "https://maps.google.com/?cid=13943043901903858272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 170,
+      "displayName": {
+        "text": "JCO DONUTS & COFFEE - CITY PLAZA JATINEGARA",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ28nlkGzzaS4RFck0BDxt418",
+      "formattedAddress": "Jl. Jatinegara Timur No.57, RT.6/RW.6, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=6909486357852506389&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Bakery 57",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJCf-9J4jzaS4RD7aMDPTnQH4",
+      "formattedAddress": "QVGH+95F, RT.8/RW.10, South Cipinang Besar, Jatinegara, East Jakarta City, Jakarta 13410, Indonesia",
+      "rating": 4.1,
+      "googleMapsUri": "https://maps.google.com/?cid=9097526282656986639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 57,
+      "displayName": {
+        "text": "Mako Cake & Bakery Bassura Mall",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ6SGU7pXzaS4R_q4w-zh_ag0",
+      "formattedAddress": "Gg. HM. Ali No.35A, RT.2/RW.4, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=966724952733560574&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 17,
+      "displayName": {
+        "text": "Kunami Patisserie",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJ62BYLmWLaS4R6rXV-ChzXLU",
+      "formattedAddress": "Jl. Dr. KRT Radjiman Widyodiningrat No.24, RT.8/RW.10, Jatinegara, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13930, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=13068446838532978154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 103,
+      "displayName": {
+        "text": "GLOBAL BAKERY PASAR PULOJAHE",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ38iISG_zaS4RETp1qt06O1I",
+      "formattedAddress": "Ruko Bona Gabe, Jl. Jatinegara Timur No.101 Blok A5, RT.9/RW.2, Kp. Melayu, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=5925394458458012177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.babebakery.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Babe Bakery Jatinegara",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJCUQWP-HzaS4RS6cHeBPPraE",
+      "formattedAddress": "JTOWN, Jl. Jatinegara Timur No.60, RT.11/RW.3, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=11650195493602436939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://stores.fore.coffee/fore-coffee-jtown-jatinegara-coffee-shop-kecamatan-jatinegara-jakarta-timur-562003/Home?utm_source=locator&utm_medium=googleplaces",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 216,
+      "displayName": {
+        "text": "Fore Coffee - JTOWN Jatinegara",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJyTSluPf1aS4RDq9nWizik-0",
+      "formattedAddress": "Jl. Balai Pustaka Timur No.178, RT.4/RW.11, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=17119275288688570126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.dcikabakery.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 857,
+      "displayName": {
+        "text": "Dcika Cakes & Bakery Rawamangun",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJ-Ut2DKP1aS4RG3I1WH1pCII",
+      "formattedAddress": "Jl. Bekasi Barat IV No.7, RT.13/RW.2, Rw. Bunga, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13350, Indonesia",
+      "rating": 3.3,
+      "googleMapsUri": "https://maps.google.com/?cid=9369855011816043035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 46,
+      "displayName": {
+        "text": "Roti'O Stasiun Jatinegara",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    }
+  ]
+}

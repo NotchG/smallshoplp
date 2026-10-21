@@ -1,0 +1,389 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6785,
+    "sizes": [
+      {
+        "el": "h1 \"Sajenak\"",
+        "fontSize": 64.7,
+        "lineHeight": "58.212px",
+        "textWidth": 218,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"Es Kopi Sajenak\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 177,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3 \"Es Kopi Sepintas\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 184,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Es Kopi Rumit\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 156,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Creamy Butterscotch Latte\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 205,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"Kopi lainnya\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 120,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 89,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Makanan\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 90,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#tempat-title \"Pilih tempatmu\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 213,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"Pojok rotan\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 114,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Ruang baca\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 117,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Rooftop\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 77,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 177,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 193,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 95,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 189,
+        "pctOfContentWidth": 54
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 11
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7370,
+    "sizes": [
+      {
+        "el": "h1 \"Sajenak\"",
+        "fontSize": 99.5,
+        "lineHeight": "89.5104px",
+        "textWidth": 335,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 265,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Es Kopi Sajenak\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 198,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Es Kopi Sepintas\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 206,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Es Kopi Rumit\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 175,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Creamy Butterscotch Latte\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 140,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Kopi lainnya\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 134,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 100,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Makanan\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 101,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#tempat-title \"Pilih tempatmu\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 281,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Pojok rotan\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 127,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Ruang baca\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 130,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Rooftop\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 86,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 234,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 255,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 24.6,
+        "lineHeight": "29.4912px",
+        "textWidth": 106,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 42.3,
+        "lineHeight": "46.5344px",
+        "textWidth": 250,
+        "pctOfContentWidth": 36
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 11
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5431,
+    "sizes": [
+      {
+        "el": "h1 \"Sajenak\"",
+        "fontSize": 136,
+        "lineHeight": "122.4px",
+        "textWidth": 459,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 351,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Es Kopi Sajenak\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 225,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Es Kopi Sepintas\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 235,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Es Kopi Rumit\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 199,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Creamy Butterscotch Latte\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 261,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Kopi lainnya\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 152,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 114,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Makanan\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 115,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#tempat-title \"Pilih tempatmu\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 255,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Pojok rotan\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 144,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Ruang baca\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 148,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Rooftop\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 98,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 309,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 338,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 121,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 331,
+        "pctOfContentWidth": 28
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 11
+  }
+}

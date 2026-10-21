@@ -1,0 +1,305 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6283,
+    "sizes": [
+      {
+        "el": "h1 \"Nari Coffee\"",
+        "fontSize": 48.1,
+        "lineHeight": "50.463px",
+        "textWidth": 273,
+        "pctOfContentWidth": 78
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 229,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h3 \"MINUMAN\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 71,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"JUGA ADA\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 73,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"MAKANAN\"",
+        "fontSize": 13,
+        "lineHeight": "16.9px",
+        "textWidth": 74,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#mie-title \"Mie Blenger\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 188,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h3 \"Mie Blenger Original\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 131,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Mie Blenger Kari\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 131,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Mie Blenger Rendang\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 131,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#place-title \"Tempatnya\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 179,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 203,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 237,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 228,
+        "pctOfContentWidth": 65
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 25
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6246,
+    "sizes": [
+      {
+        "el": "h1 \"Nari Coffee\"",
+        "fontSize": 76,
+        "lineHeight": "79.8336px",
+        "textWidth": 432,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 290,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"MINUMAN\"",
+        "fontSize": 13.2,
+        "lineHeight": "17.2224px",
+        "textWidth": 73,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"JUGA ADA\"",
+        "fontSize": 13.2,
+        "lineHeight": "17.2224px",
+        "textWidth": 75,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"MAKANAN\"",
+        "fontSize": 13.2,
+        "lineHeight": "17.2224px",
+        "textWidth": 76,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#mie-title \"Mie Blenger\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 239,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Mie Blenger Original\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 147,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Mie Blenger Kari\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 147,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Mie Blenger Rendang\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 147,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#place-title \"Tempatnya\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 228,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 258,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 301,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 290,
+        "pctOfContentWidth": 42
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 25
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5276,
+    "sizes": [
+      {
+        "el": "h1 \"Nari Coffee\"",
+        "fontSize": 120,
+        "lineHeight": "126px",
+        "textWidth": 682,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 369,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"MINUMAN\"",
+        "fontSize": 13.9,
+        "lineHeight": "18.096px",
+        "textWidth": 77,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"JUGA ADA\"",
+        "fontSize": 13.9,
+        "lineHeight": "18.096px",
+        "textWidth": 79,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"MAKANAN\"",
+        "fontSize": 13.9,
+        "lineHeight": "18.096px",
+        "textWidth": 79,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#mie-title \"Mie Blenger\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 304,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Mie Blenger Original\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 165,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Mie Blenger Kari\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 165,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Mie Blenger Rendang\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 165,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#place-title \"Tempatnya\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 290,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 328,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 383,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 369,
+        "pctOfContentWidth": 31
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 25
+  }
+}

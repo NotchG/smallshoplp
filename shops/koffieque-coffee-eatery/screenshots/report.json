@@ -1,0 +1,326 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6363,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KoffieQue COFFEE & EATERY\"",
+        "fontSize": 56,
+        "lineHeight": "53.2px",
+        "textWidth": 306,
+        "pctOfContentWidth": 85
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.838px",
+        "textWidth": 213,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3#menu-kopi \"Kopi Rp 22rb–32rb\"",
+        "fontSize": 22.4,
+        "lineHeight": "28px",
+        "textWidth": 173,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3#menu-non-kopi \"Non-kopi\"",
+        "fontSize": 22.4,
+        "lineHeight": "28px",
+        "textWidth": 98,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3#menu-western \"Western\"",
+        "fontSize": 22.4,
+        "lineHeight": "28px",
+        "textWidth": 87,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3#menu-pastry \"Pastry Rp 18rb\"",
+        "fontSize": 22.4,
+        "lineHeight": "28px",
+        "textWidth": 137,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3#menu-indonesia \"Indonesia\"",
+        "fontSize": 22.4,
+        "lineHeight": "28px",
+        "textWidth": 99,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#ruang-title \"Ruang & fasilitas\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.838px",
+        "textWidth": 251,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h3 \"Di dalam\"",
+        "fontSize": 22.4,
+        "lineHeight": "28px",
+        "textWidth": 91,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Di luar, di bawah kanopi\"",
+        "fontSize": 22.4,
+        "lineHeight": "28px",
+        "textWidth": 247,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h3 \"Ruang meeting\"",
+        "fontSize": 22.4,
+        "lineHeight": "28px",
+        "textWidth": 156,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.838px",
+        "textWidth": 188,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.838px",
+        "textWidth": 210,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.838px",
+        "textWidth": 206,
+        "pctOfContentWidth": 58
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5515,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KoffieQue COFFEE & EATERY\"",
+        "fontSize": 78.1,
+        "lineHeight": "74.176px",
+        "textWidth": 652,
+        "pctOfContentWidth": 91
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9856px",
+        "textWidth": 267,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3#menu-kopi \"Kopi Rp 22rb–32rb\"",
+        "fontSize": 24.2,
+        "lineHeight": "30.28px",
+        "textWidth": 179,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3#menu-non-kopi \"Non-kopi\"",
+        "fontSize": 24.2,
+        "lineHeight": "30.28px",
+        "textWidth": 106,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3#menu-western \"Western\"",
+        "fontSize": 24.2,
+        "lineHeight": "30.28px",
+        "textWidth": 94,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3#menu-pastry \"Pastry Rp 18rb\"",
+        "fontSize": 24.2,
+        "lineHeight": "30.28px",
+        "textWidth": 143,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3#menu-indonesia \"Indonesia\"",
+        "fontSize": 24.2,
+        "lineHeight": "30.28px",
+        "textWidth": 107,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#ruang-title \"Ruang & fasilitas\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9856px",
+        "textWidth": 315,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Di dalam\"",
+        "fontSize": 24.2,
+        "lineHeight": "30.28px",
+        "textWidth": 99,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Di luar, di bawah kanopi\"",
+        "fontSize": 24.2,
+        "lineHeight": "30.28px",
+        "textWidth": 267,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Ruang meeting\"",
+        "fontSize": 24.2,
+        "lineHeight": "30.28px",
+        "textWidth": 169,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9856px",
+        "textWidth": 236,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9856px",
+        "textWidth": 263,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9856px",
+        "textWidth": 258,
+        "pctOfContentWidth": 36
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4410,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KoffieQue COFFEE & EATERY\"",
+        "fontSize": 96,
+        "lineHeight": "91.2px",
+        "textWidth": 705,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 340,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3#menu-kopi \"Kopi Rp 22rb–32rb\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 185,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3#menu-non-kopi \"Non-kopi\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 114,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3#menu-western \"Western\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 101,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3#menu-pastry \"Pastry Rp 18rb\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 150,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3#menu-indonesia \"Indonesia\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 115,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#ruang-title \"Ruang & fasilitas\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 401,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Di dalam\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 106,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Di luar, di bawah kanopi\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 287,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Ruang meeting\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 181,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 300,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 335,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 329,
+        "pctOfContentWidth": 27
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  }
+}

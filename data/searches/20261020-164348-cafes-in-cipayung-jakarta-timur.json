@@ -1,0 +1,703 @@
+{
+  "query": "cafes in Cipayung, Jakarta Timur",
+  "includedType": "cafe",
+  "fetched_at": "2026-10-20T16:43:53Z",
+  "count": 40,
+  "places": [
+    {
+      "id": "ChIJv2D_bQDtaS4RV2W9gtis28s",
+      "formattedAddress": "Jl. Mpok Nori No.10 Blok F, RT.6/RW.3, Bambu Apus, Cipayung, East Jakarta City, Jakarta 13890, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=14689524655505368407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 3033,
+      "displayName": {
+        "text": "OSMO Coffee & Eatery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJx4foMFftaS4RyygGrLdFeLs",
+      "formattedAddress": "Ruko Puri Cipayung, Jl. Setu Cipayung No.09, RT.9/RW.4, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=13508623737465219275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/kataloji.co?igsh=ZDQ1ZGhuZHIzZ3Jl",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 229,
+      "displayName": {
+        "text": "Kataloji Coffee and Eatery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJl7Wz6uftaS4RGdRouMpRuu8",
+      "formattedAddress": "Jl. Manunggal XVII No.2, RT.4/RW.11, Lubang Buaya, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=17274209251852080153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 289,
+      "displayName": {
+        "text": "Pintu Dua Coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJaWviRjbtaS4RXOo-Adhv-5g",
+      "formattedAddress": "Jl. Raya Cilangkap, RT.4/RW.2, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=11023527486443940444&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/LaceCafe",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1172,
+      "displayName": {
+        "text": "LACE Coffee & Eatery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJuRlubQDtaS4ReLcowvJWJfQ",
+      "formattedAddress": "Jl. Bina Marga No.8, RT.10/RW.6, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=17592563120032233336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 493,
+      "displayName": {
+        "text": "Sudut Timur Cipayung",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJvVXVwQ2TaS4RK-Aew-8siyE",
+      "formattedAddress": "Jl. Mandor Munding, RT.4/RW.1, Setu, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13880, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=2417075033296789547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.bagikopi.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 697,
+      "displayName": {
+        "text": "Bagi Kopi Setu Cipayung",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJccS-d8ztaS4RWMLoI4K4eAk",
+      "formattedAddress": "Jl. Raya Mabes Hankam No.36, RT.2/RW.3, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13890, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=682498212634346072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 875,
+      "displayName": {
+        "text": "SEATAP Tea and Sky",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJdebWVCTtaS4RN6BQVFpiK7s",
+      "formattedAddress": "Jl. Raya Mabes Hankam, RT.4/RW.2, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13890, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=13486981649192230967&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 859,
+      "displayName": {
+        "text": "First Crack Coffee - The Amboja",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ4dRhKOvtaS4RzNAkgLp3eMw",
+      "formattedAddress": "Jl. Raya Mabes Hankam No.66, RT.1/RW.3, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13890, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=14733657823840096460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/bukahalamanbaru",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1613,
+      "displayName": {
+        "text": "Halaman Baru",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "restaurant"
+    },
+    {
+      "id": "ChIJB4HHgfLtaS4R-6mJHX2h1Qw",
+      "formattedAddress": "Jl. Cipayung Raya No.11, RT.16/RW.2, Cipayung, Kec. Cipayung, Kota Jakarta, RT.16/RW.1, Cipayung, Timur, Jakarta, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=924822857233050107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 3053,
+      "displayName": {
+        "text": "WARJON - Cipayung",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJX1wUyTvtaS4RRlhdmYyUpss",
+      "formattedAddress": "Jl. Mpok Nori No.4, RT.1/RW.3, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13890, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=14674579767422703686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/rumocafeandresto?utm_source=linktree_profile_share&ltsid=a98becc3-b810-418b-85d3-d79e577d7d80",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 202,
+      "displayName": {
+        "text": "Rumo Cafe & Resto",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJpyCghJHtaS4RHaGn52W8jI0",
+      "formattedAddress": "Jl. Komp. Bina Marga No.87, RT.6/RW.2, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=10199734401951572253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 52,
+      "displayName": {
+        "text": "Mlajo Space",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJC4qkWErtaS4Rj51wbRFasBU",
+      "formattedAddress": "Jl. Cipayung Raya No.6 Blok B, RT.5/RW.1, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=1562848101594602895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/cozey.time?igsh=MTluNmluMDJuamo0cw==",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 69,
+      "displayName": {
+        "text": "COZEY Coffee & Eatery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ7TmuV9-TaS4R0BEkJjjZXBQ",
+      "formattedAddress": "MWG8+CGM, Jl. Golf Cilangkap, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=1467286413797233104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 154,
+      "displayName": {
+        "text": "Sip & Swing Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJkaZqJO6TaS4RGa943dc7-zE",
+      "formattedAddress": "Jl. Pd. Rangon No.11, RT.3/RW.2, Pd. Ranggon, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13860, Indonesia",
+      "rating": 4.2,
+      "googleMapsUri": "https://maps.google.com/?cid=3601538125332524825&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 618,
+      "displayName": {
+        "text": "Rene Cafe",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJX9Q8fkDtaS4Rd0jejuahz3w",
+      "formattedAddress": "Jl. Bina Marga No.44, RT.2/RW.4, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=8993584992493652087&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2885,
+      "displayName": {
+        "text": "Kupinami Cafè & Resto",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Noodle Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "noodle_shop"
+    },
+    {
+      "id": "ChIJF9qG5IiTaS4RmhzytSaNmAo",
+      "formattedAddress": "Jl. Mandor Munding No.4l, RT.5/RW.1, Setu, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13880, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=763515334240115866&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 206,
+      "displayName": {
+        "text": "WoodenKlub - Coffee & Culture",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJXRdtnN3taS4RkaWbG7iOouY",
+      "formattedAddress": "Jl. Mandor Hasan No.79, RT.7/RW.6, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=16619002496338863505&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 178,
+      "displayName": {
+        "text": "Milimanis By Mil&Bay",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJxTQfVbPtaS4R-S36fWUTRs0",
+      "formattedAddress": "Kawa coffee jakarta, Jl. Raya Mabes Hankam No.3, RT.3/RW.2, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13890, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=14791531352771145209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 256,
+      "displayName": {
+        "text": "Kawa Coffee Jakarta",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJp6bDKQDtaS4R1NRqUcqu3G8",
+      "formattedAddress": "Jl. Pinang No.64, RT.3/RW.4, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=8060509617058927828&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 23,
+      "displayName": {
+        "text": "Dal’s Coffee & Eatery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJEz0MF1LtaS4RgEZE69P_T6Y",
+      "formattedAddress": "10, Gg. Swadaya I No.61, RT.10/RW.3, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=11984078419106481792&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/journocoffee/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 116,
+      "displayName": {
+        "text": "Journo Coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJRbqmMQDtaS4RtUofvyJtuCQ",
+      "formattedAddress": "MVHQ+XWV, RT.7/RW.5, Ceger, Cipayung, East Jakarta City, Jakarta 13840, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=2645984777082981045&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 112,
+      "displayName": {
+        "text": "Teras Jahe - Cipayung",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJe7bT1ZXzaS4RNOi1ZDlbvg8",
+      "formattedAddress": "Jl. Kramat III No.33 5, RT.5/RW.10, Lubang Buaya, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=1134444458204850228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 150,
+      "displayName": {
+        "text": "Pulang Ke Rumah Coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJtSE930DtaS4RgkaX9pGatQc",
+      "formattedAddress": "Jl. Monumen Pancasila Sakti No.9 6, RT.6/RW.8, Lubang Buaya, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=555520080748168834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://orycacoffee.website2.me/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 330,
+      "displayName": {
+        "text": "Oryca Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ66EYOwDtaS4RBZfzk6uM01w",
+      "formattedAddress": "RT.16/RW.1, Cipayung, East Jakarta City, Jakarta 13840, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=6688844540124829445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 28,
+      "displayName": {
+        "text": "Pikul Roastery & Coffee Bar",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJsw1LZyjpaS4R0b0wY_U-Ypo",
+      "formattedAddress": "Jalan Cipayung Raya No.7B, RT.5/RW.1, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=11124523253210594769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/cherskitchen17?igsh=MXNtYXNzbWpkYnYwMA==",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 34,
+      "displayName": {
+        "text": "Chers Cafe",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJYy8PuuDtaS4ReoM7z4O_eHw",
+      "formattedAddress": "Jl. Cilangkap Baru No.1 Blok B, RT.3/RW.1, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=8969129230746747770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://easturn-coffee.my.canva.site/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 85,
+      "displayName": {
+        "text": "Easturn Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJWfiAL5XtaS4RgSv_ejoJVAE",
+      "formattedAddress": "Jl. Cipayung Raya No.7 B, RT.5/RW.1, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=95711638857919361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 56,
+      "displayName": {
+        "text": "Nekopi Cafe & Eatery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJXwhj_RztaS4RIqHDxO2vD0c",
+      "formattedAddress": "Ruko The pavillion, Jl. Raya Cilangkap No.46, RT.8/RW.2, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=5120504737086808354&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/artikulacoffee?igsh=MXJnYnpqMTN0NGxxYg%3D%3D&utm_source=qr",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 228,
+      "displayName": {
+        "text": "Artikula Coffee & Eatery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJOXhoNDLtaS4RgMjgIhyAV2A",
+      "formattedAddress": "Jl. Raya Cilangkap No.55, RT.7/RW.4, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=6942158208947505280&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 41,
+      "displayName": {
+        "text": "Natsu Cipayung",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJw2tsx2ftaS4RcR0eeL7LSoM",
+      "formattedAddress": "Jl. Bambu Kuning No.9, RT.13/RW.2, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13890, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=9460597986164612465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 44,
+      "displayName": {
+        "text": "Oryca Coffee - Bambu Kuning",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJM5CmyLeTaS4Rj7YdbvQ3qj8",
+      "formattedAddress": "Jl. Mpok Nori No.03, RT.3/RW.3, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13890, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=4587540693389260431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 74,
+      "displayName": {
+        "text": "Teras Berkawan Bambu Apus",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJeb-5MwDtaS4Rq4-NhE3BwaA",
+      "formattedAddress": "Jalan Cipayung Barat No.68, RT.6/RW.1, Cipayung, East Jakarta City, Jakarta 13840, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=11583752255254138795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 17,
+      "displayName": {
+        "text": "Z Coffee Cipayung",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ-8tis2btaS4RGQfHkVppsMI",
+      "formattedAddress": "Jl. Cipayung Raya No.62, RT.2/RW.2, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=14028828676972807961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://instagram.com/coffeepinarak",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 26,
+      "displayName": {
+        "text": "Pinarak Coffee - Cabang Cipayung",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJF2oEmyDtaS4RkJUlHx2RmWA",
+      "formattedAddress": "Ruko Cipayung, Jl. Bina Marga No.6, RT.6/RW.2, Cipayung, Kec. Cipayung, Jakarta, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=6960754253340448144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.kopikenangan.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 381,
+      "displayName": {
+        "text": "Kopi Kenangan - Ruko Cipayung",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJIRNVoxztaS4RIggBVujnM34",
+      "formattedAddress": "Jl. Cipayung Raya No.68, RT.6/RW.1, Cipayung, Jakarta, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=9093867057652500514&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/kopilar.jakarta",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 22,
+      "displayName": {
+        "text": "Kopilar Jakarta",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ91o5dQDtaS4RvpsgcJeJWXo",
+      "formattedAddress": "Tomoro, Jalan Cipayung Raya No.11, RT.4/RW.1, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=8816229029068708798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 143,
+      "displayName": {
+        "text": "TOMORO COFFEE - Cipayung",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJoWgyL03taS4RmaW6NQkOKjs",
+      "formattedAddress": "Jl. Raya Cilangkap No.46-28, RT.2/RW.5, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=4263235429978514841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 191,
+      "displayName": {
+        "text": "Kopi Calf To Go Cipayung",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ9c_L8uyTaS4RmpEJCc6iuDE",
+      "formattedAddress": "Jl. Pd. Ranggon No.11, RT.7/RW.1, Pd. Ranggon, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=3582792509371814298&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/kopiuyo",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 225,
+      "displayName": {
+        "text": "Kopi UYO/UYO Backyard",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ0xG6e4PzaS4R2lIJ4FN88OI",
+      "formattedAddress": "Jl. Ambalat, RT.1/RW.8, Lubang Buaya, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=16352706946665108186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 72,
+      "displayName": {
+        "text": "kedai ceritekopi",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    }
+  ]
+}

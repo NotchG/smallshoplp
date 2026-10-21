@@ -1,0 +1,242 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6805,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Rumah Roti Ciracas\"",
+        "fontSize": 52.2,
+        "lineHeight": "54.852px",
+        "textWidth": 260,
+        "pctOfContentWidth": 74
+      },
+      {
+        "el": "h2#etalase-title \"Etalase kami\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 190,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h3 \"Roti Garlic Cheese\"",
+        "fontSize": 17.1,
+        "lineHeight": "22.23px",
+        "textWidth": 139,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Roti Pizza\"",
+        "fontSize": 17.1,
+        "lineHeight": "22.23px",
+        "textWidth": 75,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Muffin & Roti Tawar\"",
+        "fontSize": 17.1,
+        "lineHeight": "22.23px",
+        "textWidth": 152,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#buaya-title \"Roti buaya untuk hari bahagia\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 254,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h2#kue-title \"Kue ulang tahun\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 242,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 189,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 213,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 207,
+        "pctOfContentWidth": 59
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 15
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7428,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Rumah Roti Ciracas\"",
+        "fontSize": 73.4,
+        "lineHeight": "77.0784px",
+        "textWidth": 608,
+        "pctOfContentWidth": 88
+      },
+      {
+        "el": "h2#etalase-title \"Etalase kami\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 236,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Roti Garlic Cheese\"",
+        "fontSize": 17.9,
+        "lineHeight": "23.2128px",
+        "textWidth": 145,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Roti Pizza\"",
+        "fontSize": 17.9,
+        "lineHeight": "23.2128px",
+        "textWidth": 78,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Muffin & Roti Tawar\"",
+        "fontSize": 17.9,
+        "lineHeight": "23.2128px",
+        "textWidth": 106,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#buaya-title \"Roti buaya untuk hari bahagia\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 554,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h2#kue-title \"Kue ulang tahun\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 301,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 234,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 265,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 257,
+        "pctOfContentWidth": 37
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 15
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5160,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Rumah Roti Ciracas\"",
+        "fontSize": 104,
+        "lineHeight": "109.2px",
+        "textWidth": 862,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "h2#etalase-title \"Etalase kami\"",
+        "fontSize": 54,
+        "lineHeight": "59.4px",
+        "textWidth": 300,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Roti Garlic Cheese\"",
+        "fontSize": 19,
+        "lineHeight": "24.7px",
+        "textWidth": 155,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Roti Pizza\"",
+        "fontSize": 19,
+        "lineHeight": "24.7px",
+        "textWidth": 83,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Muffin & Roti Tawar\"",
+        "fontSize": 19,
+        "lineHeight": "24.7px",
+        "textWidth": 169,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#buaya-title \"Roti buaya untuk hari bahagia\"",
+        "fontSize": 54,
+        "lineHeight": "59.4px",
+        "textWidth": 401,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#kue-title \"Kue ulang tahun\"",
+        "fontSize": 54,
+        "lineHeight": "59.4px",
+        "textWidth": 383,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 54,
+        "lineHeight": "59.4px",
+        "textWidth": 298,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 54,
+        "lineHeight": "59.4px",
+        "textWidth": 337,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 54,
+        "lineHeight": "59.4px",
+        "textWidth": 326,
+        "pctOfContentWidth": 27
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 15
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7922,
+    "sizes": [
+      {
+        "el": "h1#judul \"P8 Cafe\"",
+        "fontSize": 65.7,
+        "lineHeight": "62.453px",
+        "textWidth": 230,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h2#kopi-kue-judul \"Kopi + kue, gratis\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 288,
+        "pctOfContentWidth": 82
+      },
+      {
+        "el": "h2#menu-judul \"Menu andalan\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 223,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "h3 \"Es Kopi Bola Es · Rp 35rb\"",
+        "fontSize": 21.1,
+        "lineHeight": "24.2995px",
+        "textWidth": 219,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Red velvet cupcake · Rp 25rb\"",
+        "fontSize": 21.1,
+        "lineHeight": "24.2995px",
+        "textWidth": 258,
+        "pctOfContentWidth": 74
+      },
+      {
+        "el": "h3 \"Minuman\"",
+        "fontSize": 21.1,
+        "lineHeight": "24.2995px",
+        "textWidth": 86,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Dari etalase\"",
+        "fontSize": 21.1,
+        "lineHeight": "24.2995px",
+        "textWidth": 116,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Brunch\"",
+        "fontSize": 21.1,
+        "lineHeight": "24.2995px",
+        "textWidth": 69,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Nasi\"",
+        "fontSize": 21.1,
+        "lineHeight": "24.2995px",
+        "textWidth": 42,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#ruang-judul \"Kerja & ngumpul\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 265,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "h3 \"Jauh dari bising jalan\"",
+        "fontSize": 21.1,
+        "lineHeight": "26.4125px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"Musik pelan, ngobrol nyaman\"",
+        "fontSize": 21.1,
+        "lineHeight": "26.4125px",
+        "textWidth": 277,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h3 \"Banyak ruang, sampai lantai atas\"",
+        "fontSize": 21.1,
+        "lineHeight": "26.4125px",
+        "textWidth": 175,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h2#acara-judul \"Ruang acara\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 202,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#bawa-judul \"Bawa pulang\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"P8 Butter Cookies · Rp 40rb per toples\"",
+        "fontSize": 21.1,
+        "lineHeight": "24.2995px",
+        "textWidth": 331,
+        "pctOfContentWidth": 95
+      },
+      {
+        "el": "h3 \"Hampers Lebaran · musiman, harga menyusu\"",
+        "fontSize": 21.1,
+        "lineHeight": "24.2995px",
+        "textWidth": 199,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#ulasan-judul \"Kata mereka\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 212,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"Seperti di rumah sendiri.\"",
+        "fontSize": 21.1,
+        "lineHeight": "26.4125px",
+        "textWidth": 233,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h3 \"Tenang, enak buat kerja.\"",
+        "fontSize": 21.1,
+        "lineHeight": "26.4125px",
+        "textWidth": 230,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"Kue gratisnya enak.\"",
+        "fontSize": 21.1,
+        "lineHeight": "26.4125px",
+        "textWidth": 184,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Pelayanannya sopan dan hangat.\"",
+        "fontSize": 21.1,
+        "lineHeight": "26.4125px",
+        "textWidth": 313,
+        "pctOfContentWidth": 89
+      },
+      {
+        "el": "h2#lokasi-judul \"Kunjungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 226,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h2#hubungi-judul \"Hubungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 218,
+        "pctOfContentWidth": 62
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 35
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 8082,
+    "sizes": [
+      {
+        "el": "h1#judul \"P8 Cafe\"",
+        "fontSize": 90.7,
+        "lineHeight": "86.1536px",
+        "textWidth": 317,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#kopi-kue-judul \"Kopi + kue, gratis\"",
+        "fontSize": 44,
+        "lineHeight": "47.5546px",
+        "textWidth": 352,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#menu-judul \"Menu andalan\"",
+        "fontSize": 44,
+        "lineHeight": "47.5546px",
+        "textWidth": 272,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Es Kopi Bola Es · Rp 35rb\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3424px",
+        "textWidth": 241,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Red velvet cupcake · Rp 25rb\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3424px",
+        "textWidth": 208,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Minuman\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3424px",
+        "textWidth": 97,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Dari etalase\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3424px",
+        "textWidth": 131,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Brunch\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3424px",
+        "textWidth": 78,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Nasi\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3424px",
+        "textWidth": 48,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#ruang-judul \"Kerja & ngumpul\"",
+        "fontSize": 44,
+        "lineHeight": "47.5546px",
+        "textWidth": 324,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Jauh dari bising jalan\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.72px",
+        "textWidth": 119,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Musik pelan, ngobrol nyaman\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.72px",
+        "textWidth": 174,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Banyak ruang, sampai lantai atas\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.72px",
+        "textWidth": 196,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#acara-judul \"Ruang acara\"",
+        "fontSize": 44,
+        "lineHeight": "47.5546px",
+        "textWidth": 247,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#bawa-judul \"Bawa pulang\"",
+        "fontSize": 44,
+        "lineHeight": "47.5546px",
+        "textWidth": 252,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"P8 Butter Cookies · Rp 40rb per toples\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3424px",
+        "textWidth": 361,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Hampers Lebaran · musiman, harga menyusu\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3424px",
+        "textWidth": 410,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h2#ulasan-judul \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "47.5546px",
+        "textWidth": 259,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Seperti di rumah sendiri.\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.72px",
+        "textWidth": 262,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Tenang, enak buat kerja.\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.72px",
+        "textWidth": 258,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Kue gratisnya enak.\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.72px",
+        "textWidth": 207,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Pelayanannya sopan dan hangat.\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.72px",
+        "textWidth": 198,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#lokasi-judul \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "47.5546px",
+        "textWidth": 276,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#hubungi-judul \"Hubungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "47.5546px",
+        "textWidth": 267,
+        "pctOfContentWidth": 39
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 35
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 6176,
+    "sizes": [
+      {
+        "el": "h1#judul \"P8 Cafe\"",
+        "fontSize": 135,
+        "lineHeight": "128.288px",
+        "textWidth": 472,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#kopi-kue-judul \"Kopi + kue, gratis\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 480,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#menu-judul \"Menu andalan\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 371,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Es Kopi Bola Es · Rp 35rb\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 276,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Red velvet cupcake · Rp 25rb\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 245,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Minuman\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 114,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Dari etalase\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 154,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Brunch\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 92,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Nasi\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 56,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h2#ruang-judul \"Kerja & ngumpul\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 441,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Jauh dari bising jalan\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 264,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Musik pelan, ngobrol nyaman\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 368,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Banyak ruang, sampai lantai atas\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 231,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#acara-judul \"Ruang acara\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 337,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#bawa-judul \"Bawa pulang\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 343,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"P8 Butter Cookies · Rp 40rb per toples\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 409,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Hampers Lebaran · musiman, harga menyusu\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 460,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#ulasan-judul \"Kata mereka\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 353,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Seperti di rumah sendiri.\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 308,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Tenang, enak buat kerja.\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 304,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Kue gratisnya enak.\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 244,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Pelayanannya sopan dan hangat.\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 234,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#lokasi-judul \"Kunjungi kami\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 376,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#hubungi-judul \"Hubungi kami\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 364,
+        "pctOfContentWidth": 30
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 35
+  }
+}

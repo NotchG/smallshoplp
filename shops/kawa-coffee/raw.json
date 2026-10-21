@@ -1,0 +1,377 @@
+{
+  "id": "ChIJxTQfVbPtaS4R-S36fWUTRs0",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0878-8824-2274",
+  "internationalPhoneNumber": "+62 878-8824-2274",
+  "formattedAddress": "Kawa coffee jakarta, Jl. Raya Mabes Hankam No.3, RT.3/RW.2, Bambu Apus, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13890, Indonesia",
+  "rating": 4.8,
+  "googleMapsUri": "https://maps.google.com/?cid=14791531352771145209&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 10:00 PM",
+      "Tuesday: 8:00 AM – 10:00 PM",
+      "Wednesday: 8:00 AM – 10:00 PM",
+      "Thursday: 8:00 AM – 10:00 PM",
+      "Friday: 8:00 AM – 10:00 PM",
+      "Saturday: 8:00 AM – 11:00 PM",
+      "Sunday: 8:00 AM – 11:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 256,
+  "displayName": {
+    "text": "Kawa Coffee Jakarta",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pSdFkyUTVVRGwwVFU1MmVsQkJYM1JsZVd3MFRHYxAB",
+      "relativePublishTimeDescription": "a month ago",
+      "rating": 4,
+      "text": {
+        "text": "Decent coffee shop at Cipayung area, quite cozy to to have wfc and the coffee it self is worth for money.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Decent coffee shop at Cipayung area, quite cozy to to have wfc and the coffee it self is worth for money.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "alaida febriarthani",
+        "uri": "https://www.google.com/maps/contrib/107642346559845052252/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW3iiVjQE9VGJnv7LFg9jLS2R2ZpKbTmx3VII-RGW6nXsTGANao=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2026-09-06T05:27:49.723570567Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pSdFkyUTVVRGwwVFU1MmVsQkJYM1JsZVd3MFRHYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pSdFkyUTVVRGwwVFU1MmVsQkJYM1JsZVd3MFRHYxAB!2m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2todk9WQTJWRFZYUTNCalJqaHpWR05LZVhWMVkxRRAB",
+      "relativePublishTimeDescription": "2 months ago",
+      "rating": 5,
+      "text": {
+        "text": "best montblanc i've ever had ❤️ had a longgg trip and i'm very tired, but it's all gone when i had a good coffee, usually i don't like montblanc but it's very good and refreshing, it makes my day and i can go on again, thankyou!!!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "best montblanc i've ever had ❤️ had a longgg trip and i'm very tired, but it's all gone when i had a good coffee, usually i don't like montblanc but it's very good and refreshing, it makes my day and i can go on again, thankyou!!!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "lui",
+        "uri": "https://www.google.com/maps/contrib/115114817213706330388/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXp9WGdFmhg9GXfx8KarZ3HuIbp2e_pnK43W8RnLv9h98WvsVA=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-08-08T09:35:58.659432635Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2todk9WQTJWRFZYUTNCalJqaHpWR05LZVhWMVkxRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2todk9WQTJWRFZYUTNCalJqaHpWR05LZVhWMVkxRRAB!2m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/reviews/ChZDSUhNMG9nS0VJQ0FnSUR6ejltSVFREAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Loving the ambience so much! Not too pricey, and the parking lot is spacious. Would definitely be back here again for wfc 🙆🏻‍♀️",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Loving the ambience so much! Not too pricey, and the parking lot is spacious. Would definitely be back here again for wfc 🙆🏻‍♀️",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Kameramenk",
+        "uri": "https://www.google.com/maps/contrib/100815735086639565265/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXBzSn5o5bnQ_BGITSLrWlGY5tPV8RXuWfHr6GXzWYlXdmrSn0=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2024-06-13T12:04:03.848923Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUR6ejltSVFREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUR6ejltSVFREAE!2m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2sxRk9UWnRhR1F4VW5Kbk1IUlRRVVZJTkd0TWIzYxAB",
+      "relativePublishTimeDescription": "2 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Cozy and relax for hang out and chat. Espresso on the rock and fried rice are must try",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Cozy and relax for hang out and chat. Espresso on the rock and fried rice are must try",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ardy Revelation",
+        "uri": "https://www.google.com/maps/contrib/111556110576390395925/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUF_SKVu1RzTL4oLGX2D7K2qfWpaTvbOfKYKpj4YkJExGmvSB8=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2026-08-02T02:14:15.679560946Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2sxRk9UWnRhR1F4VW5Kbk1IUlRRVVZJTkd0TWIzYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2sxRk9UWnRhR1F4VW5Kbk1IUlRRVVZJTkd0TWIzYxAB!2m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/reviews/ChZDSUhNMG9nS0VJQ0FnSUNsbDhLeUV3EAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "I like to go to this place, to work from cafe, fast wifi, but unfortunately this place open abit late everyday, and even later on Wednesday.\nthis place is cash only they seem have no edc machine, and everytime I ask if I can use card they always say \"sorry no\" but you can still scan the QRis payment.\nCoffee is good\nFoods are comforting (such as chicken katsu with fries, mie goreng, donat kampung, dimsum) they are all also cheap here. and price is tax and sc included.\nunfortunately they took out my favorite drink (ice coffee pandan) but their ice coffee signature is still there and taste good too.\nthere is 2nd floor upstairs if you want to stay at indoor smooking room with AC. there is also muathai class next to this coffee shop (in the same area but in the back) overall I will still go here again when am around :)",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I like to go to this place, to work from cafe, fast wifi, but unfortunately this place open abit late everyday, and even later on Wednesday.\nthis place is cash only they seem have no edc machine, and everytime I ask if I can use card they always say \"sorry no\" but you can still scan the QRis payment.\nCoffee is good\nFoods are comforting (such as chicken katsu with fries, mie goreng, donat kampung, dimsum) they are all also cheap here. and price is tax and sc included.\nunfortunately they took out my favorite drink (ice coffee pandan) but their ice coffee signature is still there and taste good too.\nthere is 2nd floor upstairs if you want to stay at indoor smooking room with AC. there is also muathai class next to this coffee shop (in the same area but in the back) overall I will still go here again when am around :)",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Maya Kirana",
+        "uri": "https://www.google.com/maps/contrib/117003637050245085653/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXcTOronku_m3GXwbI_R3rNPb7TGHdpL0n4ICAWxL3F5f3Fz9c=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2023-11-28T16:26:56.017052Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNsbDhLeUV3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNsbDhLeUV3EAE!2m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMa2HmYvZAIBivgUdbucARAQ3mnHYn4RBY88VK1i4NvTp8DUQ2dqeqey_jlpTEaMTgnaAt6HHqLrruBXl5VcOuFYwMmv7NAE4CQiceg41VHgfmtjX9SBnwh65bJrxU5wg-30-2mLXU9i0XpR1NCAk-99XFBW2S6w3pUMtYHrS1ZO_n7QVNWnPMgUYcR9UHhBUKMpwyzVMlRzxXEOuzB_HjlnanUBrpS3hICBTuFbcRo9ZtUpXWRfAkhukeU2J--llB2yiYfeXZlTDxefgF3k-wcHMF6xCG6k6vazVKVi2rndRADuMJpUlLh2ka6oLrah5bAQ9W5KMRm9WFXUEy4Y9P1irMy42e9W2qan4OXT9Q9_ApWhBGeoJOQdfkAca6QI_LFUdx2aWcF9efcUx7s7zGxLlFA",
+      "widthPx": 4000,
+      "heightPx": 2250,
+      "authorAttributions": [
+        {
+          "displayName": "YAKUZA MRX",
+          "uri": "https://maps.google.com/maps/contrib/100842528017374782984",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX77tK4tkQOnCJdCXVE86McwBz9eSzAD8dOOJhr6xvN0snB0EsK=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID60qL-GA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID60qL-GA!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMYU2u3WvlNWlwuvbq2qrUMn58wgrcaBfS9wauIyQXhQUU-q3MGeurp5N4qMs50hX6cilUAOHfyUA7JCDaCf9UCXLe08W2D7fKNuJFKnqEgzR4VyWsZEMNGzsxzBthwLnZPyae23O-4UWop1RoYpBJfQMD-PRpJ-wUEnm6pEty7eIGolhqjZrzKTwAQ5xHzq2thFN26OV07ojuljVfce0RARzJYZNefbEM9LpbrXf8dl57haXgKP4x0e6qC68HLSJ2ktTnLqn6O7_FcKfwvr88DvlklHKKrZ3xVhgoxLQw3FkAnQAdm_fbMBVYgTFu-8rjbVPZ-umldVGC_gGwcpR1A3iEk9R9XeLVtVYvM2QEsxn4wc7nitFEbmh9hmnTFHYJ9jxCwKplT_NRWxVXewdKownXU",
+      "widthPx": 3024,
+      "heightPx": 1702,
+      "authorAttributions": [
+        {
+          "displayName": "Kawa Coffee Jakarta",
+          "uri": "https://maps.google.com/maps/contrib/116523092362861645747",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU1aWch1n0EP6xR1SBXMHSGdTMW95nVShA4Vv5yxxoKxXfUqkI=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDqvfvHKg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDqvfvHKg!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMZb2N0EeS-N_wzyoP4UsNtGq_5lKvDbE5YfrIER9a5LiIpiWA_JrHlVLcy9_jQtsxx2_p-TThx3_Etme1d7NO2SVXbzS25Yo8fv1T3AIGHIHQJ88yh73UUmq5d7DcmlEpM_hk8cYm2jDxEWPgdEP6A9K1em3L2Atd6XRbxdzMSdC6Somv7zZ9mio051Do0U441Cp1suAwywi8vsL33qipNTM0mIm6ZdsVmtt6R_ps9jcrCH__N9hYtBnBc7Sx4rNRmMzYEV4LvF3UD50mkBhq-PuVd9z9ENniFFt8dQYAiYKAEUoXELUpo2YqfRz1_uF1opC4hY32gdV8Xk9nrqTTOGRSXTXHW1U-AxU33Z9K85HhqEOItn4HwYA3AFcxYnxpM5eX56ozokfhlb8I63Z7bQUI4f7BGfPs5tIkzxNHgsrw",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "niswah zakiyatun ni'mah",
+          "uri": "https://maps.google.com/maps/contrib/109347426355485273744",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXbYTE-FjWEIGBXoSivKQQmFmJDuE5BlkePZdHzBKKYydJ1pkDR=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAiqTiDMTePmBWu86xxRWXI&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAiqTiDMTePmBWu86xxRWXI!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMadFS6daQZgOmfkyk4n922BVCQzzk7Iu1UewAC8RdSZJ4ibuAJBQy_nONpaPQmMOvKFABGT-6CyC2qBhDarovmocLatPrmTOQY3trx7eGjuWnk141O2kng6KjTCmGx0B-R5WZl1a52k3eOJlx4rA_gDLHaf6g1P9X2fi7eLnn0Wv5mnjf8Xi0XejzI_y0RsfDBSJZui7anrPnOgSdNWTH_zmAd-Is_LT8b8I9Uy8d88JEvYNiQlfqpDjmNEQ8h2oUCuPzECfa7ihdC_iBeJ77wXH2wTumuJI8ZPzxqVxXWXRSU3QeX70cbcokaK3AE7dwes2fQCV3f2mFYyeOIbmw75sLY8fyr9f-Fe38AGEl-v9dZJjicUSt8NKszLVvjZMga2_kWB3YYgqOqRbvN-V-CgEi7psAmLNOZxsg8c9iH1Iw",
+      "widthPx": 1080,
+      "heightPx": 1440,
+      "authorAttributions": [
+        {
+          "displayName": "rina rina",
+          "uri": "https://maps.google.com/maps/contrib/114209814232044884306",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVd9ilML_SUjBKMLItMqLJwySnVmC7K-KlWBVoABngYy78XOzw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDkV_qnEN3gqZ-89D4Tz04G&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDkV_qnEN3gqZ-89D4Tz04G!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMaHw8ugm1TP4dm0xEeBTnimfuSo5verjHtWLzTIyIesLb45aQ2GChB9Yei7uY_KB-Rl9YU53sHqfYw8ImV53mP1Y-QM8lVU7HhMbKziIy4q9HZRz-9vj_97LEQzg_O3D2LyrBNjrkufVD7nBdv8MC92i1InGjBun7IVGuwC4XSWzC8MW651s6xbuGee_MIPnfvtBOTAnq-bh3I_ah8U39bLyLlaYQ1ZjBH4cbpYLBve5ts4VMnggIOfCwkaJGAP6Zz52EIFYE7neteFwNBd8Jv2S4g0FNAV6alY_0gsvJYgskZotvfQkmUW8T5jSC4vDuxZdebFWmQvehakt466dphrmR9aJeBqfCt_S09Wv3WsnwCPDG9p6cE_o5_9xmVkg6ZQgG5Da1Q8NtIis87LDivmnnu79yyjRG2MvEmTXnDqEQ",
+      "widthPx": 4800,
+      "heightPx": 3600,
+      "authorAttributions": [
+        {
+          "displayName": "Rudi Wijaya",
+          "uri": "https://maps.google.com/maps/contrib/113774046346888067716",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXPdR9hGe_7FpCVS5_sgnYb0mwFmF9uF-RfESdhrp9XSVtswPkK_w=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCPOvkygP2uq2ieti0230Y1&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCPOvkygP2uq2ieti0230Y1!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMZOlcSJj0G20nOjMNZ2J2VxuAI3Z9p_xxv16Y5L9EQRs_SgCbcwPxDNcEXFdcby54HYF13hBGGcKOXbvpLKR7WwFaj6JmMEKTX8PsmwDB3Tf-9tgb84yzNK_EISf3_bHLKEtzujNkIBTR5SLxf6YgQzATNb3KhF8l6_5LAdNBWUznXuJLJqYKca7OgshyVUssyHPXzgTHcgBF5rgeaeTMmpcy401c0xPZzwFkZ9-8LBtQh6WpMj0OcTjsJOqHxARi_9mlvmCB1TJn20WGmibfBuSi5Tsa1v4ZzcV7NTPbSCf73PGXGNi3iJRcHvW_hcV-2umFXwVQlReESUVmgBvbSpDBLpvhKYJ6J1an7Cev2HdSddZCc6vBax4ObggpY11T8NCQiEuRatCgNHpyLJgOa9uEE9wQzv_bEQhHsKornlbw",
+      "widthPx": 2700,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Lara",
+          "uri": "https://maps.google.com/maps/contrib/102448371311883455988",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXeY7MkoKf8JvP4SZCiaen_ZjM64kHGwMp6QtcBrVdSWOCgqh4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBDxr12ek1-cAYAEWJYg9jB&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBDxr12ek1-cAYAEWJYg9jB!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMY0IY5gWd5f-_sOK2Sa0Hd1NOXwdF77pPJGHEfEEo8MCFHR1C-VNTwJIBpG5pELCVcAfIZ2UxUc4UzSgoVz0wuu2l1ALjPhjEUaOTB6vP4d45vEPavSmVRMcmcHQ_tfZ2fuD312CrPOuxF51_8VlZ1BYJxVeGabkTdiIigbAHpD7otA09LlOyVQuQuTVE37bWdXoO_9oZvQ47bkKYyThc7gsZ705KfaR4Cmr-hqNtAUDiCXqLKVbo5HRHID_B10P-o5FDAXFdOFPiSF2Y5Xkb1C1q5BihPTAfiXSuqIhNoa3PTEwTpCA0p3JA5IPs1ZS1-CQ-dfy-6LA6B-zzUecvNL9R9QWfS4SfA7A2Jm5VHfj0GN62znXIro-c0ih6meEbeksa6bzDWsbhjuw1-UXVBLp-c",
+      "widthPx": 3264,
+      "heightPx": 1836,
+      "authorAttributions": [
+        {
+          "displayName": "timbre aloviation",
+          "uri": "https://maps.google.com/maps/contrib/114847758894732689671",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWUinwCOLvGpgTq9m2dzmOxC1hWO37YsSLHaWeNOsZgJ5u1aK2Hxw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDbqLjMcA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDbqLjMcA!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMau1ysxiELeEIon1HhNTsA_fuN6C9WnvhfEbCfhS5Ad9UDPAD87fimOUHpuhAOPIC3En9S3cyHgFYPjbxZYDZUjnhmpszzKCtpSqk7n9OZnaF6J3B4XSOvT4xVkNV0AO0FF0T28h8vfCZG6FsWe5fNlEn-eKS7Dl8PXBiHUxfVSL-FFDcfiaC0Ded1VZSQViL_b_e5SCfC_WA4HHVHSHpu9R-MChQn99t9gYBbP0AzwkvlUfujwHZTzZzXQ1yH-vfKQuH2jenoIndUVV2qn9sTM1oRYzH0y57u2TqGRHTyftqwEQYafvc5DomGNIk8Kr3ZeJwxSAxv8Lt4SfzDhhcLdb4HtwSB7N8xsQaTh8iZiaWV_gERi1oWB5ovi3MV3IRy2H1KEJLXcdc5OzvWTA9qPTHa_84e9qTUtTHadbmyX7w",
+      "widthPx": 3468,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "Dery Saefudin",
+          "uri": "https://maps.google.com/maps/contrib/118243742803344521125",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVkkZ8_aMi_yDsVXVIlApg4qrDe4V0q3Ua7p9bZlO3NptsDQBzp=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDTVY6G9E4SYRfGtcGL-WjW&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDTVY6G9E4SYRfGtcGL-WjW!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMY8jPxwAPGGD6Oatm7vmDuhDbXVoJtjBGhJzNQOeNa5czWCodpc206u3g5ZykWpl4GzhES0TnrrU06ps7N8jpQFRtsHX4_UTwQnJWiqqXxttCX15-sPXiM26Od3HygGgofFW7Pv8J09DNSuxoMbugncufD7qNy58AjfiWxX2vYnKm9eo-eK9aYYSN1MF4Zif-RTosjjHPAvNvSEdei-2FTKqB3tPUWiNMv1eOSPlKt7Mxs-9GJwVC2N2Z1tqSGAw6wdTe-hLD8vfNDOAj1f7aUUun7EdxQet08k1sU_sKQRg6cs4SBJr4dv-wksXGRPcvByl10wQ-xs0o-QEaBCUDlnDWfcL7cvkN6z1az2fu05FpKdzmHGgZE7LQFEBlHvgW8P2afI6TPZPCs3JW5b2c88YDE5uX6UTxFcJ0jDmmvX",
+      "widthPx": 4624,
+      "heightPx": 3472,
+      "authorAttributions": [
+        {
+          "displayName": "Sentot Baskoro",
+          "uri": "https://maps.google.com/maps/contrib/105799587608344767615",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW64Nyp4qlaFFQZu6ngNFwGJZFxi6Nm3zhLi_NYNiiVrfNwRe93=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCHLrOuOxQmM4TysFuffYK_&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCHLrOuOxQmM4TysFuffYK_!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    },
+    {
+      "name": "places/ChIJxTQfVbPtaS4R-S36fWUTRs0/photos/Aa-ngMbPg_7_KmHADq-wSWfmvkLmWqEjplkTeNT7IK6EXoXV0Nark0xzAaLbb0jR8Ooj-tD97fi8xXi1WatkyWxSViG0rVCfg5F7lMqVqjJUBspQc-TiGAlrtU2AB3heRIu4FcS8tPdShz-qMyVdgNFzUJ1zc8PPGZcrheEHpyag_3XLKuz10L-61yqePTlJIknyjfXvZ48LqDrVhkXOujv2Z26aZywqrqhR6qrMXg4VWGBPz8nRLSApUaOKSbg_nbaGpikZ0EWeAUIu0nlee9T1y6IuH8ygn5Htl2lDRQeimKFIXdl67VGKN_4etnIvzNP_nV3ydnZ6dlv_oTZ5hKmyUfhhBTLwS2LK2Q6aDvRYvoEqJoUV9j-LwTI-sbVAshPZf5pO_4BtimYlpbYuSj29O49Ik8GSggsm6_z-Gmuid9ZzPA",
+      "widthPx": 2268,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Ayu Putri",
+          "uri": "https://maps.google.com/maps/contrib/117666858310071934969",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVKa-bpta7OOp9qBLHUGAAneLjD8HiurLMMgxeYo9jFr4PRkuYO=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBJtNlWzstqBYDihIAh3wuK&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBJtNlWzstqBYDihIAh3wuK!2e10!4m2!3m1!1s0x2e69edb3551f34c5:0xcd4613657dfa2df9"
+    }
+  ]
+}

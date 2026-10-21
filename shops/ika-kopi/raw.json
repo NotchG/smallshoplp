@@ -1,0 +1,377 @@
+{
+  "id": "ChIJ-zHHdADtaS4RS96eUvnXOJM",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0852-8584-4007",
+  "internationalPhoneNumber": "+62 852-8584-4007",
+  "formattedAddress": "Jl. Raya Ciracas No.3, RT.4/RW.3, Ciracas, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13740, Indonesia",
+  "rating": 4.8,
+  "googleMapsUri": "https://maps.google.com/?cid=10608466388104175179&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:00 AM – 11:00 PM",
+      "Tuesday: 7:00 AM – 11:00 PM",
+      "Wednesday: 7:00 AM – 11:00 PM",
+      "Thursday: 7:00 AM – 11:00 PM",
+      "Friday: 7:00 AM – 11:00 PM",
+      "Saturday: 7:00 AM – 11:00 PM",
+      "Sunday: 7:00 AM – 11:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T00:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 217,
+  "displayName": {
+    "text": "Ika Kopi Ciracas",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/reviews/Ci9DQUlRQUNvZENodHljRjlvT25NM01qY3hkV2hOYjNwWlRUTmZUMk5ITm5obk1XYxAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Highly recommended if you need a comfortable, cold place to work in Ciracas! The air conditioning works very well, the prices are reasonable, and the spacious layout means tables aren't packed together. Every table has its own plug, the chairs are cushioned, and the tables are big enough for your laptop and food. The toilet is also super clean (though there’s only one). The menu is a bit limited right now—hopefully, they add more main courses and drinks soon. Parking is great for motorcycles, but tight for cars.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Highly recommended if you need a comfortable, cold place to work in Ciracas! The air conditioning works very well, the prices are reasonable, and the spacious layout means tables aren't packed together. Every table has its own plug, the chairs are cushioned, and the tables are big enough for your laptop and food. The toilet is also super clean (though there’s only one). The menu is a bit limited right now—hopefully, they add more main courses and drinks soon. Parking is great for motorcycles, but tight for cars.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Venansia Retno Astri",
+        "uri": "https://www.google.com/maps/contrib/107036140060878956844/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJIqFqE-Y_URmsT4xJaqhxgtqxk4H3mc3zasOIurfrEish1eQ=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2026-06-30T09:08:15.783445151Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25NM01qY3hkV2hOYjNwWlRUTmZUMk5ITm5obk1XYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25NM01qY3hkV2hOYjNwWlRUTmZUMk5ITm5obk1XYxAB!2m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/reviews/Ci9DQUlRQUNvZENodHljRjlvT21keVNVdzVYMFJtTmtWd1FVTnplbWxuYmpsVE1rRRAB",
+      "relativePublishTimeDescription": "7 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice coffee",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice coffee",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Adichita Khaira",
+        "uri": "https://www.google.com/maps/contrib/116669027039589919186/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXYkLILPolClSAnN3D1EmlRraTRERF8w5id2gLCXCAE5SYOvh11=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2026-03-08T14:42:23.543866177Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21keVNVdzVYMFJtTmtWd1FVTnplbWxuYmpsVE1rRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21keVNVdzVYMFJtTmtWd1FVTnplbWxuYmpsVE1rRRAB!2m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/reviews/Ci9DQUlRQUNvZENodHljRjlvT210amRtSkJWV1JoTjFodFdXaEVkbTlMYldabk0zYxAB",
+      "relativePublishTimeDescription": "4 months ago",
+      "rating": 5,
+      "text": {
+        "text": "good coffee",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "good coffee",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "donoem",
+        "uri": "https://www.google.com/maps/contrib/103691753694128790914/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVXpXrvUQF08q9THWmjOOOmbGSldrE-ymVu1sCgKsH6NWHyogWE=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2026-06-02T23:06:11.553770696Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT210amRtSkJWV1JoTjFodFdXaEVkbTlMYldabk0zYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT210amRtSkJWV1JoTjFodFdXaEVkbTlMYldabk0zYxAB!2m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xsSGVsVjJVMnA0TkROdE5IaFhaVGRPYkVaNE1XYxAB",
+      "relativePublishTimeDescription": "a month ago",
+      "rating": 5,
+      "text": {
+        "text": "👍🏽👍🏽👍🏽👍🏽👍🏽",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "👍🏽👍🏽👍🏽👍🏽👍🏽",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Radifan Mafazi",
+        "uri": "https://www.google.com/maps/contrib/107702275564355650326/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVA5Etsy9KNELXSu-PFil-u-Mg8NSBvmMnXtk93M0GBNsMA4y0=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-09-18T11:09:44.571889006Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xsSGVsVjJVMnA0TkROdE5IaFhaVGRPYkVaNE1XYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xsSGVsVjJVMnA0TkROdE5IaFhaVGRPYkVaNE1XYxAB!2m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/reviews/Ci9DQUlRQUNvZENodHljRjlvT201cmVqQmpNMWgyTkhCWE5VNVhTVGh0VDNwemFFRRAB",
+      "relativePublishTimeDescription": "a month ago",
+      "rating": 5,
+      "text": {
+        "text": "Affordable",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Affordable",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Tatang Sutisna",
+        "uri": "https://www.google.com/maps/contrib/105661493058111245331/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXY9qmVHvc-DjkMUQzkYUnFEjoqOf0MiLD014nWGJIVaqqq-B0K=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2026-09-15T08:29:11.585878214Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT201cmVqQmpNMWgyTkhCWE5VNVhTVGh0VDNwemFFRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT201cmVqQmpNMWgyTkhCWE5VNVhTVGh0VDNwemFFRRAB!2m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMZo9SpHb0zy5FzROfMTy2KmOPCCG_YQrBL60asz3Rof6LM_V-6Bjd0T-JBiFCsjVi1rfsuqhLC-4R_IyGR7kdaJopQNlYoJRfpuV8fePIQ2AZEr5lYBv_xrOZvtbsTLdzZr0uTgiABA_4tsWtijoURQd_idQ66fxDk1x3dnhFabP1y6UJc4YdERkKO7DkGR7-MyyklOJBJyHOi5W5t810pJygPfO4G8PZoo6nuvLgqNh7qiDBwtLA4JOVuqbI7H2BpbdetoWQW_ExGlvmV2GglXReSUhIEgsS3Mrk5mhFED1W4cndm14gFEkKvq_P8n_GvtyW5CZJ5F1RGjOz0uHYTQ8NvVxMn3iSIo4lH-ThpL12MOQ37ZooxjMcxUlO-C_no98CBBb8MLYewF83pK8faIzIOKp-bhRTqHUS4UqbSg",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Ika Kopi Ciracas",
+          "uri": "https://maps.google.com/maps/contrib/102346651319400026867",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLRbPpZ5Wi4sLLDqvdmHYzMyejAIqBX7qXvijb9nT_2Y3QvNg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhA1ky0A6-Z6UpPs6TxEpDiV&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhA1ky0A6-Z6UpPs6TxEpDiV!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMYs3OvqIiN07M3eOySQrqWnf5lfTQYGXrkrijRXk6CvEJe8_eczkiSOh4N3zo3jTYwh-2cIMfuGnXjkR3o0FoLTQilNzOHqsnXfk2tTzRK_KvVO27viKajb9dWr987CgyY1gCmrqR_dzczJ87NdwwF5rIh-vgf53fRv5FZNYbQ9ukjH_uAgr4NQNk8K57zJ3TywjQXdx9z2j6QUDx1P3mrnXW3JBUAL5SZg3vvClmLN8gnQ7VpnmzCDsXjcnRraxZQbZ2QeSXxUc0IGezSu0Qxcy-dCCUUf41UnqmWF-gVqHO2iBKndTTGejP6jYRkkvoVg8rRrVH8cdhoIVS9-jwN72P1gNHQJ1-EHYORnuTEI_kTDvH3T93EhNlV9hWsaxBAkq7_MWUvbX7a6E9ilPcfnNSS2Vgx4Vq7XRy9xYjT5",
+      "widthPx": 3468,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "muti",
+          "uri": "https://maps.google.com/maps/contrib/113389338808122739721",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWbtRMPRymvWws_TOgC4HRlGlgyvNspUED4SMI35VnwYBhsxMqphg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAyPyPo-9SvWcl49X9gaIbA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAyPyPo-9SvWcl49X9gaIbA!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMYBBPco1EaMEJgNun2QT1YJPtn-BgS6ZflykKJ0FsYPt5GDYeVNoxKR1tZZpHJ5Orx2h9kCypRNa8nkGmfdm6bF0agv1fPkv60lAaUVHPAy3ctUi-bnoIeVi5Q9ckqjH6zuZ6lBCQm7mO4PP-aBKyEvqDvyqkVEyrgdtoe9w0dLZsA0lxBEqoX-4pqqWM6V5cpXui7jFOd0AC4Ufx6j4piODhbvErgwyvhyVqM2k1BnVW2XHRZfMpcfNH8JUdwqGdJLk4bhJl59at_g5odnQYwyjGjUEAiHYTvUW45wh0UAQilA7ZIyLnvwbq7A8idtau0ixojlQukGevoxbP_Yx-rSm75PNkZG8asLg7CsHDKTTxnJjj5tw9dvldfGS3dgVuoHoi6vic_zAKPLfz6IFzFywdY5Z-xk6x638b-laEQu",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Riski aja",
+          "uri": "https://maps.google.com/maps/contrib/102495432333883114312",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIQdg3HcNYtwztYYOJWiP9CdYI7fCi2Nt9c0JFJPZMJTrVldw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhA4yb7KZZHnaborWNuKqHSs&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhA4yb7KZZHnaborWNuKqHSs!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMaiaBT_sjjpd4BI_vzqE7eBMCA57M_DqlC49TpPjSPPLCQrlZBz7daEHMDFOSOGm8OfNJ1YT9SC4ZfhlTjoL8nQt9h_JGFAOrmoGDxgbl5isWTGPEcW5AQD1m4xoP4IGzUPglasO-gknJaI5k8IjzLFOcDs1J63O1r1RoTUqfbpYjrqdP8eIGmHVFvbsfKFCU8xAUlEoSy41EPYkh-m3G-U7o1bgcMBT7NrlAQ-UFjRnRsG45S3X2NksRLT18Q2Sb5WGhFTuFykLC6LgRjks4l39P-Dt0eXYCbbLBrTAhGbZt54htRWXj4k1XP6mdUUvE2BW3j2Cuh7RgSgFKIiqZEIWjLek1CHCq2PsndV-gjcNpGoBkUsqJfQLdvS-qW8JoJ8aCH6CpDsamEsg6RlMMa7JZQnPhHh6gDuE4_P4T__HA",
+      "widthPx": 3072,
+      "heightPx": 4080,
+      "authorAttributions": [
+        {
+          "displayName": "theJIve",
+          "uri": "https://maps.google.com/maps/contrib/109491486710683492033",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXpbqsrWqrlDDrJ73GvhEzKU2ydpO7DbrrlDKj-lILBjbt79aQZ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCoFiW1Ae7nORUa0KXBwW2A&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCoFiW1Ae7nORUa0KXBwW2A!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMZB_wZk_LSUvOfjnMt8ol3IVzopz-x7G1IKXG2ClPUj5Euy1nyPIkjqF9vyOkzXzoA5zUdln6UHYYFFSMqPbXVWAjDoHQPEhnz1ueRkpGqb1zVpvSunhvpGoV19VMQ9RXMrVWl4Xcaz5rF4AgzNjbfrKyF-uWTLGj0YJgmXvqFRfarTL8615YMxz9iGtSIsa_AlfIOnFnRADSNULy-apat5POZflb3N-BmhPfJHVVMNgg1WR-VOGTBXdFtI964XpNqqPPR6T8uNQNB6DZ-lPOFPz6ykjapw_qp9Ev1GIKaLJZkvpqqxWzhzvxRB6IuMFBYGbByd8Jxyo9aK2qZQQQvQnYLVXOryod-DOg8qpQDQTS5h3G0VC3q-RGZGCPWRDUyKAhbzgvDQsc7oDWiqcLeTcw7g30KqWodE_3LYP4P9",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Ricky Aditya",
+          "uri": "https://maps.google.com/maps/contrib/116682651393782801367",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV8Zv_fayR3BeZD-1UXpR0mZNVdD8c2ERaFsjwa7ZVTxG38ylgS=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDdjBhEeQZJVsA6EnhKpzzZ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDdjBhEeQZJVsA6EnhKpzzZ!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMb0cQQ16mk0GqRBFQuAub6iloF1yygn4bYDYcaK2vip2DcyV_h8o5rdXghny1sQMXYPlZ_Mp3pV2-dXEUN3RAC8tAlLm1kKllnGNlXg4V2Pn1OTL9RC6N_S-Fk9VHXYbVdRbHjo0V-R9Xn1CumbLYHH14tSnIHFyskb6ipWGzOcCj9xqP1TvlwLAX-f73pG0uAhLFZ4IjlHP4VdOd5n-HIW9tmJoHwfN4YOyYBt05hIP3hfxUOSQJr1_4ctnwxIYqGT4k8DDSlar9R7s1_qUb5NfduhDyMDthIKelPHAzlYLmLVZLlbpoqB1JGmBJ7fHLcL36buAtOIlBaYWLWbeswesoKiKxUhPrAA-W5L5lTUqY2KwnNeKMptikd0EdjBb2TNztAA-Elli0YYCArr1OoRj8GNYkw5La5c_3xqPA8GUA",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Venansia Retno Astri",
+          "uri": "https://maps.google.com/maps/contrib/107036140060878956844",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJIqFqE-Y_URmsT4xJaqhxgtqxk4H3mc3zasOIurfrEish1eQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCOBKXZeqT37D575jSid7HA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCOBKXZeqT37D575jSid7HA!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMYYuN9GHk7dtjX91ioOaHuOeU63iJd73Ie628FSFJ9EfSoX6C0aejirVfD0ih-5scN6FvndjA3DqHEwTz4tWAF3pd05o7ejRSz8GaWdylj3ery_Nzi-8UEpAAKSwRqL2-_XrnFULAqk2fIsIiD7zCaLcbG-hxDJ5kqpTjo6bGq0HcQeW2Q7Jum24ecJuBGTEtiZWC22YgI_1XZv3Imtp9kvqCFDvFKEEQNsgdsiUhwHevvY-eNC4r9Wc5I2ZUz31mSflFKrVWvlL_RNa4UgO17K5WDF8OagVXPWN3tlf0Ux5YAXzOSFRWt_54pAvDQLgbCeZ-dwWcBA9VdCwzzL0Sv2dr07ZGcD2zMiMF5yNiSCKpXbm1QIjl2Vk_i63VkYYu0RHmDHMtpSbu6MHksSYGoEX-F95kUI3SYJ-UEZ1wet",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Nur Annisa Ardhiani",
+          "uri": "https://maps.google.com/maps/contrib/112747350407521442346",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX-Epj5wWILZIPn7OwERb2drB0ZM8IZArXAvvFKm5wQiNZcypI=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBZnwqAcnj0Q9eH0nU5grg9&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBZnwqAcnj0Q9eH0nU5grg9!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMb9kC1j4bQoflONi80FrSv62gypnCG-sn8VWX7WMEBhVOfY2l5LvVmb6cNrMS9L6O0yC2aprb1FigtSPD4JVhQonQPyAL1xpBmSDKQUk2ZPudx3_XN0tCJlznfCseDxcrznPYf_UJlwFdATC4EoXIWim7RLVu1aNehqjpeHNZUP3QMyr8GLmi0UNz6L_wC6Rrl6OCeffy0WxCJG86e1dsQVHiOkF7Swv65xA2myCWZq9lFyjwCLIx7glaOyXB_Or9U7pB9fRYPmiusobSGd6bSFxfmbRIv2MNXv5Bu7YT1Cspo2I6nCrP--zXkQoGFhSExymUzI2dMzgkeXshbeDjJh0jR0MdCqYXHaxvqVt6iZUXUedr1FpRPvrcvo4GvMVpRIoqBP4X6YP0X9CaKNCAtitRrGRjqr105v2wKnOj6AGg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Assyifa Nrmh",
+          "uri": "https://maps.google.com/maps/contrib/115287098071805442105",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVBjgwvvYXJ9vjyHYlG6tLL7lyrF_DTY6ibPVaSI-c5C0gEvqv8=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBzjMr1CmD49ZkFViyVe3wr&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBzjMr1CmD49ZkFViyVe3wr!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMagEcspXWPcGmd5LYS28I6KY_2iE2291ILo2uKQfhxUmfc97xDdnJVGb-V3Y-uqEHCGom1AjelyTI7MvcWFRuJ3YlmO1K_nl-og8pvy7b2wga5Q34OB4WmjxSjeRPqLSF3M7rfnJAnzm8DcBKEylCR_E8-wmT8wfQKyHWIyX4jqZY9cpCZu5BXVfOJXD0qwqxfw0ARfAKYHjv6eo_7HmjzxgYG_0jZT6Edq_JIVDkhKLxR9TLLEtBW4j6XRkMg8onQgD5maF6hsv1mR2B8ZO0scmZLx9-biH62BtffaGN3eCLQpICESodaDuMeTftNZVyCldhx-yTb3bAV0Y-UDUF86sBXJOwSn4aZRld6YDnBMefBdNMqsnuj8wCecTbDRRbMnRuyp85704_uQp3TGeBiUUz8Ee3x1oo2LUOOZYs2z4w",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Tisha Ayyara",
+          "uri": "https://maps.google.com/maps/contrib/103246820093275686948",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWhC_950R3CmB14l06kj3li_yZcwjWRlYUA6kXpyVySiBMLlyI=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhA5scq_BeapViFoHy2bIzvq&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhA5scq_BeapViFoHy2bIzvq!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    },
+    {
+      "name": "places/ChIJ-zHHdADtaS4RS96eUvnXOJM/photos/Aa-ngMYI05rmi7--RgybPnn02DrUyuEphFbXjhib7Lm9_EoBNg-nvBFOpNNriBh4cjNHo1Y2Vd670XMl8iZzXDfygGZbjuXbADnneJU9pVQWTjEoFS_ToYKy_m3hwA3PCm5SugNj9v4DocD8gK5EYwijwinnA7kLqHeqRtq7zfVSOZp8a0EMiTQclKhM6Fj3OSv7S-BltYwuu36D0fNhpznrKq30ZcuuHGR1uCpptIUhlW-QfwiI-EaA2BE6Y03PI-eAf0hR6eReGb91-tAP6AxdGrmBv2SWESnXiPvyvoj4ChsJYegV4uGPIsr8ESoY-rCwwaDbGGvlNeUfTbOtEAI_lKo9DSoTKOTfkxzhnHQt7pZ8imeJZdD0wZwX2xb_5mB5nNwCU56gwI8x_-zD29eoerPQjrJ0M5Va0272p6TlOpHYYQ",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Venansia Retno Astri",
+          "uri": "https://maps.google.com/maps/contrib/107036140060878956844",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJIqFqE-Y_URmsT4xJaqhxgtqxk4H3mc3zasOIurfrEish1eQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBgv5FfnmZs5ulJv-Is0nIq&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBgv5FfnmZs5ulJv-Is0nIq!2e10!4m2!3m1!1s0x2e69ed0074c731fb:0x9338d7f9529ede4b"
+    }
+  ]
+}

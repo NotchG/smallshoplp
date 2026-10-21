@@ -1,0 +1,375 @@
+{
+  "id": "ChIJv2D_bQDtaS4RV2W9gtis28s",
+  "types": [
+    "cafe",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0811-1011-3993",
+  "internationalPhoneNumber": "+62 811-1011-3993",
+  "formattedAddress": "Jl. Mpok Nori No.10 Blok F, RT.6/RW.3, Bambu Apus, Cipayung, East Jakarta City, Jakarta 13890, Indonesia",
+  "rating": 4.9,
+  "googleMapsUri": "https://maps.google.com/?cid=14689524655505368407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 11:00 PM",
+      "Tuesday: 8:00 AM – 11:00 PM",
+      "Wednesday: 8:00 AM – 11:00 PM",
+      "Thursday: 8:00 AM – 11:00 PM",
+      "Friday: 8:00 AM – 11:00 PM",
+      "Saturday: 8:00 AM – 11:00 PM",
+      "Sunday: 8:00 AM – 11:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 3033,
+  "displayName": {
+    "text": "OSMO Coffee & Eatery",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pabGRqVndaWE10UW5Zd00waHlkMUI1UW5sbFVWRRAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 5,
+      "text": {
+        "text": "really enjoyed my visit here! the food was enak, rasanya pas and not over seasoned. i asked if my creamy mushroom pasta could be made a little creamier, and they actually did it. loved that they paid attention to my request.\n\nthe toasted bread was sooo good, definitely my favorite.seervice was also topnotch the staff offered to take our pictures, cleaned the table promptly, and the food arrived pretty fast. great food + great service. recommended! ✨",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "really enjoyed my visit here! the food was enak, rasanya pas and not over seasoned. i asked if my creamy mushroom pasta could be made a little creamier, and they actually did it. loved that they paid attention to my request.\n\nthe toasted bread was sooo good, definitely my favorite.seervice was also topnotch the staff offered to take our pictures, cleaned the table promptly, and the food arrived pretty fast. great food + great service. recommended! ✨",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dini Emilia",
+        "uri": "https://www.google.com/maps/contrib/113411084335240861652/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV81zLL4ogAK8S2q4K5LgwUctw8jznUubiirH-yWvyQ5iPqVFflgA=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2026-07-01T15:03:07.469926073Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pabGRqVndaWE10UW5Zd00waHlkMUI1UW5sbFVWRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pabGRqVndaWE10UW5Zd00waHlkMUI1UW5sbFVWRRAB!2m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/reviews/Ci9DQUlRQUNvZENodHljRjlvT21KWFJHbGhkRzVQUm5Od1EyOU5abk5tYUY5cExWRRAB",
+      "relativePublishTimeDescription": "5 months ago",
+      "rating": 5,
+      "text": {
+        "text": "I must say that it’s rare to find a café this nice in East Jakarta. The food is good. I tried both the sweet French toast and the savory one with beef, and both were delicious.\n\nThe space is also great for working. They have Wi-Fi (a bit unstable at times, but still good enough for doing documents, since I didn’t try the connection for zoom) plus plenty of power outlets. Parking is convenient too, with spaces both in front of and behind the café.\n\nThey also have a musholla and clean restrooms upstairs, which is a big plus. Overall, it’s very suitable for WFC. Just a heads up, it can get quite busy and noisy during peak weekend hours, but the service is very attentive.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I must say that it’s rare to find a café this nice in East Jakarta. The food is good. I tried both the sweet French toast and the savory one with beef, and both were delicious.\n\nThe space is also great for working. They have Wi-Fi (a bit unstable at times, but still good enough for doing documents, since I didn’t try the connection for zoom) plus plenty of power outlets. Parking is convenient too, with spaces both in front of and behind the café.\n\nThey also have a musholla and clean restrooms upstairs, which is a big plus. Overall, it’s very suitable for WFC. Just a heads up, it can get quite busy and noisy during peak weekend hours, but the service is very attentive.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Jannatiah",
+        "uri": "https://www.google.com/maps/contrib/100813000626466817161/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUMUikOjSZRPKAYA4mULjFz6rOtcyXMORdzcssN1TNHrYpAki26iw=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2026-04-26T01:18:17.589491253Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21KWFJHbGhkRzVQUm5Od1EyOU5abk5tYUY5cExWRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21KWFJHbGhkRzVQUm5Od1EyOU5abk5tYUY5cExWRRAB!2m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pKU1IxRkxOMUZVWW05ME5rUndVMGRIY2sxMlJrRRAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Love the food, all taste decent! The services are great! Food served quickly. Loved every thing here. Also you can enjoy NOBAR football here during Pildun.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Love the food, all taste decent! The services are great! Food served quickly. Loved every thing here. Also you can enjoy NOBAR football here during Pildun.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "RenNis_95",
+        "uri": "https://www.google.com/maps/contrib/114950351046350354035/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVGtmgair2aRDhe--lTRlPjWrMDeuINaAM_kqU9oHVYsv5EAQGO=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2026-07-09T11:02:47.803145409Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pKU1IxRkxOMUZVWW05ME5rUndVMGRIY2sxMlJrRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pKU1IxRkxOMUZVWW05ME5rUndVMGRIY2sxMlJrRRAB!2m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pSVVlYRllVMlpXYUVndFpYTmlVemd3Ylc1UVdVRRAB",
+      "relativePublishTimeDescription": "8 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Great spot with a very strategic location near the toll gate. The place is cozy, clean, and quiet—perfect for hanging out or getting some work done. Love that they open at 8 AM, making it super convenient for takeaway coffee before heading to the office. Definitely recommended!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Great spot with a very strategic location near the toll gate. The place is cozy, clean, and quiet—perfect for hanging out or getting some work done. Love that they open at 8 AM, making it super convenient for takeaway coffee before heading to the office. Definitely recommended!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Adri Nidya",
+        "uri": "https://www.google.com/maps/contrib/111364007818147890761/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIT0UZZNNJP_NvgAZpv0-LIWF_mcLvOaFD6ck8hrTV7byZeOw=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2026-02-11T02:13:57.836241227Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pSVVlYRllVMlpXYUVndFpYTmlVemd3Ylc1UVdVRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pSVVlYRllVMlpXYUVndFpYTmlVemd3Ylc1UVdVRRAB!2m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/reviews/Ci9DQUlRQUNvZENodHljRjlvT21KWmIyUnZUbU16WmtWcWJrZHBaMVZTT0hWWWFWRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice cafe. Good coffee. And the food is actually also nice, although the portion is a bit small :)\n\nThe place is quite spacious and cozy. There’s large outdoor coffee place upstairs which ia good for chillin in late afternoon.\n\none of the best coffee place in the area.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice cafe. Good coffee. And the food is actually also nice, although the portion is a bit small :)\n\nThe place is quite spacious and cozy. There’s large outdoor coffee place upstairs which ia good for chillin in late afternoon.\n\none of the best coffee place in the area.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ibnu Mulyanto (IBeNimages)",
+        "uri": "https://www.google.com/maps/contrib/111660785768983127663/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXHudUi3hp_ZSAvu_hwtGCo82ZJMbqIFS41ZqkGxgwnYjK8iejj=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-09-13T13:56:24.300753693Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21KWmIyUnZUbU16WmtWcWJrZHBaMVZTT0hWWWFWRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21KWmIyUnZUbU16WmtWcWJrZHBaMVZTT0hWWWFWRRAB!2m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMY8NRSndD8laNJrFPHT1NqvgEC7QzFNME2kupP5YTK44fJx4HNPpS10zIUCC2F-2sF8rc1j95AyWSpPzIjgcZWsDpNawanEv-NLDl3T8IiGXOTRtpNXlXb5qojtUOXISB6QqHAy0YyWih7SI1F53I-SYHUxTFG6IRAZjdNA1xZF_qt0UVm_Ljj6dYYfkqg0pkFF3zMjbT_A3lWvdt8x4b-QsocD3b4ok_ooiV2WOL3gqGSd1S-R5rq7QHjR7DH25nLcgtO5tcIcphvcfOPGGgGSI0hEm0yVcTSqwIo7CotJpOyIkQwvhG9yvObZ6pCrs_Wi6YMtA_843azhGivXZYjMtwpQ2yHeYrhj7Q41eFxpcg77YnpvvTg2H9PijgWfN7mtkoBne0pDWPvvbLjFympmohTrtA3ByXcJnulBj58bZg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Ibnu Mulyanto (IBeNimages)",
+          "uri": "https://maps.google.com/maps/contrib/111660785768983127663",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXHudUi3hp_ZSAvu_hwtGCo82ZJMbqIFS41ZqkGxgwnYjK8iejj=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhD4608EhPtTaDsGFGKKiLNQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD4608EhPtTaDsGFGKKiLNQ!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMZexRuQ9TIjinhCXL0e6s6FE7ejYFxMIeVg5nexrgF0R-WI5j_JocWUSRa3Us3EcTfPReUXvH3R0odxtS0rgMlDDzUvjYb4sNFfhtpaLP_2hLwMuGKNpR0aObs-C2V_SvmgmRCHf_h8r03p8OlZ1NpdQ5jCcxuYebyRdogbMxjG6YSMr0tIXXhys4tPu32hTP4joiQlZ7HMKGJ-RbpN4erIin0oujxbCNP0dL4oGpXs8nhSd6N_piAn_i5e6PoQX7El6V94gZP64-lE0XthPsyZz1P_r5Vk2egR-iDCyhJ8erzQJkPVcR_jl4X4kSTMHNFvcymRgRV3SXFAhdT0P6tTwIbCOUwTHRMVP_eNWpFzUqMfvBEgVLdu6pznk9118x4ykyGQ8zdtt00aUQYgRj_gFrMm9FDwMfdMw_nDnNIhGQ",
+      "widthPx": 3199,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "OSMO Coffee & Eatery",
+          "uri": "https://maps.google.com/maps/contrib/105381346775378249956",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJXOo8nSQT-kJVu1f27JIrlrUgydLhG3PuJ4X2e8t0RTIvQLQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDYWbzzMjXmVhcvOhBoNBT-&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDYWbzzMjXmVhcvOhBoNBT-!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMbX0aH_sN0cl_cVr_-H_L9ltjI9BUxMFKgbtjj5duz0KsiUw0c_DrxtUBrgAvDKOLoSZBewuwYPYZoSQxKLwMg-wyhZiSmhZn2ixkx_Lq7OgLXsav2bek4kEmAj56qNUiGBD9706Y3nWlemuK7rFfxF3wHSLmWlkpm2kfgcawYmDzYICvPFWz4F4Kb3dfuOwHyaWutKpYVHIu3jYMqXcmLt5caKyN_MlZrthvWN1eM8xcFOMTqttWbUe18kjASrCMqjHiq4tXkD3MKPQogp33kdIzEB7SkHuSyZN_7fJsJCqYzyjgdi0F4R_xYf3PRzNXj02d5rlypAUEICYHo0FtBh03QvRPEbwgobTL4nLwWvbmkuiZHUMmmU00PNSDBuYKE4Rf_BnFeTzFCH38JnKW49Hwc8DFp3O67wXpTpVfQN",
+      "widthPx": 4800,
+      "heightPx": 3600,
+      "authorAttributions": [
+        {
+          "displayName": "kanaya zafira",
+          "uri": "https://maps.google.com/maps/contrib/105093159813127924015",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQoMdMB7UYjqWSM8koFe16S8U4f_Lv7-mBwbn8LbAJAH-nqw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCTL6T6aSXfpWBzQjIo8UxA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCTL6T6aSXfpWBzQjIo8UxA!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMacrg2je7oPtaCQkNCvw1zVlJWTO5diKCVP-QoX9WZYFRPVgrGCH1F3zh4gipjT72vWkHMuiNHM39OBqMOTpge4Gkz7EbEQ3YIrX39IbRqVYD-OSrWHqVXf85gU5Yn5YSkUYfIVWQ9t2wkYX8VD6CgbXW9hQXxoesDX55V7d0E8Zc0vbhl0qQ-O6qKRsCSWDmCtfZKNf9HhrquKAmu8lhLbHrBtAagu26tSz-ynVdkgysbs78chsjvFofwjiglVIk1uNopCMO1RCTrW_wcSNY5rocukRb5z7yV_HGJ1vWdmRUDSL9k_mcgpnAeGv17vcm1TJMoyRkRKlT5WCcTAipSe27oz8_RJ6bqRfFvObLxsnSKbXyFJMFIz0d32b5B09E_Eth9ZzgAaLpuXLCtmaVMstb_SfclBjWLLqm-aTetxhg",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "gracia anindia",
+          "uri": "https://maps.google.com/maps/contrib/117788218338948943961",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUMaf7yAoY_PuQ10evNsTOoqJBsa82r8bV7BRoixJY3b8JinKV0=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC0BZblgp6sWFITJsHJrcgO&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC0BZblgp6sWFITJsHJrcgO!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMYTBnNUgaFwQE0dMlso5ddm9vK9-BAZu1VnU4B72KkAUETP9LSzLrDiXfw51QFGuZfUU-RJc2TDOJcfiees5Bui5yns5SFiSAh-v6aF83tZca2ZyNe3KaH5D_9UqXE-dLdA36fspUj8UXNZVla9z0DTmpWetFr7McgNCU1XIF4UX-vAxZdmx5fOAiacFAd-0EguF-0dqzrUo8oT-NZ3FScoS6fDB6bU53HhDC3CeZ_O6a4tXRZcRcm1zgiY7aYIICz962VdqAvPeDjzK1T5xkCl4rvSS010NH4ihGBqAokjec_WVCaDwxrcrQJUOtXvHU_s5U0caO4PAYI0UGsHB18f5Taj9WbG9lkzozrpY6IkDG8miHneVM-VVne49gIDvjX-ILYapxzf2k4oHuQ-F6ioUiKP9nSc-St6viS5KUgV",
+      "widthPx": 3840,
+      "heightPx": 2160,
+      "authorAttributions": [
+        {
+          "displayName": "Kartika Ande",
+          "uri": "https://maps.google.com/maps/contrib/117482139617224845632",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWCDeLiEiSbYqKrdAoC138OWv3ebhWxt1pu2F4jj3Ztl5h8Uc4H=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDHkDai9nyP2hhiQ6f5P4zf&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDHkDai9nyP2hhiQ6f5P4zf!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMZE-pxwnQ4rgiDbT2NY1_fFDc48ZkoGjzsSHOS7grkvuw619fT9kkOh9Vl-z77LwDjtfSmJHmHc4IXnlURpvd_DDSVj462xRzAgGy6lujtn-8UE1XOrb6Zyfc5vM9d3aeIQPF58FS5IA_hPcUWNoAfrhIZqwZhk2Q3lAAjkqYKKBjYZNSsrWfeEZiPBT6m8FQdL6OZj07uHf9VJsZlyurzaRxuRdN0FfWuWqgeXMKkzfy_oxTe3wusfq8AQ2W3Gy1kH5Gmt70Lfq5eHVfdsiHZCqwTwUnN2C9cOJVgGoUMyudh_oMH02vDp7q84MYx8xxWE2tHTMFup-6TmfX45ZXIhpdzgMOp3DHNutvr-zKeUYS7dhtj7VsLA9VTTIXiITlx7lfBrm0MWEIqfdyQQbX61O5b9n9eMvvF_LcC7VOsg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Adzra Azzahra Alrinanda",
+          "uri": "https://maps.google.com/maps/contrib/106958172961550917645",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUop6w3xmDjm7JVPHKXn7Xw2_uQMfSfVpzrOsPvo6c7-ICFuSVN=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBrfLioKYtqqsu1h1290OWW&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBrfLioKYtqqsu1h1290OWW!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMZ2FKy--pcHjBOZzYwAhZVU0XWKCkfpVOswknEqbo6kRiqPcBFEdOk2nzXFeHKlc6Natq_-UcLys1w9vvXDeiEAfD2_wiluA1NGg24VBIxhw_gMnpgocad-Ed84ws2rURAgUevGhrUs6vkiFGJCO4vFdTec7gKPEKq28uzHSh5UABm9ljH3Az9YqvYTVFQGS45V-6R16U7xlfjs_waVmK0Yl3Z0ibCNBaoa5qCf_Wh0FDpO2BQqowz74djatohsNPvxP8TMRyViXat5BD-reITlglhDuaSv00RoKch5xtkDTMt4wi1o2YDt1RlULNLSIddP1nn1hqeowgp3nDBc2xt6llfyHRz_bR9yaWDxfqeOzenHIyhOfk6hyv0Lher98yTYytWs7M1Ts-K9-u-eEhWaDg7QqXFLdB9noyMcfG8K",
+      "widthPx": 4800,
+      "heightPx": 3600,
+      "authorAttributions": [
+        {
+          "displayName": "Lina Dwi Lestari",
+          "uri": "https://maps.google.com/maps/contrib/108333900184788889719",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVSv3I-S-fKJn4eYOHlaBhwRoZ-5ltJoFLeanlNW9q2DVvvK-g=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDXahYFC9y52LL2tijtuGw_&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDXahYFC9y52LL2tijtuGw_!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMY0WS_qY64R8XwX0JmlZuqE5GIb7BUYFwhBVJX30cJRSUlivO5ZHSBskk1BetGTo2vApk-8UXWO68u99RNwwZ0ZR50xGa4H5xIPzhlgam7GpHmN_7d4K-yiZMUA2cgGAUKD09Kh8fMHHRLqSA1TnArtmYBdr5ALP0TrVjXScu54HY5HnInHFhkMeLcKf4piEZxAX5OUpgPY__-y1uq7qAWKHmmaGv2nlag5l4HqNjSgQMasOPXq7KHm1ADxQjZQ0mtsYwAVf9T4_GW0rABD0M00GgS8iYv9KI7x_kfYp0MmcLCpQ1nD5l6T57muATfVUdvpV2nZYlTE2ke2eBmuk3Rk5OGz-xbiytn5H3J_SMt_mzSgOBTRXfxJVF6wQ-DtvsYzTYxtXzSq3MWVOSa1-oQo8ynCgg06IgGwr7eUKrC-jQ",
+      "widthPx": 1209,
+      "heightPx": 1017,
+      "authorAttributions": [
+        {
+          "displayName": "Wahyuni Humaedi",
+          "uri": "https://maps.google.com/maps/contrib/117394975618353900308",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKJ-Mw11U_9feAJXczuwy2idjXKSj6dU6e5NuhrgG_PVhnUhw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBzMWBivn2T3cWHeVECkID8&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBzMWBivn2T3cWHeVECkID8!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMbxcjZ-yyTRWsbS1XVIS2M4iWPmpA_CzCnTNz5Xl65S2WnE4RQNDJFpR8bWZrTuTyDeXW_UM0W_DJ_AaO4zjBf9BBZSX_fVbpOu5gbbdZi8ueGSLxzg9OFyg0CeDveyDhJKjahSTOmL5S27hxoqZAf6ag-Oab7IJt8u_Nql5Y_9fpfBaU7pGJqWI1kTCTpA3VHJHl6hLRSXLMXQOoAar9syHPiuoo1wfPACzV5txH9Hth_TqDYDEvMtqIoJESfhsHWb08l1nFWGKTz_-3ALEENyadXyEVPxEzy0gxsFTUiWcUuMneJItXXILojHi1KwPvnhLbIu_23moQL7b3jf4gH6-He2LMLV5cRVLTp6kzNpPO23pIRF4UUhFpvZIjcEDqzkUFG5cDohkCWu58oOKvG5SiM5mtwfTfy7xNYytJiczQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Syifha SF",
+          "uri": "https://maps.google.com/maps/contrib/108981362750444390046",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWQahAhXmOS1y_FbgfTZ-5AG9Z7luVyz_fiAcU5mqOMWyGw2rDY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAfNh4hFn7c3vAwsqRO9iJy&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAfNh4hFn7c3vAwsqRO9iJy!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    },
+    {
+      "name": "places/ChIJv2D_bQDtaS4RV2W9gtis28s/photos/Aa-ngMZzstvjsx4qPUoHg4pMFQK_53l5OGE0v0Wu_uu6E9--p05mf3oQDWHuqCcrQindHthcA2q0VLKZ_Gjq0BlvSXQD9CVf9kdWb0ELALl2psuIBEaC7N9UdMy2CvNTm6DQmINtN0BKLk06tWpmWIXfzEBP32_2ZWe0s1r8Pq1ELWPiGI4MTqLpsPQ1gQZm1uG3LhOwcYpsYE1KM-DzAMyBFmnWoLqtQb1E0AgLB7ASwHmFIgUGuQaXns_E_HfWrLralyfb3CCwMOnKVNA9W6wDrZUwWR0Z-bJQ_bucGSNJgZR786gziZadOq_qA9kwsuLcUj9Gc5hiOphaiK5Nd8a_NXUYolzOBe_YpB4cEWlR2gKxa2NcZX1iEiB1mAhVK6_IB6HklG4YGR-ROOhVVLhKEWkVmIVwvZdUOIA70Gx-H0cF",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Putri Nilam Sari",
+          "uri": "https://maps.google.com/maps/contrib/109397144476810511183",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVAD25CQ8nuIyxZq6cNyZn17ewkyjuncwpWyUG4aKui9b9USU4h=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAnwdUq6NoKwWPc0piV_iV4&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAnwdUq6NoKwWPc0piV_iV4!2e10!4m2!3m1!1s0x2e69ed006dff60bf:0xcbdbacd882bd6557"
+    }
+  ]
+}

@@ -124,9 +124,14 @@ a { text-underline-offset: 0.2em; }
 /* ---------- Fascia (hero brick band) ---------- */
 .fascia { display: grid; }
 .fascia-name { display: grid; }
+/* --font-elud is Holtwood One SC with its text box trimmed to the ink (see layout.tsx). The smaller
+   box sits the baseline 0.016em higher, so the word moves back down by that much and every letter
+   lands exactly where it was. */
 .fascia-elud {
+  font-family: var(--font-elud), var(--font-display);
   font-size: var(--step-display); line-height: var(--leading-display);
   letter-spacing: 0; /* wood type is already wide; no tracking */
+  position: relative; top: 0.016em;
 }
 @media (min-width: 1280px) {
   /* ELUD left; "Cake & Bakery" and the location stacked to its right, on ELUD's baseline. */

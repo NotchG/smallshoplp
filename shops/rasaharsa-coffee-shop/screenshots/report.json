@@ -1,0 +1,536 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7523,
+    "sizes": [
+      {
+        "el": "h1 \"RASAHARSA\"",
+        "fontSize": 50.7,
+        "lineHeight": "50.72px",
+        "textWidth": 304,
+        "pctOfContentWidth": 87
+      },
+      {
+        "el": "h2#kopi-kami \"Kopi kami\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 134,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Kopi Rasaharsa\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 147,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"Kopi Susu Gula Aren\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 143,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Vietnam Drip\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Affogato\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 86,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#menu-andalan \"Menu andalan\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 192,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 42,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Mocktail\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 84,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Tea/Teh\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 77,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Over Classic Ice\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 153,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Frozty\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 64,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#bukan-cuma-kopi \"Bukan cuma kopi\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 231,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"Makan\"",
+        "fontSize": 16,
+        "lineHeight": "24.8px",
+        "textWidth": 47,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 16,
+        "lineHeight": "24.8px",
+        "textWidth": 59,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#tempatnya \"Tempatnya\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 151,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Untuk kerja\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 113,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Di luar\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 66,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Bareng keluarga\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 157,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Untuk acara\"",
+        "fontSize": 20,
+        "lineHeight": "26px",
+        "textWidth": 117,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#kata-mereka \"Kata mereka\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 173,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#kunjungi-kami \"Kunjungi kami\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 198,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 16,
+        "lineHeight": "24.8px",
+        "textWidth": 68,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#hubungi-kami \"Hubungi kami\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 189,
+        "pctOfContentWidth": 54
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7148,
+    "sizes": [
+      {
+        "el": "h1 \"RASAHARSA\"",
+        "fontSize": 68.9,
+        "lineHeight": "68.864px",
+        "textWidth": 413,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#kopi-kami \"Kopi kami\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 173,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Kopi Rasaharsa\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Kopi Susu Gula Aren\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 109,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Vietnam Drip\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 147,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Affogato\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 98,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#menu-andalan \"Menu andalan\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 248,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 48,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Mocktail\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 96,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Tea/Teh\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 89,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Over Classic Ice\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 176,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Frozty\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 74,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#bukan-cuma-kopi \"Bukan cuma kopi\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 298,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"Makan\"",
+        "fontSize": 16.7,
+        "lineHeight": "25.9408px",
+        "textWidth": 50,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 16.7,
+        "lineHeight": "25.9408px",
+        "textWidth": 62,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#tempatnya \"Tempatnya\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 195,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Untuk kerja\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 130,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Di luar\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 75,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Bareng keluarga\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 180,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Untuk acara\"",
+        "fontSize": 22.9,
+        "lineHeight": "29.8272px",
+        "textWidth": 134,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#kata-mereka \"Kata mereka\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 223,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#kunjungi-kami \"Kunjungi kami\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 255,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 16.7,
+        "lineHeight": "25.9408px",
+        "textWidth": 71,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#hubungi-kami \"Hubungi kami\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 244,
+        "pctOfContentWidth": 34
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5712,
+    "sizes": [
+      {
+        "el": "h1 \"RASAHARSA\"",
+        "fontSize": 101.1,
+        "lineHeight": "101.12px",
+        "textWidth": 723,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h2#kopi-kami \"Kopi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 211,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Kopi Rasaharsa\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 176,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Kopi Susu Gula Aren\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 232,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Vietnam Drip\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 154,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Affogato\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 103,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#menu-andalan \"Menu andalan\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 302,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 50,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Mocktail\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 101,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Tea/Teh\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 93,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Over Classic Ice\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 184,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Frozty\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 77,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#bukan-cuma-kopi \"Bukan cuma kopi\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 363,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Makan\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 50,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 63,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h2#tempatnya \"Tempatnya\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 238,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Untuk kerja\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 136,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Di luar\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 79,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Bareng keluarga\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 188,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Untuk acara\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 141,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#kata-mereka \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 272,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#kunjungi-kami \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 311,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 72,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#hubungi-kami \"Hubungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 298,
+        "pctOfContentWidth": 25
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  }
+}

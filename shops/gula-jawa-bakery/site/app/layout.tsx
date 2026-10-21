@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Archivo, Leckerli_One } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import MockupBanner from "@/components/MockupBanner";
@@ -12,6 +13,21 @@ const leckerli = Leckerli_One({
   display: "swap",
   preload: true,
   variable: "--font-leckerli",
+});
+
+// The neon's own copy of Leckerli One (same Google latin file, SIL OFL), with its text box trimmed
+// to the ink plus the tube stroke. The stock box (1.03em up, 0.31em down) is taller than the
+// sign's 1.05 leading, so "Gula" and "Jawa" boxes overlapped although the tubes don't touch.
+const neon = localFont({
+  src: "./fonts/leckerli-one-latin-400.woff2",
+  weight: "400",
+  display: "swap",
+  variable: "--font-neon",
+  declarations: [
+    { prop: "ascent-override", value: "77%" },
+    { prop: "descent-override", value: "28.5%" },
+    { prop: "line-gap-override", value: "0%" },
+  ],
 });
 
 // Archivo variable with the width axis: headings at wdth 87.5, "BAKERY" at wdth 125.
@@ -37,7 +53,7 @@ const tandaiScript = `try{if(/[?&]tandai\\b/.test(location.search))document.docu
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="id" className={`${leckerli.variable} ${archivo.variable}`}>
+    <html lang="id" className={`${leckerli.variable} ${neon.variable} ${archivo.variable}`}>
       <head>
         <script dangerouslySetInnerHTML={{ __html: tandaiScript }} />
       </head>

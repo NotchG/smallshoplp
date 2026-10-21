@@ -1,0 +1,32 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Teman Kita Cafe & Resto",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "Teman Kita Cafe & Resto",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Nurcholis Setiawan",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Chacha Cahyuni",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Reza Kang Kopi",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

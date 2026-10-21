@@ -1,0 +1,305 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7642,
+    "sizes": [
+      {
+        "el": "h1 \"kopimade\"",
+        "fontSize": 82.5,
+        "lineHeight": "82.5px",
+        "textWidth": 318,
+        "pctOfContentWidth": 91
+      },
+      {
+        "el": "span \"kopimade\"",
+        "fontSize": 82.5,
+        "lineHeight": "82.5px",
+        "textWidth": 308,
+        "pctOfContentWidth": 88
+      },
+      {
+        "el": "h2#seduh-h \"Pilih biji, pilih cara seduh\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.838px",
+        "textWidth": 207,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"Biji kopi\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 87,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Cara seduh\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 121,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.838px",
+        "textWidth": 215,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3#minum-h \"Minum\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 79,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3#togo-h \"Es kopimade untuk dibawa pulang\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 209,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3#makan-h \"Makan\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 74,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#tempat-h \"Tempat yang tenang\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.838px",
+        "textWidth": 309,
+        "pctOfContentWidth": 88
+      },
+      {
+        "el": "h3 \"Kata mereka\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 138,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.838px",
+        "textWidth": 224,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "span \"kopimade\"",
+        "fontSize": 32.6,
+        "lineHeight": "32.58px",
+        "textWidth": 122,
+        "pctOfContentWidth": 35
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 30
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6738,
+    "sizes": [
+      {
+        "el": "h1 \"kopimade\"",
+        "fontSize": 139.2,
+        "lineHeight": "139.2px",
+        "textWidth": 537,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "span \"kopimade\"",
+        "fontSize": 139.2,
+        "lineHeight": "139.2px",
+        "textWidth": 520,
+        "pctOfContentWidth": 74
+      },
+      {
+        "el": "h2#seduh-h \"Pilih biji, pilih cara seduh\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9856px",
+        "textWidth": 473,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h3 \"Biji kopi\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 96,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Cara seduh\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 133,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9856px",
+        "textWidth": 270,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3#minum-h \"Minum\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 87,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3#togo-h \"Es kopimade untuk dibawa pulang\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 408,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3#makan-h \"Makan\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 81,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#tempat-h \"Tempat yang tenang\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9856px",
+        "textWidth": 388,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"Kata mereka\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 151,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9856px",
+        "textWidth": 282,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "span \"kopimade\"",
+        "fontSize": 40.9,
+        "lineHeight": "40.896px",
+        "textWidth": 153,
+        "pctOfContentWidth": 22
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 30
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5157,
+    "sizes": [
+      {
+        "el": "h1 \"kopimade\"",
+        "fontSize": 176,
+        "lineHeight": "176px",
+        "textWidth": 678,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "span \"kopimade\"",
+        "fontSize": 176,
+        "lineHeight": "176px",
+        "textWidth": 657,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#seduh-h \"Pilih biji, pilih cara seduh\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 601,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3 \"Biji kopi\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 106,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Cara seduh\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 147,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 344,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3#minum-h \"Minum\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 96,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3#togo-h \"Es kopimade untuk dibawa pulang\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 450,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3#makan-h \"Makan\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 89,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#tempat-h \"Tempat yang tenang\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 299,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Kata mereka\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 167,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 358,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "span \"kopimade\"",
+        "fontSize": 52,
+        "lineHeight": "52px",
+        "textWidth": 194,
+        "pctOfContentWidth": 16
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 30
+  }
+}

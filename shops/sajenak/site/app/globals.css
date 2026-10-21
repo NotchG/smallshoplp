@@ -1,0 +1,245 @@
+@import "tailwindcss";
+
+/* Sajenak tokens (docs/design-brief.md §3–5). Each colour is one of the house's own surfaces. */
+@theme {
+  --color-kapur: #f6f4ef;   /* clapboard white: menu + praise ground, text on Rumput and Malam */
+  --color-arang: #3a2219;   /* charcoal brown: body text on Kapur and Rotan */
+  --color-kopi: #78412f;    /* brand brown from owner-2: headings, prices, illustration line */
+  --color-rumput: #3f7311;  /* turf in shade: hero band only */
+  --color-rotan: #f2bc3e;   /* amber rattan wall: spaces field, primary buttons, sparks, bulbs */
+  --color-malam: #14263f;   /* rooftop night: visit, contact, footer */
+  /* illustration-only tints, never text */
+  --color-susu: #eadcc8;
+  --color-kopisusu: #c49a78;
+  --color-gulaaren: #5a321f;
+  --color-cokelat: #4a2a1e;
+
+  /* 900px is where the 12-column grid starts (design brief §5). */
+  --breakpoint-lg: 56.25rem;
+
+  --font-display: var(--font-fredoka), ui-rounded, "Arial Rounded MT Bold", sans-serif;
+  --font-body: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --grid-gap: 24px;
+
+  --step-display: clamp(4rem, 1.8rem + 9.2vw, 8.5rem);      /* 64 → 136px, "Sajenak" only */
+  --step-head: clamp(2rem, 1.3rem + 2.8vw, 3.5rem);         /* 32 → 56px, section h2 */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem);    /* 22 → 28px */
+  --step-body: clamp(1.0625rem, 1.03rem + 0.15vw, 1.125rem);/* 17 → 18px */
+  --step-small: 0.8125rem;                                  /* 13px */
+
+  --leading-display: 0.9;
+  --leading-head: 1.1;
+  --leading-lead: 1.2;
+  --leading-body: 1.55;
+
+  --radius-photo: 12px;
+  --ring: var(--color-kopi);
+  --mark-size: clamp(4rem, 1.8rem + 9.2vw, 8.5rem);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 40px; --section-y: 112px; }
+}
+
+html {
+  background: var(--color-kapur);
+  color: var(--color-arang);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-rotan); color: var(--color-arang); }
+
+/* Component classes sit in a layer so Tailwind utilities can still override them. */
+@layer components {
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-family: var(--font-display); font-weight: 600; font-size: var(--step-display); line-height: var(--leading-display); letter-spacing: -0.02em; }
+.t-head    { font-family: var(--font-display); font-weight: 600; font-size: var(--step-head); line-height: var(--leading-head); letter-spacing: -0.01em; text-wrap: balance; }
+.t-lead    { font-family: var(--font-display); font-weight: 500; font-size: var(--step-lead); line-height: var(--leading-lead); text-wrap: balance; }
+.t-body    { font-size: var(--step-body); line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small); line-height: 1.4; font-weight: 600; }
+
+.measure { max-width: 62ch; }
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* 12-column grid from the design brief (1200px, 24px gap). Phone is one column. */
+.grid-12 {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--grid-gap);
+}
+@media (min-width: 900px) {
+  .grid-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+}
+
+/* Section fields: full-bleed grounds. Each sets its own focus-ring colour (TRD). */
+.field-kapur  { background: var(--color-kapur);  color: var(--color-arang); --ring: var(--color-kopi); }
+.field-rumput { background: var(--color-rumput); color: var(--color-kapur); --ring: var(--color-rotan); }
+.field-rotan  { background: var(--color-rotan);  color: var(--color-arang); --ring: var(--color-arang); }
+.field-malam  { background: var(--color-malam);  color: var(--color-kapur); --ring: var(--color-rotan); }
+
+:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+a { text-underline-offset: 0.22em; text-decoration-thickness: 1.5px; }
+
+/* Photos: 12px radius, no borders, no shadows. */
+.photo { border-radius: var(--radius-photo); overflow: hidden; display: block; width: 100%; height: auto; }
+.photo-fill { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* Pill buttons: min height 48px, Figtree 600, 150ms colour, press 0.98. */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.55em;
+  min-height: 48px; padding: 0.7rem 1.35rem;
+  border-radius: 999px; border: 2px solid transparent;
+  font-family: var(--font-body); font-weight: 600; font-size: var(--step-body); line-height: 1.2;
+  text-decoration: none; white-space: nowrap;
+  transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out, transform 150ms ease-out;
+}
+.btn:active { transform: scale(0.98); }
+.btn svg { width: 1.15em; height: 1.15em; flex: none; }
+.btn-primary { background: var(--color-rotan); color: var(--color-arang); border-color: var(--color-rotan); }
+.btn-primary:hover { background: #f7cd6a; border-color: #f7cd6a; }
+.btn-ghost { background: transparent; color: var(--color-kapur); border-color: var(--color-kapur); }
+.btn-ghost:hover { background: var(--color-kapur); color: var(--rumput-or-malam, var(--color-malam)); }
+.field-rumput .btn-ghost:hover { color: var(--color-rumput); }
+
+/* Hero */
+.hero-photo {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--color-rumput);
+}
+.hero-photo img { object-position: 50% 70%; }
+/* The lawn melts into the Rumput band: no hard seam. */
+.hero-photo::after {
+  content: ""; position: absolute; inset: auto 0 0 0; height: 34%;
+  background: linear-gradient(to bottom, rgb(63 115 17 / 0) 0%, rgb(63 115 17 / 0.55) 45%, var(--color-rumput) 100%);
+  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .hero-photo { aspect-ratio: auto; height: min(62vh, 620px); min-height: 380px; }
+  .hero-photo img { object-position: 50% 34%; }
+  .hero-photo::after { height: 96px; }
+}
+.hero-band { padding-block: 4px 48px; }
+@media (min-width: 768px) { .hero-band { padding-block: 8px 64px; } }
+
+.brand-row { display: flex; align-items: center; gap: 14px; }
+.brand-mark { width: var(--mark-size); height: var(--mark-size); flex: none; color: var(--color-kapur); }
+.brand-name { white-space: nowrap; }
+@media (max-width: 379px) {
+  .brand-row { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .brand-mark { --mark-size: 72px; }
+}
+
+/* Clink start pose before hydration (see layout.tsx). GSAP takes over from here. */
+.clink-pending #cup-l { transform-box: fill-box; transform-origin: 50% 100%; transform: translateX(-8px) rotate(-16deg); }
+.clink-pending #cup-r { transform-box: fill-box; transform-origin: 50% 100%; transform: translateX(8px) rotate(16deg); }
+.clink-pending #sparks { opacity: 0; }
+
+/* Today's hours: both lines always render, so the swap after mount never shifts layout. */
+.dot { display: inline-block; width: 0.62em; height: 0.62em; border-radius: 999px; background: var(--color-rotan); flex: none; }
+
+/* Menu shelf: four cups standing on one Kopi line (desktop). */
+/* The cup stands on y = 212 of its 220-unit box; the shelf line sits under it. */
+  .shelf { position: relative; --cup-w: 176px; --shelf-y: calc(var(--cup-w) * 212 / 160 - 1.5px); }
+@media (min-width: 900px) {
+  .shelf::before {
+    content: ""; position: absolute; left: 0; right: 0; top: var(--shelf-y, 220px);
+    height: 3px; border-radius: 3px; background: var(--color-kopi);
+  }
+}
+.drink-art { width: 96px; height: auto; flex: none; }
+@media (min-width: 900px) { .drink-art { width: var(--cup-w); } }
+
+.tag {
+  display: inline-flex; align-items: center; min-height: 24px; padding: 0 10px;
+  border: 1.5px solid var(--color-kopi); border-radius: 999px; color: var(--color-kopi);
+  font-size: var(--step-small); font-weight: 600; line-height: 1;
+}
+
+/* Praise themes: a short Kopi rule above each, not a side border. */
+.theme-rule { display: block; width: 40px; height: 3px; border-radius: 3px; background: var(--color-kopi); margin-bottom: 14px; }
+
+/* String lights (static). The wire stretches; the bulbs keep their shape. */
+.lights { position: relative; height: 72px; pointer-events: none; }
+.lights svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.bulb { position: absolute; width: 12px; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; }
+.bulb::before { content: ""; width: 2px; height: 9px; background: rgb(246 244 239 / 0.45); }
+.bulb::after { content: ""; width: 12px; height: 16px; border-radius: 50% 50% 46% 46% / 40% 40% 60% 60%; background: var(--color-rotan); }
+
+.map-frame { position: relative; aspect-ratio: 4 / 3; border-radius: var(--radius-photo); overflow: hidden; background: #22344d; }
+@media (min-width: 900px) { .map-frame { aspect-ratio: 16 / 10; } }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+.hours-table { border-collapse: collapse; }
+.hours-table th, .hours-table td { padding: 10px 0; text-align: left; vertical-align: middle; }
+.hours-table th { padding-right: 24px; white-space: nowrap; }
+.hours-table tr + tr th, .hours-table tr + tr td { border-top: 1px solid rgb(246 244 239 / 0.22); }
+.today-pill {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 24px; padding: 0 10px;
+  border-radius: 999px; background: var(--color-rotan); color: var(--color-arang);
+  font-size: var(--step-small); font-weight: 600; line-height: 1;
+}
+
+.footer-muted { color: #c9cbcc; } /* Kapur 80% on Malam, 9.3:1 */
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small); font-weight: 600; line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-arang); color: var(--color-kapur);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active { transform: none; }
+}
+
+@layer components {
+  .map-fallback {
+    position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+    color: var(--color-rotan);
+    background: #1d3150;
+  }
+  .map-fallback span { color: var(--color-kapur); }
+}
+
+@layer components {
+  /* Clears the display face's descenders (the "j") at every size. */
+  .brand-tagline { margin-top: calc(var(--step-display) * 0.18); }
+}
+
+@layer components {
+  /* Phone: the two hero buttons share a row when they fit, else each takes the full width. */
+  .hero-actions .btn { flex: 1 1 auto; }
+  @media (min-width: 900px) { .hero-actions .btn { flex: 0 0 auto; } }
+}

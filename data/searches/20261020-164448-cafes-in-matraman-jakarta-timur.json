@@ -1,0 +1,703 @@
+{
+  "query": "cafes in Matraman, Jakarta Timur",
+  "includedType": "cafe",
+  "fetched_at": "2026-10-20T16:44:53Z",
+  "count": 40,
+  "places": [
+    {
+      "id": "ChIJfUPZE_b1aS4Rku78dbEnM6Q",
+      "formattedAddress": "Jl. Matraman Raya, RT.2/RW.3, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=11831844289174630034&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://instagram.com/kaizenheritage",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1554,
+      "displayName": {
+        "text": "Kaizen Heritage 3.0 / Kaizen Matraman",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ7XVkpDT1aS4Ry8UWNYObSCc",
+      "formattedAddress": "Jl. Taman Matraman Timur No.11-11A, RT.8/RW.4, Pegangsaan, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10320, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=2830683353636062667&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://tanatapcoffee.id/tanatap-matraman/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 5474,
+      "displayName": {
+        "text": "Tanatap Coffee Matraman",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJj7CFCFL1aS4RK66JSaSkWuI",
+      "formattedAddress": "Jl. Pandan Raya No.5, RT.1/RW.9, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=16310530025991024171&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 369,
+      "displayName": {
+        "text": "Bersua di Matraman",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJiyWtYDz1aS4RyWVm2CL0m6I",
+      "formattedAddress": "Jl. Matraman Raya No.50, RT.12/RW.2, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=11717227286031132105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 196,
+      "displayName": {
+        "text": "Smiljan Makarya",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJkRJv5uf1aS4RLmWCgcQy1bY",
+      "formattedAddress": "Jl. Matraman Raya No.89, RT.1/RW.5, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13140, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=13174492104510039342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 76,
+      "displayName": {
+        "text": "Candi Coffee and Eatery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJrQBNoGj1aS4RDQyV1OkjIjI",
+      "formattedAddress": "Jl. Utan Kayu Raya No.30, RT.2/RW.5, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4,
+      "googleMapsUri": "https://maps.google.com/?cid=3612489338305448973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 145,
+      "displayName": {
+        "text": "INSOMNIA JAKARTA",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJaSFXwsr1aS4RyF3c-igQOSs",
+      "formattedAddress": "Jl. Matraman Raya No.148, RT.1/RW.4, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=3114538385496890824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://linktr.ee/kedebage",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 135,
+      "displayName": {
+        "text": "Kedé Bage",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJQQ4fpHT1aS4Rf8-bTTsF62E",
+      "formattedAddress": "Jl. Wahab No.1 No.41, RT.2/RW.9, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=7055738993469280127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://oetankoffie.wixsite.com/website",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 162,
+      "displayName": {
+        "text": "Oetan Koffie",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJfWRsMPz1aS4RwK1yeeLUciI",
+      "formattedAddress": "Jl. Utan Kayu Raya No.80, RT.7/RW.5, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=2482280413799820736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 166,
+      "displayName": {
+        "text": "Pintoe Kayoe Koffie",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJpYOI7zj1aS4Rl_eqQV8i_NA",
+      "formattedAddress": "Jl. Pisangan Baru Tengah No.16, RT.8/RW.15, Pisangan Baru, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13110, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=15058949046539057047&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/coffeetamin.bonser",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 74,
+      "displayName": {
+        "text": "Coffeetamin Bonser",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJw7Ys2A71aS4RWpI6WEYDL7s",
+      "formattedAddress": "Ruko Matraman Jakarta Timur, Jl. Matraman Raya No.212 Unit C - D, RT.4/RW.3, Bali Mester, Kecamatan Jatinegara, Jakarta, Daerah Khusus Ibukota Jakarta 13320, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=13488003009660752474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.kopikenangan.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 265,
+      "displayName": {
+        "text": "Kopi Kenangan - Ruko Matraman Jakarta Timur",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJNTKz2fT0aS4REUx9Lt-w65A",
+      "formattedAddress": "Komunitas, Jl. Utan Kayu Raya No.68B 68-H, RT.13/RW.5, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=10442634633592785937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://bit.ly/KomunitasUtanKayu",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 729,
+      "displayName": {
+        "text": "Kedai Tempo",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJCRpfUxz1aS4RCtzQFgu_2Aw",
+      "formattedAddress": "Jl. Matraman Raya No.3, RT.12/RW.2, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=925699777772968970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 54,
+      "displayName": {
+        "text": "KKD Matraman food & coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJExQ7NI_0aS4R5FlBnGjqEjU",
+      "formattedAddress": "Jl. Kramat Asem No.06, RT.2/RW.6, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=3824376768609999332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 785,
+      "displayName": {
+        "text": "Teman Kita Cafe & Resto",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ8aNSYQD1aS4RprMjFLl8QQI",
+      "formattedAddress": "Jl. Kayu Manis Timur No.17, RT.14/RW.13, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13130, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=162548195910726566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 84,
+      "displayName": {
+        "text": "Munno Tea & Coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Tea House",
+        "languageCode": "en-US"
+      },
+      "primaryType": "tea_house"
+    },
+    {
+      "id": "ChIJDTF5-YH1aS4RV8o7UJFFDuM",
+      "formattedAddress": "Jl. Pisangan Baru Utara No.3 9, RT.10/RW.12, Pisangan Baru, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13110, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=16361090986702260823&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 47,
+      "displayName": {
+        "text": "The Magena Cafe",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJi2EkyBf1aS4RWpSKyK4-SCI",
+      "formattedAddress": "Komplek TK SD Santo Antonius,Yayasan Widia Dharma Mardiwijana, Jl. Matraman Raya No.119, RT.19/RW.8, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13140, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=2470293316022473818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 16,
+      "displayName": {
+        "text": "Primakarsa Cafe and Coworking Space",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJEw_h2UT1aS4RXeCcsvY06qk",
+      "formattedAddress": "Matraman, Jl. Pengayoman I Komplek kehakiman No.68, RT.10/RW.8, Utan Kayu Utara, Kec, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=12243656771123339357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://grab.onelink.me/2695613898?pid=inappsharing&c=6-C36HRTLDGXCHLA&is_retargeting=true&af_dp=grab://open?screenType=GRABFOOD&sourceID=A4pcqCZkS4&merchantIDs=6-C36HRTLDGXCHLA&af_force_deeplink=true&af_web_dp=https://www.grab.com/download",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 28,
+      "displayName": {
+        "text": "Yode' Coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJi2MlN031aS4RFF_wVR3NcMs",
+      "formattedAddress": "Jl. Galur Sari No.21, RT.5/RW.7, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=14659442312970526484&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 76,
+      "displayName": {
+        "text": "Kontraks.coffeeslowbar",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJOVJoKkz1aS4RYqZaX6ZNEkA",
+      "formattedAddress": "Jl. Slamet Riyadi No.9-21, RT.8/RW.4, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=4616837944967865954&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 316,
+      "displayName": {
+        "text": "Kopitro",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJqfrBPAD1aS4R08blMYTh9dI",
+      "formattedAddress": "Jl. Kayu Manis Timur No.7B, RT.13/RW.13, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=15201304075148052179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 31,
+      "displayName": {
+        "text": "Kopi Kayumanis",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJW1nOZAD1aS4RMqLvONafHxQ",
+      "formattedAddress": "Jl. Kayu Manis Timur No.17, RT.14/RW.13, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13130, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=1450053347463635506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 11,
+      "displayName": {
+        "text": "Matcha Kyoto - Matraman",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Stand",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_stand"
+    },
+    {
+      "id": "ChIJjcfOnlr1aS4RZSKD2_Y26wk",
+      "formattedAddress": "Jl. Kelapa Tinggi No.6, RT.7/RW.8, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=714725399741014629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://s.id/kopihumanmatraman",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 19,
+      "displayName": {
+        "text": "Kopi Human Matraman",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJqcyUcgCLaS4RU7OavVG_eHU",
+      "formattedAddress": "QVW8+GV6, RT.11/RW.12, South Utan Kayu, Matraman, East Jakarta City, Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=8464725857437135699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 10,
+      "displayName": {
+        "text": "Selicious",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJy6eJXDT1aS4R0rxt4kVT4Os",
+      "formattedAddress": "1, RT.1/RW.2, North Utan Kayu, Matraman, East Jakarta City, Jakarta 13120, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=16996676553312943314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 410,
+      "displayName": {
+        "text": "TOMORO COFFEE - SPBU PRAMUKA",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ23P65lT1aS4RGz6u9LfjEBA",
+      "formattedAddress": "Jl. Utan Kayu Raya No.69 Lt 1, RT.1/RW.10, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=1157675483457797659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/ChesterCoffee",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 247,
+      "displayName": {
+        "text": "Chester Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ49dbis31aS4R2ZtZ0JdlCmE",
+      "formattedAddress": "Jl. Pisangan Baru Utara, RT.11/RW.7, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13110, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=6992513074156116953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/kops.ay_coffee/?hl=en",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 79,
+      "displayName": {
+        "text": "Kops.Ay_Coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJk4cscxb1aS4REr3YZv2QGRI",
+      "formattedAddress": "Jl. Letjen Suprapto No.40, RT.12/RW.4, Cemp. Baru, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10640, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=1304232985127075090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://instagram.com/kaizenheritage",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 3518,
+      "displayName": {
+        "text": "Kaizen Heritage 4.0 / Kaizen Heritage Cempaka Putih",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJRc3aJND1aS4RRK5K9HI7frw",
+      "formattedAddress": "Jl. Rawamangun Muka Timur No.80, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=13582358891106840132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 43,
+      "displayName": {
+        "text": "MT Point - Brew Crunch & Style",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJKXymfCf1aS4RrJ5ATGnUYkk",
+      "formattedAddress": "Jl. Galur Sari Timur No.62, RT.1/RW.2, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13130, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=5288022461202341548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 70,
+      "displayName": {
+        "text": "Taragak Ka Teras",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ1_1s2en1aS4RqA3bcPTD5fY",
+      "formattedAddress": "Slamet Riyadi 1 No.3A, RT.5/RW.4, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=17790841357629853096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 259,
+      "displayName": {
+        "text": "Beck and Ford Matraman | barber.cafe",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Barber shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "barber_shop"
+    },
+    {
+      "id": "ChIJN7-OUHv0aS4RQJCREpCqKE4",
+      "formattedAddress": "Jl. Matraman Raya No.107 C, RT.16/RW.8, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13140, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=5631938869790347328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 190,
+      "displayName": {
+        "text": "Jas Kopi",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJqVChTgD1aS4RF_vaGxktXJM",
+      "formattedAddress": "QVV8+H99, Jalan Kebon Kelapa, RT.11/RW.11, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=10618411607297555223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Seduh rempah RSUD matraman",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJGVSN3fnzaS4R3w9qNDpIbjs",
+      "formattedAddress": "Hotel Rasuna Icon Lt. 3A, Jalan Karet Pedurenan No.3, Setiabudi, Jl. Karet Pedurenan No.3, RT.6/RW.7, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=4282439710500589535&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.skygardencafe.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 489,
+      "displayName": {
+        "text": "Sky Garden Cafe",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJZ3frHBX0aS4Rb3PvKlxkrHk",
+      "formattedAddress": "Jl. Surabaya No.20, RT.15/RW.5, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=8767492921603617647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.giyanticoffeeroastery.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 4414,
+      "displayName": {
+        "text": "Giyanti Coffee Roastery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJU5FNSwD1aS4RU6yW5MBUC_E",
+      "formattedAddress": "Jl. Utan Kayu Raya No.2, RT.2/RW.5, Utan Kayu Utara, Jakarta, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=17369069575329983571&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 11,
+      "displayName": {
+        "text": "Law Up Coffee & Roastery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJQeeSDGb0aS4R8EzRDJXCkPI",
+      "formattedAddress": "Jl. Matraman Raya No.18 2, RT.2/RW.1, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=17478684099245853936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.starbucks.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1340,
+      "displayName": {
+        "text": "STARBUCKS • Matraman",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJrb-pIdn1aS4RSTt744m5alc",
+      "formattedAddress": "Istana Peradaban Balai Pustaka, Jl. Bunga No.8 3, RT.3/RW.9, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13140, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=6299051030709222217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 143,
+      "displayName": {
+        "text": "Kafe Sastra Balai Pustaka",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJw6_hZwD1aS4RNQHigKebOtI",
+      "formattedAddress": "Jl. Kayu Ramin No.58, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13130, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=15148591440338223413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 6,
+      "displayName": {
+        "text": "Classic Coffee Shop & Cafe",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJiUTrD131aS4RLU5O_a6DqKc",
+      "formattedAddress": "Jl. Matraman Raya No.21 16, RT.13/RW.7, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13130, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=12081050788018671149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 5,
+      "displayName": {
+        "text": "Ti.Ba.Re.To",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    }
+  ]
+}

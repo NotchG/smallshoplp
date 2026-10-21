@@ -1,0 +1,369 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–§4.
+   Each section is one painted wall in one colour, hard edges between walls. */
+@theme {
+  --color-terakota: #b5522e; /* garage wall */
+  --color-malam: #18213d;    /* ink, night, frames */
+  --color-tembok: #faf8f3;   /* white rooftop wall */
+  --color-rumput: #1e7a43;   /* sign green */
+  --color-kuning: #f2b630;   /* mural sunflower */
+  --color-aren: #4a2a18;     /* coffee and wood, illustrations only */
+  --color-susu: #ead7b5;     /* illustration tint only */
+  --color-rotan: #c9955a;    /* illustration tint only */
+}
+@theme inline {
+  --font-display: var(--font-bungee), "Arial Black", sans-serif;
+  --font-body: var(--font-rubik), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+
+  --step-display: clamp(3.25rem, 1rem + 5.2vw, 5.5rem);  /* 52 → 88 */
+  --step-head: clamp(2rem, 1.25rem + 3vw, 3.5rem);       /* 32 → 56 */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.75vw, 1.625rem); /* 22 → 26 */
+  --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem); /* 17 → 19 */
+  --step-small: 0.8125rem;                               /* 13 */
+
+  --leading-display: 1.05; /* the name wraps to two lines */
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  --radius: 6px;
+  --focus: var(--color-malam);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 32px; --section-y: 96px; }
+}
+@media (min-width: 1024px) {
+  :root { --gutter: 40px; --section-y: 112px; }
+}
+
+html {
+  background: var(--color-malam); /* matches the footer when the page overscrolls */
+  color: var(--color-malam);
+  scrollbar-color: var(--color-terakota) var(--color-tembok);
+}
+body {
+  background: var(--color-tembok);
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-kuning); color: var(--color-malam); }
+
+@layer components {
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.3; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.4; }
+
+.font-display { text-transform: uppercase; font-weight: 400; letter-spacing: 0.01em; }
+h1, h2 { text-wrap: balance; }
+p, li, h3 { text-wrap: pretty; }
+.measure { max-width: 60ch; }
+.nowrap { white-space: nowrap; }
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Painted walls: background, text colour and the focus-ring colour for that ground. */
+.wall-terakota { background: var(--color-terakota); color: var(--color-tembok); --focus: var(--color-tembok); }
+.wall-malam    { background: var(--color-malam);    color: var(--color-tembok); --focus: var(--color-kuning); }
+.wall-tembok   { background: var(--color-tembok);   color: var(--color-malam);  --focus: var(--color-malam); }
+.wall-rumput   { background: var(--color-rumput);   color: var(--color-tembok); --focus: var(--color-tembok); }
+.wall-kuning   { background: var(--color-kuning);   color: var(--color-malam);  --focus: var(--color-malam); }
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Links in running text */
+.link {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.22em;
+  font-weight: 600;
+}
+.link:hover { text-decoration-thickness: 3px; }
+
+.skip-link {
+  position: absolute; left: 12px; top: -100px; z-index: 50;
+  background: var(--color-kuning); color: var(--color-malam);
+  padding: 10px 16px; border-radius: var(--radius); font-weight: 600;
+}
+.skip-link:focus { top: 12px; }
+
+/* ---------- Sign plates (labels) ---------- */
+.plate {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 8px 12px 7px;
+  border-radius: var(--radius);
+  font-family: var(--font-display);
+  font-size: var(--step-small);
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.plate::before { /* painted inset line in the text colour */
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border: 2px solid currentColor;
+  border-radius: 3px;
+  pointer-events: none;
+}
+.plate-garage  { background: var(--color-tembok); color: var(--color-malam); }
+.plate-rooftop { background: var(--color-rumput); color: var(--color-tembok); }
+.plate svg { width: 0.95em; height: 0.95em; flex: none; }
+
+/* ---------- Plate buttons (actions) ---------- */
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: var(--step-body);
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 180ms ease-out;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 2px solid currentColor;
+  border-radius: 3px;
+  opacity: 0.9;
+  pointer-events: none;
+}
+.btn svg { width: 18px; height: 18px; flex: none; }
+.btn:hover { transform: translateY(-2px); }
+.btn:active { transform: translateY(0); }
+.btn-green { background: var(--color-rumput); color: var(--color-tembok); }
+.btn-white { background: var(--color-tembok); color: var(--color-malam); }
+.btn-bordered { border: 2px solid var(--color-tembok); }
+@media (min-width: 768px) { .btn { padding-inline: 20px; } }
+
+/* ---------- Nav ---------- */
+.nav-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 44px; padding-inline: 6px;
+  font-weight: 500; text-decoration: none;
+  text-underline-offset: 0.3em; text-decoration-thickness: 2px;
+}
+.nav-link:hover { text-decoration-line: underline; }
+.nav-link svg { width: 16px; height: 16px; }
+
+/* ---------- Today chip: a little chalkboard ---------- */
+.today-chip {
+  position: relative;
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 12px 16px 11px;
+  background: var(--color-malam); color: var(--color-tembok);
+  border-radius: var(--radius);
+  font-family: var(--font-display);
+  font-size: var(--step-small);
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.today-chip::before {
+  content: ""; position: absolute; inset: 4px;
+  border: 2px solid var(--color-tembok); border-radius: 3px; opacity: 0.85;
+  pointer-events: none;
+}
+.today-chip .bulb {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--color-kuning); flex: none;
+}
+
+/* ---------- Hero garage window ---------- */
+.garage-window { position: relative; }
+.garage-housing {
+  height: 14px;
+  margin-inline: -8px;
+  background: var(--color-malam);
+  border-radius: 3px 3px 0 0;
+}
+.garage-frame {
+  position: relative;
+  overflow: hidden;
+  border: 10px solid var(--color-malam);
+  border-top-width: 6px;
+  background: var(--color-malam);
+}
+.garage-plate { position: absolute; left: -12px; bottom: -12px; z-index: 3; }
+
+/* Exact crop of owner-1.jpg (1160×522): keeps the left part of the rooftop,
+   below the power lines, without the chalkboard (right ~25%).
+   Phone 4:3 crop = x0 y112 w547 h410. ≥768 3:2 crop = x0 y112 w615 h410. */
+.crop-rooftop { position: relative; aspect-ratio: 4 / 3; }
+.crop-rooftop img {
+  position: absolute; max-width: none; object-fit: cover;
+  left: 0; top: -27.32%;
+  width: 212.1%; height: 127.32%;
+}
+@media (min-width: 768px) {
+  .crop-rooftop { aspect-ratio: 3 / 2; }
+  .crop-rooftop img { width: 188.6%; }
+}
+
+/* The rolling shutter: shown only when the head script added .motion-ok
+   (JS on, no reduced motion). The CSS failsafe hides it at 3 s if GSAP never runs. */
+.shutter {
+  display: none;
+  position: absolute; inset: 0; z-index: 2;
+  background-color: var(--color-malam);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 13px,
+    rgb(250 248 243 / 0.12) 13px 14px
+  );
+}
+.shutter::before { /* bottom bar */
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 16px;
+  background: var(--color-malam);
+  border-top: 2px solid rgb(250 248 243 / 0.22);
+}
+.shutter::after { /* handle */
+  content: ""; position: absolute; left: 50%; bottom: 4px; width: 44px; height: 6px;
+  margin-left: -22px; border-radius: 3px;
+  background: rgb(250 248 243 / 0.45);
+}
+.motion-ok .shutter {
+  display: block;
+  animation: shutter-failsafe 0s linear 3s forwards;
+}
+@keyframes shutter-failsafe { to { visibility: hidden; } }
+
+/* ---------- Mural band (under the hero only) ---------- */
+.mural-band { display: block; width: 100%; height: 28px; background: var(--color-kuning); }
+
+/* ---------- Floor cards ---------- */
+.floor-card { border-radius: var(--radius); overflow: hidden; }
+.scene { display: block; width: 100%; height: auto; }
+
+/* ---------- Menu ---------- */
+.photo-frame {
+  background: var(--color-tembok);
+  padding: 8px;
+  border-radius: var(--radius);
+}
+.crop-coffee { position: relative; aspect-ratio: 5 / 6; overflow: hidden; border-radius: 2px; }
+.crop-coffee img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: 50% 100%;
+}
+.bubble {
+  position: relative;
+  display: inline-block;
+  padding: 16px 22px 15px;
+  background: var(--color-malam); color: var(--color-tembok);
+  border-radius: 26px;
+  font-family: var(--font-display);
+  font-size: var(--step-lead);
+  line-height: 1.12;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 11.5em;
+  text-wrap: balance;
+}
+.bubble::after { /* tail toward the cup */
+  content: ""; position: absolute;
+  right: 26%; bottom: -20px;
+  width: 30px; height: 24px;
+  background: var(--color-malam);
+  clip-path: polygon(0 0, 100% 0, 78% 100%);
+}
+.menu-card { background: var(--color-tembok); color: var(--color-malam); border-radius: var(--radius); }
+.tile {
+  flex: none;
+  width: 96px; height: 96px;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.tile svg { display: block; width: 100%; height: 100%; }
+@media (min-width: 1024px) {
+  .tile { width: 120px; height: 120px; }
+}
+
+/* ---------- Chalkboard easel ---------- */
+.easel { position: relative; max-width: 440px; margin-inline: auto; padding-bottom: 44px; }
+.easel-board {
+  position: relative; z-index: 1;
+  background: var(--color-malam);
+  border: 12px solid var(--color-terakota);
+  border-radius: var(--radius);
+  padding: 28px 24px 30px;
+  text-align: center;
+}
+.easel-leg {
+  position: absolute; bottom: 0; width: 12px; height: 64px;
+  background: var(--color-terakota); border-radius: 0 0 3px 3px;
+}
+.easel-leg.left  { left: 24%;  transform: rotate(7deg);  transform-origin: top center; }
+.easel-leg.right { right: 24%; transform: rotate(-7deg); transform-origin: top center; }
+.chalk-rule { height: 2px; width: 64px; margin: 14px auto; background: var(--color-tembok); opacity: 0.5; border-radius: 1px; }
+
+/* ---------- Praise ---------- */
+.dot { width: 12px; height: 12px; border-radius: 50%; background: var(--color-kuning); flex: none; }
+
+/* ---------- Visit ---------- */
+.map-frame { position: relative; aspect-ratio: 4 / 3; border: 8px solid var(--color-malam); border-radius: var(--radius); overflow: hidden; background: var(--color-malam); }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.step-num {
+  flex: none;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; border-radius: var(--radius);
+  background: var(--color-malam); color: var(--color-tembok);
+  font-family: var(--font-display); font-size: var(--step-small); line-height: 1;
+}
+
+/* ---------- Contact: line-drawn leaves from the garage wall ---------- */
+.leaves { position: absolute; bottom: 0; pointer-events: none; color: var(--color-tembok); }
+.leaves-left  { left: max(8px, calc(50% - 680px)); }
+.leaves-right { right: max(8px, calc(50% - 680px)); }
+} /* end @layer components */
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px; line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-malam); color: var(--color-tembok);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:hover { transform: none; }
+}

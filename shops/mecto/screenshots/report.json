@@ -1,0 +1,515 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7316,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Mecto\"",
+        "fontSize": 72.3,
+        "lineHeight": "65.106px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 36.6,
+        "lineHeight": "40.26px",
+        "textWidth": 230,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"Nachos\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 77,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Buttermilk Chicken\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 195,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h3 \"Kopi Gula Aren\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 152,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Juga ada\"",
+        "fontSize": 16,
+        "lineHeight": "24.8px",
+        "textWidth": 67,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#jam-title \"Dari pagi sampai malam\"",
+        "fontSize": 36.6,
+        "lineHeight": "40.26px",
+        "textWidth": 234,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h3 \"Pagi\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 45,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Siang\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 58,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Malam\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 70,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#tempat-title \"Dalam & luar\"",
+        "fontSize": 36.6,
+        "lineHeight": "40.26px",
+        "textWidth": 205,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"Ruang dalam\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 134,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Halaman dalam\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 159,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Taman\"",
+        "fontSize": 22.3,
+        "lineHeight": "29.016px",
+        "textWidth": 66,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#nyaman-title \"Nyaman untuk semua\"",
+        "fontSize": 36.6,
+        "lineHeight": "40.26px",
+        "textWidth": 349,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h3 \"Kerja seharian\"",
+        "fontSize": 16,
+        "lineHeight": "24.8px",
+        "textWidth": 105,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Keluarga\"",
+        "fontSize": 16,
+        "lineHeight": "24.8px",
+        "textWidth": 66,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Musholla\"",
+        "fontSize": 16,
+        "lineHeight": "24.8px",
+        "textWidth": 68,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Parkir\"",
+        "fontSize": 16,
+        "lineHeight": "24.8px",
+        "textWidth": 44,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 36.6,
+        "lineHeight": "40.26px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 36.6,
+        "lineHeight": "40.26px",
+        "textWidth": 227,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h3#jam-buka-title \"Jam buka\"",
+        "fontSize": 16,
+        "lineHeight": "24.8px",
+        "textWidth": 71,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 36.6,
+        "lineHeight": "40.26px",
+        "textWidth": 223,
+        "pctOfContentWidth": 64
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 14
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7241,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Mecto\"",
+        "fontSize": 89.7,
+        "lineHeight": "80.7552px",
+        "textWidth": 253,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 44.2,
+        "lineHeight": "48.576px",
+        "textWidth": 278,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Nachos\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 87,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Buttermilk Chicken\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 222,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Kopi Gula Aren\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 173,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Juga ada\"",
+        "fontSize": 16.7,
+        "lineHeight": "25.9408px",
+        "textWidth": 70,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#jam-title \"Dari pagi sampai malam\"",
+        "fontSize": 44.2,
+        "lineHeight": "48.576px",
+        "textWidth": 467,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"Pagi\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 51,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Siang\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 65,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Malam\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 79,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#tempat-title \"Dalam & luar\"",
+        "fontSize": 44.2,
+        "lineHeight": "48.576px",
+        "textWidth": 247,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Ruang dalam\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 152,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Halaman dalam\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 181,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Taman\"",
+        "fontSize": 25.3,
+        "lineHeight": "32.9472px",
+        "textWidth": 75,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#nyaman-title \"Nyaman untuk semua\"",
+        "fontSize": 44.2,
+        "lineHeight": "48.576px",
+        "textWidth": 421,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Kerja seharian\"",
+        "fontSize": 16.7,
+        "lineHeight": "25.9408px",
+        "textWidth": 110,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Keluarga\"",
+        "fontSize": 16.7,
+        "lineHeight": "25.9408px",
+        "textWidth": 69,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Musholla\"",
+        "fontSize": 16.7,
+        "lineHeight": "25.9408px",
+        "textWidth": 71,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Parkir\"",
+        "fontSize": 16.7,
+        "lineHeight": "25.9408px",
+        "textWidth": 46,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 44.2,
+        "lineHeight": "48.576px",
+        "textWidth": 247,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 44.2,
+        "lineHeight": "48.576px",
+        "textWidth": 274,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3#jam-buka-title \"Jam buka\"",
+        "fontSize": 16.7,
+        "lineHeight": "25.9408px",
+        "textWidth": 74,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 44.2,
+        "lineHeight": "48.576px",
+        "textWidth": 269,
+        "pctOfContentWidth": 38
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 14
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5896,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Mecto\"",
+        "fontSize": 96,
+        "lineHeight": "86.4px",
+        "textWidth": 271,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 352,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Nachos\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 96,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Buttermilk Chicken\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 245,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Kopi Gula Aren\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 191,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Juga ada\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 76,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#jam-title \"Dari pagi sampai malam\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 358,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Pagi\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 56,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Siang\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 72,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Malam\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 88,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#tempat-title \"Dalam & luar\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 313,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Ruang dalam\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 168,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Halaman dalam\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 200,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Taman\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 83,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#nyaman-title \"Nyaman untuk semua\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 319,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Kerja seharian\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 118,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Keluarga\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 74,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Musholla\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 76,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Parkir\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 50,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 313,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 348,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3#jam-buka-title \"Jam buka\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 79,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 341,
+        "pctOfContentWidth": 28
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 14
+  }
+}

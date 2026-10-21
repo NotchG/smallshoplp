@@ -1,0 +1,26 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Indokopi",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "jihan fthrahmah",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Syifa Fauziyah",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Syafara",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "Marhaba! Duduk Enak Makan Enak",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Marhaba! Duduk Enak Makan Enak",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Din",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

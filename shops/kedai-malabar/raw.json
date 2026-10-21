@@ -1,0 +1,374 @@
+{
+  "id": "ChIJdRMZ9rfzaS4RkQkrajZxOGo",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0816-833-844",
+  "internationalPhoneNumber": "+62 816-833-844",
+  "formattedAddress": "Jl. Cipinang Jaya Raya No.27B, RT.15/RW.4, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=7653992045239536017&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 12,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 13,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 10:00 AM – 10:00 PM",
+      "Tuesday: 10:00 AM – 10:00 PM",
+      "Wednesday: 12:00 – 10:00 PM",
+      "Thursday: 10:00 AM – 10:00 PM",
+      "Friday: 1:00 – 11:00 PM",
+      "Saturday: 10:00 AM – 11:00 PM",
+      "Sunday: 10:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T05:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 985,
+  "displayName": {
+    "text": "Kedai Malabar",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/reviews/ChdDSUhNMG9nS0VJQ0FnSUNaemVqbzJRRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Good Size cafe and affordable. The outdoor section is cozy at night. Parking is easy too.\nRoti Nougat (they use whole wheat bread) paired with Ice Kopi Tubruk 👍",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Good Size cafe and affordable. The outdoor section is cozy at night. Parking is easy too.\nRoti Nougat (they use whole wheat bread) paired with Ice Kopi Tubruk 👍",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Mo's",
+        "uri": "https://www.google.com/maps/contrib/115004602298533832111/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVTYDc4i3kctTrDCBfZR2rhLqIE_XRMLudsbQJ_VJowg59DdKXLXQ=s128-c0x00000000-cc-rp-mo-ba8"
+      },
+      "publishTime": "2023-09-15T22:22:40.968622Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNaemVqbzJRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNaemVqbzJRRRAB!2m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/reviews/ChdDSUhNMG9nS0VJQ0FnSUR1OWRlRnpRRRAB",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 3,
+      "text": {
+        "text": "A small coffee shop in east jakarta, at cipinang jaya. They have smoking area and non smoking area...also outdoor seats.\nI ordered hot coffee latte and also half portion off cheese bread.\nBut they both rather average (from my opinion).\nBut the good thing is the price are affordable..",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "A small coffee shop in east jakarta, at cipinang jaya. They have smoking area and non smoking area...also outdoor seats.\nI ordered hot coffee latte and also half portion off cheese bread.\nBut they both rather average (from my opinion).\nBut the good thing is the price are affordable..",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dani MT",
+        "uri": "https://www.google.com/maps/contrib/104828246354083642383/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWscGf3hmKwnzMXnkEz9LDnk0p1E0CVKojXOryGk3vZ-1cnbHGL=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2022-08-26T11:27:38.313013Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR1OWRlRnpRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR1OWRlRnpRRRAB!2m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/reviews/ChdDSUhNMG9nS0VJQ0FnSUNPMk4tVGdnRRAB",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Cozy place, non smoking area with two air conditioning that maybe need to be checked because it’s not that cold.\nAnd ofc there is non smoking area but right beside a road.\nThey accept cashless payment.\nNice decorations.\nFriendly and helpful staffs.\nAlso has parking area beside the non-smoking area.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Cozy place, non smoking area with two air conditioning that maybe need to be checked because it’s not that cold.\nAnd ofc there is non smoking area but right beside a road.\nThey accept cashless payment.\nNice decorations.\nFriendly and helpful staffs.\nAlso has parking area beside the non-smoking area.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "R. Kumalasari",
+        "uri": "https://www.google.com/maps/contrib/108402514679040932391/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUu-N3XTc0OVSNPfq_fqxjjHiLXh0PgBK1lB11k0PWPc5Bza6mZ=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2022-06-01T04:38:47.380418Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNPMk4tVGdnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNPMk4tVGdnRRAB!2m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tNMWFIcG5ObGcxTkUxS2RrVkxZeloyZERaWFdIYxAB",
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 4,
+      "text": {
+        "text": "Good for your other affordable cafe option.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Good for your other affordable cafe option.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "hani ramadhani",
+        "uri": "https://www.google.com/maps/contrib/107523553304973900206/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV14V0JcAaNt7nCYeR6NO8jptrTb27Nt2zgbez8Vkzz4eiy--QQQQ=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2026-01-03T23:51:10.267132697Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tNMWFIcG5ObGcxTkUxS2RrVkxZeloyZERaWFdIYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tNMWFIcG5ObGcxTkUxS2RrVkxZeloyZERaWFdIYxAB!2m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/reviews/ChZDSUhNMG9nS0VJQ0FnSURLNnBYMEVREAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Nice place, but There are not many choices of Indonesian coffee",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place, but There are not many choices of Indonesian coffee",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Abdul (si Dul)",
+        "uri": "https://www.google.com/maps/contrib/101422942485562082182/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVPckhT6vUlSrGnZEloXuLT-bUw1uq55GnmRS17w4tWFiWLIG78=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2021-05-07T22:28:59.441339Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURLNnBYMEVREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURLNnBYMEVREAE!2m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMbAGUTZazZivnu1yk4uGdU6DrlmqmUCyPnpFIRwl4tHfUCNIPocN5Y2b7mJPesixopHhCGq4Pe6K7HCgRnPjpWcl9TiVOecZGxlMphmADR_ib4CxkISVI1CEBf3G-8tcZ-jw3RlQItzWcVAfgojsOdVKxITefUM9uOo94uF5AY2qKHTBYK68tIct3BAULFUPgLkWYGVvcTuAHYaHZDe4pGSu1yYnvuERhZORskKe6F_Uq4VJKfpnAKd7yTlotY-6k6XSLebVk2jpNOquWl0oHFIm63tYFhEkq3PGHNGVnTOhRHzfvW1viWXM3tDsQ2opn7r2Qys3mcTGEIgJ2ReCb1cHwPIuMsfaCKEXxVIxd74pgql_3MWL1ZuFNK4W6Q5wl9ZY4hhVib668-cScN4PwuwDaYxVBE",
+      "widthPx": 1280,
+      "heightPx": 960,
+      "authorAttributions": [
+        {
+          "displayName": "KEDAI MALABAR 1",
+          "uri": "https://maps.google.com/maps/contrib/109740630477038631150",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKxET88ERB9FpyV_j_XPV4ZrMGbHHL-PWbPBBWmdllXcNsOQQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICCzuD14wE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICCzuD14wE!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMYccphmO6xqibWVS5KVuNRYW8n6uhEczXNXKPGJq5lTCwLuahQ8h2DchmP-3oM2rCvMCNj4iMszt6ZdmQEMJUNiOVGHp9JzmhB8EPM17ICLDshLDuOY3KC7xpZ9yUXvNTFX-X1wYqedWmzYs04SsBdpWQzsUPrZ9oc3weJkkiMuN56IgHx99lQW6RC-JG_cqe8saWk1eERtsQ7PbHPoG6lWQXrzoABbB6H5mjFn2BT-NUB_Mag7vOqQLANHLy1MnN_YAwQCYkBwWl_33zmg2Gb2YLb6KFTCtx59qQa7XRfbvYfWUc2HbYSOTMvtL5ua5B04z5JB6zsdO9UQc6M8y85V-EeOxuTW6_ypt1vkd9ivqqJigk3P0LIoTu2fMrXL71uv-ULQX7LXEq1JIXbsslgdvA",
+      "widthPx": 4640,
+      "heightPx": 3472,
+      "authorAttributions": [
+        {
+          "displayName": "Tamba Rex",
+          "uri": "https://maps.google.com/maps/contrib/111679374488468863605",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJCDcpI4TxnHOKTlZOgGn1PTSlurNXMRfmdsQJvjfCkwM7Luw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID6lK_jIg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID6lK_jIg!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMaC3cT8fhJI-UxIN-guQ62t15UYkiXxLeCdJKp5UmoPznAeDG7Q-AWUd6G0Eu5ANYyo1ADdxX6l_KirOzbv2lCpmhhbrittV6tl-AmXT7m1WfkLe4OdIVyGwrYY-Puu3mKhDIgTvtouofqxHBdj_NDeITtd0jyBI3lz59jGNFU67r9s2zKcoRpPhBR7kHMuIk0jzdmJHOha-ON6W76KIHcgNO7G1ZFQigdHt_9-IwYGv1eGhn-UiW-hu7HsALjaoKq3lEFzBGoCC3fh5iD5R7N4Neh2hVKJocjZ6xZ4LB-3wLEnDB-aHuJNX18w7YAob4E7k51hk1e4Y6sVQKBh4Hyme5_SXALJrMkUQ6MhHrGtKndZKNYtap6_bb1S88VMvrbUpgBvhgqfQ2cftQdQxN_er5K-SGZGwyrc_27-wa6k",
+      "widthPx": 4064,
+      "heightPx": 3048,
+      "authorAttributions": [
+        {
+          "displayName": "My Bee",
+          "uri": "https://maps.google.com/maps/contrib/101748428859932816443",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXcEaXwrRi5JOef3EIarc0egg8HkK4cbUgENp_kW8rob0DB1P7x=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC9cTk_DgzBh5Wh7jTeKaT4&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC9cTk_DgzBh5Wh7jTeKaT4!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMbTNnBEKqHn8f0TjXqWU3WrpX6dyeO-xAoN4nj_bCvecIGn9_sntZ3UNHgddCB-X1hyY9Xq2C7_5H2Wd8zwZzRTQJqH_gfjDnYd7IBFEMus3ja6JxyA5Mm0lya86TLj-lAV9ZgB_MHDuPL4QnHZLMoXnSES9vvgHr-k1tFAioh2APyndB90A3n-doWWA07rk0Gc2v0K7MMDolZXziarGcWJM4mzGWwP__K6I_WymMhiE578p4OGlsSdLaaExMHWxhsOYfaah_Zp0EZBb2dTofPYl2sdd2cV1Re9ZI-_L4y03kIj9Hqdki3_W68FgssJZiwhVL53zRrORctmThjBxxKF-W06wVBfRyeyCyuGRNFS7tALcoH4CJIVuT5dtZ8l-3M6DVrZqF8wDElq8X8Nj4PjpW0ABZbaKy0qOYp-jSaD",
+      "widthPx": 1079,
+      "heightPx": 1427,
+      "authorAttributions": [
+        {
+          "displayName": "Maulinda Amalia",
+          "uri": "https://maps.google.com/maps/contrib/117283113840022250056",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUtIJA2GuT_-1twJWt0uGD0sHazthwVl-L6itVCH3oZWEhwMEyK=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCY5E2Z2SnSNU0dFu4IC-OQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCY5E2Z2SnSNU0dFu4IC-OQ!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMYWgg7VLDPKc9ZBauBEf8an0eNrzK26-gOuTaHapxaFlnsz_RfCIzRUuQRFrx2x_XQRu-LoLpEqpyhfwlV7XxcTP6_Bd9XNmGVa_eGFGI5bs8eiJ6ErD_QqG3JdWfHS2hQfPjzyaXWjCdgY_PEwkNOqUlUa7cSRypSaGcfA6Kus07IwFR3y6bUs2Ww9Sw6crpriaOZOifEdsy5176TNcaNzTSku-vSrv2zbZV60qSqCp-3hDH9GCdU48Q6T95bHWDMlzAiho-ZhApolylUEW1icYtJ_sYs-HkjXayCBT7XWF1EhAt_A2MSqvsA_FqhMpPyEPKxu94zPYn3RkkikXqWAfT1mPxGHn40r2qwLF3Wo0BVU9insUxtD8t2VFrktroKB4wkgH4PMug_tVB4QWYBz64PDzgWkaBTf-c7CvgrKMw",
+      "widthPx": 4064,
+      "heightPx": 3048,
+      "authorAttributions": [
+        {
+          "displayName": "My Bee",
+          "uri": "https://maps.google.com/maps/contrib/101748428859932816443",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXcEaXwrRi5JOef3EIarc0egg8HkK4cbUgENp_kW8rob0DB1P7x=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhA1RF6P0HMFAUr34qgiCPJP&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhA1RF6P0HMFAUr34qgiCPJP!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMaAX0sw2i2FEih061B9W6A4ZgWTVDhLuRE4uElkM4zUZbo1RdnXE_8KGkCRYxKp3NXkw6vZkxId57GX9Ju51209Mtm-0lwjDMUiWCrVcdS6_9lFD30URFb5NkvLyq18tFkNhqu0STZR3Pe6XltZBwao-ZojTJECaYP9X5Z5i2y4BjmmD66Eu2rTkkv69RN72k3b99sLZrTkV0zLoKnwI0JS1SNQEx0z-3xe9Zy7IamIDtHycCnlTtftUIPzwMNr2WD6Io3InKBXhoZfSQyuubsI_bBUAf7AsAn3MCvKWKJGg2ZAnBHYk1YeVavxIviPCsco_npHuU2hE4U57v08yeA3KKihjKMedW94uo1EE3EEtiIIncKK2PkN0CZrqKNz5pxp-yIScbE6ZN3d9lTrnnowi0jZCgOsJAy7-mo489v3",
+      "widthPx": 2283,
+      "heightPx": 1662,
+      "authorAttributions": [
+        {
+          "displayName": "Djohn and John",
+          "uri": "https://maps.google.com/maps/contrib/108712472194745239652",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzWvN6cOFHMIp8vBjsKOHBwG3lDJJeZUEXkCo_CaqdQYBy8pc=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCDsB23LRXA-wQVW1Zs-JRe&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCDsB23LRXA-wQVW1Zs-JRe!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMa4jVCl30LvBOlch5nC2Bsf_IcXVBa6BgvQVU0x4Y1GRlCw6AEN48s0Xsn_sA45Kjwt-qogUWKDpt0LrkGrwqMfME_9lxJJnepwQt1TQi7rgVtVckTFEHV17Xo6szlWsUF8eZZFp3ojaEWEMjgvVnPaofYlhfSuHCOkUiLGVx4P7TV6HfJPeHAOIGFf6UHtS4TMNrP3iI8KT1Xuuba1fFy1gYIIYOauhn0slLU77dEisRq5E6-zQViwdRhV584T2HKP8K_NcrBZVhzgrvFwOTRHehbJgMfkZi0_MByEbG2kG61ODwdGnddWuA1l6FeSeo2fhdZMRxWiH9xBP6JotDKzniRH7rCbWKtNtevgWiBUdrKCjtga0cy8uGtFjlcN5nRAbykgHykjufTzqWbo9bKOezn1Ne3pI2YdlB7Dgx2e",
+      "widthPx": 4080,
+      "heightPx": 2296,
+      "authorAttributions": [
+        {
+          "displayName": "Narendra Sita",
+          "uri": "https://maps.google.com/maps/contrib/114065439656919188352",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLF5sWdBxP7gELRt1tdzhSKQT_zzyft_IRl4SZu8ImP373rqg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC-GTBEN36obHUlumI0bxQ-&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC-GTBEN36obHUlumI0bxQ-!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMabaclAU2xh0tluhA7zgxDt6uiwbw6LB5TktFt3i9KWIfRpkQ3sASofe58nBEiD7868ORkndUtJuqnvD7M3iIrCa7lD2KBuXo-gQ7SpObyHMjXiDLVZ9JTuo0czlQ-ldZ00OCZhrHtt52IH-4XQXA8wwkVYzxksYNsjOtDYkZPDlkQGnjB2oPgT_WDh4NnGDFntO6RMxYj26fBgo-0xCbUxWL8UR8dMJXNx8vBfVJ3RLT7rRS1AI84z9AapqCr5llADQjp3PgpS0HSB9hdDIcfCUHNxdjTAo-uE8sAu1EEvF9D5GYYkISz6wGIT3-oke1weu-zzcfLaUva8StKjY846l4mEnIEW78xHtwuYSBzlz96H0bGCvmlChcdHfzuKpgmVZ9rWR1SM12YZk9aImTVSuGuXaloGIIJMRzMnOadpNw",
+      "widthPx": 3456,
+      "heightPx": 4608,
+      "authorAttributions": [
+        {
+          "displayName": "Wahyu Veronica",
+          "uri": "https://maps.google.com/maps/contrib/111068306832098148571",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXmg_thfDXLeVI1mXSniPpqegd17k7W8BRsFfwcoe6_4DbQMJii=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAM4Eri_0vA_FIu4EX0btFA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAM4Eri_0vA_FIu4EX0btFA!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMZTdaHgyAoLrGubxKphQBVBAjfW0vg_ZVtQ5KLYwEywR8Q1xa3xtQENqDPY99yQKB_F_VpDTb9j8TFgNu8hhJmM1T1Hf31-D7lwenvNKzVgu9T-GKFz6601JoTniQqtzljzIly4k9dwY_5V_WJfqOUpr5ObJHpKam4h_9X-AE-FhdYowNaKjETYuBC0U0qOnNF1snU_S3l2vhjS3h9z3Yos4tz9lL5HWewzTsM9KpC3XWRjhFlD_-ZL1E95PznOFpmf3xsgWUzPpTJ2sL0d9sQbAUN7UN_sCT4nTCeDXSkF0kmY12CQezJCqxFCNqypLX4K8l2ckuUN10hEPPq7Ur5JTqunw-Q9DBkkJnpm_5CWs-Q0GvutsXE6WMnLDT0RVbbMQCDw5wgHGyQraiZ73KJC5Udh0gz5C6Bky6-8QCaY7w",
+      "widthPx": 3060,
+      "heightPx": 4080,
+      "authorAttributions": [
+        {
+          "displayName": "Dilla Afrida",
+          "uri": "https://maps.google.com/maps/contrib/103565451690018610691",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUOG9Bb6haSRhbcAc8sxYVxVrljQ_bFYrbfrE9kOHe5X8JTOpjUxw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDcCIWMyoyFEwUZLxluta4T&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDcCIWMyoyFEwUZLxluta4T!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    },
+    {
+      "name": "places/ChIJdRMZ9rfzaS4RkQkrajZxOGo/photos/Aa-ngMaJeEIMxiSO5gb-P0HVmHMWELVAQlNDrmujLAPnUUg7njmQp-Jvz2XjLYFXWHjhOjTF5bjxiyLYvJNkdV3ODBNQoW2nh9tkSUQRrJvkCzMfHZavxfslXchWm6HPhMGGlO-HtCe2_WSODxFtPEN-hhvMD9gbkXkV0uTGsHXSe0qN1k7t8LLx4UVveb2R7zIpthoX3UPt8iQP9hHT5TjokFqZopFVYImKNWfTtJWExVAgSlNFR_vQudpFCUJWZPB5MkfiaqUxfcnwmhaNKIUJ8Ku5zAz2xqXqlV1DIrwf8IE6jOIuSHZOPtM41qqL5nXMwAAWH07tTG3YN5x-QASPVupCFQrtsHDls2H7TWmW7d2pGqSAAnULAfH8XcFGpABFJJ2mLgYNRPKPre1WTutc8UfXM1jNs-2OpoYAPqWEgPesYg",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Tinta Jingga",
+          "uri": "https://maps.google.com/maps/contrib/114029818358974942872",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVtEuTJgQG6TXSxo0uW2tjKTOqZ4Z8x6eUfOXutGVYLlgGclacDiQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBITo8wXe9FilZ69S8VJIM5&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBITo8wXe9FilZ69S8VJIM5!2e10!4m2!3m1!1s0x2e69f3b7f6191375:0x6a3871366a2b0991"
+    }
+  ]
+}

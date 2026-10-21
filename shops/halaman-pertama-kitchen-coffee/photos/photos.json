@@ -1,0 +1,26 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Halaman Pertama",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "isnama",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "frisfris",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Rismawirawan Rismawirawan",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

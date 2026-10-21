@@ -1,0 +1,389 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 8062,
+    "sizes": [
+      {
+        "el": "h1 \"CLAY COFFEE SPACE\"",
+        "fontSize": 98.3,
+        "lineHeight": "88.47px",
+        "textWidth": 222,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "p \"Taman kopi di Pulo Gadung, buka 24 jam.\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7885px",
+        "textWidth": 267,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "h2#suasana-title \"Suasana Clay\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 201,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"Halaman & payung\"",
+        "fontSize": 17,
+        "lineHeight": "23.8px",
+        "textWidth": 143,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Lampu gantung & LED\"",
+        "fontSize": 17,
+        "lineHeight": "23.8px",
+        "textWidth": 168,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Paviliun kaca\"",
+        "fontSize": 17,
+        "lineHeight": "23.8px",
+        "textWidth": 97,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Mural & papan kayu\"",
+        "fontSize": 17,
+        "lineHeight": "23.8px",
+        "textWidth": 151,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 214,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 36,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 77,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"CAMILAN\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 71,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"MAKAN MALAM\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 118,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#music-title \"Sabtu malam, live music\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 201,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#podcast-title \"Podcast Box\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 192,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 189,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 216,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 37
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7266,
+    "sizes": [
+      {
+        "el": "h1 \"CLAY COFFEE SPACE\"",
+        "fontSize": 162.6,
+        "lineHeight": "146.304px",
+        "textWidth": 368,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "p \"Taman kopi di Pulo Gadung, buka 24 jam.\"",
+        "fontSize": 24.2,
+        "lineHeight": "31.4912px",
+        "textWidth": 292,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#suasana-title \"Suasana Clay\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 255,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Halaman & payung\"",
+        "fontSize": 17.7,
+        "lineHeight": "24.7744px",
+        "textWidth": 148,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Lampu gantung & LED\"",
+        "fontSize": 17.7,
+        "lineHeight": "24.7744px",
+        "textWidth": 174,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Paviliun kaca\"",
+        "fontSize": 17.7,
+        "lineHeight": "24.7744px",
+        "textWidth": 100,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Mural & papan kayu\"",
+        "fontSize": 17.7,
+        "lineHeight": "24.7744px",
+        "textWidth": 157,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 271,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 36,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 77,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"CAMILAN\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 71,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"MAKAN MALAM\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 118,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#music-title \"Sabtu malam, live music\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 453,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h2#podcast-title \"Podcast Box\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 243,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 239,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 273,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 45.6,
+        "lineHeight": "50.1248px",
+        "textWidth": 261,
+        "pctOfContentWidth": 38
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 37
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5943,
+    "sizes": [
+      {
+        "el": "h1 \"CLAY COFFEE SPACE\"",
+        "fontSize": 208,
+        "lineHeight": "187.2px",
+        "textWidth": 471,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "p \"Taman kopi di Pulo Gadung, buka 24 jam.\"",
+        "fontSize": 27.9,
+        "lineHeight": "36.296px",
+        "textWidth": 500,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#suasana-title \"Suasana Clay\"",
+        "fontSize": 63,
+        "lineHeight": "69.344px",
+        "textWidth": 352,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Halaman & payung\"",
+        "fontSize": 19,
+        "lineHeight": "26.6px",
+        "textWidth": 159,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Lampu gantung & LED\"",
+        "fontSize": 19,
+        "lineHeight": "26.6px",
+        "textWidth": 187,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Paviliun kaca\"",
+        "fontSize": 19,
+        "lineHeight": "26.6px",
+        "textWidth": 108,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Mural & papan kayu\"",
+        "fontSize": 19,
+        "lineHeight": "26.6px",
+        "textWidth": 168,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 63,
+        "lineHeight": "69.344px",
+        "textWidth": 375,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 36,
+        "pctOfContentWidth": 3
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 77,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"CAMILAN\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 71,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"MAKAN MALAM\"",
+        "fontSize": 13,
+        "lineHeight": "28px",
+        "textWidth": 118,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#music-title \"Sabtu malam, live music\"",
+        "fontSize": 63,
+        "lineHeight": "69.344px",
+        "textWidth": 353,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#podcast-title \"Podcast Box\"",
+        "fontSize": 63,
+        "lineHeight": "69.344px",
+        "textWidth": 336,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 63,
+        "lineHeight": "69.344px",
+        "textWidth": 331,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 63,
+        "lineHeight": "69.344px",
+        "textWidth": 378,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 63,
+        "lineHeight": "69.344px",
+        "textWidth": 361,
+        "pctOfContentWidth": 30
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 37
+  }
+}

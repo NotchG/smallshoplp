@@ -1,0 +1,431 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7486,
+    "sizes": [
+      {
+        "el": "h1#nama \"Teman Kita CAFE & RESTO\"",
+        "fontSize": 72,
+        "lineHeight": "75.6px",
+        "textWidth": 216,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#lantai \"Dua lantai, dua suasana\"",
+        "fontSize": 30,
+        "lineHeight": "32.4082px",
+        "textWidth": 298,
+        "pctOfContentWidth": 85
+      },
+      {
+        "el": "h3 \"Semi-outdoor, berkipas angin\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 308,
+        "pctOfContentWidth": 88
+      },
+      {
+        "el": "h3 \"Indoor, dinding penuh coretan\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 314,
+        "pctOfContentWidth": 90
+      },
+      {
+        "el": "h2#menu \"Menu andalan\"",
+        "fontSize": 30,
+        "lineHeight": "32.4082px",
+        "textWidth": 181,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 47,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 96,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"MakananRp 22–40rb\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 205,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"Pilihan sehatRp 35–45rb\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 242,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h3 \"CamilanRp 18–35rb\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 193,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#kata-mereka \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "32.4082px",
+        "textWidth": 161,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Nyaman buat nongkrong\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 261,
+        "pctOfContentWidth": 75
+      },
+      {
+        "el": "h3 \"Pilihannya banyak\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 192,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"Camilan dan kopinya enak\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 275,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 188,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#acara \"Acara di Teman Kita\"",
+        "fontSize": 30,
+        "lineHeight": "32.4082px",
+        "textWidth": 250,
+        "pctOfContentWidth": 71
+      },
+      {
+        "el": "h2#kunjungi \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "32.4082px",
+        "textWidth": 181,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 98,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#mampir \"Mampir aja, kita kan teman.\"",
+        "fontSize": 30,
+        "lineHeight": "32.4082px",
+        "textWidth": 349,
+        "pctOfContentWidth": 100
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 8322,
+    "sizes": [
+      {
+        "el": "h1#nama \"Teman Kita CAFE & RESTO\"",
+        "fontSize": 100.1,
+        "lineHeight": "105.083px",
+        "textWidth": 301,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#lantai \"Dua lantai, dua suasana\"",
+        "fontSize": 35.8,
+        "lineHeight": "38.6298px",
+        "textWidth": 352,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3 \"Semi-outdoor, berkipas angin\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 327,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Indoor, dinding penuh coretan\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 333,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#menu \"Menu andalan\"",
+        "fontSize": 35.8,
+        "lineHeight": "38.6298px",
+        "textWidth": 213,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 50,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 102,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"MakananRp 22–40rb\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 215,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Pilihan sehatRp 35–45rb\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 255,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"CamilanRp 18–35rb\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 202,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kata-mereka \"Kata mereka\"",
+        "fontSize": 35.8,
+        "lineHeight": "38.6298px",
+        "textWidth": 191,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Nyaman buat nongkrong\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 278,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Pilihannya banyak\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 205,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Camilan dan kopinya enak\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 233,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 200,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#acara \"Acara di Teman Kita\"",
+        "fontSize": 35.8,
+        "lineHeight": "38.6298px",
+        "textWidth": 295,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#kunjungi \"Kunjungi kami\"",
+        "fontSize": 35.8,
+        "lineHeight": "38.6298px",
+        "textWidth": 214,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4695px",
+        "textWidth": 104,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#mampir \"Mampir aja, kita kan teman.\"",
+        "fontSize": 35.8,
+        "lineHeight": "38.6298px",
+        "textWidth": 412,
+        "pctOfContentWidth": 60
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5968,
+    "sizes": [
+      {
+        "el": "h1#nama \"Teman Kita CAFE & RESTO\"",
+        "fontSize": 150,
+        "lineHeight": "157.5px",
+        "textWidth": 451,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#lantai \"Dua lantai, dua suasana\"",
+        "fontSize": 46,
+        "lineHeight": "49.68px",
+        "textWidth": 446,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Semi-outdoor, berkipas angin\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 361,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Indoor, dinding penuh coretan\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 369,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#menu \"Menu andalan\"",
+        "fontSize": 46,
+        "lineHeight": "49.68px",
+        "textWidth": 270,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 55,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 113,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"MakananRp 22–40rb\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 233,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Pilihan sehatRp 35–45rb\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 277,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"CamilanRp 18–35rb\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 219,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#kata-mereka \"Kata mereka\"",
+        "fontSize": 46,
+        "lineHeight": "49.68px",
+        "textWidth": 241,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Nyaman buat nongkrong\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 307,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Pilihannya banyak\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 226,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Camilan dan kopinya enak\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 323,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 221,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#acara \"Acara di Teman Kita\"",
+        "fontSize": 46,
+        "lineHeight": "49.68px",
+        "textWidth": 373,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#kunjungi \"Kunjungi kami\"",
+        "fontSize": 46,
+        "lineHeight": "49.68px",
+        "textWidth": 270,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 26,
+        "lineHeight": "33.7979px",
+        "textWidth": 115,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#mampir \"Mampir aja, kita kan teman.\"",
+        "fontSize": 46,
+        "lineHeight": "49.68px",
+        "textWidth": 521,
+        "pctOfContentWidth": 43
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  }
+}

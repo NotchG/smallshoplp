@@ -1,0 +1,473 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 8094,
+    "sizes": [
+      {
+        "el": "h1#hero-h \"SAYKOP Saya Kopi\"",
+        "fontSize": 70.6,
+        "lineHeight": "63.54px",
+        "textWidth": 269,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h2#minuman-h \"Minuman andalan\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 289,
+        "pctOfContentWidth": 83
+      },
+      {
+        "el": "h3 \"Axelle\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 71,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Black Lemonade\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 186,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Mariani\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 90,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Misty\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 64,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Dirty Latte\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 126,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Mango Yakult\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 159,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Iced Red Velvet\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 182,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Lembayung\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Juga di menu\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 108,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#makanan-h \"Teman ngopi\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 199,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"Karage Salted Egg\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 214,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"Ayam Sambal Ijo Hotplate\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 304,
+        "pctOfContentWidth": 87
+      },
+      {
+        "el": "h3 \"Nasi Goreng Saykop\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 230,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"Juga ada\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 73,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#kerja-h \"Nyaman buat kerja\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 305,
+        "pctOfContentWidth": 87
+      },
+      {
+        "el": "h2#kata-h \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#lokasi-h \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 219,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 77,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#kontak-h \"Hubungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 212,
+        "pctOfContentWidth": 61
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 45
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7418,
+    "sizes": [
+      {
+        "el": "h1#hero-h \"SAYKOP Saya Kopi\"",
+        "fontSize": 123.5,
+        "lineHeight": "111.168px",
+        "textWidth": 471,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h2#minuman-h \"Minuman andalan\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.0848px",
+        "textWidth": 377,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Axelle\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 80,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Black Lemonade\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 131,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Mariani\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 102,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Misty\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 73,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Dirty Latte\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 142,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Mango Yakult\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 90,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Iced Red Velvet\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 117,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Lembayung\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 145,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Juga di menu\"",
+        "fontSize": 17.9,
+        "lineHeight": "27.776px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#makanan-h \"Teman ngopi\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.0848px",
+        "textWidth": 260,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Karage Salted Egg\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 242,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Ayam Sambal Ijo Hotplate\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 343,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Nasi Goreng Saykop\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 260,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Juga ada\"",
+        "fontSize": 17.9,
+        "lineHeight": "27.776px",
+        "textWidth": 77,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#kerja-h \"Nyaman buat kerja\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.0848px",
+        "textWidth": 398,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#kata-h \"Kata mereka\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.0848px",
+        "textWidth": 266,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#lokasi-h \"Kunjungi kami\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.0848px",
+        "textWidth": 286,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 17.9,
+        "lineHeight": "27.776px",
+        "textWidth": 81,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#kontak-h \"Hubungi kami\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.0848px",
+        "textWidth": 276,
+        "pctOfContentWidth": 38
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 45
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 6055,
+    "sizes": [
+      {
+        "el": "h1#hero-h \"SAYKOP Saya Kopi\"",
+        "fontSize": 152,
+        "lineHeight": "136.8px",
+        "textWidth": 580,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#minuman-h \"Minuman andalan\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 539,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Axelle\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 84,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Black Lemonade\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 219,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Mariani\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 106,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Misty\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 76,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Dirty Latte\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 148,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Mango Yakult\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 187,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Iced Red Velvet\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 214,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Lembayung\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 151,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Juga di menu\"",
+        "fontSize": 19,
+        "lineHeight": "29.45px",
+        "textWidth": 121,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#makanan-h \"Teman ngopi\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 372,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Karage Salted Egg\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 252,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Ayam Sambal Ijo Hotplate\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 231,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Nasi Goreng Saykop\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 271,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Juga ada\"",
+        "fontSize": 19,
+        "lineHeight": "29.45px",
+        "textWidth": 82,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#kerja-h \"Nyaman buat kerja\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 308,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#kata-h \"Kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 381,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#lokasi-h \"Kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 409,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 19,
+        "lineHeight": "29.45px",
+        "textWidth": 86,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#kontak-h \"Hubungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 395,
+        "pctOfContentWidth": 33
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 45
+  }
+}

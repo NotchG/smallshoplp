@@ -1,0 +1,383 @@
+{
+  "id": "ChIJK3xb0mDzaS4RyQOmsFcW-_M",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "pastry_shop",
+    "buffet_restaurant",
+    "bakery",
+    "dessert_shop",
+    "confectionery",
+    "food_store",
+    "dessert_restaurant",
+    "store",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0821-1203-3331",
+  "internationalPhoneNumber": "+62 821-1203-3331",
+  "formattedAddress": "8, Jl. Cipinang Jaya Raya No.74 8, RT.8/RW.7, Cipinang Besar Sel., Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13410, Indonesia",
+  "rating": 4.7,
+  "googleMapsUri": "https://maps.google.com/?cid=17580670136252498889&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 13,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 21,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 11:00 AM – 9:00 PM",
+      "Tuesday: 11:00 AM – 9:00 PM",
+      "Wednesday: 11:00 AM – 9:00 PM",
+      "Thursday: 11:00 AM – 9:00 PM",
+      "Friday: 1:00 – 9:00 PM",
+      "Saturday: 11:00 AM – 9:00 PM",
+      "Sunday: 11:00 AM – 9:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T04:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "userRatingCount": 935,
+  "displayName": {
+    "text": "Mardin Baklava Patisserie",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Buffet Restaurant",
+    "languageCode": "en-US"
+  },
+  "primaryType": "buffet_restaurant",
+  "reviews": [
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/reviews/Ci9DQUlRQUNvZENodHljRjlvT2psRVpXSmFRbmRETjA5MmJUSXpkVlJVVUZKbVlrRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Delicious Baklava with authentic taste. I like how the sweetness is tone down compare to the ones overseas. My fav is the chocolate pistachio baklava. It's not as sweet as compare to the other ones.\n\nThe kunafa was crunchy on the outside & cheesy on the inside, drizzle it w some syrup & it's so yummy.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Delicious Baklava with authentic taste. I like how the sweetness is tone down compare to the ones overseas. My fav is the chocolate pistachio baklava. It's not as sweet as compare to the other ones.\n\nThe kunafa was crunchy on the outside & cheesy on the inside, drizzle it w some syrup & it's so yummy.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Anita Tan",
+        "uri": "https://www.google.com/maps/contrib/118234137413077317729/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKqmZmiLuY39RytGAn6y_XLGNfyfnMrRjc9a1ryBSh-DoAhaQ=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-10-19T11:20:34.584091357Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2psRVpXSmFRbmRETjA5MmJUSXpkVlJVVUZKbVlrRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2psRVpXSmFRbmRETjA5MmJUSXpkVlJVVUZKbVlrRRAB!2m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/reviews/ChZDSUhNMG9nS0VJQ0FnSURiMnJ2dVpnEAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "One of the best baklava and khunafe in Jakarta. The baklava is sweet and tasty and the cheese khunafe is very cheesy and sweet with additional sugar syrup. I would recommend this restaurant if you like sweet, nutty, cheesy foods.\nThe service is great and the staff can explain in detail each food and beverage.\nThe place is very accomodating and comfortable (indoor room with an AC).",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "One of the best baklava and khunafe in Jakarta. The baklava is sweet and tasty and the cheese khunafe is very cheesy and sweet with additional sugar syrup. I would recommend this restaurant if you like sweet, nutty, cheesy foods.\nThe service is great and the staff can explain in detail each food and beverage.\nThe place is very accomodating and comfortable (indoor room with an AC).",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Hans Yongen",
+        "uri": "https://www.google.com/maps/contrib/111539493699958255373/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWchxjh6yY9lkIYl0x0WPgfHf61rqHhAx2yXyfNQAcuWppnlYU=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2024-08-04T13:51:11.088856Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURiMnJ2dVpnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURiMnJ2dVpnEAE!2m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/reviews/ChdDSUhNMG9nS0VJQ0FnSURoaElxQ3lRRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "A Turkish patisserie in East Jakarta. I love their kunafe and tea very much. Because I'm not a sweet tooth person, I don't like their baklava (hence it is too sweet). Also, the car parking area is not big",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "A Turkish patisserie in East Jakarta. I love their kunafe and tea very much. Because I'm not a sweet tooth person, I don't like their baklava (hence it is too sweet). Also, the car parking area is not big",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Zainab Ramadhanis",
+        "uri": "https://www.google.com/maps/contrib/104479757742216165242/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXhJOsvrs0qBgdKg4hIMaHlPVbvfQaxwSKAoDQleJ3tCGBuf8_B=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2023-03-01T11:45:38.669924Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURoaElxQ3lRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURoaElxQ3lRRRAB!2m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/reviews/ChdDSUhNMG9nS0VJQ0FnSURzMnBQYW1nRRAB",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 4,
+      "text": {
+        "text": "The food is so turkish! For the indonesians Turkish pastry might be overwhelmingly sweet, but for those who love sweet dessert, this place is a heaven. All the pastries are recommended, my most favorite one was pistachio classic baklava. If you love desert that has savoury ingredients, kunafe is a must. I also ordered the saffron ice cream but it turned out very weird, not recommended. The place is quite small but definitely a gem. What is so unfortunate, the price is quite expensive. This might be due to the high quality ingredients used to create these stuffs.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The food is so turkish! For the indonesians Turkish pastry might be overwhelmingly sweet, but for those who love sweet dessert, this place is a heaven. All the pastries are recommended, my most favorite one was pistachio classic baklava. If you love desert that has savoury ingredients, kunafe is a must. I also ordered the saffron ice cream but it turned out very weird, not recommended. The place is quite small but definitely a gem. What is so unfortunate, the price is quite expensive. This might be due to the high quality ingredients used to create these stuffs.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Fauzan Illavi",
+        "uri": "https://www.google.com/maps/contrib/117538680999780489804/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUSQzRvD223kiTPKOb0rzlz5HU6WBi19nVnksoPHHxUYzV-u_ov=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2020-03-01T16:11:20.327064Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURzMnBQYW1nRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURzMnBQYW1nRRAB!2m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/reviews/ChdDSUhNMG9nS0VJQ0FnSURJdS1fMG5BRRAB",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 3,
+      "text": {
+        "text": "Super duper sweett!\nRecommended ONLY IF YOU ARE A SWEET TOOTH!\n\nWe came for the kunafe, it's a sweet pastry made of cheese, but since we came from far away might as well try the baklava. Well I don't paeticularly fond of sweets, so it's hell for me.\n\nTLDR; DON'T come if you don't like sweet. It's expensive and not worth the price IMO. Come for the experience ONLY if you love sweet. I've warned you.\n\nBaklava - pastry from sugary water.\nThat explains it enough, the sugary layer is so thick you can actually see it, I can only taste sugar on each bite abd the chocolate is soooo chocolatey, if you LOVE sweet by all means try it you might even like it.\n\nKunafe, it's cheese, but I can still taste the sweet in it. It's okay but I won't come to eat it again.\n\nTurkish tea, the bitter taste is just right with the super sweet baklava and kunafe, but a bit taste like SariWangi at first. Very small for a tea at that price, starbucks doesn't sound so expensive anymore.\n\nThe café is small but comfy, the employee are nice and kind, clean kitchen, everything else is good.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Super duper sweett!\nRecommended ONLY IF YOU ARE A SWEET TOOTH!\n\nWe came for the kunafe, it's a sweet pastry made of cheese, but since we came from far away might as well try the baklava. Well I don't paeticularly fond of sweets, so it's hell for me.\n\nTLDR; DON'T come if you don't like sweet. It's expensive and not worth the price IMO. Come for the experience ONLY if you love sweet. I've warned you.\n\nBaklava - pastry from sugary water.\nThat explains it enough, the sugary layer is so thick you can actually see it, I can only taste sugar on each bite abd the chocolate is soooo chocolatey, if you LOVE sweet by all means try it you might even like it.\n\nKunafe, it's cheese, but I can still taste the sweet in it. It's okay but I won't come to eat it again.\n\nTurkish tea, the bitter taste is just right with the super sweet baklava and kunafe, but a bit taste like SariWangi at first. Very small for a tea at that price, starbucks doesn't sound so expensive anymore.\n\nThe café is small but comfy, the employee are nice and kind, clean kitchen, everything else is good.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Where The Wind Flows",
+        "uri": "https://www.google.com/maps/contrib/113361613141738217172/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWKNGezs5JK1nETlhoOexM4ST4dGCorslvsBZyrc_lPLPJmaYI=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2019-01-23T16:09:07.834237648Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURJdS1fMG5BRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURJdS1fMG5BRRAB!2m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMaaPIrHDLYwccgVcOO1YxrW2LGEq3hs_e9f8DtA3kD0zeBRVC81bgAldjCaHoORpETS6VDlOv1AW2lE2V6uyTGz1fgkVBESlN-iEpcdPAx8Nkubd2hjWBOjgxfP6eZhn5qIMq8Jfs2LnFyuz7u3QQszQTDOa6QIsddRG_gMtoO0f5dg7d2Evu2bUc3ihxWh4y1kfS-Tn-M51Za3lYA9q649aF4kKsiSgMPYk3FUvPly_fquAqOe687N8hcj2sd3ZmPG3DP3VhllK-yZGf4VaDii-BWxhdyMMxrzgBIz6zDgXXzMLcOeYz1mnAIUP0mUJLibNlN7sgguiDINu25tpMgdsYCpX_H6KV1l1XTc7Wq4Z37Qdvsg48YhX1oULMvIvGukBo3rYGZVBzVi2L1UKQCOzg",
+      "widthPx": 4800,
+      "heightPx": 2110,
+      "authorAttributions": [
+        {
+          "displayName": "Mardin Baklava Patisserie",
+          "uri": "https://maps.google.com/maps/contrib/100117016840969816415",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX88m2C3Un9um6rCTF4pTys0CQgfd4vb7n6NpCB8xvwb8H6sso=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID8ivCKPA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID8ivCKPA!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMaw3kX_V0CsltgBSy2PBRZawmal1-v5wJDvYFekbstMCl2f-bTM2syLfXugeiOpNKbt1im1MnJj2EiD-zEo3izHLoxtLae_ma3hXusELgeB01U5pAHn_UcPPQ7VaLdwUnn8333iRJCeDvl-jAB1OzHGyP-YzPE-e16aqi5wBW2etTJibOmC4kjedgNaoNqmL3HnCYT6bIaQX-TdCZdGCzmHhtSA5a2S_3sp3Cg6JIqkZO0dHNWtaS6O-IFqaUY4hgC4NbilmmOYAwQyrh4nz_EQPUH7_-KHpnpGgt5wNix1tK_502ZmjGPvMxTxifrmj1DMATe3xOEs3_DPN0N5Yirte2MSqh3oJSVCnLPaEvBguQlBhOZnN68ONmA0Xb2747figFqlVQJOlPD-xU5ebaPUNmk",
+      "widthPx": 4032,
+      "heightPx": 1908,
+      "authorAttributions": [
+        {
+          "displayName": "Mardin Baklava Patisserie",
+          "uri": "https://maps.google.com/maps/contrib/100117016840969816415",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX88m2C3Un9um6rCTF4pTys0CQgfd4vb7n6NpCB8xvwb8H6sso=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID8irDKOQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID8irDKOQ!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMbK7b2f9PMKwStmmeg-WV-Wf4qic4NWzV4rHSvVtQ5ldLQee3ny5D7SxfGUGHIf2IYg_ECJa9LdFzgLfrLG9nqRR2SFH5S1Ntj1e0ZnFJpVlPVM78Y9fgqA8V0jKM9fGgvIShosTcBJ_HlPV1hjD9-JAzwNf9X_ynGhRYdnX1mwqUR-crld8pbcZBtOM-_KAoOBPjguGjk9TfAzSx0zsPmUe4bCo-AjKOTV91ORvTa8An74JTuyPGtdBCBf1K6PDO7tbpPW2jlszg0jHjfhMHawWD3q7P0N2_6Ev1WBBgc9XqwsdkWhzRpW_fs58OEUAhne6TPKTqzU_yhUZPLptxk-6LDxYiQxS6ReXWbGlg4WzIS75tCiLbxthzXtf5PX2RxnrMJqjVptWmlZ22ZCGgP6j-_z9HU",
+      "widthPx": 3200,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Mardin Baklava Patisserie",
+          "uri": "https://maps.google.com/maps/contrib/100117016840969816415",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX88m2C3Un9um6rCTF4pTys0CQgfd4vb7n6NpCB8xvwb8H6sso=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICaq8K-igE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICaq8K-igE!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMY5RJDMYLApTS0pNec9lrEy6y2IyvJBhGfHTfdMALQxQywDlaoQR8BKxfu-u3Ff41RpWlZMRxHJi4gzuh4ui-HBftZ6OgHJmIFm1H5wtkYEGYpEI70UDvfT217lADiYdIJDS7kNPshMP3Mmng2Z7kwu2qy0TlFRIhZAdAqQrNkZERz62I7wOrmgzDmefWczxpeb0efrjEOPg3tMExXgqeN98HaFw-aec4qZ7_X2TSUpmoXqQHby7XX2r2V12C2nuMKvlIysXdoEnC-aMpPC9ypg4d4WGg9pv24TmGVVIFCOnhkcGJf1MrP9RL1An5_J6ueTp_PSQg3MN8cDDygqFRHt42scWdCCS1_DLAezOrYX0oVqbXT5rD4V8hxAwD-dgAz-Oocp6XCSNHOumGOYIEebELVHYzB1xXgrdKjhxyox0w",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Wibisono Bagus",
+          "uri": "https://maps.google.com/maps/contrib/115294270582724470924",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXDOdO5EPlnkAlpIhxyKyaWZWYzVQkmoKkVG8wznXyF09GbPJWv=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC_FKCdRxs4cit1aEuzi1_t&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC_FKCdRxs4cit1aEuzi1_t!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMbCDUlWWbT1oTlnqx8FaXg_iLs4kce4OzPEK_oXU12rzd5lThv5x9OC_bdS6RAaYeATCJSX2RaYhdXBlvXK5YCDUzZf7zPW34Hfxxun-2Sh4iqiogPDckun5Ty3nOwskImTFxc-FSmxW7kCjh2KfmfcTGCr0urC1kBY4aKaeiNGkIfiF6YI5wPBhm5_qEbEceLzbHpsvmpYFH1w_HFMd1sMHOyx7dOTrqgZbvs84Z9L2DKOuYAuqPnq9RVnjFeeDNjbO8rpXZ8zt8Rq5QSKdMSnwy0Z9SFzTMvKbLXexnNUGGRAkHqMMRtXe6OZfOPlBEgKfZrp8JMtU_K2vvP884gEdwZI8i_o2zbxwGsaIfMlQ3nal3NSRQ6jyjT1PImH3zsZKYFExP4B7x-OcAAQ3b-MQGXsvrUg8hpmRgPhe2BISQ",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Winda Permata",
+          "uri": "https://maps.google.com/maps/contrib/111103451003166751184",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXIRsiDGt7FQFsM-Hv7W0itnD2Vnt7Dj1nf6UJL-Qx3I8YjvOTt=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAP5Fu8g6yN04JLJ6qz7iEd&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAP5Fu8g6yN04JLJ6qz7iEd!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMY29IZSfCE80fp6EzLl-DipbK786dH4tznmFotQvmVC3447WY-Wnttzu9Vjn47gYhHjDdTUj47G8mDLEjSijbTTo42N5S-J4ePgeQFanLemsZIUIfU2HBvkYO4sfwIjIC0qjzsLYO2zRRmhxat5sreoAyZynqwsCsK96ajWkEzHIhTuYLbrnQyuGdXnsuGpAnBxVQxGdKuEYLiXBmXVzDB0bDSgEp8187ZEnvQfCVy1wK1NB8_6Itbm1_7rZcywCQdVPyTQq-ASa0GNE-w4hYwnal6nRzCE9QhT70X_krwtY-lWLxDAfseNpbcUkGHuu0AYimYgn8tk17ECAjBX7fT3x-L_RKpFfrnI9c-GfXrQMO9rco4WPmPgL_frDnNTb-fHaMMOoNxvGyyvtSzyPbSe1A1aSVPXd2hIAe5so2U7aQ",
+      "widthPx": 2700,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Gilang Fitri",
+          "uri": "https://maps.google.com/maps/contrib/103712694328499714639",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVVY9jAwxcflS8EjYLbBXG-KeTUYp_2_rUnctX7fIinuw1Xfl8-=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAyXCpZT1dHLlabZRqLWUSO&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAyXCpZT1dHLlabZRqLWUSO!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMaCM840oeBSil9CRJTryZDDCDf2DTNx7Tgh6Oqn8sW5R-cLt7v83vfMLEyDrZAFaksE1VBttFql8gfFYRWACWW8ILZiDGYBWIdFfzgqk00jHxrAgmIHSB3qpRX4QS-lt5ezDhIOHAKZK9O1oja09vdXjfQUj8x_wAk7Foca_Wxm2XTA8gQQNXoVcadUXZJudW19CsPjR3nl8osNwDDKIKKmeC8pHTQSw7lsRHyBQYJg25LFz4OhQvaSsWQaqXTC26X0Ugq58DfGd164majg9yUfhtRp2ZW955J6ufodWtDvDQIXCgC-o3ajpDfS2-kD7Tth3yq1NA-w19WbpG-OJVXYSwUx-eRAp61CWaxyoCpdMKZ2HnMFN0n_pEUmqVhbKT1mlT7AW1dg8pManEubL1jbyehKFUy-lSIiqb1hXeRl0g",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Bayu Kristanto",
+          "uri": "https://maps.google.com/maps/contrib/118069159209538033169",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXOVy6e-XvrYI5gGDKp-VN2-v2wBw6LFVXZIlcGc8skDyb8xHWy=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB9CJ4JrwR4Ag8mDZKgH_yU&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB9CJ4JrwR4Ag8mDZKgH_yU!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMYyUD4gX-Cu_-pWQjVDURmcdWYdzjheakxHhS_tIf6TkZjSVitsrVOXnYgCUsjj-6a77Xgn1sxtTBWanxkaeGolSCK1_f-O0XJohhFifYueXBFGqkOEEXHi-RvtVXpkwZLub7mDAJvj2PCPYkOrNhlBVDcrY1Fpm5i0x6JU1a863UmFqgkPIE5JYcg2XYy6OKWvdDgsbM6tiDUfVVPShX_PlMipki5d648I3DZRBwoTC9UwBQne1qsOfX48JkO8f6Gp-BAIVCVIDlfpNt24l_zu9h3N2TkFCbC5gNcUJWu-f3mfSXr3tr-PQkNW6IgaoigGR8W5QR79e75M3-UDDGGy91O4thqxgY_yLX5BYmEfv-ksea1Imoobaqz0-mvkC2SC1zZoUdvxd-zNRH3x204fkVud5-I",
+      "widthPx": 3024,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "agtifa primadani",
+          "uri": "https://maps.google.com/maps/contrib/101893782132608002160",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXur_ch1bpUQU4w_45Ye3QcuLGGWSTZEQUTxJoeIwnlkZFzdnkq=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICGqMWSpAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICGqMWSpAE!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMb0iYPifn0M81_2uFBq_Wm2isW69-aQ8ixjbuFr9Qum7FIjBjOpUkIM_j-xEB6rOROFWt5Vy75fe9dDQY5GlOaHKmB7hu9thv_SDWl4hpul7ZEDoXmN-omdEWkTgcQAg0cZgpZoqUKulzKBr3Ny_bHy9-XSzoTfunmD14nr804gBrzOjrnFB2au81qiP3HZqFj9ReLv_3OimR460WMeE3LBE-xru9CBwq4v126vNxa7_gby1hEY3DbQ2sBjgd33uvVIPXM7knPOcdUy94KT3_tw6aMYI8D1lU-RJ_FdNy4Y8NKhINMUYVGFt5omQ6Dieqz5g0Ls_iyvK81S9F2vZZGM93qBaI9wgwCKFx0GSQ8NvyGceJsfVFvvQm49f0Z0kZHCi1Ou4GGB50q5UhmIuYXDeQ",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Ticka Axellyn Runaweri",
+          "uri": "https://maps.google.com/maps/contrib/116801433795869584228",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVR_pd5ILSChHgBv0skLDoq2YmhvF-Gb0qjtj5JfrNVHD5WX53M=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMDIv4veVA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDIv4veVA!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    },
+    {
+      "name": "places/ChIJK3xb0mDzaS4RyQOmsFcW-_M/photos/Aa-ngMZP6lA5nC0WDH9GBV6cHHm6Fe0fNq1MP06pH_dCD4CX0D20SzX0kyK8hXUtA3rqTBDLD8rdGQQO13bAyfFQY6WAEPMFPJA9qptKE7-Tx4mAuXeZqy1lIs75S3Ri2XhpxgFyDODtYG8tLFbQMISssyP-HbGuo9bmSfh94mIxbZVZLmEJTzv0roui95a7-xIfCgIly5j_XMxqwid7UoKd2uRUFzAyqAq-l_q2HCknaI2cg5rzrKw4Ls_k-8_HHqFmWz9Pnl3HsDaKnmEqYvmzTQHJpzV2y5WYQtfC0LHiHwBq1ChKMuyjdLPW3Rpmbkjg3ij8xeZggul1MRYg1huY7vqYKSNw6ZGcv8oGvdTACC9NykAu0fbWgulVQj-D90qcanbZHCgkd-OCZg6s2UNaXQ",
+      "widthPx": 1600,
+      "heightPx": 1204,
+      "authorAttributions": [
+        {
+          "displayName": "Narendra Sita",
+          "uri": "https://maps.google.com/maps/contrib/114065439656919188352",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLF5sWdBxP7gELRt1tdzhSKQT_zzyft_IRl4SZu8ImP373rqg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMDQ97p0&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDQ97p0!2e10!4m2!3m1!1s0x2e69f360d25b7c2b:0xf3fb1657b0a603c9"
+    }
+  ]
+}

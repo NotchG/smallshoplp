@@ -1,0 +1,473 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7584,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"WOVEN COFFEE\"",
+        "fontSize": 38,
+        "lineHeight": "38px",
+        "textWidth": 333,
+        "pctOfContentWidth": 95
+      },
+      {
+        "el": "p \"Kopi dan teh, dirajut sederhana di Jatin\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 279,
+        "pctOfContentWidth": 80
+      },
+      {
+        "el": "h2#kopi-enak \"KOPI ENAK\"",
+        "fontSize": 29,
+        "lineHeight": "31.9px",
+        "textWidth": 166,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"KOPI ENAK\"",
+        "fontSize": 23,
+        "lineHeight": "24.15px",
+        "textWidth": 69,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"ICE VIETNAMESE\"",
+        "fontSize": 23,
+        "lineHeight": "24.15px",
+        "textWidth": 158,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#menu \"MENU ANDALAN\"",
+        "fontSize": 29,
+        "lineHeight": "31.9px",
+        "textWidth": 250,
+        "pctOfContentWidth": 71
+      },
+      {
+        "el": "h3 \"KOPI HITAM\"",
+        "fontSize": 23,
+        "lineHeight": "25.3px",
+        "textWidth": 140,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"KOPI SUSU\"",
+        "fontSize": 23,
+        "lineHeight": "25.3px",
+        "textWidth": 127,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"TEH & NON-KOPI\"",
+        "fontSize": 23,
+        "lineHeight": "25.3px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"CAMILAN & MAKAN\"",
+        "fontSize": 23,
+        "lineHeight": "25.3px",
+        "textWidth": 236,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#teh \"BUKAN CUMA KOPI\"",
+        "fontSize": 29,
+        "lineHeight": "31.9px",
+        "textWidth": 288,
+        "pctOfContentWidth": 82
+      },
+      {
+        "el": "h3 \"TEH SATU POCI\"",
+        "fontSize": 23,
+        "lineHeight": "24.15px",
+        "textWidth": 131,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"TEH YANG SERING TERSAJI\"",
+        "fontSize": 18,
+        "lineHeight": "22.5px",
+        "textWidth": 258,
+        "pctOfContentWidth": 74
+      },
+      {
+        "el": "h2#kenapa-mampir \"KENAPA MAMPIR\"",
+        "fontSize": 29,
+        "lineHeight": "31.9px",
+        "textWidth": 254,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h2#kata-mereka \"KATA MEREKA\"",
+        "fontSize": 29,
+        "lineHeight": "31.9px",
+        "textWidth": 209,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "li \"Seorang tamu mampir mendadak dan malah j\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 338,
+        "pctOfContentWidth": 97
+      },
+      {
+        "el": "li \"Tempatnya nyaman untuk ngobrol dengan te\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 334,
+        "pctOfContentWidth": 95
+      },
+      {
+        "el": "li \"Timnya ramah dan paham betul soal kopi. \"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 325,
+        "pctOfContentWidth": 93
+      },
+      {
+        "el": "li \"Tempat santai untuk nongkrong bersama te\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 285,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h2#kunjungi \"KUNJUNGI KAMI\"",
+        "fontSize": 29,
+        "lineHeight": "31.9px",
+        "textWidth": 242,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h2#hubungi \"HUBUNGI KAMI\"",
+        "fontSize": 29,
+        "lineHeight": "31.9px",
+        "textWidth": 230,
+        "pctOfContentWidth": 66
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6076,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"WOVEN COFFEE\"",
+        "fontSize": 53.1,
+        "lineHeight": "53.056px",
+        "textWidth": 490,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "p \"Kopi dan teh, dirajut sederhana di Jatin\"",
+        "fontSize": 25.4,
+        "lineHeight": "32.9888px",
+        "textWidth": 308,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#kopi-enak \"KOPI ENAK\"",
+        "fontSize": 35.4,
+        "lineHeight": "38.9664px",
+        "textWidth": 203,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"KOPI ENAK\"",
+        "fontSize": 25.4,
+        "lineHeight": "26.6448px",
+        "textWidth": 76,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"ICE VIETNAMESE\"",
+        "fontSize": 25.4,
+        "lineHeight": "26.6448px",
+        "textWidth": 174,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#menu \"MENU ANDALAN\"",
+        "fontSize": 35.4,
+        "lineHeight": "38.9664px",
+        "textWidth": 306,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"KOPI HITAM\"",
+        "fontSize": 25.4,
+        "lineHeight": "27.9136px",
+        "textWidth": 154,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"KOPI SUSU\"",
+        "fontSize": 25.4,
+        "lineHeight": "27.9136px",
+        "textWidth": 140,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"TEH & NON-KOPI\"",
+        "fontSize": 25.4,
+        "lineHeight": "27.9136px",
+        "textWidth": 221,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"CAMILAN & MAKAN\"",
+        "fontSize": 25.4,
+        "lineHeight": "27.9136px",
+        "textWidth": 260,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#teh \"BUKAN CUMA KOPI\"",
+        "fontSize": 35.4,
+        "lineHeight": "38.9664px",
+        "textWidth": 210,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"TEH SATU POCI\"",
+        "fontSize": 25.4,
+        "lineHeight": "26.6448px",
+        "textWidth": 144,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"TEH YANG SERING TERSAJI\"",
+        "fontSize": 18.7,
+        "lineHeight": "23.4px",
+        "textWidth": 268,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#kenapa-mampir \"KENAPA MAMPIR\"",
+        "fontSize": 35.4,
+        "lineHeight": "38.9664px",
+        "textWidth": 310,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#kata-mereka \"KATA MEREKA\"",
+        "fontSize": 35.4,
+        "lineHeight": "38.9664px",
+        "textWidth": 255,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "li \"Seorang tamu mampir mendadak dan malah j\"",
+        "fontSize": 25.4,
+        "lineHeight": "32.9888px",
+        "textWidth": 336,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "li \"Tempatnya nyaman untuk ngobrol dengan te\"",
+        "fontSize": 25.4,
+        "lineHeight": "32.9888px",
+        "textWidth": 338,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "li \"Timnya ramah dan paham betul soal kopi. \"",
+        "fontSize": 25.4,
+        "lineHeight": "32.9888px",
+        "textWidth": 330,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "li \"Tempat santai untuk nongkrong bersama te\"",
+        "fontSize": 25.4,
+        "lineHeight": "32.9888px",
+        "textWidth": 314,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#kunjungi \"KUNJUNGI KAMI\"",
+        "fontSize": 35.4,
+        "lineHeight": "38.9664px",
+        "textWidth": 295,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#hubungi \"HUBUNGI KAMI\"",
+        "fontSize": 35.4,
+        "lineHeight": "38.9664px",
+        "textWidth": 282,
+        "pctOfContentWidth": 40
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5890,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"WOVEN COFFEE\"",
+        "fontSize": 81.3,
+        "lineHeight": "81.28px",
+        "textWidth": 751,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "p \"Kopi dan teh, dirajut sederhana di Jatin\"",
+        "fontSize": 30,
+        "lineHeight": "39px",
+        "textWidth": 523,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#kopi-enak \"KOPI ENAK\"",
+        "fontSize": 47.5,
+        "lineHeight": "52.272px",
+        "textWidth": 272,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"KOPI ENAK\"",
+        "fontSize": 30,
+        "lineHeight": "31.5px",
+        "textWidth": 90,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"ICE VIETNAMESE\"",
+        "fontSize": 30,
+        "lineHeight": "31.5px",
+        "textWidth": 206,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#menu \"MENU ANDALAN\"",
+        "fontSize": 47.5,
+        "lineHeight": "52.272px",
+        "textWidth": 248,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"KOPI HITAM\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 183,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"KOPI SUSU\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 166,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"TEH & NON-KOPI\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 261,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"CAMILAN & MAKAN\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 307,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#teh \"BUKAN CUMA KOPI\"",
+        "fontSize": 47.5,
+        "lineHeight": "52.272px",
+        "textWidth": 472,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"TEH SATU POCI\"",
+        "fontSize": 30,
+        "lineHeight": "31.5px",
+        "textWidth": 171,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"TEH YANG SERING TERSAJI\"",
+        "fontSize": 20,
+        "lineHeight": "25px",
+        "textWidth": 287,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#kenapa-mampir \"KENAPA MAMPIR\"",
+        "fontSize": 47.5,
+        "lineHeight": "52.272px",
+        "textWidth": 201,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#kata-mereka \"KATA MEREKA\"",
+        "fontSize": 47.5,
+        "lineHeight": "52.272px",
+        "textWidth": 343,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "li \"Seorang tamu mampir mendadak dan malah j\"",
+        "fontSize": 30,
+        "lineHeight": "39px",
+        "textWidth": 373,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "li \"Tempatnya nyaman untuk ngobrol dengan te\"",
+        "fontSize": 30,
+        "lineHeight": "39px",
+        "textWidth": 369,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "li \"Timnya ramah dan paham betul soal kopi. \"",
+        "fontSize": 30,
+        "lineHeight": "39px",
+        "textWidth": 343,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "li \"Tempat santai untuk nongkrong bersama te\"",
+        "fontSize": 30,
+        "lineHeight": "39px",
+        "textWidth": 372,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#kunjungi \"KUNJUNGI KAMI\"",
+        "fontSize": 47.5,
+        "lineHeight": "52.272px",
+        "textWidth": 396,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#hubungi \"HUBUNGI KAMI\"",
+        "fontSize": 47.5,
+        "lineHeight": "52.272px",
+        "textWidth": 378,
+        "pctOfContentWidth": 32
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  }
+}

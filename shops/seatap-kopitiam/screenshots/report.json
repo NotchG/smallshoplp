@@ -1,0 +1,326 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6044,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"SEATAP Kopitiam Kopitiam\"",
+        "fontSize": 72,
+        "lineHeight": "64.8px",
+        "textWidth": 351,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#sarapan-title \"Sarapan dari jam 7\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 303,
+        "pctOfContentWidth": 87
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 225,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "h3 \"Es Kopi Susu\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 126,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Singkong Goreng\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 92,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Pisang Goreng\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 146,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"Bubur Kacang Hijau\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 130,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Es Teh\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 62,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Kue Pandan\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 116,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Bundling paket\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 147,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#ruang-title \"Ruang kumpul\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 229,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 199,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 227,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "38.88px",
+        "textWidth": 224,
+        "pctOfContentWidth": 64
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6763,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"SEATAP Kopitiam Kopitiam\"",
+        "fontSize": 79.3,
+        "lineHeight": "71.3664px",
+        "textWidth": 705,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#sarapan-title \"Sarapan dari jam 7\"",
+        "fontSize": 45.6,
+        "lineHeight": "49.2134px",
+        "textWidth": 384,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 45.6,
+        "lineHeight": "49.2134px",
+        "textWidth": 285,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Es Kopi Susu\"",
+        "fontSize": 24.6,
+        "lineHeight": "30.72px",
+        "textWidth": 141,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Singkong Goreng\"",
+        "fontSize": 24.6,
+        "lineHeight": "30.72px",
+        "textWidth": 194,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Pisang Goreng\"",
+        "fontSize": 24.6,
+        "lineHeight": "30.72px",
+        "textWidth": 163,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Bubur Kacang Hijau\"",
+        "fontSize": 24.6,
+        "lineHeight": "30.72px",
+        "textWidth": 218,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Es Teh\"",
+        "fontSize": 24.6,
+        "lineHeight": "30.72px",
+        "textWidth": 69,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Kue Pandan\"",
+        "fontSize": 24.6,
+        "lineHeight": "30.72px",
+        "textWidth": 130,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Bundling paket\"",
+        "fontSize": 24.6,
+        "lineHeight": "30.72px",
+        "textWidth": 164,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#ruang-title \"Ruang kumpul\"",
+        "fontSize": 45.6,
+        "lineHeight": "49.2134px",
+        "textWidth": 289,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 45.6,
+        "lineHeight": "49.2134px",
+        "textWidth": 252,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 45.6,
+        "lineHeight": "49.2134px",
+        "textWidth": 287,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 45.6,
+        "lineHeight": "49.2134px",
+        "textWidth": 284,
+        "pctOfContentWidth": 40
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5172,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"SEATAP Kopitiam Kopitiam\"",
+        "fontSize": 127.7,
+        "lineHeight": "114.912px",
+        "textWidth": 589,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#sarapan-title \"Sarapan dari jam 7\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 506,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 376,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Es Kopi Susu\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 161,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Singkong Goreng\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 221,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Pisang Goreng\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 185,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Bubur Kacang Hijau\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 249,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Es Teh\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 79,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Kue Pandan\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 148,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Bundling paket\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 187,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#ruang-title \"Ruang kumpul\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 381,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 332,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 378,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 60,
+        "lineHeight": "64.8px",
+        "textWidth": 374,
+        "pctOfContentWidth": 31
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  }
+}

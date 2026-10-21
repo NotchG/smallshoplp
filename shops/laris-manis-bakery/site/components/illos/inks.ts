@@ -1,0 +1,20 @@
+// Illustration inks, design brief §3. SVG only, never UI text.
+export const ink = {
+  crust: "#D9963F",
+  crumb: "#F6DFA6",
+  chocolate: "#4A2A17",
+  cheese: "#FFF1B8",
+  sausage: "#B5432A",
+  slice: "#D9576A",
+  cookie: "#F7DE8C",
+  cookieShade: "#E3B95A",
+  paperCase: "#1B1B1F",
+  ornament: "#7B4A24",
+  bagEdge: "#C9D3E8",
+  white: "#FFFFFF",
+  biru: "#1E4DB7",
+  oranye: "#C8401A",
+  kuning: "#F5C33B",
+  slot: "#143580",
+  grout: "#E9E1CF",
+} as const;

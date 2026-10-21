@@ -1,0 +1,402 @@
+@import "tailwindcss";
+
+/* Kana Coffee & Space. Palette, type and layout from docs/design-brief.md §3–5.
+   Colours and fonts become Tailwind utilities (bg-ochre, text-rust, font-script...). */
+@theme inline {
+  --color-ochre: #d59950;      /* poster ground */
+  --color-ochre-deep: #cb8e4b; /* watermark "k" only */
+  --color-rust: #642a10;       /* logo ink */
+  --color-steel: #1c1714;      /* black steel, mesh ceiling */
+  --color-oak: #eadbc2;        /* light oak veneer */
+  --color-cream: #fbf9f1;      /* poster lettering */
+  --font-script: var(--font-mynerve), "Segoe Script", cursive;
+  --font-mark: var(--font-mynerve-mark), var(--font-mynerve), "Segoe Script", cursive;
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 75rem;                                   /* 1200px */
+  --gutter: clamp(1.25rem, 0.8rem + 2vw, 2.5rem);       /* 20px → 40px */
+  --section-y: clamp(4rem, 2.5rem + 5vw, 7.5rem);       /* 64px → 112px */
+  --grid-gap: 2rem;
+
+  --step-display: clamp(7rem, 4rem + 11vw, 13rem);          /* 112 → 208px, wordmark only */
+  --step-head: clamp(2.25rem, 1.6rem + 2.4vw, 3.75rem);     /* 36 → 60px */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.6vw, 1.625rem);   /* 22 → 26px */
+  --step-body: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem);    /* 17 → 18px */
+  --step-small: clamp(0.84375rem, 0.82rem + 0.1vw, 0.875rem); /* 13.5 → 14px */
+
+  --leading-display: 0.9;
+  --leading-head: 1.1;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+
+  --rule: rgb(28 23 20 / 0.15);
+  --focus: var(--color-steel);
+}
+
+html {
+  background: var(--color-steel);
+  color: var(--color-steel);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-sans);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--color-rust); color: var(--color-cream); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: var(--leading-lead); }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.45; }
+
+.caps {
+  font-size: var(--step-small);
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  line-height: 1.45;
+}
+.label {
+  font-size: var(--step-small);
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.45;
+}
+.measure { max-width: 34rem; }
+.text-balance { text-wrap: balance; }
+.text-pretty { text-wrap: pretty; }
+
+/* 12-column grid at ≥1024px (design brief §5). */
+.grid-12 { display: grid; grid-template-columns: minmax(0, 1fr); column-gap: var(--grid-gap); }
+@media (min-width: 1024px) {
+  .grid-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+}
+
+/* Grounds. Each sets its own text colour, hairline and focus ring (design brief §3). */
+.ground-ochre { background: var(--color-ochre); color: var(--color-steel); --rule: rgb(100 42 16 / 0.28); --focus: var(--color-steel); }
+.ground-oak   { background: var(--color-oak);   color: var(--color-steel); --rule: rgb(28 23 20 / 0.15); --focus: var(--color-steel); }
+.ground-cream { background: var(--color-cream); color: var(--color-steel); --rule: rgb(28 23 20 / 0.14); --focus: var(--color-steel); }
+.ground-steel { background: var(--color-steel); color: var(--color-cream); --rule: rgb(251 249 241 / 0.16); --focus: var(--color-ochre); }
+.ground-rust  { background: var(--color-rust);  color: var(--color-cream); --rule: rgb(251 249 241 / 0.2); --focus: var(--color-ochre); }
+
+.rule-t { border-top: 1px solid var(--rule); }
+.rule-b { border-bottom: 1px solid var(--rule); }
+
+/* Script: wordmark, section headings and the one hero note only. */
+.script { font-family: var(--font-script); font-weight: 400; letter-spacing: 0; }
+.section-head {
+  font-family: var(--font-script);
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  text-wrap: balance;
+}
+
+/* Focus: 2px, 3px offset, colour from the ground. */
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+a { text-underline-offset: 0.22em; text-decoration-thickness: 1px; }
+
+/* Buttons (ActionButton). Overlay fades in on hover, lift 1px. */
+.btn {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 3rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  font-size: var(--step-body);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 180ms ease-out;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity 180ms ease-out;
+  pointer-events: none;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn:hover::after { opacity: 0.12; }
+.btn:active { transform: translateY(0); transition-duration: 120ms; }
+.btn-primary { background: var(--color-rust); color: var(--color-cream); }
+.ground-steel .btn-primary,
+.ground-rust .btn-primary { background: var(--color-ochre); color: var(--color-steel); }
+.btn-secondary { color: inherit; box-shadow: inset 0 0 0 2px currentColor; }
+
+/* Text link with a 44px tap target. */
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.75rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.3em;
+  transition: text-decoration-thickness 180ms ease-out;
+}
+.text-link:hover { text-decoration-thickness: 2px; }
+
+/* Circled numbers, as on the New Menu poster. */
+.num {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 1.75em;
+  height: 1.75em;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  font-size: var(--step-small);
+  font-weight: 600;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-rust);
+}
+
+/* Menu price follows its dish name on the same line, 0.75rem gap. */
+.dish { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 0.75rem; }
+.price { color: var(--color-rust); font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* Inline list with middots, for "Juga di menu". */
+.dot-list > li { display: inline-block; margin-right: 0.35em; }
+.dot-list > li:not(:last-child)::after { content: "·"; margin-left: 0.45em; color: var(--color-rust); }
+
+/* Skip link: off-screen until focused. */
+.skip-link {
+  position: absolute;
+  left: var(--gutter);
+  top: 0;
+  z-index: 50;
+  transform: translateY(-200%);
+  background: var(--color-cream);
+  color: var(--color-steel);
+  padding: 0.75rem 1rem;
+  min-height: 2.75rem;
+  font-weight: 500;
+}
+.skip-link:focus-visible { transform: translateY(0.5rem); }
+
+/* Hero */
+.hero { position: relative; overflow: clip; }
+.hero-photo { position: relative; aspect-ratio: 4 / 5; }
+.hero-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+/* Lockup as on the logo: "COFFEE & SPACE" tucked under "ana". The h1 carries the display size,
+   so the caps offset is measured in wordmark ems. */
+.wordmark-lockup { font-family: var(--font-mark); font-weight: 400; color: var(--color-rust); }
+.wordmark-lockup .wordmark { line-height: 0.82; }
+.wordmark-caps {
+  display: block;
+  margin-top: calc(var(--step-display) * 0.03);
+  margin-left: calc(var(--step-display) * 0.62);
+  font-family: var(--font-sans);
+  color: var(--color-steel);
+}
+.kmark {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  font-family: var(--font-mark);
+  color: var(--color-ochre-deep);
+  line-height: 0.8;
+}
+/* Two columns from 768px; the photo column breaks out of the container to the right edge
+   (and up to the top of the hero). The text column stays on the container's left line. */
+@media (min-width: 768px) {
+  .hero-grid {
+    display: grid;
+    grid-template-columns:
+      minmax(var(--gutter), 1fr)
+      minmax(0, calc(var(--container) / 2 - var(--grid-gap) / 2))
+      var(--grid-gap)
+      minmax(0, calc(var(--container) / 2 - var(--grid-gap) / 2))
+      minmax(var(--gutter), 1fr);
+  }
+  .hero-text { grid-column: 2; align-self: center; }
+  .hero-media { grid-column: 4 / 6; align-self: stretch; position: relative; }
+  .hero-photo-wrap { position: relative; z-index: 1; height: 100%; }
+  .hero-media .hero-photo { height: 100%; min-height: 100%; }
+}
+/* The giant "k" from the poster, tone on tone, peeking out from behind the photo's lower left. */
+.kmark {
+  font-size: calc(var(--step-display) * 2.3);
+  right: calc(100% - 0.16em);
+  bottom: 0;
+}
+/* The arrow leaves the end of "ini jalannya", loops right and curls back under the words,
+   so its tip lands on the middle of "Petunjuk Arah" whatever the width. */
+.note-arrow {
+  display: inline-block;
+  width: 2.4em;
+  height: 2.16em;
+  margin-bottom: 0.2rem;
+  margin-left: 0.14em;
+  vertical-align: top;
+  overflow: visible;
+}
+
+/* Hero note: the pen-written annotation that points at "Petunjuk Arah". */
+.note-outer { overflow: hidden; display: block; width: fit-content; }
+.note-inner { display: block; }
+.note-text {
+  font-family: var(--font-script);
+  font-size: var(--step-lead);
+  line-height: 1.15;
+  color: var(--color-rust);
+}
+
+/* Map */
+.map-frame { position: relative; aspect-ratio: 4 / 3; background: var(--color-ochre-deep); }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+/* Focus moves into the iframe's own document, so ring the frame instead. */
+.map-frame:focus-within { outline: 2px solid var(--focus); outline-offset: 3px; }
+@media (min-width: 1024px) {
+  .map-frame { aspect-ratio: auto; height: 100%; min-height: 28rem; }
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small);
+  line-height: 1.4;
+  text-align: center;
+  padding: 0.5rem var(--gutter);
+  background: var(--color-steel);
+  color: var(--color-cream);
+  letter-spacing: 0.02em;
+}
+
+/* Hero entrance: hidden only when JS runs and motion is allowed, so the page is complete
+   with JS off and under reduced motion. A failsafe shows everything after 3s regardless. */
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-hero="fade"] { opacity: 0; animation: kana-failsafe-fade 0s linear 3s forwards; }
+  .js [data-hero="note-outer"] { transform: translateX(-101%); animation: kana-failsafe-move 0s linear 3s forwards; }
+  .js [data-hero="note-inner"] { transform: translateX(101%); animation: kana-failsafe-move 0s linear 3s forwards; }
+}
+@keyframes kana-failsafe-fade { to { opacity: 1; } }
+@keyframes kana-failsafe-move { to { transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:hover, .btn:active { transform: none; }
+}
+
+/* Menu andalan: poster photos beside their numbered list (design brief §7).
+   Phone: one column in reading order. 768–1023: photos paired, lists paired. ≥1024: 12 columns. */
+.menu-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--grid-gap);
+  row-gap: 2rem;
+  grid-template-areas: "head" "a" "mains" "b" "drinks" "c" "fav" "also";
+}
+.menu-head { grid-area: head; }
+.menu-a { grid-area: a; }
+.menu-b { grid-area: b; }
+.menu-mains { grid-area: mains; }
+.menu-drinks { grid-area: drinks; }
+.menu-c { grid-area: c; }
+.menu-fav { grid-area: fav; }
+.menu-also { grid-area: also; }
+.menu-a, .menu-b { max-width: 24rem; }
+@media (min-width: 768px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas: "head head" "a b" "mains drinks" "c c" "fav fav" "also also";
+  }
+  .menu-a, .menu-b { max-width: none; }
+  .menu-fav ul { columns: 2; column-gap: var(--grid-gap); }
+  .menu-fav li { break-inside: avoid; }
+}
+@media (min-width: 1024px) {
+  .menu-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    row-gap: 0;
+    grid-template-areas:
+      "head head head head head head head head head head head head"
+      "a a a a b b b mains mains mains mains mains"
+      "a a a a b b b drinks drinks drinks drinks drinks"
+      "c c c c c c c fav fav fav fav fav"
+      "also also also also also also also also also also also also";
+  }
+  .menu-head { margin-bottom: 3.5rem; }
+  .menu-b { margin-top: 4rem; }
+  .menu-drinks { margin-top: 2.5rem; }
+  .menu-c, .menu-fav { margin-top: 5rem; }
+  .menu-also { margin-top: 4.5rem; }
+  .menu-fav ul { columns: auto; }
+}
+
+/* Fasilitas: the event invitation closes the list, set off by an ochre rule. */
+.events { border-top: 2px solid var(--color-ochre); }
+
+/* Satu tempat: heading and the photo placeholder share the left columns on desktop. */
+.spaces-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--grid-gap);
+  row-gap: 2.5rem;
+  grid-template-areas: "head" "list" "ph";
+}
+.spaces-head { grid-area: head; }
+.spaces-list { grid-area: list; }
+.spaces-ph { grid-area: ph; }
+@media (min-width: 1024px) {
+  .spaces-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "head head head head list list list list list list list list"
+      "ph ph ph ph list list list list list list list list";
+  }
+  .spaces-ph { align-self: end; }
+}
+/* A labelled gap where an owner photo will go. Quiet, in the room's oak, never a grey box. */
+.photo-placeholder {
+  display: grid;
+  align-content: center;
+  gap: 0.35rem;
+  aspect-ratio: 2 / 1;
+  padding: 1.25rem 1.5rem;
+  background: rgb(100 42 16 / 0.07);
+  border: 1px solid var(--rule);
+}

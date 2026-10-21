@@ -1,0 +1,179 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 5820,
+    "sizes": [
+      {
+        "el": "h1#hero-h \"KAWA COFFEE\"",
+        "fontSize": 72,
+        "lineHeight": "64.8px",
+        "textWidth": 275,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 219,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Menu lainnya\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 117,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#tempat-h \"Tempat buat kerja & ngobrol\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 234,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#praise-h \"Kata mereka\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 197,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h2#lokasi-h \"Kunjungi kami\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 217,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 212,
+        "pctOfContentWidth": 61
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 24
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5622,
+    "sizes": [
+      {
+        "el": "h1#hero-h \"KAWA COFFEE\"",
+        "fontSize": 100.5,
+        "lineHeight": "90.432px",
+        "textWidth": 383,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 285,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Menu lainnya\"",
+        "fontSize": 17.9,
+        "lineHeight": "27.776px",
+        "textWidth": 123,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#tempat-h \"Tempat buat kerja & ngobrol\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 568,
+        "pctOfContentWidth": 78
+      },
+      {
+        "el": "h2#praise-h \"Kata mereka\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 256,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#lokasi-h \"Kunjungi kami\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 282,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 276,
+        "pctOfContentWidth": 38
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 24
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4819,
+    "sizes": [
+      {
+        "el": "h1#hero-h \"KAWA COFFEE\"",
+        "fontSize": 136,
+        "lineHeight": "122.4px",
+        "textWidth": 519,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 349,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Menu lainnya\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 124,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#tempat-h \"Tempat buat kerja & ngobrol\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 372,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#praise-h \"Kata mereka\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 313,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#lokasi-h \"Kunjungi kami\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 345,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 338,
+        "pctOfContentWidth": 28
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 24
+  }
+}

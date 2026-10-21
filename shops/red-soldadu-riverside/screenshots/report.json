@@ -1,0 +1,368 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7720,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Red Soldadu Riverside\"",
+        "fontSize": 48,
+        "lineHeight": "50.4px",
+        "textWidth": 285,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h2#setting-title \"Di tepi Ciliwung\"",
+        "fontSize": 34.1,
+        "lineHeight": "37.554px",
+        "textWidth": 273,
+        "pctOfContentWidth": 78
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 34.1,
+        "lineHeight": "37.554px",
+        "textWidth": 241,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h3 \"Black and Berries\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 113,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Banana Fritter\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 90,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Cheese Baked Peuyeum\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 155,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Mocktail\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 101,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Honey Wings\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 154,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 53,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Mocktail & minuman dingin\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 328,
+        "pctOfContentWidth": 94
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 102,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Makanan berat\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 178,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#work-title \"Kerja atau santai\"",
+        "fontSize": 34.1,
+        "lineHeight": "37.554px",
+        "textWidth": 289,
+        "pctOfContentWidth": 83
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 34.1,
+        "lineHeight": "37.554px",
+        "textWidth": 214,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 34.1,
+        "lineHeight": "37.554px",
+        "textWidth": 249,
+        "pctOfContentWidth": 71
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 34.1,
+        "lineHeight": "37.554px",
+        "textWidth": 240,
+        "pctOfContentWidth": 69
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7642,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Red Soldadu Riverside\"",
+        "fontSize": 73,
+        "lineHeight": "76.608px",
+        "textWidth": 433,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#setting-title \"Di tepi Ciliwung\"",
+        "fontSize": 44,
+        "lineHeight": "48.3648px",
+        "textWidth": 351,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 44,
+        "lineHeight": "48.3648px",
+        "textWidth": 310,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Black and Berries\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 224,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Banana Fritter\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 190,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Cheese Baked Peuyeum\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 293,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Mocktail\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 111,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Honey Wings\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 169,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 58,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Mocktail & minuman dingin\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 215,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 112,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Makanan berat\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 195,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#work-title \"Kerja atau santai\"",
+        "fontSize": 44,
+        "lineHeight": "48.3648px",
+        "textWidth": 372,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "48.3648px",
+        "textWidth": 275,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.3648px",
+        "textWidth": 321,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.3648px",
+        "textWidth": 310,
+        "pctOfContentWidth": 45
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5408,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Red Soldadu Riverside\"",
+        "fontSize": 112,
+        "lineHeight": "117.6px",
+        "textWidth": 665,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#setting-title \"Di tepi Ciliwung\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 415,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 366,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Black and Berries\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 137,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Banana Fritter\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 209,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Cheese Baked Peuyeum\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 188,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Mocktail\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 123,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Honey Wings\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 186,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 64,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Mocktail & minuman dingin\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 237,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Camilan\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 124,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Makanan berat\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 215,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#work-title \"Kerja atau santai\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 440,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 325,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 380,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 366,
+        "pctOfContentWidth": 31
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 33
+  }
+}

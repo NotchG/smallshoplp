@@ -1,0 +1,263 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Colours and fonts become Tailwind utilities (bg-kapur, text-tinta, font-display...). */
+@theme {
+  --color-kapur: #F4F5F1;  /* whitewash: page ground, text on ink and red fields */
+  --color-tinta: #161616;  /* ink: text on kapur, line drawings, frames, dark fields */
+  --color-merah: #C7252D;  /* chair red: WhatsApp buttons, the Acara field */
+  --color-mint: #A6DBC6;   /* mint chairs: today chip and today's hours row */
+  --color-jeruk: #F39C1E;  /* float and mural orange: illustration fills, Friday dot */
+  --color-biru: #1F5FB0;   /* mural shopfront: Lantai 2 illustration only */
+  --color-bata: #D8D9D4;   /* derived grey for the hero brick lines (decorative) */
+  --font-display: var(--font-kaushan), "Brush Script MT", cursive;
+  --font-body: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale (design brief §4–5). Sizes live here as variables, never as
+   Tailwind arbitrary values with spaces. Endpoints 390 → 1440, linear between. */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --grid-gap: 16px;
+
+  --step-display: clamp(4.5rem, 2.689rem + 7.429vw, 9.375rem);   /* 72 → 150 */
+  --step-head: clamp(1.875rem, 1.504rem + 1.524vw, 2.875rem);    /* 30 → 46 */
+  --step-lead: clamp(1.375rem, 1.282rem + 0.381vw, 1.625rem);    /* 22 → 26 */
+  --step-body: clamp(1.0625rem, 1.016rem + 0.19vw, 1.1875rem);   /* 17 → 19 */
+  --step-small: clamp(0.8125rem, 0.766rem + 0.19vw, 0.9375rem);  /* 13 → 15 */
+
+  --leading-display: 1.05;
+  --leading-head: 1.08;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+  --leading-small: 1.4;
+
+  --frame: 8px;          /* window frame, phone */
+  --banner-h: 58px;      /* draft banner height, phone (3 lines) */
+  --ring: var(--color-tinta);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 40px; --section-y: 112px; --grid-gap: 24px; --frame: 10px; --banner-h: 36px; }
+}
+
+html {
+  background: var(--color-kapur);
+  color: var(--color-tinta);
+  scrollbar-color: var(--color-tinta) var(--color-kapur);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  caret-color: var(--color-merah);
+}
+::selection { background: var(--color-tinta); color: var(--color-kapur); }
+.field-dark ::selection, .field-red ::selection { background: var(--color-kapur); color: var(--color-tinta); }
+
+a { text-underline-offset: 0.2em; text-decoration-thickness: 2px; }
+
+/* Focus: 3px solid in the section's text colour, 3px offset. */
+:focus-visible { outline: 3px solid var(--ring); outline-offset: 3px; }
+.field-dark, .field-red { --ring: var(--color-kapur); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+/* Where two kapur sections meet (floors → menu): one shared gap, not two. */
+.section.section-joined { padding-top: calc(var(--section-y) * 0.5); }
+
+/* 12-column grid used by every two-column layout from 1024px. */
+.grid-12 { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); }
+
+.t-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+}
+.t-head {
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  font-weight: 800;
+  font-stretch: 90%;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+.t-lead  { font-size: var(--step-lead);  line-height: var(--leading-lead); font-weight: 600; }
+.t-body  { font-size: var(--step-body);  line-height: var(--leading-body); }
+.t-small { font-size: var(--step-small); line-height: var(--leading-small); }
+.t-label {
+  font-size: var(--step-small);
+  line-height: var(--leading-small);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+.measure { max-width: 60ch; }
+.price { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* ------------------------------------------------------------------ hero */
+.hero { position: relative; overflow: clip; }
+@media (min-width: 1024px) {
+  .hero-inner {
+    min-height: max(640px, min(calc(100svh - var(--banner-h)), 820px));
+    align-items: center;
+  }
+}
+
+/* The painted name. Each stroke is a two-span wipe: the outer span masks, the inner
+   span counter-moves so the letters stay still while the edge travels left to right.
+   Padding lives on the inner span (cancelled by the outer's negative margin) so the
+   outer and inner are the same width and Kaushan's swashes are not clipped. */
+.paint-name { display: flex; flex-direction: column; align-items: flex-start; }
+.paint-outer {
+  display: block;
+  overflow: hidden;
+  margin: -0.15em;
+}
+.paint-inner { display: block; padding: 0.15em; }
+.js .paint-outer { transform: translateX(-100%); }
+.js .paint-inner { transform: translateX(100%); }
+.js .paint-outer, .js .paint-inner { animation: paint-failsafe 0s 2.5s forwards; }
+@keyframes paint-failsafe { to { transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .js .paint-outer, .js .paint-inner { transform: none; animation: none; }
+}
+
+/* Window: owner-1 seen through one of the shop's black-framed windows. */
+.window-frame { border: var(--frame) solid var(--color-tinta); background: var(--color-tinta); }
+.window-sill {
+  height: 14px;
+  margin-inline: -12px;
+  background: var(--color-tinta);
+}
+
+/* ------------------------------------------------------------------ buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 10px 16px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font-size: var(--step-body);
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn svg { width: 20px; height: 20px; flex: none; }
+@media (min-width: 768px) { .btn { padding-inline: 22px; } }
+.btn:hover { transform: translateY(-2px); }
+.btn:active { transform: scale(0.98); transition-duration: 120ms; }
+.btn-red { background: var(--color-merah); color: var(--color-kapur); border-color: var(--color-merah); }
+.btn-chalk { background: var(--color-kapur); color: var(--color-tinta); border-color: var(--color-kapur); }
+.btn-ink { background: transparent; color: currentColor; border-color: currentColor; }
+@media (prefers-reduced-motion: reduce) {
+  .btn:hover, .btn:active { transform: none; }
+}
+
+/* Text link with a full-size tap target. */
+.tap-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------ menu grid */
+/* The upstairs steel-grid roof as the menu: 2px ink rules between cells. */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px;
+  background: var(--color-tinta);
+  border: 2px solid var(--color-tinta);
+}
+.menu-cell { background: var(--color-kapur); }
+.menu-lead { grid-column: 1 / -1; }
+.menu-photo { position: relative; aspect-ratio: 1 / 1; overflow: hidden; }
+.menu-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; }
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .menu-photo { aspect-ratio: 3 / 2; }
+  .menu-photo img { object-position: 50% 18%; }
+}
+@media (min-width: 1024px) {
+  .menu-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .menu-lead { grid-column: span 2; grid-row: span 2; display: flex; flex-direction: column; }
+  .menu-lead .menu-photo { aspect-ratio: auto; flex: 1 1 auto; min-height: 0; }
+}
+
+/* ------------------------------------------------------------------ Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px; line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-tinta); color: var(--color-kapur);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* ------------------------------------------------------------------ painted name layout */
+/* Offsets are in display ems; each cancels the 0.15em mask padding where needed. */
+.stroke-arc { margin-left: -0.2em; margin-bottom: -0.4em; }
+.stroke-arc svg { display: block; width: 2.5em; height: 0.625em; }
+.stroke-kita { margin-left: 0.4em; margin-top: -0.32em; }  /* line pitch ≈ 0.88em, tight like the painted logo */
+.stroke-underline { margin-left: 0.4em; margin-top: -0.36em; }
+.stroke-underline svg { display: block; width: 1.95em; height: 0.215em; }
+.hero-subline {
+  font-family: var(--font-body);
+  margin-left: calc(0.58 * var(--step-display));
+  margin-top: 0.6rem;
+  letter-spacing: 0.3em;
+}
+
+/* ------------------------------------------------------------------ sections */
+.hero-window { aspect-ratio: 5 / 3; max-height: 210px; }
+.hero-window img { object-position: 50% 64%; }
+@media (min-width: 768px) { .hero-window { aspect-ratio: 2 / 1; max-height: none; } }
+@media (min-width: 1024px) {
+  .hero-window { aspect-ratio: 6 / 5; }
+  .hero-window img { object-position: 40% 50%; }
+}
+
+.floor-slab { height: 2px; background: var(--color-tinta); }
+
+.praise-grid { display: grid; gap: 1px; background: var(--color-kapur); border-top: 1px solid var(--color-kapur); }
+.praise-cell { background: var(--color-tinta); padding-block: 24px; }
+@media (min-width: 768px) {
+  .praise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 0; }
+  .praise-cell { padding: 28px 32px; }
+}
+
+.occasions { display: flex; flex-direction: column; border-top: 1px solid var(--color-kapur); }
+.occasions li { padding-block: 10px; border-bottom: 1px solid var(--color-kapur); }
+@media (min-width: 1024px) {
+  .occasions { flex-direction: row; flex-wrap: wrap; border-bottom: 1px solid var(--color-kapur); }
+  .occasions li { border-bottom: 0; padding: 18px 28px; border-left: 1px solid var(--color-kapur); }
+  .occasions li:first-child { border-left: 0; padding-left: 0; }
+}
+
+.hours-row {
+  display: grid;
+  grid-template-columns: 8.5rem auto 1fr;
+  align-items: center;
+  column-gap: 12px;
+  padding: 10px 12px;
+}

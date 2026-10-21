@@ -105,7 +105,13 @@ body {
 }
 
 /* ---------- Logotype (the bread bag's lettering) ---------- */
-.logotype { font-family: var(--font-display); font-weight: 400; letter-spacing: -0.015em; }
+/* --font-logo is Paytone One with its text box trimmed to the ink (see layout.tsx). The smaller
+   box sits the baseline 0.165em higher in each line, so the block moves back down by that much
+   and every letter lands exactly where it was. */
+.logotype {
+  font-family: var(--font-logo), var(--font-display); font-weight: 400; letter-spacing: -0.015em;
+  position: relative; top: 0.165em;
+}
 .logotype > span { display: block; }
 .logotype .lt-bread { padding-left: 0.55em; color: var(--color-oranye); }
 

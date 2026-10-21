@@ -1,0 +1,375 @@
+{
+  "id": "ChIJxYVyi1nyaS4RlqvrjtIk130",
+  "types": [
+    "cafe",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0856-7855-946",
+  "internationalPhoneNumber": "+62 856-7855-946",
+  "formattedAddress": "Jl. Raya Condet No.37, RT.4/RW.5, Batu Ampar, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13530, Indonesia",
+  "rating": 4.3,
+  "googleMapsUri": "https://maps.google.com/?cid=9067756861493324694&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 15,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 15,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 15,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 15,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 15,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 15,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 15,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 0,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 3:00 PM – 12:00 AM",
+      "Tuesday: 3:00 PM – 12:00 AM",
+      "Wednesday: 3:00 PM – 12:00 AM",
+      "Thursday: 3:00 PM – 12:00 AM",
+      "Friday: 3:00 PM – 12:00 AM",
+      "Saturday: 3:00 PM – 12:00 AM",
+      "Sunday: 3:00 PM – 12:00 AM"
+    ],
+    "nextOpenTime": "2026-10-21T08:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 465,
+  "displayName": {
+    "text": "Al Buraq Cafe & Resto",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/reviews/ChZDSUhNMG9nS0VJQ0FnSUNjeV9mWFdnEAE",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 5,
+      "text": {
+        "text": "I miss to be there smoking the shisha and drinking soft drinks..\nComfortable, one of the best shish and cheap 💰.\nThe staff kind and helpful eas to order and faster. One of the good things there it's eas to charge your phone 📱.\n⛔Don't forget to bring your own charger.\nAlso they have a food..\nEnjoy your time there 😉",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I miss to be there smoking the shisha and drinking soft drinks..\nComfortable, one of the best shish and cheap 💰.\nThe staff kind and helpful eas to order and faster. One of the good things there it's eas to charge your phone 📱.\n⛔Don't forget to bring your own charger.\nAlso they have a food..\nEnjoy your time there 😉",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "MUK Alamery",
+        "uri": "https://www.google.com/maps/contrib/106622155062078486448/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVajfwZc3RLvGQMrWp0McBQw8Fwxj8VKZ_aofgkwQpHxr_jc2N-=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2020-05-30T17:59:56.731892Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNjeV9mWFdnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNjeV9mWFdnEAE!2m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/reviews/ChdDSUhNMG9nS0VJQ0FnSURrbWZYdHhnRRAB",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 5,
+      "text": {
+        "text": "the place is cozy and thier shisha is very good with low prices n good original fakheer shiaha which is amazing and lasts long time bcoz they fill the whole head with shisha ...  the owner takes very little profit but long lasting customer's and thats the best way to win a long term customer..... one problem no one speaks any English",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "the place is cozy and thier shisha is very good with low prices n good original fakheer shiaha which is amazing and lasts long time bcoz they fill the whole head with shisha ...  the owner takes very little profit but long lasting customer's and thats the best way to win a long term customer..... one problem no one speaks any English",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Amro Bin Mohammed",
+        "uri": "https://www.google.com/maps/contrib/117497722774754281782/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUJba25UUCyasWooEyYps-_o3gCgbablvMGWc_5HVc5KdJbGp74AQ=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2019-07-04T19:30:11.585659Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURrbWZYdHhnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURrbWZYdHhnRRAB!2m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/reviews/Ci9DQUlRQUNvZENodHljRjlvT21wSmRHZG9XRVkyUWxWeFdYY3pWelJrYkMxbFJIYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 1,
+      "text": {
+        "text": "So bad food I buy salted eggs chicken so really bad not fresh so they not say sorry or something I just eat rice and egg , I can’t recommend this place for anyone",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "So bad food I buy salted eggs chicken so really bad not fresh so they not say sorry or something I just eat rice and egg , I can’t recommend this place for anyone",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Andira Rici",
+        "uri": "https://www.google.com/maps/contrib/107837542972223884310/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWMG-bqH4JaNb0zvIoCC_3Eb7D14i3AvCt8dewAoUAtwCZdvFGn=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-06-06T16:54:58.292504086Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21wSmRHZG9XRVkyUWxWeFdYY3pWelJrYkMxbFJIYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21wSmRHZG9XRVkyUWxWeFdYY3pWelJrYkMxbFJIYxAB!2m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/reviews/ChZDSUhNMG9nS0VJQ0FnSUNVcGUtV0xnEAE",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 3,
+      "text": {
+        "text": "overall is not so bad, maybe the hookah that make me rate 3 stars, the only problem is the bathroom, it was suck! even the washtuffle is bad",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "overall is not so bad, maybe the hookah that make me rate 3 stars, the only problem is the bathroom, it was suck! even the washtuffle is bad",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dol Alattas",
+        "uri": "https://www.google.com/maps/contrib/110190495860193487331/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYVyKKJauspajh4i2l5n13_NOjvXQHp9JiLXIDI73H_SoUImjE=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2019-07-30T09:24:41.660266Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNVcGUtV0xnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNVcGUtV0xnEAE!2m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/reviews/ChdDSUhNMG9nS0VJQ0FnSUNBMHBfdWlBRRAB",
+      "relativePublishTimeDescription": "8 years ago",
+      "rating": 4,
+      "text": {
+        "text": "One of the best shisha in condet,\nGood services, but small places. And please stop that arabic song. Im tired of it.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "One of the best shisha in condet,\nGood services, but small places. And please stop that arabic song. Im tired of it.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Mohammad Haidar",
+        "uri": "https://www.google.com/maps/contrib/101869402740709325643/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKDKiflGTogGe2OwekilK-KE0l_nNuj59gGk0ofdXfdDrAN6A=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2018-02-08T18:58:58.465Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNBMHBfdWlBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNBMHBfdWlBRRAB!2m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMac--a0vrpMmMy-AHLOg4Gu2dqjw-pxt_aBey2R8KxIa1JzEuCx_edMjUWLU4NZwqA0Hd2JMkA7QIxYpf4udgkAHRfig8G_8FDKRPI6j5Mjlijolvdg68IdfvyO_vN84LOqx_crdItYGEaBThSTAqtIcnFosHfqxcTfgBfItsyvXE1k3ex7Zh2Roju2TLT-lG3LAZRlzx0PHqHtnBOLsl2NBUjsBsEwLDFiqDE8ojbWgEfvjgd1RtXWvtBuowG3POKZYyMXCz6NbgXekffHdLAeQ5Sz2WGclXKdBj7iWeDrNtNk3QBQdlWA80e4n5UxzMNRlv9q50ufhYqN3Um3kyGfZBseArdVDHPw-xSKOw8QhRxXrCjjO9ZRnMDv9QA88tLAFUSyHf2jd4F8Z-75LIMKx_xf9Lnsvl7gsba15soerA",
+      "widthPx": 2700,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "ALBURAQ CAFE & RESTO",
+          "uri": "https://maps.google.com/maps/contrib/116655511480792208704",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKWnWa-DWn6oVjRBwzvW9IwQhbug3LiK4FOO_MBTuRHZf8nNA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCgbSUsYtcfoDQG5lCQ5HZq&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCgbSUsYtcfoDQG5lCQ5HZq!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMaWv9Piso3MslntiCY8gBwybXDHUnXByjX5TqISeZ3SUClPjUXFyNVS_sfaGO288pMYNCE-Jr9gkF5JmHOE5fsPAQdY-AI138ufeDxZ4Xy1S-EU3YiE96n9m4v7XMPgq8GhixUf7yQaiDyxNr6pkDucEACluf-uYEQcdGqrW0WzqIAv-cHzWgzlbFFPhuqa1njVByc3qYGWNm-Fsns-cKTLDpuXHkllOrwmO-EAeiEj4nZ5zEb7FrobuimJoLsoOUlUuYlPMf4PFx05qovtY6LrIXsgqbZ3a3cHi0kZlOyiVVw5236CIRktlGhw8sjfcdha1t9klQw3J0uFzx5cFp2PtAQj-qv4pqHrgwrIazQJpnhtCHDRcFwJnkRZ3HN1xYmiak74rA_cl9AR8aHBmuSfv3i0VpN-2PFnZazQ2s-tsg",
+      "widthPx": 2700,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "ALBURAQ CAFE & RESTO",
+          "uri": "https://maps.google.com/maps/contrib/116655511480792208704",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKWnWa-DWn6oVjRBwzvW9IwQhbug3LiK4FOO_MBTuRHZf8nNA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhD_wqscQ_GsBXTlfM5ZiNJ1&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD_wqscQ_GsBXTlfM5ZiNJ1!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMbXZPenDZFGpG5ZBPYJT9bgxJTLWunQmmU6cle9j4s1pfOgiDmGxnqPFm6xQTjF4nRvGpzrgNN5xfNJXbzX95lWiQLMPNwMCHs41hrLIM63hzs_G-krrg4NrnPROEBJ83_a9apA73HmrrGiTnXDCcsbR479dceVRikH9phvOS-2Izjprmen2pFcA77WyemgfDPhB55Gi1WNQTMUMAQ4xTX1chOrpydStVHZ8q2Gy5PulRHHwnYAZfBPwSlsTpVu5Ir9wk9HnJj4PxIMk8gIM-MnR_O0eTAgZ9bZ5ewvAddBftF4ZjvzVN4gTWwDHFXM5Oq72g0JkkHx3gMwmwOBqV4F_mk5sHCHxB82dEDky3JFstebPrsKpKBUk9baItPnIIP1sWNZcuYkvDPqtFESq2_297-en8HON_6BraQVEY_m",
+      "widthPx": 2268,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "ALBURAQ CAFE & RESTO",
+          "uri": "https://maps.google.com/maps/contrib/116655511480792208704",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKWnWa-DWn6oVjRBwzvW9IwQhbug3LiK4FOO_MBTuRHZf8nNA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB4PR1mKL30Xz3pzsLwZZ0j&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB4PR1mKL30Xz3pzsLwZZ0j!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMZ1F8wXRFy7xNu_JXq1GW2_VCpUpgSqtUsRY27HK6gzoLgPusX1XxB2IJjUhqn0FmNmgXG-ODof5kd66Eth2ar_m5rqyfWjlKseGJY0eLSBjuQSQ7cGqV1n8_RWnTF11LaSTSPgl3mFCen7aNWhSs9p8npFYDZZB4s8V4n41rcDstOBpQYx65Us2HAFqODypReOizLKawofm6iuewPPpE2FIX2aEErUjwrjdSK6AQqK9qNHsEOakUiUORmwr_cteiluYb3eUCo_p4KChSSAnXumN7K6bBLTcWlIqa2kD-Yra9elR4xDMIT4bdbgT8pR73YrMUkB0pnHQmnJ9NvSQNKKV_zRUfpqA1yv2yjxm8ZK9HduEFlMPeaA6giGyAtYIyZMe0-2Jvlyxr4V07zRhMCG10k",
+      "widthPx": 3688,
+      "heightPx": 2766,
+      "authorAttributions": [
+        {
+          "displayName": "Afifah Rahmadianti",
+          "uri": "https://maps.google.com/maps/contrib/102109410608651418306",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIpOMKNZ5ZmaKpBM3bmtvTE8BNTy-ua0YDDRIhWBGGHzqLEx7s=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMCQvIfiRA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCQvIfiRA!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMZD-sIgn-XWHTu9TLqED1LX-ubtElaegwTa2MTGZd6G_bFZIIwMFDLGTFwkVSxy8kQ5io6fTm8Vu_0rRf6JZZCBBcbpcEg1biki5HV6LxvdT1CI9Q7Kh_vV77AmUNAadM6G4TrqhOazOhrq6uAOLQ_Ie3sRQkDcK4eOVwBWdD_KF2QNdr-NehWLztcSZfSSIMtYlED0uW1zY4kcVTNc_-CIvUswgUO5ZiA4xsCkAzupV81XUJqYF3hs9qNOSwhBpBSewm6ljF0ZJY_j8_U6_mI_xeQjfiK0HNB-GXYybtot1HeV1cKbrSek2wAEyVQNQ0OA1sd1ryDnvMkfqIyE1VWVP4xV37K-vm37I9u3JQ2rqQPbEPN_T5wFEc1iXM3A74LByHKKWZUD8eJtad5YVahXfw4",
+      "widthPx": 2268,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Fikri Hadi",
+          "uri": "https://maps.google.com/maps/contrib/102117480065490148127",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUDRdrFQX8j40s88twsInudxoopiOLPOh1TtdSAA9BMNPDLM4R7=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDkl-KBAg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDkl-KBAg!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMZz03-ohJBFCrH3x6mUr7hcFlHRFKN42joRoXt-0AZmvL3_ckPpwIi8LqV-dnc0-vFeeCXWoOgNRSToOfogoM4RvaZFvVL1X6sNXnlzcSCfRIrhYQrydyIJzdTF6VtvVo00WbXHA0zYiN6_bERpH7g96WwoHlmDgcl9JiJhsygCMNLLfnalttHJubRklcJemmu9yw3DXmwTI3O5UEKWSnKVUCp3EHwBRqGEGaivky6LOpsSfbCs5TH9OVjq9iTQssFhxlGuBYeoCEywesxN2gaVMQ7xNCB8q9FHnhKvpGtc2iE4rmzBNgoXnt_u_piR51xzCsCDw_nXtH6HzZ8S7a2jBB8Huzp1FD6KohBzJ3xWH2i7L6oi_MtuxI8Azseq4YEV3LWS7kToO-BgZbwzCb6TOdF-eHo",
+      "widthPx": 2448,
+      "heightPx": 3264,
+      "authorAttributions": [
+        {
+          "displayName": "Teguh Susanto",
+          "uri": "https://maps.google.com/maps/contrib/112597782599879878747",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV64sT-PlZne_RfJd4ylskN-EryZDc4WrMddeWkCQCO6zul14-0=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC4k9HhwwE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC4k9HhwwE!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMagpH6GFaYBgKS9uQpLhYssOKmqtgZt8XBCBBRoyIAQz0AtkQ9CYZJg_HyWCkr7cS1oWwveDciY-OppuQTL6RIPD2bFxmjPEwsgDKQQXxBuA-d-4oMXVu9mfm8l9hxoROwl58UZonRYK9PjFU_gogoD2-Dthkln7xRIzUeqOBMSTXsduxf2_bbKkpB_9_GUm-qgZaZC7Q7JBVdHMVhB2-jIs1__EdXKbLWjZYxJySlPrrhoqmHCY1dlXWs7TaVPqcV7d8GHOecSBiwSIlBwQHN0QiQgfCU4z6En8paPeovF1MAB-I3AndFUaWEvowWgJY0Hv1qAhK0IgoypjiaRjlFhtEdub1aRqXy8FvF7ZkOT8ViotbnSQNLMiF0J_KVjakChmRJ_OiWXDodgJypwzRwsTx3kRwY",
+      "widthPx": 4128,
+      "heightPx": 3096,
+      "authorAttributions": [
+        {
+          "displayName": "Abdullah Alidrus",
+          "uri": "https://maps.google.com/maps/contrib/103571615609619210143",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXbULX_4p9Aw4lc9z251zwveqOi-HZxRJk8tIoDE5_TSrXjh3iR=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDExN24yAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDExN24yAE!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMYrTxuqoAJhGkPsr5FhiRLBF4YmAdnfJF5X6HrrIMcgFd3ZX2vSQd6iNhFhMPzgKQZmL660BRbuAylzCNLMUIfELRjx-bIcpMFcEt6vfmm7di9fY5QVSfaDov0UwJL_zqf8FjdRXPzOiceehOfVQWpiAkeNzwlNePlOlvGLZyHDFlQwsIcSZjCMGm2aCwhePkYZTvGB4rQPA3PYCYjFgm2JjZDYqwVY6tPXebSpqXM-tk-VJqYJ1xxF345HLm7cswmPg_vEWY33oja4IGvTDKSIE9RYtrQW7A7U2Rq_5ST9XciPohmJSmVR_F00vKy3lXwaAXmfFl-e7q0oqktJ8D1Cnhaf6lQTMWTRtBUJyR6nTPWefZTsQggYPOcNVvccODh-OV2W7d9UN-3dGKY73QrqSYM",
+      "widthPx": 4160,
+      "heightPx": 3120,
+      "authorAttributions": [
+        {
+          "displayName": "Moch Rifcy 94",
+          "uri": "https://maps.google.com/maps/contrib/110547464434057200639",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXxWDdsqAcI1GOhJdzUl67snozxfIRcDQTVUOjuHxH41QALIoE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICclqy6ag&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICclqy6ag!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMaG5OaK6n1ftOxLTBblgm36U4DQ0DuCzh53HbuhiPlesAOhlu0cSXqM1DBF1NDATO5nJB54Xvp1CNvjK06PV5e_pWsXXpoJl_SOCXE16gJHlPlhEId2eFsKqWP7YoIQf5R7CrdKJFJWEspBXKcGEY1e38m0gEJWGy6G9zlJF6w4rDlRaUiMrYIW6ORO8-_3zVZgNX21yAHJoMLi1iIuPZvfe98XBCCxe31PTqm5U9fqyQIN0IVZ2xeR3vhIeQSrHzI8-h_mN-hYJBP46EVm-A0MpR3usRpwdJRXJoVe34XtD9OFORSJD1mjAU9EQ_TLGBwle1V9FnbDcxnMV1jGDVJALvMrcdjo6Oztz0r9Bp_JYWRzvx5bb8cca5DYhvw7qjcnwSovu0a6UxeosXojYi_qzVNTlzMSvbbPXNI21gAH0Q",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Tubagus Abdul Jabbaar",
+          "uri": "https://maps.google.com/maps/contrib/103153527662196480481",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKlk45upG5YE3yxw436GBSLzfB1db4gKDxYd8O5biVlVv4xQw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBIo2tTrVxh9siYf4HGPZ4W&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBIo2tTrVxh9siYf4HGPZ4W!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    },
+    {
+      "name": "places/ChIJxYVyi1nyaS4RlqvrjtIk130/photos/Aa-ngMZ_dLSjtUCKEzJ5yIsaWSjZ0PZn3UJvt5s7nPaXd6f4is4q7Uc6KEMZwDkE0sZ7cOdMAno4VNMs29mYj3DAOa1-Nd4YUq4LzZtLDHL59cjup1BG1Gp2NLN6eEDrA8q665_RftOvxoR44stw6E4dtiFjOw871heSf6VSkli0lgBt6pXBShAs8pj3xe0NqMTHgBtFZNy7xjqVJ-VY7gH05Y4Qpr1rb7ej7QLsGGKSGVD3Bg06kBXbqbfJ8ZoRqYyVBDtp609yFDJPjeOmhkpZIOWJctMV5Yf5kZKEqzvtBDaYxS4mY-D85RF-I7TCBA1vTVUUEp7ddWRauhGMDIx71vRin1p9xcxhHjII8Ulc2oOPpl8OfSoW03dhLH57D3t1pkTkTXKxEmiXc-2g6suFLQ0IjSjlXZg",
+      "widthPx": 4160,
+      "heightPx": 3120,
+      "authorAttributions": [
+        {
+          "displayName": "Moch Rifcy 94",
+          "uri": "https://maps.google.com/maps/contrib/110547464434057200639",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXxWDdsqAcI1GOhJdzUl67snozxfIRcDQTVUOjuHxH41QALIoE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICclqy6qgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICclqy6qgE!2e10!4m2!3m1!1s0x2e69f2598b7285c5:0x7dd724d28eebab96"
+    }
+  ]
+}

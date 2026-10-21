@@ -1,0 +1,726 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   kaca = the glass at dusk, paviliun = the olive pavilion wall, lis = white trim,
+   besi = black steel, teraso = terrazzo table top, bohlam = bulb amber. */
+@theme {
+  --color-kaca: #1b2219;
+  --color-paviliun: #565c3e;
+  --color-lis: #f5f5ef;
+  --color-besi: #141612;
+  --color-teraso: #e6e4dc;
+  --color-bohlam: #f2b441;
+  --color-besi-soft: #4b4f41; /* secondary text on lis / teraso only */
+  --color-lis-soft: #c6cbb8; /* secondary text on kaca / besi only */
+  --font-display: var(--font-signika), "Signika", ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-signika), "Signika", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces. */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+
+  --step-display: clamp(3rem, 1.2rem + 7vw, 7.5rem); /* 48 → 120: "MARHABA!" only */
+  --step-head: clamp(2rem, 1.35rem + 2.6vw, 3.5rem); /* 32 → 56: h2, hero tagline */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.75vw, 1.75rem); /* 22 → 28 */
+  --step-body: clamp(1rem, 0.96rem + 0.2vw, 1.125rem); /* 16 → 18 */
+  --step-small: 0.8rem; /* 12.8: captions, footer note */
+
+  --leading-display: 0.9;
+  --leading-head: 1.1;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+  --leading-small: 1.4;
+
+  /* the window */
+  --frame: 8px;
+  --mullion: 8px;
+  --window-h: 376px;
+  --trim: 6px;
+
+  /* dishes at relative real scale: bowls big, cups small */
+  --dish-bowl: 128px;
+  --dish-salad: 120px;
+  --dish-dish: 112px;
+  --dish-cup: 88px;
+  --dish-col: 128px;
+
+  /* signature: lanterns switching on, left to right */
+  --lantern-dur: 550ms;
+  --lantern-step: 150ms;
+  --lantern-start: 200ms;
+  --lantern-ease: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --focus: var(--color-besi);
+
+  --terrazzo: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'%3E%3Cpolygon fill='%23CFCCC2' points='-0.1,111.8 -3.5,108.7 -1.5,104.1 2.8,103.3 3.6,109.5'/%3E%3Cpolygon fill='%23CFCCC2' points='239.9,111.8 236.5,108.7 238.5,104.1 242.8,103.3 243.6,109.5'/%3E%3Cpolygon fill='%23D8C7AE' points='22.0,53.4 20.1,53.6 18.4,51.9 19.6,50.8 22.0,51.7'/%3E%3Cpolygon fill='%234A4D44' points='24.4,146.8 23.4,147.4 22.8,147.6 22.2,146.2 23.1,145.4 23.7,145.8'/%3E%3Cpolygon fill='%234A4D44' points='146.6,6.7 147.2,4.5 148.5,4.7 148.8,6.3 147.4,7.4'/%3E%3Cpolygon fill='%234A4D44' points='146.6,246.7 147.2,244.5 148.5,244.7 148.8,246.3 147.4,247.4'/%3E%3Cpolygon fill='%23B9B6AB' points='101.4,195.4 101.6,193.9 102.8,194.3 102.6,195.4'/%3E%3Cpolygon fill='%23A9AD92' points='134.0,134.9 133.0,129.4 136.7,128.0 140.7,129.6 141.7,135.1 137.3,135.9'/%3E%3Cpolygon fill='%23B9B6AB' points='36.3,231.6 37.0,229.7 40.0,228.9 40.7,231.0 38.7,233.4'/%3E%3Cpolygon fill='%23CFCCC2' points='101.1,3.0 103.1,-3.5 107.1,-1.1 106.2,3.6'/%3E%3Cpolygon fill='%23CFCCC2' points='101.1,243.0 103.1,236.5 107.1,238.9 106.2,243.6'/%3E%3Cpolygon fill='%23B9B6AB' points='58.6,64.8 56.6,63.5 58.5,61.9 60.4,63.2'/%3E%3Cpolygon fill='%23B9B6AB' points='88.7,25.3 89.2,23.6 90.4,24.3 90.7,25.3 89.7,26.6'/%3E%3Cpolygon fill='%23CFCCC2' points='167.8,135.3 167.2,136.3 165.1,136.4 164.1,135.4 165.6,133.0 166.5,133.8'/%3E%3Cpolygon fill='%234A4D44' points='89.3,114.9 87.7,115.1 87.1,114.5 88.1,112.6 89.0,113.1'/%3E%3Cpolygon fill='%23B9B6AB' points='173.5,207.3 172.5,206.2 173.5,205.3 174.6,204.8 175.2,206.3 174.5,206.8'/%3E%3Cpolygon fill='%23CFCCC2' points='179.9,187.5 178.0,187.9 176.9,184.3 179.6,183.2 181.1,186.1'/%3E%3Cpolygon fill='%23B9B6AB' points='216.0,114.7 217.3,111.2 220.0,113.2 218.4,114.7'/%3E%3Cpolygon fill='%23B9B6AB' points='123.3,1.3 121.3,1.3 120.2,-0.5 121.8,-1.3 123.4,-0.9'/%3E%3Cpolygon fill='%23B9B6AB' points='123.3,241.3 121.3,241.3 120.2,239.5 121.8,238.7 123.4,239.1'/%3E%3Cpolygon fill='%23CFCCC2' points='68.8,114.7 66.2,115.4 64.9,114.5 64.5,111.7 67.7,112.6'/%3E%3Cpolygon fill='%23B9B6AB' points='119.1,91.4 119.3,90.7 120.7,90.0 121.4,90.8 121.1,91.6 119.8,92.2'/%3E%3Cpolygon fill='%23B9B6AB' points='138.5,120.4 138.1,118.3 139.8,117.8 140.6,119.1 139.4,120.3'/%3E%3Cpolygon fill='%23B9B6AB' points='29.6,115.6 29.6,114.2 31.3,113.0 32.0,113.8 31.4,115.3'/%3E%3Cpolygon fill='%23CFCCC2' points='190.9,94.2 189.9,94.0 189.5,93.3 189.9,92.5 191.2,92.9 191.5,93.6'/%3E%3Cpolygon fill='%23CFCCC2' points='233.4,179.5 229.7,183.2 227.2,180.5 229.2,176.9'/%3E%3Cpolygon fill='%23D8C7AE' points='59.4,186.4 57.8,186.1 57.0,183.7 58.0,181.8 60.9,183.8'/%3E%3Cpolygon fill='%23D8C7AE' points='144.4,52.8 144.1,50.8 146.9,48.2 150.7,48.5 151.8,51.1 149.1,54.4'/%3E%3Cpolygon fill='%23CFCCC2' points='97.9,26.4 97.5,24.2 98.5,23.3 100.1,23.2 100.0,26.1'/%3E%3Cpolygon fill='%23B9B6AB' points='33.6,42.6 33.3,41.2 34.5,39.7 36.1,40.1 36.3,41.7'/%3E%3Cpolygon fill='%23CFCCC2' points='215.0,94.6 214.7,93.9 215.8,93.1 216.8,93.2 216.8,94.5 215.7,95.3'/%3E%3Cpolygon fill='%23B9B6AB' points='167.1,89.3 164.8,89.4 164.7,85.9 168.1,86.6'/%3E%3Cpolygon fill='%23CFCCC2' points='133.0,31.6 133.7,28.8 136.7,30.6 135.4,32.3'/%3E%3Cpolygon fill='%23CFCCC2' points='95.7,120.4 93.8,121.3 92.5,119.6 93.6,118.2 95.3,118.7'/%3E%3Cpolygon fill='%23CFCCC2' points='69.8,91.5 66.4,91.7 66.0,88.1 69.1,87.9'/%3E%3Cpolygon fill='%23CFCCC2' points='209.8,181.2 207.4,181.6 207.5,177.6 210.7,177.8'/%3E%3Cpolygon fill='%23CFCCC2' points='182.2,167.6 181.7,166.7 182.1,165.7 183.3,166.1 183.6,167.6'/%3E%3Cpolygon fill='%23CFCCC2' points='225.9,2.1 223.7,4.0 222.3,1.0 223.5,-1.0 226.8,0.2'/%3E%3Cpolygon fill='%23CFCCC2' points='225.9,242.1 223.7,244.0 222.3,241.0 223.5,239.0 226.8,240.2'/%3E%3Cpolygon fill='%23CFCCC2' points='52.3,214.5 50.8,215.3 48.9,214.7 49.5,212.4 52.0,212.1'/%3E%3Cpolygon fill='%23CFCCC2' points='167.1,197.3 168.7,196.3 169.6,197.3 168.5,198.6'/%3E%3Cpolygon fill='%23CFCCC2' points='168.9,54.9 169.4,52.0 170.1,50.7 172.5,52.0 173.5,53.8 170.9,55.1'/%3E%3Cpolygon fill='%23CFCCC2' points='182.3,84.6 181.5,83.8 182.4,82.7 183.5,82.9 183.9,84.2'/%3E%3Cpolygon fill='%23CFCCC2' points='9.3,37.6 8.0,38.3 5.6,36.1 7.1,34.5 9.4,34.1 10.5,35.1'/%3E%3Cpolygon fill='%23CFCCC2' points='164.9,102.2 163.7,101.1 164.2,99.8 166.1,100.1'/%3E%3Cpolygon fill='%23CFCCC2' points='71.8,145.5 69.1,146.2 67.3,145.2 69.3,142.1 71.4,142.9'/%3E%3Cpolygon fill='%23CFCCC2' points='179.1,76.2 177.3,78.1 175.3,77.3 175.9,74.5 177.7,75.1'/%3E%3Cpolygon fill='%23D8C7AE' points='84.6,136.7 83.4,138.0 82.3,137.1 82.5,135.4 83.3,134.6 84.8,135.6'/%3E%3Cpolygon fill='%23A9AD92' points='63.7,197.7 63.7,192.5 69.8,192.5 70.2,197.6'/%3E%3Cpolygon fill='%23B9B6AB' points='9.8,192.9 8.5,194.4 6.4,193.9 6.2,191.3 8.0,189.8 9.6,191.8'/%3E%3Cpolygon fill='%23D8C7AE' points='101.7,24.7 101.5,23.3 102.6,22.5 104.0,23.5 103.2,24.4'/%3E%3Cpolygon fill='%23D8C7AE' points='206.5,189.6 204.1,189.4 203.2,187.2 206.7,186.7'/%3E%3Cpolygon fill='%23B9B6AB' points='26.2,219.7 26.2,218.6 27.9,218.1 29.0,219.8 27.9,220.6'/%3E%3Cpolygon fill='%23B9B6AB' points='89.6,58.0 90.7,56.6 92.3,57.7 91.0,58.9'/%3E%3Cpolygon fill='%23CFCCC2' points='12.5,100.8 13.9,99.8 15.6,100.0 15.9,102.2 13.7,102.9'/%3E%3Cpolygon fill='%23B9B6AB' points='60.3,193.2 59.1,191.9 59.1,189.3 60.9,188.9 62.9,190.1 62.6,191.2'/%3E%3Cpolygon fill='%23CFCCC2' points='71.7,147.3 70.5,146.2 71.4,144.0 74.2,144.5 74.1,147.3'/%3E%3Cpolygon fill='%23B9B6AB' points='10.3,49.4 11.4,48.2 13.2,48.5 13.6,49.7 12.2,50.7'/%3E%3Cpolygon fill='%23CFCCC2' points='22.0,190.4 21.3,189.7 21.6,188.3 23.0,188.6 23.6,189.1 23.3,190.8'/%3E%3Cpolygon fill='%23CFCCC2' points='220.0,48.0 217.9,50.2 215.3,50.0 215.7,47.3 218.4,46.1'/%3E%3Cpolygon fill='%23CFCCC2' points='158.2,219.4 157.6,218.6 158.7,217.7 160.0,218.6'/%3E%3Cpolygon fill='%23B9B6AB' points='224.9,68.8 221.5,67.8 221.0,66.0 223.0,64.0 225.1,64.2 226.2,66.3'/%3E%3Cpolygon fill='%23CFCCC2' points='196.2,51.8 194.1,52.8 191.0,52.3 187.6,50.2 192.3,46.4 195.5,46.9'/%3E%3Cpolygon fill='%23CFCCC2' points='209.0,24.4 207.1,24.9 206.8,23.1 207.2,22.1 208.9,22.5'/%3E%3Cpolygon fill='%23D8C7AE' points='90.6,175.0 89.0,170.7 94.5,168.4 95.7,172.8'/%3E%3Cpolygon fill='%23CFCCC2' points='105.5,221.0 103.8,221.2 103.7,219.9 104.7,218.0 105.6,218.3 106.1,220.6'/%3E%3Cpolygon fill='%23CFCCC2' points='87.0,145.9 85.1,144.0 85.8,142.4 87.3,142.0 89.1,143.6 88.3,145.1'/%3E%3Cpolygon fill='%23B9B6AB' points='147.4,136.0 143.2,135.4 143.8,130.8 147.5,130.6 148.5,132.5'/%3E%3Cpolygon fill='%23B9B6AB' points='74.2,34.5 73.2,34.7 72.9,33.3 74.2,33.6'/%3E%3Cpolygon fill='%23D8C7AE' points='95.8,212.0 89.9,210.7 90.1,203.5 94.1,201.9 97.2,206.6'/%3E%3Cpolygon fill='%23A9AD92' points='219.5,211.2 216.8,209.7 218.0,206.7 220.2,207.6'/%3E%3Cpolygon fill='%23D8C7AE' points='224.1,73.1 222.1,74.1 221.4,71.7 223.9,71.9'/%3E%3Cpolygon fill='%23B9B6AB' points='58.3,170.9 59.5,166.3 63.6,167.6 63.6,171.1'/%3E%3Cpolygon fill='%23CFCCC2' points='79.0,9.1 77.7,8.1 77.4,7.0 77.8,5.3 79.4,5.4 80.5,7.7'/%3E%3Cpolygon fill='%23A9AD92' points='19.9,28.7 19.1,24.1 23.8,23.3 28.6,25.9 24.9,29.6'/%3E%3C/svg%3E");
+}
+@media (min-width: 768px) {
+  :root {
+    --gutter: 40px;
+    --section-y: 112px;
+    --frame: 10px;
+    --window-h: 460px;
+    --dish-bowl: 176px;
+    --dish-salad: 162px;
+    --dish-dish: 140px;
+    --dish-cup: 100px;
+    --dish-col: 176px;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --window-h: 560px;
+  }
+}
+@media (min-width: 1280px) {
+  :root {
+    --dish-bowl: 240px;
+    --dish-salad: 220px;
+    --dish-dish: 190px;
+    --dish-cup: 120px;
+  }
+}
+
+html {
+  background: var(--color-paviliun);
+  color: var(--color-besi);
+  scrollbar-color: var(--color-paviliun) var(--color-lis);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  background: var(--color-lis);
+}
+::selection {
+  background: var(--color-bohlam);
+  color: var(--color-besi);
+}
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+.on-dark {
+  --focus: var(--color-bohlam);
+  caret-color: var(--color-bohlam);
+}
+.nums {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section {
+  padding-block: var(--section-y);
+}
+
+.t-display {
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+}
+.t-head {
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  text-wrap: balance;
+}
+.t-lead {
+  font-size: var(--step-lead);
+  line-height: var(--leading-lead);
+}
+.t-body {
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+}
+.t-small {
+  font-size: var(--step-small);
+  line-height: var(--leading-small);
+}
+.measure {
+  max-width: 62ch;
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Draft banner and skip link */
+.mockup-banner {
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+  padding: 8px 16px;
+  background: var(--color-besi);
+  color: var(--color-lis);
+}
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -100px;
+  z-index: 50;
+  padding: 12px 16px;
+  background: var(--color-bohlam);
+  color: var(--color-besi);
+  font-weight: 600;
+  border-radius: 6px;
+}
+.skip-link:focus {
+  top: 12px;
+}
+
+/* ---------- Header on the pavilion wall ---------- */
+.site-header {
+  background: var(--color-paviliun);
+  color: var(--color-lis);
+  border-bottom: var(--trim) solid var(--color-lis); /* the white trim */
+}
+.site-header__bar {
+  min-height: 52px;
+}
+@media (min-width: 768px) {
+  .site-header__bar {
+    min-height: 64px;
+  }
+}
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: 10px;
+  color: var(--color-lis);
+  text-decoration: none;
+  font-weight: 600;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+.nav-link:hover {
+  text-decoration-line: underline;
+}
+
+/* ---------- Hero: the window ---------- */
+.hero {
+  background: var(--color-paviliun);
+  padding-top: 16px;
+  padding-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 40px;
+    padding-bottom: 72px;
+  }
+}
+.window {
+  position: relative;
+  height: var(--window-h);
+  border: var(--frame) solid var(--color-besi);
+  background: var(--color-kaca);
+  overflow: hidden;
+}
+.window__scene {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* a faint reflection across the glass, under the lettering */
+.window__glare {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    112deg,
+    transparent 0 58%,
+    rgb(245 245 239 / 0.045) 58% 66%,
+    transparent 66% 70%,
+    rgb(245 245 239 / 0.03) 70% 73%,
+    transparent 73%
+  );
+}
+.window__panes {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.window__mullion,
+.window__door {
+  display: none;
+}
+@media (min-width: 1100px) {
+  .window__panes {
+    grid-template-columns: 9fr var(--mullion) 3fr;
+  }
+  .window__mullion {
+    display: block;
+    background: var(--color-besi);
+  }
+  .window__door {
+    display: block;
+    position: relative;
+  }
+}
+.window__pane {
+  position: relative;
+}
+/* the lettering sits in the middle band of the scene (30–70% of the pane) */
+.lettering {
+  position: absolute;
+  top: 30%;
+  bottom: 30%;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 20px;
+  color: var(--color-lis);
+}
+@media (min-width: 768px) {
+  .lettering {
+    padding-inline: 48px;
+  }
+}
+@media (min-width: 1024px) {
+  .lettering {
+    padding-inline: 64px;
+  }
+}
+.lettering__word {
+  display: inline-block;
+  width: max-content;
+  max-width: 100%;
+}
+.lettering__h1 {
+  font-family: var(--font-display);
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.lettering__rule {
+  display: block;
+  height: 3px;
+  margin-top: 8px;
+  background: var(--color-lis);
+  width: calc(100% + 0.25em);
+}
+@media (min-width: 768px) {
+  .lettering__rule {
+    height: 5px;
+    margin-top: 14px;
+  }
+}
+.lettering__tagline {
+  margin-top: 8px;
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  font-weight: 400;
+  text-wrap: balance;
+}
+@media (min-width: 768px) {
+  .lettering__tagline {
+    margin-top: 12px;
+  }
+}
+
+.door__decal {
+  position: absolute;
+  top: 30%;
+  bottom: 30%;
+  left: 52px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-lis);
+}
+.door__decal-title {
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+}
+.door__handle {
+  position: absolute;
+  left: 20px;
+  top: 34%;
+  height: 34%;
+  width: 6px;
+  border-radius: 3px;
+  background: #6b7064;
+}
+
+/* the sill: the white ledge under the window */
+.sill {
+  background: var(--color-lis);
+  color: var(--color-besi);
+  padding: 18px 18px 20px;
+}
+@media (min-width: 768px) {
+  .sill {
+    padding: 28px 32px 32px;
+  }
+}
+
+/* "lit" indicator before today's hours */
+.bulb-dot {
+  display: inline-block;
+  width: 0.55em;
+  height: 0.55em;
+  border-radius: 50%;
+  background: var(--color-bohlam);
+  box-shadow: 0 0 0 2px var(--color-besi);
+  flex: none;
+}
+
+/* ---------- Signature: lanterns come on one by one ---------- */
+@keyframes lantern-on {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.lantern-lit,
+.lantern-pool {
+  animation: lantern-on var(--lantern-dur) var(--lantern-ease) both;
+}
+.lantern-lit {
+  animation-delay: calc(var(--lantern-start) + var(--i, 0) * var(--lantern-step));
+}
+.lantern-pool {
+  animation-delay: calc(var(--lantern-start) + var(--i, 0) * var(--lantern-step) + 100ms);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  min-height: 48px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: var(--step-body);
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 150ms ease-out;
+}
+@media (min-width: 768px) {
+  .btn {
+    padding-inline: 20px;
+  }
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 150ms ease-out;
+  pointer-events: none;
+}
+.btn:hover {
+  transform: translateY(-1px);
+}
+.btn:hover::after {
+  opacity: 1;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn svg {
+  width: 1.15em;
+  height: 1.15em;
+  flex: none;
+}
+.btn-solid {
+  background: var(--color-besi);
+  color: var(--color-lis);
+}
+.btn-solid::after {
+  background: rgb(245 245 239 / 0.14);
+}
+.btn-amber {
+  background: var(--color-bohlam);
+  color: var(--color-besi);
+}
+.btn-amber::after {
+  background: rgb(255 255 255 / 0.25);
+}
+.btn-outline {
+  color: var(--color-besi);
+  box-shadow: inset 0 0 0 2px var(--color-besi);
+}
+.btn-outline::after {
+  background: rgb(20 22 18 / 0.07);
+}
+.btn-outline-dark {
+  color: var(--color-lis);
+  box-shadow: inset 0 0 0 2px var(--color-lis);
+}
+.btn-outline-dark::after {
+  background: rgb(245 245 239 / 0.1);
+}
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  min-height: 44px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  transition: text-underline-offset 150ms ease-out, opacity 150ms ease-out;
+}
+.text-link:hover {
+  opacity: 0.85;
+}
+.text-link svg {
+  width: 1.15em;
+  height: 1.15em;
+  flex: none;
+}
+
+/* ---------- Menu: the family table ---------- */
+.table-top {
+  background-color: var(--color-teraso);
+  background-image: var(--terrazzo);
+  background-size: 240px 240px;
+  border: 8px solid var(--color-besi);
+  border-radius: 6px;
+  padding: 20px 14px;
+}
+@media (min-width: 768px) {
+  .table-top {
+    padding: 36px 32px;
+  }
+}
+@media (min-width: 1280px) {
+  .table-top {
+    padding: 48px 40px;
+  }
+}
+.dish-unit {
+  display: grid;
+  grid-template-columns: var(--dish-col) 1fr;
+  align-items: center;
+  column-gap: 16px;
+}
+@media (min-width: 768px) {
+  .dish-unit {
+    column-gap: 20px;
+  }
+}
+.dish-art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dish-art svg {
+  display: block;
+  height: auto;
+}
+.dish--bowl { width: var(--dish-bowl); }
+.dish--salad { width: var(--dish-salad); }
+.dish--dish { width: var(--dish-dish); }
+.dish--cup { width: var(--dish-cup); }
+
+.dish-list {
+  display: grid;
+  row-gap: 22px;
+}
+@media (min-width: 768px) {
+  .dish-list {
+    row-gap: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .dish-list {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+  }
+}
+/* wide: row 1 = two food units (6 + 6), row 2 = three units (4 + 4 + 4) */
+@media (min-width: 1280px) {
+  .dish-list {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+  .dish-list > .dish-unit {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+  .dish-list > .dish-unit:nth-child(1),
+  .dish-list > .dish-unit:nth-child(2) {
+    grid-column: span 6;
+  }
+  .dish-list > .dish-unit:nth-child(n + 3) {
+    grid-column: span 4;
+  }
+}
+
+/* ---------- Fasilitas: the signboard ---------- */
+.signboard {
+  background: var(--color-besi);
+  color: var(--color-lis);
+  border-radius: 4px;
+  padding: 8px 20px;
+}
+@media (min-width: 768px) {
+  .signboard {
+    padding: 12px 32px;
+  }
+}
+.signboard__row {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  column-gap: 16px;
+  padding-block: 18px;
+}
+@media (min-width: 768px) {
+  .signboard__row {
+    column-gap: 20px;
+    padding-block: 22px;
+  }
+}
+.signboard__row + .signboard__row {
+  border-top: 1px solid rgb(245 245 239 / 0.2);
+}
+.pictogram {
+  width: 28px;
+  height: 28px;
+  margin-top: 1px;
+  color: var(--color-bohlam);
+}
+
+/* ---------- Suasana: the garden ---------- */
+.garden-frame {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #dde3d3;
+}
+@media (min-width: 768px) {
+  .garden-frame {
+    aspect-ratio: 12 / 5;
+  }
+}
+.garden-frame svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ---------- Kunjungi: map in a steel frame ---------- */
+.map-frame {
+  border: 8px solid var(--color-besi);
+  background: var(--color-kaca);
+  border-radius: 2px;
+}
+.map-frame__view {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: #dfe2d6;
+}
+.map-frame__view iframe {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+}
+/* shows until the Google map paints over it */
+.map-frame__placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px;
+  text-align: center;
+  color: var(--color-besi-soft);
+}
+.map-frame__placeholder svg {
+  width: 40px;
+  height: 40px;
+  color: var(--color-besi);
+}
+.tag-today {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 9px 2px;
+  border-radius: 999px;
+  background: var(--color-bohlam);
+  color: var(--color-besi);
+  font-size: var(--step-small);
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+/* ---------- Hubungi: night garden ---------- */
+.festoon {
+  display: block;
+  width: 100%;
+  height: 104px;
+}
+@media (min-width: 768px) {
+  .festoon {
+    height: 128px;
+  }
+}
+
+/* ---------- Reduced motion: lanterns simply lit, nothing moves ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .lantern-lit,
+  .lantern-pool {
+    animation: none !important;
+    opacity: 1;
+  }
+  .btn:hover,
+  .btn:active {
+    transform: none;
+  }
+}

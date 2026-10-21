@@ -1,0 +1,32 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Mecto",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "Mecto",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Raisya Fadillah Cahayani",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Ambivert’s Hangout",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Reina Nurfadhilah",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

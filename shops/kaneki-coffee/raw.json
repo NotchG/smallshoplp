@@ -1,0 +1,377 @@
+{
+  "id": "ChIJX9CUizqNaS4R--M2k-7VbC0",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "food",
+    "store",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0852-1691-8752",
+  "internationalPhoneNumber": "+62 852-1691-8752",
+  "formattedAddress": "Jl. Perumkar DKI, RT.16/RW.2, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+  "rating": 4.5,
+  "googleMapsUri": "https://maps.google.com/?cid=3273226249840288763&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:30 AM – 10:00 PM",
+      "Tuesday: 7:30 AM – 10:00 PM",
+      "Wednesday: 7:30 AM – 10:00 PM",
+      "Thursday: 7:30 AM – 10:00 PM",
+      "Friday: 7:30 AM – 10:00 PM",
+      "Saturday: 7:30 AM – 10:00 PM",
+      "Sunday: 7:30 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T00:30:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 646,
+  "displayName": {
+    "text": "Kaneki",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xCTVdubHpMWFJvWjNCdVNURjJWUzA1UVV4WVpFRRAB",
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Did not know that my neighborhood got a cute, cozy cafe?!! I ordered their coffee which turned out super gewd. (The matcha is worth another visit, I am so curious. ) butte croissant is noiceee better than the famous coffee shop’s. The dimsum is ok. Luv to go and sip another cup of coffee😙😙",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Did not know that my neighborhood got a cute, cozy cafe?!! I ordered their coffee which turned out super gewd. (The matcha is worth another visit, I am so curious. ) butte croissant is noiceee better than the famous coffee shop’s. The dimsum is ok. Luv to go and sip another cup of coffee😙😙",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "bernadetta pratiwi",
+        "uri": "https://www.google.com/maps/contrib/108292308708778774120/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUARGdxTZlUSVY6hj8o5D8zwSQVsIRQX9x6ZKLLzJtuGNT531Y=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2026-01-12T23:21:09.712803741Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xCTVdubHpMWFJvWjNCdVNURjJWUzA1UVV4WVpFRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xCTVdubHpMWFJvWjNCdVNURjJWUzA1UVV4WVpFRRAB!2m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tGSk5teDBNWEJaWkhOYVQwTjFSelU0T1dSU1VHYxAB",
+      "relativePublishTimeDescription": "11 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Simple, straightforward, coffee shop.\n\nThey are very well priced (if not underpriced) with a ton of options for manual brew. Tried their house blend as an americano as well and it was good.\n\nThe only thing I'd improve is for people to be able to see the menu from the indoor seating as all the outdoor seating are all smoking area, so it was a bit annoying for us to have to go outside to see the menu (and held our breath while at it) and then order from inside\n\nBut overall would recommend!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Simple, straightforward, coffee shop.\n\nThey are very well priced (if not underpriced) with a ton of options for manual brew. Tried their house blend as an americano as well and it was good.\n\nThe only thing I'd improve is for people to be able to see the menu from the indoor seating as all the outdoor seating are all smoking area, so it was a bit annoying for us to have to go outside to see the menu (and held our breath while at it) and then order from inside\n\nBut overall would recommend!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Inez Kamilla",
+        "uri": "https://www.google.com/maps/contrib/114880704600312188435/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXybSrPtk5hW-O8tP1I8jIzZGG3ihKI-HH-9exA3GXxCi8wr67v=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-11-07T00:42:59.895763372Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tGSk5teDBNWEJaWkhOYVQwTjFSelU0T1dSU1VHYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tGSk5teDBNWEJaWkhOYVQwTjFSelU0T1dSU1VHYxAB!2m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/reviews/ChZDSUhNMG9nS0VJQ0FnTUNBNXZhdkVBEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Countless times coming here, the place is perfect for wfc!\n\nThe food and drink were good. I ordered coffee and i like it, they also offered plant based milk if you were lactose intolerance. My friend ordered peach tea and truffle fries. Fries were crispy!\n\nI also ordered dimsum with mentai sauce because it was their specialty. Although i can’t really taste the tobiko but overall it was umami.\n\nKinda a lil bit pricey for overall menu but looking at the interior well we knew where the money goes to.\n\nRecommended for wfc!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Countless times coming here, the place is perfect for wfc!\n\nThe food and drink were good. I ordered coffee and i like it, they also offered plant based milk if you were lactose intolerance. My friend ordered peach tea and truffle fries. Fries were crispy!\n\nI also ordered dimsum with mentai sauce because it was their specialty. Although i can’t really taste the tobiko but overall it was umami.\n\nKinda a lil bit pricey for overall menu but looking at the interior well we knew where the money goes to.\n\nRecommended for wfc!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Nadrah Nizom",
+        "uri": "https://www.google.com/maps/contrib/114881149083592938971/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV9kjRNn7ivqaLpEw2_nb6DTJtCWInIPKwxRdFYTdZUzgPW7l2E=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-01-31T13:14:38.571206Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTUNBNXZhdkVBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTUNBNXZhdkVBEAE!2m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOeU1IaVdBEAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "No doubt the coffee is soooo gewd and so the croissant.\n\nCroissant crunchy outside but soft inside. Smells really good and similar with popular & luxury pastry shop in the city\n\nThe coffee is way more stronger if you don't put any sugar in it. I love their coffee. They've unique flavors like charcoal. Need to try and worth to try!!\n\nThe location is quite hidden gem i guess but it's so close to my home so it's my best encounter on 2023",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "No doubt the coffee is soooo gewd and so the croissant.\n\nCroissant crunchy outside but soft inside. Smells really good and similar with popular & luxury pastry shop in the city\n\nThe coffee is way more stronger if you don't put any sugar in it. I love their coffee. They've unique flavors like charcoal. Need to try and worth to try!!\n\nThe location is quite hidden gem i guess but it's so close to my home so it's my best encounter on 2023",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Narsika R",
+        "uri": "https://www.google.com/maps/contrib/106721007413921857069/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU0Hwl8PnKHhQoPSycjh3GGEEdTS_ErREi0Yuhx_qgsp9b2LXhW=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2024-01-11T16:49:26.530634Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNOeU1IaVdBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNOeU1IaVdBEAE!2m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xKcFNHVXROalUzUkc1Q1NuTktXR3RJWmtFNWJIYxAB",
+      "relativePublishTimeDescription": "2 months ago",
+      "rating": 3,
+      "text": {
+        "text": "Nice place, but its quite small and too overpriced for the area. The coffee is mid and the shake is too sugary, its borderline undrinkable. The barista/cashier cant even bother to properly explain the menu.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place, but its quite small and too overpriced for the area. The coffee is mid and the shake is too sugary, its borderline undrinkable. The barista/cashier cant even bother to properly explain the menu.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Fikra L",
+        "uri": "https://www.google.com/maps/contrib/113852877764916984463/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIfTtACxMLYt7s0GmLXOAHOGTsQRqXvHIQ5KCaHU8Mbz3AHJl4=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-08-16T10:31:37.006798016Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xKcFNHVXROalUzUkc1Q1NuTktXR3RJWmtFNWJIYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xKcFNHVXROalUzUkc1Q1NuTktXR3RJWmtFNWJIYxAB!2m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMbGvhisCs5L1d6aTaf7WFzuvXwWspvJ1KUPgbPlCwcVObiJdhSIYvrGGBCwl3DUvAujyHV22JQVFjJQS7hIVeiMfzpgvzEjv-ueUGl3iSQtQQOcTOOZZpGN_riYVLikcf6a3Qr10Uvc3VSx29A_IbUQuQOTNQCkaRawep4KzILy005TwaOvB7Zl_0eZm2CMvXHsEd59LDlGNlrDU4Yh4TV2cXChKb5ARWsczGYL0yNby48UtbJyHPTRNBTRwMnrJSl-yn26RAbTyQNklWsEx8LyGYT_pIgZ0D51EEDq53FvioiSHspxXZNaWfbfiFefrrKIA9QSGdxQH6DhwTzLywhgP0NkPivITrvvZ44V4zN04l_F_GpZ34h-hcw1behL2r-w7faKX9GN85AXsrMrQYTMJhc",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Fady Tri",
+          "uri": "https://maps.google.com/maps/contrib/101918967047042147947",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU_rn6cHxBDSsF28zmmguHXa66xARYenxwL-w09MFmRbFFh1HfALw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID-iqrGIQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID-iqrGIQ!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMYbpEClBVxZ3ThrkcClABqH8KomF5hkr76r81zvX881hWcg4LfQd6niUcy6d56M8Nec_dhWC2BHBR3tUEjHIi4hFjya5Q6z-IdRm6Y-5l5fWq3-OG31N4BdGL5wAsHmi6ItgpM2ioV4zyFkfs1EcZE_qSiwVPJe_Dil6M4wyQP4e430L0S1eRcyQNqzt0bbPOGvogQV4fcV16MaPU_ZNMulY6jhrkMe99xy63LdCdEjUDCkdq6lCr2mQofOr2Xpk1sQCj5IUYH9OC_nuhUoQPo_FOkpAmDM1QmcZswkbbaLCinnKlbuONSVUAUIXey-DzcB98g1nQZG3UwVReHUlToN5yY_mUq22m_8G8CI3Xgub-lFu0Oz1C_8A-rwozWcDR0lw2VzFYRsthLBaCneHDkan6IPKnpM-0bF3Yhvfcr7FQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "bernadetta pratiwi",
+          "uri": "https://maps.google.com/maps/contrib/108292308708778774120",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUARGdxTZlUSVY6hj8o5D8zwSQVsIRQX9x6ZKLLzJtuGNT531Y=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCRyKlUZOLBM8wQ312Pmkro&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCRyKlUZOLBM8wQ312Pmkro!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMbtf6W3PofVsyvAuvudhuNu28l4zRMN8StN6F7XM0zGyCaO1tjj2kcOUXKG4jjdcvIN79NMG-gXPMNDBFopOoVyHl8vuqB-kuFL0c-golWAVf7o0ICnF7wLy9vRI5z_cN1sqYqxQA-MoLXiqTWRjY-44yOwNJ0JtuSNewIjasPGFx4w8LuiMP6iY5k6JRiFRWCKddLpGMNRdleRfm8EdbpziZVQeYiEULyUzf_sQLVX4Y1D1KpY48jZR0xQtT0-bcuQZpfkK4L4rQD2dkGOk9hXs7UXnsMlIxV7ckOfsELvJKrHDL8kYPIvJ494xy6QnnAsxIx4-HpWhsQsKgH7E87lEkfk1hQ_pfxNPK9mmq6IQ9RKHFfM4nvK7lazmfiIPHbLyOc5nBc_9WSZlMJq67apxVPlKsY",
+      "widthPx": 4624,
+      "heightPx": 3468,
+      "authorAttributions": [
+        {
+          "displayName": "Sheila",
+          "uri": "https://maps.google.com/maps/contrib/106296119255921529899",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWbrWhwYq-kP1YrerHyBDglCC9CVI5oY2ffLYNhCVOMhKvWnCTyPA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID1tOKLswE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID1tOKLswE!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMYiTluca1wOSZROljfCC6xqIvctwUOq1ErytWZvdOM8rfV0Mt6KUX1_6u5dtQO_O7ohL5vKPE0rX5QAzrHH4kx-5sRPk4cKAGSHTD3rpPj1kZa3jcSikdDie67RdHQVfSuKH4jG2VmLsycG2RZ7l9BdxpDp7mTYuGhJT7MRXypIPEYiWgoKMsMnxZCLo8ohBblY3nGYKnDWX3Rcv1Ev9D2Nu7oU8a_n1reJZ9jGiWgFVYby0N8lJEt7CbWSYhOhpGC5_Ytx1r14Gkvw_LDHhe-zVTUud7ySElj6Sr9Ve0LtSHpfV8KlyT6qwfJ7YwDi9LqdZcJT7rAhIGD3BO38XIkqWcuuadRk-eq6v4czwL0XPQ3za4-10OkSQipu902UMLipGoYSN7q9n4OxYw5y4-GV50oZcl9rUD1XIRFTUBDOCA",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Josh",
+          "uri": "https://maps.google.com/maps/contrib/114450054888833311882",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUpzaNSGT2dSHOAPRXTKvNXCkwabMXkgY8n-X5W-mHOxYTZnwUz=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBnU6GBGoBRu6wB0ZnCqNwx&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBnU6GBGoBRu6wB0ZnCqNwx!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMbR1h7LbHNU0O3dxk3_zSULRSJ_wt5I52wyK5Fm-kJLJpGS4ZUxYHflyf52PDg9eJgKWKssxF19oeDTRIATW1p_CQSlvEhOS_NP4k9hqS8L1A7VuRa3U-zT8zoVMo2eEeL8A-FFOIeUn0508plqqwCVAduc639A9OAa6yPBlif3sGGhW-I5IWiQEBsmRx0yIqk6Yb08Ok67BS5L5MWlbKvGhQo20NlO2mueuyCTYlph5Bz0PVS5uvGs8zSt5FsMw2E0xOjLQpa_0w9qbIZNjJLhb1JtQ5DBN9hWGg85To442EJffHBECSrUrhASY1DW6nfiQ9vwxEWgStkWyMe8433A94Igu0MIPu01mXZc_7ht7750IppCsZ4fnrzro5klw7QPVk_pDH-r2qKOHbT_XD9GHklOWmnHApFVFqnrylu0mg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Audi Indrayahya",
+          "uri": "https://maps.google.com/maps/contrib/100810769984067137115",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUO8sjn7Yh2h_7BpvcFUd2jnvUQpTyTRH2oFeQn_xsHWxiPSWU=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBJ_QhzAsZohCX0Guta4iZb&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBJ_QhzAsZohCX0Guta4iZb!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMaI3bwMG8Je59lvfW3FJ8-YzDEzf2_CYTYP7gBdTOB-cC_M-5CBAgN9c6iGm5-ykhLLyEsmoRrxZJP0h72f93q6MMUgv3kHdBKnqgy-24C9fJQEseuLxcEqAAxSw9ulXyj-FIYeePj7aui29E4mLlAgNOKIkcT7KRJA9bBOBxbYsYw8Q1DsC7-PWGJW1o4xXheocFLuO30taJhrdzh4tWDAp8HNu7OgAd75SW-cu-Kw3M0sJBqrRCjUgC4SrgSSiHtdqPjlZnACiXFmvSwcQb8LKFJnK-ZDd1SfBtZT60Fcs5RHNLb6sreknifBn4mZAsc_JlGB1vIG5JbTsUIIh56HEZyRbixEOXdZrbTVboX0-XtDuma9LoJ1zQ5Y86WyntfEcdT1OnQt0da4LTH8-tHFkY4",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Ardo Robi Liga",
+          "uri": "https://maps.google.com/maps/contrib/112592598741021922568",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWr3F0vK2eFXuvUAEmUSRRW0rJfXVbcZhOoG3g83sX260mKl1KoBg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDhh8mGSQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDhh8mGSQ!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMb1J-k-I8nMy-AXueB45zfD5XxBgdbnBUB_BSt1gIDptAEOaGj4D1jgQ8fCpzs2iUwVUVbmOkzavFHis_0i2fVo9oy-lm073Djvtua5FPXPzmNwbFGJNi1KsVmBgoZgJpkZoFiXKIGKY8oqb0n4acxJlrBetSI0HlcPEm7g9J4HFWvVBNm2RZAPVAOQheS6N5dCRpF4CBn4wQnSvFzG7GJpajikVheGihugHinLufebPsE9F39FVtvDoAijoYjLkiqdE1LpTa7Jlcrq5B5xoYseFQmN8VRiIJx_OPJZ9cPwKaav4jWh75PPCiEOFE-SFfqzamJP6WOjvBUyg54DDZaQ9qbOsOs9wNcrio2PWK956kfzM62QK3zFUcOFMkNc9qnz_EASbtNQ7QMMNYZvrLWhZXDLtqSOK35Q2lrN8RBJ",
+      "widthPx": 1080,
+      "heightPx": 1920,
+      "authorAttributions": [
+        {
+          "displayName": "Bunda Shauqi",
+          "uri": "https://maps.google.com/maps/contrib/116718578052620960085",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWhGy0AQ5O2A90F9YA2ibXKY5RAEELjwvMef-DkGrxZL0qx-l2w=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAL6ReXeR_JJJAwixDJG4M7&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAL6ReXeR_JJJAwixDJG4M7!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMaBp1CJ7rAGup2V4dyDL5gEinWNnIMyLaaquY-ttN9PQBSF4Q8tVOrtqisQLqNIacL8VhAaz2z3PzDhJQw1ecuVsTmx0tjyF8g6KcP-OAYcPtpmk64fN20jZE9VWTJBBzg1XeDw-Ba-I8t_kStq0t-AviRsBdTYJzFzRuVfbkJJ4dsgtSU9KKJ1cpOesOb9uHX6H5uI-lVdlUzqaIwOmcNuMlSZkMzNhhDSXB9JhEvDQaqmkenCWSsJ60ReTh_vgOQpxSaOGYv4kVNX74l03ICGW2tq_sZo17dJLimfJU-WPfP0lo_eTYXdlhpO4korEoZrLm-MQe3-ioRAgjxcNVPdtBhmJo47Bjvyj652pNpW8rGIRaF3BX9gQtd2C9rAuasYR8mIm8cBA_6eD1UytkK6NU4E-McQ-RHhcZtdu4WrqQ",
+      "widthPx": 4624,
+      "heightPx": 3468,
+      "authorAttributions": [
+        {
+          "displayName": "Brian Azeri",
+          "uri": "https://maps.google.com/maps/contrib/102726888596132584597",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVp_T91VcNPOSbd1P-ZmqDg5uXP4tCJSmt_c60XMwA6SzprDRsgSA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhD5wZaaHQVTcSkY-T5M_NoE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD5wZaaHQVTcSkY-T5M_NoE!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMbxTSx2FOgkSYQV9Hdv-dWC3MRXk31nTUPgw4Ps_saCN7JAswC6HPbu8XUnGNj7WtrecMX4ot2BTmbnv5uH647ir2NSgdCoD7bg5URwKWt_dDi6bUUqFyPwarpXy8_8e-vXthaA6jaXW65RsqGEkbEcoBKUogpWCETiaZZkLzIr1GzUDyTILODa_K4Uxl_yuvSJ-J3X0ABa039SJV8_uwiDprPLz1qPAfYHUr0BWLteNd7ddQAQt5ZKf3FxvhUtmTDcw8f7rpMQrjaoLLw-5MnsS1UuGZhAy_MFYtU6FXZ-yKyLeVkYxLHuJeVS4S8hqB5gZ6wGCGxpZERVE9rqchWbalDe_7HiyFvmRk_vXwy7GtLIghMlQq9r1IyDS8MRxQ2jXicrR6A7gXYeug3OkVWsHQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Rendy Purba",
+          "uri": "https://maps.google.com/maps/contrib/113550251113333770654",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLvcHuSrHtSiw-BcSKO-SHpoEhiiI7GOg6oYxHTeJ9I1K9jhWrf=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMDQloX3Gg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDQloX3Gg!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    },
+    {
+      "name": "places/ChIJX9CUizqNaS4R--M2k-7VbC0/photos/Aa-ngMa-AST9smDaNyYDg4woWCpRg3pFeUoVVZ0wWnuZtc22TZ0VKiHAp_3w_kw-ZKbklLzDc5jG6FvPyMz0gJz4DOECB-b5vjzyI63u218d4v-X8BnCAccOz1o8UYOVXTazW9Kwto29zCuaPQmn7heKVcg924V13mnRzBLqJhufYa9gSI3b7ecWGGoFsoBYTX1ut3Voa8dj6TZ3Sj3_GPcGezZokNSNyNm4c5OvSzAGUbQ-sZbahD6OHnOhX9PmQuxzmTHWATQlLLkuF_QIgQfbwTw9jpUhzuk-QzXoLb-VSzJYw9lu4P0qFjaXYJl-e8CfNU9MusXLEeIwTN-7C3VctYQyEzIs5n2cfVgjb5CPH-foI5Tiea70pCSEPVnWnkAEs6abOKGFdTcP_oKXs6CGHeHQD34_K5YJJdJ2fnOWS4kC",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Steven Prasetya",
+          "uri": "https://maps.google.com/maps/contrib/116952337547108763808",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWbBfvXyCpoAR-eDG1JYuntMvIpf6dTaogpYVV1FAiplYEGFjVR=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCf2BctRrkmQ8BNmjc-JnTC&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCf2BctRrkmQ8BNmjc-JnTC!2e10!4m2!3m1!1s0x2e698d3a8b94d05f:0x2d6cd5ee9336e3fb"
+    }
+  ]
+}

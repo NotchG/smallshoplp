@@ -1,0 +1,695 @@
+{
+  "query": "cafes in Makasar, Jakarta Timur",
+  "includedType": "cafe",
+  "fetched_at": "2026-10-20T16:44:43Z",
+  "count": 40,
+  "places": [
+    {
+      "id": "ChIJo9F2EgDzaS4RHMs8VeC2qAE",
+      "formattedAddress": "Jl. Komodor Halim Perdana Kusuma No.7, RT.4/RW.8, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=119546464744295196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://msha.ke/antiquity",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 137,
+      "displayName": {
+        "text": "Antiquity Vintage Coffee Space",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJdy5LrhzzaS4RDk1scefGU4g",
+      "formattedAddress": "Jl. Lembur No.6, RT.13/RW.6, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=9823413909567851790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 109,
+      "displayName": {
+        "text": "Kopilimo - Halim",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJyUAepYLzaS4R1saTw1gqey4",
+      "formattedAddress": "Jl. Nirbaya Raya No.66, RT.17/RW.2, Pinang Ranti, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13560, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=3349317308606826198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 137,
+      "displayName": {
+        "text": "Tariganta Coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJr8K9asvzaS4R19qBYn2g1i4",
+      "formattedAddress": "Jl. Wirajasa Jl. Raya Jatiwaringin No.1, RT.010/RW.001, Cipinang Melayu, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13620, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=3375061431144798935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1327,
+      "displayName": {
+        "text": "Kyō Coffee Roaster",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ_ySQsRzzaS4RMzNrzxQ0XwQ",
+      "formattedAddress": "Jl. Permata No.3 C, RT.4/RW.5, Kb. Pala, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13650, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=315027762923123507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 250,
+      "displayName": {
+        "text": "CUP TIMES & WARKOP",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJKaGebwDzaS4RUDIfaBzbSlQ",
+      "formattedAddress": "Jl. Jengki No.4, RT.8/RW.4, Kb. Pala, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13650, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=6073907962514977360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 48,
+      "displayName": {
+        "text": "Angkringan PONDASI - Jakarta Timur",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJve2nYADzaS4R-Vo_0gvP9Tk",
+      "formattedAddress": "PVCH+GF3, Jl. Pusdiklat Depnaker, RT.9/RW.6, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=4176471879134960377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 26,
+      "displayName": {
+        "text": "KOPI LIMO",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJFVcfeZbzaS4RTIEimFKjUPc",
+      "formattedAddress": "Jl. Raya Halim Perdanakusuma No.144, RT.1/RW.9, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=17820923300640096588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 473,
+      "displayName": {
+        "text": "The Coffee & Kitchen Bandara Halim Gate 8 Batik",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ4_2Vo_PzaS4Rd4VOfldsYrc",
+      "formattedAddress": "1, Jl. Angkasa No.8, RT.1/RW.9, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=13214243379695486327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 98,
+      "displayName": {
+        "text": "PARD COFFEE",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJV-z5VMHzaS4RbgsokGQgFJA",
+      "formattedAddress": "Jl. Raya Halim Perdanakusuma No.144, RT.1/RW.9, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=10381958657283197806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 458,
+      "displayName": {
+        "text": "The Coffee & Kitchen Bandara Halim Gate 7 Citilink",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJN7ScCS7zaS4RagxkzAmmTog",
+      "formattedAddress": "Gg. Bunga Jl. Kerja Bakti No.8, RT.1/RW.3, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.2,
+      "googleMapsUri": "https://maps.google.com/?cid=9821970398355655786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 200,
+      "displayName": {
+        "text": "RUTEN: Ruang Tengah Warung Kopi",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJmx0wE-TzaS4RCQlRCj6kyVg",
+      "formattedAddress": "Jl. Kerja Bakti VII No.33, RT.2/RW.7, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=6397825332024510729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 43,
+      "displayName": {
+        "text": "Thirty Three Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJuUbOZADzaS4R0HyBrTpwB7Q",
+      "formattedAddress": "Jl. Raya Protokol Halim Perdanakusuma, RT.7/RW.9, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=12972460648985361616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://yo-ben.localo.site/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 669,
+      "displayName": {
+        "text": "Yo Ben Coffee & Eatery - Cafe & Resto Keluarga: Live Music, WFC, & Outdoor Area",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Family Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "family_restaurant"
+    },
+    {
+      "id": "ChIJHWjys1nzaS4RsksDcIiGJBY",
+      "formattedAddress": "Jalan Squadron No.27 RW.1 RT.15, RT.15/RW.1, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=1595548088548936626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 111,
+      "displayName": {
+        "text": "Kopi Dago Coffee & Eatery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJi-ianEPzaS4RA7St4_Nk04k",
+      "formattedAddress": "Jl. Cililitan Besar No.98, RT.3/RW.3, Cililitan, Kec. Kramat jati, jakarta, Daerah Khusus Ibukota Jakarta 13640, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=9931392601941718019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 63,
+      "displayName": {
+        "text": "Mimpi cafe",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJa9-Yc-rzaS4Rj6EivhLIGTs",
+      "formattedAddress": "Jl. Raya Kalimalang, RT.3/RW.16, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=4258654905480421775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 507,
+      "displayName": {
+        "text": "Mecto",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJuxg21P7zaS4RA7qb5NLXcnA",
+      "formattedAddress": "Jl. Mayjen Sutoyo No.07, RT.1/RW.7, Kb. Pala, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13650, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=8102775980371458563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/saung.seduh?igshid=OGQ5ZDc2ODk2ZA==",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 42,
+      "displayName": {
+        "text": "Saung Seduh Jakarta",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJGWNHZhbzaS4RBJb9lwZuDrA",
+      "formattedAddress": "Jl. Angkasa No.13A, RT.1/RW.9, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=12686198174948103684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 292,
+      "displayName": {
+        "text": "Agan Coffee Shop",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJK53Y9aPzaS4Rf-TPbD0w1QI",
+      "formattedAddress": "Jl. Cipinang Muara 2 No.3 No.35 A, RT.5/RW.2, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=204122398491927679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 985,
+      "displayName": {
+        "text": "Kedai Malabar 2 Cipinang Muara",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJrQ7u2OXzaS4Rhj52rCYq-8U",
+      "formattedAddress": "Jalan Jengki No. 5 RT 05/012, RT.5/RW.12, Kb. Pala, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13650, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=14266042590216732294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 42,
+      "displayName": {
+        "text": "TODAY CAFE",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJCbUuMgDzaS4RLiKa8NRO8Ww",
+      "formattedAddress": "Jl. Jaya Kusuma No.14, RT.8/RW.1, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=7850142301960151598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 117,
+      "displayName": {
+        "text": "Cilikopi",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJEUgifADzaS4RgAkI6cnp6Gs",
+      "formattedAddress": "secure building, RT.5/RW.10, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=7775721810062477696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 31,
+      "displayName": {
+        "text": "Secure Cafe Halim",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJrbzyCQDzaS4RQvBFS4inRhw",
+      "formattedAddress": "Jl. Kerja Bakti No.11, RT.8/RW.4, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=2037500085251993666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 14,
+      "displayName": {
+        "text": "Kedai Teras Kebun",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJmaz_LTDtaS4Rf89F9trsZVg",
+      "formattedAddress": "Jl. Abdulrahman No.46, RT.14/RW.5, Cibubur, Kec. Ciracas, Jakarta, Daerah Khusus Ibukota Jakarta 13720, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=6369757673164230527&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://terasrumahnenek.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 7058,
+      "displayName": {
+        "text": "Teras Rumah Nenek",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJX9Q8fkDtaS4Rd0jejuahz3w",
+      "formattedAddress": "Jl. Bina Marga No.44, RT.2/RW.4, Ceger, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13820, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=8993584992493652087&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2885,
+      "displayName": {
+        "text": "Kupinami Cafè & Resto",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Noodle Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "noodle_shop"
+    },
+    {
+      "id": "ChIJ-07wsf_zaS4R6ofmGJMbVkI",
+      "formattedAddress": "Jl. Komodor Halim Perdana Kusuma No.14 2, RT.2/RW.1, Kb. Pala, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13650, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=4780038373092263914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/moxxcoffee?igsh=dnc0aXF6MWF2dmg5",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 21,
+      "displayName": {
+        "text": "Moxx Coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ96dFq_7zaS4RZUmBNHwBdvs",
+      "formattedAddress": "9, Jl. Pusdiklat Depnaker No.53, RT.9/RW.5, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=18119671783740229989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 61,
+      "displayName": {
+        "text": "Langgam Rasa",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJHzmzYNXzaS4RGb7c-MMyGYA",
+      "formattedAddress": "Jl. Raya Pd. Gede No.2 No.2f, RT.2/RW.1, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=9230464728547769881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 20,
+      "displayName": {
+        "text": "SINI COFFEE",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ4bwsG9zzaS4R6JjWe0qjszA",
+      "formattedAddress": "Jl. Kp. Pulo No.27, RT.4/RW.4, Pinang Ranti, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13560, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=3509328074952317160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 53,
+      "displayName": {
+        "text": "Kopi Seribu Cerita",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJyz2tGQ7zaS4RPlEfWYBJGJU",
+      "formattedAddress": "Jl. Kerja Bakti No.22, RT.7/RW.4, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=10743417726692184382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 40,
+      "displayName": {
+        "text": "d'SRUPUT Kampung Makasar",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ-RzFkrLzaS4RkSMPoioyEzI",
+      "formattedAddress": "Jl. Cililitan Besar No.83 2, RT.2/RW.9, Cililitan, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13640, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=3608282885142815633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 91,
+      "displayName": {
+        "text": "Koun'na 88",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJoYhj2ZvzaS4RROtrqto2jf8",
+      "formattedAddress": "Jl. Nyata, RT.15/RW.1, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=18414434764177795908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 17,
+      "displayName": {
+        "text": "ANGKRINGAN AP",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ_eQ42MLzaS4RIZNz_rob2wc",
+      "formattedAddress": "Jl. Cililitan Besar No.2, RT.9/RW.11, Kb. Pala, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13650, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=566076668111983393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.estjakarta.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 103,
+      "displayName": {
+        "text": "EST Jakarta",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Community Center",
+        "languageCode": "en-US"
+      },
+      "primaryType": "community_center"
+    },
+    {
+      "id": "ChIJtxtqrKnzaS4RBYXmlws71qk",
+      "formattedAddress": "Jl. Mandala V No.39, RT.6/RW.9, Cililitan, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13640, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=12238033958405047557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 34,
+      "displayName": {
+        "text": "Stitik Coffee & Steak",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJ51BVVPv1aS4R8Ks8U7qAaMg",
+      "formattedAddress": "Jl. Tawes No.21, RT.3/RW.7, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=14440933742912252912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://desty.page/noesantarajkt",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 502,
+      "displayName": {
+        "text": "Noesantara Coffee & Culinary",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJo856UAXzaS4RohZl6ka_NpY",
+      "formattedAddress": "RT 011, RW.1, No. 23, RT.2/RW.1, Kb. Pala, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13650, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=10824049065732675234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 8,
+      "displayName": {
+        "text": "Cafe Jasmine",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cafe",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cafe"
+    },
+    {
+      "id": "ChIJ7Wnzi13zaS4R9QRvq8X9PXE",
+      "formattedAddress": "15, Jl. Squadron No.40, RT.15/RW.1, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=8159957125291771125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 5,
+      "displayName": {
+        "text": "Kopi Kita",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJNVt8MOPzaS4RAJz3zeszLSQ",
+      "formattedAddress": "7, Jl. Komodor Halim Perdana Kusuma No.19c, RT.7/RW.11, Kb. Pala, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=2606796847183272960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 38,
+      "displayName": {
+        "text": "Kedai TOKI",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Food Store",
+        "languageCode": "en-US"
+      },
+      "primaryType": "food_store"
+    },
+    {
+      "id": "ChIJcbj-AgDzaS4R4cwl1RUrofY",
+      "formattedAddress": "RT.6/RW.4, Kampung makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=17771532977351019745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 7,
+      "displayName": {
+        "text": "Warkop chikamplonk kp.makasar",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJG5oVUHbzaS4Rw32V8ZXm9bQ",
+      "formattedAddress": "Gg. Ahmad No.30 8, RT.7/RW.3, Makasar, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13570, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=13039581827798760899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 34,
+      "displayName": {
+        "text": "Kedai Express",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    }
+  ]
+}

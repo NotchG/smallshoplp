@@ -1,0 +1,374 @@
+{
+  "id": "ChIJM6n_r-PtaS4RCjqKX1aqdb0",
+  "types": [
+    "cafe",
+    "point_of_interest",
+    "food",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0811-953-156",
+  "internationalPhoneNumber": "+62 811-953-156",
+  "formattedAddress": "Arundina, Jl. Lap. Tembak No.A10, RT.1/RW.11, Cibubur, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13720, Indonesia",
+  "rating": 4.5,
+  "googleMapsUri": "https://maps.google.com/?cid=13652005133390330378&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:00 AM – 9:00 PM",
+      "Tuesday: 7:00 AM – 9:00 PM",
+      "Wednesday: 7:00 AM – 9:00 PM",
+      "Thursday: 7:00 AM – 9:00 PM",
+      "Friday: 7:00 AM – 10:00 PM",
+      "Saturday: 7:00 AM – 10:00 PM",
+      "Sunday: 7:00 AM – 9:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T00:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 971,
+  "displayName": {
+    "text": "SEATAP KOPITIAM",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xacVdrZEVUSGs1TFdVdE9GZFVhMWR1WjNKWVNGRRAB",
+      "relativePublishTimeDescription": "10 months ago",
+      "rating": 4,
+      "text": {
+        "text": "Food & Drink was good.\nAmbience a bit awkward its like a old house converted then reconverted become a kopitiam.\nVery limited car parking space.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Food & Drink was good.\nAmbience a bit awkward its like a old house converted then reconverted become a kopitiam.\nVery limited car parking space.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dhani Hartanto",
+        "uri": "https://www.google.com/maps/contrib/116136508753539018254/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWzsXmoGWC_73iihazDcVGU8uDpTMRx4DGB_41GgBYbIQgKesODKg=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2025-12-01T06:12:58.650146619Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xacVdrZEVUSGs1TFdVdE9GZFVhMWR1WjNKWVNGRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xacVdrZEVUSGs1TFdVdE9GZFVhMWR1WjNKWVNGRRAB!2m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/reviews/ChZDSUhNMG9nS0VJQ0FnSUNlNk1pVURBEAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Food: 8/10 love the ice coffee, only eats snacks (fried banana and french fries).\n\nPlace: 10/10 amazing interior, furniture and plants, all create a warm and natural ambience.\n\nService: 9/10 good smile, helpful and friendly, fast delivery time.\n\nPrice: 8/10 average price for Jakarta.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Food: 8/10 love the ice coffee, only eats snacks (fried banana and french fries).\n\nPlace: 10/10 amazing interior, furniture and plants, all create a warm and natural ambience.\n\nService: 9/10 good smile, helpful and friendly, fast delivery time.\n\nPrice: 8/10 average price for Jakarta.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Robby Hadisubrata",
+        "uri": "https://www.google.com/maps/contrib/105629158078035976750/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVXSXQ9w-AIaH9CBFx05Qlm4NtDVv0VWkfglsk815-sEZYwm5w=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2022-09-05T05:55:31.419883Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNlNk1pVURBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNlNk1pVURBEAE!2m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2sxV05HZGtOMFpQYzB4WWRXRkZkVVUzWm5ndFdXYxAB",
+      "relativePublishTimeDescription": "a month ago",
+      "rating": 5,
+      "text": {
+        "text": "The fried cassava is delicious and crispy. The mung bean porridge is the best.\nThe service is also go👍. Always comeback to this place. Thank you",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The fried cassava is delicious and crispy. The mung bean porridge is the best.\nThe service is also go👍. Always comeback to this place. Thank you",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Fransisca",
+        "uri": "https://www.google.com/maps/contrib/104258021849993155971/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW5uGK-S0ec9ilolJULoKAKNyeuSKlAXpTVY2AfmF5wOgnXLaaT=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2026-08-25T03:25:32.426777357Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2sxV05HZGtOMFpQYzB4WWRXRkZkVVUzWm5ndFdXYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2sxV05HZGtOMFpQYzB4WWRXRkZkVVUzWm5ndFdXYxAB!2m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/reviews/ChZDSUhNMG9nS0VJQ0FnSUMtM1pHLUVREAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 4,
+      "text": {
+        "text": "the concept of ordering is like a food court which is divided into several court menus. There are many payment methods. comfortable atmosphere, visited on Friday there was live music. cheap price. limited parking.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "the concept of ordering is like a food court which is divided into several court menus. There are many payment methods. comfortable atmosphere, visited on Friday there was live music. cheap price. limited parking.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "R Pyo",
+        "uri": "https://www.google.com/maps/contrib/101825505543428433039/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUSl1lEB5ET7KDe_zBjbPDEVWqpOZ4DASBJvmpZNT1LVwvS-mvCNQ=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2022-11-11T07:00:11.033158Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUMtM1pHLUVREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUMtM1pHLUVREAE!2m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/reviews/ChZDSUhNMG9nS0VJQ0FnSUMzaS0ySEFREAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 2,
+      "text": {
+        "text": "I ordered Zuppa soup but the soup was only a quarter of the cup height. The waitress said that’s the standard quantity. Ok fine, but it was not soupy at all. It was a solid thing and I even could knock and crack it. The waitress said she would re-heat the soup. However it still ended up with a lumpy texture that didn’t interest me at all to try it.\n\nOh and there was a dead cockroach on the floor nearby our table🤢",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I ordered Zuppa soup but the soup was only a quarter of the cup height. The waitress said that’s the standard quantity. Ok fine, but it was not soupy at all. It was a solid thing and I even could knock and crack it. The waitress said she would re-heat the soup. However it still ended up with a lumpy texture that didn’t interest me at all to try it.\n\nOh and there was a dead cockroach on the floor nearby our table🤢",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "pamela barus",
+        "uri": "https://www.google.com/maps/contrib/112109014535048179842/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXpTDJBkOgqPjxaRwqwGAd1YjYBseEhkCtZiTAP8tiXmEc7bvStLw=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2024-11-09T05:28:01.608953Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUMzaS0ySEFREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUMzaS0ySEFREAE!2m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMZ7KOv3p__SjeyH2flgGtt49V2tOjHL6CQY0F20qkATtD-Y-WW7XxBZk_23G_ec9tggkIL6NAJ0NS6HP3uPcmP-I-SbmgCbC2x3STavasGBK1w8PRIiPkzzMRZA7wWylyGk6-jpReIB2Im27GQSXN7YWboPje9PbzI3Z90w1EFi163KHOIUPUx0NupiuKILdFL0ulC70K8I047murSiKDBmisVrClWkGnXJ4VZaRnRCVqrMo0KtW_yOD8P5C9tEHO1flKp9we3b44J0qT4KnQeZYld7zYM0-40nqTQU9DieR4nndd5LsH-ylTcEcyoYnjSufjrFkFs6KygaDft9tmLKXt6ZVCaGbsd9HgAGjlDT7yxQrJJxdbHYjYH_apziINjDUv-kPDrvDQ6Iey6eK-xXoc8",
+      "widthPx": 1440,
+      "heightPx": 809,
+      "authorAttributions": [
+        {
+          "displayName": "SEATAP Coffee and Space",
+          "uri": "https://maps.google.com/maps/contrib/109001258840749301803",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXtsp6_lq3zB-I93UfoXCKdL0j4MbfXA7kCuDua-duCWoa19O4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC6pPG3UQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC6pPG3UQ!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMZVECd-4R-1gWodhv9vS2fPzWI2h4QuxeSOJTct5MC6wvi5D53L7mfwR0M-a0trQp7oLsSHoIK-EST_dIW7Jti5neql8SSy8QaybuYiNAYZzEw4iI-riF6om33d4agjSshHvpUScRP3lGUxia5VqHzYEmyEyY6MYDFoVoyU6DU5Eka8EwPnl8gWbMu_-Xm6UpOPE4HntIV_P_Rln4dqdB3bWp-f-6kIftXfr2n9MUxUE64BCBwd1TCTzg71EzkRCap2HXohykyfMzf9qdiW5N8v_oUOh6Jz_uhEzRN4CIkX4sdmfpfdqNlRN9FwylL0BRSdXxRKPhHFCkXGz3hkFjvSPvHv_zCs1nMn9V5vOei6hL4JO7mGL2eCmV9HbHyJKM_gN17Mqm9-job3iblXfimtqCTyL2-vPbh-h3k1y42nuQ",
+      "widthPx": 1920,
+      "heightPx": 1440,
+      "authorAttributions": [
+        {
+          "displayName": "Jessica Pertiwi",
+          "uri": "https://maps.google.com/maps/contrib/112701544956976239235",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLrYVEYFLBSP5toisMtgz4fhrUwhXyTaWT70LZSWNEJMmDE9A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCc-YdO2OxBmts_R72Em9cK&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCc-YdO2OxBmts_R72Em9cK!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMbrDGUupI3Az4onyEjYz9tEDzZLYtNuMle4vCfGbkhCoP-4VyTLpQbWC94rADZW36T9lKEwmmLxWx3EUA_VohyDYL2l8k0qSkgIdQA4obHxqFGVW1nxsvPrPM-7-A7oltl4T4584gpmsQgiU2iYUNcsfJcPIscxbiajEdiXUHHrtCWJeT5lLyKjA9v6sRkxeyfJ9evYEAj8kbbtp-fd2j8D06-wCfq6hRKom_ikTbURbyvtb63Hqh1bAjVRUYN4Ir_xE4UnIfO1j_8Eg8Z-MMmLB0fRdcxfK_gBx805Gf50Jb_dxcRb7OWX65nQrL1fNVpskSDoaeeinFZ8oqfUcp_27L5TV7_150G76JM3_OF3RjgguyDtJpHsZHzxA-SYhNSr8AkYQ5XUnxiqeIUVT5Y8crmc1lE",
+      "widthPx": 3599,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "jaka dwi rizkie",
+          "uri": "https://maps.google.com/maps/contrib/115141570893786972042",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUrwLaugz27UHtcdAFkebIrGCMbFwmWw8Yh5605zA4562HzC4Bj=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICi6auQnQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICi6auQnQE!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMbdyfZ_8vu-chCsPO2MIMsyrX-40LXAxXaE3NaOJA8cT6oqhFIX44NBIjr9W5hh92jC0_T0G18hTfH6J-GBTroeOHYL4pjzXgy7X8L2c0yq5Ngd0Fb26zM6NsLYBePFXd_5J0aZGfexHpreS_CgfygfzaWAGegh4lY80bcW00ZxcaN29JXCDxxvZSdjfVSMfQHEj1Iz2qXmGJ_H-ecl-ecS4kEH6QLStlYsrL_H2xjFc6cro51jczIXKbkjxtBUhyqMaAXyX1LS7rFpswGP9WvqOMX0yddT3lqvR_aVP6LJBjWIuTReJ8SsUPousmH3wKdSvOGZSwIzpNAfOnikDmgAx0V0VgbTYfefVkaSGEzw_tnUg18M67-KFA9wd5I1YPnn0QGLZZj70XPyojOCdj22lG1xlRkTj3fiabkfG5LIFg",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "SEATAP KOPITIAM",
+          "uri": "https://maps.google.com/maps/contrib/117795707040679175127",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVUiBl0S04_xA2nUog1i2dNyGLNEMvyJLukGYKSA_CQWFYvYUXa=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAl2vFBoD_bplSqfDSjjZmj&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAl2vFBoD_bplSqfDSjjZmj!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMaR4hnvXhuWfK59WFrP7LMMqJQlMfo88vZ-ZppP7HJZVHWBoqie_mhLMcr1PuaFNixvLXebwPW0a63EpRFInADuxmRwS2JH_rjlLTqrGHunmsbfyoPX-WwHHtpDOlOovquKNhg8L7FAJt3ANZpzcAzyE848dSqNnFYUvlTz7FrOGqtHOESOOOanE0WxGHpwTQzMXiWr2ZyYFxk4SZAUVs_hqENnywwhoUHm3PelewCJcw0e73Cau01m7fs2KFwWsVAp3ezo13V7hmEiDMyK6GqJnIexfo0Va3qMdF7trgSglVjgU1ULb8-dAKR68o3V4hEVoFEgf8jf0N5nZ0baMjxX9NI9-PnXGX5MlNZlq1AT59EHQbZ78VaZl5vO3jcKMdMPipzJNMltr3IxvBGytoEkKGG25Elcgs84czcc6vda-A",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Rini Rizkiawati",
+          "uri": "https://maps.google.com/maps/contrib/104686712761621468966",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWUHRoq1Pn65PcK2DSuVSMo0TywRXumuiLGAuaHVDZDiDzr_nE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB1jWw5LYYmCPU5gO0jGP2B&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB1jWw5LYYmCPU5gO0jGP2B!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMbpgp-mk4mOmpXh9Iz3JF4FKvEmsQN9rs1hTbw71WX2T0vmZc6qHL_h0qK2AeGlfLdhRURG5nc5lxETDg_ns0IeHAHfae_OZY4rkEuP2t_Yi8s2P5TyJBnAR0tHfbu28oq137szr0Xbtn721ONU9I4SJ_cQx7CP8LiWDDdeYB8PDfsXF26tai05oRPJbuWQZnsRCCMJ043AGLjsc45rC41u4_HpxF5Sl374i1KOt1JvpyvJlFqMOoy5k6B__vL_nO8--o_xfGNxF06ATnnn-oJysiVu5Dr2eg2bj-aiP_8Xmpt15Vqih2R__ldQVdoO41HSIPqZ4vsySr-d9ivnQ_Ft4Ec69wFjmLyk6Fp97PRmvhTDyecCBOJrVVReNGxu93SspHJHtQIF4ucs",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "YuDhA J",
+          "uri": "https://maps.google.com/maps/contrib/104933907704160317823",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWhnR_tPEUCrrte0clMDuMulGi72eiguej9XQaKIh-ActgGUaI=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID3tcXbBA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID3tcXbBA!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMZDfAraKNGYgYDDWxLdw_nc3NkxurhdgdMOaWtGAYAxHAe8Izf8xFmYNuJg_cGaXosE-zQ9AE0J5DBYQKf-day_hNx51i8TphYw1fw5Cx1pR1CvRm-Lo-huKRa1iHItNmwa6iGe2XwagJsD6Qs10VXdYFNZ54m7nqzS5eEOhA7dDi2Ht8JjL6bzSaWjpB1u97cMuHPPNFgkbSqfRXgwEKyQpomwxPoRSYqC1EgXiLaAP1MuYoiJnIzdnUbKLY4pC1sbJSIQ-hWQEN0ePuY4dQaz3cYQnk510l8wxoMi9lwA-vfQTJysN7ZLKzKvt-GOW7p61w4iLYSgC7HESQ2e_QYjw-TmqaO3PSb01L2Q2QVBXoM_K1yeZ1wF5B_HejszwKwl2dZbnsKyPwEEsUSWHRW0_vY",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Putri Arin",
+          "uri": "https://maps.google.com/maps/contrib/117639560212660558083",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXTcOXlraRfrcOAyteN6uWSMVwoFazs1tkOEk5SUdU4Dhk40N-0=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMCA68m9JQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCA68m9JQ!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMYMDPxNIRkl6RnOj1SfyNOTRa0SEoKvSafgBAI4EIBamEMXxDdQhrrpgIh6zxDrUaN5biE9HjsKjJjD8EliN6t4JaEpjm4ZhoVnVNXDTCnIhffvfpreXC2UlsBlDSqSULht36nNPg5N_hVjdK2ZngGbgVXO7D18DSkMXlowxC8mkHPopjSwnThvb5MtkiWVIJ5PlV-HNXUPws8XadA8mnn8FnO1qmsbzs2_IEapXt81-PYlvKtSntGeFRj3KW3UiL-XW5nuX1kgqONOBkx9N0og71JY7RPNAVdSKFjAR1Qis6SWLC_rdZYimFI2qaKimBjGZgTczAXIh4MO-yeFha1Z5FgRy5t4HzcOBpDfHE83Iio7UEDNaEeu-joohd4jndzlDclR5CjWOOOjkElb2WAMKwg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Artemisiacolours",
+          "uri": "https://maps.google.com/maps/contrib/115834720702083184285",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVZ8hxrYucbhvuT-2FCa-plZm5zQz9RTps_mo9A5hXiqDw2H7A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICpiM2aAw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICpiM2aAw!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMZmUTCriyljal1Z95zLvI83znkPd_-n-cJ9R5d14JFko7CdChnniSWWj1-wmDWwYIM0BhT5hdRhcwadoa8Fz2SQcZ_aCtZgU0OyPJ9uIhYBEXq4D-mhoEtk0WQczd2EASU_khP2oDPSIXLZq33jxQvRlnWNR1xbgHcwP9Ua7GbnRUMK5YyIWXtVjUmo6vrdivOkBozEbrovrChVvcbISyEtIPDmF07XgRiePVDztQ_J229DV9bsaazvh0yH_XUbjp2f4oURM8OvmB3XPyZgkc_eWRubGF2UZrNL1sEKjbryFVhDX8EVgz4WYd_jB_d5X0QZJTu6AB2JH2rdadg9hA4GToKaJhPc8WRfg3PsgkIRdDBYt-fAzbb-vIczizWQIHZIDdicsvmpfNLmaWPbthSV2A",
+      "widthPx": 3060,
+      "heightPx": 4080,
+      "authorAttributions": [
+        {
+          "displayName": "Suprianty Canastaria",
+          "uri": "https://maps.google.com/maps/contrib/110159567029536464834",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUGd6zp8IYCFwE-27oPkiuWm_aFsaIquegdAnRVm7OuYYJgOF0=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMCYqsmmIA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCYqsmmIA!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    },
+    {
+      "name": "places/ChIJM6n_r-PtaS4RCjqKX1aqdb0/photos/Aa-ngMbWg5nJa8VAh0wxJlWHXOdXeON29ypFQSF3XWWJtzweANf0hmVQludfobuPhStyA7zZHBNe8vxgcayZo5JLwWs9EZTw1MJVouqQ-1-XHeORyLlWGCH2HqYP2q83tnxSc_MRSKj_GClbRMKyZu_Nc8icZxqn4iPeGvmt3pmLWd3X_f3BuuOk3thuzRhv0POGXdEKrHlt06LKTbdj9vbVCxaLgVCSZ6K-MGAcH1Lg0Ttj-Nncwdglyd3_hr-ENykKK7mU8h-Fnr83CnS3elJqIv20KSvFppzHBhhTq3n0zERGy0bGrcIstJZel1OCwwR1eWHky6g5VGncIoB6MXuFAvZwtzV-6uUdFBr5JGGYkJxPA8kqsrTSNEFhY3QFV5nwmFBqsabNv7EkPh-DHjQ43bvZU8qEUvuYWaX0vY6oz9rBDg",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "SEATAP KOPITIAM",
+          "uri": "https://maps.google.com/maps/contrib/117795707040679175127",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVUiBl0S04_xA2nUog1i2dNyGLNEMvyJLukGYKSA_CQWFYvYUXa=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBwvYYgKXPStJMLCI2jOLHL&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBwvYYgKXPStJMLCI2jOLHL!2e10!4m2!3m1!1s0x2e69ede3afffa933:0xbd75aa565f8a3a0a"
+    }
+  ]
+}

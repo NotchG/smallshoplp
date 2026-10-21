@@ -1,0 +1,44 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Waltie's Rooftop Café",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "Waltie's Rooftop Café",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-3.jpg",
+    "author": "Waltie's Rooftop Café",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-4.jpg",
+    "author": "Waltie's Rooftop Café",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Zapir Ria",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Hafiza Intan Aufanada",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Joshua Octovianus",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

@@ -1,0 +1,362 @@
+{
+  "id": "ChIJ78zOiLHtaS4RkyMKbowe3H8",
+  "types": [
+    "cafe",
+    "point_of_interest",
+    "food",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "(021) 4893552",
+  "internationalPhoneNumber": "+62 21 4893552",
+  "formattedAddress": "Jl. Sawo No.15, RT.9/RW.8, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+  "rating": 4.5,
+  "googleMapsUri": "https://maps.google.com/?cid=9213272526183605139&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 21,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 10:00 AM – 9:00 PM",
+      "Tuesday: Closed",
+      "Wednesday: 10:00 AM – 9:00 PM",
+      "Thursday: 10:00 AM – 9:00 PM",
+      "Friday: 9:00 AM – 9:00 PM",
+      "Saturday: 9:00 AM – 9:00 PM",
+      "Sunday: 9:00 AM – 9:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T03:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 452,
+  "displayName": {
+    "text": "Kedai Seroja Jakarta",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s4elFVZHBRazh5YlV0dE1rRnlZMDFsZFZSRldYYxAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 5,
+      "text": {
+        "text": "I'd say this is a hidden gem. Located inside residential area.\n\nThey have nusantara dish and chinese noodle dish. We tried both and it was really good. They also have warteg/ramesan style menu.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I'd say this is a hidden gem. Located inside residential area.\n\nThey have nusantara dish and chinese noodle dish. We tried both and it was really good. They also have warteg/ramesan style menu.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Galih D. Putranto",
+        "uri": "https://www.google.com/maps/contrib/104147521191010872887/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXJtyJ8AW8uJYEfO_o1AQN-MTRwz30QAJFGFvTkpscHUDTHIOE=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2026-07-19T03:35:05.231378680Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s4elFVZHBRazh5YlV0dE1rRnlZMDFsZFZSRldYYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s4elFVZHBRazh5YlV0dE1rRnlZMDFsZFZSRldYYxAB!2m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/reviews/ChdDSUhNMG9nS0VJQ0FnSUNucU42WTlnRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "The definition of home-style food, the family recipe which are addressed to higher class with combination of great interior. I recommended their Nasi Goreng Kecombrang, Bakwan Jagung, Dendeng Batokok and Latte.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The definition of home-style food, the family recipe which are addressed to higher class with combination of great interior. I recommended their Nasi Goreng Kecombrang, Bakwan Jagung, Dendeng Batokok and Latte.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Johanes Latupapua",
+        "uri": "https://www.google.com/maps/contrib/102609794655838283050/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUmSbDwcg6TiroTKuUHMBLPv1kY278asieWvJTR3BX-17ptz0g=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2024-09-22T08:40:51.153192Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNucU42WTlnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNucU42WTlnRRAB!2m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/reviews/ChdDSUhNMG9nS0VJQ0FnSUNCdzdubDRnRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Loving this cute little place in Rawamangun. And i must say they deserve more that what they currently got. All their food & drinks are just delicious, especially considering their affordability. My favourites are Lumpia, Risol Ragout & Rendang. They do plenty varieties of dishes that you can choose from & create your own rice plate. But they also have rice dishes & noodles too. The place is also cosy and have plenty of seating areas both indoor & outdoor. Don’t forget to stop by if you’re in the area.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Loving this cute little place in Rawamangun. And i must say they deserve more that what they currently got. All their food & drinks are just delicious, especially considering their affordability. My favourites are Lumpia, Risol Ragout & Rendang. They do plenty varieties of dishes that you can choose from & create your own rice plate. But they also have rice dishes & noodles too. The place is also cosy and have plenty of seating areas both indoor & outdoor. Don’t forget to stop by if you’re in the area.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Maharani",
+        "uri": "https://www.google.com/maps/contrib/107445524335372137639/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWKx9QPxHzhuiAR6aJQnd_8eEfR91nX4j_JrxyS_jVS6Fc2yiiR=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2023-01-03T03:57:06.407332Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNCdzdubDRnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNCdzdubDRnRRAB!2m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/reviews/ChdDSUhNMG9nS0VJQ0FnSUNoa1lLS3RnRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Kedai Seroja is a hidden gem serving up authentic Indonesian snacks and meals at a great value. From the moment you step inside, you're greeted with a warm and welcoming atmosphere. They served one of the best coffees in Jakarta.\n\nThe menu boasts a variety of Indonesian delicacies, all equally tasty. What's even better is the value for money. The prices are reasonable, especially for the high quality of the food.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Kedai Seroja is a hidden gem serving up authentic Indonesian snacks and meals at a great value. From the moment you step inside, you're greeted with a warm and welcoming atmosphere. They served one of the best coffees in Jakarta.\n\nThe menu boasts a variety of Indonesian delicacies, all equally tasty. What's even better is the value for money. The prices are reasonable, especially for the high quality of the food.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Andrew J",
+        "uri": "https://www.google.com/maps/contrib/108811153892492947915/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI7yv7rXWDK4l3xHbUleng9uiuMy3mslPsE2nR1IDymt_ugxNM=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2023-02-15T07:21:21.084088Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNoa1lLS3RnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNoa1lLS3RnRRAB!2m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/reviews/ChZDSUhNMG9nS0VJQ0FnSUM5eHB1UFpREAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Savoring every bite at Kedai Seroja, Rawamangun. A humble place serving up big flavors in a cozy setting. A must-try for foodies seeking culinary delight, especially their Nasi Goreng Kecombrang!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Savoring every bite at Kedai Seroja, Rawamangun. A humble place serving up big flavors in a cozy setting. A must-try for foodies seeking culinary delight, especially their Nasi Goreng Kecombrang!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "edbertjr",
+        "uri": "https://www.google.com/maps/contrib/113684082065703290938/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUeeek0D_1vLdxUCwVSb10h3z_Mhx1Tu2kTjvK4QN8EiTl_44M=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2024-03-05T03:49:39.571637Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUM5eHB1UFpREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUM5eHB1UFpREAE!2m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMYVcp0BUextKPikmSAJ44T9YmreJsraWxIvZkVWX8ShQKDqq1-BMJ66ehR6ZrkGWcdZEG_yY_NSILZq7ihhfE2eAoqhCbddVvVIKrLENElyIjFC5YWzKSLy0vdoHbK-s9q_qm7PTx6ProKdqwUqbrgHLG6cRvCdwE-gpo7CMwqjehWhar20POGbHO--J9llHQnoCUncL1rVGOnLD4RR4FEK8tpxlA0w6pTMh_O3zbM6fX-Itz-YKFcm6tQsVux41_i_9Q_mTklBW0Ga5AgubNj26GyMSsjuL9mgAXvw_3_NNis733t8DHuc8aUdpbbW2aQNVs3q9IzYEnCisjiyKQTJser3TaCzmYtN7MHpFhymrIwJozdtLPDGujwcjS_NBCILwA5a-4sbReLm0nTKLMY65P-kh18i1fwWcgb-5VOkgg",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Anindita Maharani",
+          "uri": "https://maps.google.com/maps/contrib/112141847763549320910",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVMZif6SCqzQFNVanYbPb5VJFPdqFCjSSqVAhkp_FYBcPWdWkGY=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAcyiQ45mR4jfDg79PHFqno&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAcyiQ45mR4jfDg79PHFqno!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMb0NaKe3ckIMMe84Q_huUvzd4YYaf0j_u6xqwIMcopQ0VtGM4R2_Na81myj6B6m9TCtFHBrllXnBH0kif4MVxPgBw2GS11KWoFIHIY4QMudr5eWjzcF-PohrSDQCFR-FhWz4xMl_gr6GNpqAlFnr81ZfuvAbt4eq7Hp-1A_fHwErzGq5TWNoSlppVWo_pC-3h9KkK4LqZMFAmvYzy6mesq651tRiGOCyH8iE5La6zrj-6BLPilK5tb-xOQjse0U8-U1UUpm1nLmgq56uJzQmnPkaXi0MCsidYWpV1TJRhgBLMKW8ljOHWdA5yZm-ff8jwKYoj8tfxzSM0p_QNZOY17flS0txTwlH-VY6HMhp4VcxvxWZ1nCwngFPrTI6XseMbBC5CCtv7wX6LS2yfprCOJZ634",
+      "widthPx": 4080,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "Andrey Fifo",
+          "uri": "https://maps.google.com/maps/contrib/110589495723850445848",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUtk-H0cijhtOKbAqSeYST13NFKLWOyrZh5-9xglumNNHkxXBF3=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDL_aCXeA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDL_aCXeA!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMZ2ZtENF1FaloHI6KDX1mhRDjSMDxPeP4PvGRonUmTfaa9bAApsF0gJn36s1HubEiNealD_B_d0KcBtElO0KFWwbEjKeVrYXY-l0x17zIYfqbAszSri80kiu7tNiNTk3l_vAZuqLscsKFRV1j6OW26gBOOjq3ndLC12I4ebIqoc2pUSQNlLPxCnJ6xAjkxYcqEzU6ozrb99e9W63de8QSKQ7__CC7NgpeL3rUjXsJ-xHM0oUDkU7ZyS9GNklt3_lguvfk8QFwAOa3bWaWgXuYYF9pCH5SNrXz2Ios7nmjIQmHwBH_GThWf2308UceqJ2fm4MQDwiR8tJvsFUxasQzB6KfLR_EebVO92v9ACIEz5bUYLY2Smbr5yBN0n3vC8bY3lSAa4UNWUD8Djj3WtPqmkmK7iWODCbuKHFn8RFecWog",
+      "widthPx": 4096,
+      "heightPx": 2560,
+      "authorAttributions": [
+        {
+          "displayName": "Achmad Rizky",
+          "uri": "https://maps.google.com/maps/contrib/111907320896118960637",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXfIr5n52ySTbWVdMyN54lS6aXQwoTTZZOXsHvJwu135Lk3iF4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCRI-_CRTdYYDeOz-RSFpWC&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCRI-_CRTdYYDeOz-RSFpWC!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMbamDvCWTSSFNJkUUz8EMg6MpdTShHqkP_0D_D21fdYdQXM82uXTuYvpDzuxy7ZhmquB4U9udv3vd3hn-rq_6AboNW1UO-wopz7st0JN0CxP9BWRBoA7OVBd3WlIeILjxFgKVn_rxdIowHdVUYk1z_ggenvcukpriGayKuV3_xfxXAYtzLk7a0omunPxuB45cLdnHo_juaQTWAiYjUBN2_sQ031YqGrtNdrHwDiOJLSdzFJiCuGMHXKClm_gF4vLKAHBFwbAuOVyZ8cedDK6LJbuitZQkYpAm-ct0U25sCXK-i2Y2TycKUqVEJ2GwMdBogSnzMf9VRPg23uZBySOfbTR08e6qxlEat6o9ltdDYbey_v16WcGE36Qzdz92qXVbBFVAOiaMPxptWTUDC3sEN1kKxjenRU8CHbe7fj8_E02Q",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Dian Wulan",
+          "uri": "https://maps.google.com/maps/contrib/105327582002398599912",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV9cN3GoaUcUJjdnqtcjCydO2QbGLzubfSjShcUfhpuQwW5psE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAwQn0G3vhOjqWiaD9fOolS&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAwQn0G3vhOjqWiaD9fOolS!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMbE3zkxK4GWRa2SV5_J6JYpISxryIWTyAWzrYaqa1lU2_dMfeGbgcwcAmdW-MZ9XXvqg9BR6EU1xStt7lacjbCCZeaoeKhC21XSw_hqE4aCghfhD2aJg8yNPpUiy3YbeR982fB-weJiCf8K9tHxBbGvYv2BSaLQdYqqDjFF-9Z_gQ-M5LfQodS_njwI4tnNjJnlJrzs75RSsYMBRQzSXWOBt-QiwDtUNA9erJAKCPHkOjH7tTbpdHa5fWRmGh0yAS27c2N2IchQZzzbvLATPZWS1jrzZGbdaW3Dq1j3TiFIxnQlXmQVDNjE5ZYWKQjswDHYGZaFAmol75FcfSFiMdLT2oNZCT4MmdFG5dznwYzLvoWYk9MLPa83-Ortg4IWxtar6MJ64kaZ4uBWh-j02eX3kTjQuWfXqz3N5jaQrntC",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Velia Ratnawati",
+          "uri": "https://maps.google.com/maps/contrib/108030449729324906334",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUotZBEu_n55dvN5ox3ER1Jrox2YlF_MqDdKhpignkSzrwkLDa3=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBIRakeBNSkJZk5JSLc3nya&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBIRakeBNSkJZk5JSLc3nya!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMay-JFCJFw3_Kc7aue-E3FIkh5G5WgvJmGMSqo7tlwnhEk6H-4W_llJEj878-4XfU4NzPWNnjWjonJ6ipX7xNP4pRMh7GGyTexwCcX6jNr-fT_dB-TtcrbZ6Fvz0UpHWyH4kkEwoiT_nH40N-oK50vwQBkGhzOt4jA0oThZUYIlRkUEVm-QhHvA4VC7n4LsEVnCCGyoIy4PE-ImsC_mu5FoZdMfpJ8WfEygJD2BOzby8-pIt0d_WfYA3EjVGpsLm0tT2S0StgliMRzASicxqvNgeP4rFZw2Cf6hx4r-rCqkH0qx-C85owy93N0PVvHZVdVfjHY1AO89Kn-YEr6HPunxQe8KBCgc95PpL7te0Kzrfu0flTo-bhO6GDzqFy_eP0aVA39Ma_uhpU5IcSzGHCD0Uh6CPwC0cxpu10FZggg1Cg",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Dewi Ayu",
+          "uri": "https://maps.google.com/maps/contrib/102258740606055451781",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWVwe1jJYUsvPS-OR93XCOad-Cbf_2YXONKQrNx7tBhohRbSFye=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCLITiwMRjA9AxoI5VhIwGa&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCLITiwMRjA9AxoI5VhIwGa!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMb4-Kns-lo88H64iPLkCloJU_15TtQjvO8TlTXd8OSSjfqVo9nX8dSrvUwOz0PhT-erk1fogWNK8xFvjIswb5eCoPWs0Ldr_E_6JMuIUBRuFedALfvqnBVmTb6i_I_0cAY_pysn95ZI2BYZUJnHS38lAFPhVMC-G95R2a_Ang6CaJ6FseFN-GE-I5jivlGiyjCfjT5EhKcz5DZktgV9tAWM6R41JUg0ugtWn9t4ZFs-6vi2SScpeetJ-swQzbhiYFxUSUWVv0svx-GfRPn1CWLUeaOTcm431egzIXUsIEE_vXJbWmjQ8tWKXhxrKreaf9HES8_UC4BP9kmJKMhqbeIAlnpUiOzaKAuT0GiMulWMYcOFvLfBh0FLDo5Zrzcf-7nGJnNxRpEZIMXpUkEPTCAle4wWpT4t6djgI5x1QwpW",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Dewi Ayu",
+          "uri": "https://maps.google.com/maps/contrib/102258740606055451781",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWVwe1jJYUsvPS-OR93XCOad-Cbf_2YXONKQrNx7tBhohRbSFye=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC1fW8KM7324r3f6AzoO1OQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC1fW8KM7324r3f6AzoO1OQ!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMYET6E5px_s0cDo7HkIU4BSJXzAHrdJfqcTg3YvNNr7b59rOozmgutUEhxqyImqrsk5rDf4dx46G5zb-w5zJyr3vgu2er9HWM42Jw51xvNz8S9qNH3ccznOUwRYPrjxHAG6k6yx-GCQKYjsbfZuM3HE2RrNIF4R-rIQ69frCHJ6c9Ub8td1kxnjQulvkPBhw0EDVfe1hxoFsrCA9NTCzCreszCS-Ig-W9F7u8yMGCcehmcsH96LF6ucyl0Rk9bSmGQ1ZBXy0iODn_WWFXcXYn3Ae1Ncst8BYhwQv3nA108nmWT4IObJTbNsQduoiqQ1pLWT-PTlaf64tZq7kXuG7aslA8fwVRrw98JaCwMK-V2A9Xn_Q6vf5WD7YNtL9QEcIFU1K9C1ZVbihUeuu7s6D0a7P6_ZHnkW5qrw5K5kvGtVzw",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "Achmad Rizky",
+          "uri": "https://maps.google.com/maps/contrib/111907320896118960637",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXfIr5n52ySTbWVdMyN54lS6aXQwoTTZZOXsHvJwu135Lk3iF4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBr4H_2zA5bd30f-nnoyeIa&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBr4H_2zA5bd30f-nnoyeIa!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMZlpNEL9IqwQci2wEms3VuwqCQ1CbfKWulWOoxFSqaFuN-K9lTTk57Xz6wSnwiW-MvE8TylqgZLN1MwDM1DoO6zybT4_e5H-5Lb5zwlLYUPitvSkL7tML0uTlww1LWz4HucDJtJLJoYqEHpfSuF9J8Qfnte1Xq3_zE-2j2sCGYoLTTJ5G69lActkLQRVpappboNh4osgCG-bvK7kTGcX8HkfYz7YB6G09UJG2LEbNhgyp97pQa8NSI86-akdL7uGGd65KpJ9aQ0j4ul9MP6MODbSCuGs-vkvCZI0LxpN6na-91m58fFq6XOjJgiZOMBFcAVnSf3YJj1MCadJxxNGRHFyPeVTmuuiHZ3BjrWVqjxnLyfGxjdBSybdgNbm0uJORbCPubLfCYW9vYc6JH74lkVsK7z_D4NT4sV7KlUpufVJQ",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBP2h-pXpsHpapLl5M5Qt38&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBP2h-pXpsHpapLl5M5Qt38!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    },
+    {
+      "name": "places/ChIJ78zOiLHtaS4RkyMKbowe3H8/photos/Aa-ngMYMFTOJjTZfWi4cFulkz7ehHchx4fyZiI18kgqf4xVGlWK6lls6fjqa2v3e2NUeSPOCG51enCd3LlKr_1G2-bXXyLBh_3yP7DSTerQmuRWTbP1eqWK9fqiJRZL2nMwMMc-hcgohrxKEeHfGaPjABV3BNrhXRvRzCxfg8BqQAXHIq_dH9z-9_pesdqgJo1rCzP6LZhQ1KADTRw7e9wBNipbhxLbWLofG9uDpfNotwaAPcvJJzj1FtvCpGzK5djJsg22B_kzZcnAx4QpgSRWD3vxarCI9_p28pQ-8vBn52zdtdwnB_2cHyIgeiDiKjwfPlslQ1UxlZAqRCmi01SLbzoZ5XQyTGhs09jMn_3mWDoArHj6y-1xbl6RC4Jl0aDeJj1-ivvGYhQZTT84ehfhTQyrT1-js8U04XjMOqHQu2Ldy",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Dewi Ayu",
+          "uri": "https://maps.google.com/maps/contrib/102258740606055451781",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWVwe1jJYUsvPS-OR93XCOad-Cbf_2YXONKQrNx7tBhohRbSFye=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAqhrXFMdNi8XtA_rMG7UG_&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAqhrXFMdNi8XtA_rMG7UG_!2e10!4m2!3m1!1s0x2e69edb188ceccef:0x7fdc1e8c6e0a2393"
+    }
+  ]
+}

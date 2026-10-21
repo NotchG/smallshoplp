@@ -1,0 +1,431 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 8645,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KEDAI SEROJA\"",
+        "fontSize": 44.3,
+        "lineHeight": "46.536px",
+        "textWidth": 273,
+        "pctOfContentWidth": 78
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.264px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"Nasi Goreng Kecombrang\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 278,
+        "pctOfContentWidth": 80
+      },
+      {
+        "el": "h3 \"Dendeng Batokok\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 96,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Nasi Rendang\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 151,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Bakwan Jagung\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 172,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h3 \"Bakmi Ayam Jamur\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 131,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#lauk-title \"Pilih lauk sendiri\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.264px",
+        "textWidth": 252,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "h2#kopi-title \"Kopi & camilan\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.264px",
+        "textWidth": 217,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 48,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Bukan kopi\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 121,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#suasana-title \"Suasananya\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.264px",
+        "textWidth": 172,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.264px",
+        "textWidth": 184,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Masakannya enak\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 194,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 201,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"Kopinya dipuji\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 160,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Tempatnya nyaman\"",
+        "fontSize": 23.1,
+        "lineHeight": "28.925px",
+        "textWidth": 212,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.264px",
+        "textWidth": 210,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.264px",
+        "textWidth": 201,
+        "pctOfContentWidth": 58
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 39
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 8169,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KEDAI SEROJA\"",
+        "fontSize": 62.5,
+        "lineHeight": "65.5872px",
+        "textWidth": 384,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.9168px",
+        "textWidth": 245,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Nasi Goreng Kecombrang\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 305,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Dendeng Batokok\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 212,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Nasi Rendang\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 165,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Bakwan Jagung\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 189,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Bakmi Ayam Jamur\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 228,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#lauk-title \"Pilih lauk sendiri\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.9168px",
+        "textWidth": 303,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#kopi-title \"Kopi & camilan\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.9168px",
+        "textWidth": 261,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 53,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Bukan kopi\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 133,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#suasana-title \"Suasananya\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.9168px",
+        "textWidth": 206,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.9168px",
+        "textWidth": 221,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Masakannya enak\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 213,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 221,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Kopinya dipuji\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 175,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Tempatnya nyaman\"",
+        "fontSize": 25.4,
+        "lineHeight": "31.76px",
+        "textWidth": 233,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.9168px",
+        "textWidth": 251,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 36.3,
+        "lineHeight": "39.9168px",
+        "textWidth": 241,
+        "pctOfContentWidth": 34
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 39
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 6247,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KEDAI SEROJA\"",
+        "fontSize": 94.7,
+        "lineHeight": "99.456px",
+        "textWidth": 583,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 317,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Nasi Goreng Kecombrang\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 336,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Dendeng Batokok\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 234,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Nasi Rendang\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 182,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Bakwan Jagung\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 208,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Bakmi Ayam Jamur\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 251,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#lauk-title \"Pilih lauk sendiri\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 216,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#kopi-title \"Kopi & camilan\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 338,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 59,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Bukan kopi\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 146,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#suasana-title \"Suasananya\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 267,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 286,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Masakannya enak\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 234,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 244,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Kopinya dipuji\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 193,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Tempatnya nyaman\"",
+        "fontSize": 28,
+        "lineHeight": "35px",
+        "textWidth": 256,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 326,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 47,
+        "lineHeight": "51.744px",
+        "textWidth": 313,
+        "pctOfContentWidth": 26
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 39
+  }
+}

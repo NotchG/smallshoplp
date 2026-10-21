@@ -1,0 +1,377 @@
+{
+  "id": "ChIJK2gSTIvtaS4R4nAoN8P2e_o",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "food",
+    "store",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0812-1506-6612",
+  "internationalPhoneNumber": "+62 812-1506-6612",
+  "formattedAddress": "Jl. Sederhana I No.4A, RT.1/RW.6, Gedong, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13760, Indonesia",
+  "rating": 4.5,
+  "googleMapsUri": "https://maps.google.com/?cid=18049291249921847522&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 11:00 PM",
+      "Tuesday: 8:00 AM – 11:00 PM",
+      "Wednesday: 8:00 AM – 11:00 PM",
+      "Thursday: 8:00 AM – 11:00 PM",
+      "Friday: 8:00 AM – 11:00 PM",
+      "Saturday: 8:00 AM – 11:00 PM",
+      "Sunday: 8:00 AM – 11:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 506,
+  "displayName": {
+    "text": "Red Soldadu Riverside",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1cGJYc0hBEAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Hidden gem!! This place is awesome! So quite and peaceful. It’ll be one of the best place for healing although the foods and beverages are quite expensive but totally worth to try, specially the coffee and snack. Black and berries coffee and Banana Fritter is highly recommended! Not many selections for the main course unfortunately. I ordered beef black pepper and the taste was so so. Overall, it’s 5 ⭐️!! Ps: Near by the place, there is a mosque for praying and the smells sooo good inside and very clean.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Hidden gem!! This place is awesome! So quite and peaceful. It’ll be one of the best place for healing although the foods and beverages are quite expensive but totally worth to try, specially the coffee and snack. Black and berries coffee and Banana Fritter is highly recommended! Not many selections for the main course unfortunately. I ordered beef black pepper and the taste was so so. Overall, it’s 5 ⭐️!! Ps: Near by the place, there is a mosque for praying and the smells sooo good inside and very clean.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dudi",
+        "uri": "https://www.google.com/maps/contrib/104878306578785321425/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXp824LqPdLjqRbnIoyTgojLfaG1cKq7F84a5WusLpEFVguOoLE=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2022-08-02T07:12:18.888110Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUN1cGJYc0hBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUN1cGJYc0hBEAE!2m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/reviews/ChZDSUhNMG9nS0VJQ0FnSURwOVBQVE9BEAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Hidden Gems. The view of the river is nice, lots of greenery too.\nLocated at house complex, easy to find, the front row is quite tight but there is not much car back and forth in this area so it's still easy to reach.\n\nCoffee is good. Food and snack also Oke.\n\nParking is available for 3 SUV and motorcycles.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Hidden Gems. The view of the river is nice, lots of greenery too.\nLocated at house complex, easy to find, the front row is quite tight but there is not much car back and forth in this area so it's still easy to reach.\n\nCoffee is good. Food and snack also Oke.\n\nParking is available for 3 SUV and motorcycles.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Mo's",
+        "uri": "https://www.google.com/maps/contrib/115004602298533832111/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVTYDc4i3kctTrDCBfZR2rhLqIE_XRMLudsbQJ_VJowg59DdKXLXQ=s128-c0x00000000-cc-rp-mo-ba8"
+      },
+      "publishTime": "2023-08-20T03:34:39.215412Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURwOVBQVE9BEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURwOVBQVE9BEAE!2m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/reviews/ChZDSUhNMG9nS0VJQ0FnSUN1NGVqTmRnEAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "A friendly hidden gem just right at the corner of Kali Ciliwung. Seneng banget tempat sekewl ini ada di deket rumah.one of a kind cos it offer a riverside view, which maybe the one and only even in east Jakarta. A reviewer recommend the chese baked peyeum and it taste so nice meski for some people a bit too sweet. I have tried 2 of their mocktails its truly selatan quality👍im sooo enjoy this cafe and would come back for work!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "A friendly hidden gem just right at the corner of Kali Ciliwung. Seneng banget tempat sekewl ini ada di deket rumah.one of a kind cos it offer a riverside view, which maybe the one and only even in east Jakarta. A reviewer recommend the chese baked peyeum and it taste so nice meski for some people a bit too sweet. I have tried 2 of their mocktails its truly selatan quality👍im sooo enjoy this cafe and would come back for work!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Nisma Mediya",
+        "uri": "https://www.google.com/maps/contrib/103145997399203274254/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUqndW6KIXg2QL7aWsxRYJ9aTxK3_1e4B3-W-O0kmwR_xdX45VKNw=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2022-07-30T09:25:50.391474Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUN1NGVqTmRnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUN1NGVqTmRnEAE!2m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/reviews/ChdDSUhNMG9nS0VJQ0FnSUMzbHBLenp3RRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Redsoldadu Riverside in Cijantung is a charming oasis with a picturesque riverside setting that makes it perfect for a relaxing day out.\n\nThe surprise element? Their carefully selected cutlery, glasses, and tableware, add a touch of elegance to the experience.\n\nDon’t miss out on their surprisingly delightful mocktails.\n\nPlus, there’s a mushola nestled in the surroundings, offering a serene escape that feels like another nature experience—definitely a refreshing break from the usual Jakarta vibe.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Redsoldadu Riverside in Cijantung is a charming oasis with a picturesque riverside setting that makes it perfect for a relaxing day out.\n\nThe surprise element? Their carefully selected cutlery, glasses, and tableware, add a touch of elegance to the experience.\n\nDon’t miss out on their surprisingly delightful mocktails.\n\nPlus, there’s a mushola nestled in the surroundings, offering a serene escape that feels like another nature experience—definitely a refreshing break from the usual Jakarta vibe.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Edwin Indera",
+        "uri": "https://www.google.com/maps/contrib/115748398325747014395/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVHaeY94entxgAX5q9E1VLaXxggzq7wMcqU9p-aOrWo8BR8fbfTvQ=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2024-11-05T09:29:15.852125Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUMzbHBLenp3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUMzbHBLenp3RRAB!2m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/reviews/ChZDSUhNMG9nS0VJQ0FnSUMtZ091OGFREAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "5 starts for the environment, design, cleanliness and the vibes\nPlaylist need to be updated, kinda bored with the sigur ros dark ala mode, i prefer chill relax and more uplifting\nI order spaghetti bolognese (too salty, too oily, 2 out 5), honey wings (nice), ice cappucino (acceptable), ice lychee (the glass is tiny), they charge 5000 for ice in a small glass thats sadly dissapointing\nToilet is clean but the stairs is challenging for seniors or kids and no safety factor within toilet perimeter (adjacent to the riverside)\nOverall it is truly a hidden gem, will visit again for the torenggeng and trees sounds",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "5 starts for the environment, design, cleanliness and the vibes\nPlaylist need to be updated, kinda bored with the sigur ros dark ala mode, i prefer chill relax and more uplifting\nI order spaghetti bolognese (too salty, too oily, 2 out 5), honey wings (nice), ice cappucino (acceptable), ice lychee (the glass is tiny), they charge 5000 for ice in a small glass thats sadly dissapointing\nToilet is clean but the stairs is challenging for seniors or kids and no safety factor within toilet perimeter (adjacent to the riverside)\nOverall it is truly a hidden gem, will visit again for the torenggeng and trees sounds",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Rani Chairunnisa",
+        "uri": "https://www.google.com/maps/contrib/116859840023275565102/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXZ9cJiQ0OFnst2PPg33IRosBdzdrSuWfKHiny1QkutSnxlo-3Y=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2022-10-24T06:13:03.461992Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUMtZ091OGFREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUMtZ091OGFREAE!2m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMYNG-6kTmhOEuqKsdr76egPlVJ1XmYoZZsODKB5iFuSXJ5ESZwnSRZSSVYJt2MkFB-R1R0tNP_QU4ZPd9dhinvneT1gBA4ljYjPY8YwPgaESa7ME03cI0ODlEhw4S2N6Xj7uIw8Z4R_ifJ1Zakztypnsyx2LOJlH5VqIUEkS38gy9z-OjXGtFYUjh_r0n_xiOrdSYikt3TV2I0xvwrrca73ihLlxE3zzzZlWe5LzeGP8KF6GllaOxGpyemcYy_GbVNR-HcCXoCi2RtwwOwy-kLwnYCFC_YZtwzE4UiFtwfsgc0bUc6ZSHxHElLPqYx1BPIEchEO4FuP6w1wZony6IF6JmEY8mEAnkRTWpNun4TKXfED3qJvzNDr6-FIQP0A3SftuugTKpQNfJHb3PBBd-AtVYK9fo0",
+      "widthPx": 1440,
+      "heightPx": 1800,
+      "authorAttributions": [
+        {
+          "displayName": "Nicko D",
+          "uri": "https://maps.google.com/maps/contrib/104159834950452440879",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVO_mnGolaxrOfKe3Moi-odKlN-AqRvHP9ZbXkbHDc3ABk-I9AR=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICeid6WiAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICeid6WiAE!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMa2ZgHdLGYNV8hFU-jZojASqtET60o-T87fD1pF4HOsZk6ckyl6qTwygasuR5wVwsGDFr4J4sxGSrhuzZ9XJQl726KyG1Yk1jwRt0OF8jLDjoYoSPwZXqrNZQoinV3L0MKiC7bwL-cb1oJQLI5QnmRlAKRMYUU45UZFBt_AX19-9iE5H-wgnpKjj_R3__SKlIv0-LaWaQtIt8ego8cPiV_jIod3nrqTZAA_5GrbYk892o1o6p1tW9P6hyXWBaBy7-ZATnAlh2DpW74jUfxdLXfxQR2q1aGuCxBOtzoDLV6RoXuJB-E1T_AyCmjzcvWM0un2Db9HaKSVbOFTkp_XbSz090gLWunIXd9z_ktWLIC9i09gBHAYVpZmoJWhrPe6hwH5ROKuazwc_2k7VRXqLe7rAVY",
+      "widthPx": 4000,
+      "heightPx": 2252,
+      "authorAttributions": [
+        {
+          "displayName": "rommel aleddin",
+          "uri": "https://maps.google.com/maps/contrib/107570056681704729955",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK3efhmXwagKPa-sVCtOyAAinTyLa9s0qz8ru8ASADOTW8ciw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDu-LvBfw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDu-LvBfw!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMZcORWOK1TySM5vlvsbt6I6AyZICR_q3XfXTdzL6GHH6qtKvg7jnreyFwL7cXe3Wooq7tXMlfy1albViJPS7BUkeG0x7ctP7-xf3amRrAjuCV88T2bZLwGOB8N5tH9rkcCG2k9g2RthgN_ocOjM6FxOVUFVnMam6iL5GX8jqGW0vkSEsChm7isYLyPpRRiefCG4vd0sBkGHeQ3fKbEQnQq07deZoLsFGrIc-N-eN9ltILQD0MLxjVrW2aL-B6EgHACbRxvEfCebC1Vay9dMVw7REF6mEL9iXIv16aObThv-6dGjJsTJ2Tp7d3n5TnksE-9qlsIlMOcsKzSPIb5MQ0V-U2g5GTUtRYX7KPI6HM6DNmZaR_KApBaOR0nBRLTP_UIzM3Bw46lU9DGl2kt_PuwIgwgXMLv7fUw3skJW511G",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Nda",
+          "uri": "https://maps.google.com/maps/contrib/111029009409822131158",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXXlno5ig5qlyH-yHneinALWyFlouQ0pX2xYyh4Fl3KMRhuAqU=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBYF4-S8Dfu5buLJ5io-UzE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBYF4-S8Dfu5buLJ5io-UzE!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMZ-rKj2o8wtajFz3g0sntaCbibdHB0SCN7PsArWQWNE_6HBttmFIcBKMLIjJdkYdAMaXtojCLyiZBP40sunvwsDAJYONUVWJxi8xhV8zMQ_dut5mpmlxQwbAjQeoZoqAvHJnPxIdhzTAUI3vEg2Bb2n4MzIFzWA9NVthwv8aUiyX2wLstvOpP0LCJFdI_53iatsMcNGRcM6syU0VfJLZZh0I8WYxA7S8dVs07ECW_SCV57LOJG9o9_fcPb1DSF-MUX7hiFkIYUeQRB5YHFmG1OloCigKaLx10Bd1cYpNvyqdpgcPr-KOlXjTRD6GIbSBeqQUOZEDfg9TbhluKtjbqIFZvsUrqyOg7V-E7FZwgGJPOHO5XqMGJ0P3LWNc_zvIYVVxpofcjhouo1klWXM_2Ppvo19A7G8_S7ZkSNgPCK2",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Nda",
+          "uri": "https://maps.google.com/maps/contrib/111029009409822131158",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXXlno5ig5qlyH-yHneinALWyFlouQ0pX2xYyh4Fl3KMRhuAqU=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB-piyywHhxdPkR6k9L2H30&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB-piyywHhxdPkR6k9L2H30!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMbjqsUIFk-jPtHJUr9FfDtSZ2hiO64GoMUumXIgK-AOB9DaOg0PiT0cg0G64gTbew4I8zPuuIc4Uy6VBx5hEEBjMNF1QudrhDj7n5v02xLbFrs3BRwsqVQQ-wCx1x7Nh5wckOEU_QqIVkRAqj20D3U_-gkk-7vm9SYbYKZYUgAe96BG-Ioutbw2cYraIl4fClsF9StB_J3i82Mtu0TvkG2odLBCT0kgi3rQEZAIub55aCVnD_Hmy2OYtxKjEjEO1secSqHEDy2GcOHU6FcVoD_XSqaK85K-XEWZ2Oj7eSiE6BmcLxb-Sn4NfTFwYTWragJvn3SsH-bi5yDjGj2_d8mFAou48krPneeIHDc2mp80VI47DvAnuLlZJIUn9vl4R6xzz1glZowX1Thzf14-HTn28DMGn3bhARjNZa3fW5xp",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Nda",
+          "uri": "https://maps.google.com/maps/contrib/111029009409822131158",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXXlno5ig5qlyH-yHneinALWyFlouQ0pX2xYyh4Fl3KMRhuAqU=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCwUiiCdShROwEJd76Dc41P&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCwUiiCdShROwEJd76Dc41P!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMbKJjOMGa6pSXfO0mButSSM7a6Yy26tJTwm6JmgHobcnO1FWMHVv1Dw4HfvdlbDuOsYvXU0rIP2hoUy8g8P-B5k48Gay1Tyjkx7o9HBccjI4ZkL4pzV_L446BiG5pWC7H4SXKKbWLH9jFomZbhQuVm-MzItu83Pzh-7X2RoWXFnCQE-ipQjDRfa5PNnYvxMrOASnc0uHDiyJfeDIO-T_BplAsXXz1AxnL82QD73nTJIHPcrZNqyvTH064U3aH_MHt79jUEvUrKaF99R6su2pEz-UQqmgX3Wjuya55RJf6DQt5mRsOcwOhLm4CrqWaIi1Lu_hin4Q-NH4wscI3cYHrm2Fqi_3zqlH96fJwStvY9RNeNnyYUTByz59g2YkfS0hozDfk5E7wEULNOgHuEKg8R0K8RfMLoe3qSsQ9e4I5LdqA",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Nda",
+          "uri": "https://maps.google.com/maps/contrib/111029009409822131158",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXXlno5ig5qlyH-yHneinALWyFlouQ0pX2xYyh4Fl3KMRhuAqU=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDkXbX892E5i3aidn11Z9is&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDkXbX892E5i3aidn11Z9is!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMZrnuEgSfXJ3L6PZ3qGHnbBED4_gbic4H_-BrsyE7nDr2Ug38tDpjoUh1vneTRD38Tbe2ckgaFVxXLs5rHLm5nsra-t5OJnkKTcxzsHwhM8cTOWL3ihJeR5s526CtfLxb57oK2TSDiD3Ms7c3E3fBjt-rFmiK9juiG442-gm8pjSzPsRAhdZGXEVaIPu1xghzhDp1a99S4Lqj77QudtVmVNMpx8MtSnYUBoCTxP4yQRzMB6c9vD2Nas8qY8HfNHVjV2jd_mLgqTcJ6Dur4a_6OXEAvsIiy9GzSR4m7QeAIYC0nVyMs_ZNIK8RRiGRyyck6d0BXX05v218tOB9I5Vrb7BRMjbymftevw6TqbvMjWbINjaysA3D_q-fczAGvHeoNFNT20qlEDqMTLoCQKCPBf9etWrZ0MUnClmpDK8m1o0w",
+      "widthPx": 2448,
+      "heightPx": 3264,
+      "authorAttributions": [
+        {
+          "displayName": "Dede Indah",
+          "uri": "https://maps.google.com/maps/contrib/117934574670007407308",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUcOCsG6tUSCykRpSzBBy8ewGalgPF0TzgRHkGeoWR7f2QQyqCtOQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDKTps2tWsWIA7CnNi2EQhN&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDKTps2tWsWIA7CnNi2EQhN!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMan--xLRMlNfhOHU4YIDInri2Id982AJkscpgSJYufgv24bsDoA_NmNO3yzzJmUrndoGG7bTmf6Eysh0W2DAciZBlEHTDWvNX-2MlxsnMlqRJpnUMFXvo69PHcTGLm9ReSXnH6EpG57ggPz8Da49RAN1lcQkPlRyWTXtBZ7uPCZCy0Ag98RudAatpc3wUuVkc7Xw3lDXGeXCvRfZ8LJme0KLezSA-z7Z61lNP8ALQMBoAvSJgs0jZMHKgbSK0qjZIP_AZkad3xKtHV-QMBEV8OoZ4lczm0azQkwnHuKCHx4CAbdb_vgwJovOjlww5DeWXVZUQoZPSnCaz_mX08Zn1YlazeLAUcK3N8-i4XQtmGLQ5Qb9532oBIPX8OpmWEMtQtou4Xpcmc3It4waliYldoi8F4br99heuhQ8mLBDRna",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Nda",
+          "uri": "https://maps.google.com/maps/contrib/111029009409822131158",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXXlno5ig5qlyH-yHneinALWyFlouQ0pX2xYyh4Fl3KMRhuAqU=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhD5vpQ17oVcE5vF2kQiBDWo&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD5vpQ17oVcE5vF2kQiBDWo!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMboLZeAcqNdkYcEeURPnPQK6LHg7FE1vZcdT4QVDaBx97eRbC5PYFtZI0bCWy1CsrSqneRYIi98-plksQh92q0drGsPgDOIZ7za4zwMRKE4EQ63eeJwQegogaQIEBLAsY5QeOpiis37jLmkIdE587JYGnYjvyJDjFEVNNl_7R_AuId-3y3D-Bg9JXMlH6IqrWOIYmg7QC8HH00cN0MbcdulGCEk9v_cAUdNWGTQwzdJs1pqdTyDweALx7fWqjaeKJsrYEOcg8Frm4MTxHS8Yq6yv-TIEeTI2zUN0ma5E-9sgHohcIDaIkqFluKMyX6RiQSsp134axt5Y-DA4_Bd9Tw6FmcKTMeHOqe2Dmkk2MDhZRcWcw5xsU2_iN0dOcxZKKHlshQZbjkpotq8oDriGrkDvohH3BZpbG6F3Ux1fv2gZg",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Nda",
+          "uri": "https://maps.google.com/maps/contrib/111029009409822131158",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXXlno5ig5qlyH-yHneinALWyFlouQ0pX2xYyh4Fl3KMRhuAqU=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAp2N6L_aSMhJFm77qIn4qO&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAp2N6L_aSMhJFm77qIn4qO!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    },
+    {
+      "name": "places/ChIJK2gSTIvtaS4R4nAoN8P2e_o/photos/Aa-ngMavGh3R9drtl0sgHLPMZ4gZpuRSh58lb-yeoCXYXUzC7HVbp5gyq0_AifN8dNs-S5g9fLFaUNXkT5rh9tctbmAo_qkmjGJv04V4LvqXxq2SFpu-qYvuDOdLtPm_RM4wodhZD2qdVgggZAAGOo0xlYVlURr_bYy3UrOvVC5orT8ot5Y4bhX2LZZvreJkwQBTXyLvPvwCkCBZJpTPC-_4FwSuhz1viKiv2wGsYckEm5M1cNN77ul11xW-C7CvAc8FhupHwxQxeiDEx-gqRFAqiEYQFsLRQAe7mikBsGuse-ovBAyI1Abs9o5ml3GlRgpos79ayozcwcNBJBfh5BJWQmiJJmxy0Vl2TSBaB7fLuY2bZmqDSlxYYKBmjPfzapkQVjWmHLzymQaMY0KiKsUhNJABc5qYUtU",
+      "widthPx": 1440,
+      "heightPx": 1792,
+      "authorAttributions": [
+        {
+          "displayName": "Della Ayu",
+          "uri": "https://maps.google.com/maps/contrib/113879676842826795801",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCSnCrK5MRnSlGAzdMt1TM8Okq6x99ChuI9yi9IjsYRe-hBYr1=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDu0L66kwE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDu0L66kwE!2e10!4m2!3m1!1s0x2e69ed8b4c12682b:0xfa7bf6c3372870e2"
+    }
+  ]
+}

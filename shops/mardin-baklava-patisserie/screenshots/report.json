@@ -1,0 +1,284 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 8858,
+    "sizes": [
+      {
+        "el": "h1 \"MARDIN\"",
+        "fontSize": 98.7,
+        "lineHeight": "88.83px",
+        "textWidth": 284,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "span \"MARDIN\"",
+        "fontSize": 98.7,
+        "lineHeight": "88.83px",
+        "textWidth": 284,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h2#etalase-h \"ETALASE KAMI\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 180,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#kunafe-h \"KUNAFE\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 101,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#teh-h \"TEMAN MINUM TEH\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 246,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h2#manis-h \"SEBERAPA MANIS?\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 240,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h2#oleh-h \"UNTUK OLEH-OLEH & HAMPERS\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 235,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#ulasan-h \"KATA MEREKA\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 175,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h2#kunjungi-h \"KUNJUNGI KAMI\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 214,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 14,
+        "lineHeight": "16.8px",
+        "textWidth": 64,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#hubungi-h \"HUBUNGI KAMI\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 197,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "span \"MARDIN\"",
+        "fontSize": 36.5,
+        "lineHeight": "32.868px",
+        "textWidth": 105,
+        "pctOfContentWidth": 30
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 30
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 8941,
+    "sizes": [
+      {
+        "el": "h1 \"MARDIN\"",
+        "fontSize": 147.8,
+        "lineHeight": "133.056px",
+        "textWidth": 426,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "span \"MARDIN\"",
+        "fontSize": 147.8,
+        "lineHeight": "133.056px",
+        "textWidth": 426,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#etalase-h \"ETALASE KAMI\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 232,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#kunafe-h \"KUNAFE\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 130,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#teh-h \"TEMAN MINUM TEH\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 318,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#manis-h \"SEBERAPA MANIS?\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 310,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#oleh-h \"UNTUK OLEH-OLEH & HAMPERS\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 507,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "h2#ulasan-h \"KATA MEREKA\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 226,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#kunjungi-h \"KUNJUNGI KAMI\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 276,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 14,
+        "lineHeight": "16.8px",
+        "textWidth": 64,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#hubungi-h \"HUBUNGI KAMI\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 253,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "span \"MARDIN\"",
+        "fontSize": 47.1,
+        "lineHeight": "42.3936px",
+        "textWidth": 136,
+        "pctOfContentWidth": 19
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 30
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 7136,
+    "sizes": [
+      {
+        "el": "h1 \"MARDIN\"",
+        "fontSize": 235.2,
+        "lineHeight": "211.68px",
+        "textWidth": 677,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "span \"MARDIN\"",
+        "fontSize": 235.2,
+        "lineHeight": "211.68px",
+        "textWidth": 677,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h2#etalase-h \"ETALASE KAMI\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 316,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#kunafe-h \"KUNAFE\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 176,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#teh-h \"TEMAN MINUM TEH\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 432,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#manis-h \"SEBERAPA MANIS?\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 421,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#oleh-h \"UNTUK OLEH-OLEH & HAMPERS\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 412,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#ulasan-h \"KATA MEREKA\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 307,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#kunjungi-h \"KUNJUNGI KAMI\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 375,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 14,
+        "lineHeight": "16.8px",
+        "textWidth": 64,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h2#hubungi-h \"HUBUNGI KAMI\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 344,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "span \"MARDIN\"",
+        "fontSize": 64,
+        "lineHeight": "57.6px",
+        "textWidth": 184,
+        "pctOfContentWidth": 15
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 30
+  }
+}

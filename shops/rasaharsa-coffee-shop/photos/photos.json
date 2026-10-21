@@ -1,0 +1,32 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "RASAHARSA COFFEE SHOP",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "RASAHARSA COFFEE SHOP",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Aryandhito Widhi Nugroho",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Aryani Sitio",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Daniel",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

@@ -1,0 +1,699 @@
+{
+  "query": "bakeries in Matraman, Jakarta Timur",
+  "includedType": "bakery",
+  "fetched_at": "2026-10-20T16:44:48Z",
+  "count": 40,
+  "places": [
+    {
+      "id": "ChIJkWJep370aS4RSeAIdHc3gjM",
+      "formattedAddress": "Jl. Matraman Raya No.135, RW.9, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=3711590029094084681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/shintanabakery/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 452,
+      "displayName": {
+        "text": "Shintana Bakery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJj1LaIZb1aS4ROdITsuNBrjo",
+      "formattedAddress": "Jalan Kebon Kelapa No.5 1, RT.8/RW.11, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=4228389546348499513&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 122,
+      "displayName": {
+        "text": "Global Cake & Bakery Matraman",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJp1_GcfX0aS4R5x-I9XenYO4",
+      "formattedAddress": "Jl. Utan Kayu Raya No.45 B 8, RT.8/RW.5, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=17176913112453357543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.facebook.com/LotiLotiBakery",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 545,
+      "displayName": {
+        "text": "Loti-Loti Bakery & Cake",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJM0ByN1X1aS4RiAgjQAgRuaM",
+      "formattedAddress": "Batu, Jl. Pisangan Baru No.02, RT.8/RW.9, Pisangan Baru, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13110, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=11797479426007173256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 216,
+      "displayName": {
+        "text": "Laris Manis Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJc_gkBQD1aS4RQuzdiWbuFlE",
+      "formattedAddress": "Jl. Rasamala No.18, RT.3/RW.6, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=5843119690726894658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 29,
+      "displayName": {
+        "text": "It's Keitha Bakery and Pastry",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJIV5t2DP1aS4RuKXtqdl1bL8",
+      "formattedAddress": "Jl. Matraman Raya No.141, RW.9, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=13793529336448263608&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hollandbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 398,
+      "displayName": {
+        "text": "Holland Bakery Matraman Raya",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJMer0ajf1aS4RDFpLMly_VEI",
+      "formattedAddress": "Jl. Kesatrian X No.9B 9, RT.9/RW.3, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=4779655507248634380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/omarbrownies07",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 495,
+      "displayName": {
+        "text": "Omar Brownies Company",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJ-cDYuf_1aS4RmWc3Z5L80JA",
+      "formattedAddress": "Kayu manis Timur RT.04/03 No.58, RT.8/RW.4, Kayu Manis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13130, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=10435118042344548249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 15,
+      "displayName": {
+        "text": "Pramesty Cake & Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJQQ4fpHT1aS4Rf8-bTTsF62E",
+      "formattedAddress": "Jl. Wahab No.1 No.41, RT.2/RW.9, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=7055738993469280127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://oetankoffie.wixsite.com/website",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 162,
+      "displayName": {
+        "text": "Oetan Koffie",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJmQVeJ271aS4RWGbtDI-rXwk",
+      "formattedAddress": "Jl. Pisangan Baru Tengah No.19 2, RT.1/RW.12, Pisangan Baru, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=675447100014421592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.breadtalk.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 38,
+      "displayName": {
+        "text": "BREAD STORE",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJb3oiXmf1aS4ReT6g_8M6RmM",
+      "formattedAddress": "Jl. Wahab III No.24, RT.5/RW.9, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=7153469671606337145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 20,
+      "displayName": {
+        "text": "KeiJoens Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJuXEY7GT0aS4R-48Vp2IlXQY",
+      "formattedAddress": "Jl. Matraman Raya No.68 10, RT.10/RW.2, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=458563842701889531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 305,
+      "displayName": {
+        "text": "Toko Roti Tegal",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJS1TKVoj0aS4RibrBpFBG72g",
+      "formattedAddress": "Peta dian sari kue & bolu, Jl. Kramat Asem No.12, RT.9/RW.12, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=7561339611553839753&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://tokokuediansari.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 158,
+      "displayName": {
+        "text": "Toko Kue Dian Sari Utan Kayu",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJwdG-smX0aS4R8y6jQ-g7hH4",
+      "formattedAddress": "Gramedia Matraman LG, Jl. Matraman Raya No.46 50, RT.12/RW.2, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=9116477414457945843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hollandbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 91,
+      "displayName": {
+        "text": "Holland Bakery - Gramedia Matraman",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJizS2bkf1aS4RqZMACeZGNdU",
+      "formattedAddress": "Jl. Moncokerto V No.32B, RT.11/RW.13, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=15363263657651770281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 231,
+      "displayName": {
+        "text": "baCAKEko (online order only)",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJc_GgNI_0aS4RUcmEmSxjjos",
+      "formattedAddress": "Jl. Kramat Asem No.53 8, RT.8/RW.5, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=10056084061170223441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 13,
+      "displayName": {
+        "text": "Wilmas Bakery & Cake",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJnX4Femv1aS4RCT9YHjRRPQc",
+      "formattedAddress": "Jl. Kesatrian, RT.2/RW.3, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=521662416134094601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 7,
+      "displayName": {
+        "text": "Azlan cake shop",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJt10KeeL1aS4RZWUDBczHGVY",
+      "formattedAddress": "Jl. Kramat Asem No.53, RT.2/RW.6, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=6204209640750933349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 49,
+      "displayName": {
+        "text": "Mamio Donut",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJX0jYQsH1aS4Ro2gYcgCWl_U",
+      "formattedAddress": "Jl. Kayu Manis IX No.15 4, RT.1/RW.8, Kayu Manis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13130, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=17696778189434022051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 22,
+      "displayName": {
+        "text": "Roti Rosaria Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJgU11m771aS4Rtdy9frojN7E",
+      "formattedAddress": "14, Jl. Kayu Manis Timur No.38, RT.14/RW.2, Kayu Manis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13130, Indonesia",
+      "googleMapsUri": "https://maps.google.com/?cid=12769714552329591989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://bakeryobee.com/",
+      "businessStatus": "OPERATIONAL",
+      "displayName": {
+        "text": "Bakery O'Bee Raya Kayu Manis | Toko Roti Honey Butter Bun Matraman",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ-TQzpBP1aS4RQrXoX-p0Ul0",
+      "formattedAddress": "Jl. Galur Sari IX No.22 12, RT.12/RW.1, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=6724565743597827394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 40,
+      "displayName": {
+        "text": "BARIKFI Snack & Cookies",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Pastry Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "pastry_shop"
+    },
+    {
+      "id": "ChIJ26ZbXkj1aS4R4hwAsfFbymE",
+      "formattedAddress": "Jl. Kayu Manis Timur No.2, RT.6/RW.4, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13130, Indonesia",
+      "rating": 4,
+      "googleMapsUri": "https://maps.google.com/?cid=7046545660589382882&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 7,
+      "displayName": {
+        "text": "Star cake and bakery matraman",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJO-OISsf1aS4R-G6QL0oB4z4",
+      "formattedAddress": "RV48+H4P, Jl. Utan Kayu Raya, RT.7/RW.5, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=4531467068202053368&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Global Cake & Bakery Matraman 2",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJPUXxwn_zaS4RB6ByB6L8sRA",
+      "formattedAddress": "Jl. Jatinegara Timur No.109, RT.1/RW.2, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=1203020348324487175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hollandbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2446,
+      "displayName": {
+        "text": "Holland Bakery Jatinegara",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJbc1ukzz1aS4RnKGwerKrXWw",
+      "formattedAddress": "Jl. Pisangan Lama I No.41, RT.1/RW.1, Pisangan Tim., Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13230, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=7808586111981232540&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 340,
+      "displayName": {
+        "text": "Global Bakery Pisangan",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJG7CuQCDzaS4Rl8qJhPgaXwo",
+      "formattedAddress": "QRFG+MFV One Satrio, CBD, Jl. Mega Kuningan Barat, RT.5/RW.2, Kuningan, Kuningan Tim., Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=747345717844626071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/bakerman.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 748,
+      "displayName": {
+        "text": "Bakerman One Satrio",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJyTSluPf1aS4RDq9nWizik-0",
+      "formattedAddress": "Jl. Balai Pustaka Timur No.178, RT.4/RW.11, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=17119275288688570126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.dcikabakery.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 857,
+      "displayName": {
+        "text": "Dcika Cakes & Bakery Rawamangun",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJewy4YX7zaS4R_dKUxy3dfZA",
+      "formattedAddress": "Jl. Jatinegara Timur II No.29 12, RT.12/RW.2, Rw. Bunga, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13350, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=10411721102242140925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 73,
+      "displayName": {
+        "text": "Rosa Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJdSPZDxn0aS4RsQF-gtKf2qw",
+      "formattedAddress": "Jl. Sumenep No.9 11, RT.11/RW.4, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=12455443445927772593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1426,
+      "displayName": {
+        "text": "Chicory European Patisserie",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Pastry Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "pastry_shop"
+    },
+    {
+      "id": "ChIJ2bJefMT1aS4RHQFBQD3_k9I",
+      "formattedAddress": "Jalan Kebon Kelapa No.1, RT.1/RW.11, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=15173752208077422877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 19,
+      "displayName": {
+        "text": "Roti Bakar Pastry Santuy",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJV1cy3E71aS4Roh9K_RkwynM",
+      "formattedAddress": "Jl. Nanas I No.20, RT.8/RW.3, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=8343534147839074210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Brilian Cookies Cake and Pastry",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJCabDN2P0aS4Rbjpf31S4MT0",
+      "formattedAddress": "Jl. Pal Meriam No.2, RT.7/RW.10, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13140, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=4409508184836749934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/Toko_kue_sumber_mas_cemilan",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 172,
+      "displayName": {
+        "text": "Toko Kue SUMBER MAS",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Pastry Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "pastry_shop"
+    },
+    {
+      "id": "ChIJJ47HXgD1aS4Rxw_ikcP76gA",
+      "formattedAddress": "Jl. Matraman Raya No.173a, RT.7/RW.6, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+      "rating": 3.7,
+      "googleMapsUri": "https://maps.google.com/?cid=66141961934999495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 30,
+      "displayName": {
+        "text": "MAKO BAKERY & CAKE Jatinegara City Plaza",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJZaCrVaT1aS4RkcGjgILdJ4U",
+      "formattedAddress": "QVQ7+Q79, RT.8/RW.2, Pisangan Baru, Matraman, East Jakarta City, Jakarta 13110, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=9594881083709833617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "ILvan Cakes & Cookies",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJnRRTbJH1aS4RHj2LU3IPfBM",
+      "formattedAddress": "Jl. Kelapa Puan No.6A 2, RT.15/RW.12, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=1404014167535074590&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 8,
+      "displayName": {
+        "text": "TABINARA CAKE AND COOKIES",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJgcrORWD0aS4RORvKYqtDS0I",
+      "formattedAddress": "Jl. Supriyadi No.5, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=4776986233132423993&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 8,
+      "displayName": {
+        "text": "Della Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJzVI9PybzaS4RACy00-zx1wQ",
+      "formattedAddress": "Cipinang Elok II Blok AL/4 RT. 015/010, RT.15/RW.10, Cipinang Muara, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13420, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=349013495610878976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 64,
+      "displayName": {
+        "text": "Aneka Kue dan Pastry Jakarta Timur",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJgUwVWAD1aS4RUC9kLsVIvoA",
+      "formattedAddress": "Jl. Pisangan Baru Tengah 1 No.71, RT.2/RW.3, Pisangan Baru, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13110, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=9276932294153875280&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Milo's Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJbz7XfI31aS4RWlsPKcTBFGc",
+      "formattedAddress": "Jl. Asem Gede Timur No.5, RT.8/RW.5, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=7427774733687413594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 17,
+      "displayName": {
+        "text": "Temankopiteh",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJOybgwVf1aS4R4W7E6B_i7LM",
+      "formattedAddress": "Jl. Kemuning II No.8 3, RT.14/RW.4, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=12964986053969866465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Pawon Alite",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Grocery Store",
+        "languageCode": "en-US"
+      },
+      "primaryType": "grocery_store"
+    }
+  ]
+}

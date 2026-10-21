@@ -1,0 +1,377 @@
+{
+  "id": "ChIJ6T1oUBr1aS4R3Ff6TFoG3e4",
+  "types": [
+    "cafe",
+    "coffee_shop",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0813-1473-5996",
+  "internationalPhoneNumber": "+62 813-1473-5996",
+  "formattedAddress": "Arion Mall, Jl. Paus sebelah No.1, RT.1/RW.7, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=17211920335788201948&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 30
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 9:00 AM – 10:30 PM",
+      "Tuesday: 9:00 AM – 10:30 PM",
+      "Wednesday: 9:00 AM – 10:30 PM",
+      "Thursday: 9:00 AM – 10:30 PM",
+      "Friday: 9:00 AM – 10:30 PM",
+      "Saturday: 9:00 AM – 10:30 PM",
+      "Sunday: 9:00 AM – 10:30 PM"
+    ],
+    "nextOpenTime": "2026-10-21T02:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 432,
+  "displayName": {
+    "text": "Waltie's Rooftop Café",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/reviews/Ci9DQUlRQUNvZENodHljRjlvT2w5emJsbHhZM0pHYmxaYWIyVm1WbFozWm5wRk4zYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "A nice cozy place to hangout for hours in Rawamangun. I tried their soto Betawi and it’s so good😭 All the staff was so nice too, so helpful with their recommendations. I was already happy but then they handed me my bill and it was so cheap?!😭 Aku pasti balik lagi. I love it here.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "A nice cozy place to hangout for hours in Rawamangun. I tried their soto Betawi and it’s so good😭 All the staff was so nice too, so helpful with their recommendations. I was already happy but then they handed me my bill and it was so cheap?!😭 Aku pasti balik lagi. I love it here.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dyani Patricia",
+        "uri": "https://www.google.com/maps/contrib/110734570190961901716/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIAupQkOQ-iJ76wDQvsnh30HOHk1fss4mrOmizfU40knDWmyQ=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-10-13T05:53:28.148677378Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2w5emJsbHhZM0pHYmxaYWIyVm1WbFozWm5wRk4zYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2w5emJsbHhZM0pHYmxaYWIyVm1WbFozWm5wRk4zYxAB!2m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/reviews/ChZDSUhNMG9nS0VJQ0FnSUNCX0xhd0lnEAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "It's a good, nice, and cozy place to chill with yourself or  hang out with friends. The coffee is great, the food is delicious. Only one suggestion from me, maybe the management can consider a corner for Muslims praying. But the rest is good 👍",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "It's a good, nice, and cozy place to chill with yourself or  hang out with friends. The coffee is great, the food is delicious. Only one suggestion from me, maybe the management can consider a corner for Muslims praying. But the rest is good 👍",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Kemala Rachman",
+        "uri": "https://www.google.com/maps/contrib/107469234097881060364/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXR8XGEYMbUEiCDTvxTxl8G_9keFGPkqqQsc_QyPR1Hy99GwEE=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2022-12-26T05:04:13.351035Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNCX0xhd0lnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNCX0xhd0lnEAE!2m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/reviews/Ci9DQUlRQUNvZENodHljRjlvT21vd1VsWjRZemxGV2xZeFRXWlhUbkpNUWxCNWFXYxAB",
+      "relativePublishTimeDescription": "7 months ago",
+      "rating": 5,
+      "text": {
+        "text": "LOVE LOVE LOVEEEEEEEEEEE!!! enak BANGET, look at those SHINES 🤩🤩🤩🤩",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "LOVE LOVE LOVEEEEEEEEEEE!!! enak BANGET, look at those SHINES 🤩🤩🤩🤩",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Firli Rachmaditha Putri",
+        "uri": "https://www.google.com/maps/contrib/112983452785764706568/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW8XNDIvG0j7Ti6aqrWCjKdE9Ob8Ghc2nUf7Weocdm9QTnwg8w=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2026-03-17T04:45:50.142699664Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21vd1VsWjRZemxGV2xZeFRXWlhUbkpNUWxCNWFXYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21vd1VsWjRZemxGV2xZeFRXWlhUbkpNUWxCNWFXYxAB!2m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/reviews/Ci9DQUlRQUNvZENodHljRjlvT2taaFoycHRlRVI0YlU0eWJrVnJPRVJYU2tRMVIyYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "One of the best places to hang out in the area — perfect for any occasion, whether you’re catching up with friends or just unwinding after a long day. The menu offers a great variety, from comforting Indonesian favorites to delicious Western classics, so there’s always something for everyone. The atmosphere is relaxed yet lively, and the service is warm and attentive.\n\nSome negative reviews may not reflect the true experience here; it’s worth visiting and judging for yourself. Many guests, myself included, have found this spot consistently enjoyable and worth coming back to.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "One of the best places to hang out in the area — perfect for any occasion, whether you’re catching up with friends or just unwinding after a long day. The menu offers a great variety, from comforting Indonesian favorites to delicious Western classics, so there’s always something for everyone. The atmosphere is relaxed yet lively, and the service is warm and attentive.\n\nSome negative reviews may not reflect the true experience here; it’s worth visiting and judging for yourself. Many guests, myself included, have found this spot consistently enjoyable and worth coming back to.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Winda",
+        "uri": "https://www.google.com/maps/contrib/103064956657448271453/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXoQdmrYX6DxeO-BGKxNok2z4axSHLkYFam2GEkhtXfkn0agCI=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2025-10-13T05:35:44.374879949Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2taaFoycHRlRVI0YlU0eWJrVnJPRVJYU2tRMVIyYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2taaFoycHRlRVI0YlU0eWJrVnJPRVJYU2tRMVIyYxAB!2m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/reviews/Ci9DQUlRQUNvZENodHljRjlvT21KMUxVVlhVR0pRUlVwMWVYSnVUbGhxV1hRdFgyYxAB",
+      "relativePublishTimeDescription": "10 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Great atmosphere, friendly staff, and the food is like 5 stars⭐⭐⭐⭐⭐",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Great atmosphere, friendly staff, and the food is like 5 stars⭐⭐⭐⭐⭐",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Raditya Rizqan Fadhila",
+        "uri": "https://www.google.com/maps/contrib/105787772657435503689/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUUNUoAXkQsubOuvq1iQ9A6J7Y64Hy7hFva97ORhnhmIrUARKe8=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-12-24T13:12:06.046479891Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21KMUxVVlhVR0pRUlVwMWVYSnVUbGhxV1hRdFgyYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21KMUxVVlhVR0pRUlVwMWVYSnVUbGhxV1hRdFgyYxAB!2m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMaBYLQSlWr7lBlejhx1Aoj8V8SGtfk8tkmZ_TnOpTR3calDvpAKH1fN1FblQAsQF_wPW4m8HSqLYGkRkWWwOYfpXfS6-p4vt0DvZRROldWXvTn-6phVFNuM8XcxWQZq8rpDHmBxay4d2htOvNrF1-bvjfcQLLiJMcXAJBngvOdXU5SU9R2PYt1t16vu8elUZeXexKaX1-BuJbaIVgMJ_Nx-vwlD5vfK4pQYNFZmW1ypOYZv_DA18d_B_b40CIiIFLDeMS8Pto0NGf3K3CTQ2VNmWpQkBwTHLGGRZBEnDfBY0kAVdKKFHKdi-MZlMZ449hadNgRIu0t-2w5OQL-RdKFdw8xQAflR7uLh1As5DzDyUnuPD_RuDCNeFsng1fLnJWiWEzEmQYsyiisQtIXAGYNXwnAID84ywD_hf2vr022fhQ",
+      "widthPx": 1080,
+      "heightPx": 1350,
+      "authorAttributions": [
+        {
+          "displayName": "Waltie's Rooftop Café",
+          "uri": "https://maps.google.com/maps/contrib/105311761216357879276",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV-rAXht-t4C7YLJ_oOAWMUwaUUmhBwmkjGHZu-MYSyO4KwZCs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhD_KYdzwFGP6ayFNeTqJMFm&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD_KYdzwFGP6ayFNeTqJMFm!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMZmUkYa11lBXoH56EGbGMF0nXk1Fh-rGfbF4UeWYTLPkKk69HiyD9NU0SVd7iDB1sQtG6Dk3PnLbl058j9zgj1nc1QJ5-mpgb06EBXWUGBQGxFK2-ILT1NR6YQ4q-FKZWgDZC_z_VkBi0RL9Y_djNzOWwbsLPaEpwHH15QxYBz6K8vKiE7r0wv9qPM2ybG-O2rtf03Lq-bhd7GSYWCA35X-ZnnTtFbU5bhr8l4fVnuWnEyT2RE4rt3eyUuKHMGwvgUs5V090iHssmFoxNzV87KLJLLlwrXfNtcUKav34BzkqjJDFy_6cAmS1zK-7JLBBreoMmk-JF9sR-nWYftvnxn9YJ94kZWfjtcRmYyKpAtrqZdZBTEgxzI6IKlXjp4w7PiN8zhL7Ftr-D4WV-QphNnjjnqgZx_h1xORqNEw9-45Fg",
+      "widthPx": 1080,
+      "heightPx": 1350,
+      "authorAttributions": [
+        {
+          "displayName": "Waltie's Rooftop Café",
+          "uri": "https://maps.google.com/maps/contrib/105311761216357879276",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV-rAXht-t4C7YLJ_oOAWMUwaUUmhBwmkjGHZu-MYSyO4KwZCs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBklh5ZRdhvOUvlc8zAsm_3&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBklh5ZRdhvOUvlc8zAsm_3!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMbcnvhLV8SJwA8L8PK7a8mxAZO1NnEB_8zf1tSSmE5I5H5rVItCCHOmZIQzJKqq6Fo_IbOtfnXRgtRiH6K7yad18yi6Kw_UbJjyDRIzl-NVnD0fhpFqzkanpVJB0B0oQaNgiASqUZVJWscCF6iChTMv-3BaoQAtRxOajtwOycHbDGRQb34HpIBnRcspgZZ77-PpZxgMHCo0WT4t7tF1nlIjJg98NzFtCRGTHAPs6bEDk3Sl6tntJqdOCgAsgknzH9wA_a6CwSg6hUhTPfAIfUdH4BHtDozZ9hziu_6Es3kf38AoY8p3HP1Z9NxYGxWBBxIXCJSRi79Sguj-_1l_XWOyGbqh_MYq6sPzCfoR5zW-OJ_rOS8L75UvmqAn-J8lUMjjRhBqxLKT9dKxQmu3BYnscL8QWo-fCmR6ihUhL9iqIQ",
+      "widthPx": 1170,
+      "heightPx": 530,
+      "authorAttributions": [
+        {
+          "displayName": "Waltie's Rooftop Café",
+          "uri": "https://maps.google.com/maps/contrib/105311761216357879276",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV-rAXht-t4C7YLJ_oOAWMUwaUUmhBwmkjGHZu-MYSyO4KwZCs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAA19gQVSe5HNpDW2y3W5hH&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAA19gQVSe5HNpDW2y3W5hH!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMYCnoCAj-n1DAs5Oi_kcULXFP3naDxNco6mj8ClzZ7BueLrb5okpC5gp0HSJB6-wFryjeLt-SilFcrQ6ISFC_oJ7H2glg7FI5JclvHcNgNMxhpLtGi42ykVNryNqH0EXK8H4Rz4WEES-gi7d7oPXFZ2kSU7Y9g1Rbg5rRstovwQWzKDWzfrpC2xQExMdln3d-81VPH_y1rZAlPAYDiWc2YKmw2J7cEaAbpZeu9uTGFljW5ZIOkG8NCt7bHnZoQCsE1wG6O3IWHL3SLjVvNJ8srmWkT2tTJ5pagAeldA1KXjYY7YWYgIc3TW5doMzHA1_-2ZWOPca_1bq_djXgMFeGzR9pmKUF1CYzskaGXkhxS8Dv1gVVS2zW9dPY_3655CciWRbLdWT-OLyR2biIPLLhhQaNJYb_XZ6l48KkhvZaEYkw",
+      "widthPx": 4032,
+      "heightPx": 2268,
+      "authorAttributions": [
+        {
+          "displayName": "Zapir Ria",
+          "uri": "https://maps.google.com/maps/contrib/115055203076036148590",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWN3OSodiq-aVKzRMURp79KiqvA2iWIR_sCgdIp411fHkXKg8U=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAJj7mMSakDQpV_zjofN02z&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAJj7mMSakDQpV_zjofN02z!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMZ_eQWf29NKUucMU4wzkiVabqIf--QTp4DQbhBIcGunx60GWBwiysVmEbn2jB76zMUZHlVb5dCU2QdOFcaYYpbYVquNEQn-m2F0OkeBcoGIHjVwPFFWXUxPrRQsCDcwgMLnZF6Z7EomYRVLpSPShAd0Mm18TMf4Xaq_aVWV8gtJ37GkosmoPhT-9q5JvBBgpREknz4SRpOQQssZGIu9nSYDOpGNwCPtge7w-WqLPS9vZwRaFT0aU6dWe2jfU3Pj5U2BaNdamGcm_QIxxarhwdveoiyhGTnclPM8K5ug6ollfiF9VHwxj1OmTXrRknZQ8FTQsdhxmGZwIDzPh7jP2dISohpZOooXPrRkvk3j3bH2QA6l8HLPjeYkrNQGwpOYu5JTQFqCbX6WWeYIj35aiQZznuPtbjtpl_dGgutIGPuw",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Hafiza Intan Aufanada",
+          "uri": "https://maps.google.com/maps/contrib/107049052983443475602",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYBHRbtBcmtpocxvRIKNN2O5RON_mAXI6FmETAcDKPrZ6aolQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC_XGfmJfeAp9_46nsc2lnR&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC_XGfmJfeAp9_46nsc2lnR!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMavAfJR1gFYpa9bADiDtDfKQlc8nCOhifgkqJmx-t1ttSOlloOWJcJz9elOk8y6UuZE_WHCbFyCKuTlaftC-BqYQTCBUGVhUr34Cx-VduDujgSUotp-qWrsztH3SAa9q1s-l0hWZoTM5hKLOLlbaB87rcaf5LSjTqVSlsoNa7fO5GTYcAnOc3BAyRt65rbT7Qv6DYQg8uSbrcaHa4ZoAiMumLclDbm7w2cTczP2ET3y5Lm_a3xWPPUFjmV-8YnB-XA-R7FHfiQBu398T3IUOKF9JtAaJNr3yjsN-0g0yTpUAZsgDeyN7gGy129ywbguFll98u-M3pQB1X1yK8XhWxXXfKYbuE1qgvbUm9xkGB5NGQyrk4hIIjlmGVxbwKTD2u99aOnawDUjbaqq_QnZR_cxIzW6_byOsoW1wEANFo3mQA",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Joshua Octovianus",
+          "uri": "https://maps.google.com/maps/contrib/115537192610649183477",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX-0BlckhONd3ngejmdTVhJGmMyhd8IjYfEEGDnolcfrSsThs8=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC7jpDmtsRugXnQ98fqVA91&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC7jpDmtsRugXnQ98fqVA91!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMY8uugj1C0QqeJN37fG201z2jkGzu_wZVdFZq1JTyE3UomkdDq5lBzP79fvIcxTsXoDBrDWR9I303PXMQj-lPhYkUQSHvbLcscwTWcwVWrNUUEWQapuJsY95heqI5Bd5eS_QmXAh-V_W7XzAKKmprkNZ57AyrC9IqZ_j3JXrkRMeynCUhvzeKCP3oRmt2DGMAh8mIuoA2ZRz8vXoGDR5lzDLEGPX2lFGrRV8HNRsahXT33rDwT7je2bqUsc5MnArbxG2mN0MCy7_pS8alNms1OUEWifCGcS0RhB3ga9L3jJECpoNlbeS9MM0jvmUaOnpTYd8ZdmYTTn_RpESukBeYw6yTnkkDd10oFiGWJyyE4VenE4hrlvwEtIiA-8TxzaJSt0ZjeKb98yCUFzzY_pdVLBd_RMUsptCLOFBh9Z4ST9AQ",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Hafiza Intan Aufanada",
+          "uri": "https://maps.google.com/maps/contrib/107049052983443475602",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYBHRbtBcmtpocxvRIKNN2O5RON_mAXI6FmETAcDKPrZ6aolQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAPc-_bng4cmWjY6KND4MCH&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAPc-_bng4cmWjY6KND4MCH!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMbyvb50299d1v7R4EikckfS-d1C0k6crrDYj4anDw2bBZ9fghlp0f6nUCTD7AXt8O_U1jYlNijO_2qNoy5kGQtJYhIXkVcj_Tlw7swPFsoIWvhms8zMb1AhymPDZK6hTyiqbQIOHtP2lsjPYfE8XOk3goFybl6l4_iz97o1KLEeGvSSaCv_1E_qVhjSbWL5DbGlSPtnKee3PGOwUtT9rzSZLTaXTdhAhMkmotbOzBNMf-8jQU8Ndj7I-8WIfAmHawRY0yuZtuc4FDJx0cIcJqZKoswnTQP2C9r6Odj-NWX6byxLdSGR3J0lnttgV2wUmT1Xqyo8kKO8XyLkH7XsBWVKyqfaE0vWBQZ6B3h30m50zYM5lGm9QHeLvLdkTxX9VE9fnau1TwTTvjm2vEHDUxWuzcvV1UFoHv9KsdoaihdDKQ",
+      "widthPx": 3664,
+      "heightPx": 2194,
+      "authorAttributions": [
+        {
+          "displayName": "Meisra Adni",
+          "uri": "https://maps.google.com/maps/contrib/107494679906134695182",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQ3UK3hM1Ds-VsqLEGEdf-8xa0rjzRx4x57TCxlu9AysVsb5dC2g=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBd8PY-1zbXDhZK21L494IJ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBd8PY-1zbXDhZK21L494IJ!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMbZqfDryFw4MlR5mgVkAdqKYcUxEdiravlSiwsfS7DwqkMwsGVb4I94SwtPY0byV73tKsqq4K09hrFht7gofj12mon4L2QCSStdAo6y2Ya3uYxmu_Fb0JOrhev5cr7Csd8nr9m8udM8gM6sDBZoq5eq34DUb2DuqwSBVEHHG4QhA11UamsjQFLNTEutCl8yyBgc5TK_LgFoYVRNYLiZSwKuVL6spJ42oIf_mQiyTfTTdKdq90zzLenKHFsLbOdz9gaQFVmmxu3Dvz0Kq5-wGpul41bORFL_Eh_1zJjrLxGOc3rFOLroZ1xvrb4DFg733vIvPAFdlGcG7ne3K-feeeQAwBdwWG_Pq9nfs-dRa4vnRw_N0Una1hsno1wMBbcobU-d0vIQCpXDDoE0uGVVzRuZTS8zmI_TzmqUo_astc_Xpg",
+      "widthPx": 1080,
+      "heightPx": 1080,
+      "authorAttributions": [
+        {
+          "displayName": "Waltie's Rooftop Café",
+          "uri": "https://maps.google.com/maps/contrib/105311761216357879276",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV-rAXht-t4C7YLJ_oOAWMUwaUUmhBwmkjGHZu-MYSyO4KwZCs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC_DMZxOxwUyxS7ZMD0i_dG&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC_DMZxOxwUyxS7ZMD0i_dG!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    },
+    {
+      "name": "places/ChIJ6T1oUBr1aS4R3Ff6TFoG3e4/photos/Aa-ngMZ3F78OXCgBZhGER9wje1YRn9l9RCUeOnLc6nQYDmds_zZwuqcCNBcpaD2QfkXP-PqEtOAsXuuIKHzFIluiGtuHUjG_UwVrJ8LHaYDS26Z51jVQZJbN6F-4jw1WOLCrKCJKDd8_sSVnOms2EE2MmAF7tlcDUobdPh41dK1CRLTYWByXy95QJeuTvpAbr_MfR_bKl8WaZxQquZnv8-jaWnDSIgI_M1CTp20SMb-L50b-JhyWsEbCWuFEL96nJHDMkrQBUDMFq2f_giKWlHyAHB1Xog7idXns4VzBFAJdK6w2OlkqX6B0Fpi02fKbAY94iUQvoEDQFRO8SRGRQ44oG4aObP6BFoxoiSjsAR0V4dq4LmRRxyH2yym0rHuvnMbCcRDqoHARqGDEOmoz6zCEYZp-3KarXzkze69uwwRxneOZ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Keira Aldrich",
+          "uri": "https://maps.google.com/maps/contrib/103284520685357377951",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWMAHYKdeq1yeXf3NAEQZWMHQ-Emy8trEAk7F4mpfr0CiElqcRq=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBT-ZEDTvp1RdcrTd4vtCXo&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBT-ZEDTvp1RdcrTd4vtCXo!2e10!4m2!3m1!1s0x2e69f51a50683de9:0xeedd065a4cfa57dc"
+    }
+  ]
+}

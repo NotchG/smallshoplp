@@ -1,0 +1,447 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Colours and fonts become Tailwind utilities (bg-kaca, text-merdeka, font-display...). */
+@theme {
+  --color-kaca: #FBF3E6;     /* base ground: door glass over the cream wall */
+  --color-kotak: #F5D5BF;    /* the peach Merdeka box */
+  --color-kayu: #4A2713;     /* wood counter */
+  --color-merdeka: #7B3B1A;  /* the "Merdeka" script, headings on light grounds */
+  --color-pintu: #B4470F;    /* door orange: SOES · ROTI · KUE, links, focus on light */
+  --color-tinta: #24170E;    /* body text */
+  --font-display: var(--font-leckerli), cursive;
+  --font-body: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+
+  --step-display: clamp(4rem, 2.5rem + 8vw, 9.5rem);        /* 71 / 152px: "Merdeka" only */
+  --step-head: clamp(2rem, 1.5rem + 2vw, 3rem);              /* 32 / 48px: h2 */
+  --step-lead: clamp(1.375rem, 1.25rem + 0.5vw, 1.625rem);   /* 22 / 26px */
+  --step-body: clamp(1.0625rem, 1rem + 0.2vw, 1.1875rem);    /* 17 / 19px */
+  --step-small: 0.8125rem;                                   /* 13px */
+
+  --leading-display: 1;
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  --frame: 2px;                                 /* storefront frame lines */
+  --chrome: rgb(36 23 14 / 0.18);               /* chrome hairline on light grounds */
+  --chrome-on-kayu: rgb(251 243 230 / 0.25);    /* kaca hairline on wood */
+  --steel: #BFC3C6;
+  --hero-h: min(72vh, 640px);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 40px; --section-y: 112px; }
+}
+
+html { background: var(--color-kaca); color: var(--color-tinta); }
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Browser surfaces, themed from the palette. */
+::selection { background: var(--color-merdeka); color: var(--color-kaca); }
+html { caret-color: var(--color-pintu); }
+:focus-visible {
+  outline: 3px solid var(--color-pintu);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.on-kayu :focus-visible { outline-color: var(--color-kotak); }
+.skip-link:focus-visible { outline-color: var(--color-kaca); } /* over the dark banner */
+.map-frame:focus-within { outline: 3px solid var(--color-pintu); outline-offset: 3px; }
+
+@layer components {
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.35; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.4; }
+
+/* Archivo width axis */
+.wd-112 { font-stretch: 112%; }
+
+/* h2: Archivo wdth 112, wght 800, sentence case */
+.h-section {
+  font-family: var(--font-body);
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  font-stretch: 112%;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+/* h3 and group titles: lead size */
+.h-group {
+  font-size: var(--step-lead);
+  line-height: 1.25;
+  font-stretch: 112%;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+/* "Merdeka": Leckerli One's glyph box runs ~0.17em below its 1.0 line box (empty descender
+   space). The margin keeps the caps line clear of it. */
+.lockup-script { margin-bottom: 0.17em; }
+/* The door lettering: SOES · ROTI · KUE */
+.caps-door {
+  font-size: var(--step-lead);
+  line-height: 1.2;
+  font-stretch: 112%;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+.measure { max-width: 62ch; }
+p, li { text-wrap: pretty; }
+.num { font-variant-numeric: tabular-nums; }
+
+/* The peach box print: white dots, two offset layers on a 24px grid. Peach fields only. */
+.bg-kotak-dots {
+  background-color: var(--color-kotak);
+  background-image:
+    radial-gradient(circle at center, rgb(255 255 255 / 0.8) 2.5px, transparent 3px),
+    radial-gradient(circle at center, rgb(255 255 255 / 0.8) 2.5px, transparent 3px);
+  background-size: 24px 24px, 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* ---------- Hero: the shop front ---------- */
+.rail { height: 6px; background: var(--color-kayu); }
+.storefront {
+  position: relative;
+  border-inline: var(--frame) solid var(--color-kayu);
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.storefront::before {
+  /* transom bar across the panes, like the shop's upper fixed glass */
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 28px;
+  height: var(--frame);
+  background: var(--color-kayu);
+}
+.pane-window { padding: 20px 20px 40px; }
+.pane-door {
+  order: -1;
+  position: relative;
+  padding-top: 30px; /* hangs from the transom */
+  min-height: 176px;
+}
+.door-handle, .door-note { display: none; }
+@media (min-width: 1024px) {
+  .storefront {
+    grid-template-columns: 2fr 1fr;
+    min-height: var(--hero-h);
+  }
+  .storefront::before { top: 56px; }
+  .pane-window {
+    padding: 104px 48px 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pane-door {
+    order: 0;
+    border-left: var(--frame) solid var(--color-kayu);
+    padding-top: 58px;
+    min-height: 0;
+  }
+  .door-handle {
+    display: block;
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    width: 8px;
+    height: 132px;
+    border-radius: 4px;
+    background: var(--steel);
+    box-shadow: 0 2px 4px rgb(36 23 14 / 0.18);
+  }
+  .door-note {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 52px;
+    bottom: 40px;
+    max-width: calc(100% - 84px);
+    padding: 8px 14px 8px 8px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgb(36 23 14 / 0.14), 0 6px 12px -6px rgb(36 23 14 / 0.28);
+  }
+}
+
+/* The hanging sign */
+.sign-anchor {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 28px;
+}
+@media (min-width: 1024px) {
+  .sign-anchor { justify-content: center; padding-right: 0; }
+}
+.sign {
+  width: 164px;
+  transform: rotate(-1.5deg);
+  transform-origin: 50% 0;
+  will-change: auto;
+}
+.sign-hook {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-inline: auto;
+  border-radius: 50%;
+  background: var(--steel);
+  box-shadow: inset 0 -2px 0 rgb(36 23 14 / 0.2);
+  position: relative;
+  z-index: 1;
+}
+.sign-strings { display: block; width: 100%; height: 34px; margin-top: -6px; }
+.sign-card {
+  position: relative;
+  background: #fff;
+  border-radius: 6px;
+  padding: 14px 12px 13px;
+  text-align: center;
+  box-shadow: 0 8px 16px -8px rgb(36 23 14 / 0.4), 0 1px 2px rgb(36 23 14 / 0.12);
+  outline: 1.5px solid rgb(180 71 15 / 0.35);
+  outline-offset: -7px;
+}
+.sign-card::before, .sign-card::after {
+  /* eyelets where the strings tie on */
+  content: "";
+  position: absolute;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-kaca);
+  box-shadow: inset 0 0 0 1.5px var(--chrome);
+}
+.sign-card::before { left: 9px; }
+.sign-card::after { right: 9px; }
+.sign-word {
+  display: block;
+  font-size: var(--step-lead);
+  line-height: 1.15;
+  font-stretch: 112%;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  padding-left: 0.14em; /* optically centre tracked caps */
+}
+.sign-word[data-state="open"] { color: var(--color-pintu); }
+.sign-word[data-state="closed"] { color: var(--color-merdeka); }
+.sign-detail {
+  display: block;
+  margin-top: 4px;
+  font-size: var(--step-body);
+  line-height: 1.3;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+@media (min-width: 1024px) {
+  .sign { width: 220px; }
+  .sign-strings { height: 46px; }
+  .sign-card { padding: 22px 18px 20px; min-height: 140px; display: flex; flex-direction: column; justify-content: center; }
+  .sign-card::before, .sign-card::after { top: 9px; }
+  .sign-card::before { left: 11px; }
+  .sign-card::after { right: 11px; }
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 48px;
+  padding: 0.6rem 1.25rem;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  font-size: var(--step-body);
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out;
+}
+.btn:active { transform: translateY(1px); }
+.btn svg { width: 1.1em; height: 1.1em; flex: none; }
+.btn-primary { background: var(--color-merdeka); color: var(--color-kaca); }
+.btn-primary:hover { background: var(--color-kayu); }
+.btn-outline { border-color: var(--color-merdeka); color: var(--color-merdeka); }
+.btn-outline:hover { background: var(--color-merdeka); color: var(--color-kaca); }
+.on-kayu .btn-primary { background: var(--color-kotak); color: var(--color-tinta); }
+.on-kayu .btn-primary:hover { background: var(--color-kaca); }
+.on-kayu .btn-outline { border-color: var(--color-kaca); color: var(--color-kaca); }
+.on-kayu .btn-outline:hover { background: var(--color-kaca); color: var(--color-kayu); }
+
+.link {
+  color: var(--color-pintu);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.22em;
+  transition: color 150ms ease-out;
+}
+.link:hover { color: var(--color-merdeka); }
+.link-on-kotak { color: var(--color-merdeka); }
+.link-on-kotak:hover { color: var(--color-tinta); }
+.link svg { display: inline-block; width: 0.95em; height: 0.95em; vertical-align: -0.1em; margin-left: 0.25em; }
+
+/* ---------- Products ---------- */
+.product-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.product-figure > .illus { width: 100%; }
+.product-figure > .illus svg { display: block; width: 100%; height: auto; }
+.price-card {
+  position: relative;
+  margin-top: -12px; /* overlaps the bottom of its own drawing */
+  max-width: 100%;
+  background: #fff;
+  color: var(--color-tinta);
+  border-radius: 3px;
+  padding: 8px 8px 9px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgb(36 23 14 / 0.14), 0 6px 12px -6px rgb(36 23 14 / 0.28);
+}
+@media (min-width: 640px) { .price-card { padding-inline: 12px; } }
+.price-card.is-standalone { margin-top: 0; text-align: left; display: inline-block; padding-inline: 12px; }
+.price-name {
+  display: block;
+  font-size: var(--step-body);
+  font-weight: 700;
+  line-height: 1.25;
+}
+.price-line {
+  display: block;
+  margin-top: 2px;
+  font-size: var(--step-small);
+  line-height: 1.35;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-merdeka);
+}
+.shelf { height: 1px; background: var(--chrome); }
+.on-kayu .shelf { background: var(--chrome-on-kayu); }
+
+/* Reviews: a short merdeka dash, no quote marks */
+.praise-item::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--color-merdeka);
+  margin-bottom: 14px;
+}
+
+/* Hours table */
+.hours { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.hours th, .hours td { padding: 9px 12px; text-align: left; font-weight: 400; }
+.hours td { text-align: right; }
+.hours tr + tr th, .hours tr + tr td { border-top: 1px solid var(--chrome); }
+.hours tr[data-today] th, .hours tr[data-today] td { background: var(--color-kotak); font-weight: 700; }
+.hours tr[data-today] th { border-radius: 4px 0 0 4px; }
+.hours tr[data-today] td { border-radius: 0 4px 4px 0; }
+.today-tag {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 8px 2px;
+  border-radius: 999px;
+  background: var(--color-merdeka);
+  color: var(--color-kaca);
+  font-size: var(--step-small);
+  font-weight: 700;
+  line-height: 1.5;
+  vertical-align: 0.1em;
+}
+
+
+.section-close { padding-bottom: calc(var(--section-y) * 0.6); }
+.section-tail { padding-bottom: calc(var(--section-y) * 0.7); }
+.section-head { padding-top: calc(var(--section-y) * 0.7); }
+
+/* Products on a counter or shelf: every drawing in a row gets the same box height, so the
+   objects stand on one line and their cards hang at the same height. */
+.counter { align-items: start; }
+.product-figure > .illus.counter-illus {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.product-figure > .illus.counter-illus svg { height: 100%; width: auto; max-width: 100%; }
+.product-figure > .illus.counter-illus.fit-w svg { width: 100%; max-width: 280px; height: auto; max-height: 100%; }
+
+.map-frame { background: rgb(245 213 191 / 0.45); box-shadow: 0 0 0 1px var(--chrome); }
+
+.door-p {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  background: var(--color-merdeka);
+  color: var(--color-kaca);
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1;
+}
+.list-rows li { padding-block: 9px; border-bottom: 1px solid var(--chrome); }
+.list-rows li:first-child { border-top: 1px solid var(--chrome); }
+}
+
+/* Screen-reader text placed off-screen, so it never sits on top of the visible lockup. */
+.sr-offscreen { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small); line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-tinta); color: var(--color-kaca);
+}
+
+.skip-link {
+  position: absolute; left: 12px; top: 12px; z-index: 50;
+  transform: translateY(-200%);
+  background: var(--color-merdeka); color: var(--color-kaca);
+  padding: 10px 16px; border-radius: 6px; font-weight: 700;
+}
+.skip-link:focus { transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active { transform: none; }
+}

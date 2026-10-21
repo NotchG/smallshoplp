@@ -1,0 +1,32 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Mabsooth Cafe & Resto",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "Mabsooth Cafe & Resto",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "EULIS TURSIA SAFIRA",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Ammar Butt",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Ammar Butt",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

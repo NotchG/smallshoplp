@@ -1,0 +1,470 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–5.
+   Colours become Tailwind utilities (bg-fascia, text-cat, ...). Names are the shop's surfaces:
+   fascia = mustard signboard, cat = teal paint, garasi = black back room,
+   batu = white faux-stone wall, tembok = red feature wall, pinus = pine shelf. */
+@theme {
+  --color-fascia: #e3b23c;
+  --color-cat: #0a5348;
+  --color-garasi: #171614;
+  --color-batu: #f3f2ed;
+  --color-tembok: #c3312c;
+  --color-pinus: #c28a4e;
+}
+@theme inline {
+  --font-display: var(--ff-rounded), ui-rounded, system-ui, sans-serif;
+  --font-body: var(--ff-archivo), system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces. */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --grid-gap: 20px;
+
+  --step-display: clamp(3.5rem, 1.9rem + 7vw, 8.5rem); /* 58 / 131 px */
+  --step-head: clamp(2rem, 1.45rem + 2.2vw, 3.5rem);    /* 32 / 55 px */
+  --step-lead: clamp(1.3rem, 1.15rem + 0.6vw, 1.6rem);  /* 21 / 26 px */
+  --step-body: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem); /* 16 / 17 px */
+  --step-small: 0.8rem;                                  /* 12.8 px */
+
+  --leading-display: 0.9;  /* "CUSTOMS" only: nowrap, one line */
+  --leading-head: 1.05;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+
+  /* Width of "CUSTOM" + ring S in display ems; "coffee house" aligns under the ring. */
+  --mark-em: 5.18;
+  --mark-w: calc(var(--step-display) * var(--mark-em));
+
+  --awning-h: 28px;
+  --jar-h: 120px;
+
+  /* Derived tones (design brief §3), not extra colours. */
+  --cat-light: color-mix(in oklch, var(--color-cat) 45%, var(--color-batu));
+  --bean: color-mix(in oklch, var(--color-garasi) 70%, var(--color-pinus));
+  --tape: #fbfaf6;
+
+  --focus: var(--color-garasi);
+}
+@media (min-width: 768px) {
+  :root {
+    --gutter: 32px;
+    --section-y: 112px;
+    --grid-gap: 24px;
+    --awning-h: 40px;
+    --jar-h: 180px;
+  }
+}
+@media (min-width: 1024px) {
+  :root { --grid-gap: 32px; }
+}
+
+html {
+  background: var(--color-garasi);
+  color: var(--color-garasi);
+  scrollbar-color: var(--color-cat) var(--color-batu);
+}
+p, li, address { text-wrap: pretty; }
+body {
+  background: var(--color-batu);
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  caret-color: var(--color-cat);
+}
+::selection { background: var(--color-fascia); color: var(--color-garasi); }
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: calc(var(--container) + 2 * var(--gutter));
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+  .section { padding-block: var(--section-y); }
+  .section-compact { padding-block: calc(var(--section-y) * 0.6); }
+
+  .t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+  .t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+  .t-lead    { font-size: var(--step-lead);    line-height: var(--leading-lead); }
+  .t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+  .t-small   { font-size: var(--step-small);   line-height: 1.45; }
+  /* Condensed sporty label: hours, origins, prices, sticker titles. */
+  .t-label {
+    font-family: var(--font-body);
+    font-stretch: 75%;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .tnum { font-variant-numeric: tabular-nums; }
+
+  /* Section headings: rounded and lowercase, like "coffee" on the sign. */
+  .h-section {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: var(--step-head);
+    line-height: var(--leading-head);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  /* Grounds: each section stands on one of the shop's surfaces. */
+  .ground-fascia { background: var(--color-fascia); color: var(--color-garasi); --focus: var(--color-garasi); }
+  .ground-batu   { background: var(--color-batu);   color: var(--color-garasi); --focus: var(--color-garasi); }
+  .ground-garasi { background: var(--color-garasi); color: var(--color-batu);   --focus: var(--color-fascia); }
+  .ground-tembok { background: var(--color-tembok); color: var(--color-batu);   --focus: var(--color-batu); }
+
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+  .skip-link {
+    position: absolute; left: 12px; top: -200px; z-index: 50;
+    background: var(--color-garasi); color: var(--color-batu);
+    padding: 12px 18px; border-radius: 999px; font-weight: 600;
+    --focus: var(--color-fascia);
+  }
+  .skip-link:focus { top: 12px; }
+
+  .mockup-banner {
+    font-size: 13px; line-height: 1.4; text-align: center; padding: 8px 16px;
+    background: var(--color-garasi); color: var(--color-batu);
+  }
+
+  /* ---------- Wordmark: CUSTOM + ringed S, like the fascia ---------- */
+  .wordmark { font-family: var(--font-display); color: var(--color-cat); }
+  .wordmark-row {
+    display: flex; align-items: center; white-space: nowrap;
+    font-weight: 900; letter-spacing: -0.01em;
+  }
+  .wordmark-ring {
+    display: inline-flex; align-items: center; justify-content: center; flex: none;
+    width: 0.96em; height: 0.96em; margin-left: 0.03em;
+    border: 0.09em solid currentColor; border-radius: 50%;
+    transform-origin: 50% 50%;
+  }
+  .wordmark-s {
+    display: block; font-size: 0.78em; line-height: 1;
+    text-box: trim-both cap alphabetic;
+  }
+  .wordmark-sub {
+    font-family: var(--font-display); font-weight: 800; color: var(--color-cat);
+    font-size: var(--step-head); line-height: 1; letter-spacing: -0.02em;
+    width: var(--mark-w); max-width: 100%; text-align: right; margin-top: 0.18em;
+  }
+  /* Before hydration (JS on, motion allowed) the S waits off-stage; a failsafe shows it anyway. */
+  html.roll-pending .hero .wordmark-ring { visibility: hidden; animation: ring-failsafe 0s 2.5s forwards; }
+  @keyframes ring-failsafe { to { visibility: visible; } }
+
+  /* ---------- Awning: the teal corrugated sheet over the terrace ---------- */
+  .awning {
+    height: var(--awning-h);
+    background:
+      linear-gradient(180deg, rgb(255 255 255 / 0.06), rgb(255 255 255 / 0) 40%, rgb(0 0 0 / 0.28)),
+      repeating-linear-gradient(90deg,
+        var(--color-cat) 0px,
+        color-mix(in oklch, var(--color-cat) 72%, var(--color-batu)) 10px,
+        var(--cat-light) 15px,
+        color-mix(in oklch, var(--color-cat) 72%, var(--color-batu)) 19px,
+        var(--color-cat) 28px,
+        var(--color-cat) 30px);
+  }
+
+  /* ---------- Checker edge: the table top ---------- */
+  .checker {
+    height: 16px;
+    background: repeating-conic-gradient(var(--color-garasi) 0 25%, var(--color-batu) 0 50%) 0 0 / 16px 16px;
+  }
+
+  /* ---------- Hours card ---------- */
+  .hours-card {
+    background: var(--color-batu); color: var(--color-garasi);
+    border-radius: 12px; overflow: hidden;
+  }
+  .hours-card-body { padding: 14px 18px 16px; }
+  .hours-row {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+    padding: 10px 12px; border-radius: 8px;
+  }
+  .hours-row[data-today] { background: var(--color-fascia); }
+
+  /* ---------- Action buttons ---------- */
+  .btn {
+    position: relative; isolation: isolate; overflow: hidden;
+    display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+    min-height: 48px; padding: 10px 22px;
+    border: 2px solid transparent; border-radius: 999px;
+    font-family: var(--font-body); font-weight: 600; font-size: var(--step-body); line-height: 1.2;
+    text-decoration: none; white-space: nowrap;
+    transition: transform 0.15s ease-out;
+  }
+  .btn::after {
+    content: ""; position: absolute; inset: 0; z-index: -1;
+    background: currentColor; opacity: 0;
+    transition: opacity 0.18s ease-out;
+  }
+  .btn:hover::after, .btn:focus-visible::after { opacity: 0.14; }
+  .btn:active { transform: translateY(1px); }
+  .btn svg { width: 18px; height: 18px; flex: none; }
+  .btn-primary-light   { background: var(--color-garasi); color: var(--color-batu); }
+  .btn-secondary-light { border-color: var(--color-garasi); color: var(--color-garasi); }
+  .btn-primary-dark    { background: var(--color-fascia); color: var(--color-garasi); }
+  .btn-secondary-dark  { border-color: var(--color-batu); color: var(--color-batu); }
+
+  /* ---------- Shelf of bean jars ---------- */
+  .shelf {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 0; row-gap: 36px; list-style: none; padding: 0;
+  }
+  @media (min-width: 768px) {
+    .shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 48px; }
+  }
+  .shelf-cell { display: flex; flex-direction: column; align-items: center; }
+  .shelf-stand {
+    position: relative; width: 100%;
+    display: flex; align-items: flex-end; justify-content: center;
+    min-height: calc(var(--jar-h) + 16px);
+    padding-bottom: 10px;
+  }
+  .shelf-stand::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -7px; height: 17px;
+    background: linear-gradient(180deg,
+      var(--color-pinus) 0 10px,
+      rgb(23 22 20 / 0.2) 10px,
+      rgb(23 22 20 / 0) 17px);
+    pointer-events: none;
+  }
+  .jar { position: relative; height: var(--jar-h); aspect-ratio: 100 / 130; }
+  .jar svg { display: block; width: 100%; height: 100%; }
+  .jar-tape {
+    position: absolute; left: 50%; top: 49%;
+    min-width: 92%; white-space: nowrap;
+    display: flex; align-items: center; justify-content: center;
+    padding: 0.3em 0.4em; background: var(--tape); color: var(--color-garasi);
+    font-size: var(--step-body); line-height: 1;
+    box-shadow: 0 1px 2px rgb(23 22 20 / 0.18);
+    transform: translateX(-50%) rotate(-1.5deg);
+  }
+  .jar-tape-name { letter-spacing: 0.02em; }
+  .shelf-cell:nth-child(even) .jar-tape { transform: translateX(-50%) rotate(1deg); }
+  .shelf-tag {
+    margin-top: 0; padding: 6px 10px 7px;
+    background: #fff; color: var(--color-garasi);
+    border: 1px solid color-mix(in oklch, var(--color-garasi) 18%, transparent); border-top: 0;
+    border-radius: 0 0 8px 8px;
+    text-align: center; max-width: 92%;
+  }
+  .shelf-card-title { font-size: var(--step-body); }
+  @media (min-width: 768px) { .shelf-card-title { font-size: var(--step-lead); } }
+  .shelf-card {
+    width: 88%; min-height: var(--jar-h);
+    display: flex; flex-direction: column; justify-content: center; gap: 4px;
+    background: var(--color-fascia); color: var(--color-garasi);
+    border-radius: 12px; padding: 14px 14px 16px;
+  }
+
+  /* ---------- Product figures ---------- */
+  .figure-img {
+    display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
+    border-radius: 10px;
+  }
+  .price { font-stretch: 75%; font-weight: 700; color: var(--color-fascia); }
+  .art-tag {
+    position: absolute; left: 10px; top: 10px;
+    background: var(--color-batu); color: var(--color-garasi);
+    border-radius: 999px; padding: 4px 10px;
+  }
+
+  /* ---------- Menu board ---------- */
+  .inline-list { list-style: none; padding: 0; margin: 0; }
+  .inline-list li { display: inline-block; }
+  .inline-list li:not(:last-child)::after { content: "·"; margin-inline: 0.45em; color: color-mix(in oklch, var(--color-batu) 55%, transparent); }
+  .inline-price { margin-left: 8px; }
+
+  /* ---------- Feature stickers ---------- */
+  .sticker {
+    display: inline-block; padding: 7px 14px 8px;
+    background: var(--color-batu); color: var(--color-garasi);
+    border-radius: 10px; line-height: 1.1;
+    box-shadow: 0 2px 6px rgb(23 22 20 / 0.22);
+  }
+  .sticker-mustard { background: var(--color-fascia); }
+
+  /* ---------- Praise ---------- */
+  .praise-rule { display: block; width: 36px; height: 3px; border-radius: 2px; background: var(--color-cat); margin-bottom: 14px; }
+
+  /* ---------- House rule sign ---------- */
+  .house-rule {
+    display: flex; gap: 12px; align-items: flex-start;
+    background: var(--color-batu); color: var(--color-garasi);
+    border-radius: 10px; padding: 14px 16px;
+  }
+  .house-rule svg { width: 22px; height: 22px; flex: none; margin-top: 2px; color: var(--color-tembok); }
+
+  /* ---------- Map ---------- */
+  .map-frame {
+    display: block; width: 100%; aspect-ratio: 4 / 3; height: auto; border: 0;
+    border-radius: 12px; background: #2a2825;
+  }
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active { transform: none; }
+  html.roll-pending .hero .wordmark-ring { visibility: visible; }
+}
+
+/* ---------- Section layouts (design brief §7 wireframes) ---------- */
+@layer components {
+  .t-cond { font-family: var(--font-body); font-stretch: 75%; font-weight: 700; letter-spacing: 0.01em; }
+
+  /* Hero */
+  .hero { overflow-x: clip; }
+  .hero-top { padding-top: 28px; padding-bottom: 36px; }
+  .hero-grid { display: grid; }
+  .hero-mark { min-width: 0; }
+  .hero-line { margin-top: 18px; max-width: 24ch; text-wrap: balance; }
+  .hero-right { margin-top: 24px; display: flex; flex-direction: column; gap: 14px; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+  .hero-actions .btn { flex: 1 1 auto; padding-inline: 16px; }
+  .hero-photo { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+  @media (min-width: 768px) {
+    .hero-top { padding-top: 48px; padding-bottom: 56px; }
+    .hero-photo { aspect-ratio: 8 / 3; }
+    .hero-right { flex-direction: row; align-items: flex-end; gap: 20px; }
+    .hero-right .hours-card { flex: 1 1 0; }
+    .hero-actions { flex-direction: column; flex-wrap: nowrap; }
+  }
+  @media (min-width: 1024px) {
+    .hero-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); }
+    .hero-mark { grid-column: 1 / -1; }
+    .hero-left { grid-column: 1 / span 7; }
+    .hero-right { grid-column: 8 / span 5; margin-top: 6px; flex-direction: column; align-items: stretch; gap: 16px; }
+    .hero-right .hours-card { flex: none; }
+    .hero-actions { flex-direction: row; }
+    .hero-actions .btn { padding-inline: 22px; }
+  }
+
+  /* Shared section head: heading left, intro right from 768 */
+  .section-head { display: grid; gap: 12px; margin-bottom: 40px; }
+  .section-intro { max-width: 30ch; }
+  @media (min-width: 768px) {
+    .section-head {
+      grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap);
+      align-items: end; margin-bottom: 64px;
+    }
+    .section-head > :first-child { grid-column: 1 / span 6; }
+    .section-head > :last-child { grid-column: 8 / span 5; }
+  }
+
+  /* Menu */
+  .section-intro-dark { margin-top: 12px; max-width: 28ch; color: color-mix(in oklch, var(--color-batu) 86%, transparent); }
+  .menu-grid { display: grid; gap: 32px; }
+  .menu-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  .product-caption { margin-top: 14px; display: grid; gap: 4px; }
+  .product-title { font-family: var(--font-display); font-weight: 800; line-height: 1.2; color: var(--color-batu); text-wrap: balance; }
+  .product-title-sm { font-size: var(--step-body); }
+  .price-sep { margin: 0 8px 0 0; color: color-mix(in oklch, var(--color-batu) 55%, transparent); font-weight: 400; }
+  .product-desc-sm { color: color-mix(in oklch, var(--color-batu) 84%, transparent); }
+  .menu-board {
+    margin-top: 48px; padding-top: 28px; display: grid; gap: 24px;
+    border-top: 1px solid color-mix(in oklch, var(--color-batu) 22%, transparent);
+  }
+  .menu-group h3 { margin-bottom: 8px; }
+  .menu-note { color: color-mix(in oklch, var(--color-batu) 72%, transparent); }
+  @media (min-width: 768px) {
+    .menu-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); row-gap: 40px; align-items: start; }
+    .menu-lead { grid-column: 1 / span 6; grid-row: 1 / span 2; }
+    .menu-head { grid-column: 7 / span 6; grid-row: 1; padding-top: 4px; }
+    .menu-pair { grid-column: 7 / span 6; grid-row: 2; align-self: end; gap: var(--grid-gap); }
+  }
+  @media (min-width: 1024px) {
+    .menu-grid { grid-template-rows: auto 1fr; }
+    .menu-lead { grid-column: 1 / span 5; }
+    .menu-head { grid-column: 6 / span 7; padding-left: clamp(0px, 2vw, 24px); }
+    .menu-pair { grid-column: 6 / span 7; padding-left: clamp(0px, 2vw, 24px); }
+    .menu-board { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); margin-top: 72px; }
+    .menu-group-narrow { grid-column: 1 / span 4; }
+    .menu-group-wide { grid-column: 5 / span 8; }
+    .menu-note { grid-column: 1 / -1; }
+  }
+
+  /* Tempat nongkrong */
+  .hangout-grid { display: grid; gap: 32px; }
+  .hangout-photo img {
+    display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
+    object-position: 50% 40%; border-radius: 10px;
+  }
+  .hangout-lead { margin-top: 14px; max-width: 36ch; }
+  .features { list-style: none; padding: 0; margin-top: 36px; display: grid; gap: 28px; }
+  .feature { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+  .feature-line { max-width: 34ch; }
+  .feature-cta { margin-top: 2px; min-height: 44px; padding: 8px 18px; }
+  @media (min-width: 768px) {
+    .hangout-photo img { aspect-ratio: 16 / 9; }
+    .features { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; row-gap: 32px; }
+  }
+  @media (min-width: 1024px) {
+    .hangout-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); align-items: stretch; }
+    .hangout-photo { grid-column: 1 / span 5; position: relative; min-height: 480px; }
+    .hangout-photo img { position: absolute; inset: 0; height: 100%; aspect-ratio: auto; object-position: 12% 50%; }
+    .hangout-body { grid-column: 6 / span 7; padding-left: clamp(0px, 3vw, 40px); }
+  }
+
+  /* Kata mereka */
+  .praise-grid { display: grid; gap: 28px; }
+  .praise-list { list-style: none; padding: 0; display: grid; gap: 28px; }
+  .praise-text { font-weight: 500; text-wrap: pretty; max-width: 28ch; }
+  .praise-source { color: color-mix(in oklch, var(--color-garasi) 78%, transparent); }
+  @media (min-width: 768px) {
+    .praise-list { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--grid-gap); row-gap: 36px; }
+  }
+  @media (min-width: 1024px) {
+    .praise-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-rows: auto 1fr; column-gap: var(--grid-gap); row-gap: 14px; }
+    .praise-head { grid-column: 1 / span 4; grid-row: 1; }
+    .praise-source { grid-column: 1 / span 4; grid-row: 2; align-self: start; max-width: 30ch; }
+    .praise-list { grid-column: 5 / span 8; grid-row: 1 / span 2; }
+  }
+
+  /* Kunjungi kami */
+  .visit-grid { display: grid; gap: 28px; }
+  .visit-info { display: flex; flex-direction: column; gap: 24px; }
+  .visit-info .hours-card { max-width: 480px; }
+  .visit-address { color: color-mix(in oklch, var(--color-batu) 92%, transparent); }
+  .visit-rule { max-width: 480px; }
+  @media (min-width: 1024px) {
+    .visit-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); row-gap: 24px; }
+    .visit-info { grid-column: 1 / span 5; grid-row: 1; }
+    .visit-rule { grid-column: 1 / span 5; grid-row: 2; align-self: end; }
+    .visit-map { grid-column: 6 / span 7; grid-row: 1 / span 2; }
+  }
+
+  /* Footer */
+  .footer-inner { padding-top: var(--section-y); padding-bottom: 40px; }
+  .footer-top { display: grid; gap: 24px; }
+  .footer-line { margin-top: 12px; max-width: 32ch; }
+  .footer-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  @media (max-width: 639px) { .footer-actions .btn { flex: 1 1 100%; } }
+  .footer-bottom {
+    margin-top: 48px; padding-top: 24px; display: flex; flex-direction: column; gap: 12px;
+    border-top: 1px solid color-mix(in oklch, var(--color-garasi) 25%, transparent);
+  }
+  .footer-meta { color: color-mix(in oklch, var(--color-garasi) 88%, transparent); }
+  @media (min-width: 1024px) {
+    .footer-bottom { flex-direction: row; justify-content: space-between; align-items: center; gap: 32px; }
+    .footer-meta { text-align: right; }
+  }
+  @media (min-width: 1024px) {
+    .footer-top { grid-template-columns: minmax(0, 1fr) auto; align-items: end; column-gap: 48px; }
+  }
+}

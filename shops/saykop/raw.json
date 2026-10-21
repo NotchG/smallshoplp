@@ -1,0 +1,377 @@
+{
+  "id": "ChIJtQmhjRf1aS4RRi1NEU73WBY",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0821-6485-3355",
+  "internationalPhoneNumber": "+62 821-6485-3355",
+  "formattedAddress": "Jl. Bangunan Timur No.13B, RT.1/RW.3, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+  "rating": 4.8,
+  "googleMapsUri": "https://maps.google.com/?cid=1610308781454732614&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 13,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 11,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 30
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 11:00 AM – 10:30 PM",
+      "Tuesday: 11:00 AM – 10:30 PM",
+      "Wednesday: 11:00 AM – 10:30 PM",
+      "Thursday: 11:00 AM – 10:30 PM",
+      "Friday: 1:00 – 10:30 PM",
+      "Saturday: 11:00 AM – 10:30 PM",
+      "Sunday: 11:00 AM – 10:30 PM"
+    ],
+    "nextOpenTime": "2026-10-21T04:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 1034,
+  "displayName": {
+    "text": "SAYKOP ( Saya Kopi )",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s0MlNWWkxUVXRvZDBKc01qUkdjM1J2WjNVdGRtYxAB",
+      "relativePublishTimeDescription": "4 months ago",
+      "rating": 5,
+      "text": {
+        "text": "A cafe you can call “safe space”. Definisi a perfect spot untuk wfc! I have visited this place quite sometimes sebelum renov dan sesudah renov, and I can tell this place is awesome! Musik yang ga ganggu, harga relatively murah dan enak, banyak colokan, staf yang ramah, dan comfy..\n\n1️⃣ Here are my orders:\n- Karage Salted Egg: definitely high above the standard. Gak kering, saus banyak, telur asin kerasa, perfect portion for one person. But is it the best salted egg? I fear not, tapi 100% recommended. (9/10)\n\n- Black Lemonade: A good balance between bitterness and tanginess. But I prefer a stronger coffee, but if you can’t tolerate strong/bitter coffee, you should try this one! It’s like an elevated version of cough syrup (in the best way possible) (8/10)\n\n- Axelle: What a taste! It’s like a berry americano (but the berry wasn’t too strong, it’s just a subtle taste) but infused with a floral sensation.. Delightful!! BESTT! (10/10)\n\n- Dirty Latte: for that price, enak sihh!! tapi creamnya terlalu manis (preferensiku) (8/10)\n\n2️⃣ Service\nSemua stafnya ramah and they really appreciate all critiques and feedback.. Jam malem, stafnya nanya per meja about their fnb and service! So nice!\n\n3️⃣ Ambiance\nLike I said before, it’s comfy, you can sit for more than 7 hours,, cocok!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "A cafe you can call “safe space”. Definisi a perfect spot untuk wfc! I have visited this place quite sometimes sebelum renov dan sesudah renov, and I can tell this place is awesome! Musik yang ga ganggu, harga relatively murah dan enak, banyak colokan, staf yang ramah, dan comfy..\n\n1️⃣ Here are my orders:\n- Karage Salted Egg: definitely high above the standard. Gak kering, saus banyak, telur asin kerasa, perfect portion for one person. But is it the best salted egg? I fear not, tapi 100% recommended. (9/10)\n\n- Black Lemonade: A good balance between bitterness and tanginess. But I prefer a stronger coffee, but if you can’t tolerate strong/bitter coffee, you should try this one! It’s like an elevated version of cough syrup (in the best way possible) (8/10)\n\n- Axelle: What a taste! It’s like a berry americano (but the berry wasn’t too strong, it’s just a subtle taste) but infused with a floral sensation.. Delightful!! BESTT! (10/10)\n\n- Dirty Latte: for that price, enak sihh!! tapi creamnya terlalu manis (preferensiku) (8/10)\n\n2️⃣ Service\nSemua stafnya ramah and they really appreciate all critiques and feedback.. Jam malem, stafnya nanya per meja about their fnb and service! So nice!\n\n3️⃣ Ambiance\nLike I said before, it’s comfy, you can sit for more than 7 hours,, cocok!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Agnes Alexandra",
+        "uri": "https://www.google.com/maps/contrib/111173363355192466826/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWvwftJNGhToCz97Lggrgqtd1z6COL5ohGC0m0iihKCPqJybyg=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-06-09T16:23:24.478187133Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s0MlNWWkxUVXRvZDBKc01qUkdjM1J2WjNVdGRtYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s0MlNWWkxUVXRvZDBKc01qUkdjM1J2WjNVdGRtYxAB!2m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pCbVJUSnVUekZaU25Kd00xWkVSWHBuZDBwSU1XYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "This coffee shop has indoor and semi-outdoor areas that are comfortable, whether hot or cold, although not very spacious. The coffee is very good, and the food is too. It's a great coffee shop.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "This coffee shop has indoor and semi-outdoor areas that are comfortable, whether hot or cold, although not very spacious. The coffee is very good, and the food is too. It's a great coffee shop.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Nitnot",
+        "uri": "https://www.google.com/maps/contrib/112018819061319744767/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXHevT5SvVOZwrSgw0wvAa2AI6kbJDfa_9AezrPB394bxzlAws=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2025-09-13T12:59:22.821376348Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pCbVJUSnVUekZaU25Kd00xWkVSWHBuZDBwSU1XYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pCbVJUSnVUekZaU25Kd00xWkVSWHBuZDBwSU1XYxAB!2m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/reviews/ChRDSUhNMG9nS0VJQ0FnSUNUcU9GSRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "The foods and drinks are top notch! The staff super duper friendly. Ambience is good, there is parking area for car and motorcycle.\n\nPs: on the photo are Elma and chicken steak with mushroom sauce.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The foods and drinks are top notch! The staff super duper friendly. Ambience is good, there is parking area for car and motorcycle.\n\nPs: on the photo are Elma and chicken steak with mushroom sauce.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Brian Ferliano",
+        "uri": "https://www.google.com/maps/contrib/104641786217041303759/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQhIfao8XAJ7qDk8PqqQOzl-uPTT1BliWcLufG-bpHY9l7qld1tg=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2024-05-10T12:59:59.721488Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChRDSUhNMG9nS0VJQ0FnSUNUcU9GSRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChRDSUhNMG9nS0VJQ0FnSUNUcU9GSRAB!2m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/reviews/ChdDSUhNMG9nS0VJQ0FnSURGbS02X25BRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 4,
+      "text": {
+        "text": "I admire the creativity for beverages, compare to their competitors nearby.\nWe ordered :\n- Lembayung 5/5\n- Iced Red Velvet 5/5\n- Mariani (If I'm not mistaken, The purple drink with lemongrass) 5/5\n\nAmbience 4/5 (common to industrial trends nowadays)\nService 4/5 (a bit long waiting time)\n\nUpdate march 2024 : I omit one star from previous 5 star, I came twice on sunday n next sunday but apparently they were closed. Inconsistent about openig hour.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I admire the creativity for beverages, compare to their competitors nearby.\nWe ordered :\n- Lembayung 5/5\n- Iced Red Velvet 5/5\n- Mariani (If I'm not mistaken, The purple drink with lemongrass) 5/5\n\nAmbience 4/5 (common to industrial trends nowadays)\nService 4/5 (a bit long waiting time)\n\nUpdate march 2024 : I omit one star from previous 5 star, I came twice on sunday n next sunday but apparently they were closed. Inconsistent about openig hour.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Jeanne Palilu",
+        "uri": "https://www.google.com/maps/contrib/109353354788902084262/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIBBmbcIq5vw-rHzAhbAaaKML7K5IeW2ZMujy6De-eGqyMJzA=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2024-03-05T02:56:10.050487Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURGbS02X25BRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURGbS02X25BRRAB!2m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/reviews/ChZDSUhNMG9nS0VJQ0FnSUNxNExuZlNBEAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Recommended place for work. Got good experience when I work at this place. My favorite and recommended beverages (non coffee) is Mango Yakult. If you looking for new form of coffee, just try Misty. Sweet creamy in first layer and then you can taste the arabica coffee with mint syrup. Love the churos too",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Recommended place for work. Got good experience when I work at this place. My favorite and recommended beverages (non coffee) is Mango Yakult. If you looking for new form of coffee, just try Misty. Sweet creamy in first layer and then you can taste the arabica coffee with mint syrup. Love the churos too",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Kristoforus",
+        "uri": "https://www.google.com/maps/contrib/110960935882737922423/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUsOeEGeUtDTPpaNQMAOKgmHFuP2fhnJyCNXghP8Y2sME-l4XA=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2021-06-13T02:28:39.036265Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNxNExuZlNBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNxNExuZlNBEAE!2m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMasH3NbwR_VADrxNHdjfF-0Nrk6mLDaUN9ERYEm5nHnzqJqxoC0wBtmPdiqSy1EuLNWpGDdBgvwpAmxjCZXYeBK6kk036jmECYRoewFQY0yrHT5PByrm-_TVmN9VfyMSjWo4X-LPH9JH0Z1d9_pq_vaue22472jUj-1IlAa6muffyf39uBU8WkVJx_DqaidTxZquxOSsO8kzKiNJwWeEuGgnyPLKv4W0dBKzpOffj38LB-RwoGGWXMxHx6RpQXTrGwRivmHMish_0SitG4Rs1GcTneYyRAk2e2aVaSDiDYSY_LbFI7Z6Mg1yxlChed_J_x9vEQgE5nhvsliio4O5bvHgQpObIi-Ih3vOzzNf8-Thobk-uTOz1n5aicCP0Z7gwVcdcdVn9bihKbK-nyR9OQiX4eW",
+      "widthPx": 2268,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "SAYKOP - SAYA Kopi",
+          "uri": "https://maps.google.com/maps/contrib/113519254138758306943",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUf494cCPSAewq6mdrQgUf5512Fn0ypfXNkF156lLa3siDXfJ3A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID58ai_pgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID58ai_pgE!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMbKtQsLPWYWD8aVVVa55-j5vdrHpIYOa6M5F5yAYd2qd9-8VQr6yg4OEQ3fAbHuD8b8gLvYE2fTvANFK8GjTxylJ7fdWs7swl3n17PxYEUoNDGS1vi2KhlgVjjm7oYag46w1oVxlLJ8jK6qUyT-DKdZr-Q6d1q1_VUOLI9SDIr25vom4Jhnnkh7oTuMGbxE5kXFauYDY4RSKCFP3RZjfwcRj00TE9L-h2S859W0eHW0xRVEITRii3aWDO3z_6Az9bT8UqcTeqbF45LCHt4lQKD4rB2kxQPrYIVZqz6sN2Z6TON9wmgMtVebJ6y3t5Q-rsXB4q0Cb4jzafWm_9-okTFntW-e9bQsGZelOM5Xs0EGEUR7B1Ce8YlArG3rzYgc8lNLnv2uiqmNvTloUmvg98jdq2I9",
+      "widthPx": 1200,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "SAYKOP - SAYA Kopi",
+          "uri": "https://maps.google.com/maps/contrib/113519254138758306943",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUf494cCPSAewq6mdrQgUf5512Fn0ypfXNkF156lLa3siDXfJ3A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDp_Zn5pgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDp_Zn5pgE!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMZqiMHkUljgNrYzw7n0KHcYJw5jkSLsyaU_zs9mwyOQsdnWYn0q7kxInqrgL7NXxM6CfzY2X4MevP6alMhapTf8rh0iGmmNfQLr7KD2gee7ayWq8PrkJRrU8I78fLLonqDwlO9UKRwIS7gLNdpq8ehBTF7MoXxd8A9ezLM816rUTYDkLpkLHpU_MsDexvpljJFx1-W3tFMN0GQ2owdskHCDay01ztk4Vlnw-Z9xowH-SQK06U2UJtSXy9TZ6-57oOd83EuktlFc7mThicCgopzxwSK_PM0X-m5pk0qSpaVx8IwpuevrjV-APWErkmyAMjzSB2O5MxsJe9FmFgy9Vt2Zuc2ROTdUPwBETVD0CYBGarJ2V_8xcE6qjeE9EAZGv0RDXxZ9OER7SV4s_2-jrbLKG7znIGWGfAmnuke5jzFP7A",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "lastri sela samira",
+          "uri": "https://maps.google.com/maps/contrib/104588914815980117574",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU6QvI9106BQWKlxwPLoDPL5BUU7JqMRWUIM-3PhhRruAD8NVg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhA_aEFQm8DP4Nl0HGZ-LVHl&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhA_aEFQm8DP4Nl0HGZ-LVHl!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMYGUqTn4JDEyYYciIJNza_G9MLkQ56DxNIwoquIMeZ39qtcThkZvfVQfeDfg1bxO-W1fskX1eRE69OyT3vKOXjsFQfqlLOexGjNDkpfHHqHcIo8FEjoMSwWmR_IbbjMcNefbQf-ym4-CeHXI9ov6wSHEtoVbWekhgVQ6NoQRDtW9qoitMVZOcKnOnHPJni_yZtWNgPl4oj_Jn5Zu5PssFgIO_F_BzgOPo6sEcxPhb_HdgqPo2modH_geIkGD4qyN_oFgKn_1A99O1SvnjWWfQDdTf40ezmGT2Xe7y3vvaSFSd6aPHaggczKmzV6NJUuSlohgD3Uq53N7gKPM2hUT0wZbLt-dfyJKSfBDgGAPQnwS6gYRpU8zyDZ8p9PVsmomLvv60favFEavB9tn33yhNfSBL_Ib3rUHsdw5Gfr4yj5",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Reina Nurfadhilah",
+          "uri": "https://maps.google.com/maps/contrib/106741389229647037734",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWJNNQKaUMeKWRMdHatzRGoyAWqYDWEZtsFKClSnXk-G8DRcxrJ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCEHT5KkuSDo8A6g2A6W4ph&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCEHT5KkuSDo8A6g2A6W4ph!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMZvWPIXkxEvOpmvEZ4OsZWADzWHaRzzZ43WDVLzD6A2ip0hfWe-wdsBw1qabBEG26qBBA48v6HF5epgye7osKCH1Zt7SRxYRiyIvlv-Jf3CGtcP8naYkrqszJkTjoN_6NErzNJCoJjJsA4YufT0kN8Mu69Myih60z32l21sqHbnJELa1VwTo_8pfk_SQSsd_EavEVymzQS1OR3MmHnSsjhClaWM9w1-F5kiQhKlxJPjQFrMIlR10djy7Cga4RbCq401Kf-x1gSpdwhvSXJUqOHy0a0nYEIu1C0bflF0sQbCNrur3r4LKOAVEfsr2o3dQyswaiT35sv_SMx941lnTBEkDEw0BMuiJWmEENTU8ffna0frCtfkPtk0oeNe0NeakjvtrH-1q8UoSaC29c278Nfb1Do-PM8i57Cz1a63mx-aMA",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Rendi Sumbari",
+          "uri": "https://maps.google.com/maps/contrib/116014949563742478864",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIeXM0w7TIN3eOiX2l_-eZZ5V_fkpfTyKY6M-OmvF585pYa=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBXXAwP1E83WN2zsNKAkpO1&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBXXAwP1E83WN2zsNKAkpO1!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMZxtRVwptl1yAx0OWluvbg5sfrhRAd-z-6zsHYADfuHsU4gcFQ7IrKnHZonmUSZaYscoa7AFi4KTqt2Nd5uq9LfLREzzAlNo2kqcjgoMXSv_JL40DqolDvROUA9UDngIFvwKDdIDqUK6aKy6Rfu-P0pcloUqxdnVCdTSDDE42x-5McZLJGDhzRTbmHt5JqrDoCSSPFjnHcerUQ8whQh6VdILS3K8qlUSpXaUEEr2vH_tgAFVNBmvuje4p_MxIAt3Rc3Ps6H9SHXUL7MoKpCk8Bgk_GmdxPr4BLsPZCdl0smRGraWPfQsTNtCSAvDngBcSRoQadAPg8RzYoVgAHEtQ6c--2bYPmhFGtozsnGvXV83OCOLy7wePcb8p-sl1aWRsgtovUErYqxteRuHcSxkJ8cm_pmp72PQQ-Ur1y5x-cL0g",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Reina Nurfadhilah",
+          "uri": "https://maps.google.com/maps/contrib/106741389229647037734",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWJNNQKaUMeKWRMdHatzRGoyAWqYDWEZtsFKClSnXk-G8DRcxrJ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhClPBugY_WQVuUBWpi9RMg5&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhClPBugY_WQVuUBWpi9RMg5!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMafj6nOeQAKM9I5A--ANHy45eghtgtM90KV7UcqooS0G2aBWPo9EHlCBxI_UTRaPnzNBSrQ8iLUmACz1H_5Vu3gx8lkZRe0zO92JCYGvHNZUaydoEPNlWMs-4tyuriHfhlGX1tAYkCTvQdbNwAgO4XL_2_OK0MhKzVMQ0hFQhk4m_EXD2i-tpUp8O4vwKbvUkM1wm7Qtq0eTbQbCIs_DatehFzx1e7ZSxkDL08bwFq0VWH4riBvHAf4Z0zdHE_PKPDjlRA32vZ_nOQOYAWkypKFx-Hp3fwLGTtyClBj_2VwiCa59CKly1QRkDyGOrw2tL8awGZjj7qezG7I9u9BhNulaOuEN_lP-SRIwomh_QSpdCyDqOMw-N4mVU7LJYN72-aPuHIqp6EdmiCqWDmuw2lwUrLA9wAP5p13fPfnU24Ykw",
+      "widthPx": 4096,
+      "heightPx": 2304,
+      "authorAttributions": [
+        {
+          "displayName": "Hendry Tham",
+          "uri": "https://maps.google.com/maps/contrib/108423525763858631102",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUnCYRHqEygrjc-6xQNUGBYxv1J9K3NIRxnWSGnuSssAQqX1BQ0=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDQkXNIka41Rg68wjkmXQWR&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDQkXNIka41Rg68wjkmXQWR!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMaftAnUamlC2Jgam5_8p81ylUvGpLWX3UazIB0VaPLe2E7p3YSzPaN1bSvKgAIAKcarKbzqGSF-6TxAwMbOMC_qfKO7uhmTWoardwigrmP49p4BJWMHRYbP2xXkTT6ZoiEonNx40QOoWCDPvOwfQO3MW1A3fOhbiwNodTUeS3jjKLzJoy-6aqjGvp14rVZDb-iIaWkBDaAAGAk2onmkvOlQu-5Ud8rGT06U9L_hJIEg_a-Hq_zSz4CHQUYI9pizUL5bqM7STO1j2IBCVRKEt1YFqDFmHojMALnmCL20HrETIEmnUIWL-K_tOvJpDG7Rjx1swXudpI02rHtiMnuA1o0tfTJDG_AOwiqozC1rjwsmqZ55cn3PzANXj9UoCTD9SBJqWWdFtb3AhgYf5PnBSXzU87Sgnm9QrYsK5Jsk9cpF3g",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Crystal Vc",
+          "uri": "https://maps.google.com/maps/contrib/112242883387273781094",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJIXCXj1gezBIqfp_InKbkdr3q9VFMGBOBGfHClF4oBePSxKA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBNIvjjqngsmA2qq20qD9bn&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBNIvjjqngsmA2qq20qD9bn!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMZjwedHGbptY-9HLr7gUIaG6wusaocjGZZPJUS91MZ8earO-pzW7BtTKSLR8bTIfJm7bLYV7aOOG2JzGPKZvDzB0k7gc-oMj7LSMq0mEV5Fgz1R2SqEK_jsg6US0-hE9om6AC2yKcoSPzcaenRQnkhnvamrSlIo5bXDG6XcB_DXyzjKm8hgFtYdB4Ga6jXX4jUEY-kgN-Uf4QHO7OO3j1uXU4hU6ouf4fVrUTa9eiRGLCi3ctv9xc5pYdl7nXqlvGPeLsWDd0vvj6gDhuMij1S1jo3AZ6FVlFKnekn4JpkrvRmWiOZfVihVurKBjuwc6IbKL1ipy_JJnJ2D35z_lF3OUJYdNtVbnvbjTnogk8GPdws60Xx1jKt2zs0kpRhbjW_JjVP4N4jmcCo1jNfFisLPvVI",
+      "widthPx": 3767,
+      "heightPx": 2825,
+      "authorAttributions": [
+        {
+          "displayName": "Imam",
+          "uri": "https://maps.google.com/maps/contrib/105735934770700540400",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUpcbEmwaQWrJJxqYcJM1wUnP5e3qni8Iqw1OmXWO3ZKNdai8cIUg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDN0KWdBQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDN0KWdBQ!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    },
+    {
+      "name": "places/ChIJtQmhjRf1aS4RRi1NEU73WBY/photos/Aa-ngMaiQe323vR7IFH6uRkuG6vXzRhESTdlsFaU5LuMZ-9ibG3Vl5GkvJFKEudXNTS_sQlizMWdFEz8-_mSp_VPzxRk3iRvN1e6yafo95bwu22TYE9Kl-eL5TN7hrw3QL5slh9hKRPBrqoV2MyMukqrhMaIdhIBMw3uc0UEYq-hrASL5GvorjXqRB38fs446waqNle1o0Qzb9uEhWzlhZ9PaAjqv1MZj_zu6CmySJppwABmQ5FQfSaxldDSOY65wRpwrxQeMUc14SsOYy6uIKNdQSeaYinZIhhkS5Wj93LzOl0pjU4AkHtDbFmsof6ym9PWRo3edPeWD3AMHVpFcZjyYYlhj8qhrGhdzkLlOAQvh_2W0mInrmhP5atvm1USEJdRTSM5hypTof5e0WAMYtr2o1JUv_4z9mYP3yMS7e1naqIpdg",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Crystal Vc",
+          "uri": "https://maps.google.com/maps/contrib/112242883387273781094",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJIXCXj1gezBIqfp_InKbkdr3q9VFMGBOBGfHClF4oBePSxKA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDgj5TkZ1fTO4XUBhHKbrhI&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDgj5TkZ1fTO4XUBhHKbrhI!2e10!4m2!3m1!1s0x2e69f5178da109b5:0x1658f74e114d2d46"
+    }
+  ]
+}

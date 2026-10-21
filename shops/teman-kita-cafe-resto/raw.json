@@ -1,0 +1,376 @@
+{
+  "id": "ChIJExQ7NI_0aS4R5FlBnGjqEjU",
+  "types": [
+    "cafe",
+    "indonesian_restaurant",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0878-8070-4666",
+  "internationalPhoneNumber": "+62 878-8070-4666",
+  "formattedAddress": "Jl. Kramat Asem No.06, RT.2/RW.6, Utan Kayu Sel., Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+  "rating": 4.5,
+  "googleMapsUri": "https://maps.google.com/?cid=3824376768609999332&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 12,
+          "minute": 30
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 10:00 AM – 10:00 PM",
+      "Tuesday: 10:00 AM – 10:00 PM",
+      "Wednesday: 10:00 AM – 10:00 PM",
+      "Thursday: 10:00 AM – 10:00 PM",
+      "Friday: 12:30 – 10:00 PM",
+      "Saturday: 10:00 AM – 10:00 PM",
+      "Sunday: 10:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T03:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 785,
+  "displayName": {
+    "text": "Teman Kita Cafe & Resto",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/reviews/ChZDSUhNMG9nS0VJQ0FnSUNPb2Etb093EAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 4,
+      "text": {
+        "text": "It has been a long time since I haven't visited this neighborhood. It turned out that there's a cafe and restaurant here. Good place to hang out with family and friends or just to have a me time. Quite a cozy place with good food and beverages. They have a lot of variations for food, beverages and also snacks (light meals) to be enjoyed with your coffee.\nPrice: $$-$$$ (affordable)\nComfort: 4/5\nHospitality: 4/5\nMenu options: 4.5/5\nTaste: 3.5/5 (some beverages wasn't good enough).",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "It has been a long time since I haven't visited this neighborhood. It turned out that there's a cafe and restaurant here. Good place to hang out with family and friends or just to have a me time. Quite a cozy place with good food and beverages. They have a lot of variations for food, beverages and also snacks (light meals) to be enjoyed with your coffee.\nPrice: $$-$$$ (affordable)\nComfort: 4/5\nHospitality: 4/5\nMenu options: 4.5/5\nTaste: 3.5/5 (some beverages wasn't good enough).",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Steven G. P. Kesuma",
+        "uri": "https://www.google.com/maps/contrib/114401025353192298771/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUY5a7UBnaGquMuR-GY-GWQlDcYfzL8X-juIpC7Rq-MmSkJhWgE_g=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2022-06-12T04:29:17.584560Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNPb2Etb093EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNPb2Etb093EAE!2m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/reviews/ChZDSUhNMG9nS0VJQ0FnSUM2cmFtUkN3EAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 3,
+      "text": {
+        "text": "Hidden coffee shop, they provide various  beverages & food, even healthy meal.\nThere is this indoor area on the first floor while the semi outdoor area on the second floor.\nSince people usually book this cafe for wedding, better contact them before visit.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Hidden coffee shop, they provide various  beverages & food, even healthy meal.\nThere is this indoor area on the first floor while the semi outdoor area on the second floor.\nSince people usually book this cafe for wedding, better contact them before visit.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ria Tumimomor",
+        "uri": "https://www.google.com/maps/contrib/104414386563217103080/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU5fNCPTTfKMWeRE7ZcZHhD4rnRCDzV7uEn7D8_jFQBshZJ9u2Qzw=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2021-09-10T13:10:21.152554Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUM2cmFtUkN3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUM2cmFtUkN3EAE!2m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/reviews/ChZDSUhNMG9nS0VJQ0FnSURvbzhqVkd3EAE",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 3,
+      "text": {
+        "text": "*incomplete review\n\nA relatively new spot, probably only locals around would know this place.\n\npretty good spot for quick hangout in the area and for small meetups, by all definitions this is a typical cafe and the coffe is prettt decent but they also offer run-of-the-mill street food which i haven't tried yet and can't rate.. i guess it's good option when you want a street dinner in cozier setting\n\nTried the charcoal latte and coffe both are good, the thick toast is reasonably cheap but the wafer is damp\n\nExpect mosquitos around you and outdoor settings with street noise and humidity",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "*incomplete review\n\nA relatively new spot, probably only locals around would know this place.\n\npretty good spot for quick hangout in the area and for small meetups, by all definitions this is a typical cafe and the coffe is prettt decent but they also offer run-of-the-mill street food which i haven't tried yet and can't rate.. i guess it's good option when you want a street dinner in cozier setting\n\nTried the charcoal latte and coffe both are good, the thick toast is reasonably cheap but the wafer is damp\n\nExpect mosquitos around you and outdoor settings with street noise and humidity",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ivan K",
+        "uri": "https://www.google.com/maps/contrib/116656308110568255546/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWXntfIb1M5KuN5U177o52gdljzooJJkBDiQDN144qm1Cyb0kPR=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2019-03-19T18:05:34.209906Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURvbzhqVkd3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURvbzhqVkd3EAE!2m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/reviews/ChdDSUhNMG9nS0VJQ0FnSURVZ2R2QWtBRRAB",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 4,
+      "text": {
+        "text": "This is a nice little place in a residential area in East Jakarta. I had a few snacks here i.e. fried tofu & fried banana with milk and cheese. They're good especially the banana which was not too sweet.\n\nI like the decoration of the place. It's clean and there is ample parking space. It'll be nice to come here again.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "This is a nice little place in a residential area in East Jakarta. I had a few snacks here i.e. fried tofu & fried banana with milk and cheese. They're good especially the banana which was not too sweet.\n\nI like the decoration of the place. It's clean and there is ample parking space. It'll be nice to come here again.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Oktaviandi Hadi Nugraha",
+        "uri": "https://www.google.com/maps/contrib/113648029448543927145/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW3UR7G2RGl15UFoMapH7olUTH1bMfVJEmV2jb0-dpOPMt3PV21hQ=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2019-08-25T11:23:37.034953Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURVZ2R2QWtBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURVZ2R2QWtBRRAB!2m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/reviews/ChZDSUhNMG9nS0VJQ0FnSURBaG9pbVpBEAE",
+      "relativePublishTimeDescription": "8 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Cozy place, with great tasty food... Perfect hangout place with friends or reunions.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Cozy place, with great tasty food... Perfect hangout place with friends or reunions.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Erry Marlina",
+        "uri": "https://www.google.com/maps/contrib/106344259610267007285/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU_OyFDovZABEpcxHgKtiBkO19azfB-wr1z2dk3A8oE77Pv29kWGQ=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2018-07-07T03:17:23.557Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURBaG9pbVpBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURBaG9pbVpBEAE!2m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMYQcaqfKRn188-bxX-9cEzia5_SVmNZ2ynQgwtPyZgJ3eWegPIFKWuQ9UGBzv4_5wZb0b5dL_DBdWs_VNBSiLaob9MCLWjpKwG1iEqHlBKksLjDI6Hq1Ki5JDiI9dwVNVnnryrurnbBvJB9vWJhu0t0ZHIL54oz3n6EW-uRTy7q02UyalJJaKy4ckHBCxRVDQo14OVRu6MKbdEZT6WMKVYpVy-k1gZKz0Nan1lNTH4zq9IpG2LW8oGpzMKwOCdk66XUQrWXIc8SfV1U8kbRx1iLJ-5jTcky7lPoUF1ljpm0YJwi1OSwOfD_6mzjVzYup-AFua4_53OfeJgaSBe5op2y62D4WirC9pQh2wW2fw0pwnGguOBMGK_hB5nor0GpaYq2iC4PrWCndh6sq57kwbE0SeRMC6A",
+      "widthPx": 3508,
+      "heightPx": 2480,
+      "authorAttributions": [
+        {
+          "displayName": "Teman Kita Cafe & Resto",
+          "uri": "https://maps.google.com/maps/contrib/109677929793071070391",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV2puhsknoEk_KlZFzjGdvvz6ket9Gi4Vpg1WZeGaPfnubMiA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC6pJi7vQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC6pJi7vQE!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMbuFJTu2i24vklaUEYTwfQn1BQKRAOlF3HuyPARWeRDgpAMu9AYTMsaDyBHP9NjErmlcJg5MBHhAgSReZUj-Zp2FbhvT1n076jn35mDUrEE1bnxPloRtvIJD-ZL8DDh3jizBjmTmxyr6ffEckEDQh5kzuqSaX5akeJX7enM7tggDe46VthQdfqYCc_2QuEFA5VNRRjpjB0TTukUlqjQLQ6yYWyleOWpJzc4niEy8HprXdGt5q5mermFfXQZ0TVb-hQS9RAo-Jf_3sfRXHQB-FbAtfLeNw585ImuLZt0NtE-sgKCextL82q346fe4ToN79UDhRZ0-W6W2sbjKCTNPuMZexNsB_C7RAHzLX8O8wdIUViSHF8eVtX9ccjz4l8x22fHpFlD5VNFrzlJYDOBmiriBhs",
+      "widthPx": 2595,
+      "heightPx": 2596,
+      "authorAttributions": [
+        {
+          "displayName": "Teman Kita Cafe & Resto",
+          "uri": "https://maps.google.com/maps/contrib/109677929793071070391",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV2puhsknoEk_KlZFzjGdvvz6ket9Gi4Vpg1WZeGaPfnubMiA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICSgL-ZZw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICSgL-ZZw!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMaMm8_3ll_YCOZB_8UK7c7kNF3EDKKvJfOSe4Ae6uEigSUazeZYJgtBiVbLWndCQAkac5g8qaamZc0oApvCwHx9KlGIGOdphijTVha9qfVZlXxGG178yDQ7hFJRWUUbTSMrivE6P6EuL1_Nxh92GReEcUS46bMoZkgMxu9PV7Y4-eLYoZy-xtZgwcIyijH1lA7Z3CDRj4XQRgZeP_pGQife-PKZqnUWuk_t_ZEoL6x6fHvv0K2urQwE_aXdh5quv0n4Zo8At4DPZqELHENJ1MFtIP3ilXerSRHJyTulFSivuWu0eeCTfGVF27DmpBtjEiP8bMLLrG85315Qf5SsNI4X2L-SDsvtjqMvRV8wsULaaugLVVBwMKiliQeCYLENC5HVcP8vOP4wgn403yknDuAYbojE_xEP7CdVP_Comc5n",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Nurcholis Setiawan",
+          "uri": "https://maps.google.com/maps/contrib/117800835561808348710",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUHHAe7DF66RMFNIdWmjnvMPAuAV6PHukHPvNPF8wIIlEw0bRpM=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBzA9PyZ4dKnvCCuggDFhb1&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBzA9PyZ4dKnvCCuggDFhb1!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMbMCBWLsh3zZl8lISMrMegzthagtzpatmdshXUJJQCsqHkdAcpCHDElkNS6gMFGCUEC26qJAAjYfijgQsiJHi6ilF75h7pjAczqbV5LwWUqyW5lmIVMdqjONHv-aUplNUtxH3aIRqAHsHszbwK-_P-cEAb6RKY0tJ-4uO13Nk2R2KKBbWuf16UCLTdKIXKKNt17r_nzCxu1QN0NqqxxGRNwI6MCf6JxsljJRWN43ZqOirtnIMWRQBm3SVVgNet64Y7WBCJniXHwUQIOyA4w81e8RNKazclCszSrjRGr63GkjE43uUa5JOSOjIe5sjLyIqjfy-clPmRgvtj-8jwwMpHsKvvCJFGRuCRX8GvBXL8i0TOsAYTjC38tTn6Wmb9Egt_pCJxnDCL1gagqcsUa7BVz2CQ",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "Chacha Cahyuni",
+          "uri": "https://maps.google.com/maps/contrib/108144850675780318564",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXO31JJ0NDxuoOJ0ZxWe0gUK2fWxqhHL4jCAvxp71IJ7yBX3XmN=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICEguf0LA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICEguf0LA!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMaNNUjJgLSMPew9rNf-vaNrvHe3H52HimwRXneu-377tGDpv3TJbrUX4lxiXzGIQEItLbXf5gC03cdhNKertVe5b-I-mB4djFxR0dzcx4QOLV9aIJc8QFiH4UY-_nX59ojzmLAqQeDg1awkQ3Wk2Mfo9UShvyax5poiPHlVOj1dTYLzg1o5kWtiERFJqawcOxZzQtNy0mcjUpk9PXKas0-digH9dSIFH5fUj68ZYrhoym9cPBNLCaH0fcZs0CbhpoU3X-7PE58_EltiOSNCluIf9D9gfTFRAsBdiWGFaTPQAye1HAv3NCAhSjnSv-KW_QAH2Y_VBlG1AvV4lvlbzm5OeqUZESr6w7lfLMovuipByYHcq45XrDermF0td6PVEiA_kiXgrnKyK6h67s9ENPt5PQw",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Reza Kang Kopi",
+          "uri": "https://maps.google.com/maps/contrib/115848546457419041252",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUGiwPsPLuDflnS8GR_eZH2AD_FemiQkL41l4r8Us9Msn_WgG0=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDinNXPPg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDinNXPPg!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMYZoeo8PfcFG99WDUoEgoYdlGJWQFz-WwEL3SxVzGLGg3TyjSzgX_dkawWy069wuKAzATePAya3lCE0GaR6gN4MSTuewwjkYX8-Ci413XdVbRLPhgjew9zu4VZPfC3iHku76N9IKtHt4a8TU3VPLH1_Vvq2vcsN80c2tN_NW2Hg1MzD4ZN3E68QXQZqXMun0xCX71ye7HYtGl0QM30jSJHpw-KF43D_2rEcPjyjff6AlpQzdI_iAJHeYOTQKB0ip-SPIkzmkZLnfbBHGt_Rdbd71sWVo5s4kgidELEhhNBZsHlNGisn6SlO2FDUSLbzYUOJ1ZgcsBxuFJ0jgw7ws1dZEDUPJNMVWjLBkU0Tb_kE5l6GNPNISNUc7MIbmFQAduNRqrlkE0cuFZSGSuKgfMKWqw",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Husni Abdullah",
+          "uri": "https://maps.google.com/maps/contrib/100225862961735826266",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW7viRPFkT0avGf9qNhiKOPPmzCKzqa-jrpz4GdnTuF7XtrBhF0=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDJtffFcg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDJtffFcg!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMboTyQoF1t9GYHyqoAGbQvFiPGY7QP4zbzgUNO4ccLUcmH-UxDo5O4uWTfruv--9i3vbitSzx1wFjDEDZv3gw091h8Sat5ctajwprgtbtYz6K5-bEvEFt2G5pGIHeM3LZNAxUMh68ZB14zdhlukud22Nyimy43sJHYO3Q2Gow4vd-rZY5jbK9rrJWkceW3krvqGpRzCE1LL4Q8qZfVarTXYySnXXb6IMr1118mkSvVv_iPtyuFASFetLrwuLZQJIKegz0QIPZpw6myiaLmy4fCM_HFAqobYApYo9onWoQSumD-q-xQS8BrzOiWqxSofgoNb8Kq7zf5RKESSXL8hZAHnq8zMX0iCusMKAbagO3DlruEJIPacVlF1Wqbazwm4Tsg7_9syoQrG3qQM_eIbAMvqMl1pFo3xqU4qHapWzFZpsw",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "Dayat Yudi",
+          "uri": "https://maps.google.com/maps/contrib/100367824191180800398",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIYDgll70lYneg6tFm9YiVIAiuhHvgbgIcTerk1q47ylAgg8g=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCe583Jhe4-7xe_Z0AgEt6T&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCe583Jhe4-7xe_Z0AgEt6T!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMa1BUkk1t8ehNqGKx1a_GYi_9P-kbtilNvPxtNFO8mlvKpxjNNes2AUyKb1h_KdI5TRQnXagBnuctWnxoyOktHvBRCjuC_VX4pzmKvPC7jfwjg7teIhWFpso9NJwRc8rLd195QX-DvCFJLZEDqvPDzVEk2CrJqLVsnUpos73vhlUz2t2E5kX0Jay0ziYXLtoizEKXkIl6gKYZ1_ZnfFrFCtswUrtZU8dTVw-ut2XL9O3H8uLEYjJempQtPm8xgD9DflZlqgj418dgYM7Xm_w9KZ7OjHs6WPDCpXyWflHN0OEe6IOLohB8AzKHbm1m9KNTx05I0q1A_PgN6Oc1W3LU7qgh-8jgDdAvs3fhedlRMqXU0p_hTMFWkmfjF-kBjfWuXV0KkOU1dXU1iy_m3FJm3u4cg",
+      "widthPx": 3648,
+      "heightPx": 2736,
+      "authorAttributions": [
+        {
+          "displayName": "Yoel Nasrul",
+          "uri": "https://maps.google.com/maps/contrib/104279465594387423025",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVnN52neRTOOZHB1fQ2rlxjzeSl0C9Ys0B7vV9J_xXh8B3wJ6Pu=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDrvOaWFA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDrvOaWFA!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMbUbS230iF16sF9B21TlIRU84G67uYjEA2la1coiyBqDQVlmiPNttj-X1yfBWogX1945INt_qTUrhXMAhqd7KcwzVPcH0xECwQJ9nQYnrsal1U450RP7wOSLAoAHbh8goPWtTVrTeepVbYqg0h4GhAI7kHPg5qmMPsnvhjUZUoDy_c_711G72ol1Gi-JE-YOa42_39aK6MiSOSrrXYfJFtoXoa5hSFLZF1TppTL5eVNePKuXINWLOGJ-AF8MWiTjJ3jendtHJUTZk9-eQpSJ6MFFtXAMphu59_JXPBuYKYug5CqEUjiBHSxKvBys66JOSJJalS8pnM3eatThOyLA_W59EKVJprv9s2l5Dh4lYjJdRbUpFZ0pbyAgvN1drUExwuYEA6Y33WehzHrLyIo6nVR2UU",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Rebecca Ayu C",
+          "uri": "https://maps.google.com/maps/contrib/110152349660386064651",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXo0z2yP3QISgigf1uUdbuBr2T6GhmRcx6Qce7MlyGEyHiyi8vz=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICD-9vXQA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICD-9vXQA!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    },
+    {
+      "name": "places/ChIJExQ7NI_0aS4R5FlBnGjqEjU/photos/Aa-ngMa3xDCJCSskw7LHHNm7wC83vADpYX6JGLRqwq6J79nzZIlKZbsPAhxPZzm8eG4pVANbK-kLVsoxwdeiRpMCE9QmWGhGWtUXZCPC7t0k0_YaAAVur7jm7QyCDALR0FcMw_5xvx4oBzWIz4BupjZh38xoN8BM3LXyUgiHm_jFHnZmeW0fe54nnjY3a0ZD4cEfCt-_6wW5rgFjwcUfJoXMSeJWx9CLDknvFLF_x3LtKDmLrvfOE5zrW6aJPwur9epwdWfINmqfC6bMfRyZH7PT6eHdqiOPBAknpEwVLtLEhE-uMxgyX1J-hZEfXP5G3gE3TL_dbXFw9Y_3ilSrJy8jnCEN6xGMlUfLCfP7mXJlfOkcl_N330m5ntaNYHAWJQipDdzw_DSUWg0XuQVGxlPXX30xx8Q",
+      "widthPx": 4080,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "susan",
+          "uri": "https://maps.google.com/maps/contrib/112741630431051536802",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIugI__-M0iVKz8SjoWPsFyZQXylwOlImHVYWNQejPiCGmu4A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID7xOXNbg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID7xOXNbg!2e10!4m2!3m1!1s0x2e69f48f343b1413:0x3512ea689c4159e4"
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+@import "tailwindcss";
+
+/* Morning Mantra: the bar wall. Cobalt flutes, navy board, brushed gold, white walls,
+   black marble, blue-grey floor tiles (docs/design-brief.md §3). */
+@theme {
+  --color-cobalt: #1f3c9e;
+  --color-navy: #15215a;
+  --color-gold: #e3c47e;
+  --color-wall: #f5f7fa;
+  --color-ink: #13161d;
+  --color-tile: #a7b3cb;
+}
+@theme inline {
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  --font-script: var(--font-madi), cursive;
+}
+
+/* Layout and type scale (design brief §4–5). Sizes live here as variables, never as
+   Tailwind arbitrary values with spaces. */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 56px;
+  --grid-gap: 24px;
+
+  --step-display: clamp(3rem, 2.1rem + 4.6vw, 6.25rem);
+  --step-head: clamp(2rem, 1.6rem + 1.7vw, 3rem);
+  --step-lead: clamp(1.3rem, 1.18rem + 0.45vw, 1.5rem);
+  --step-body: clamp(1rem, 0.97rem + 0.15vw, 1.125rem);
+  --step-small: clamp(0.8rem, 0.77rem + 0.12vw, 0.875rem);
+
+  --leading-display: 0.95;
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  /* Per-ground roles, switched by .on-dark / .on-ink */
+  --focus-ring: var(--color-cobalt);
+  --mock-line: var(--color-cobalt);
+  --illo-accent: var(--color-gold);
+  --illo-ground: var(--color-wall);
+
+  --gold-glow-1: rgb(227 196 126 / 0.55);
+  --gold-glow-2: rgb(227 196 126 / 0.2);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 32px; --section-y: 104px; }
+}
+@media (min-width: 1024px) {
+  :root { --grid-gap: 32px; }
+}
+
+html {
+  background: var(--color-wall);
+  color: var(--color-ink);
+  scrollbar-color: var(--color-cobalt) var(--color-wall);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-sans);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-numeric: lining-nums;
+}
+::selection { background: var(--color-gold); color: var(--color-navy); }
+:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 3px; }
+
+/* Component classes live in a layer so Tailwind utilities (mt-*, text-*) can adjust them. */
+@layer components {
+.on-dark {
+  --focus-ring: var(--color-gold);
+  --mock-line: var(--color-gold);
+  color: var(--color-wall);
+  letter-spacing: 0.01em; /* light text on dark */
+}
+.on-ink { --illo-ground: var(--color-ink); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.grid-12 { display: grid; gap: var(--grid-gap); grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 1024px) {
+  .grid-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+}
+
+/* Type */
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.35; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.45; }
+
+.heading {
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-wrap: balance;
+}
+.label {
+  font-size: var(--step-small);
+  line-height: 1.4;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+.h3 { font-size: var(--step-lead); line-height: 1.25; font-weight: 400; text-wrap: balance; }
+.measure { max-width: 62ch; }
+.nums { font-variant-numeric: tabular-nums lining-nums; }
+.soft { color: color-mix(in oklab, currentColor 82%, transparent); }
+
+/* [MOCKUP] content: dotted underline until the owner confirms it. */
+[data-mockup] {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--mock-line);
+  text-decoration-skip-ink: none;
+}
+
+/* Skip link and draft banner */
+.skip-link {
+  position: absolute; left: 12px; top: 8px; z-index: 50;
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px;
+  background: var(--color-ink); color: var(--color-wall); font-weight: 500;
+  transform: translateY(-200%);
+}
+.skip-link:focus-visible { transform: none; outline-color: var(--color-gold); }
+.mockup-banner {
+  font-size: 13px; line-height: 1.45; text-align: center; padding: 8px 16px;
+  background: var(--color-ink); color: var(--color-wall); letter-spacing: 0.01em;
+}
+
+/* ---------- Hero: the neon sign over the bar front ---------- */
+.hero { padding-top: 40px; }
+.hero-inner { padding-bottom: 56px; align-items: center; }
+@media (min-width: 768px) {
+  .hero { padding-top: 64px; }
+  .hero-inner { padding-bottom: 72px; }
+}
+
+.sign { color: var(--color-gold); width: fit-content; font-weight: 300; }
+.sign-caps {
+  display: block;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-right: -0.16em; /* trailing tracking */
+  white-space: nowrap;
+}
+.sign-script {
+  display: block;
+  font-family: var(--font-script);
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  text-align: right;
+  white-space: nowrap;
+}
+.sign--hero { font-size: var(--step-display); }
+.sign--hero .sign-caps { font-size: 1em; line-height: var(--leading-display); }
+.sign--hero .sign-script {
+  font-size: 1.05em;
+  line-height: 1.1;
+  padding-right: 0.35em;
+}
+.sign--hero .sign-caps,
+.sign--hero .sign-script {
+  text-shadow: 0 0 0.12em var(--gold-glow-1), 0 0 0.28em var(--gold-glow-2);
+}
+.sign--static .sign-caps { font-size: var(--step-body); line-height: 1.2; letter-spacing: 0.3em; margin-right: -0.3em; font-weight: 400; }
+.sign--static .sign-script { font-size: calc(var(--step-lead) * 1.4); line-height: 1.1; padding-right: 0.2em; }
+
+/* Signature moment: the sign switches on like the neon tube it copies. Opacity only, once.
+   Inside no-preference so reduced motion (and the starter's override) shows it lit and still. */
+@media (prefers-reduced-motion: no-preference) {
+  .sign--hero .sign-caps { animation: sign-caps-on 0.6s linear both; }
+  .sign--hero .sign-script { animation: sign-script-on 0.55s linear 0.55s both; }
+}
+@keyframes sign-caps-on {
+  0% { opacity: 0.35; }
+  10% { opacity: 1; }
+  22% { opacity: 0.45; }
+  32% { opacity: 1; }
+  50% { opacity: 0.75; }
+  100% { opacity: 1; }
+}
+@keyframes sign-script-on {
+  0% { opacity: 0.35; }
+  30% { opacity: 0.9; }
+  50% { opacity: 0.5; animation-timing-function: ease-out; }
+  100% { opacity: 1; }
+}
+
+.arch-frame {
+  border-radius: 50% 50% 0 0 / 24% 24% 0 0;
+  border: 1.5px solid var(--color-gold);
+  overflow: hidden;
+  background: var(--color-navy);
+}
+.arch-frame img { display: block; width: 100%; height: auto; }
+
+/* The bar front: black counter, cobalt flutes with navy lines, gold kick strip. */
+.bar-front {
+  height: 84px;
+  border-top: 10px solid var(--color-ink);
+  border-bottom: 6px solid var(--color-gold);
+  background-color: var(--color-cobalt);
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--color-navy) 0 2px,
+    var(--color-cobalt) 2px 7px,
+    #2846ad 7px 10px,
+    var(--color-cobalt) 10px 14px
+  );
+}
+@media (min-width: 768px) { .bar-front { height: 88px; } }
+
+/* Buttons: gold fill or wall outline, overlay on hover/focus, press scale. */
+.btn {
+  position: relative;
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 48px; padding: 0 24px;
+  border-radius: 2px;
+  font-size: var(--step-body); font-weight: 500; letter-spacing: 0.03em; line-height: 1.2;
+  isolation: isolate;
+  transition: transform 150ms ease-out;
+}
+.btn::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit;
+  background: currentColor; opacity: 0; pointer-events: none;
+  transition: opacity 150ms ease-out;
+}
+.btn:hover::after, .btn:focus-visible::after { opacity: 0.12; }
+.btn:active { transform: scale(0.98); }
+.btn-primary { background: var(--color-gold); color: var(--color-navy); }
+.btn-secondary { border: 1.5px solid var(--color-wall); color: var(--color-wall); }
+.btn-cobalt { background: var(--color-cobalt); color: var(--color-wall); }
+.btn-cobalt::after { background: var(--color-wall); }
+
+/* ---------- Products ---------- */
+.illo {
+  display: block;
+  width: 100%; height: auto;
+  fill: none; stroke: currentColor; stroke-width: 1.75;
+  stroke-linecap: round; stroke-linejoin: round;
+  overflow: visible;
+}
+.illo * { vector-effect: non-scaling-stroke; }
+.illo .a { fill: var(--illo-accent); stroke: none; }
+.illo .af { fill: var(--illo-accent); }
+.illo .g { fill: var(--illo-ground); }
+.illo .n { stroke: none; }
+
+.board {
+  border-radius: 4px;
+  padding: 28px 24px 32px;
+}
+@media (min-width: 768px) { .board { padding: 40px; } }
+.board-list { margin-top: 20px; }
+.board-list li {
+  break-inside: avoid;
+  padding-block: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+}
+.board-price { margin-left: 12px; color: var(--color-gold); font-weight: 500; letter-spacing: 0.04em; }
+@media (min-width: 768px) {
+  .board-list { columns: 2; column-gap: 48px; }
+}
+
+.menu-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--color-gold); font-weight: 500; }
+.menu-link svg { width: 18px; height: 18px; transform: rotate(-90deg); transition: transform 150ms ease-out; }
+.menu-link:hover svg { transform: rotate(-90deg) translateX(3px); }
+.price { margin-left: 12px; font-weight: 500; font-variant-numeric: tabular-nums lining-nums; }
+
+/* The squid plate with the tea cup tucked at its lower right. */
+.plate-wrap { position: relative; max-width: 520px; padding-bottom: 28px; }
+.tea-tuck {
+  position: absolute; right: -4px; bottom: 0;
+  width: 34%; max-width: 170px;
+  border-radius: 50%;
+  background: var(--color-ink);
+  padding: 4%;
+}
+
+/* ---------- Tiga ruang: the building in cross-section ---------- */
+.section-cut { display: grid; gap: 4px; background: var(--color-ink); border: 4px solid var(--color-ink); }
+@media (min-width: 1024px) {
+  .section-cut { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .room-atas { grid-column: 1 / -1; display: grid; grid-template-columns: 5fr 7fr; }
+}
+.room-band { position: relative; height: 88px; overflow: hidden; }
+.band-stair { height: 128px; }
+.band-stair .band-chip { top: 14px; bottom: auto; }
+@media (min-width: 1024px) {
+  .room-band { height: 112px; }
+  .room-atas .room-band { height: auto; min-height: 100%; }
+}
+.band-chip {
+  position: absolute; left: 16px; bottom: 14px;
+  padding: 4px 10px; border-radius: 2px;
+  font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase;
+}
+.band-flute {
+  background-color: var(--color-cobalt);
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--color-navy) 0 2px,
+    var(--color-cobalt) 2px 7px,
+    #2846ad 7px 10px,
+    var(--color-cobalt) 10px 14px
+  );
+  border-bottom: 6px solid var(--color-gold);
+}
+.tile-band, .tile-floor {
+  background-color: var(--color-wall);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='none' stroke='%23A7B3CB' stroke-width='1'%3E%3Cpath d='M14 14a6 6 0 0 1 12 0a6 6 0 0 1 0 12a6 6 0 0 1-12 0a6 6 0 0 1 0-12z'/%3E%3Cpath d='M20 4.5L35.5 20L20 35.5L4.5 20z'/%3E%3Cpath d='M0 7a7 7 0 0 0 7-7M33 0a7 7 0 0 0 7 7M40 33a7 7 0 0 0-7 7M7 40a7 7 0 0 0-7-7'/%3E%3Ccircle cx='20' cy='20' r='2'/%3E%3C/svg%3E");
+  background-size: 40px 40px;
+}
+.tile-band { border-bottom: 1px solid var(--color-tile); }
+.tile-floor { height: 32px; border-top: 6px solid var(--color-gold); }
+.room-luar { background: var(--color-wall); --rule: var(--color-tile); }
+.room-atas, .room-dalam { --rule: rgb(245 247 250 / 0.22); }
+
+.room-body { padding: 24px 20px 28px; }
+@media (min-width: 768px) { .room-body { padding: 32px 32px 40px; } }
+.room-details li { padding-block: 10px; border-top: 1px solid var(--rule); }
+.room-details li:last-child { border-bottom: 1px solid var(--rule); }
+
+/* ---------- Kata mereka ---------- */
+.theme-rule { display: block; width: 32px; height: 2px; background: var(--color-gold); margin-bottom: 16px; }
+
+/* ---------- Kunjungi ---------- */
+.map-frame {
+  position: relative; aspect-ratio: 1 / 1; overflow: hidden;
+  background: var(--color-wall); border: 1px solid var(--color-tile); border-radius: 4px;
+}
+@media (min-width: 1024px) { .map-frame { aspect-ratio: 4 / 3; } }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.map-placeholder { position: absolute; inset: 0; display: grid; place-items: center; color: var(--color-cobalt); }
+
+.hours-row { display: grid; grid-template-columns: 18px 1fr auto; align-items: center; column-gap: 8px; padding-block: 7px; border-top: 1px solid var(--color-tile); }
+.hours-row:last-child { border-bottom: 1px solid var(--color-tile); }
+.hours-dot { width: 9px; height: 9px; border-radius: 50%; }
+.hours-row[aria-current="date"] { font-weight: 500; }
+.hours-row[aria-current="date"] .hours-dot { background: var(--color-gold); box-shadow: 0 0 0 1.5px var(--color-cobalt); }
+
+/* ---------- Hubungi: action rows ---------- */
+.action-row {
+  position: relative;
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: 24px;
+  min-height: 72px; padding-block: 14px; padding-inline: 4px;
+  transition: transform 150ms ease-out;
+}
+.action-list > li { border-top: 1px solid rgb(227 196 126 / 0.55); }
+.action-list > li:last-child { border-bottom: 1px solid rgb(227 196 126 / 0.55); }
+.action-row::after {
+  content: ""; position: absolute; inset: 0; background: var(--color-wall);
+  opacity: 0; pointer-events: none; transition: opacity 150ms ease-out;
+}
+.action-row:hover::after, .action-row:focus-visible::after { opacity: 0.12; }
+.action-row:active { transform: scale(0.98); }
+.action-arrow { width: 22px; height: 22px; color: var(--color-gold); transition: transform 150ms ease-out; }
+.action-row:hover .action-arrow { transform: translateX(3px); }
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active, .action-row:active { transform: none; }
+  .action-row:hover .action-arrow { transform: none; }
+}

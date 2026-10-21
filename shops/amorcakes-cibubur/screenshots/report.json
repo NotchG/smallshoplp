@@ -1,0 +1,347 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6539,
+    "sizes": [
+      {
+        "el": "h1 \"amor cakes & bakery CIBUBUR\"",
+        "fontSize": 64.1,
+        "lineHeight": "67.263px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#kue-title \"Kue ulang tahun\"",
+        "fontSize": 33.4,
+        "lineHeight": "36.696px",
+        "textWidth": 222,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Black Forest\"",
+        "fontSize": 20.5,
+        "lineHeight": "27.7087px",
+        "textWidth": 115,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Chocolate Drip\"",
+        "fontSize": 20.5,
+        "lineHeight": "27.7087px",
+        "textWidth": 139,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Green Tea\"",
+        "fontSize": 20.5,
+        "lineHeight": "27.7087px",
+        "textWidth": 95,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Strawberry Cream\"",
+        "fontSize": 20.5,
+        "lineHeight": "27.7087px",
+        "textWidth": 105,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#roti-title \"Roti & bolu harian\"",
+        "fontSize": 33.4,
+        "lineHeight": "36.696px",
+        "textWidth": 247,
+        "pctOfContentWidth": 71
+      },
+      {
+        "el": "h3 \"Roti Manis\"",
+        "fontSize": 20.5,
+        "lineHeight": "27.7087px",
+        "textWidth": 96,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Roti Tawar Mini\"",
+        "fontSize": 20.5,
+        "lineHeight": "27.7087px",
+        "textWidth": 142,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Doughnut\"",
+        "fontSize": 20.5,
+        "lineHeight": "27.7087px",
+        "textWidth": 91,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Bolu\"",
+        "fontSize": 20.5,
+        "lineHeight": "27.7087px",
+        "textWidth": 42,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#pesan-title \"Cara pesan kue\"",
+        "fontSize": 33.4,
+        "lineHeight": "36.696px",
+        "textWidth": 207,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 33.4,
+        "lineHeight": "36.696px",
+        "textWidth": 173,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 33.4,
+        "lineHeight": "36.696px",
+        "textWidth": 191,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 33.4,
+        "lineHeight": "36.696px",
+        "textWidth": 184,
+        "pctOfContentWidth": 53
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 47
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7565,
+    "sizes": [
+      {
+        "el": "h1 \"amor cakes & bakery CIBUBUR\"",
+        "fontSize": 92,
+        "lineHeight": "96.6336px",
+        "textWidth": 688,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#kue-title \"Kue ulang tahun\"",
+        "fontSize": 42.4,
+        "lineHeight": "46.6752px",
+        "textWidth": 283,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Black Forest\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.536px",
+        "textWidth": 131,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Chocolate Drip\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.536px",
+        "textWidth": 158,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Green Tea\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.536px",
+        "textWidth": 108,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Strawberry Cream\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.536px",
+        "textWidth": 194,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#roti-title \"Roti & bolu harian\"",
+        "fontSize": 42.4,
+        "lineHeight": "46.6752px",
+        "textWidth": 315,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Roti Manis\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.536px",
+        "textWidth": 109,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Roti Tawar Mini\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.536px",
+        "textWidth": 162,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Doughnut\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.536px",
+        "textWidth": 103,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Bolu\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.536px",
+        "textWidth": 47,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#pesan-title \"Cara pesan kue\"",
+        "fontSize": 42.4,
+        "lineHeight": "46.6752px",
+        "textWidth": 263,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 42.4,
+        "lineHeight": "46.6752px",
+        "textWidth": 220,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 42.4,
+        "lineHeight": "46.6752px",
+        "textWidth": 242,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 42.4,
+        "lineHeight": "46.6752px",
+        "textWidth": 234,
+        "pctOfContentWidth": 34
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 47
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4894,
+    "sizes": [
+      {
+        "el": "h1 \"amor cakes & bakery CIBUBUR\"",
+        "fontSize": 112,
+        "lineHeight": "117.6px",
+        "textWidth": 477,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#kue-title \"Kue ulang tahun\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 347,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Black Forest\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 134,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Chocolate Drip\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 162,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Green Tea\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 111,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Strawberry Cream\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 199,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#roti-title \"Roti & bolu harian\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 386,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Roti Manis\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 112,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Roti Tawar Mini\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 166,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Doughnut\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 106,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"Bolu\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 49,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h2#pesan-title \"Cara pesan kue\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 323,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 270,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 297,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 287,
+        "pctOfContentWidth": 24
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 47
+  }
+}

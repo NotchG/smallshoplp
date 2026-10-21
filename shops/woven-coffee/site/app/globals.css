@@ -1,0 +1,397 @@
+@import "tailwindcss";
+
+/* Woven Coffee tokens, from docs/design-brief.md §3–§5.
+   Colours become utilities (bg-kaca, text-dinding...). Each colour owns whole sections. */
+@theme {
+  --color-kaca: #1c1a17;      /* smoked glass: hero overlay, Kata mereka, footer */
+  --color-dinding: #f3f1ec;   /* white wall: main ground */
+  --color-pinus: #d69c55;     /* pine counter: Kopi Enak, Hubungi, primary button */
+  --color-cokelat: #6e4628;   /* label rule: hairlines, shelf, notes on dinding */
+  --color-telang: #21428a;    /* butterfly pea: tea field */
+
+  /* Secondary text per ground (explicit, no alpha) */
+  --color-on-kaca-2: #c9c1b4;
+  --color-on-telang-2: #c9d4ee;
+  --color-on-pinus-2: #3b2a1a;
+  --color-on-dinding-2: #5c4d40;
+  --color-rule-kaca: #47423a;
+
+  /* Drawing-only fills */
+  --color-kopi: #3a2416;
+  --color-susu: #eadbc2;
+  --color-logam: #9a958c;
+}
+
+@theme inline {
+  --font-display: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-alegreya), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces. */
+:root {
+  --container: 1200px;
+  --gutter: clamp(1.25rem, 4vw, 3rem);              /* 20px phone / 48px desktop */
+  --section-y: clamp(4rem, 2.5rem + 6vw, 7.5rem);   /* 64px phone / 120px desktop */
+  --grid-gap: 24px;
+
+  --step-display: clamp(2.375rem, 1.3rem + 4.2vw, 5.25rem);  /* 38 → 81px, hero band only */
+  --step-head: clamp(1.8125rem, 1.35rem + 1.8vw, 3rem);      /* 29 → 47.5px, h2 */
+  --step-lead: clamp(1.4375rem, 1.25rem + 0.7vw, 1.875rem);  /* 23 → 30px */
+  --step-body: clamp(1.125rem, 1.05rem + 0.25vw, 1.25rem);   /* 18 → 20px */
+  --step-small: clamp(0.875rem, 0.84rem + 0.1vw, 0.9375rem); /* 14 → 15px */
+
+  --leading-display: 1;
+  --leading-head: 1.1;
+  --leading-label: 1.05;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+  --leading-small: 1.45;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --response: 180ms;
+
+  /* Hero: where the band sits. Capped so a very tall window doesn't stretch it. */
+  --hero-top: clamp(8.5rem, 28svh - 2rem, 13rem);
+}
+@media (min-width: 1024px) {
+  /* Brief says ~40%; review moved it to ~34% so the blur above the band isn't a dead third. */
+  :root { --hero-top: clamp(11rem, 34svh - 2.5rem, 17rem); }
+}
+
+html {
+  background: var(--color-kaca);
+  color: var(--color-kaca);
+  scrollbar-color: var(--color-cokelat) var(--color-dinding);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--color-dinding);
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: lining-nums;
+}
+
+::selection { background: var(--color-pinus); color: var(--color-kaca); }
+
+a { text-underline-offset: 0.22em; text-decoration-thickness: 1px; }
+:focus-visible { outline: 2px solid var(--focus, var(--color-telang)); outline-offset: 3px; }
+input, textarea { caret-color: var(--color-pinus); }
+
+/* Grounds: whole-section colour fields with their own secondary text, rules and focus ring. */
+.g-dinding {
+  background: var(--color-dinding); color: var(--color-kaca);
+  --muted: var(--color-on-dinding-2); --rule: var(--color-cokelat); --focus: var(--color-telang);
+}
+.g-kaca {
+  background: var(--color-kaca); color: var(--color-dinding);
+  --muted: var(--color-on-kaca-2); --rule: var(--color-rule-kaca); --focus: var(--color-pinus);
+}
+.g-pinus {
+  background: var(--color-pinus); color: var(--color-kaca);
+  --muted: var(--color-on-pinus-2); --rule: var(--color-cokelat); --focus: var(--color-kaca);
+}
+.g-pinus ::selection { background: var(--color-kaca); color: var(--color-dinding); }
+.g-telang {
+  background: var(--color-telang); color: var(--color-dinding);
+  --muted: var(--color-on-telang-2); --rule: var(--color-on-telang-2); --focus: var(--color-pinus);
+}
+.text-muted { color: var(--muted); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+/* 12 columns with a 24px gap at ≥1024; 2 columns at ≥768; one column on phone. */
+.grid-page { display: grid; grid-template-columns: minmax(0, 1fr); column-gap: var(--grid-gap); }
+@media (min-width: 768px) { .grid-page { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .grid-page { grid-template-columns: repeat(12, minmax(0, 1fr)); } }
+
+/* Type roles */
+.t-band {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+@media (min-width: 768px) { .t-band { letter-spacing: 0.12em; } }
+
+.t-head {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+/* Group names (h3): Jost caps at lead size, below the h2 */
+.t-group {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--step-lead);
+  line-height: var(--leading-head);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+/* LabelBox name: two stacked words like "KOPI / ENA" */
+.t-label {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--step-lead);
+  line-height: var(--leading-label);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* Amenity terms: Jost caps at body size */
+.t-term {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--step-body);
+  line-height: 1.25;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.t-lead  { font-size: var(--step-lead);  line-height: var(--leading-lead); text-wrap: pretty; }
+.t-body  { font-size: var(--step-body);  line-height: var(--leading-body); text-wrap: pretty; }
+.t-small { font-size: var(--step-small); line-height: var(--leading-small); }
+.measure { max-width: 60ch; }
+
+/* Label language from the KOPI ENA bottle */
+.label-box {
+  display: inline-block;
+  border: 1.5px solid currentColor;
+  padding: 0.32em 0.42em 0.3em;
+}
+.double-rule {
+  border-top: 1px solid var(--rule);
+  position: relative;
+}
+.double-rule::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 3px;
+  border-top: 1px solid var(--rule);
+}
+
+/* BoxButton: a label box you can press. Inner hairline inset 4px, like the label's box. */
+.box-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 48px;
+  padding: 0.7rem 1.4rem;
+  border-radius: 2px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--step-small);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.2;
+  transition: transform 120ms ease-out;
+  -webkit-tap-highlight-color: transparent;
+}
+.box-btn::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px solid currentColor;
+  border-radius: 1px;
+  pointer-events: none;
+}
+.box-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity var(--response) ease-out;
+  pointer-events: none;
+}
+.box-btn:hover::after, .box-btn:focus-visible::after { opacity: 0.12; }
+.box-btn:active { transform: translateY(1px); }
+.box-btn--solid-pinus { background: var(--color-pinus); color: var(--color-kaca); }
+.box-btn--solid-kaca { background: var(--color-kaca); color: var(--color-dinding); }
+.box-btn--outline-light { color: var(--color-dinding); box-shadow: inset 0 0 0 1px var(--color-dinding); }
+.box-btn--outline-dark { color: var(--color-kaca); box-shadow: inset 0 0 0 1px var(--color-kaca); }
+.box-btn--wide { width: 100%; justify-content: space-between; text-align: left; }
+@media (max-width: 479px) {
+  .box-btn--wide { flex-direction: column; align-items: flex-start; justify-content: center; gap: 0.1rem; padding-block: 0.8rem; }
+}
+.nowrap { white-space: nowrap; }
+.box-btn__meta {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--step-body);
+  letter-spacing: 0;
+  text-transform: none;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Inline text links that still meet the 44px target */
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+}
+.text-link:hover { text-decoration-color: currentColor; }
+
+/* Hero */
+.hero-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 38% 50%;
+  filter: blur(18px);
+  transform: scale(1.08);
+}
+@media (min-width: 1024px) { .hero-photo { object-position: 50% 50%; } }
+.hero-veil { position: absolute; inset: 0; background: rgb(28 26 23 / 0.62); }
+.hero-inner { padding-top: var(--hero-top); padding-bottom: clamp(3rem, 2rem + 4vw, 6rem); }
+
+.band {
+  position: relative;
+  overflow: hidden;
+  background: rgb(243 241 236 / 0.12);
+  padding-block: 0.3em;
+  font-size: var(--step-display);
+}
+.band__thread {
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  height: 1px;
+  background: rgb(243 241 236 / 0.6);
+}
+.band__thread--top { top: 0; }
+.band__thread--bottom { bottom: 0; }
+.band__row {
+  display: flex;
+  gap: 0.45em;
+  padding-left: max(var(--gutter), calc((100% - var(--container)) / 2));
+}
+@media (min-width: 768px) { .band__row { gap: 1.1em; } }
+
+/* Woven seam: two-row checker of the two neighbouring fields */
+.seam { display: block; width: 100%; height: 12px; overflow: hidden; }
+@media (min-width: 768px) { .seam { height: 16px; } }
+
+/* Hours */
+.hours-table { border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.hours-table th, .hours-table td { padding: 0.35rem 0; text-align: left; vertical-align: baseline; }
+.hours-table th { font-weight: 400; padding-right: 1.5rem; }
+.hours-table td { width: 12ch; }
+.hours-table tr[aria-current="date"] th, .hours-table tr[aria-current="date"] td { font-weight: 700; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small);
+  line-height: 1.35;
+  text-align: center;
+  padding: 8px 16px;
+  background: var(--color-dinding);
+  color: var(--color-kaca);
+  border-bottom: 1px solid var(--color-cokelat);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .box-btn:active { transform: none; }
+}
+
+/* Hero address block: small on phone, body size from 768px */
+.hero-meta { font-size: var(--step-small); line-height: var(--leading-small); font-variant-numeric: tabular-nums; }
+@media (min-width: 768px) { .hero-meta { font-size: var(--step-body); line-height: var(--leading-body); } }
+.hours-mini { grid-template-columns: max-content 12ch; column-gap: 1.25rem; justify-content: start; }
+
+/* Products on the shelf (Kopi Enak section) */
+.products { display: grid; row-gap: 2.75rem; }
+.product {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  column-gap: 1.25rem;
+  align-items: end;
+}
+.product__fig { display: flex; flex-direction: column; align-items: center; margin: 0; }
+.product__art { display: block; height: 270px; width: auto; }
+.shelf { width: 100%; height: 6px; background: var(--color-cokelat); }
+.product__text { padding-bottom: 6px; }
+.price-list li + li { margin-top: 0.15rem; }
+@media (min-width: 768px) {
+  .products { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 0; }
+  .product { grid-template-columns: minmax(0, 1fr); align-items: start; align-content: start; }
+  .product__fig { align-items: flex-start; }
+  .product__art { height: 330px; margin-left: 1.5rem; }
+  .product__text { padding: 1.5rem 1.5rem 0 1.5rem; }
+}
+@media (min-width: 1024px) {
+  .product__art { height: 400px; }
+}
+
+/* Tea photo: square, scaled from the lower right to trim the dark object in the top-left corner */
+.tea-photo { margin: 0; aspect-ratio: 1 / 1; overflow: hidden; background: var(--color-kaca); }
+.tea-photo img { display: block; width: 100%; height: 100%; object-fit: cover; transform: scale(1.2); transform-origin: 85% 90%; }
+.tea-list { display: flex; flex-wrap: wrap; column-gap: 0.4em; }
+.tea-list li:not(:last-child)::after { content: "·"; margin-left: 0.4em; color: var(--muted); }
+
+/* Amenities and reviews: rows separated by a hairline, no boxes */
+.amenity { border-top: 1px solid var(--rule); padding-block: 1.25rem 1.5rem; }
+.review { border-top: 1px solid var(--rule); padding-top: 1.25rem; }
+
+/* Map */
+.map-frame { aspect-ratio: 4 / 3; border: 1px solid var(--color-cokelat); background: #e6e2da; }
+/* Beside the info column the map matches its height instead of leaving a gap under it. */
+@media (min-width: 768px) {
+  .map-col { display: flex; }
+  .map-frame { aspect-ratio: auto; width: 100%; min-height: 22rem; }
+}
+.map-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+
+/* Footer: wordmark between double rules in pinus, like the bottle label */
+.footer-mark {
+  --rule: var(--color-pinus);
+  display: inline-block;
+  padding-block: 0.85rem;
+  border-block: 1px solid var(--rule);
+  position: relative;
+}
+.footer-mark::before, .footer-mark::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  border-top: 1px solid var(--rule);
+}
+.footer-mark::before { top: 3px; }
+.footer-mark::after { bottom: 3px; }
+.footer-mark__word {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--step-lead);
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding-inline: 0.6em;
+}
+.footer-draft { border-top: 1px solid var(--rule); }

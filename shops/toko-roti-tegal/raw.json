@@ -1,0 +1,388 @@
+{
+  "id": "ChIJuXEY7GT0aS4R-48Vp2IlXQY",
+  "types": [
+    "bakery",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "(021) 8580766",
+  "internationalPhoneNumber": "+62 21 8580766",
+  "formattedAddress": "Jl. Matraman Raya No.68 10, RT.10/RW.2, Kb. Manggis, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13150, Indonesia",
+  "rating": 4.4,
+  "googleMapsUri": "https://maps.google.com/?cid=458563842701889531&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 13,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 0,
+          "hour": 16,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:00 AM – 7:00 PM",
+      "Tuesday: 7:00 AM – 7:00 PM",
+      "Wednesday: 7:00 AM – 7:00 PM",
+      "Thursday: 7:00 AM – 7:00 PM",
+      "Friday: 7:00 AM – 7:00 PM",
+      "Saturday: 7:00 AM – 7:00 PM",
+      "Sunday: 8:00 AM – 1:00 PM, 4:00 – 7:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T00:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 305,
+  "displayName": {
+    "text": "Toko Roti Tegal",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Bakery",
+    "languageCode": "en-US"
+  },
+  "primaryType": "bakery",
+  "reviews": [
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/reviews/ChdDSUhNMG9nS0VMNkE4c0RJOUx2SjdRRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 4,
+      "text": {
+        "text": "One of legendary spot for just having snacks over coffee or tea time since 1968, locate in the heart of Matraman road on central Jakarta that across Tegalan street that belong to east Jakarta.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "One of legendary spot for just having snacks over coffee or tea time since 1968, locate in the heart of Matraman road on central Jakarta that across Tegalan street that belong to east Jakarta.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Arie Himawan",
+        "uri": "https://www.google.com/maps/contrib/114624294260268742095/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW2JSeM7MMDpzCPPJICEsLoyLb3MbSPoXVM7azFVp6b4EglN8FV=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2025-05-22T13:50:55.489963Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VMNkE4c0RJOUx2SjdRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VMNkE4c0RJOUx2SjdRRRAB!2m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/reviews/ChZDSUhNMG9nS0VJQ0FnSURVcGJ1ZEhnEAE",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 5,
+      "text": {
+        "text": "This is really nostalgic and legendary bread store. I've been here since I'm 5 years old taste the coklat bread, now I'm 39 and the taste still the same 😊 really recommended place, especially if you want taste the home bakery 😊😊😊",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "This is really nostalgic and legendary bread store. I've been here since I'm 5 years old taste the coklat bread, now I'm 39 and the taste still the same 😊 really recommended place, especially if you want taste the home bakery 😊😊😊",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Eko Munartyo",
+        "uri": "https://www.google.com/maps/contrib/109960467629938315597/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQ0QZyrLbAHZAjooeedj9ttd7JJoi_CxZtqDou6j2qdK8pKado=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2019-08-30T03:29:09.830432Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURVcGJ1ZEhnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURVcGJ1ZEhnEAE!2m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/reviews/ChZDSUhNMG9nS0VJQ0FnSUNDMHJUNURBEAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 3,
+      "text": {
+        "text": "The pastry is good, and a bit old fashioned, reminding the good old days. But the place is not comfortable for dine in.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The pastry is good, and a bit old fashioned, reminding the good old days. But the place is not comfortable for dine in.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ria Tumimomor",
+        "uri": "https://www.google.com/maps/contrib/104414386563217103080/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU5fNCPTTfKMWeRE7ZcZHhD4rnRCDzV7uEn7D8_jFQBshZJ9u2Qzw=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2024-05-23T10:01:27.331825Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNDMHJUNURBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNDMHJUNURBEAE!2m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1MDcyVTVBRRAB",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Old bakery which have varieties of typical Indonesian snacks (kue & roti)\n\nGood and nostalgic taste and reasonably priced",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Old bakery which have varieties of typical Indonesian snacks (kue & roti)\n\nGood and nostalgic taste and reasonably priced",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "ghaney kadri",
+        "uri": "https://www.google.com/maps/contrib/117176507088011410562/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLfq96p2hU2kH-pbYrrXrJoRATYxeLWquQlejgWrrdmgBUitQ=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2022-08-05T17:01:34.537003Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN1MDcyVTVBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN1MDcyVTVBRRAB!2m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/reviews/ChdDSUhNMG9nS0VJQ0FnSUMwdDlUTzR3RRAB",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 4,
+      "text": {
+        "text": "The store provides Indonesian Traditional cakes and snacks. Mostly fresh.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The store provides Indonesian Traditional cakes and snacks. Mostly fresh.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "ZON CZ",
+        "uri": "https://www.google.com/maps/contrib/102090436319200053424/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIHa-6RVSBAM3Wpv-5JRxto90pqVVBE0PsE6knskdMNrwkYwg=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2019-10-14T01:08:56.796593Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUMwdDlUTzR3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUMwdDlUTzR3RRAB!2m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMZJwwylhjz4fh_AAXuLoo1sutHdLuSE9cpHJOGfj14gOhxDUpGE--wkcEJHa70BAuBa0uNnIUKHubhAukTIaJMMpPrlju3JC-woKhVw095Q21UqY_zBY4iweE0HngkQoK7yG6curulProHM3i-bSybJktwWVa7Qi_kFADNDpCG86XgtoqWUOHTzTceQJkxUcbkcrHU2BmBw-cuMacTeuKsB1cTpcTveT5eTnE9TGWNxXWNUpnMlo-N7IHy9Ji2nMAeVMb6H2-KvzbjiVhysLlR6sJ_uSzu-NaF1JWlqM4wtWTJF0LnAKI2o362yIPPCttkhvuWK9IRxDcQSzo9nvPHGJTeX8CeWWhbmJb4uhd_LOLtuxov7BNVpbFWiY-HIw8lMOYacvvv5FTeM5tEFig5AEu83v3w",
+      "widthPx": 4000,
+      "heightPx": 2252,
+      "authorAttributions": [
+        {
+          "displayName": "Wiwiek Utami Dewi",
+          "uri": "https://maps.google.com/maps/contrib/112601769276530330997",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUFa8B0eIIbhI9kYXVelHTScSWoYUwS9VEUjSBtze8gO8Vt_r03fA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMDgr8me9AE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDgr8me9AE!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMaIvrfF3jzUYM1zpdc0aiWfDePisu-_-UIGUGJoABAEv66vk2nYR4XwImYdO33juUxvr6EQuqQgcHVZh5tp5AA-CYfaCPEQXZenyS0abJGcO0NQat8DaXHBufqI6f338QGTukcTFt57TYZm7qSyepOdeKCic0_O5lnBWU2yj4u351YOSW_-l-NKSASqVFWmEqltv3nf1FN_0wGXLnjHdqCZTcuFx4r8TXZu5gDY7iDLd1W7xRgU8KZIki4ooxw072q919qCaZdWzPRge1n_auC-AbdC-lvbdZvwWC_2t9mFQeq4FMb5DXxoVfmZORlVFhE0KHQQfr-R2N9gUb0xrzVYlwHgXY8YVJ9J-Q-fewu7CqcCVQWODeeHBux0uwhkwrDGdnBXm0GntBWqSKGEWpEG8H5rXcPLJkZEGANURoU9_A",
+      "widthPx": 3043,
+      "heightPx": 2911,
+      "authorAttributions": [
+        {
+          "displayName": "Devina Natanael",
+          "uri": "https://maps.google.com/maps/contrib/111453533251353104053",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV8oivhbq34BSKdwhwlk_XOP5WzGUCh_4uZbwTvTiPEtMc3cw8eqA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCh_EeV4qhwR27-N2o2LfyF&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCh_EeV4qhwR27-N2o2LfyF!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMYyYcN6hD2vTHeI_JAje3BDAc3zuHYct9BNu0C5Pzw1TfMhqlbNG-LtRoiEgXxrgCDqZuBBWRuOoYaVFRDos-zS7KJ7Oy0nrHfKWXIUheKK3KjGepy29wqtuWPTEG2c69t2C9ngpUi-UxAkBjBcH1Wd-iwLzycmTKkkPNNoH5UBLqzgfPQuhs5Lu9Wmls4LOO8dQTE2J38yJptJSn_SfPwylGDkwd-aM1inScfS5IqUM8Ch8gz7YGmzHp-4bHar7apnpv7wcpkSkez3X58M8_PQHGcNIzo0byROL2rPDmwb1u77ZShG8GcIQOMY357jHZ20jgdZPcS_k10GQ-tkzSoMygCrg9FKR94iOIWQ7oNQDlThdLgBNa9aaM2pq9DlPltb7j5NscD1SGgw8RGDkHSiitPTY88",
+      "widthPx": 4160,
+      "heightPx": 3120,
+      "authorAttributions": [
+        {
+          "displayName": "Arie Himawan",
+          "uri": "https://maps.google.com/maps/contrib/114624294260268742095",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW2JSeM7MMDpzCPPJICEsLoyLb3MbSPoXVM7azFVp6b4EglN8FV=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEOaatrasloueoQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEOaatrasloueoQE!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMaRsVA00S7ERmMeTJhRiZvowsVOCtoltUiKVywUzvOr4u0EqSpeq8k9fu4BgACMjt6zDOSpXvta9IdZUFosHTrCezzonRuyrb88N0waTV7WDqD5CAWB7n9NEHiSMZZKn9fP6F0JoEaV1qzEQOqsFrorHpkZyJAngeeJXzYWIn59Df896L46Ncqn768OoGcWVxj0WGTdfLDaSglKPxZga2c-RHKV6bXlTo8si5RBay6QsTAUc5gqs8snRJA544kTRc7wuC86H80QBpSmetw16_x0PDScGBLn_SB0kPB04JsHYy2DVyUP91QIdgKJxthL4rGHNEu9zznTJQRrwOYGvnfw7oz4BJUKUf1nGz7N-_GSLp-X7SMWFoWRUA50A7nJs11T-icTEj7ol80OQsQXK5JOZA",
+      "widthPx": 4000,
+      "heightPx": 2252,
+      "authorAttributions": [
+        {
+          "displayName": "Wiwiek Utami Dewi",
+          "uri": "https://maps.google.com/maps/contrib/112601769276530330997",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUFa8B0eIIbhI9kYXVelHTScSWoYUwS9VEUjSBtze8gO8Vt_r03fA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMDgr8medA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDgr8medA!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMYa-OlbpmzJGfTN2RZ79v9UkLjz0NCTOi402TFMZuSK4gZKrvpCrWjoEvecouYdgLVaE2Xl9oE2FQBHnzcN4_hjH5XWoJ9OQ7s45A48TvdPEh5CBBa-W1XBzp6iuehLtatTsACPgdkjY_dtdXSb1IP0AFuRcVK48tlT0mTAnHv88kJCURHAxQZzeFc5beSFCFBEXRfUjBMoPbrGWWeNmtaC5tZdZeQZB2JI6P6oox0Y4SX6dRZBADA3HXLeHN3Zbw-Ll27NxhmrVUaTpNrMdsLJKazHwGlbY3fPHAIiiJ_31tZihcQUDOSHgyfPqdyOqklO4Kl6UQ1vjhJIEStDZhnKxs5OQMYuFFo8FnRqBPcDLg_f0aGQh1fwKWzM10--j9Ua6zr1eLlgFwTb5rh5y--_zvJiJNEbN4VLdQmhNVT7Cw",
+      "widthPx": 3434,
+      "heightPx": 2576,
+      "authorAttributions": [
+        {
+          "displayName": "Devina Natanael",
+          "uri": "https://maps.google.com/maps/contrib/111453533251353104053",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV8oivhbq34BSKdwhwlk_XOP5WzGUCh_4uZbwTvTiPEtMc3cw8eqA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBjvxWsQMG-HiOea-KgDNeG&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBjvxWsQMG-HiOea-KgDNeG!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMaOzxjilacnubTUMdKFlvztmbxPT0JW6y048jQ-BXCVafcAhx3Bfg3-dGaPgEbJdcyODe94cKiEg5owg5L94pfmSQFbJ0uCH88TPeLieLqW4Vz3ATzwcXb2Y88945klJZHHmP9ol9tH9qU7aIZXKFw1wnfdj_WQmiU1WW_gkURuOyfQPqAgzAyd32ZVQGZAlqTZD3MT4G-m1MxvpCYW2MMWYGBpjxwY-v6GvCKZjYLhnqVGHOExrHCqu_QUZK0eAaEelJUiE1NmZs343xrKc_9aVZku8JcdfieoQ2XqcgDeO4CbXGoXbfMrQqM9p-vdWCpTjl_M1MF1V6cH4xhdGQ7VNk73lNMwqwkj13bReu1ZTH86L_-rr25hRaSptsD8JXNG99b2OxjqaHgDYsjjFEa-8C3CnDdjhML0yZbDGe6nYg",
+      "widthPx": 3038,
+      "heightPx": 2085,
+      "authorAttributions": [
+        {
+          "displayName": "Devina Natanael",
+          "uri": "https://maps.google.com/maps/contrib/111453533251353104053",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV8oivhbq34BSKdwhwlk_XOP5WzGUCh_4uZbwTvTiPEtMc3cw8eqA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBhIOaqQWO4QE3d0Q5Vzkkg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBhIOaqQWO4QE3d0Q5Vzkkg!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMZtyLlz-W-uBG8vzccqhcDjhcjT4tm3ZuhVBc6P1RA1L1RfpmKHkeQaKZ67C7scAVMJFJ5eyeZJKpfKU-sYrRJDu8-u75gCVTw-EmLAZZgG6LMlxeWEkKERSoqVcyo7VdpKKI7HW1Z6FTII3qi8oIfkRFBVJwOmjrjws88vwRm4ardMXLjK_uYgnDV-Dijqjn3G4jaUNAc2_9Rjx1PWD4lkyy-OGytTN7cH9EuuN76bzHCKDT6bZ4S3t_VcNyf78ZG2dtlr5c8aSPJ4mIAUA_1UmqF2wWL2ACWkwgizC9Rfin75PFhH65IubwabISLTTUvAAhsu-2JU1KyWu0I2DgH4YWfTn0eBWE34XZd1I-rz_Sv02MOCGj1E8M498_GERDzC_f-QgHYVd71EoLqJpOu4s_vbnH1EvV6C40Jyrxh1",
+      "widthPx": 3264,
+      "heightPx": 2448,
+      "authorAttributions": [
+        {
+          "displayName": "gati nazeni",
+          "uri": "https://maps.google.com/maps/contrib/102327072199042668967",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUyS89uCKjA1dGVPNMX9bfsCAyX2QU3Ty1iBBMr-MLBxSIxHsO0=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAsNstSuy1XYfv6aqK-68SO&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAsNstSuy1XYfv6aqK-68SO!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMaLfdoyWyhraFexU9ThNqXNoUD3o0dUbUEXd9RcNS4Ct-H2CfJrgNiWH9_p8RrGdPb3do-x9PSvem3fC0Tq3LPp5s-7qqE6_8AVtPNTYS3qUNH4cl6YSAeH5chcfmeeKkEdu2VmARYECxCH5wNE1HZD2QWLbUItq3t4ArxzUwEerVg9dTCYopmBdMdcqZC8zAnigSRdig1uMgbr4DOyXTUtX5ojhSh_vA4NTVLpF0SODDyI3Cjdf03e3NyH3x46rdLBj2LdXf0dY1Ds3naB6fPf4rrAz6bziHjjaHzzIyp5WaI1E8jo3o6qbILJ8acDmGV6hkM0aP49dnDBnnTe8hjR48WPiB76AWly6WoPRlTpWzCw8BXHqJIA68_Dz7-Vv6BUmmmULrV2mcW3B9zjKcjpHNydYXw",
+      "widthPx": 4032,
+      "heightPx": 2268,
+      "authorAttributions": [
+        {
+          "displayName": "Devi Dimitra Maksum",
+          "uri": "https://maps.google.com/maps/contrib/101850866091059675918",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXMyxLZAbYFmssXpFbESQQl9RFI-nZbXJXrRPtP_6IBDhZ7FOrqRw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDSiZykyQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDSiZykyQE!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMZlwccDmB362mYil_BQqcdGXEHJvivqVXXujLbC648C8W7TM8o1DHxfvB7m1Ea6RYAjk7eIku09yjuuiYcRI3ahlTx8M12Gxx5qMzBhL6VrJgfx-LoHyWOhqyjfQmMN2VT4b1tveTZYi7xH8ehuq9ol3nkPIGO69ZSuS3ER4kuSnF67x--JG68LBEQWmQc0ZPdCFnIpNJhRHeqsayFN0wBKDEbl8kKnJY4nsza8LEAgj_iEumLLkfvfqNJ9kJGemUwhxACpZrqN3AEhAMYTkSvqR67vC8-LNjgeTH6o0br8xIQ1PuUYsQZwBisGfDPDJTd0J1Fdsw23wjqTyG4EZeyIRvoIduRGE5YRqEdZ7ZFXDYCE2MH03Lmbgi9bCgpuDEbOVn9jxf0Q4fk-DJ_0NgDucE0",
+      "widthPx": 3168,
+      "heightPx": 3168,
+      "authorAttributions": [
+        {
+          "displayName": "Fried.Rambutans",
+          "uri": "https://maps.google.com/maps/contrib/106403160572963278995",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXsnVp_C9wqPId10k-rZ2gWlh_1vUAGtqjYikjjJ9jG9V8EyMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICigtnbFg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICigtnbFg!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    },
+    {
+      "name": "places/ChIJuXEY7GT0aS4R-48Vp2IlXQY/photos/Aa-ngMYNGr1l7M1Pd8b6F7ibmHR8wxgwbclDHVohc4r9IgU0AERIPImYuXhXlQg8QZDs0dLY5sFRtFgokROV23MInyFmiCDRweKgNlG4YB7qN0nN2h-0StNkPxGUJHojMLHLSb73grYVwEFBsu8z0xh4vO9QGHi5QEH3Zgzlc2kcVK0JDuddTz6ZW5U_Z4vqRXdhGFEZ76qEs8PPOIUgWfv1R8-OgDcAcUamALScG-Ps_cQY_AJlfPSIKd-8Sj0xVGvAnFBc_mPVfhHvofxWcbbU3L7TInQxrS3EGTUNV10GbFGDKGfMkSXWdIMHiXCjIpv59USfJES349W5zxXChYA633J89ZcjvcnlTY5h8QkNWRD9Q26qzDaxYjZ9R98YCWQxdo_awElkck68VQMD-mo3wYNl8dw",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Airlangga Jati",
+          "uri": "https://maps.google.com/maps/contrib/113852547455793907715",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXHb6GDGCRA3Q7rpirDKMvR0aHcGo6owLcjG0E08w9sRO_f0K3fBA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDe8cz5Og&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDe8cz5Og!2e10!4m2!3m1!1s0x2e69f464ec1871b9:0x65d2562a7158ffb"
+    }
+  ]
+}

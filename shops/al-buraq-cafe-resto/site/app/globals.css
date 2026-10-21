@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Colours and fonts become Tailwind utilities (bg-plaster, text-velvet, font-display...).
+   Illustration tints (glass, food, cloth) stay inside the SVG components. */
+@theme {
+  --color-plaster: #EBD6CB;  /* page ground: the rose walls */
+  --color-niche: #D2AC9C;    /* arch recesses, map frame, hairlines on plaster (never text) */
+  --color-velvet: #6B1526;   /* headings on plaster, primary button, Menu and closing bands */
+  --color-slate: #3D4C60;    /* the second room: Datang ramai-ramai band */
+  --color-ink: #2B1518;      /* body text, iron frames */
+  --color-linen: #FBF5F0;    /* table tops, plates, text on velvet and slate */
+
+  --font-display: var(--font-rakkas), Georgia, serif;
+  --font-body: var(--font-readex), system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;          /* max content width */
+  --gutter: 20px;               /* page margin on phone */
+  --section-y: 64px;            /* section padding on phone */
+  --grid-gap: 24px;             /* 12-col grid gap from 1024px */
+
+  --step-display: clamp(3.5rem, 2.2rem + 5.2vw, 6rem);          /* 56 / 96: hero name only */
+  --step-head: clamp(2.125rem, 1.6rem + 1.9vw, 3.25rem);        /* 34 / 52: section headings */
+  --step-lead: clamp(1.375rem, 1.25rem + 0.45vw, 1.625rem);     /* 22 / 26 */
+  --step-body: clamp(1.0625rem, 1rem + 0.15vw, 1.125rem);       /* 17 / 18 */
+  --step-small: clamp(0.8125rem, 0.78rem + 0.1vw, 0.875rem);    /* 13 / 14 */
+
+  --leading-display: 1.05;      /* the name always breaks into two lines */
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  --hairline-dark: color-mix(in srgb, var(--color-linen) 24%, transparent);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 40px; --section-y: 112px; }
+}
+
+html { background: var(--color-plaster); color: var(--color-ink); }
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+/* Two plaster sections in a row (Kata mereka, Kunjungi kami): one gap, not two. */
+.section-follow { padding-top: 0; }
+.section-follow-half { padding-top: calc(var(--section-y) * 0.5); }
+
+.t-display { font-family: var(--font-display); font-weight: 400; font-size: var(--step-display); line-height: var(--leading-display); letter-spacing: 0; }
+.t-head    { font-family: var(--font-display); font-weight: 400; font-size: var(--step-head); line-height: var(--leading-head); letter-spacing: 0; text-wrap: balance; }
+.t-lead    { font-size: var(--step-lead); line-height: 1.35; font-weight: 500; }
+.t-body    { font-size: var(--step-body); line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small); line-height: 1.45; }
+
+.measure { max-width: 62ch; }
+.measure-lead { max-width: 32ch; }
+
+/* 12-column grid from 1024px (design brief §5). Columns are plain Tailwind utilities. */
+@media (min-width: 1024px) {
+  .grid-12 { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); }
+}
+
+/* ---------------------------------------------------------------- browser surfaces */
+::selection { background: var(--color-velvet); color: var(--color-linen); }
+a { text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:focus-visible { outline: 3px solid var(--color-velvet); outline-offset: 3px; border-radius: 4px; }
+.on-dark :focus-visible { outline-color: var(--color-linen); }
+.on-dark ::selection { background: var(--color-linen); color: var(--color-velvet); }
+html { scrollbar-color: var(--color-velvet) var(--color-plaster); }
+
+.skip-link {
+  position: absolute; left: 12px; top: -100px; z-index: 60;
+  background: var(--color-velvet); color: var(--color-linen);
+  padding: 12px 18px; border-radius: 8px; font-weight: 500;
+}
+.skip-link:focus-visible { top: 12px; outline-color: var(--color-ink); }
+
+@layer components {
+/* ---------------------------------------------------------------- buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 48px; padding: 10px 24px;
+  border-radius: 10px; border: 2px solid transparent;
+  font-family: var(--font-body); font-size: var(--step-body); font-weight: 500; line-height: 1.2;
+  text-decoration: none; text-align: center;
+  transition: background-color 180ms ease-out, color 180ms ease-out, border-color 180ms ease-out, transform 150ms ease-out;
+}
+.btn:active { transform: translateY(1px); }
+.btn-primary { background: var(--color-velvet); color: var(--color-linen); border-color: var(--color-velvet); }
+.btn-primary:hover { background: var(--color-ink); border-color: var(--color-ink); }
+.btn-secondary { background: transparent; color: var(--color-velvet); border-color: var(--color-velvet); }
+.btn-secondary:hover { background: var(--color-velvet); color: var(--color-linen); }
+.btn-onDark { background: var(--color-plaster); color: var(--color-velvet); border-color: var(--color-plaster); }
+.btn-onDark:hover { background: var(--color-linen); border-color: var(--color-linen); }
+
+/* ---------------------------------------------------------------- arches (no clip-path) */
+.arch { border-radius: 9999px 9999px 0 0; overflow: hidden; }
+
+/* ---------------------------------------------------------------- closing action rows */
+.action-row {
+  display: flex; align-items: center; gap: 16px;
+  min-height: 56px; padding-block: 14px;
+  color: var(--color-linen); text-decoration: none;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 180ms ease-out, color 180ms ease-out;
+}
+.action-row:hover .action-label { text-decoration: underline; text-decoration-color: currentColor; }
+.action-row:active { transform: translateY(1px); }
+.action-row .action-arrow { margin-left: auto; flex: none; transition: transform 180ms ease-out; }
+.action-row:hover .action-arrow { transform: translateX(3px); }
+
+/* ---------------------------------------------------------------- hero */
+/* --lantern-w drives the lantern size and how far the text clears it (lantern is 2.31x tall). */
+.hero { --lantern-w: 124px; }
+.hero-lantern { width: var(--lantern-w); }
+.hero-lantern-wrap { position: absolute; top: 0; right: var(--gutter); }
+/* Phone: "Al Buraq" sits beside the lantern's lower body, "Cafe & Resto" starts below the finial. */
+.hero-text { padding-top: calc(var(--lantern-w) * 1.78); padding-bottom: 56px; }
+@media (min-width: 768px) {
+  .hero { --lantern-w: 168px; }
+  /* Tablet: the text column stops short of the lantern, so both lines may sit beside it. */
+  .hero-text { padding-top: calc(var(--lantern-w) * 1.07); padding-right: calc(var(--lantern-w) + 24px); padding-bottom: 96px; }
+}
+@media (min-width: 1024px) {
+  .hero { --lantern-w: 224px; display: flex; flex-direction: column; min-height: min(80svh, 720px); }
+  .hero-inner { flex: 1; }
+  .hero-lantern-wrap { position: relative; top: auto; right: auto; justify-self: center; align-self: start; }
+  .hero-text { align-self: center; padding: 80px 0; }
+}
+@media (min-width: 1280px) { .hero { --lantern-w: 244px; } }
+
+.lantern-light { filter: blur(1px); }
+.dapple-wide { display: none; }
+@media (min-width: 1024px) { .dapple-wide { display: inline; } }
+
+/* Long table labels: on phone and tablet the strip is cropped (xMidYMid slice) at a fixed
+   height, so items sit at a fixed px offset from the centre; from 1024px it is uncropped. */
+.long-table-box { height: 180px; }
+.lt-label { position: absolute; top: 73.6%; transform: translateX(-50%); white-space: nowrap; }
+.lt-label-tray { left: calc(50% - 49px); }
+.lt-label-jug  { left: calc(50% + 106px); }
+@media (min-width: 1024px) {
+  .long-table-box { height: auto; aspect-ratio: 1200 / 220; }
+  .lt-label-tray { left: 45%; }
+  .lt-label-jug  { left: 60.8333%; }
+}
+
+}
+
+/* Signature moment. An inline script in layout.tsx adds .js-motion to <html> only when
+   scripts run and reduced motion is off, so the lit overlays start dark and the lantern lights
+   up without first flashing lit. With JS off, or reduced motion, the lantern is simply lit.
+   If the bundle never runs, the fallback brings the light in at 2.5s. */
+@keyframes lantern-fallback { to { opacity: 1; } }
+.js-motion .lantern .lit,
+.js-motion .lantern-light { opacity: 0; animation: lantern-fallback 0.4s ease-out 2.5s forwards; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small); line-height: 1.4; text-align: center; padding: 8px 20px;
+  background: var(--color-ink); color: var(--color-linen);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active, .action-row:active { transform: none; }
+  .action-row:hover .action-arrow { transform: none; }
+}

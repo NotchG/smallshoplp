@@ -1,0 +1,536 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6366,
+    "sizes": [
+      {
+        "el": "h1#judul \"Toko Roti Tegal\"",
+        "fontSize": 80,
+        "lineHeight": "72px",
+        "textWidth": 237,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "span \"07.00–19.00\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 135,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#roti-h \"Roti kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 154,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "p \"Roti cokelat · Rp 8rb\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 240,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "p \"Roti cokelat keju\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 138,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "p \"Roti kacang\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 98,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "p \"Roti keju\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 72,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "p \"Roti pisang cokelat\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 93,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "p \"Roti srikaya\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 97,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "p \"Roti abon\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 79,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#kue-h \"Kue tradisional\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 247,
+        "pctOfContentWidth": 71
+      },
+      {
+        "el": "p \"Pastel · Rp 6rb\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 120,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "p \"Risoles\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 61,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "p \"Lemper\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 65,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "p \"Kue lumpur\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 96,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "p \"Dadar gulung\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 112,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "p \"Bolu pandan gulung\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 104,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#pesan-h \"Pesan kotak kue\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 259,
+        "pctOfContentWidth": 74
+      },
+      {
+        "el": "h3 \"Kotak kue\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 123,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Kue kering hari raya\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 252,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "h2#kata-h \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 240,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h3#jam-h \"Jam buka\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 117,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 229,
+        "pctOfContentWidth": 65
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6610,
+    "sizes": [
+      {
+        "el": "h1#judul \"Toko Roti Tegal\"",
+        "fontSize": 120.5,
+        "lineHeight": "108.432px",
+        "textWidth": 358,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "span \"07.00–19.00\"",
+        "fontSize": 25,
+        "lineHeight": "32.5312px",
+        "textWidth": 147,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#roti-h \"Roti kami\"",
+        "fontSize": 37.7,
+        "lineHeight": "41.5008px",
+        "textWidth": 194,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "p \"Roti cokelat · Rp 8rb\"",
+        "fontSize": 25,
+        "lineHeight": "32.5312px",
+        "textWidth": 261,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "p \"Roti cokelat keju\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 138,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "p \"Roti kacang\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 98,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "p \"Roti keju\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 72,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "p \"Roti pisang cokelat\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 158,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "p \"Roti srikaya\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 97,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "p \"Roti abon\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 79,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#kue-h \"Kue tradisional\"",
+        "fontSize": 37.7,
+        "lineHeight": "41.5008px",
+        "textWidth": 310,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "p \"Pastel · Rp 6rb\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 120,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "p \"Risoles\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 61,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "p \"Lemper\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 65,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "p \"Kue lumpur\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 96,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "p \"Dadar gulung\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 112,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "p \"Bolu pandan gulung\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 165,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#pesan-h \"Pesan kotak kue\"",
+        "fontSize": 37.7,
+        "lineHeight": "41.5008px",
+        "textWidth": 326,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Kotak kue\"",
+        "fontSize": 25,
+        "lineHeight": "32.5312px",
+        "textWidth": 134,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Kue kering hari raya\"",
+        "fontSize": 25,
+        "lineHeight": "32.5312px",
+        "textWidth": 274,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#kata-h \"Kata mereka\"",
+        "fontSize": 37.7,
+        "lineHeight": "41.5008px",
+        "textWidth": 256,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 37.7,
+        "lineHeight": "41.5008px",
+        "textWidth": 301,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3#jam-h \"Jam buka\"",
+        "fontSize": 25,
+        "lineHeight": "32.5312px",
+        "textWidth": 127,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 37.7,
+        "lineHeight": "41.5008px",
+        "textWidth": 288,
+        "pctOfContentWidth": 41
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4940,
+    "sizes": [
+      {
+        "el": "h1#judul \"Toko Roti Tegal\"",
+        "fontSize": 168,
+        "lineHeight": "151.2px",
+        "textWidth": 499,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "span \"07.00–19.00\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 165,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#roti-h \"Roti kami\"",
+        "fontSize": 46,
+        "lineHeight": "50.6px",
+        "textWidth": 236,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "p \"Roti cokelat · Rp 8rb\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 292,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "p \"Roti cokelat keju\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 138,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "p \"Roti kacang\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 98,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "p \"Roti keju\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 72,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "p \"Roti pisang cokelat\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 158,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "p \"Roti srikaya\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 97,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "p \"Roti abon\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 79,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#kue-h \"Kue tradisional\"",
+        "fontSize": 46,
+        "lineHeight": "50.6px",
+        "textWidth": 379,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "p \"Pastel · Rp 6rb\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 120,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "p \"Risoles\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 61,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "p \"Lemper\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 65,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "p \"Kue lumpur\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 96,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "p \"Dadar gulung\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 112,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "p \"Bolu pandan gulung\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 165,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#pesan-h \"Pesan kotak kue\"",
+        "fontSize": 46,
+        "lineHeight": "50.6px",
+        "textWidth": 397,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Kotak kue\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 149,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Kue kering hari raya\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 307,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#kata-h \"Kata mereka\"",
+        "fontSize": 46,
+        "lineHeight": "50.6px",
+        "textWidth": 312,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 46,
+        "lineHeight": "50.6px",
+        "textWidth": 367,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3#jam-h \"Jam buka\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 143,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 46,
+        "lineHeight": "50.6px",
+        "textWidth": 351,
+        "pctOfContentWidth": 29
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  }
+}

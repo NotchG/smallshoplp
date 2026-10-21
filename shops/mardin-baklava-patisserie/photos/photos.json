@@ -1,0 +1,38 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Mardin Baklava Patisserie",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "Mardin Baklava Patisserie",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-3.jpg",
+    "author": "Mardin Baklava Patisserie",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Wibisono Bagus",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Winda Permata",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Gilang Fitri",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

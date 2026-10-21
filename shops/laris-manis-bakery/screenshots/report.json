@@ -1,0 +1,347 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6134,
+    "sizes": [
+      {
+        "el": "h1 \"Laris Manis Bakery\"",
+        "fontSize": 76,
+        "lineHeight": "79.8px",
+        "textWidth": 298,
+        "pctOfContentWidth": 85
+      },
+      {
+        "el": "h2#roti-title \"Roti kami\"",
+        "fontSize": 36.5,
+        "lineHeight": "41.998px",
+        "textWidth": 150,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Roti Meses Keju\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 166,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Roti Cokelat\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Roti Sosis\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 103,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kue-title \"Kue & camilan\"",
+        "fontSize": 36.5,
+        "lineHeight": "41.998px",
+        "textWidth": 228,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h3 \"Bolu Pizza\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 107,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Kue Semprit Keju\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 180,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#pesan-title \"Pesan untuk acara & reseller\"",
+        "fontSize": 36.5,
+        "lineHeight": "41.998px",
+        "textWidth": 244,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h3 \"Kue kering Lebaran\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 203,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"Ulang tahun & acara\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 211,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Warung & reseller\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 188,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 36.5,
+        "lineHeight": "41.998px",
+        "textWidth": 197,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 36.5,
+        "lineHeight": "41.998px",
+        "textWidth": 231,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 36.5,
+        "lineHeight": "41.998px",
+        "textWidth": 221,
+        "pctOfContentWidth": 63
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5509,
+    "sizes": [
+      {
+        "el": "h1 \"Laris Manis Bakery\"",
+        "fontSize": 106.9,
+        "lineHeight": "112.224px",
+        "textWidth": 638,
+        "pctOfContentWidth": 91
+      },
+      {
+        "el": "h2#roti-title \"Roti kami\"",
+        "fontSize": 47.1,
+        "lineHeight": "54.1696px",
+        "textWidth": 193,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Roti Meses Keju\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 182,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Roti Cokelat\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 140,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Roti Sosis\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 113,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#kue-title \"Kue & camilan\"",
+        "fontSize": 47.1,
+        "lineHeight": "54.1696px",
+        "textWidth": 294,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"Bolu Pizza\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 118,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Kue Semprit Keju\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 198,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#pesan-title \"Pesan untuk acara & reseller\"",
+        "fontSize": 47.1,
+        "lineHeight": "54.1696px",
+        "textWidth": 570,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h3 \"Kue kering Lebaran\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 223,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Ulang tahun & acara\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 232,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Warung & reseller\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 207,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 47.1,
+        "lineHeight": "54.1696px",
+        "textWidth": 254,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 47.1,
+        "lineHeight": "54.1696px",
+        "textWidth": 298,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 47.1,
+        "lineHeight": "54.1696px",
+        "textWidth": 285,
+        "pctOfContentWidth": 40
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5247,
+    "sizes": [
+      {
+        "el": "h1 \"Laris Manis Bakery\"",
+        "fontSize": 128,
+        "lineHeight": "134.4px",
+        "textWidth": 792,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h2#roti-title \"Roti kami\"",
+        "fontSize": 60,
+        "lineHeight": "69px",
+        "textWidth": 246,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Roti Meses Keju\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 200,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Roti Cokelat\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 154,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Roti Sosis\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 125,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#kue-title \"Kue & camilan\"",
+        "fontSize": 60,
+        "lineHeight": "69px",
+        "textWidth": 375,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Bolu Pizza\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 130,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Kue Semprit Keju\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 218,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#pesan-title \"Pesan untuk acara & reseller\"",
+        "fontSize": 60,
+        "lineHeight": "69px",
+        "textWidth": 401,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Kue kering Lebaran\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 246,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Ulang tahun & acara\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 255,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Warung & reseller\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 228,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 60,
+        "lineHeight": "69px",
+        "textWidth": 323,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 60,
+        "lineHeight": "69px",
+        "textWidth": 379,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 60,
+        "lineHeight": "69px",
+        "textWidth": 363,
+        "pctOfContentWidth": 30
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  }
+}

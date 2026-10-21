@@ -1,0 +1,515 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 9471,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"kana COFFEE & SPACE\"",
+        "fontSize": 112,
+        "lineHeight": "100.8px",
+        "textWidth": 349,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 211,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"HIDANGAN UTAMA\"",
+        "fontSize": 13.5,
+        "lineHeight": "19.5895px",
+        "textWidth": 155,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"MOCKTAIL\"",
+        "fontSize": 13.5,
+        "lineHeight": "19.5895px",
+        "textWidth": 85,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"FAVORIT TAMU\"",
+        "fontSize": 13.5,
+        "lineHeight": "19.5895px",
+        "textWidth": 121,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"JUGA DI MENU\"",
+        "fontSize": 13.5,
+        "lineHeight": "19.5895px",
+        "textWidth": 120,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#ruang-title \"Satu tempat, banyak ruang\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 212,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"Ruang dalam ber-AC\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h3 \"Area luar lantai 1\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 164,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Area luar lantai 2\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 167,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Kolam ikan\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 106,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Motor di tengah kafe\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 202,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"Toko abaya\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 107,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#fasilitas-title \"Fasilitas\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 137,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 208,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Tersembunyi, tapi layak dicari\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 287,
+        "pctOfContentWidth": 82
+      },
+      {
+        "el": "h3 \"Nasi gorengnya paling dipuji\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 282,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h3 \"Tenang untuk kerja dan ngobrol\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 307,
+        "pctOfContentWidth": 88
+      },
+      {
+        "el": "h3 \"Bersih sampai ke toilet\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 218,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 212,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"CARA MENEMUKAN KAMI\"",
+        "fontSize": 13.5,
+        "lineHeight": "19.5895px",
+        "textWidth": 208,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 13.5,
+        "lineHeight": "19.5895px",
+        "textWidth": 83,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#hubungi-title \"Sampai ketemu di Kana\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 244,
+        "pctOfContentWidth": 70
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 34
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7842,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"kana COFFEE & SPACE\"",
+        "fontSize": 148.5,
+        "lineHeight": "133.632px",
+        "textWidth": 340,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 258,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"HIDANGAN UTAMA\"",
+        "fontSize": 13.9,
+        "lineHeight": "20.1376px",
+        "textWidth": 159,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"MOCKTAIL\"",
+        "fontSize": 13.9,
+        "lineHeight": "20.1376px",
+        "textWidth": 87,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"FAVORIT TAMU\"",
+        "fontSize": 13.9,
+        "lineHeight": "20.1376px",
+        "textWidth": 124,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"JUGA DI MENU\"",
+        "fontSize": 13.9,
+        "lineHeight": "20.1376px",
+        "textWidth": 124,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#ruang-title \"Satu tempat, banyak ruang\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 543,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "h3 \"Ruang dalam ber-AC\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 216,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Area luar lantai 1\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 178,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Area luar lantai 2\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 181,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Kolam ikan\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Motor di tengah kafe\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 219,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Toko abaya\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 116,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#fasilitas-title \"Fasilitas\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 167,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 255,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Tersembunyi, tapi layak dicari\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 310,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Nasi gorengnya paling dipuji\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 305,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Tenang untuk kerja dan ngobrol\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 332,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Bersih sampai ke toilet\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 236,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 260,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"CARA MENEMUKAN KAMI\"",
+        "fontSize": 13.9,
+        "lineHeight": "20.1376px",
+        "textWidth": 214,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 13.9,
+        "lineHeight": "20.1376px",
+        "textWidth": 85,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#hubungi-title \"Sampai ketemu di Kana\"",
+        "fontSize": 44,
+        "lineHeight": "48.4352px",
+        "textWidth": 463,
+        "pctOfContentWidth": 65
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 34
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 6331,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"kana COFFEE & SPACE\"",
+        "fontSize": 208,
+        "lineHeight": "187.2px",
+        "textWidth": 584,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 351,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"HIDANGAN UTAMA\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 160,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"MOCKTAIL\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 88,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"FAVORIT TAMU\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 125,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"JUGA DI MENU\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 125,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#ruang-title \"Satu tempat, banyak ruang\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 353,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Ruang dalam ber-AC\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 236,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Area luar lantai 1\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 194,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Area luar lantai 2\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 198,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Kolam ikan\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 125,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Motor di tengah kafe\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 239,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Toko abaya\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 127,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#fasilitas-title \"Fasilitas\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 228,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 347,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Tersembunyi, tapi layak dicari\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 180,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Nasi gorengnya paling dipuji\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 181,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Tenang untuk kerja dan ngobrol\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 204,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Bersih sampai ke toilet\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 257,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 354,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"CARA MENEMUKAN KAMI\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 216,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 14,
+        "lineHeight": "20.3px",
+        "textWidth": 86,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#hubungi-title \"Sampai ketemu di Kana\"",
+        "fontSize": 60,
+        "lineHeight": "66px",
+        "textWidth": 630,
+        "pctOfContentWidth": 53
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 34
+  }
+}

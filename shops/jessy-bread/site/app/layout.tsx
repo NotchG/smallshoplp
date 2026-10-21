@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Paytone_One, Rubik } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import MockupBanner from "@/components/MockupBanner";
@@ -10,6 +11,20 @@ const paytone = Paytone_One({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-paytone",
+});
+// The logotype's own copy of Paytone One (same Google latin file, SIL OFL), with its text box
+// trimmed to the ink. The stock box (1.11em up, 0.28em down) is taller than the logotype's tight
+// leading, so "Jessy" and "Bread" boxes overlapped although the letters don't touch.
+const paytoneLogo = localFont({
+  src: "./fonts/paytone-one-latin-400.woff2",
+  weight: "400",
+  display: "swap",
+  variable: "--font-logo",
+  declarations: [
+    { prop: "ascent-override", value: "70%" },
+    { prop: "descent-override", value: "20%" },
+    { prop: "line-gap-override", value: "0%" },
+  ],
 });
 const rubik = Rubik({
   weight: ["400", "500", "700"],
@@ -31,7 +46,7 @@ const motionGate =
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="id" className={`${paytone.variable} ${rubik.variable}`} suppressHydrationWarning>
+    <html lang="id" className={`${paytone.variable} ${paytoneLogo.variable} ${rubik.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: motionGate }} />
       </head>

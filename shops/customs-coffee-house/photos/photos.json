@@ -1,0 +1,50 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "CUSTOMS coffee house",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "CUSTOMS coffee house",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-3.jpg",
+    "author": "CUSTOMS coffee house",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-4.jpg",
+    "author": "CUSTOMS coffee house",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-5.jpg",
+    "author": "CUSTOMS coffee house",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "FREDY NOYA",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "A M S Pamulu",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Rendi Restiawan",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

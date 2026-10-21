@@ -1,0 +1,381 @@
+{
+  "id": "ChIJZRhjMmvzaS4RrWuq19k_7Ik",
+  "types": [
+    "coffee_shop",
+    "barber_shop",
+    "hair_care",
+    "cafe",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "service",
+    "health",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0882-9630-2726",
+  "internationalPhoneNumber": "+62 882-9630-2726",
+  "formattedAddress": "Jl. Biru Laut VIII No.48.C, RT.9/RW.11, Cipinang Cempedak, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=9938388682558565293&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 10:00 AM – 10:00 PM",
+      "Tuesday: 10:00 AM – 10:00 PM",
+      "Wednesday: 10:00 AM – 10:00 PM",
+      "Thursday: 10:00 AM – 10:00 PM",
+      "Friday: 10:00 AM – 10:00 PM",
+      "Saturday: 10:00 AM – 10:00 PM",
+      "Sunday: 10:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T03:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 326,
+  "displayName": {
+    "text": "Nuansa coffee and barber",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/reviews/ChdDSUhNMG9nS0VJQ0FnTURBa0lfcDhnRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Been coming here since 2021 every time I travel through Jakarta. Great coffee and quick haircut makes the visit worthwhile. Clean, friendly, comfortable place to hang out",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Been coming here since 2021 every time I travel through Jakarta. Great coffee and quick haircut makes the visit worthwhile. Clean, friendly, comfortable place to hang out",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Elton Wilmot",
+        "uri": "https://www.google.com/maps/contrib/107616946778414590960/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI4F0_H2ARb8FIoooguaAnPfWut47jfpr2uMlP4xYFNi38xcTM=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2025-02-06T07:55:06.304596Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnTURBa0lfcDhnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnTURBa0lfcDhnRRAB!2m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/reviews/ChdDSUhNMG9nS0VJQ0FnSURQNUxxeXV3RRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Come at November 2024\n1. Ordering kopi susu gula aren, typical sour, maybe they use arabica fpr the beans\n2. Taste good\n3. Limited seatings for indoor and outdoor",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Come at November 2024\n1. Ordering kopi susu gula aren, typical sour, maybe they use arabica fpr the beans\n2. Taste good\n3. Limited seatings for indoor and outdoor",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "GR F",
+        "uri": "https://www.google.com/maps/contrib/117669866266654305284/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXHDEbIRtd29D8DKC9S1qoK7aNgQkhhJRvBXIXqdNBSAmXEHZ6D=s128-c0x00000000-cc-rp-mo-ba7"
+      },
+      "publishTime": "2024-11-29T09:28:30.341354Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURQNUxxeXV3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURQNUxxeXV3RRAB!2m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/reviews/ChZDSUhNMG9nS0VJQ0FnSUN4aHFQMVdBEAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 4,
+      "text": {
+        "text": "My go-to beverage is the Americano. The barber service is quite good since I got the haircut I expected. To my surprise, they also have shoes cleaning services. As for the place, it is cozy enough. The only downside is that the place is quite hot.\n\nDespite that, still love the place.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "My go-to beverage is the Americano. The barber service is quite good since I got the haircut I expected. To my surprise, they also have shoes cleaning services. As for the place, it is cozy enough. The only downside is that the place is quite hot.\n\nDespite that, still love the place.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Daniel Agus Dinar",
+        "uri": "https://www.google.com/maps/contrib/110067735211295474554/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU-fl-ikeAW5imZF4kiNSB8FFiPpm-jE33X65T2v-DJyJH-7nSaLw=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2023-05-16T10:01:26.651186Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUN4aHFQMVdBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUN4aHFQMVdBEAE!2m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/reviews/ChZDSUhNMG9nS0VJQ0FnSUNtaGV1ZUx3EAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "I visited this place to get a new haircut three days ago and I gotta say, Man…. I’m very satisfied with the result. The capster, Mas Harris (If I’m not mistaken) is quite knowledgeable about hair care treatment. The place is clean and well-decorated. The price is quite affordable. You can also get a glass of coffee while waiting for your turn if you want to. I haven’t tried the coffee tho, so I can’t give any feedback about that. You don’t bring cash? No worries because you can use your digital wallet or debit card. Overall, I enjoyed my visit. A nice place to hangout. A nice place to get a new haircut. Definitely will come back later",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I visited this place to get a new haircut three days ago and I gotta say, Man…. I’m very satisfied with the result. The capster, Mas Harris (If I’m not mistaken) is quite knowledgeable about hair care treatment. The place is clean and well-decorated. The price is quite affordable. You can also get a glass of coffee while waiting for your turn if you want to. I haven’t tried the coffee tho, so I can’t give any feedback about that. You don’t bring cash? No worries because you can use your digital wallet or debit card. Overall, I enjoyed my visit. A nice place to hangout. A nice place to get a new haircut. Definitely will come back later",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Muhammad Khusnul Hisyam",
+        "uri": "https://www.google.com/maps/contrib/115992099134641444468/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW562wtzpk7YfmaXfw4HgzsYo6lljBfaAWuMbf0C8Fsoo99AkCMpQ=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2022-01-03T19:03:08.523560Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNtaGV1ZUx3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNtaGV1ZUx3EAE!2m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/reviews/ChdDSUhNMG9nS0VJQ0FnSURCb2NUYWdBRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Barbershop was nice, just show them how do you want to make your hair cut and result was as expected. The price was also affordable for the service overall.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Barbershop was nice, just show them how do you want to make your hair cut and result was as expected. The price was also affordable for the service overall.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Reza Fauzi",
+        "uri": "https://www.google.com/maps/contrib/114480966416537785266/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJjN1oKKgQcM5Sr7PuqI8Jlj3KNKGQzcDD-O51cLuA4XhpxJhz8=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2023-01-21T11:06:24.757436Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURCb2NUYWdBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURCb2NUYWdBRRAB!2m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMb3WJgLfGFSNP_o2LNA04DFp5YgcyMwFdZH2sFJskWQJw4UIyhukRNSJidAwXSauTXJq6w6jeSJAWJjDNIj04lpzqI7EEhMKqrwiYVigLhMFWXKkPNi5Qypn0WJK9MM57TL5hGV6B62FTc0oRersXUpCBEybrG7CdkUsQ1T8SMnrPfsCHY5YPV0kf68mQuWtWQsMkojS3j4U_QSYGtJjmsmGMlfXJxq6m6rCg1avDiPlKfdawIh3ACNFN6n5mQTR5hicNHTT6jSrbiODG-47Q5GYSrfeea1rU6eQVnxl7W5sUoIywAUaQTBEi7tCx-6n-9a1fA29_jOHhBrYdQ2AFF4rxkAgA36sX9-3do3p4zrxlgm1A2IP2UQ6uQvQXpbnvr0FSzziDRoJrUZzP0j4TI-2qQ",
+      "widthPx": 1152,
+      "heightPx": 648,
+      "authorAttributions": [
+        {
+          "displayName": "Nuansa coffee and barber",
+          "uri": "https://maps.google.com/maps/contrib/111016447846912332244",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW89ApQ_9hxAAD47KsbjDA61WT_R8gsYRHrYkc1ulTINGRWsrg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICayvfoDw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICayvfoDw!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMbMsWyjwgd_x6XbDprb2ngSbuQCkitSfx9dmXrOQv1WFlepnbIizJf4_8-qLFIJsEDRZYM5WZKZKAa0P6lj6MmzNKMTt2Eqq3zExYNBEDSG6ctBo3KFmILKHq62xuOqmqaCjz_Ea3zf2whT-YWr3jqApskzmRZoGEJKzzfXqR_mUJlxGp7xWMk3UF-pmQM6Y1xLzBhNHgFpgEKdEZYTGdf2p9m6vvfeG0axiu8P4yk37z3fgi9O4q801uyXHLLmR_7RcGIrRU4pl1FhtW_kV7qt9_3OmmsvnOG9aY9dKnFNOJQjnXOfyzc5Wfcubdifk61DGqxulU-KYr159r4aYNYRepjssN3B_11E4eI45RtKua4YoxuoVdQ3EBqWeejjtDzd27vBOW0sXblHEPLca81BVCM",
+      "widthPx": 851,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Nuansa coffee and barber",
+          "uri": "https://maps.google.com/maps/contrib/111016447846912332244",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW89ApQ_9hxAAD47KsbjDA61WT_R8gsYRHrYkc1ulTINGRWsrg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID6qPnHHw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID6qPnHHw!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMZXgCo8uatJuXY0v8lPcWfNcV4WVyYlwA0zojeiVPbH0_BkpUiGVeqQwVv10zoS8In-EykPOXWF-ezyHP2jehZAe7hw4ZZFG_pVRK4WNOEtSq2CsSFEURXPY10FUOV8IN1fKxeZt-AxlDAYselWJh8W4D4-YGDvnZRs4JQEqWmxtGydKlPWnpr8ecOVJouXRZ3k4Kv4j6iRcPnrpI6qONJuv6SG9jPy6zbPbEeQpC_p7Vcwu4FWu9avLL4Pxi7nzgxIib7bxakJTyuMdrR4hHqMKdFuQpAqIJhmNntz4fmEaQBWBalZO4uoOIlKKRCJKaxQB2TDkiLXr25_ERLzdKX0LJ82zUESA1KCWYAoNbcz2CR7u8Bq2MCqR5BqrS5ZocFncRpaBJ7QYtC7sphyKrwK8A",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "imanuel arnold",
+          "uri": "https://maps.google.com/maps/contrib/115319622302372705352",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU1Fu-WMXq0GlceQIRR4htuo_xL-LE_DFZA6zGEWn4o12VsUGfm=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID2hPb3YQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID2hPb3YQ!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMbX_E0fB7loEeUN2A2dqkbxDoEMJs5xw3GimKSdyYru60pHsmg82hT2NUayzQKjTn44NQ8JRAAouz7GeD1gxf3VSiY9R_Gn8o00f3E_NG0UY4qGYFaAdh1ZJjT68_UzazXXm8CRMJ6TNAIzjtYGbPdVwlp_MS1cG8kI85klG1Owpzr4IcGhbDjyphGxOaa1an9RfkZp7EPR_tNNG770WOpPdKRP3BQqU6vbJGGg5jsjfjRgDtsxzXFuVTZ-9AZmJ984w-FqfDn7WewPLWISjql62TW8PzkJdSC2aQxKENrRt6YlBTbTCDgJbfynUJtrOwFB8E5mUGWmpsBOoDLkBsH8DHJzdxTv3mh46Zc--2nm0aejYD7tlTrMg-5KMcK5pWwDtbFWe7RL0GHEzPzLqnOlxkA",
+      "widthPx": 2252,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "GR F",
+          "uri": "https://maps.google.com/maps/contrib/117669866266654305284",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXHDEbIRtd29D8DKC9S1qoK7aNgQkhhJRvBXIXqdNBSAmXEHZ6D=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDP5InuHg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDP5InuHg!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMaEgSfgn6KBur1XbHNzVdOdj9yDxqPFsR5KGRdE2hFvNPDOmPI-GP6n6kbpJ88MmCqtVzjBjXlEf1oRN2jc4ezRxmuSGi7KSrsLtQbtySM3ctXcRy0BcAZyomP_bmUmIkdLP4juJt40OpI1678QBIZByT8h9LTFcFZaQd0Q6FPWS5Lz_WPGzrs7x6ux5H4hiST67hwwClo6lUquhuT_R6uWHpip1JxtHtTh5TqMRrFWNZa1VDwA4ZrF3K6DPGwI-afa3SvVZIXcJMW9-vV7Nb-qHO5hwelOTA9k2tzGf_0M1ak2NWrHWGep8-hn6zLlHwD-FCMFv3yTO6xC8ghkA67DGBh0efQ3dmM4m5Wv24X8gUD2kDkHrWXxIiNL7gQklNwLAM-OvJbTQstMPtI74wM_R2MEvfeQkPl9hKvl1oLVMQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Widy Abigail",
+          "uri": "https://maps.google.com/maps/contrib/114052431273751329469",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJHN5lZn1dyn-IySlPEU7cQ2YpgUKIuaJOgtWtFtr2ibXB6yA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAP8dYadcq5jr5bNwDwRAgP&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAP8dYadcq5jr5bNwDwRAgP!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMapJyS7fLgYyG6qOgUyJkNQxvEdaCjv5iAokhFwp3uxX1voan2u9G-lc79D9lLOJIWJ5sAeG5xSTobn82FhkQZpiw7IilnpCrnfGn0eVeZeTLEhP07ZCxAlgLnhnPtFlxDTyfQZYux6xEtFEfM-qlxEfa_y_2hbsMgGc_I8M6W7MC9ibiPjM9rSisQ0SKnhHvoaDiAQemd3ETioEpTXe158a1VR10lqTbpgoXOKsShmCP3vaDkS9K261lFQ4eK_7_UhZdiewubirERPGFrlvwR_kA8qGNFF-_x0nhoAWlj-4XfjCXtEy51B1gyhA8auswWJdk2w6mlAapahwtZfx_9T-C8PM2ba8HupLrB76mLVko-hCchZksx29HRBFqcOEgNMuTNfKjQn8LJh--GAVWAAXQ",
+      "widthPx": 1776,
+      "heightPx": 1184,
+      "authorAttributions": [
+        {
+          "displayName": "Nuansa coffee and barber",
+          "uri": "https://maps.google.com/maps/contrib/111016447846912332244",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW89ApQ_9hxAAD47KsbjDA61WT_R8gsYRHrYkc1ulTINGRWsrg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC6vuavYg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC6vuavYg!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMaTUXwRI2gj4fH8Udzr08KEaPWjluCLzwFUOdZo2ngvYri5K0NELD25i45my58QvrjSFKHWioL45Vksfo1eGhv9E42jn45MnJPHte4XRCKv3PrTsvGhKXEuBMiY_3I-pK9LLhGBB4zhjrMcEWv_SJ9OyS8-t2odTShegTcuF8QMUbzNNZy4cK0MGM1sGdrti1v0q8g7zjZ-lL2T-ilHUypvqoK3JsJQKKpqvYRPFdYN9fom_JTXk3FqHwmXrXRQEpjsWEkDCQ74WOFnFGpx42YiUagZPOv8MieWwxpn7_vbmQIGvTSviWaCHSW5ySkppq3TaVBuwCgIHOYJQGIgIiJUBcuBeklxOnOkNwdAI1fgUWi3Bp0-uONzH9aVu4TM1OLkQ-7BVSoAyCDu6CONoXyKGbGJLjE",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Daniel Agus Dinar",
+          "uri": "https://maps.google.com/maps/contrib/110067735211295474554",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU-fl-ikeAW5imZF4kiNSB8FFiPpm-jE33X65T2v-DJyJH-7nSaLw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICxhqP1-AE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICxhqP1-AE!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMaC_roOu4vX1gRZG6k6BBu-WV240ikuc7v2AqkknxBqDDnW34cCtwRX8zbAfsa-9XfHlx4guENLwmomkoVO0tGsUhvmQt4atKJrZ7-0EVbRK1fShO1xOC6EoOLO_OMgSjdRtGeSxn3ceLT4UuIG-stvd5O-vFB03mpj6QqHtMQSkWVeISdJ0gmvpIa9yl5dWaA6olHIFZ_6eYGcOo7ZkOSgqbV8tZKR88md0JnZ0LdU61EQUuuBfQ4c_MsKGgQefmpA9vnBWrJhp2rUqETnFZY_0NE5YJr69WvbicG9GtnxB5ccAWoaiEl1WxRHmuYpXY_AtELdH_MyW0KIR3gL2H-EDE_xo2eBpCxMoWF3LSEg0QgLUP608YyclYTsUF4FG9CDJhbhNEeyWl-fBo-hZFaHK8Y",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Hendro Hioe",
+          "uri": "https://maps.google.com/maps/contrib/118317907017702231534",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWz64e7W-QzAOT4Om2B4vVKNBcNdsjoxwkWLytu3Mns_BOY-j9z=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICh1eyhQA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICh1eyhQA!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMZ26Rg7sxM7GrGip9j50ts4U7lT-Qm6hZD4T82UJ5OaRztVGyVLtWQR1NhMGndjHMNusqrIYP4k29jt8Q2PPGMABGMHGJ-t90iA72V3ix4cmfVFXL8czTmIOR4jXl9Xcfqr6sqGvRdpSryHBOBK-Zo0m8cDoQkYctE3UGxf_yen6EU-F4rPqjSA7qmcOxVjBJfzXZNUzQH6gdOs2PNZorBP8xhNp6bouUvc25r_O7ksjdf3SYKlsz6fxxDLUlj3S7v2Ed8yCDZNffNGHHpavS1yMCWkopINAr-dDbaTP1AkuEsgRi-EIBtVhsHBQH3tqj6djbUgEMfZ_wtriITRMRuuv7f41872ACbjdg6wgFuIjnAD7hxyVo7FQboAYDfKw65BKb9rerjFyCpzJlmg7jL-DrhLlafP08JkbnipHeMT",
+      "widthPx": 4096,
+      "heightPx": 2304,
+      "authorAttributions": [
+        {
+          "displayName": "Tamba Rex",
+          "uri": "https://maps.google.com/maps/contrib/111679374488468863605",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJCDcpI4TxnHOKTlZOgGn1PTSlurNXMRfmdsQJvjfCkwM7Luw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBbFwVROsKH7WmQPryms_L7&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBbFwVROsKH7WmQPryms_L7!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    },
+    {
+      "name": "places/ChIJZRhjMmvzaS4RrWuq19k_7Ik/photos/Aa-ngMZ2DTeHOwO08s92UKKrtNTENWGsCgONC5jg_MCxPI0n3M7syuZ3mLvkJBjQwoQ7fUYqVGaD--O3IebZ0yUV48gDt8PVxRL1DhiWd54nD1xXQBNb6NKSvzYqLkq3oN05SJTEZELPbO3LG5YAWB9kW_KifPx9cBQn24vswCZYRyC4_3Kiqj35wecr08o7ggA0WvgDT4uAlGcOK2LfRqo7YR6uRjgP7PQ8UvkktHVUSbSycFrk_f8aSvaIPtPl80K2FGK3j_yiofPF8WOspDM9oOvp2vEWgYnxgW4t_DQoI8gtSTGO9sbkMr-vvVmFy62DgE6n_TJ_CDtKfucE4G45WBs7PwkGAPOrTXWt1vCrjgmuPp2Xy666yHRGRqdkaAVl6zN7gMwN5v0a65dQkU1zkNfXOQ",
+      "widthPx": 1776,
+      "heightPx": 1184,
+      "authorAttributions": [
+        {
+          "displayName": "Nuansa coffee and barber",
+          "uri": "https://maps.google.com/maps/contrib/111016447846912332244",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW89ApQ_9hxAAD47KsbjDA61WT_R8gsYRHrYkc1ulTINGRWsrg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC6vuaVOw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC6vuaVOw!2e10!4m2!3m1!1s0x2e69f36b32631865:0x89ec3fd9d7aa6bad"
+    }
+  ]
+}

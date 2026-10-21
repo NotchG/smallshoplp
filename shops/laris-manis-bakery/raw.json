@@ -1,0 +1,376 @@
+{
+  "id": "ChIJM0ByN1X1aS4RiAgjQAgRuaM",
+  "types": [
+    "bakery",
+    "food_store",
+    "food",
+    "store",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0812-8116-231",
+  "internationalPhoneNumber": "+62 812-8116-231",
+  "formattedAddress": "Batu, Jl. Pisangan Baru No.02, RT.8/RW.9, Pisangan Baru, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13110, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=11797479426007173256&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 18,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 18,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:00 AM – 6:00 PM",
+      "Tuesday: 7:00 AM – 6:00 PM",
+      "Wednesday: 7:00 AM – 6:00 PM",
+      "Thursday: 7:00 AM – 6:00 PM",
+      "Friday: 7:00 AM – 6:00 PM",
+      "Saturday: 7:00 AM – 6:00 PM",
+      "Sunday: 7:00 AM – 6:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T00:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 216,
+  "displayName": {
+    "text": "Laris Manis Bakery",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Bakery",
+    "languageCode": "en-US"
+  },
+  "primaryType": "bakery",
+  "reviews": [
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/reviews/ChdDSUhNMG9nS0VJQ0FnSUNkNDVpUDlnRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "This adorable home bakery will melt your heart! 🤗",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "This adorable home bakery will melt your heart! 🤗",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "tiara annisa",
+        "uri": "https://www.google.com/maps/contrib/100691778411507331736/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWD6yGQuWtAQTusYU9OqF_RZy-9uDBycKVvBABHoarCtoGmg0naMA=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-02-17T22:05:01.925622Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNkNDVpUDlnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNkNDVpUDlnRRAB!2m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ4OGUyb3lRRRAB",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 5,
+      "text": {
+        "text": "good taste and low price",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "good taste and low price",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Arif dwitoto",
+        "uri": "https://www.google.com/maps/contrib/111214394748802162358/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUU84pK3WBH82NYCyBewJkVBOSK7EYNyaZl2CWOcZ4xZUbDG-Oc=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2020-07-19T07:53:46.059370Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUQ4OGUyb3lRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUQ4OGUyb3lRRRAB!2m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/reviews/ChdDSUhNMG9nS0VJQ0FnSURwNTV2XzdRRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Taste Good and worth it",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Taste Good and worth it",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Afiani Saadah",
+        "uri": "https://www.google.com/maps/contrib/100268387034294777024/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWM8Mtey5FIIwLK0JKf3JjPCzQMhdaP1ARBrPvjlAbBLo_f2PQ=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2023-08-30T18:01:52.230059Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURwNTV2XzdRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURwNTV2XzdRRRAB!2m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ2blpqRU5BEAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Tasty, and worthy",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Tasty, and worthy",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "aditya kurnia",
+        "uri": "https://www.google.com/maps/contrib/109192066152087242827/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIzR_F-k7p_X10eTvmn2CxmbBwJClxYdXaZulbVF-U_VWPwSg=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2021-10-08T06:17:38.028563Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUQ2blpqRU5BEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUQ2blpqRU5BEAE!2m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/reviews/ChZDSUhNMG9nS0VJQ0FnSUNhcDdyV05nEAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 2,
+      "text": {
+        "text": "Nice",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "NZR09. NET",
+        "uri": "https://www.google.com/maps/contrib/111784186534042033844/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUZZemPjVRpStfnM1RLAOBYvq_Mej4Agtb2ufqucyi0yA_Hp-hh=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2021-08-10T17:18:00.904860Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNhcDdyV05nEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNhcDdyV05nEAE!2m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMYKgmz9PiRrv99nDix_hfUxN9K4dspdrCKmk123vMl1coWmCoNUyjHmNQIaOTLhwc1cJHLmKWIUd9ZLezFLX3IMcladjjhapDwEvJKPHbKx0ZhPtZzHFwsi4FL2MCAPOTQPnuR1zTWOujkgE5pwCeCYTIggthdGK3Qx8tsici3KFND4HZ4HzyEfyWLhV3z6WHkwv_Qgr5WYQ7E9gcdR31rYPBr-TIIIFoGZC3To6NGjXC6SmvnzD1OzDfKG1v8-2yPrZBo22E3_36nr4LCFm2BpWCS7ZDUM0U7fjd6QcAWsN_HubSgXQ2U0tTzqvGJdoP118B8mBABAuwCA79nxbgXSC61nr5lz4Aznhyl1EOWftVonAGOHkEhIfbHAzcw1k79BOO1iwUPT8-WxUlbU70KYGB4SxPw",
+      "widthPx": 1182,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Michael nicolas",
+          "uri": "https://maps.google.com/maps/contrib/116803637451553512459",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWf8Rtap5VxTy_jCkOn3sMM4myGK6e1QL046KUaE1IBHszHZQ9A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID-zPPh_QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID-zPPh_QE!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMZaRplN7FG7DRa5-WWLOfWIUCg5tBnHyxXvBlXUd0csw5pjBKEzNKT-6rmYcqAB7JoyyaBH17uKHwgm7-1e5jnCwTWadbmZeHYgAo7hZhI_YLWuNi2StocWJ41uNbB18moWvFu-0shvQUJGpcTFpLTj8oXBgOl8_-K2rqkx4kdqwaoURRY1HklvBjlmdIKphgmNPS-wcueIy-Vucsu6fNZVsCKkNEVdAcK6qoxFjM9YcU-tUaoVGjsJHQ_i7JV3RqrelVW3jhyd641OZVInl3tI_mpBeF1iu3lKUpXAxujTegdeuHhuFMh99XY2cv3p8pEvE8QHwMaIbUlfLlms2tRJTweZYWg-1P0ueKt3CttT7AbmClRqqibY_UrtG9gjFlCTW5LxUpbOK9Gsp7EVSFxoJC4",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "chacha cahyuni",
+          "uri": "https://maps.google.com/maps/contrib/110849173815328379711",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVyvOCM5H1s4Zq-nFgETrZIOcAH5x9vv1Pzq7aA4R55Ol8uhNpxYA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDJkcqtTw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDJkcqtTw!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMYZWt29hxyNmsrss-eE_Cteqe6zmU5votyccT4bSr0qJD05uEAdjKsXLXE5fduSV-djSKRT0r0t1NOQMfkGdbQ5mFw6uMGOcIfOdDfTCrHHcrRdn4VfySOUu9o4TxyQV4FZyaPA53lX6OkDJ7tRABaTcKJ2-Mfan3mVLCJXGiy4VrAX13ToMxPElWM3DXQ1OduYjhsHXBkxZkt5dnpAf80XpQQgGxfmfc2wm36buO6xGnyISM8FRCxsEOvDswolPJikxyGK84k6UtEqzW5K-BiBRF0lHJH1eI8t0k-cz7Q2E2sKCpZKFSEYrsImO6qh3C2YirmZUPMwW4dvjTuPkB5DHXdMQH0XsrS3fBfQI5G8MBe3iV8zLu9hEdNiE5pvNxGGm3noFDg6HR3_VKA_BIAPag",
+      "widthPx": 890,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Super Laris Manis",
+          "uri": "https://maps.google.com/maps/contrib/101350252028467935575",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjViFgGpAU8k3QKmyH_P9MQQr3cVY3wk_nDvmQc1XA61mZmGcXo=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDplYurag&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDplYurag!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMbz65cI2gRZfq4_TOhpyhau_lRa_M2tTdAN0f0b1upmvDjSi9dgJPxD9-RavBddbId04AUis3zoQZFQNEVC1tFHnMYl-uqcSgAYTLIhrYNgWcJsbGy2EU-dfDGjX0vPtNWqZN4fl3zXhvcQWLd2qCUZAbWEK6aGd-LkRiAr30pU05m8ryzXUAs2xGUv2FDxUXOCVBUekrrLgRn9hK7cWXLBnJbK0ReeHnYbC6UFN47S4jU2joU4XjOGVkJAIGApzkTytN19IawMc-0-zmnMppmtbhYJg3M8_CieVLbFcbt_JzrRwYxsN0U6b1bKGr3vaP3o1ExBnEZynh9N4uu5rMm5TKcPGZd6vhUkFkhLdJ1uY9yuwXoCxcHcw9FDZikTgU7fcJ9-FneDEqsQvPE7v5_bSxg",
+      "widthPx": 3472,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "Super Laris Manis",
+          "uri": "https://maps.google.com/maps/contrib/101350252028467935575",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjViFgGpAU8k3QKmyH_P9MQQr3cVY3wk_nDvmQc1XA61mZmGcXo=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDplcuYfw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDplcuYfw!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMaf85rp4S_rCmftUK8ZknxMAk7_skpE6dCRcKJgCt6kxsZzSVl9v7ECIwAS_08mJWwmX6aV8bqDNy__mC4HO_luJlFqCXI_1CiENRrzl3aCsy1r0JKJsO0TDM-ImifAjXHQLjJTAfIdu6CWlnODpZhFhQ2vjoWzKGBG1Ijr7m1EKFEBa7tbHW0gYJkbaEHciCzujm5ouhe4Je1ist1nIOjKulIMAxxJD0sDvlWi14krRlw-d2ofEDUJWmJ57G5pB8F_Adu_i31v44VT8hRb6_V17Cwkd7WrnyoU_SkN3CWGkxuXBv3IVZ8eR9hZJ7Xt90WXI8K3jyO1zTdssPGefzJCoharafwsmyR0XlNNdB4dKFeKGvFIEANS8g-FfJXuFNkFZw8W5RbHKhBEA9riIJ7qxK0",
+      "widthPx": 3048,
+      "heightPx": 4064,
+      "authorAttributions": [
+        {
+          "displayName": "Riska Januarti",
+          "uri": "https://maps.google.com/maps/contrib/113458393636512918886",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUirXFTgjhEI6wX6i6_4ybpyHth-ZKK1Zwz021uwyB0yssJnyfojA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICF89i_bw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICF89i_bw!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMb1WJqpy_kly9qu_v8c98rvYgJ4NNJsgiGGXVwwNiFPxQlby2xdJgTUn1_DZ1v-FusN0Mt922sCX99PdROwZ-GsjLsBXmuT3M0_CswXHmHSWBhp4c3P0urekwxHcy3PWAMY8vItfl7jbWQctqerPZfxYQcjTF3qqwaLq-zxkmYBD7CmEfSYAQcuIBhFxqK0E9nB5IdljRAhzEHCG9IS_PmbG8wr2wmyNmdD0pIgs0usiq58tTuWUpI3Pbr05F2EY6X_hRRtI_y9lTobeO4THcnBl9WUJrNhFeMPh7DIHg6ih6caf7JTflKMF-L4T2OmAK-kMqOj9bHgZKjf50mZlgqjqduFqqrTM-xK0tGyv1TrzeKifNstCiMxcFaLGko6QLHHnStmRUvDAzeitrS5d0EOJiQM9EQ",
+      "widthPx": 487,
+      "heightPx": 649,
+      "authorAttributions": [
+        {
+          "displayName": "Super Laris Manis",
+          "uri": "https://maps.google.com/maps/contrib/101350252028467935575",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjViFgGpAU8k3QKmyH_P9MQQr3cVY3wk_nDvmQc1XA61mZmGcXo=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDplYvpuQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDplYvpuQE!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMaYyZTkiRQQLCiL-mTK5oi0Hy2_pGuV6c3WCJRr4fSt3DOPXGH0_CuukhCs94kDKjmFMPRfQDLS80CQoSUB8WORZycQeAIVQ80EaRt4kx0YLFeQKWx_0MuRArVHaIhxPOpNaeIU3Q5Kzu7ALupnLTe7gycLXIqXz6okhK80klWz8NIbrcIbutztLeSnzZs2ORbQUdOfys09HXLpe8t2EJN_sJCg3Z9tmwz0i8U7xc7AiIHcv7i5l0EgVa0gARnxeOTS7Bore0qM8zKB-4yKwfJAKl4QXu0c-ERL7MWB9H1Xft9DO4C77qRt6IgAXJHCQ5QdCWI5NrWx4IFo0Y_Evya6nbhp1aDPXjC3x47dNBNxrLWjTUmt85goTJ3COEGj2gtEZS_l_mG9bhSLuCl53Z2b6lIh_UU",
+      "widthPx": 487,
+      "heightPx": 649,
+      "authorAttributions": [
+        {
+          "displayName": "Super Laris Manis",
+          "uri": "https://maps.google.com/maps/contrib/101350252028467935575",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjViFgGpAU8k3QKmyH_P9MQQr3cVY3wk_nDvmQc1XA61mZmGcXo=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDplYuTpQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDplYuTpQE!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMYrVCXdb7f4mmuWuxFfy9uCZZ6I-NRxIn8l7nIxNLgCXdvqxvb5MRAXnkEHtJvUKYzwdH7g9KDE448L6h0j-_Yy9_dn4WHWfXYKecb4xjy-GpYHHWzx_eZ7CgvNdHGxrODwLJj2eayGSGfawAAIXHQ28euWLWvaMAl8g9ACriPNDeEw9DsDo3Dcu2p_DYK84VJL0McZznlE7MVtw_pcU4sJqb_XZ29GIAThMlAf19VhONhzZ1_G6baAAmxQ2Q46kNBRSR1SQSPsaGivERg03HTnBuG1P_urUOzJhOST6Cc88a_QxSvIiF4pyQeeRwKTmM_zRlKe8nsxrsUxDbWgmnhrNG1YvkMlTLy9RvV3FnzVyTtKIn04oLZaLUU9U7h9o82ZZhBXIQJCa-UjhTeRLpmLR-E",
+      "widthPx": 1069,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Super Laris Manis",
+          "uri": "https://maps.google.com/maps/contrib/101350252028467935575",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjViFgGpAU8k3QKmyH_P9MQQr3cVY3wk_nDvmQc1XA61mZmGcXo=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDplYujSg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDplYujSg!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMb0OOz6-jdc9WPCor-iY_odSlpMlEqdBxYx2-8hdY71NncLpZyJucjeqM64CwglJylXh1nlgTojGOgA99LtGV7l23-M77AgXF0L22E2mCcwMKnFHHTllVZ6aHXZz4fMFlJTmI7wm8jo4J6MLtXqXrqpQU8vBpDuj7CtCuoxvPoImer0VDjHnFZ7AmMzh3IcTTVbJ3MxFrku9g7iaJHU-z6S1Ar-R_Lf0fR-2RHv_usMzskI2XrxSzUIbGOGuJxABH-FrgZ5-NnavqsM2TL1TXtDVP4ExwBIvT399sDhJ3D5cWXlwVcCQnin_P3H0lwS6cSJNoL1KwVOlfMm7JJg1dlkwE-iQ9AqPQ4IJPsiDMPz5mbKzXiH_qIGxGznmws1-D84_rS0xtLeF_MIDFqX6A2IzYy19xI",
+      "widthPx": 1050,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Michael nicolas",
+          "uri": "https://maps.google.com/maps/contrib/116803637451553512459",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWf8Rtap5VxTy_jCkOn3sMM4myGK6e1QL046KUaE1IBHszHZQ9A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID-zPPh6AE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID-zPPh6AE!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    },
+    {
+      "name": "places/ChIJM0ByN1X1aS4RiAgjQAgRuaM/photos/Aa-ngMa4v6Q_8945MDsLfOLT0pQRjq-4o7BiZ-JZx5qeEhHbzUWnpKO5KopPkKcmk3KMGaia7PzltawrmcZxXQNj8kA9PXRooxUfE-D12UyE2wsm5LgAKJbW6i-b2RDsba4QvxdYOxb56X-_1hkrEVVgYXohUNgEOXOClR2BkqDI9CaNXWdVvK1Lu394oYVIuPg4_mP2yp0mX3CIzbOIKdPR0n6kKmRUKGKtsCk_g9LIzDUWy9QesWNbBU7F2jZJiPwzaKDszDpKc6-M8SC2gtWRL8I9Pn1ZH8g2VcvF9_ZBNxU090AjKL4VHk3qmwnzhnmXkjh8-ehvJxVAe_U2HI2dnvr_vAYwfOwrV_1EkanGz_0kYSLBbQGZ8wDYbZxJyKxzH42Dg6gWfbzHVysk-hWJS8R5uT_sWcw",
+      "widthPx": 366,
+      "heightPx": 649,
+      "authorAttributions": [
+        {
+          "displayName": "Super Laris Manis",
+          "uri": "https://maps.google.com/maps/contrib/101350252028467935575",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjViFgGpAU8k3QKmyH_P9MQQr3cVY3wk_nDvmQc1XA61mZmGcXo=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDplYuDgAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDplYuDgAE!2e10!4m2!3m1!1s0x2e69f55537724033:0xa3b9110840230888"
+    }
+  ]
+}

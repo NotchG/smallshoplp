@@ -130,10 +130,7 @@
         "pctOfContentWidth": 76
       }
     ],
-    "overlappingText": [
-      "p \"TOKO ANEKA KUE & ROTI DISKON\"  ×  span \"ELUD\"",
-      "span \"ELUD\"  ×  span \"Cake & Bakery\""
-    ],
+    "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
     "mockupItems": 13
@@ -269,11 +266,7 @@
         "pctOfContentWidth": 48
       }
     ],
-    "overlappingText": [
-      "p \"TOKO ANEKA KUE & ROTI DISKON\"  ×  span \"ELUD\"",
-      "span \"ELUD\"  ×  span \"Cake & Bakery\"",
-      "span \"ELUD\"  ×  p \"Pondok Kelapa, Jakarta Timur\""
-    ],
+    "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
     "mockupItems": 13
@@ -409,10 +402,7 @@
         "pctOfContentWidth": 38
       }
     ],
-    "overlappingText": [
-      "div \"Draf mockup untuk Elud Cake & Bakery. Be\"  ×  span \"ELUD\"",
-      "p \"TOKO ANEKA KUE & ROTI DISKON\"  ×  span \"ELUD\""
-    ],
+    "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
     "mockupItems": 13

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "SAYKOP - SAYA Kopi",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "SAYKOP - SAYA Kopi",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "lastri sela samira",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

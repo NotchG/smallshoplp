@@ -1,0 +1,284 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7058,
+    "sizes": [
+      {
+        "el": "h1 \"Soes Roti Kue Merdeka Merdeka SOES · ROT\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 10326,
+        "pctOfContentWidth": 2950
+      },
+      {
+        "el": "span \"Merdeka\"",
+        "fontSize": 71.2,
+        "lineHeight": "71.2px",
+        "textWidth": 279,
+        "pctOfContentWidth": 80
+      },
+      {
+        "el": "span \"SOES · ROTI · KUE\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 286,
+        "pctOfContentWidth": 82
+      },
+      {
+        "el": "h2#soes-h \"Soes kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 180,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3 \"Isian lain\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 102,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#abon-h \"Abon & telur asin\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 294,
+        "pctOfContentWidth": 84
+      },
+      {
+        "el": "h2#camilan-h \"Camilan & oleh-oleh\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 347,
+        "pctOfContentWidth": 99
+      },
+      {
+        "el": "h3 \"Kue & roti\"",
+        "fontSize": 22,
+        "lineHeight": "27.5px",
+        "textWidth": 114,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#kotakan-h \"Pesan kotakan\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 257,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 221,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 243,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 237,
+        "pctOfContentWidth": 68
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 24
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7404,
+    "sizes": [
+      {
+        "el": "h1 \"Soes Roti Kue Merdeka Merdeka SOES · ROT\"",
+        "fontSize": 17.5,
+        "lineHeight": "27.1808px",
+        "textWidth": 10664,
+        "pctOfContentWidth": 1550
+      },
+      {
+        "el": "span \"Merdeka\"",
+        "fontSize": 101.4,
+        "lineHeight": "101.44px",
+        "textWidth": 397,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "span \"SOES · ROTI · KUE\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.608px",
+        "textWidth": 310,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#soes-h \"Soes kami\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 221,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Isian lain\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.8px",
+        "textWidth": 111,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#abon-h \"Abon & telur asin\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 361,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h2#camilan-h \"Camilan & oleh-oleh\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 426,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h3 \"Kue & roti\"",
+        "fontSize": 23.8,
+        "lineHeight": "29.8px",
+        "textWidth": 124,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#kotakan-h \"Pesan kotakan\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 316,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 272,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 299,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 291,
+        "pctOfContentWidth": 42
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 24
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 6323,
+    "sizes": [
+      {
+        "el": "h1 \"Soes Roti Kue Merdeka Merdeka SOES · ROT\"",
+        "fontSize": 18.9,
+        "lineHeight": "29.264px",
+        "textWidth": 10749,
+        "pctOfContentWidth": 896
+      },
+      {
+        "el": "span \"Merdeka\"",
+        "fontSize": 152,
+        "lineHeight": "152px",
+        "textWidth": 596,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "span \"SOES · ROTI · KUE\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 338,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#soes-h \"Soes kami\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 270,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Isian lain\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 121,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#abon-h \"Abon & telur asin\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 441,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#camilan-h \"Camilan & oleh-oleh\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 268,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Kue & roti\"",
+        "fontSize": 26,
+        "lineHeight": "32.5px",
+        "textWidth": 135,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#kotakan-h \"Pesan kotakan\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 386,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 332,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 365,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 355,
+        "pctOfContentWidth": 30
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 24
+  }
+}

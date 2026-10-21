@@ -1,0 +1,44 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "CUP TIMES & WARKOP",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "CUP TIMES & WARKOP",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-3.jpg",
+    "author": "CUP TIMES & WARKOP",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-4.jpg",
+    "author": "CUP TIMES & WARKOP",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "larasati eka",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Aplez Demelo",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Ari Setiawan",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

@@ -1,0 +1,431 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6724,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KEDAI MALABAR\"",
+        "fontSize": 55,
+        "lineHeight": "49.5px",
+        "textWidth": 256,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "span \"MALABAR\"",
+        "fontSize": 55,
+        "lineHeight": "49.5px",
+        "textWidth": 256,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 262,
+        "pctOfContentWidth": 75
+      },
+      {
+        "el": "h3 \"ROTI\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 67,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 68,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 144,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"MAKAN\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 104,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#malam-title \"MALAM DI Malabar\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h3 \"Teras di bawah lampu\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 210,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Area merokok dan bebas rokok\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 243,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h3 \"Parkir gampang\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 153,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Buka sampai malam\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 191,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#ulasan-title \"KATA MEREKA\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 217,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 172,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h3 \"Tempat lega, dekorasi cantik\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 275,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h3 \"Teras enak saat malam\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 215,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"Staf ramah\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 103,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kunjungi-title \"KUNJUNGI KAMI\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 252,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "h2#hubungi-title \"HUBUNGI KAMI\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 240,
+        "pctOfContentWidth": 69
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 31
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5474,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KEDAI MALABAR\"",
+        "fontSize": 92.8,
+        "lineHeight": "83.52px",
+        "textWidth": 432,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "span \"MALABAR\"",
+        "fontSize": 92.8,
+        "lineHeight": "83.52px",
+        "textWidth": 432,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 341,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"ROTI\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 72,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 74,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 156,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"MAKAN\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 112,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#malam-title \"MALAM DI Malabar\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 709,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h3 \"Teras di bawah lampu\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 227,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Area merokok dan bebas rokok\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 329,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Parkir gampang\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 166,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Buka sampai malam\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 207,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#ulasan-title \"KATA MEREKA\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 282,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 186,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Tempat lega, dekorasi cantik\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 297,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"Teras enak saat malam\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 233,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Staf ramah\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 111,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#kunjungi-title \"KUNJUNGI KAMI\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 327,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#hubungi-title \"HUBUNGI KAMI\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 312,
+        "pctOfContentWidth": 44
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 31
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4631,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"KEDAI MALABAR\"",
+        "fontSize": 120,
+        "lineHeight": "108px",
+        "textWidth": 558,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "span \"MALABAR\"",
+        "fontSize": 120,
+        "lineHeight": "108px",
+        "textWidth": 558,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 417,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"ROTI\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 79,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 81,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 171,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"MAKAN\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 123,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#malam-title \"MALAM DI Malabar\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 486,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Teras di bawah lampu\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 248,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Area merokok dan bebas rokok\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 359,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Parkir gampang\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 181,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Buka sampai malam\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 226,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#ulasan-title \"KATA MEREKA\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 345,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Harga bersahabat\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 204,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Tempat lega, dekorasi cantik\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 325,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Teras enak saat malam\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 254,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Staf ramah\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 122,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#kunjungi-title \"KUNJUNGI KAMI\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 401,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#hubungi-title \"HUBUNGI KAMI\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 382,
+        "pctOfContentWidth": 32
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 31
+  }
+}

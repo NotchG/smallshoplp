@@ -4,7 +4,7 @@
     "pageHeight": 7333,
     "sizes": [
       {
-        "el": "h1#hero-title \"Gula Jawa Gula Jawa BAKERY\"",
+        "el": "h1#hero-title \"Gula Jawa BAKERY\"",
         "fontSize": 18,
         "lineHeight": "27.9px",
         "textWidth": 191,
@@ -95,15 +95,7 @@
         "pctOfContentWidth": 51
       }
     ],
-    "overlappingText": [
-      "span \"Gula\"  ×  span \"Jawa\"",
-      "span \"Gula\"  ×  span \"Gula\"",
-      "span \"Gula\"  ×  span \"Jawa\"",
-      "span \"Jawa\"  ×  span \"Gula\"",
-      "span \"Jawa\"  ×  span \"Jawa\"",
-      "span \"Gula\"  ×  span \"Jawa\"",
-      "span \"Gula Jawa\"  ×  span \"Gula Jawa\""
-    ],
+    "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
     "mockupItems": 28
@@ -113,7 +105,7 @@
     "pageHeight": 5449,
     "sizes": [
       {
-        "el": "h1#hero-title \"Gula Jawa Gula Jawa BAKERY\"",
+        "el": "h1#hero-title \"Gula Jawa BAKERY\"",
         "fontSize": 18.4,
         "lineHeight": "28.5696px",
         "textWidth": 205,
@@ -204,15 +196,7 @@
         "pctOfContentWidth": 31
       }
     ],
-    "overlappingText": [
-      "span \"Gula\"  ×  span \"Jawa\"",
-      "span \"Gula\"  ×  span \"Gula\"",
-      "span \"Gula\"  ×  span \"Jawa\"",
-      "span \"Jawa\"  ×  span \"Gula\"",
-      "span \"Jawa\"  ×  span \"Jawa\"",
-      "span \"Gula\"  ×  span \"Jawa\"",
-      "span \"Gula Jawa\"  ×  span \"Gula Jawa\""
-    ],
+    "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
     "mockupItems": 28
@@ -222,7 +206,7 @@
     "pageHeight": 5672,
     "sizes": [
       {
-        "el": "h1#hero-title \"Gula Jawa Gula Jawa BAKERY\"",
+        "el": "h1#hero-title \"Gula Jawa BAKERY\"",
         "fontSize": 19,
         "lineHeight": "29.45px",
         "textWidth": 229,
@@ -313,15 +297,7 @@
         "pctOfContentWidth": 22
       }
     ],
-    "overlappingText": [
-      "span \"Gula\"  ×  span \"Jawa\"",
-      "span \"Gula\"  ×  span \"Gula\"",
-      "span \"Gula\"  ×  span \"Jawa\"",
-      "span \"Jawa\"  ×  span \"Gula\"",
-      "span \"Jawa\"  ×  span \"Jawa\"",
-      "span \"Gula\"  ×  span \"Jawa\"",
-      "span \"Gula Jawa\"  ×  span \"Gula Jawa\""
-    ],
+    "overlappingText": [],
     "mockupBanner": true,
     "noindex": true,
     "mockupItems": 28

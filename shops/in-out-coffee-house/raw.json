@@ -1,0 +1,374 @@
+{
+  "id": "ChIJVV2u5jeLaS4RezmzZysny2M",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0812-6060-9930",
+  "internationalPhoneNumber": "+62 812-6060-9930",
+  "formattedAddress": "Jl. Dr. KRT Radjiman Widyodiningrat No.7-9, RT.5/RW.6, Jatinegara, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13930, Indonesia",
+  "rating": 4.7,
+  "googleMapsUri": "https://maps.google.com/?cid=7190884297404004731&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 14,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 14,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 14,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 14,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 14,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 14,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 14,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 2:00 – 10:00 PM",
+      "Tuesday: 2:00 – 10:00 PM",
+      "Wednesday: 2:00 – 10:00 PM",
+      "Thursday: 2:00 – 10:00 PM",
+      "Friday: 2:00 – 11:00 PM",
+      "Saturday: 2:00 – 11:00 PM",
+      "Sunday: 2:00 – 11:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T07:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 215,
+  "displayName": {
+    "text": "In Out Coffee House",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/reviews/ChZDSUhNMG9nS0VJQ0FnSURHeE9DekhREAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "hidden gems in Cakung area - Pulo jahe, cozy place, perfect place for hang out, varied menu and standard price. Tersedia rooftop di lt.3 dan area indoor di lt.2.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "hidden gems in Cakung area - Pulo jahe, cozy place, perfect place for hang out, varied menu and standard price. Tersedia rooftop di lt.3 dan area indoor di lt.2.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Muhamad Farid",
+        "uri": "https://www.google.com/maps/contrib/102339031626842714485/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV5yMCWUhDnDgzMZoVPDKeFptnHl99Zt3Gu-t-6YQPxsWjfmsChXw=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2021-11-18T12:26:28.054269Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURHeE9DekhREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURHeE9DekhREAE!2m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/reviews/ChdDSUhNMG9nS0VJQ0FnSUM4eWV5SXJ3RRAB",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 5,
+      "text": {
+        "text": "One stop shopping, if you want to get carwash, eatery or coffee, just go there and this place is very recommended👍🏻",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "One stop shopping, if you want to get carwash, eatery or coffee, just go there and this place is very recommended👍🏻",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Robby Nurrahman",
+        "uri": "https://www.google.com/maps/contrib/108898704236834049048/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUHbFF4cUDwrP0yzKX1U0NlX2F1c0toq4zn_bQbt6MLfHgAgC4P=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2020-07-10T05:04:34.158738Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUM4eWV5SXJ3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUM4eWV5SXJ3RRAB!2m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/reviews/ChZDSUhNMG9nS0VJQ0FnSURHeklMOGNnEAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "comfyy bgt tempat nyaa i think this will be my fav place ",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "comfyy bgt tempat nyaa i think this will be my fav place ",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "aliyyah",
+        "uri": "https://www.google.com/maps/contrib/101713228226986635995/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUs12CG9OO5GNV1QYM7ZkrV-BKQgRX643-UtZSVJAOy0L-iRmcWEA=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2021-11-20T11:23:39.329767Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURHeklMOGNnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURHeklMOGNnEAE!2m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/reviews/Ci9DQUlRQUNvZENodHljRjlvT21KU1NrUnpXbTltZFRWTlZGQTViSE54Y0ZwWWFuYxAB",
+      "relativePublishTimeDescription": "10 months ago",
+      "rating": 4,
+      "text": {
+        "text": "Good",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Good",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Syarif Cecep, ST",
+        "uri": "https://www.google.com/maps/contrib/105040105509414415598/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW6NAYJ_eFd9MUro7I4oEiGTOScYsLTpxDLiKSArEe1pngBgt6FfQ=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-11-28T00:14:54.119859797Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21KU1NrUnpXbTltZFRWTlZGQTViSE54Y0ZwWWFuYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21KU1NrUnpXbTltZFRWTlZGQTViSE54Y0ZwWWFuYxAB!2m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/reviews/ChZDSUhNMG9nS0VJQ0FnSURwcnZmaktBEAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Delicious taste and good atmosphere",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Delicious taste and good atmosphere",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Vicholette Shoes",
+        "uri": "https://www.google.com/maps/contrib/106420309905937400993/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVlo--_PMh_qTGkR4Jv8La8JEx-gZM1CRVdodFOH-6abhhZyWg=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2023-08-22T10:36:26.333432Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURwcnZmaktBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURwcnZmaktBEAE!2m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMZlgZ5luYqZ093ad2L5vALWfCuLBrSHnKd3tJ2gzMGwDJETnHB71g4hdiF7ukZJo6ggXfPp4v8DXfaRrZD7QI-q9ztVutGK_uGB3fgfE1EErvmCsgz4Qz61DrYkPbwX2fRom9NCg09J51nKq49eufQTs918lXS6L5tUjdBk7h4nmjgyASVDIj92aSQ1XPbSV_468iRGE94xsL0Ajifm005Kgmkqfa0AvmCOt7wky4EhY1TGWagvHGUxsqWB97-OSHaRAPuS88mOhu64xYcCzeXEVL11eSaLwZwE5WEQeuvWth8Yxw8RDJIAphLR4afwXfNxxIjN4RLGz46bE-NPcvkj9dsaGFEw19R55ibGnSgkmejq16kpksB3tZhdQTeidJ_IfkeAA9GHvpeHYYT6OHGrfXU",
+      "widthPx": 2250,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Fathan Muttaqy",
+          "uri": "https://maps.google.com/maps/contrib/102785777636501943971",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX7KKdNVTljZwypp4Px3Ej5SxUekJWzQXDzl9tlkPGDkDRn6XH8Uw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICmiaXwaA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICmiaXwaA!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMbLQq8X7CRds3bGMPdbAeKhySF7stnffy-QYkUeqPS4tohLv1l0HrYiyPDkeufV0shzM8E_W51H5k9nkbDuxR24k-JFLcaq5mT-TERtnFSKo4kVt0Nc5sEzTvP9R2DW52BTdGX-ccjgWwrVKVBI2yzH_ILueGCZ5E1UgJFEY1zkPr-Y-w1K6yPmlq_1GQJ7KQpRAFJxbGwYrD3xQEUU6eXJev6wQyfl_h7pPqyoMfCPzuZSsLGDeNi5JW9dfX2vPoo93md9wlqLgjUBraq1do7nLvg6J38-ljxUa5lAAQYi8NFIVCerK0jVDiDZieRl5TyEvBkxfJgr8oAWF1U2yU5Y_Sh6nCtKnxN6gtArM2bYQnYIctUQNplVM6jEt0xabkN9NkYLWrHOsfHxgP3pnau41jRk0Js",
+      "widthPx": 3468,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "Iban",
+          "uri": "https://maps.google.com/maps/contrib/108736669486168308799",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVq3SrJEQWirZNttGtfMCTblK9xCNtiCFGO6i4OUpeklJ3vtGlp=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICui4Pg2QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICui4Pg2QE!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMYIiiUZtMyt9a_dKSb5nJg8I5EjrlBXaarQxoyK9f2P0LnEax7xXmCKWMCfD6IaJSc8rZvpcieW7Msp-Dz3wqSYl7teARMyJLKylfZGfoFEqGtYHOSjO0e67kpW7Z--mMAzwuDxW3Bg-C419gyyjsALfPUjzQY2BY2snUiDdXCKWT9LkdWGNHgop9i2oabp9hOC-sSUpNEM3X8KhDZ5fII2EfQG2Nwv9Mbe1Gb8AAuTyey4BXBuIJwYSjbS9_CfgbqwQHAxm0_WbAwAc8XiQtgLizlbpP3Fvc9sOvElvenLDvC7vKMnronE28pzqWlO-XXGxH2Y_TlPrII4AwOafvXIiQD8-xcq9naaEeUytuKriAxvJyqgW8r7mj2WYtfebusKvK-Cg-BQb6rnnCTourDYFWU",
+      "widthPx": 3468,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "Iban",
+          "uri": "https://maps.google.com/maps/contrib/108736669486168308799",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVq3SrJEQWirZNttGtfMCTblK9xCNtiCFGO6i4OUpeklJ3vtGlp=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICui4PgOQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICui4PgOQ!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMYIhxQGXaX5bTEqTT2VhOLAL0EyxvelS3CmEjWEuZHvQroCL26edj_uLcbn_8OW2g5iool_7bC4rWesrOefzSd1YyWV4STQXbcVq9uEcxAZ2FiRxyEFAoCidWbL80Mo36vAn6DCQAYwJSy-UHSDJvUU3n9Mk5XzVzAnDnDwh42_fruHzsJNaLQ3f-ofOHLNv43AJm55yR1fH4YIuTnCiD14WmFKupmAcI0B32jQ8LnVt_dN6l2IlyDj0fMh-w-hOZWm0W5CeHfizKZq8BRKNBd0ULbX8HE1nRJHT3uEB3EE0Yoi4QA7iPlljcnEKZIoDhWJzX--UZoPIMBhMJNWHHd30xPi7NnjZ3oWWvPgqHMOkRckKjSgYE5b4rKmy4U59ZDnsIzMbxhyWu8dp-knys_BV1k",
+      "widthPx": 2000,
+      "heightPx": 2504,
+      "authorAttributions": [
+        {
+          "displayName": "Della Ayu",
+          "uri": "https://maps.google.com/maps/contrib/113879676842826795801",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCSnCrK5MRnSlGAzdMt1TM8Okq6x99ChuI9yi9IjsYRe-hBYr1=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDa4_P5dQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDa4_P5dQ!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMaU51v3Fyt2WMN29dNzsnXSCmrNkx6P8Jr0TArachFL9KASgGlSBIVhyaREuuRkUSioH5XgzwyWlUMdaDm9bQkGeD76FxuvqjDBut47yPv1EvII04cgEUcTpNEvJlIadce9EINIs2fTLgPaPwreRIP0mfS1QYbBa27Qe2Y29HHi4-5SaRVOHyhbNa5pP_ICDVeV5Hqc7xZMornNoWq266V3cpgPi_rE6rOBEyDuH-oaFzROaWPUNGGohDsD2GqOh4y2lFbFi41eRTOey3HXEu_lGi3TVVy0IU59QEXrqhzp8vxUmTZ5BmRe5Hcr694Ts4Xm9CwUH_aSWkBsN3Scz-LEful28QLzppUpcHJFnX9ThGckfOhlB4QmljgyaOK-EWCaNhMY24QeXPIvA5jhvIyu-ejIW4whH39VCqI_0_u17g",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Ahmad Karamah",
+          "uri": "https://maps.google.com/maps/contrib/113758211507716242620",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUMcF6He6wIzgi5m1HgSaCLHu5CsiUKZi6KmkwJoieLqfdxetMk6g=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBjm5FKXVPL8DV3HX_7uR_W&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBjm5FKXVPL8DV3HX_7uR_W!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMaVbfx1x98SlK7JFnIucC51FXQNCj1uOl1tcN_E9qRlizrSwgcO21FltNHApF9ZhfSIrZEgjHVDCpJWtdGvgL2XXOQtH01hpPRipo4SXWR0i8S6oe_FGyVZJeA9oxxZgsOAhjVhH-nKLfkyNaplulWDx63dNE7yrZV9UqG8vL-_XyIushKo2RdxxM71gMlnSkZWN9Q2SEAI8I0cn4gcBbfKisTtQGP398nr9YSY7OoJZveJsn5YcceapqMxELM-Y_k0P4PItOh9j6Ccx6xRWmpvsv13sDdJjs3O_InuzmcASWluIOc9eOlQLl6PxjJFToevHp8KVQiG_8DULKIZq24GmuV7m9hxavZ_YQP3xKkSmCWLM3q1CUq3KX7oaTb6eLTy85cimQeLGLfUwU69pbJF5A",
+      "widthPx": 1280,
+      "heightPx": 960,
+      "authorAttributions": [
+        {
+          "displayName": "yashinta syifani",
+          "uri": "https://maps.google.com/maps/contrib/106932832206791075821",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWyvrEWIuDwsvs541oImvFLYpSd9WUzeRYxWTuOItamcdQWaAaZ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID8roG6UA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID8roG6UA!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMY3CRuZDkzZMYxfyVkuQyFarb3wJTjcl5IPy87gi_BgoVDCOBHJ9x8fN0jGAE0l2ve9_RGPotvdLGIAfUbIyuMe7fCaSz7EqKZGTiMfVNUnSN5saIWkT471KHXB3z1-jS2xNkRYqMn91xPsyaaTnorHhqgNCpP_SGLQ85rhUbmD7TIzhJcHRxPubpVPp9_2KguwrPGci4a3juZR6AwWG2maZpL3h8My1IJeJ9bcrX0sDlJzQcg6GIlPyXFruSradyrVhryo4EC9X0MyWwTdhpcb9pmymjHOcb3EUDhk5q0D5RHqX7yWybdZ6WOxsCd29kKKs-5pLn3GyOc5sMGRhoBhhB3fFIo7Z6xvd8lSlqIeMG0tvvcVuow2jCsEC6u2omf_X69gqLutKNCiqRUr6LjrLbI",
+      "widthPx": 4032,
+      "heightPx": 2268,
+      "authorAttributions": [
+        {
+          "displayName": "Andreas Lamhot",
+          "uri": "https://maps.google.com/maps/contrib/108136136317275304881",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUtZU734n6_e8NqV0qWOss-8kqauEORkYklM3_q8Xuy4eHrEDGh=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC87b_9DA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC87b_9DA!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMa0MyTjUIzYtmh7R_pdwhiOwmqiMNHjbOEjvu-dsN87f3KC0DlhGMeTzUtGwVGl2Lpaw8fqwv6xxa2RgYV0ElsJGPPpmqldM7jEB-p8xeR09GIKHlQm4Q4tvuC3kkMEcavyu6cuxiJy-Mx7x3SG3ILAtaOsdWfXoMfiU1dB7pe2ONqDBVoRb6bbtN-jKBV511VvCK46fzPwfa3HH9I_Lco1LLbnOdhhgw7xEt9sWh7IQak_Gndb-1bN8FFxoKUe2stdQWXgp1aFShq3_ztwqfz9ikjDeeWTrNH3U_oAIv9kMI2pv_8j_C90IhCylgwrQJuvS1-nJ8eQHpb7AklJ1mcR7xGdOHGkZTcbmso2S5Fds_JDBLirNEf6UcOn3f8cK-xCueM7F8TyWrghn8uEmJMC6Uw",
+      "widthPx": 2000,
+      "heightPx": 2504,
+      "authorAttributions": [
+        {
+          "displayName": "Della Ayu",
+          "uri": "https://maps.google.com/maps/contrib/113879676842826795801",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXCSnCrK5MRnSlGAzdMt1TM8Okq6x99ChuI9yi9IjsYRe-hBYr1=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDa4_P5FQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDa4_P5FQ!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMaEVg1hAJBbumQaX23h5TMii7mCmU5xNFo7ZzcawSocnipNCoJZU1VtYDlFhmIQc43vjuwAIjurNDrFvALpFPj73UAP884v2d18HOQcqHYrfF8mKEdMIJF2WDWCZrry23tlHgwcEEG8xIAaK4jWgBuHekeuDQKV5TKoq84DdHLlWE_iTvCRbdUcNeLOFwiXZUQltDJ7lTKUqxKPpn88f7H-SEptBUyX2vdw0Vv26rc9BHScHLcKpcBH4QTq0cakCXExdc67IrL5jSISAGAn60JE3XiYU6fI1WBnuubk1AxGkmW9YIPUnOsRLtrwM0b5BdHBmmLc9lcwmSD0wTA8wx0V8bFh-hoTLmJaEUjHknK1pgkAx9sQ2qaCzMLcpHz4UVFdxIgAPeQ1yOgUoEFcdU482iPSxVcUGl0OvbuyejqDnQ",
+      "widthPx": 2701,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "ariya hidayat17",
+          "uri": "https://maps.google.com/maps/contrib/106848774284028162739",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXfYJ5G8aF7DTqRr_KHr9TKrwumfwvkdcGi-qVw5poGaLPJy573=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBMQgytB6wGgh02abi6n4eO&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBMQgytB6wGgh02abi6n4eO!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    },
+    {
+      "name": "places/ChIJVV2u5jeLaS4RezmzZysny2M/photos/Aa-ngMYYt9W4LcNk8Pk7tq0wVjC3d6y10LoPdMSUi6c58ZRHiBOHmJ2wfxppmnBxrVhdGeckJYucx5MHo7Rm978O57cLiorNG1OxTtjQgBK0YVtMXIpmhLuXGy9aphsEMJLgcOcyTE-LnX8mpFiQqYapl1Z9ddQHF9EJ7Gtr69TiIok6LjyhQnQHf28aka25uEqI2i6pwwyMBa4sYlhTke9MmVciESCO5h7hmbIFZjipGxJRuUk5b1zS4ee2ddxefp_fnhnSRFvvoMC_vrThT-u_qUkWW4Ey76_qkg_1DrKCsh6E_kIchSY1Ob3il9qMw02ZY_CPzlOuqwGKOGA-aJKak-3KBx-a-bX5krP1h6pel1fTc3Yng8R8gjFrmGD93PQXfm0j4e-mqbFH3V136cJ4Cqkj3f1o3NifCeaYB4h6DtEIwA",
+      "widthPx": 3004,
+      "heightPx": 4005,
+      "authorAttributions": [
+        {
+          "displayName": "Sulis Aditya Pratiwi",
+          "uri": "https://maps.google.com/maps/contrib/113210989505750137127",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV9_AbzuynIRZFU4MX6wn3hTWA2yXLr4rVMjhbP6Kp6Z7uTkkXi=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCKr9R3EUDkurP4dmxq_ab3&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCKr9R3EUDkurP4dmxq_ab3!2e10!4m2!3m1!1s0x2e698b37e6ae5d55:0x63cb272b67b3397b"
+    }
+  ]
+}

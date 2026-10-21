@@ -1,0 +1,410 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6665,
+    "sizes": [
+      {
+        "el": "h1 \"KANAL FEDS\"",
+        "fontSize": 72,
+        "lineHeight": "75.6px",
+        "textWidth": 271,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h2#pagi-title \"Mulai jam 7 pagi\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 216,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h3 \"07.00 · Sebelum kerja\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 242,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h3 \"Setelah olahraga\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 186,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 183,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Sabor A Mi\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 110,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Cappuccino\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 116,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Es kopi krim\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 119,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Cake mousse cokelat\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 202,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"Menu lainnya\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 129,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#ruang-title \"Ruang kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 151,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 160,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Konsepnya rapi\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 174,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3 \"Stafnya hangat\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 166,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Kopinya beda\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 157,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Nyaman berlama-lama\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 238,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 183,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33px",
+        "textWidth": 182,
+        "pctOfContentWidth": 52
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 25
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7033,
+    "sizes": [
+      {
+        "el": "h1 \"KANAL FEDS\"",
+        "fontSize": 96.5,
+        "lineHeight": "101.295px",
+        "textWidth": 363,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#pagi-title \"Mulai jam 7 pagi\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 252,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"07.00 · Sebelum kerja\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 256,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Setelah olahraga\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 196,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 213,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Sabor A Mi\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 117,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Cappuccino\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 123,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Es kopi krim\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 127,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Cake mousse cokelat\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 215,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Menu lainnya\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 137,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#ruang-title \"Ruang kami\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 176,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 186,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Konsepnya rapi\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 183,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Stafnya hangat\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 175,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Kopinya beda\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 166,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Nyaman berlama-lama\"",
+        "fontSize": 23.4,
+        "lineHeight": "31.6414px",
+        "textWidth": 252,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 214,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 35,
+        "lineHeight": "38.5412px",
+        "textWidth": 212,
+        "pctOfContentWidth": 30
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 25
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5438,
+    "sizes": [
+      {
+        "el": "h1 \"KANAL FEDS\"",
+        "fontSize": 140,
+        "lineHeight": "146.99px",
+        "textWidth": 971,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h2#pagi-title \"Mulai jam 7 pagi\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 317,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"07.00 · Sebelum kerja\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 281,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Setelah olahraga\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 215,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 268,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Sabor A Mi\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 130,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Cappuccino\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 137,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Es kopi krim\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 141,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Cake mousse cokelat\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 239,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Menu lainnya\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 152,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#ruang-title \"Ruang kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 222,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 234,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Konsepnya rapi\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 201,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Stafnya hangat\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 191,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Kopinya beda\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 181,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Nyaman berlama-lama\"",
+        "fontSize": 26,
+        "lineHeight": "35.0978px",
+        "textWidth": 277,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 269,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "48.3947px",
+        "textWidth": 267,
+        "pctOfContentWidth": 22
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 25
+  }
+}

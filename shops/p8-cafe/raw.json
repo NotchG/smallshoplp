@@ -1,0 +1,378 @@
+{
+  "id": "ChIJESJovFT1aS4R5j6a1O3tay8",
+  "types": [
+    "breakfast_restaurant",
+    "cafe",
+    "dessert_shop",
+    "confectionery",
+    "food_store",
+    "store",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "formattedAddress": "4, Jl. Pinang Raya No.8, RT.1/RW.9, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+  "rating": 4.7,
+  "googleMapsUri": "https://maps.google.com/?cid=3417086348020563686&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 10:00 AM – 9:00 PM",
+      "Tuesday: 10:00 AM – 9:00 PM",
+      "Wednesday: 10:00 AM – 9:00 PM",
+      "Thursday: 10:00 AM – 9:00 PM",
+      "Friday: 10:00 AM – 10:00 PM",
+      "Saturday: 10:00 AM – 10:00 PM",
+      "Sunday: 10:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T03:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 229,
+  "displayName": {
+    "text": "P8 Cafe",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Breakfast Restaurant",
+    "languageCode": "en-US"
+  },
+  "primaryType": "breakfast_restaurant",
+  "reviews": [
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xaTWRYWTRUalJEVDI5dk5HNUtMVzF6WW5sT1duYxAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "I love the ambience, it feels homey. Lack of hot beverage (only hot americano and some tea). Default drinks are sweet so if you are not sugar tooth, you can ask for less sugar. Various food options. Somehow difficult for car parking space.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I love the ambience, it feels homey. Lack of hot beverage (only hot americano and some tea). Default drinks are sweet so if you are not sugar tooth, you can ask for less sugar. Various food options. Somehow difficult for car parking space.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "ceritaeka (Eka Situmorang-Sir)",
+        "uri": "https://www.google.com/maps/contrib/107858201996072961568/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV1L5AKj_SVW2Hk2SBmCyiES8wtcYoT4zZo5FswEplaY_BTgm7w=s128-c0x00000000-cc-rp-mo-ba7"
+      },
+      "publishTime": "2026-03-28T14:14:59.377682601Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xaTWRYWTRUalJEVDI5dk5HNUtMVzF6WW5sT1duYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xaTWRYWTRUalJEVDI5dk5HNUtMVzF6WW5sT1duYxAB!2m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/reviews/Ci9DQUlRQUNvZENodHljRjlvT2paVlExSlpUbkpwWW5jMFlWWmhVbEZPYlVZeFJIYxAB",
+      "relativePublishTimeDescription": "10 months ago",
+      "rating": 3,
+      "text": {
+        "text": "I visited at 11AM and ordered buttermilk chicken with rice and Korean sweet sour chicken with rice. The cashier informed me that the rice wasn’t ready yet and it would take around 10 minutes, which I agreed to.\n\nHowever, I was really disappointed when the food was served—the rice was extremely dry and not acceptable in quality. I raised the issue, and although the server offered to replace it, there was no apology at all, which should be a basic standard of service. The staff also seemed undertrained.\n\nOverall, it was not a pleasant experience, though the cafe is cute and feels homie!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I visited at 11AM and ordered buttermilk chicken with rice and Korean sweet sour chicken with rice. The cashier informed me that the rice wasn’t ready yet and it would take around 10 minutes, which I agreed to.\n\nHowever, I was really disappointed when the food was served—the rice was extremely dry and not acceptable in quality. I raised the issue, and although the server offered to replace it, there was no apology at all, which should be a basic standard of service. The staff also seemed undertrained.\n\nOverall, it was not a pleasant experience, though the cafe is cute and feels homie!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Bianca Perucha",
+        "uri": "https://www.google.com/maps/contrib/106255384465835604435/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXQB8Gsz1olkUAxMhAgSZbn1uYl2L9wpG-hYdBc7BgGRYufD3Lh=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-12-07T11:45:01.361568509Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2paVlExSlpUbkpwWW5jMFlWWmhVbEZPYlVZeFJIYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2paVlExSlpUbkpwWW5jMFlWWmhVbEZPYlVZeFJIYxAB!2m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/reviews/ChZDSUhNMG9nS0VJQ0FnSUNkMThTbElBEAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 4,
+      "text": {
+        "text": "The first time i came to P8 Cafe it was such a great place with a unique atmosphere in there. I feel the service is great, they serve me very politely and warmly. Maybe it's a great place if you want to work remote because the environment does not crowd from the street.\n\nI didn't complain about the service and place it is really the best for me. But i'm getting a little upset about the beverages especially for the coffee based. For me that really likes coffee, i think they must calibrate the composition of the coffee based drink. I ordered a mocha latte but felt like only 10% of the coffee was inside the glasses, and there was too much water in it. Maybe if you don't like coffee too much it was right for you, but for me it's not.\n\nThe food was great and the hygiene was served,  i really enjoyed it when i ate the food.\n\n*PS: They give you complimentary cookie with every coffee you order (Great tasting cookie)",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The first time i came to P8 Cafe it was such a great place with a unique atmosphere in there. I feel the service is great, they serve me very politely and warmly. Maybe it's a great place if you want to work remote because the environment does not crowd from the street.\n\nI didn't complain about the service and place it is really the best for me. But i'm getting a little upset about the beverages especially for the coffee based. For me that really likes coffee, i think they must calibrate the composition of the coffee based drink. I ordered a mocha latte but felt like only 10% of the coffee was inside the glasses, and there was too much water in it. Maybe if you don't like coffee too much it was right for you, but for me it's not.\n\nThe food was great and the hygiene was served,  i really enjoyed it when i ate the food.\n\n*PS: They give you complimentary cookie with every coffee you order (Great tasting cookie)",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Gerry Sevtrian Vivaldi",
+        "uri": "https://www.google.com/maps/contrib/107314719449698922376/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU_Oi1utlgsNm_cHX-pjigfIIli0jM7BRVjRQeRf4bNYg72tpFq=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2024-02-19T05:50:06.376201Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNkMThTbElBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNkMThTbElBEAE!2m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pVMGRIcExaM2gwTFZOVU9XMUhVRWhxZFcxdGEyYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Good place to hangout with your friends or to wfc, it’s cozy and quiet. The food and coffee tasted good, i like the peanut cookies that you’ll get along with your coffee purchase ♡",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Good place to hangout with your friends or to wfc, it’s cozy and quiet. The food and coffee tasted good, i like the peanut cookies that you’ll get along with your coffee purchase ♡",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Putri Puspita Wardani",
+        "uri": "https://www.google.com/maps/contrib/102704272643413306705/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVUpw_kFqaOcIOeSWFPxXYo4zg7vaWlmqilaDdlkPZAaLYAYIUspw=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-07-14T14:05:58.784004491Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pVMGRIcExaM2gwTFZOVU9XMUhVRWhxZFcxdGEyYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pVMGRIcExaM2gwTFZOVU9XMUhVRWhxZFcxdGEyYxAB!2m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/reviews/ChdDSUhNMG9nS0VJQ0FnSURid3NYNGdRRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "More than a comfy spot to work, chill, chat or enjoy snack and coffee, P8 cafe has plenty of space and rooms to hold events like workshops or yoga sessions.\n\nI've been here twice to guide yoga classes. It has a very lovely ambience with great drink options served with delicious butter cookies 💕\n\nThe music is at nice volume, so it's easy to chat comfortably.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "More than a comfy spot to work, chill, chat or enjoy snack and coffee, P8 cafe has plenty of space and rooms to hold events like workshops or yoga sessions.\n\nI've been here twice to guide yoga classes. It has a very lovely ambience with great drink options served with delicious butter cookies 💕\n\nThe music is at nice volume, so it's easy to chat comfortably.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Erdin Juwita",
+        "uri": "https://www.google.com/maps/contrib/103878353984588553898/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWKlqzUmfyzgWtFAmiSmWEH0kefT8w2TATwJZp-sFItbWj3y41a=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-08-03T12:20:46.713908Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURid3NYNGdRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURid3NYNGdRRRAB!2m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMa4IKH6iKIh-Ul504vXnmhd_0AlpwQ2-uzr4Pm5WZwrAaHHXesacCb37oYztBIo4pw-mBUtdqPIFNH2RVvdkWby0j8hhOh4jqJ7LaLdvXs-3JouXOfmV7RXptRLPfDK8IB_VxtBeOt5nZ296YcQGiTxKIjxW1W7cXbNuxUbjoJmMuFd0PS8cTcKmOfgCIT60u0RzZ8hI-9NYBAoYNPLjG7Pda4vUlHJaXIR2q7NzFzQxzl-_G212BDbf9qNM8wJVti4NxKZerLU7NAPs2B-yPNtCQYVNuj9AjkCcp3Eu9wVzPBh84-_IUYzMev1il1bxclAqdh0NtpJ_D78I6i0Id6-pm_thZ2XBWYnDcWW9NYcuTflJggCwwtgFa1vNYmoFneUqURQ_evXHxkzjXt1QwLuHdEGzle7_S9buRZQ3U0z8w",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "adinda fatimah",
+          "uri": "https://maps.google.com/maps/contrib/104124394132290845140",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUl7wu9-6Ql7M2fRWYj20nYyaxeJmX5bKFMUFCjnSLpz1nJ88oO=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhADycKzcQltgGfqu6UACDTC&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhADycKzcQltgGfqu6UACDTC!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMZCAn1bGTF1ud552HwxHdhcKbpfzDjugF7PoVYJuI8UV34MwWvo5YiQ3CKESed2g0enTV6hsX_Nved5bSmaDNLC8O8Q1LARGBKrfuaAycMXQOrFcAFw73nCWnKEFAKOzxncrFEK5h_dG6J8BAdPi3NSDVs1SsNXuC4U1IxP09s50vbmNc0120rFwqK5WEtDvIT9oDIhKT0NahBxYG7Eq4h51wcJS8gT2nj5e3jTslqmzEHwQFPAUgDESRBwHwoFWbq29YdxMcdUtRjqAEiR8fpRUciYY7Zoc_N4iD8ulFb6PYcOAeTkM8pkjbFTRKuMQk8RTBInisHeck74OZUPnZuCNLqo085xtL7PGTzbh3hcJXrdl-73zJ5wue5ockniaDyHai_4uai6Dul14u4yFLf6t64",
+      "widthPx": 1066,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "P8 Cafe",
+          "uri": "https://maps.google.com/maps/contrib/114029286509829645350",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI20VDhrnZYE3rTozo7hwEhuQCF8XPZ0t7Zd4sU4BcBEcDWjQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICx3uyPEg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICx3uyPEg!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMYe4Cfkzzbe8WIieVYoW_Bjb0pHMMZXJ4RG54_LO3aCDZImSrRU4BJ0k06dHZ-NifzTDqTb0sEwyDQ-NBQEQhoxNtHHeF2ZOCmpdxfzs6_teRSITV-MH0fSH4PvSZb0Vy1T36Yn6j1yu9XoMMS0aU6n7Z7eSxVOqAMhEbuK-I6XnzzbkdMjK7cmKYa1L3ozJlvcbABRyz-9zmazEsigns8ehdpqnRYn0ojCr35rXhE71L92ZPwLhNEURxXDWXslKwqTeyQU8awJAni7sPRM6xcAaKIfPfWsLNK78NZVNQc3tirq2_J1w3JYNtCTyGgmDJK8yqXdBRvBIyj44JiKDYZJxOKoAFz2UEaX2xRebAxBQ8aw4CsFSQFxXfWb-xa-7Wwq6G19LujbZiigUAo78PqUCuh_o7jRs6TwjEqyI3pP4g",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Geraldi Ryan Wibinata",
+          "uri": "https://maps.google.com/maps/contrib/109966174159333262329",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX6RyyYEuFYTUyTOJKM2zb9JPzD0V4TfdPCj8n7_R3h8nTu55blpA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAFc0gABZFYvH-ASWPYFP01&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAFc0gABZFYvH-ASWPYFP01!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMbcBoHzmUZOfHVrScRTJdfL46YtNzYOK8Hoj3QltHW2_BY8Ht9N-hj-6Q_5DS3yueF1v2Cs5QnIIIJ3-rqOwFmcpBUMELUkZI2NUW3oNaFpni4SFCsm9fvyvx-k5L9GqG0vAqCvGHQq9jAhGapLijL8kUIslkPR6HrIkI0pbd-FDpJCriB7Wt455K3eet5VMHg8pk5Wp5VfmctZUfPfK9iONQPWSZgYAOVh1y72VK4uIs43KqwO4ZeyOYdGDFQImttX7bA0Ir9XIwtOwTEniHXXedqwKAUbw4EKqYh6kNwJpyUqi6qBkg-c9ziguEGXN3nQyIP1do4GKgxGzZlGmmiJeOIQuyofuOvjI75Rab1lTagQMEBarW1jgy6XpbywEUjLysXdvwz3QdaLa78qqIFETU_i0rM8v8E7IM4QHuy7IQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Jessica",
+          "uri": "https://maps.google.com/maps/contrib/108250040159658147291",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLzKz8oI1SBZYQ9lTmYevJ_J10KwWdPBSY7xN_y6b4ASCdFIvc=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCZ0BzwQGuMSK8WUclc0dAw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCZ0BzwQGuMSK8WUclc0dAw!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMZWoMMtphZqMKWtWJ6TYk3Xhr71jK9hylK1CPdQf_BaVcJlJvoZVsTBByfWoxRxhSwZoNptLhXU_0q3LOABXRyT0QpZgU-W67uFySYu9j95hB5ycWLMW0Q0YBNiH6-LC22a762ZC8bYJMWp3VuCoLdS8jwuf8Lb3YN8WX3jjVZBFfQ7wKOwVDK_01UO5S-GorJb72AllUJ1eacIyjKMR6JmzPyKsv7W8Q6enl599IFLNMyAM4H1fkoOW-ulScvq5RpqsU5dWrKjxoBb0XHlpva7rft45COPp9d9fXKjv_lA94xTxLEL4_OSyesHBHExA8Pi2J0jqc0izuTFLV2ZTSEBQstHCM5lvznHHj0Cac9ScOxXKgpoNfyg7xhuF5nh8WeAl336czU5EZZgkYIbKJ_qq7u2G3Ky41GUBZU600-Jmg",
+      "widthPx": 2768,
+      "heightPx": 3691,
+      "authorAttributions": [
+        {
+          "displayName": "Putri Puspita Wardani",
+          "uri": "https://maps.google.com/maps/contrib/102704272643413306705",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVUpw_kFqaOcIOeSWFPxXYo4zg7vaWlmqilaDdlkPZAaLYAYIUspw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDwjKpnS-TMuLasb7OVFANj&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDwjKpnS-TMuLasb7OVFANj!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMb_DQBp_eBl2zIOJALKzWBjVadtDwwx0HTJfL6BthXlJsara45cMVs072DmkWUiB5euwjikpBk3Mu6OLXzn7nIafR9knQugcreMvInQuvIRM96A6verHuLurJ5D44KNL50GFgp3zrmX0-uT-ANz5uBmW5E146kIQOLxCFvFX3tr8ckZPMelC3mkKHkj592IOSwaN9DYA-CVdsNWvzdM7uEZcb3P5OJYJa3BrkH3LOfAYw_P6VLApIJb5_tKEeajOZ0khFj_UIbWsZDgcX8Ten7k6yeKo_mboL37SoWxKeTLMpQ3wE1GyocielUx_rQID3KSiKdMZ0oQH9rrZQPHffunGDi3H0o4NLVBimPnMlRQBoiLjTN8wZAr3T-BpDmiidrKdEN5Ivgk-LPHPud4QvicsKn0YbvGENR6uU8Tj3QNCg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Putri Yurina Nurul Ilma",
+          "uri": "https://maps.google.com/maps/contrib/117108886999396727589",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocINiHc8rl4T817PRtY4EmbgDB9dOzVyjefhplhDVmVEUA98Bg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBI5FcizTl7TtZyJwspDFCB&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBI5FcizTl7TtZyJwspDFCB!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMbbQsIBnhMXo0bvqctSV8n_icBleqsX6ZjwblcLNoK_QhBXw4bWXP6nCL8vdGRvHvK3xSqNMJKfB15EOHuhFqyqho5s02TcB8XcygpHzb_-wg1KoJtqWSeGHS1CuyVapNqovEJ1I-FenN1eqZqh8xL4R32BPbYfzaAjsitandgHzdbwJpiciFZF_MzkgBKa0r5i4do2JjCAv8N9mLkaW96E-sOoU4cRYWm_lnYqCO7qwQPdtSgQ0lrUlnfvkmbWa8pMFb4gdUKLJ-NqiFhya2vSP33A-8SxMxcrkcuUFGXFd9zSE4h9Kah20n20CSnHntrsZ4XvhwZRFvytcYmPuanICmXQYLT4KcK44zkRcXJeI_sy9wdklG9-plxVgMYK7CrRKPYI-vUWQmOxd5Nc3WN0TFl0Ctmntpt02mQAVKIXiA",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Mutiara Sarah Septiani",
+          "uri": "https://maps.google.com/maps/contrib/101507515415924940207",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVPCJfSGNsJmPdakrDyv4wSfs-xHvBkPoSQAp3QaPZnEbGjbg-k=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBrYkQ47WqhJOI67wMvM8r9&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBrYkQ47WqhJOI67wMvM8r9!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMa71ufqxKjRm9AcwmGJ_6nELpAvEtH-Fg7Ccb7XYQlrjdlWd1WCo5ik893tpKcWUPzDc03vLViyZNJD2Gntl7ReoFHTxlBDBZwi9A8ZZnNPKA38D5jX73HW2YboNuDIVdFGtQHYas4ho6HJ54AIh3vZU3lgLggA4r9BckFp3NvHpr_ZN-8Uzh7Mrt9Yh0uLzXYDwrSeoBSUgItQInvGMX-oDmkT3Un8NccpJ7i5g7AnHN6kJYxaBaRqmjc9ImZ2pN3ccH-W-ZnymiRkUFbToTtrecX1HdwRuavDjYVcXJy3CC8PsRWldqfz0ZAfQ8i9GKSg-ri5Sy6VqiCTJ6zOZ-jsLPlivsWrNmEU6gNqlB_FpKt_quap01EDE_dvBr-CmzlH2uS50Rbf7vcZCv3KGw_i6anL2HSkTUlH82xfru7AHQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "ceritaeka (Eka Situmorang-Sir)",
+          "uri": "https://maps.google.com/maps/contrib/107858201996072961568",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV1L5AKj_SVW2Hk2SBmCyiES8wtcYoT4zZo5FswEplaY_BTgm7w=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBeQkC0TrT7navQGm2Ca7n3&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBeQkC0TrT7navQGm2Ca7n3!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMZFvw9z4reSdA4lCZBMC1uWI5ZS9f5_y3V45KqEspk5jN17wuqlnfm46dcZGvFAk5kr4NQCoLTgzw4-JQAqwaDlaFabi0izE5BUxMEPawDOFbCebG4YxY0tsbJIFGvr2F6WdixA-JXLNee5Am4NWhFEAXsSTeK0lb7WAd0CaaLjOAhW3Hz2qFzVsQRrdQkyHyMDo-RZa00r_CTaeQqBRAmv6qPuQNskXXNAlXhIDbbloTGLBlY_A3GMK7kRwT2onvG1cQOvTjT18w7e9ss5KgyPzp60USxfUMNkLg-c3euusjG-7Cp1irjbhmkYyDptPJizhOVlKrv4bu1V9esYvJiXR7sePxqkQc4TKdULE_hxRtKLRhh78LXgExlEs_Ua3t7rfcT3XfJjmJgpWOFCV1PG1UftdIF_W9LlwEqyCBjSVw",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "ceritaeka (Eka Situmorang-Sir)",
+          "uri": "https://maps.google.com/maps/contrib/107858201996072961568",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV1L5AKj_SVW2Hk2SBmCyiES8wtcYoT4zZo5FswEplaY_BTgm7w=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCHiBs5ZdGZcbkFFMB0yPHf&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCHiBs5ZdGZcbkFFMB0yPHf!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    },
+    {
+      "name": "places/ChIJESJovFT1aS4R5j6a1O3tay8/photos/Aa-ngMbfBfftEsfda6uK3f9L9NvEPD39-pjRbg2QU4XODO6GYgEILlR_nCbThUw8nGVhFCEyfIG2O8GnjKCbVHRJwxLnOlUXaf7IVBRMXwWdriLeCkuKA8X318I5hITaYJ0rC7s5jkDVyrtVVsWvnUOEHGr9pavqTtYk3LRBxwCifbgwtMPwI4CjFJkcwJAp3UuAcvoxoazZdkKU024VhQW-26MtYn0CI-HbqyVj06EeOFs6NJbdn4jmbM8dBxqPSLOMJYYOiOCYC071wmztUBSpSoYlw284uzxuZICTcYx0VV9wfUbdX2-Jn_LLzLI0d2pHem7Kmkpitt34oa7RdIV0wPJr2aXq-GyDbDhQJ2h9aU4U7Cssc4pZ5zOFaE2v9ngzPPcXhaeu6pOfhhnSR2kCL5QsF5aTQd4fxJfAaPRAv19Qlg",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Fadilahikhsan Wahdanianto",
+          "uri": "https://maps.google.com/maps/contrib/118210121078404247835",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVS_pyZ33PQxUJn9tdGGQytXWVfxCKYiA5lKGy-4l8-y-tLKOch0A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAGdBazoer2itF0tbg4kZKl&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAGdBazoer2itF0tbg4kZKl!2e10!4m2!3m1!1s0x2e69f554bc682211:0x2f6bededd49a3ee6"
+    }
+  ]
+}

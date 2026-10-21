@@ -1,0 +1,323 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4. The room: white wall (paper), black metal
+   (ink), the wainscot and logo green (accent), the bean-card mustard (kartu), honey oak
+   (kayu), the LED cove line (lampu), and the secondary text tint on green (daun). */
+@theme inline {
+  --color-paper: #F5F3EE;
+  --color-ink: #17231B;
+  --color-muted: #4C5A50;
+  --color-accent: #23613A;
+  --color-kartu: #D89B3C;
+  --color-kayu: #B9824F;
+  --color-lampu: #F0DD6A;
+  --color-daun: #CFE0D3;
+  --font-display: var(--font-gloock), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --grid-gap: 24px;
+
+  --step-display: clamp(4.5rem, 2.6rem + 7.6vw, 9rem);       /* 72 → 144: hero name only */
+  --step-head: clamp(1.875rem, 1.3rem + 2.4vw, 3.25rem);     /* 30 → 52: h2 */
+  --step-lead: clamp(1.4375rem, 1.3rem + 0.55vw, 1.75rem);   /* 23 → 28: lead, h3, praise */
+  --step-body: 1.125rem;                                     /* 18 */
+  --step-small: 0.875rem;                                    /* 14 */
+
+  --leading-display: 0.95;
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  --glow: 0 0 14px rgb(240 221 106 / 0.55);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 40px; --section-y: 112px; }
+}
+
+html {
+  scrollbar-color: #B7B0A2 var(--color-paper);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  accent-color: var(--color-accent);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  font-variant-numeric: lining-nums;
+}
+::selection { background: var(--color-daun); color: var(--color-ink); }
+
+/* ---- Focus: visible everywhere, lampu on the green bands ---- */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+.on-green :focus-visible { outline-color: var(--color-lampu); }
+
+@layer components {
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.3; text-wrap: balance; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.45; }
+
+.measure { max-width: 62ch; }
+h1, h2, h3 { text-wrap: balance; }
+p, li, dd { text-wrap: pretty; }
+
+/* Gloock is a display face: never faux bold or italic, never below the lead step. */
+.font-display { font-weight: 400; font-synthesis: none; letter-spacing: -0.01em; }
+
+/* The tagline as on the round sign. */
+.tagline {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+.label-caps {
+  font-size: var(--step-small);
+  line-height: 1.45;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* 12-column grid from 1024 up. */
+.grid-12 { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--grid-gap); }
+@media (min-width: 1024px) {
+  .grid-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+}
+
+/* ---- Buttons (links) ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0 1.125rem;
+  border-radius: 2px;
+  border: 1.5px solid transparent;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 180ms ease-out, color 180ms ease-out, border-color 180ms ease-out,
+    transform 120ms ease-out;
+}
+.btn:active { transform: scale(0.98); }
+.btn svg { width: 20px; height: 20px; flex: none; }
+
+.btn-primary { background: var(--color-accent); color: var(--color-paper); }
+.btn-primary:hover { background: #1B4E2E; }
+.btn-secondary { border-color: var(--color-accent); color: var(--color-accent); }
+.btn-secondary:hover { background: rgb(35 97 58 / 0.08); }
+
+.on-green .btn-primary { background: var(--color-paper); color: var(--color-accent); }
+.on-green .btn-primary:hover { background: #FFFFFF; }
+.on-green .btn-secondary { border-color: var(--color-paper); color: var(--color-paper); }
+.on-green .btn-secondary:hover { background: rgb(245 243 238 / 0.12); }
+
+/* Text links */
+.link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: rgb(35 97 58 / 0.45);
+  transition: text-decoration-color 180ms ease-out, color 180ms ease-out;
+}
+.link:hover { text-decoration-color: currentColor; color: var(--color-accent); }
+
+/* ---- The wainscot: green band that always opens with the cove-light line ---- */
+.wainscot { position: relative; background: var(--color-accent); color: var(--color-paper); }
+.cove-line {
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: var(--color-lampu);
+  box-shadow: var(--glow);
+  pointer-events: none;
+}
+
+/* ---- Hero ---- */
+.hero-name { white-space: nowrap; }
+.hero-photo { position: relative; z-index: 2; }
+.hero-photo img { display: block; width: 100%; height: auto; object-fit: cover; }
+@media (max-width: 1023.98px) {
+  .hero-photo { margin-inline: calc(-1 * var(--gutter)); }
+  .hero-photo img { aspect-ratio: 4 / 3; object-position: 50% 86%; }
+}
+/* Tablet: a wider crop so the hours and buttons stay in the first screen. */
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .hero-photo img { aspect-ratio: 16 / 9; object-position: 50% 80%; }
+}
+@media (min-width: 1024px) {
+  /* Cols 8–12; the lower quarter drops into the band. Grid-item % margins resolve
+     against the grid area's width, so -33.333% of the width = 1/4 of a 3:4 photo. */
+  .hero-photo { margin-bottom: -33.333%; }
+  .hero-photo img { aspect-ratio: 3 / 4; }
+  .hero-band {
+    /* photo drop (photo width / 3) plus 48px below the photo's foot */
+    --photo-w: calc((min(100vw - 2 * var(--gutter), var(--container)) - 11 * var(--grid-gap)) / 12 * 5 + 4 * var(--grid-gap));
+    min-height: calc(var(--photo-w) / 3 + 48px);
+  }
+}
+
+/* ---- Bean card ---- */
+.bean-scene { position: relative; max-width: 36rem; }
+@media (min-width: 1024px) { .bean-scene { max-width: none; } }
+/* Phone: the card sits just under the tray. Wider: it overlaps the tray's lower edge,
+   left of the burn mark and below the carafe. */
+.bean-card-wrap { position: relative; width: min(90%, 22rem); margin: 0.5rem 0 0 4%; }
+@media (min-width: 768px) { .bean-card-wrap { margin: -5% 0 0 6%; } }
+.bean-card {
+  position: relative;
+  padding: 1.25rem 1.25rem 1.375rem;
+  background: var(--color-kartu);
+  color: var(--color-ink);
+  border-radius: 3px;
+  transform: rotate(-4deg);
+  transform-origin: 50% 60%;
+}
+.bean-card-shadow {
+  position: absolute;
+  inset: 16% 4% -5% 8%;
+  border-radius: 50%;
+  background: rgb(23 35 27 / 0.3);
+  filter: blur(18px);
+  transform: rotate(-4deg);
+  pointer-events: none;
+}
+.bean-card dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1rem; }
+.bean-row { padding-block: 0.5rem 0.55rem; border-top: 1px solid rgb(23 35 27 / 0.24); }
+.bean-row dd { font-size: 1rem; line-height: 1.35; margin-top: 0.5rem; }
+.bean-caption { margin-top: 1.5rem; }
+
+/* ---- Kerja: the wainscot's moulded panels ---- */
+.panel {
+  position: relative;
+  padding: 1.25rem 0;
+}
+.panel + .panel { border-top: 1px solid rgb(245 243 238 / 0.18); }
+@media (min-width: 768px) {
+  .panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .panel, .panel + .panel { border-top: 0; padding: 1.75rem 1.75rem 2rem; }
+  /* the raised-panel moulding: a 1px inset line */
+  .panel::before {
+    content: "";
+    position: absolute;
+    inset: 8px;
+    border: 1px solid rgb(245 243 238 / 0.18);
+    pointer-events: none;
+  }
+}
+@media (min-width: 1024px) {
+  .panels { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* ---- Menu shelf ---- */
+.shelf-line { height: 6px; background: var(--color-kayu); border-radius: 1px; }
+
+/* ---- Praise ---- */
+.praise-item { border-top: 2px solid var(--color-kayu); padding-top: 1rem; }
+
+/* ---- Map ---- */
+.map-frame { display: block; width: 100%; border: 0; aspect-ratio: 16 / 10; background: #E4E6E0; }
+@media (min-width: 1024px) { .map-frame { aspect-ratio: 4 / 3; } }
+
+
+/* Phone: a "· tail" (price, hours note) gets its own line instead of a dangling middot. */
+@media (max-width: 767.98px) {
+  .tail { display: block; }
+  .tail-dot { display: none; }
+}
+
+/* ---- Hours dot ---- */
+.open-dot {
+  width: 10px; height: 10px; flex: none; border-radius: 50%;
+  background: var(--color-lampu); box-shadow: var(--glow);
+}
+
+/* ---- Kopi ---- */
+@media (min-width: 1024px) { .kopi-grid { grid-template-rows: auto 1fr; } }
+.price-list li { padding-block: 0.7rem; border-top: 1px solid rgb(23 35 27 / 0.14); }
+.price-list li:last-child { border-bottom: 1px solid rgb(23 35 27 / 0.14); }
+
+/* ---- Kerja panels: one framed panel on phone ---- */
+.panels { border: 1px solid rgb(245 243 238 / 0.18); padding-inline: 1.25rem; }
+.panel { display: flex; gap: 1rem; align-items: flex-start; }
+.panel-icon { flex: none; margin-top: 2px; }
+@media (min-width: 768px) {
+  .panels { border: 0; padding-inline: 0; }
+  .panel { display: block; }
+  .panel-icon { margin: 0 0 0.875rem; }
+}
+
+/* ---- Menu shelf ---- */
+.shelf { display: grid; }
+.shelf-item {
+  display: grid;
+  align-content: start;
+  grid-template-columns: 150px minmax(0, 1fr);
+  grid-template-areas: "art text" "line line";
+  column-gap: 1rem;
+  align-items: end;
+  padding-top: 1.75rem;
+}
+.shelf-item:first-child { padding-top: 0; }
+.shelf-art { grid-area: art; }
+.shelf-svg { display: block; width: 100%; height: auto; margin-bottom: -3.3334%; }
+.shelf-line { grid-area: line; position: relative; z-index: 1; }
+.shelf-text { grid-area: text; padding-bottom: 0.625rem; }
+
+@media (min-width: 768px) {
+  .shelf { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .shelf-item {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "art" "line" "text";
+    padding-top: 0;
+  }
+  .shelf-art { width: min(100%, 21rem); padding-inline: 0 1.5rem; }
+  .shelf-text { padding: 0.625rem 1.5rem 0 0; }
+}
+
+/* ---- Footer ---- */
+.footer-row { display: grid; gap: 0.5rem; border-color: rgb(245 243 238 / 0.2); }
+@media (min-width: 1024px) {
+  .footer-row { grid-template-columns: auto minmax(0, 1fr) auto; align-items: baseline; column-gap: 2.5rem; }
+}
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small); line-height: 1.45; text-align: center; padding: 8px 16px;
+  background: var(--color-ink); color: var(--color-paper);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active { transform: none; }
+}

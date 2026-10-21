@@ -1,0 +1,259 @@
+@import "tailwindcss";
+
+/* SEATAP Kopitiam: the colour-block wall and the bottle-green wall (design brief §3–4).
+   Colours and fonts become Tailwind utilities (bg-botol, text-krem, font-display...). */
+@theme {
+  --color-botol: #0F4636;
+  --color-krem: #F6E7C6;
+  --color-kunyit: #E9A13F;
+  --color-bata: #B04434;
+  --color-sage: #8E9A78;
+  --color-tinta: #17201B;
+  --font-display: var(--font-jost), "Futura", ui-sans-serif, sans-serif;
+  --font-body: var(--font-familjen), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale (design brief §4–5). Sizes live here as variables, never as
+   Tailwind arbitrary values with spaces. */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --hero-top: 40px;
+  --hero-bottom: 64px;
+  --col-gap: 24px;
+
+  --step-display: clamp(4.5rem, 1.5rem + 7.2vw, 8rem);      /* 72 → 128 */
+  --step-head: clamp(2.25rem, 1.6rem + 2.6vw, 3.75rem);     /* 36 → 60 */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem);    /* 22 → 28 */
+  --step-body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);      /* 16 → 18 */
+  --step-small: clamp(0.8rem, 0.75rem + 0.15vw, 0.875rem);  /* 12.8 → 14 */
+
+  --leading-display: 0.9;
+  --leading-head: 1.08;
+  --leading-lead: 1.25;
+  --leading-body: 1.55;
+  --leading-small: 1.4;
+
+  --focus: var(--color-botol);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 32px; --section-y: 112px; --hero-top: 56px; --hero-bottom: 80px; }
+}
+@media (min-width: 1280px) {
+  :root { --gutter: 40px; }
+}
+
+html { background: var(--color-tinta); color: var(--color-tinta); }
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  background: var(--color-krem);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Browser surfaces carry the palette too. */
+::selection { background: var(--color-kunyit); color: var(--color-tinta); }
+a { text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+
+/* Grounds: each section sets its own colour, text colour and focus ring (design brief §3). */
+.ground-botol  { background: var(--color-botol);  color: var(--color-krem);  --focus: var(--color-kunyit); }
+.ground-krem   { background: var(--color-krem);   color: var(--color-tinta); --focus: var(--color-botol); }
+.ground-kunyit { background: var(--color-kunyit); color: var(--color-tinta); --focus: var(--color-botol); }
+.ground-tinta  { background: var(--color-tinta);  color: var(--color-krem);  --focus: var(--color-kunyit); }
+
+/* Tiles: flat, square-cornered, flush. Text colour fixed per tile. */
+.tile-botol  { background: var(--color-botol);  color: var(--color-krem);  --focus: var(--color-kunyit); }
+.tile-krem   { background: var(--color-krem);   color: var(--color-tinta); --focus: var(--color-botol); }
+.tile-kunyit { background: var(--color-kunyit); color: var(--color-tinta); --focus: var(--color-botol); }
+.tile-bata   { background: var(--color-bata);   color: var(--color-krem);  --focus: var(--color-kunyit); }
+.tile-sage   { background: var(--color-sage);   color: var(--color-tinta); --focus: var(--color-botol); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+.hero-pad { padding-top: var(--hero-top); padding-bottom: var(--hero-bottom); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: var(--leading-lead); text-wrap: pretty; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: var(--leading-small); }
+
+.tagline { letter-spacing: 0.12em; text-transform: uppercase; font-weight: 500; }
+.heading { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.01em; text-wrap: balance; }
+.measure { max-width: 36rem; }
+.hero-line { text-wrap: balance; } /* unlayered, so it must beat .t-lead here, not a utility */
+
+/* 12-column grid from 1024px (design brief §5). Below that, sections stack. */
+.grid-12 { display: grid; grid-template-columns: minmax(0, 1fr); row-gap: 32px; }
+@media (min-width: 1024px) {
+  .grid-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--col-gap); }
+}
+
+/* Wordmark: one SVG (components/Wordmark.tsx), 1/1000 em units, baseline at its bottom
+   minus the S overshoot, so it sits on the text baseline when inline (footer). */
+.wordmark { display: inline-block; height: 0.766em; width: auto; aspect-ratio: 3662 / 766; vertical-align: -0.022em; }
+.wordmark-hero { display: block; margin-bottom: 0.14em; }
+
+/* Hero wall: four tiles laid beside the lounge photo. */
+.hero-wall { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.hero-wall .hero-tile { aspect-ratio: 1; }
+.hero-wall .hero-photo { grid-column: 1 / -1; aspect-ratio: 3 / 4; overflow: hidden; }
+@media (min-width: 640px) and (max-width: 1023px) {
+  .hero-wall .hero-photo { aspect-ratio: 4 / 3; }
+}
+@media (min-width: 1024px) {
+  .hero-wall { grid-template-columns: 1fr 3fr; grid-template-rows: repeat(4, minmax(0, 1fr)); }
+  .hero-wall .hero-tile { grid-column: 1; aspect-ratio: auto; }
+  .hero-wall .hero-photo { grid-column: 2; grid-row: 1 / span 4; aspect-ratio: 3 / 4; }
+}
+
+/* Menu wall (design brief §7): 2 cols < 640, 3 cols 640–1023 (both full-bleed, heading on
+   the krem ground above), 4×3 named areas ≥ 1024 inside the container with the heading as
+   the 2×1 botol tile. */
+.menu-section { padding-bottom: 0; } /* full-bleed wall meets the next section */
+.menu-wall { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.menu-wall .wall-head { grid-column: 1 / -1; padding: 0 var(--gutter) 32px; }
+.menu-wall .wall-tile { aspect-ratio: 4 / 5; min-width: 0; align-self: stretch; justify-self: stretch; }
+.menu-wall .wall-plain { display: none; }
+.menu-wall .wall-bundle {
+  grid-column: 1 / -1; aspect-ratio: auto; display: grid; grid-template-columns: 1fr 44%;
+  align-items: end; gap: 16px; padding: 16px;
+}
+.menu-wall .bundle-art-box { aspect-ratio: 1; }
+@media (min-width: 640px) {
+  .menu-wall { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .menu-wall .wall-bundle { grid-template-columns: 1fr 30%; padding: 24px; }
+}
+@media (min-width: 1024px) {
+  .menu-section { padding-bottom: var(--section-y); }
+  .menu-wall-wrap {
+    max-width: calc(var(--container) + 2 * var(--gutter));
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+  .menu-wall {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-areas:
+      "head head kopi singkong"
+      "pisang plainA bubur teh"
+      "plainB kue bundle bundle";
+  }
+  .menu-wall .wall-tile { aspect-ratio: 1; }
+  .menu-wall .wall-plain { display: block; }
+  .menu-wall .wall-head {
+    grid-area: head; padding: 32px; display: flex; flex-direction: column; justify-content: flex-end;
+    background: var(--color-botol); color: var(--color-krem); --focus: var(--color-kunyit);
+  }
+  .menu-wall .wall-bundle {
+    grid-area: bundle; aspect-ratio: auto; position: relative; display: flex; align-items: flex-end; padding: 24px;
+  }
+  .menu-wall .bundle-text { max-width: 48%; position: relative; }
+  .menu-wall .bundle-art-box { position: absolute; top: 16px; bottom: 16px; right: 24px; height: auto; width: auto; aspect-ratio: 1; }
+  .menu-wall [data-area="esKopiSusu"] { grid-area: kopi; }
+  .menu-wall [data-area="singkongGoreng"] { grid-area: singkong; }
+  .menu-wall [data-area="pisangGoreng"] { grid-area: pisang; }
+  .menu-wall [data-area="buburKacangHijau"] { grid-area: bubur; }
+  .menu-wall [data-area="esTeh"] { grid-area: teh; }
+  .menu-wall [data-area="kuePandan"] { grid-area: kue; }
+  .menu-wall [data-area="plainA"] { grid-area: plainA; }
+  .menu-wall [data-area="plainB"] { grid-area: plainB; }
+}
+/* Drawings sit centred on the upper part of each tile. The kit's 200×200 boxes carry their
+   own margin, so the box is wider than the brief's 48% / 40% to read at that size. */
+.product-art { width: 62%; aspect-ratio: 1; flex: none; align-self: center; }
+@media (min-width: 640px) { .product-art { width: 56%; } }
+@media (min-width: 1024px) { .product-art { width: 38%; } }
+@media (min-width: 1280px) { .product-art { width: 52%; } }
+
+/* Breakfast tile: 4:3 on phone, square beside the list on desktop. */
+.sarapan-tile { aspect-ratio: 4 / 3; }
+.sarapan-art { width: 92%; aspect-ratio: 4 / 3; }
+@media (min-width: 640px) { .sarapan-tile { aspect-ratio: 3 / 2; } .sarapan-art { width: 78%; } }
+@media (min-width: 1024px) { .sarapan-tile { aspect-ratio: 1; } .sarapan-art { width: 90%; } }
+
+/* Contact buttons: full width, label then number. */
+.action.contact-action { justify-content: flex-start; width: 100%; }
+.action.contact-action .action-sub { margin-left: auto; }
+
+/* Round "mirror" photo with a krem bevel ring (design brief §7, Ruang kumpul). */
+.mirror {
+  width: 320px; max-width: 100%; aspect-ratio: 1; border-radius: 9999px; overflow: hidden;
+  outline: 2px solid var(--color-krem); outline-offset: 8px;
+}
+@media (min-width: 1024px) { .mirror { width: 520px; } }
+
+/* Hours as tiles: 4 + 3 on phone, one row of 7 from 640px. */
+.week { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (min-width: 640px) { .week { grid-template-columns: repeat(7, minmax(0, 1fr)); } }
+.week > div { aspect-ratio: 1; min-width: 0; align-self: stretch; justify-self: stretch; }
+.week-text { font-size: var(--step-small); line-height: 1.2; }
+
+.bullet { width: 16px; height: 16px; flex: none; }
+
+/* Map with the address behind it as a fallback. */
+.map-frame { aspect-ratio: 4 / 3; position: relative; overflow: hidden; }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* Buttons: ≥48px tall, square corners like the tiles. */
+.action {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 48px; padding: 12px 22px; font-weight: 600; font-size: var(--step-body);
+  line-height: 1.2; text-decoration: none; border: 2px solid transparent;
+  transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1), background-color 150ms ease-out, color 150ms ease-out;
+}
+.action:hover { transform: translateY(-2px); }
+.action:active { transform: scale(0.98); }
+.action-primary { background: var(--color-kunyit); color: var(--color-tinta); }
+.action-primary:hover { background: #F0B25A; }
+.action-ghost { border-color: var(--color-krem); color: var(--color-krem); }
+.action-ghost:hover { background: rgba(246, 231, 198, 0.12); }
+.action-dark { background: var(--color-botol); color: var(--color-krem); }
+.action-dark:hover { background: #155A46; }
+.action .action-sub { font-weight: 500; opacity: 0.9; }
+
+.text-link { font-weight: 600; text-decoration: underline; min-height: 44px; display: inline-flex; align-items: center; }
+.text-link:hover { text-decoration-thickness: 2px; }
+
+.skip-link {
+  position: absolute; left: 12px; top: -100px; z-index: 50; padding: 12px 16px;
+  background: var(--color-kunyit); color: var(--color-tinta); font-weight: 600;
+  --focus: var(--color-krem);
+}
+.skip-link:focus { top: 12px; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px; line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-tinta); color: var(--color-krem);
+}
+
+/* Hero no-flash rule (TRD motion spec): hidden only when JS runs and motion is welcome.
+   GSAP animates to the rest state; the failsafe shows everything after 2 s regardless. */
+@media (prefers-reduced-motion: no-preference) {
+  html.js [data-hero-anim] { opacity: 0; animation: hero-failsafe 0.01s linear 2s forwards; }
+}
+@keyframes hero-failsafe { to { opacity: 1; visibility: visible; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .action:hover, .action:active { transform: none; }
+}
+
+/* Hidden accessible name next to a visual-only wordmark: 1px text so its (clipped) line
+   boxes never sit on top of the visible letters. Screen readers ignore the size. */
+.sr-name { font-size: 1px; line-height: 1; }
+main:focus { outline: none; }

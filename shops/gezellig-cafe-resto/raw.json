@@ -1,0 +1,379 @@
+{
+  "id": "ChIJ15yoLQD1aS4RM251g2B07Kk",
+  "types": [
+    "cafe",
+    "dutch_restaurant",
+    "family_restaurant",
+    "european_restaurant",
+    "indonesian_restaurant",
+    "restaurant",
+    "point_of_interest",
+    "food",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0851-5515-9411",
+  "internationalPhoneNumber": "+62 851-5515-9411",
+  "formattedAddress": "Jl. Pemuda No.74, RT.1/RW.2, Jati, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+  "rating": 4.7,
+  "googleMapsUri": "https://maps.google.com/?cid=12244289444784729651&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 9:00 AM – 11:00 PM",
+      "Tuesday: 9:00 AM – 11:00 PM",
+      "Wednesday: 9:00 AM – 11:00 PM",
+      "Thursday: 9:00 AM – 11:00 PM",
+      "Friday: 9:00 AM – 11:00 PM",
+      "Saturday: 9:00 AM – 11:00 PM",
+      "Sunday: 9:00 AM – 11:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T02:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 361,
+  "displayName": {
+    "text": "Gezellig Cafe & Resto",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pKNGVqWnVhbkZxU1ZKMmVESTBZMVpqUTBKNVptYxAB",
+      "relativePublishTimeDescription": "11 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Met up with old friends here and it didn't disappoint us. The ambience is cozy, food is good. The staff is friendly and quick to attend to our need. The parking space is quite spacious.\n\nOrdered Garang Asem here and it tasted authentic.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Met up with old friends here and it didn't disappoint us. The ambience is cozy, food is good. The staff is friendly and quick to attend to our need. The parking space is quite spacious.\n\nOrdered Garang Asem here and it tasted authentic.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Maya Notodisurjo",
+        "uri": "https://www.google.com/maps/contrib/113663173800228877897/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUbxENGtzk_Knn-5Z0FBauT3JP_SMWjpm0B3kDrpFx4F_foeDM=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-11-18T13:30:46.399519324Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pKNGVqWnVhbkZxU1ZKMmVESTBZMVpqUTBKNVptYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pKNGVqWnVhbkZxU1ZKMmVESTBZMVpqUTBKNVptYxAB!2m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/reviews/ChdDSUhNMG9nS0VJQ0FnTUNvdzhlSHFnRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Food is good, I ordered spaghetti Arabiatta and fried banana.\nDrinks that I ordered is good, maybe for hot coffee required more hot, will be more delicious.\nAmbience is conformable with Dutch ornaments.\nThere is live music.\n\nOverall is nice for hangout with family and friends.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Food is good, I ordered spaghetti Arabiatta and fried banana.\nDrinks that I ordered is good, maybe for hot coffee required more hot, will be more delicious.\nAmbience is conformable with Dutch ornaments.\nThere is live music.\n\nOverall is nice for hangout with family and friends.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Rahadiany Rachmawaty",
+        "uri": "https://www.google.com/maps/contrib/114293938169628662373/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVcqiQKS7GVDl-arH4jnK_2Bq_csy0zvcqP8o7hYVvNKEZCeUo4=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2025-04-19T13:38:33.701895Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnTUNvdzhlSHFnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnTUNvdzhlSHFnRRAB!2m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s1NlpVdHRXVjgwVVVONWVESmhjR1ZZYUhnMmJuYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "So cozy, they have indoor area (a non smoking area), outdoor area (smoking area). The outdoor area have 2 section, one is an open space and the other one have a roof.\nThe ambience in the indoor area are felt like in an old house, they have beautiful chandelier and some Holland ornaments.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "So cozy, they have indoor area (a non smoking area), outdoor area (smoking area). The outdoor area have 2 section, one is an open space and the other one have a roof.\nThe ambience in the indoor area are felt like in an old house, they have beautiful chandelier and some Holland ornaments.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "R. Dimas Wicaksono",
+        "uri": "https://www.google.com/maps/contrib/103206782610834030610/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXq9-xi2478ygPA5xOKBOsDNZQ6d-zO3B8-jWfHvafXFl49iuJn=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-08-16T10:50:59.030270212Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s1NlpVdHRXVjgwVVVONWVESmhjR1ZZYUhnMmJuYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s1NlpVdHRXVjgwVVVONWVESmhjR1ZZYUhnMmJuYxAB!2m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/reviews/ChdDSUhNMG9nS0VJQ0FnTURJN1p1Nm5nRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "This is such a quality restaurant by its food,design,environment...\nI got lunch here...\nThe gezzelig kofta joppie is wonderful...\nContains salad, pickles and onions, fried beef steak & sauce served  with rice...\nDelicious...\nThe uitsmijter also tasty...\nLike English breakfast in Dutch version...\nContains vegetables,fried egg,bread,smoked beef and champignon mushroom... Fried with butter... Amazing...\nThey also give the chilli options too\nThe coffee and flavored rum is like drinking bailey without alcohol and I like it...\nFor this 2 food menu and 1 drink costs only 135 k IDR include the tax & service...\nIt's really worth the quality...\nSatisfying...\nService is quick and polite also kind...\nThe restaurant is clean and comfy also had parking lot for guests too...\nAtmosphere is like in Dutch restaurant,tables and interior,the painting and the flowers even are tulips also had miniature of Holland windmill...",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "This is such a quality restaurant by its food,design,environment...\nI got lunch here...\nThe gezzelig kofta joppie is wonderful...\nContains salad, pickles and onions, fried beef steak & sauce served  with rice...\nDelicious...\nThe uitsmijter also tasty...\nLike English breakfast in Dutch version...\nContains vegetables,fried egg,bread,smoked beef and champignon mushroom... Fried with butter... Amazing...\nThey also give the chilli options too\nThe coffee and flavored rum is like drinking bailey without alcohol and I like it...\nFor this 2 food menu and 1 drink costs only 135 k IDR include the tax & service...\nIt's really worth the quality...\nSatisfying...\nService is quick and polite also kind...\nThe restaurant is clean and comfy also had parking lot for guests too...\nAtmosphere is like in Dutch restaurant,tables and interior,the painting and the flowers even are tulips also had miniature of Holland windmill...",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Akino Wahanamulia",
+        "uri": "https://www.google.com/maps/contrib/107822325157411661959/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJtBvXFYl_jNHMcfNzmcYk32A_gJyBGByBLV2vONrZx0U1A0A=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-04-12T07:45:24.331159Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnTURJN1p1Nm5nRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnTURJN1p1Nm5nRRAB!2m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xsa1FVcFFkRWxYTjFGQmFETmFYekV5YTBaM1dWRRAB",
+      "relativePublishTimeDescription": "10 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Celebrated my partner’s birthday here and honestly, it was such a memorable experience. Romantic dinner dengan makanan khas Belanda, ambience-nya super aesthetic dan intimate. The service was really friendly and attentive, bikin feel-nya warm banget sepanjang malam. Makanannya? Super enak, no debate, totally worth it. Thank you for making my partner’s birthday dinner so special. Definitely recommended.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Celebrated my partner’s birthday here and honestly, it was such a memorable experience. Romantic dinner dengan makanan khas Belanda, ambience-nya super aesthetic dan intimate. The service was really friendly and attentive, bikin feel-nya warm banget sepanjang malam. Makanannya? Super enak, no debate, totally worth it. Thank you for making my partner’s birthday dinner so special. Definitely recommended.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Vicky Danang",
+        "uri": "https://www.google.com/maps/contrib/113623793547272150071/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUMpUEL23wWPFPkBB8zvEkJUMKOwyzSBsj2JRdcwJCwqHVfeQOs=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-12-22T04:51:07.211262407Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xsa1FVcFFkRWxYTjFGQmFETmFYekV5YTBaM1dWRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xsa1FVcFFkRWxYTjFGQmFETmFYekV5YTBaM1dWRRAB!2m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMZx63CKT5r0UTT9jLGOfjqyx5OS5gN34nSA615N14V18_L5Zlog1Xd67mTuI9qCgtQrx8sAayHMD_l0btqCduV6g-QsHkuGs9Sfpk6_NV-P8QSP-aO9j8r-j2f5_yOp-GEz4mpCqD0Av8vPhN1jwO_026TTcobnhD7o5fJLbjxgSsHkVum7ZJrrr0qZTIKbEaafv2Pm5pTwxVLttu3ZNEymNu4oTKZ8Lx4kTd4JcjmVgWXDVx0Z-1lN_m8455p0Jvd-W0SC9Op8r9wfJjPO_SnnuiqXP3uw81Dfy7tmfD2Uhf5izkIwwi-jfJk4MPQG-WZVdzd2c1fuA0uM_P6D8BSTUJHdYuf1tsrronIScW0tpEVYFVzN0XRoaPZGgZF7cZ0atyBhhuACDQ5rRnAQ52WjC1c",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Khairun Nisya",
+          "uri": "https://maps.google.com/maps/contrib/112961198408777588805",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUO_12zuiJ3EqOwlWXkFU7DgH3OURKGW7aw4YKP0kmTxPkkYoPp=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMCA4ty5WQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCA4ty5WQ!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMYAJ6dVlfCMxb2Eco9fKxYwHy5Iu48WQn6w-OOkGngbZ36HpoXDjqJFXa7J2wqrIABKVUqXja5bjCtfTWOkCS8GWVLYSFzL1qcFlwZeK8c_uU0UKoG7cgmSnnWsjeoxyGiDfHeZGMk-71Z4e0gt970L7jwP1RFLDm0Rn30T-a6OBj7hxZQGkO2wercRPMSfDxKB7uLDFXC4qxZeKZPmys_zvQ349yMyDVO9hCcUF3hZcoDUNTowuvu47mjBwC0gN4u1hBmiRggwZKU-g0PVMTG7ihJtcgdUp0yzJbzAIzsBeJLW5IQx80lwfN2aq281onefbHcM9aQplsgAhMAg-tl4ftCJC_Ov8L8zZTBbDSZXuSqcFLTIr31xzTPtgHPt0-xL52wxsjQnXsYdko2pSzf2LtU",
+      "widthPx": 4032,
+      "heightPx": 2268,
+      "authorAttributions": [
+        {
+          "displayName": "labitta khairunnisa",
+          "uri": "https://maps.google.com/maps/contrib/109419949902239136883",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVPWj07yjNLmsLWsWsUVgZv_s9dp3bgSr-AJ30ZPXXGEs_n6Qqr=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgMDQjLHTaw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDQjLHTaw!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMbOmtS1UnGKZOvidlRHs_YZMFmiIS2xduckMyfAQ35SkLNq6TQwl4w7EgAF0bGOXn1VIpeGE2CMqFz9OlIHQWnhJfag282Yyj4Htxmlznkn-xplXondi25F2hOVTbi64CnZhqCxcxPylW-eYvKsbz7sInfUJpnCtA9NaTFmCk-V74u5WA_1CqXCAN1cCycXaPPoH9k7a6-g71mUEYfqK75NCg3v5ds-CQAwu-T0qQiGsRF6MkpVL4Ey79rV34L6QB0yS5n6o6cyF-s3g2cD-whSSX_hf8RkSP1aT8YXvEmgSj0whUR-rsMMWIvNuUp6qPlNT7Dp94MKXPSpsgKvZeopqxVTOZj76ZBf1x4gThv6jNnTY1DZqG4GWLd2_hoiVXNS5sKrGmHD5F5HCQ5pN6edtmpgfa630qFhdXi_Nl_MmA",
+      "widthPx": 2252,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Senja Cw",
+          "uri": "https://maps.google.com/maps/contrib/102769093882735409121",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUQV77WpFNDhyeXFHg_JKLGTQsGJdCmL6osWBrwH1O7uIYmUhY5Rg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBePO7ahyS5PxlN2MoFAh30&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBePO7ahyS5PxlN2MoFAh30!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMY6xYk0vC7t9z6XFpABl3lCLTIiHImzHZcDP5h8sffNrpioKSlz0osCB6MOXPpfOroQ61PUxOFM1oXmH7zUFgzOw4TeIoEyM1NF0e5JyoO3UHeebnS4IzUAGmPif0XeowpBirn8dwYIX2ByRPuBgjjfaTS7wa2cJZgig0w6f-rtfyyNbwDKWOH7CD2S0il3fbCHHjg30QIsEU-U9NIZPHTuWKXLN-300Et3huQ1F3ga3yKfPNpVu4Li_is8uIf58dtbji_YE7Z14jLmcDni0phGl7eP60nBI_2TuRAg9wfyK-rIU68ViAxtF8EqDn1p3TY4XHP2whqw8HfZUEjcYHnrMTZKYSI5NjLysUJJtplwlP9S7D0STBwFrxaAku3yTb5IjmOJ9WOofnh50CqPMd4mkgpjrFmJxvXdaA5cYzmd6A",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDGRjZkYTT28YotIuFjOSBW&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDGRjZkYTT28YotIuFjOSBW!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMZprfxHTMHOK9SEt0sGyzs3f80cIJRmZH8GgcxqeJRggb9-rUOrnndR1nnWayaIgEevllJRGpLOPJeULThNBDJOtBKUKV4yxi30tG67QKb-aelXpnFK2OsUGcCXJ-kZvXujgtyBxfWsAoYEQoDM5mp-fFS_LhMDXxva6MtptX4URMI5b9GwUxJpJHU4SOql6_kQSd-EzZMbO5pJ6w65WKtYjHxAeh34PDtocpmmppxqTDR6AQ0m5kWTVAR8JmeilZaW1lcAVUlIc-o347ZcDGoD6Pl2CRPqiFQwk3_0MgCftnNeNPiHQQJVQs3cAsU9sh7FYJmUEnDBffifcyL3ryHQsle35J22K9Uzykal3Ly12m83vTuFMLv0h-ciaOlCf1iXYcnocYxc7ph0s7Jq5kdplvWNA71dLXpRNozGWJ2U4w",
+      "widthPx": 1201,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "jian silvia",
+          "uri": "https://maps.google.com/maps/contrib/111534680420016015759",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU5nWCX2EBJHLswk10QrXP-cIBpW2YyL0v33sLBVWe0Q4yeW9hW=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDKrv1q-LpruCc80DG0UzHb&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDKrv1q-LpruCc80DG0UzHb!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMZUv7NVrvL7kRyz4LI7duM0F5x5TryTvJMIzX6UNed_m4gJcoRaKdgBz84RVYu9xoS_0yyOoT_uE684WScWyrrrBkW-E6DOoaWG9n18bbjxTpv1IAjWnBleKnQWz6SsimuxLZmdbzKuO4nbUiJAtm_cAy-SIsTO4GZv9VkWOVeCM7TQUIxNEDfxYtOrnpWd1i8pPW2fVX5gH9i3KvefRUWDGjAvVYAJT6oW1FdIead45tML3LVHCBb1_KadxD7i5WpTQ1tbxBrd98wkQ81B3eeoUvfF1nATc4a2PxzJrm7VFAZpWireQrliBjrTAgUoGgMbr175i7x4lk4iRHXlkG9gdLSLWBX1ifoEMi-8kLLDhhuVxO9kfIS5o8KgtZoZB9wpb1RiHms2F29ctJwGcYFtt-1hjH12QHXrd9nYIvEjkA",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCxGK5KlvVQY8HPfQpP9Ujf&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCxGK5KlvVQY8HPfQpP9Ujf!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMbVrdxVVfSqk6aOiuT_qPJ8Xj2Nve5di9eITU-qzH7PVdH33LsW7uhZlsGTcqyWcxUM3SWzQIU0e1fUKrKK6hHgCzxVIpLXRZdAZuuyNvdClR0ws6LmUgm1vm8yfTx-431gdOK2Z_t_XkxcUe1acSMS_EZmovwLK58qL_vaSq5fk7sDAUDEYGnMMTK-zs6pmrhmlqC1QBxUQXnTxlP8LimBevsgmTa0QY0A5zHNza6Wlh0AMnwYZwmyEtjTadLIdRNjyZaQ9YLnaLrSLkAwuP2XauZzdAIIrRvbuhJ4OUhe67IpuLScbfWdNa4_yZNDqwyMsue0mLwBq-4ih0EZMqp516AX_oqw2o410Dh3momsh6oDsKpNrr6efsVYwU8SyQ750fpjyDjYlX2YV5l-VfnSjr_nhBADKDjs_6ZcU40r",
+      "widthPx": 4608,
+      "heightPx": 3456,
+      "authorAttributions": [
+        {
+          "displayName": "Fuji",
+          "uri": "https://maps.google.com/maps/contrib/110123241662637075928",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL0P4znR1P-JAQImIi3JckgNjOeFzfjfQvaDG4QjG0ouertr82x=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC0JbB6D-nej4XoKwKo2WZO&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC0JbB6D-nej4XoKwKo2WZO!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMZ2XJ4pM--Z7eoLZFtZPdm4Tj3EbLxV7Pt0RCXBuBFqHoVhtB-ZPw930dZlTl4GgBiaLFlAItWlGTZynU3cglY-xoLt0iTloOjA-4IF5AF0LNjSSiX_PfKzTOcyryqqSLPq2i7r80j6a22KFPWNeaEjIgddB6NXMmZk6mDuJ1dq0TpNybiYlapkt6qqLxNp5iaCpqePnHlEvBS9r-AN8d1nVlXj5Etyd8PRRw27MZj1H2QIBgjyHLb5e6JnO63lUuoWK3ErrZnFeNQ5ed_xb2eaJ8t-qrz2XbRygantOMfN1TM6pXMomCY3USSOb41EGiYKxFV73DDpcpJv1AtoBNS7Fnoh9SH4lOMOMktYTNsvGxYNcHnncOGkkNrEJhmyVxonuD61eAxMIRbmWZmPLJ1Lc7KOVukI4kygF2hkLp2prQ",
+      "widthPx": 4608,
+      "heightPx": 3456,
+      "authorAttributions": [
+        {
+          "displayName": "Fuji",
+          "uri": "https://maps.google.com/maps/contrib/110123241662637075928",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL0P4znR1P-JAQImIi3JckgNjOeFzfjfQvaDG4QjG0ouertr82x=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCTgjuXfSOu35ML1Z0Sg93_&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCTgjuXfSOu35ML1Z0Sg93_!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMa5Fdp1aGkiyYNRAwnHRVgcRXrbpmqgZVFLE-lF9w1NYwdf14ejFqzZYvIREKxPQpGNnF_IVOf-Td48_4_BbPx89wBX9rvb5HCBL7ZiTFosGvbfF_GAQnabbTVITchJR8Dz_sKtzBRiYSgF_tCOZpWW7vGdRQ0kTSId0783f9GNar-3S8YmIWDV7Y2uIUrV9t-6iL4I-oGVemmPdPL7T5wF9swZSlISOEwmZlHz7HridW6hE7-HLsKNiIJh-5b8gjoUCvqUEDy9GSbXGBsh-qdGT-U3W8ZqFg6RBHFC-pOa7XNVV6qKknx4cE2tpv-4fKKl9YHFDx2BJd2hTPpmo-jZPx2LjEmgCdOl2rci9CDUQl3F_VYvqTMGAQ36LZRVFhipN3xmcx2f2Tu1cmrnR6OzlNhmaEQa96vWhoQNJ4AJ",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCn6s7JI9nKfJ_YIsyv8ird&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCn6s7JI9nKfJ_YIsyv8ird!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    },
+    {
+      "name": "places/ChIJ15yoLQD1aS4RM251g2B07Kk/photos/Aa-ngMbDuqslx3fbS6E2NeVvEpiIueezwP9g50mrkaEfvBmN6jcI5qcx_xPE-9UA_zi7okpS0zk68VB31OEchURTFZLhApeC6bJFkPT3grOO4GyLgA0LCZk69j8lnori9-M56rTlXEJqJKOMimujNnXJPSnT9EoOnJInSpgTVgCovs6CksUM2S_vCRSU6zsH_WCuAFBo-Y5N2uW1F9lozUAYZnK9fYFCRXcwIJD5oQN-vVPdHp8SiA6wpgTDEJiVf5Somvn6RjenSBJpfutgXchRd_5t1gro1Df1Ih6HsmAXdUMUh3XpbFtwEYkh0XSCsB_GcgY-pN0SCyGQT2coI4VxSZmtM0iaXWGVkJiRpq9bWUID6NJ3TYD8NcSYW2rY3_zGakFYYnchBjb4rJRb0ZK8EMvBqGbSEgeGQjGpYZmJsU1iWA",
+      "widthPx": 4608,
+      "heightPx": 3456,
+      "authorAttributions": [
+        {
+          "displayName": "Fuji",
+          "uri": "https://maps.google.com/maps/contrib/110123241662637075928",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL0P4znR1P-JAQImIi3JckgNjOeFzfjfQvaDG4QjG0ouertr82x=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhD6AXi2vUEGtNHyJhwJHwQZ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD6AXi2vUEGtNHyJhwJHwQZ!2e10!4m2!3m1!1s0x2e69f5002da89cd7:0xa9ec746083756e33"
+    }
+  ]
+}

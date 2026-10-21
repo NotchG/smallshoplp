@@ -1,0 +1,618 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Colours and fonts become Tailwind utilities (bg-limewash, text-kopi, ...). */
+@theme {
+  --color-limewash: #e4e3de; /* main ground */
+  --color-chalk: #f7f6f2; /* second ground, frame interiors, text on palm */
+  --color-kopi: #221b17; /* text on light grounds */
+  --color-walnut: #6b4427; /* product frame slabs, "Andalan" tag */
+  --color-palm: #1f3d31; /* Ruang kami + Hubungi kami grounds, primary button, elapsed day */
+  --color-jade: #5cbf98; /* the accent: marker, square bullets, price chips, labels on palm */
+  --color-muted: #55504b; /* secondary text on limewash/chalk (6.2:1) */
+  --color-muted-palm: #b9cbbf; /* secondary text on palm (7.0:1) */
+  --color-palm-2: #2a4e3f; /* placeholder panels */
+  --color-concrete: #9a9993; /* hairlines and the unelapsed day line only (decorative) */
+  --color-palm-deep: #16302a; /* primary button hover (darker palm, no new hue) */
+
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale (design brief §4–5). Sizes live here as variables,
+   never as Tailwind arbitrary values with spaces. */
+:root {
+  --container: 75rem; /* 1200px */
+  --gutter: clamp(1.25rem, 0.786rem + 1.905vw, 2.5rem); /* 20px → 40px */
+  --section-y: clamp(4rem, 2.886rem + 4.571vw, 7rem); /* 64px → 112px */
+  --grid-gap: 1rem; /* 16px phone, 24px desktop */
+
+  --step-display: clamp(4.5rem, 2.921rem + 6.476vw, 8.75rem); /* 72 → 140px */
+  --step-head: clamp(1.875rem, 1.55rem + 1.333vw, 2.75rem); /* 30 → 44px */
+  --step-lead: clamp(1.375rem, 1.282rem + 0.381vw, 1.625rem); /* 22 → 26px */
+  --step-body: clamp(1.062rem, 1.039rem + 0.095vw, 1.125rem); /* 17 → 18px */
+  --step-small: clamp(0.8125rem, 0.789rem + 0.095vw, 0.875rem); /* 13 → 14px */
+
+  --leading-display: 1.05;
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  --dur-hover: 180ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+@media (min-width: 1024px) {
+  :root {
+    --grid-gap: 1.5rem;
+  }
+}
+
+html {
+  background: var(--color-limewash);
+  color: var(--color-kopi);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-sans);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  caret-color: var(--color-palm);
+}
+
+/* Browser surfaces carry the palette too. */
+::selection {
+  background: var(--color-jade);
+  color: var(--color-kopi);
+}
+:focus-visible {
+  outline: 2px solid var(--color-palm);
+  outline-offset: 3px;
+}
+.on-palm :focus-visible {
+  outline-color: var(--color-jade);
+}
+:where(a) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section {
+  padding-block: var(--section-y);
+}
+.grid-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--grid-gap);
+}
+@media (min-width: 1024px) {
+  .grid-page {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+}
+
+/* Type */
+.t-display {
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.t-head {
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.t-lead {
+  font-size: var(--step-lead);
+  line-height: 1.35;
+  text-wrap: pretty;
+}
+.t-body {
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+}
+.t-small {
+  font-size: var(--step-small);
+  line-height: 1.45;
+}
+.t-label {
+  font-size: var(--step-small);
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.measure {
+  max-width: 60ch;
+}
+
+/* The wordmark. Two lines ("KANAL" / "FEDS") below 1024px, one line from 1024px.
+   Typed as "Kanal Feds"; caps come from .t-display. */
+.hero-title {
+  width: min-content; /* breaks at the space, never mid-word */
+  margin-inline-start: -0.04em; /* optical: pull the K's side bearing onto the text edge */
+}
+@media (min-width: 1024px) {
+  .hero-title {
+    width: auto;
+    white-space: nowrap;
+  }
+}
+
+/* Hero: phone order tagline → today → actions → rating; desktop two columns. */
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "tagline" "today" "actions" "rating";
+  row-gap: 1.5rem;
+  column-gap: var(--grid-gap);
+}
+.hero-tagline { grid-area: tagline; }
+.hero-today { grid-area: today; }
+.hero-actions { grid-area: actions; }
+.hero-rating { grid-area: rating; }
+@media (min-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-areas:
+      "tagline tagline tagline tagline tagline . today today today today today today"
+      "actions actions actions actions actions . today today today today today today"
+      "rating  rating  rating  rating  rating  . today today today today today today";
+    grid-template-rows: auto auto 1fr;
+    row-gap: 2rem;
+  }
+}
+
+/* The day line (signature moment). Track and marker are decorative (aria-hidden);
+   the status sentence above it carries the information. */
+.day-line {
+  --marker: 1rem;
+  --edge: calc(var(--marker) / 2 + 2px);
+}
+.day-track {
+  /* clip only sideways: the taller marker stays visible, and no scroll container is made */
+  overflow-x: clip;
+  padding-inline: var(--edge);
+  margin-inline: calc(var(--edge) * -1);
+}
+.day-inner {
+  position: relative;
+  height: var(--marker);
+}
+.day-bar {
+  position: absolute;
+  inset-inline: 0;
+  top: 50%;
+  height: 4px;
+  margin-top: -2px;
+  background: var(--color-concrete);
+  overflow: clip;
+}
+.day-fill {
+  position: absolute;
+  inset: 0;
+  background: var(--color-palm);
+  transform: translateX(-100%);
+}
+.day-tick {
+  position: absolute;
+  top: 50%;
+  width: 1px;
+  height: 10px;
+  margin-top: -5px;
+  background: var(--color-muted);
+  display: none;
+}
+.day-rail {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.day-marker {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--marker);
+  height: var(--marker);
+  margin-left: calc(var(--marker) / -2);
+  background: var(--color-jade);
+  border: 2px solid var(--color-palm);
+  opacity: 0;
+}
+.day-scale {
+  position: relative;
+  height: 1.4em;
+  margin-top: 0.5rem;
+}
+.day-scale > span {
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+.day-scale .day-start { left: 0; }
+.day-scale .day-end { right: 0; }
+.day-scale .day-hour {
+  transform: translateX(-50%);
+  display: none;
+}
+@media (min-width: 1024px) {
+  .day-tick,
+  .day-scale .day-hour {
+    display: block;
+  }
+}
+
+/* The square: the day-line marker, reused as the bullet everywhere.
+   Jade is too light to stand alone on light grounds, so it gets a palm edge there. */
+.square {
+  display: inline-block;
+  flex: none;
+  width: 0.75rem;
+  height: 0.75rem;
+  background: var(--color-jade);
+  border: 2px solid var(--color-palm);
+}
+.on-palm .square {
+  border-color: var(--color-jade);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.625rem 1.25rem;
+  border-radius: 2px;
+  font-size: var(--step-body);
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  transition:
+    background-color var(--dur-hover) ease-out,
+    color var(--dur-hover) ease-out,
+    border-color var(--dur-hover) ease-out;
+}
+.btn-primary {
+  background: var(--color-palm);
+  color: var(--color-chalk);
+  border: 2px solid var(--color-palm);
+}
+.btn-primary:hover {
+  background: var(--color-palm-deep);
+  border-color: var(--color-palm-deep);
+}
+.btn-secondary {
+  background: transparent;
+  color: var(--color-palm);
+  border: 2px solid var(--color-palm);
+}
+.btn-secondary:hover {
+  background: var(--color-palm);
+  color: var(--color-chalk);
+}
+.btn svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex: none;
+}
+
+/* Small text links (hero anchors) keep a 44px tap target. */
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+  padding-inline: 0.25rem;
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.35em;
+  transition: text-decoration-color var(--dur-hover) ease-out;
+}
+.nav-link:hover {
+  text-decoration-color: currentColor;
+}
+
+/* Price chip: jade with kopi text (7.6:1). */
+.chip {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  background: var(--color-jade);
+  color: var(--color-kopi);
+  font-size: var(--step-small);
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* A visible mark on menu names that are still examples (explained in the menu note). */
+.mock-mark {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--color-muted);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.3em;
+}
+
+/* Walnut slab frame, after the box-frame tables: 12px sides, 3px top and bottom. */
+.slab {
+  background: var(--color-chalk);
+  border-style: solid;
+  border-color: var(--color-walnut);
+  border-width: 3px 12px;
+}
+.slab svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.slab-art {
+  position: relative;
+  aspect-ratio: 4 / 3;
+}
+.slab-art svg {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+}
+.slab-tag {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  color: var(--color-walnut);
+}
+
+/* Menu: Sabor A Mi leads, three products follow. Phone: rows with a 112px frame. */
+.product-list {
+  display: grid;
+  gap: 1.75rem;
+}
+.product-row {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  column-gap: 1rem;
+  align-items: start;
+  align-content: start; /* rows never stretch, so names line up across the three */
+}
+.product-row .art-small {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+.product-row .art-small svg {
+  transform: scale(1.3); /* small square frames: zoom in on the subject */
+}
+.product-row .art-small[data-art="cappuccino"] svg {
+  transform: scale(1.12); /* wider scene: keep the side cup of milk in frame */
+}
+@media (min-width: 640px) {
+  .product-row {
+    grid-template-columns: 11rem minmax(0, 1fr);
+    column-gap: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: var(--grid-gap);
+  }
+  .product-row {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 1rem;
+  }
+  .product-row .art-small {
+    aspect-ratio: 4 / 3;
+  }
+  .product-row .art-small svg {
+    transform: none;
+  }
+}
+.menu-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "head" "art" "text";
+  row-gap: 1.25rem;
+}
+.menu-head { grid-area: head; margin-bottom: 0.75rem; }
+.menu-feature-art { grid-area: art; }
+.menu-feature-text { grid-area: text; }
+@media (min-width: 1024px) {
+  .menu-feature {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "art art art art art art art . head head head head"
+      "art art art art art art art . text text text text";
+    column-gap: var(--grid-gap);
+    row-gap: 0;
+  }
+  .menu-head { margin-bottom: 0; }
+  .menu-feature-text {
+    align-self: end;
+    padding-bottom: 2.25rem; /* sits on the frame's bottom edge, above the caption line */
+  }
+}
+
+/* Mulai jam 7 pagi: the two moments side by side from 640px. */
+@media (min-width: 640px) and (max-width: 1023.98px) {
+  .morning-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1.5rem;
+  }
+  .morning-intro {
+    grid-column: 1 / -1;
+  }
+}
+.more-menu {
+  border-top: 1px solid var(--color-concrete);
+}
+
+/* Photo placeholders: palm-2 panel, crazy-paving pattern, label top-left. */
+.placeholder {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-palm-2);
+}
+.placeholder-texture {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.placeholder-label {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  right: 0.75rem;
+  color: var(--color-chalk);
+}
+.ratio-16-10 { aspect-ratio: 16 / 10; }
+.ratio-4-3 { aspect-ratio: 4 / 3; }
+
+/* Ruang kami: phone order intro → terrace → list → pair; desktop two columns. */
+.spaces-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.spaces-left,
+.spaces-right {
+  display: contents;
+}
+.spaces-intro { order: 1; }
+.spaces-main { order: 2; }
+.spaces-list { order: 3; }
+.spaces-pair { order: 4; }
+@media (min-width: 1024px) {
+  .spaces-grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--grid-gap);
+  }
+  .spaces-left {
+    grid-column: 1 / span 5;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-right: 1.5rem;
+  }
+  .spaces-right {
+    grid-column: 6 / span 7;
+    display: flex;
+    flex-direction: column;
+    gap: var(--grid-gap);
+  }
+}
+.square-inline {
+  margin-top: 0.45em;
+}
+
+/* Hours table */
+.hours-table {
+  width: auto;
+  min-width: 15rem;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+.hours-table th,
+.hours-table td {
+  padding-block: 0.4rem;
+  text-align: left;
+  font-weight: 400;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-concrete) 55%, transparent);
+}
+.hours-table th {
+  padding-right: 1.5rem; /* times sit 24px after the longest day name */
+}
+.hours-table tr[aria-current] th,
+.hours-table tr[aria-current] td {
+  font-weight: 600;
+}
+
+/* Contact rows on palm */
+.contact-row {
+  display: flex;
+  align-items: center;
+  min-height: 4rem;
+  padding-block: 0.75rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-muted-palm) 35%, transparent);
+  transition: color var(--dur-hover) ease-out;
+}
+.contact-row:hover {
+  color: var(--color-jade);
+}
+.contact-row svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 0.5rem;
+  flex: none;
+}
+
+.contact-list {
+  border-top: 1px solid color-mix(in srgb, var(--color-muted-palm) 35%, transparent);
+}
+.map-frame {
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--color-concrete);
+  background: var(--color-chalk);
+}
+.map-frame iframe {
+  display: block;
+  border: 0;
+}
+.footer-inner {
+  border-top: 1px solid color-mix(in srgb, var(--color-muted-palm) 35%, transparent);
+}
+.footer-mark {
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.mockup-banner {
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+  padding: 8px 16px;
+  background: var(--color-kopi);
+  color: var(--color-chalk);
+  letter-spacing: 0.02em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

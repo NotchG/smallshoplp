@@ -1,0 +1,374 @@
+{
+  "id": "ChIJIRSyIl-NaS4RB4COoTsZbRk",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0856-9317-2926",
+  "internationalPhoneNumber": "+62 856-9317-2926",
+  "formattedAddress": "Jl. Rawa Domba No.47A, RT.2/RW.16, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+  "rating": 4.9,
+  "googleMapsUri": "https://maps.google.com/?cid=1832148367313895431&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 0,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 1,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 2,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 3,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 4,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 6,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 30
+        },
+        "close": {
+          "day": 0,
+          "hour": 0,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:30 AM – 11:00 PM",
+      "Tuesday: 7:30 AM – 11:00 PM",
+      "Wednesday: 7:30 AM – 11:00 PM",
+      "Thursday: 7:30 AM – 11:00 PM",
+      "Friday: 7:30 AM – 12:00 AM",
+      "Saturday: 7:30 AM – 12:00 AM",
+      "Sunday: 7:30 AM – 11:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T00:30:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 455,
+  "displayName": {
+    "text": "SAJENAK",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/reviews/Ci9DQUlRQUNvZENodHljRjlvT205NU5VcEZkRGhmZWtaRlRFVm9abWRRV1RodU0xRRAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 5,
+      "text": {
+        "text": "a very comfort place to hang out, also the food and the drinks is very good, for sure gonna comeback here again!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "a very comfort place to hang out, also the food and the drinks is very good, for sure gonna comeback here again!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "marshall porcaro",
+        "uri": "https://www.google.com/maps/contrib/113659493930543784170/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLNlxak9mLO55ooQ7eh7Jfw47pXsuHAmX9x0UzsnVbOzWZmpw=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-06-23T08:27:18.498429229Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT205NU5VcEZkRGhmZWtaRlRFVm9abWRRV1RodU0xRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT205NU5VcEZkRGhmZWtaRlRFVm9abWRRV1RodU0xRRAB!2m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pWeWVXNVVXRGhpVldKelMyRk9hM2REV1RSUmNrRRAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "fav place to go since jhsss place makes memoriesss all goodddd💝💝💝",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "fav place to go since jhsss place makes memoriesss all goodddd💝💝💝",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Sabina ashika humaeni",
+        "uri": "https://www.google.com/maps/contrib/110688494015087346817/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXq5MiyVu0zuwJ0m2JMDPgrNl97zMr6EYNwaKcmARO6u2qUJCOT=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-03-26T03:05:54.712579599Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pWeWVXNVVXRGhpVldKelMyRk9hM2REV1RSUmNrRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pWeWVXNVVXRGhpVldKelMyRk9hM2REV1RSUmNrRRAB!2m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/reviews/ChZDSUhNMG9nS0VJQ0FnTURJeC1HUGVnEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "First time here and the vibes are so cool....",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "First time here and the vibes are so cool....",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ali Rafsanjani",
+        "uri": "https://www.google.com/maps/contrib/117965916349679539642/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVf5z-sHwkvRtPMkkpl7cb-Gt5FpxGDskg7H00DVWaJpAqfhfiC=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-04-13T12:28:00.286183Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTURJeC1HUGVnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTURJeC1HUGVnEAE!2m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s4dFdGWkVjMUZEU0VVM1RHdzRSRk15ZWxnMFQxRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "such a good place to hangout with your friends! baristanya bintang 5⭐️",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "such a good place to hangout with your friends! baristanya bintang 5⭐️",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Raeesa Calvina",
+        "uri": "https://www.google.com/maps/contrib/100252795773216864477/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXht2jrbSQ6vZ9HNF10nZ1ukgFgEj_9ERkjFnnuC3IfEuVyh0IS=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-07-03T06:40:22.641250416Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s4dFdGWkVjMUZEU0VVM1RHdzRSRk15ZWxnMFQxRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s4dFdGWkVjMUZEU0VVM1RHdzRSRk15ZWxnMFQxRRAB!2m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/reviews/ChdDSUhNMG9nS0VJQ0FnTURJaHV1RGdBRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Affordable Price, good services, nice Vibe place and music. Authentic coffe shoop.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Affordable Price, good services, nice Vibe place and music. Authentic coffe shoop.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "agung pinandita",
+        "uri": "https://www.google.com/maps/contrib/116554437794995551195/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLYVE-HG4A8lMNhFSva3r3FY6Eil_0rZWPwSQbbSR3rQB1hMA=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-04-09T07:55:05.866217Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnTURJaHV1RGdBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnTURJaHV1RGdBRRAB!2m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMYfh_uWVi6V-qaYU92SmAQRP2nopOK-skPKsXB3-Z1yUj6QEvJXJyT7WTrbqt4vL1M7v53x1-QDGqpjSj9MW0_dkpnbJpJIcN8Bk9Ou3cZg60zLJbLVdNN8S0kXT9MCsFRHB1CHxKgOMhRSev8_PPPlnLlRG9Tjxxy7h1FFQKN4iju7OW4i2bb7VO6A3l6qIhj-Bia8rzcHGl2Ko6W9TtqrBXcOoh0fCQnZsOrqZYEVM-RX1jcnN30gd7RfN0wp_gFd1HDWKEK_nwsTTjMHDdK7_K1gzkhO6OJStLvBbZJ6RhH0XbckjRIGwXeCMD53UgzV1uY52bsevhIEDsLOstM-1lnrijtPbs9LhIE-fS_cuPyi0E_v5bOKhfehGKQLrDPGMxHLp_dtFO3jU11FBTuY3dTsEQmsAWjuUUDnuaelUA",
+      "widthPx": 4800,
+      "heightPx": 3200,
+      "authorAttributions": [
+        {
+          "displayName": "SAJENAK",
+          "uri": "https://maps.google.com/maps/contrib/115920485833428023611",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYtvPt_jSz8EUJ8llkxU6-qxmt2Yru5VbTKOg6JLCoj67m-xI4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCIB6oJMr1jtm8wwnEQJa45&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCIB6oJMr1jtm8wwnEQJa45!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMY3pLzssPQG5bcLeD_XOTrARhNUgduMEtrQ-CycrTNeCBCtQCqxcTIxArkmzcCCm6aMcNzSgbvg5hI5yYH6Hy_Kz-t5C21imYxaDcVqDZzATP38sbeb4chDZQM0SgW1Pc4FAtgmbx1Blh14-Fh0DiCH-JCa3RaRWFpxL7GB_OSznL1X4_PzsbqOfQSgahYKUFF4ZY33hmtYNK5WWFiDyr8j2rwDSHjLxQxrG1liVVohvXpPM15UATK0d55l481Xi-wo0Ew32v1LfSVaR0AN1XR9_WMP31lZJs7xsXsvzlv5QBhiQ_fQ9crnh9YFG-PpTg65X9nOvEXh1QajYpc-LJvXhUE6trpSMBUGm_hDlH_2I_0ZLWJiDXI_AAgh_JKE8n_he_-vq_JdOf05Zf6ryHGej6La4UcgpON4TbypmZr5",
+      "widthPx": 794,
+      "heightPx": 1123,
+      "authorAttributions": [
+        {
+          "displayName": "SAJENAK",
+          "uri": "https://maps.google.com/maps/contrib/115920485833428023611",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYtvPt_jSz8EUJ8llkxU6-qxmt2Yru5VbTKOg6JLCoj67m-xI4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCJDkoJ7A_6X70GjozSRpb1&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCJDkoJ7A_6X70GjozSRpb1!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMbi6zWPnEIcNoIenmyt9cX6N0iOEUuZqLrQ1EwUrYFuFHTXG64o6d4STcWPQj5rkkwUVK93BxpoTloXN80xPfbTE-H0addnJ9x_vdGN7Gr1HVPxTRKo9q3pea_N32brx-lRn5yxwPQ3RZuaJfn8b9ukmTlzcIbeIRj0lopFDZgf-FhvkvikN846XxTQ_1GwGciYwmcd-BUh7zho29KozQM8ccmXKb7fyAh8tm_iUe4s7fCgL4mTlBQCFjG6ykDA81UH0RS8EsMruvhGtPMkRasYIHixrWtHcPDBxgIhdm2GcOK2z910YL6aEzuiqpAyKJReRSPLX-fc8R9ce0_mqevBd86X1fTel8v_j5mJ9k9HhSSgiR5zMd5SrLN9JkhI9dvniSlb-5IQrOttkLg8AIAf8CtgHtd4VOybgEkh8XGh",
+      "widthPx": 4800,
+      "heightPx": 3200,
+      "authorAttributions": [
+        {
+          "displayName": "SAJENAK",
+          "uri": "https://maps.google.com/maps/contrib/115920485833428023611",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYtvPt_jSz8EUJ8llkxU6-qxmt2Yru5VbTKOg6JLCoj67m-xI4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBmH52xn86uN4T3t31Shj3x&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBmH52xn86uN4T3t31Shj3x!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMazqzYiZayshiuUGRIXpqSCoZW_og-JEsf23HSCSFuveCN8DSkiUmuFmViS6ji4jV3DX9QYqdyCaJCHuxE-To2HBwF_vOCahygpCYthTa_kTi9jtLgKhzGmTfS8bI98sxVefpMRhTtlDRe7HyjvjFi9vrd0lsLrTZxUmn-LJ3xUtOBQojFzQGTiPdu-QyIdgbRPuGvtA-8P1Ze_oDwWx6gS6pnwSSU10XZTtjnU9Lytt8kwHpN5Fidh-p8eDWOl0wVDvogywubRoceFzoHcyQh-gGKpL1LYl5KUL9ab490GkM2nwTzB2_W4jGeCQxlcTepgjyVMJjWNTNLfStXbst_oSQ0XWRephQM8FpqPP3pqSlBAK9SZyR4l2tzTh9_DLaFB9XRGbG85dN0TM8Kk2sanaYm0hQWk4XgWfj0dmEgn",
+      "widthPx": 794,
+      "heightPx": 1123,
+      "authorAttributions": [
+        {
+          "displayName": "SAJENAK",
+          "uri": "https://maps.google.com/maps/contrib/115920485833428023611",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYtvPt_jSz8EUJ8llkxU6-qxmt2Yru5VbTKOg6JLCoj67m-xI4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBEie21JckmGXIA5FhL7qtM&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBEie21JckmGXIA5FhL7qtM!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMZq9LTxAHw_M5_u5yunVME3wlvNdvOi-NPlMTbV4HdtFN9aFtkdMhfglt_gD8JRu6y66UWBo_IXtvfyWMmIu62tR29Vx5Ojz8RHvFxvPJbK80IFRw6oCJvxU7RUGOHSdv6hcWitU-u9IjnuyXOSZploNhpH8MT6KIZrI4BI3ECPI4CagFMO2jQ6sBr-t-c3cLuP_XbJHLGIeXj7o2cy04ObZ0OnTYrp4K-_Eid6gBKgGdn0A5T53DUM21W3TlveyGfvNpYRkzUv61tr0ps1Z9RvAzNVAnHmvqbyhdvj3AmSSH7VF_RtSIjn4L59ZVu5ReruSkRbjRqr0yIEuqqZrvJizhIbC4eGqp51ZMTtphWgWA43pDO1lWApx3X8NeajIvwN3aex6j79n3M5m3d2z1sUv6RKUYGMyYfUluarZoF73w",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "dzurrotul atsnawiyah",
+          "uri": "https://maps.google.com/maps/contrib/118246675515321216753",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWKwIVonwEjPREI5Ou9BxtL355DBy5rHWirSrydNIyBbWy5zAU=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhB92RNv-WCz0W0Q_zwRFgmG&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB92RNv-WCz0W0Q_zwRFgmG!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMb9z3bjBP43a6JEeBn76MiX5U4nqKKOFU0dLYLFMUN5_GXel0p03Os8Usog1m7hG6aUcK8Fj5N5wuC12vPrAtpif0qtMBAo8iPqKvjdEuIf1UgZEqo4XGZ_PUcRsy44tAvVbhfeD5YHVSC67A-g6HPKux41g3cOFpm9y372gXqdxAKUNrfgtDi-SFqBeWDx5ld8Zc6PSd432sPCQF_N88gX7MFpWCvJoOGGeRct3xJ0FI7xPFRTLY3R0oZuGXLpbZaGDIPDK_3RsOgYxN5amMSik9paExFmMfVdNtJboEL_f2dHT-sIlQyKPr0nu6aXrSkvitb19lhLZseaaCfGPbP7ZoT7ImCfUqlR7-iwZKMoTk7E_38C6jQ_FbsZ0VcgVJgSc77AWYwfMImZnjBEPq8R-85rRo2cyxNcBLaawlwxUg",
+      "widthPx": 2295,
+      "heightPx": 2869,
+      "authorAttributions": [
+        {
+          "displayName": "SAJENAK",
+          "uri": "https://maps.google.com/maps/contrib/115920485833428023611",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYtvPt_jSz8EUJ8llkxU6-qxmt2Yru5VbTKOg6JLCoj67m-xI4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDfmJ1tPHJhltoL9jTM743z&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDfmJ1tPHJhltoL9jTM743z!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMbW0DBiOz39VhY3WZpD7EEcryADhVtdbYf_o13IX0nD7rDK2hfBYPZ5zXc_vUWg7bzffkMi9nzrNqND_FB8FWDCeNtq1yLpoq_gCVb93-Wv3YwPR2_ypmJ1y6Fm1zZlUXglQJkwyV2RZQqUWSdGbV7A-jLEdYVDT5B9nIES_Qs8_lbSgKsK7sEyDs5-pdjaM27rurNO4KPa6VMNqnFtpXpRpRtZgR9dzHG3hRq0P953AN9O05Hn0R4csbDQ-4MmhT81bK2YOxn98wgKQ8qPfndoGU554tLtUb4RwELJ6KHO6ANOVahGd8vM9vXyq7SvTIOpuBQtg6mU_DVHawRkh5cx_DQa3ogDSJ9106ZvcKmiRRbaUp0QlnyFbTa6d61m1aS0U22bb8x6muuy_ExCqYQ3XTBG1BPhuqPKyIH9GaWu",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Muhamad Ihya",
+          "uri": "https://maps.google.com/maps/contrib/106689327099923135939",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVzCSU8GRYm3MzuklnD1L2u1UBMl51nF5ABTqk1jaurVtja8Rir5A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAOBfnsJsHJZetuW_LQoP8O&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAOBfnsJsHJZetuW_LQoP8O!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMbnC63TJM0t2rdqShFwyEAxoEnHCdDwyAM5aKzr0Bga-Ntm9v9MhDCrK8S2ni_uhuhPHIeZGL8lZXIOS7Fvqb_BREzAxxfz-Zxo9cRpzX6suBRpcjgYQRYdHqTg8Op17K-UrdDKQLMnCh-kdzFj9l0HdcOCHQC0EPatQAQt32-ODs5mFe02Vt6J9LngTNwO3L8ju9YuAGkTDVBg3Larwcf7BrnlCt7LlDDK9YBjnuU_arNz1kdinjfWIXg40ZwbvwLfPJx0uQHvfv8nZ_PfXK9aCeayVDgHdrEm478nvAoCFlh6pmmmkVp4gFR7fkkjneDmc6flEk0G1lcPGgWMrL1X3l6odQyTt-snA-0a0ytrAksd1iDtaP5AirRHvZIErwuZ2ejkS9xPyxFNfo8lSokUaVb9ShtO4rEGR3Cnmjs4iw",
+      "widthPx": 3472,
+      "heightPx": 3472,
+      "authorAttributions": [
+        {
+          "displayName": "Andri Sutrisno",
+          "uri": "https://maps.google.com/maps/contrib/116938519246954611961",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVNWojaIz0YnoJcRVbA6smqAXI3VA1UwCFD6wJ740GxBpNfxkNshw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAE0vfXbbKh0kmZTdPEsJVJ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAE0vfXbbKh0kmZTdPEsJVJ!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMY28y12T0ajueODsc4UdcJw9SKoZUZs0JuZwQsN_zr9Lxbe4NPWSYWdz0mg3ZyG31_Y5BhMb5zEAOEWD7IpetC9j3wgT-huStX47qYw7WLYcayfpghIkRjzTRLELh8dXoNt4IzdaTNP66Mt7x0_Pnaml1-MFQzDv5csz0-Q_vJh6RA8bjMtZMIdqEL8tkgvsA3BqBh9RYuF2K2SDAVIiNyRRrrgi3vhkSkU_wrB-pk9_EVdFmgcWoVasO7EXl91EAgqaJQ2FVZf-H8jPSBV3xDHmcAGbkkhWUc_xap5wz4pni0ocMapPZP0ZHdQ8H2MGrJngLEse7lV8S29FRKGRMjzUv_x1pvZ9TDvdGmFOpDIcfgevqzm6aEas--lBgWd7r7O4B_ubZxXAmCLafWjnY5JU9tHGN4Bcc7ijV4qgIYskg",
+      "widthPx": 2295,
+      "heightPx": 2869,
+      "authorAttributions": [
+        {
+          "displayName": "SAJENAK",
+          "uri": "https://maps.google.com/maps/contrib/115920485833428023611",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYtvPt_jSz8EUJ8llkxU6-qxmt2Yru5VbTKOg6JLCoj67m-xI4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCI7AOFhUgpf5KIkqfUojyE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCI7AOFhUgpf5KIkqfUojyE!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    },
+    {
+      "name": "places/ChIJIRSyIl-NaS4RB4COoTsZbRk/photos/Aa-ngMYjCv1JMsi4iSTr3tSAz-mN-hWA6tHdBGg_sPysnkcQJNCLhItZVg3iG_PUEz-OuAXLPUmpJX3k5iiABtpWTHImc1lgdT5f92S2SPUXnS3ayoEpH6HLjWazI9PKRKd_VwOMEC5x98mN7GWQUuA_eF0kvwYeCxDy0EclbHl72FgVGv8kWI2V4HAPmnJDdag3ltcnqXSpgouO_2siRG5SFzqvR4d3J0Mc9GcpEW0e6vmX1FG2af_AMvvm2VZAjv43ijfE7PhAFBdOIlyMDqq5X-KO2gl6s4ut51WfcRxo9BBMNBAban2XzPzq9sjyn-DHAZ1DhTvc7j2ZtKUlLn_UUInEMTpLVAs_QzFg0PHxPa6f3g2OR6Lui1_ieTE8TtD_8atFQMT-RqEk9sEVa5A_2SuUAaQIW6pJLgaGzBt-ysCkjA",
+      "widthPx": 4800,
+      "heightPx": 3200,
+      "authorAttributions": [
+        {
+          "displayName": "SAJENAK",
+          "uri": "https://maps.google.com/maps/contrib/115920485833428023611",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWYtvPt_jSz8EUJ8llkxU6-qxmt2Yru5VbTKOg6JLCoj67m-xI4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAFhWi0zzsOoQeQNtyUF7Sw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAFhWi0zzsOoQeQNtyUF7Sw!2e10!4m2!3m1!1s0x2e698d5f22b21421:0x196d193ba18e8007"
+    }
+  ]
+}

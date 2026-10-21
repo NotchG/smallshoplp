@@ -1,0 +1,365 @@
+{
+  "id": "ChIJGWNHZhbzaS4RBJb9lwZuDrA",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "point_of_interest",
+    "food",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0877-7105-1994",
+  "internationalPhoneNumber": "+62 877-7105-1994",
+  "formattedAddress": "Jl. Angkasa No.13A, RT.1/RW.9, Halim Perdanakusuma, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13610, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=12686198174948103684&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 11:00 PM",
+      "Tuesday: 8:00 AM – 11:00 PM",
+      "Wednesday: 8:00 AM – 11:00 PM",
+      "Thursday: 8:00 AM – 11:00 PM",
+      "Friday: 8:00 AM – 11:00 PM",
+      "Saturday: 8:00 AM – 11:00 PM",
+      "Sunday: Closed"
+    ],
+    "nextOpenTime": "2026-10-21T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 292,
+  "displayName": {
+    "text": "Agan Coffee Shop",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/reviews/ChdDSUhNMG9nS0VJQ0FnSUR6ejZlQ3pRRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Agan Coffee offers a cozy spot for coffee aficionados, with an inviting ambiance perfect for catching up with friends or tackling some work. The affordable prices make it a go-to spot, although the narrow parking lots can be a bit of a hassle. However, once you're inside, the delicious coffee and tasty meals make up for any parking woes. They offer a variety of payment methods, which is convenient, and there are plenty of sockets available for powering up your devices. Whether you're looking for a quick caffeine fix or a place to settle in for a while, Agan Coffee has you covered.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Agan Coffee offers a cozy spot for coffee aficionados, with an inviting ambiance perfect for catching up with friends or tackling some work. The affordable prices make it a go-to spot, although the narrow parking lots can be a bit of a hassle. However, once you're inside, the delicious coffee and tasty meals make up for any parking woes. They offer a variety of payment methods, which is convenient, and there are plenty of sockets available for powering up your devices. Whether you're looking for a quick caffeine fix or a place to settle in for a while, Agan Coffee has you covered.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Salman Alfarisi",
+        "uri": "https://www.google.com/maps/contrib/110282872621599384989/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWJUKeTp62U-T1ZQcF_FlrzChdHsKm9uncsY9gaFFLQdiAhNh0F=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2024-06-13T12:30:54.677336Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR6ejZlQ3pRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR6ejZlQ3pRRRAB!2m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/reviews/ChdDSUhNMG9nS0VJQ0FnSUQweXF5TDdBRRAB",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Great coffee, affordable price.\nGreat Americano for only idr 20k.\nEasily seen by the traffic.\nStop by a while after a flight to Halim Airport.\nGood place to take a rest a bit.\nKeep it good!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Great coffee, affordable price.\nGreat Americano for only idr 20k.\nEasily seen by the traffic.\nStop by a while after a flight to Halim Airport.\nGood place to take a rest a bit.\nKeep it good!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Muhammad Doang",
+        "uri": "https://www.google.com/maps/contrib/100243420386991446501/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVwyscr-ue5ycE37SoRMKRPxnpYFmcK2yBmzux0ah8eMQjIyqG4=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2019-10-31T13:34:39.964914Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUQweXF5TDdBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUQweXF5TDdBRRAB!2m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/reviews/ChdDSUhNMG9nS0VJQ0FnSUN4eU5uTnFRRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "cozy place to chill and tasking. they have a good coffee. especially javaness coffee",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "cozy place to chill and tasking. they have a good coffee. especially javaness coffee",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Theresia Beby",
+        "uri": "https://www.google.com/maps/contrib/104788771369597996956/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXg-sCu4pJlokKC9DN4Xn6myKuc_06wm2JmKzF3RQHrv0BoJY7n=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2023-05-09T12:25:28.833752Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN4eU5uTnFRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN4eU5uTnFRRRAB!2m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/reviews/ChZDSUhNMG9nS0VJQ0FnSURJZ2ZXb2VBEAE",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Good taste of coffee... friendly barista... affordable price...",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Good taste of coffee... friendly barista... affordable price...",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "banu priyonggo",
+        "uri": "https://www.google.com/maps/contrib/102276245139129786808/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUPHJHrCKabrXXjFeHUrGW6_aoMnzdaPH-Mid4GIm-h1T34Amtb=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2019-01-09T02:37:47.729512888Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURJZ2ZXb2VBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURJZ2ZXb2VBEAE!2m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/reviews/ChdDSUhNMG9nS0VJQ0FnTUNRbWZ6WndRRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "indoor smoking, the ambience is great maybe karena im the only customer and it was raining outside, cuma beberapa spot yg proper untuk buka laptop, so far so good",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "indoor smoking, the ambience is great maybe karena im the only customer and it was raining outside, cuma beberapa spot yg proper untuk buka laptop, so far so good",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Zulfi Kar",
+        "uri": "https://www.google.com/maps/contrib/108276860213306739217/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL4-tfzmG0Hwe_9SI0-SSua3ahrJRQZ_NLS1HirPEOIlPOeCQ=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-03-05T17:51:27.853284Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnTUNRbWZ6WndRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnTUNRbWZ6WndRRRAB!2m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMYxQ97c5E6p8ha9yzJCWd0XugdOxeijROhZm0VL_scUx1AYrPy91owmDLnBWSgaZsWl0huZIRYojZ8n3EycqDQPbAK02_SXE5Dg_jOdZnRMS1Ai_HanGT2NSZD82cSdVEW6EIWiTfBmE4GGzwIoTcNyPnCv-NzfrMgppTptU4GzpgsUovOUz1frpjLB6-wzypCwpFGwimjhQJe7ZitgriGX9i78U6CWshFBvcBr3_YyTU8L6RxWuoe6cDw0DAygs9mOb3W4CwdPaWCpqyaAo_B4M8E8dT9zAS0HxvEYMB75dk6MNYjy-1lRGQBkIbiC9NnW8YpFx1eK9O5dGcKSxy6xLf74FMvoUkfI9MRCTZyuJC2MIIPS5TsmV6-sTofJQ81FHyhZuYC4YAbREheDyAz_xfCroHE",
+      "widthPx": 1366,
+      "heightPx": 1708,
+      "authorAttributions": [
+        {
+          "displayName": "Agan Coffee Shop",
+          "uri": "https://maps.google.com/maps/contrib/102894166473139427021",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNmz81hCzWzW8tY_WyNd6c37BQ9PGmJ5JJ9zuPIoUQKq0MfHk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICO-ondqwE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICO-ondqwE!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMb1Ep-vc7-Iy2vbX1E43yDrblS_Q9oPpggkl77gZynPen_TU6TEG3yYnacjUWuIU03EF77IvPgY-rgm5_SpiJXW-mmtXSRUM09Zd4K2OLrzqaP_Ao3HLETigg5N2eu-z2BbI5jCaTi1SFx2iHfBWT6-1IQZ25jZFYv9dc4AMOak63Hn50b3VcqQj5IALFzQtMVMUtlt99JmFHbDN78AUikiZngIU28RarkZ9bfYiO_mK9QiKaNknKfXZ-yEIihkmDXPhxrlhLI2X01M1QYkBcCzf2MOKCQ26b_k6-XTXpMwqDhlruxgkYauhuMPCv6wWYqymBnozDfvX4nkjbTclt20z5gG7TnK9MFD4JjJW7bluO__8Fl2g25J80SqDKWVp0jFCyXY7kdATA4OzEqjwUtPvg",
+      "widthPx": 1366,
+      "heightPx": 1680,
+      "authorAttributions": [
+        {
+          "displayName": "Agan Coffee Shop",
+          "uri": "https://maps.google.com/maps/contrib/102894166473139427021",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNmz81hCzWzW8tY_WyNd6c37BQ9PGmJ5JJ9zuPIoUQKq0MfHk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICO7vCEMQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICO7vCEMQ!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMav8CupL1DeLX9fURXWKHzFsgY0xv8TvvNFIfLEBCJ4AksSWt-JcyryHUeIG3Mo_R8FAZXU4mCqkQ1ZiRM_fGIu2T4jhHCsf7bfpQl-LySgbHmqryVk41XnIypnLOcfWWfJDR3YGOqLmM-L4UAnP-RTbdkalOJS8YvsrimgUNPw2WOWarNPFDx5_4SyjOWaj5DwF93dSatGDMBBW0olzXP0F-QeTQ2q_rnXa5c3mjck0EFLzh5zcmSqNJ69w0hO9QMBQtxkMWIGd211HW0iHFbxpZNBmRs7oqhuyA7-Y1hv30wLFWN8oPMLXUsr9atZy3auGpePdznmkiBAm4CpGCDYuSzI8MNTqjJ6BFQ7zC-3JNkyNlyH2gZqhtj-By08EnDTA__PMb9nWIn55K-JeOFRm0XP",
+      "widthPx": 720,
+      "heightPx": 405,
+      "authorAttributions": [
+        {
+          "displayName": "Agan Coffee Shop",
+          "uri": "https://maps.google.com/maps/contrib/102894166473139427021",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNmz81hCzWzW8tY_WyNd6c37BQ9PGmJ5JJ9zuPIoUQKq0MfHk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICm6ont5AE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICm6ont5AE!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMZGgCMoCRBMXUNI1VnJgvMd3gpPmobrwG_92AWLiVPH8tm9_FlQoWZde3tMwaHK7yOQyFhmz3DitXAjM53GdjIZ1zF9xge6PUwi4YM70Pa-MWw3GqO-HJigH7XxYlpX2rhyaELX_hp39csngK3ZxGfjEUwB-_foJ4FEajPMFPqnATNIdNB5pyOcjjxJC_fOFLcaRlTtKgrB2CG7APqnrXyrl6fFJ9XLeTYeSO8wZUE2JjD1YBCnuAwGWg_MrMoeXQTMxfA71zCOlvW6MxF6Yk1TnU22h4h8oQvWGNrfL-24CToys6WmwJm1tISkc8Xp3UrGk1aPfmuv_NkFeK4ol3acWJ5g5QuFfo24NHAv8MgExrFVfBjV2478Isky_X0fUWNXYWu-iez5vvRFmRAM9iw2A0d1wDQ",
+      "widthPx": 1366,
+      "heightPx": 2048,
+      "authorAttributions": [
+        {
+          "displayName": "agan coffee shop",
+          "uri": "https://maps.google.com/maps/contrib/106278940533711796383",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUdbl4SLskVgSMfUbul2XPYE8-_f2E6jnD3kOrKXFg1Rru748Mk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDDkNbBlAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDDkNbBlAE!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMYujKDZfnyH2byS8_UlOuYOANe0KUt3t7IlAW2avqTaH9EY-2UEwU9lN7NBq-WsOfe8AK2fx2UymNjAJG1DkfNe72ZkWJ9EvuAKujGwVPbZgvigxepWM5N-hcQnEOIL904mu3U_7pwTXN-stTeTxNt_Os-QrgIVcdT-r9ZUKdqhc_TFCBHZt08TykqpPDUKyOlLtkT62HSSVZCenxaPcFTrmIy9drL2XJ4ci00bdiCuPfKQOgh9R3AVzxIJjfFKDjSdT3PpkalIbKVTQZMgBCA81a-EOzXcWiIOj_h9UaaA8OgWZgg2isy_HXuUnUod0DKw01RbjVARBs4wagPIPXuJgJp4N41M6N8iJfylxDN2Gsu7rVm4QMUWuhEQdZ1WILH3rpPo4aswnvgse9SRbebECKjTeUc",
+      "widthPx": 4032,
+      "heightPx": 2268,
+      "authorAttributions": [
+        {
+          "displayName": "M Bahrun I Chourmain",
+          "uri": "https://maps.google.com/maps/contrib/100213147256148592370",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUEkIryfKxwMzHDexo_K58ImbCzgav-ksexhzMkmJeIHbBnEXU_=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICBi6r_qAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICBi6r_qAE!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMbM4UGnkXgMaLYIlRT6oVk6JXtrPF9VgL-z-7U4rKpvtpZGP3LMd98fYjKoISARuVXIVbv2vf2Cd_opt23C5HYrYizqPSge2U-PsxNUX2EA0G7MY0HAx14N0s1Ewa3r4oe991iN6sDHG4bTLqaXZAgIy0L4d0RSvy6Abm_K9IHiWlf3Aio2gPCv-A8NutEtRf0wRTARE8UuERHzsIf7lf-g7Ld6DU3oL4aYb67CIDqHAOWFU6UKpF-_l6prjigooDjsbNs5CHvdT4_KV48qLr9-t8ULYjaxEgSrGHDMyBcmON4kmwyh6c17fgvlvMNO3dueFqo_0p6HK_A0deeEZn6aQy-gt9iGZKUJXF12Wc1OXui9fWX6_BmJ7fHvWrRtsfbRG96jfpWvrxcUaPczRQ9PidSF",
+      "widthPx": 719,
+      "heightPx": 721,
+      "authorAttributions": [
+        {
+          "displayName": "Agan Coffee Shop",
+          "uri": "https://maps.google.com/maps/contrib/102894166473139427021",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNmz81hCzWzW8tY_WyNd6c37BQ9PGmJ5JJ9zuPIoUQKq0MfHk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDugeTj8AE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDugeTj8AE!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMY64GIEvTkg7LgAJz4_ZVU9bcwSaZw19CGWgPRg-n-GFNZeVAik5OMC9JXyUJaMg1gJZzKWVyLZ_H5R1yMKTTHSzERRY7xNNmlsvFAHk0UzGgwxvSzMb_jUi5rwWqT1lwfjK_KsEWHLVDmIoH_AyoNct7mUPqtVuoifsbTAv4-N2iQmNkrwXaHCNUe09j9OOQMRqmlSFuIXOKLwHRXeuHMz5EIl7x6p2xlOApWjSGC2oMSai7z5WUB9VlSWlgQy-3UTEnvIt6vHye0SJbGJPgHm0eyzz5v5UJLhEVjUsKZ2gZOHu-pSkjMDz2mU6g9xpVn9obRSst2MnNkkTavcFzrjxzjCPuRDZC3jarwvToC7tYBnCAtsr36U6ht8PsLUtKYGsp45fHfX7q-F5cVGh6BGfdI",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Ain Mushalin",
+          "uri": "https://maps.google.com/maps/contrib/108707740489856543853",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUXKugaDtxDo4dqouqyHDJspg-4RT6lxdNONcRnaX5SrIl99VRoJA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICJsIP1Qw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICJsIP1Qw!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMY48NAbu-sUHAauD51Fq3w2L_XNq7TOWZa5EwrDoPg1TUwlZpL2jFBmqljb5RCRzyD2tw-dvbJXx_aVHx0SpiGg6T67uE5lREF98b8sxbm1iutVbtH9jFOy7Esse94-TYreRUKdfoQxqyR9mxYqjMgwiX6yd6fOmPuXB6fsfYT675f4wTqr8reC73aJRDd0TVXUkjmvCI4-gyS6aEOg8XkA-AEDgHbX-0a3wAZ1oFlROfYKifk5V_eoocPqEN0En308jpqGJSOYBpZ-p9rqchvqOxODFIuWQe6jRonS9QeDr02g05rtU9UmGsz1Q2gC8MI7oQbytvLmwFd_n7StmVS9VRg68u9G9Wi6OeCwDDt6E9QZepqEUU7NglhmsemaJTFiirDMf8cZSvIUl1R8PzP8_g",
+      "widthPx": 3200,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Agan Coffee Shop",
+          "uri": "https://maps.google.com/maps/contrib/102894166473139427021",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNmz81hCzWzW8tY_WyNd6c37BQ9PGmJ5JJ9zuPIoUQKq0MfHk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDugZSbIg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDugZSbIg!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMZwqfmkOUm3UYaekzSeGYF-bHJDaxH-gHA4m628uiy5cf2FOezTkUxzD8VqC7J8CXIr2myUSjdNRqtia0hbAMXScMbMn_RjcSCfSXqXQehFFO5Zo5hZQuVwxvZ-QywWsuyttaTMcK8OtGqXm6HtbR6YT5KtpuMRdNBO_azp1X4bFABKNyQOlCABoSi3_HWWadOV1v2NbUgF4eYKbsISM3M4b8DtdFvdLrBxXacYbWcTTFO9QwmqlW0AnYlydQMZLEfbBBj9ULIHrZb-CHhk_KXirR3va-gbnSiNlCfCMw6bge2urUj5WvEVuYvrkmkQCX4KHH9Xu4ivB3Lg51yeflp-obn-j-D-x2m0_ftKoyNj3wPpkZIsfHodfzZiIFaUSKpL7YhDrdYjtfv_q21_Mm85dLE",
+      "widthPx": 4080,
+      "heightPx": 3060,
+      "authorAttributions": [
+        {
+          "displayName": "Yudhi R.H.",
+          "uri": "https://maps.google.com/maps/contrib/104714754149739157590",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWVvE_klO1XxK-nZ86UnAXiFiesZtn4M9Y4TUREy1sNuWZvYLaO=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC91OvGeA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC91OvGeA!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    },
+    {
+      "name": "places/ChIJGWNHZhbzaS4RBJb9lwZuDrA/photos/Aa-ngMZrROyRRqXLHgolUToPWd_jf08SdyWuJvf7YF8kbQ01O9rq8jY9gsZlqRwUrrVyrUT57AISAMGzzbPK-FARdHkV8F7ppaPxgkiQvsdzNZtqoadcrAduWpjtcW_hfYaeHmQVB3KY18fcD5QNU1GP4JiAV1QI0FGGZhh1EDSvGCSDJKZ2qgy_Cm76O0U4yZX88Gn4CHKjc4iiA0CVv55KeUWVLI16J7G0O-130SjCWo1SowRdJv1wtP4nY2SJ84Vc_ivJrphg8ej2Ca05jP79365AeXZppvddQA8X2wUTdmLM_H-QKIAZXpvblZyRYyBSDK1yr1Dmk5m8f_EaLtZQ93T2pHFKDfjY0yvRy25iDtcuUwdUYozxp_RQABagL-W270QzHeryhUFBZiw5sIdzWrAycBCMeN4",
+      "widthPx": 3200,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Agan Coffee Shop",
+          "uri": "https://maps.google.com/maps/contrib/102894166473139427021",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNmz81hCzWzW8tY_WyNd6c37BQ9PGmJ5JJ9zuPIoUQKq0MfHk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDugZTD5QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDugZTD5QE!2e10!4m2!3m1!1s0x2e69f31666476319:0xb00e6e0697fd9604"
+    }
+  ]
+}

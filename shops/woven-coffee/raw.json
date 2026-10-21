@@ -1,0 +1,374 @@
+{
+  "id": "ChIJV_HlqXnzaS4R9iWXOROVGNY",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0858-9232-0323",
+  "internationalPhoneNumber": "+62 858-9232-0323",
+  "formattedAddress": "1, Jl. Jatinegara Timur No.107, RT.1/RW.2, Bali Mester, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13310, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=15427244433360758262&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 10,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 21,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 9:00 AM – 9:00 PM",
+      "Tuesday: 9:00 AM – 9:00 PM",
+      "Wednesday: 9:00 AM – 9:00 PM",
+      "Thursday: 9:00 AM – 9:00 PM",
+      "Friday: 9:00 AM – 9:00 PM",
+      "Saturday: 10:00 AM – 9:00 PM",
+      "Sunday: 10:00 AM – 9:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T02:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 302,
+  "displayName": {
+    "text": "WOVEN COFFEE",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/reviews/Ci9DQUlRQUNvZENodHljRjlvT2paTVFrUTFWMWRQYTJGelJEaFZiM1I2YkZOSVRtYxAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Dropped by **Woven Coffee** pretty last minute, and even though I didn’t get to try their coffee, I ended up enjoying their tea instead. Surprisingly, they have quite a nice variety of tea options, and the one I ordered was really enjoyable—simple but refreshing. It was actually a nice change of pace from the usual coffee stops.\n\nWhat makes Woven Coffee unique is that the stand is combined with a gurame bakar spot, so it kind of feels like you’re getting two vibes in one location. The interior itself is modest but fits the area well—cozy enough for a casual sit-down without trying too hard to be fancy. It works perfectly for a quick drink or a short catch-up with friends.\n\nIn terms of access, it’s quite practical. Parking is available for bikes, which is super handy if you’re just stopping by, and it’s also conveniently located near the Kampung Melayu halte, so it’s easy to reach with public transport. Another plus point is that they accept almost all payment methods, making things really hassle-free.\n\nOverall, Woven Coffee feels like a simple yet nice spot to grab tea or coffee when you’re around the area—casual, convenient, and easygoing.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Dropped by **Woven Coffee** pretty last minute, and even though I didn’t get to try their coffee, I ended up enjoying their tea instead. Surprisingly, they have quite a nice variety of tea options, and the one I ordered was really enjoyable—simple but refreshing. It was actually a nice change of pace from the usual coffee stops.\n\nWhat makes Woven Coffee unique is that the stand is combined with a gurame bakar spot, so it kind of feels like you’re getting two vibes in one location. The interior itself is modest but fits the area well—cozy enough for a casual sit-down without trying too hard to be fancy. It works perfectly for a quick drink or a short catch-up with friends.\n\nIn terms of access, it’s quite practical. Parking is available for bikes, which is super handy if you’re just stopping by, and it’s also conveniently located near the Kampung Melayu halte, so it’s easy to reach with public transport. Another plus point is that they accept almost all payment methods, making things really hassle-free.\n\nOverall, Woven Coffee feels like a simple yet nice spot to grab tea or coffee when you’re around the area—casual, convenient, and easygoing.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Salman Alfarisi",
+        "uri": "https://www.google.com/maps/contrib/110282872621599384989/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWJUKeTp62U-T1ZQcF_FlrzChdHsKm9uncsY9gaFFLQdiAhNh0F=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2025-09-06T09:29:23.418871046Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2paTVFrUTFWMWRQYTJGelJEaFZiM1I2YkZOSVRtYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2paTVFrUTFWMWRQYTJGelJEaFZiM1I2YkZOSVRtYxAB!2m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/reviews/ChdDSUhNMG9nS0VJQ0FnSURnMll5QXFnRRAB",
+      "relativePublishTimeDescription": "8 years ago",
+      "rating": 5,
+      "text": {
+        "text": "This coffee shop has cozy and comfortable place for you to talk or discuss with your friend. It's not really crowded at the time I visited. My favorite coffee here is ice Vietnamese. I also happened to bought Kopi Enak, their signature coffee. It tastes unique yet delicious but still ice Vietnamese coffee is my favorite. Plus they have Wi-Fi for you if you want to work.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "This coffee shop has cozy and comfortable place for you to talk or discuss with your friend. It's not really crowded at the time I visited. My favorite coffee here is ice Vietnamese. I also happened to bought Kopi Enak, their signature coffee. It tastes unique yet delicious but still ice Vietnamese coffee is my favorite. Plus they have Wi-Fi for you if you want to work.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "tammi hilda",
+        "uri": "https://www.google.com/maps/contrib/113825906308858449085/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWlmJMRzSax4oFlYSvSxjqw7pwydWCUE_Sve1XkbxsgUtd6Sw=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2018-02-17T07:02:31.566Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURnMll5QXFnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURnMll5QXFnRRAB!2m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/reviews/ChdDSUhNMG9nS0VJQ0FnSUN3ck9EUDB3RRAB",
+      "relativePublishTimeDescription": "8 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Great place to hang out. Affordable coffee and snacks. Air conditioned smoking area is a big plus. Service is a little slow though. Ordered a cappucino. Took 20ish minutes for my coffee to come out. Taste and smoothness of the milk based coffee could be improved.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Great place to hang out. Affordable coffee and snacks. Air conditioned smoking area is a big plus. Service is a little slow though. Ordered a cappucino. Took 20ish minutes for my coffee to come out. Taste and smoothness of the milk based coffee could be improved.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ken Prabowo",
+        "uri": "https://www.google.com/maps/contrib/111443238783550504636/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIsdWuReYifHsH05PkJKPtJAO50Ta7tw7bCRcvQy-LAlgzydw=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2018-06-01T14:46:11.262Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN3ck9EUDB3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN3ck9EUDB3RRAB!2m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/reviews/ChdDSUhNMG9nS0VJQ0FnSUR5aF9XcXlRRRAB",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Average price, a lil good space to hangout after office hours with friends. But a lots of mosquitos at outdoor area, not a big problems.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Average price, a lil good space to hangout after office hours with friends. But a lots of mosquitos at outdoor area, not a big problems.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "sicilia liman",
+        "uri": "https://www.google.com/maps/contrib/113572055550515669261/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUGMXQKrfRMOurVmY3Dbz2gdiCEWqis_msCtj9_Sa8rOFkOhDE=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2021-03-19T14:41:04.244714Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR5aF9XcXlRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR5aF9XcXlRRRAB!2m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/reviews/ChdDSUhNMG9nS0VJQ0FnSURJdUtHX3hnRRAB",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Great people. Amazing knowledge about coffee.\nThey allowed me to make my own expresso so this was more than a coffee, it was an experience.\nGreat variety of coffee for all of the tastes.\nWorth the visit.\nNew products: meals",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Great people. Amazing knowledge about coffee.\nThey allowed me to make my own expresso so this was more than a coffee, it was an experience.\nGreat variety of coffee for all of the tastes.\nWorth the visit.\nNew products: meals",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Pete Silva",
+        "uri": "https://www.google.com/maps/contrib/110601731861060645407/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVCwFID17U4f7R8XGJC54WmyM7rc4EylK66r6ePRabuWtqN7ME=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2018-12-20T17:32:14.574284603Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURJdUtHX3hnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURJdUtHX3hnRRAB!2m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMa08-vMo8LgBuyEqqC3kEHODT5H6oURwtjpjBf_wlQg2Gyk5jNnoEyDrrey-H04AGpV2vVV9yT3fqNQl_l-S2u4C4wHNGBsyrobRMxonBJFO0OpPU5EobRijfoYS3w5Xu93YGSj4sF9PP5vfG37mVp2J6c2wunRJhNpsgFKlgQFgkPg_UmtTXXVc-80Qz2qOF-yVsFG9ZxtarQfBp3UuXxgdXoETBFXL-T4sD6mpo2S_BmNKkShqirUJIcqiBCxw_OFPnfO0jcdFqUMmNYkHl-KGt3KbCChA37CyNAPMipUmnJSvzXxbwTZLX82WEVsXnpwF2hhEGLUPEQkqgD_U8Ba_Ok3-9HBQugzUbpT0N3j3cFZq2l22Ay9cVOSBK6lf3xIN4v8fyi1v1bd1hYZPvsBlfPuhcI",
+      "widthPx": 960,
+      "heightPx": 538,
+      "authorAttributions": [
+        {
+          "displayName": "WOVEN COFFEE",
+          "uri": "https://maps.google.com/maps/contrib/111580866416924537322",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVDyjjJmE-gbng9RSdii4RPwS9YWjqeyoVmZ38SVt6D5SNTmxw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICa2_DJsAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICa2_DJsAE!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMaQXHrCJAD82V9AVrqaX4jaNARO5M9QgFdfvxPflgxJMca-yq6787hH75sUH-pqzRZRcdx1jnVeR8JkE17UGD8oZNxF4RUBCbJa5zlScDPwNpyRNHvwNa7RUnvTFTibZQoDm9cxHa8y4H4gwsyBlipw9RhTK4LUzdJMCVyv8v2hBPdKjSgNiOVJZxCvenOyXoCeit3zLe8_Rm4MDXB68tNph1PTvarwCvTNS-O6qWU6oVW6WkpSIIpgZnz5h0cE1_SoijkR_YJBc0odenYqqqOsRsEJuOxyb2H2KEx1USFnEhAnZSazbaluqXOR7x9Now_7hCGoGRs7oABZ5TvN8w3-ZWvB8cWjg7jQjftq3UnaoElKyiKvzNiFZPzkNPMjrIFsUXvBKHT218I6XYlLuWfXFrQU",
+      "widthPx": 3456,
+      "heightPx": 3456,
+      "authorAttributions": [
+        {
+          "displayName": "WOVEN COFFEE",
+          "uri": "https://maps.google.com/maps/contrib/111580866416924537322",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVDyjjJmE-gbng9RSdii4RPwS9YWjqeyoVmZ38SVt6D5SNTmxw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC8kY6EqAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC8kY6EqAE!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMY8nj11erXgtf14S4r48Cg88I5_BY7BDv5PlUF2feTaNmBX4p84FRshIjcFHyBUFojVqXHA0eb-NPCnnsqvMsku_ypjbzwj64-a4FG1Os-x13CE6iYPrjc50b1gbdaUX9ye77luWALAdmBcu4twwybovoJGoUQ3tOS32Iy8EX8fizPt1tGL3hM1tak7XMNnMFUveHWB0aNmZLu281OVbjiK3XXH-gHZGwbMgT63A1GxqNuyKKiwqiDI7cu-gfF_bSyE78pRytPld3vCeZMKUVmQaxpQ0Vd07Im6pvw7WzOtcrGFS686zX2h7BCu-Ad9FQDyY85cYtX9dOplPnUfb1X7o6DS7fhVd5MnDYoB-RzYLdP-Y7vneBfFL96Gf2ORQ2wU6oOpJ5qBcqeSw_OCT40_JwI",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Ida Ngurah",
+          "uri": "https://maps.google.com/maps/contrib/114849114660225362143",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXC7kd4u8hN-Fh9eq9VkW20VhpVxK6lY-Sa8IQDx-pv3k055Ze2=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICNobekJQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICNobekJQ!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMbMv-hMgNB1d0stOg3DAVIhALDFSTA8Gm3wKrSuM1-g2QJHsnDou7FrDkCN2Ts7LGAity1-TqolNqwY6gBQCyoUczl_SlmBjDYNBPDxgjrdxapg7SCZ-epAXuVLou2yijonqCG45T764QjUIxqxVTnlz5Jg5D419F2X8Dh5FLw1cXibMxBiQKwVqkYj6BA-vNdLaFm3ddDc0G0kQ53SqpDXd5uNchFnk527R7NLTsd27oTsA5HSQzIAkLlGMSw5B62sI1wW_lxJt8r-qLhDHkb145zJFYTdGN962bXvanWdK0GMLnsljzi4dNfj1bGkU1biwQl3qhLd2B6GwEq-H3H1iYntdnvVxJITkUSKhAm9n7xTH43qPN-lrrOcn1y8DL7kxt6yrAzunU9EXOy_5H4Cm-NWqBCdWd1r3uRZD23w",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Salman Alfarisi",
+          "uri": "https://maps.google.com/maps/contrib/110282872621599384989",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWJUKeTp62U-T1ZQcF_FlrzChdHsKm9uncsY9gaFFLQdiAhNh0F=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAYD1SQ4SPc-hFN9qWaUfpv&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAYD1SQ4SPc-hFN9qWaUfpv!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMaFDHr1mZwcxf5wf2TVsZaoIfuG5CCrPpQDQdX82yTieXdvPnZS_8PLUCicDaqkFDK19FgC7LXvogAKPtA1lIv6uYIJzNXq98vfgdq6qJNKwrhSBtIpEc-WhxR4m4a3W3e3JjcfsDf3chnlfVuFZO--JRuBhS7Fmvdy0a7YhFIZBYQiZztG-4JdoWwvCX0yKPnR9XOf5xCrv3VliZhR39iTV2G3gAAmGdn1auoJ2JyjbZmteC6YWbxDUQRwKmBWDhAodMxi88Ji3StALTo0algXqZxBfy9BxtwbGTpHVsCYFgNeYkloz0zpCzaWYMtjwRv4Gv8RhM0f-Gfd1zKsXERZ9tJLEH9S0AJ23x1hDon8wiRR1rsXLl2sZCvDskJx4w27JGBN4eOgtr13DH_8jMGsAp4",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "sicilia liman",
+          "uri": "https://maps.google.com/maps/contrib/113572055550515669261",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUGMXQKrfRMOurVmY3Dbz2gdiCEWqis_msCtj9_Sa8rOFkOhDE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDyh43bFA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDyh43bFA!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMb4y7lC_BT8rkTNTC7z8hPfNI_84Pk8pkfIEF_kSjAtGsvDTxnmeZ0QUmzgRAnEDWu8L2iBH2pui_K1UAUfus-jyvUhfhMd4SV8TX0YLAeRXZHMtx8u11Xg4_Sqx6sffnCOWmGvQWSZ7hCQ00ePGpG0pxd3pvB808i7YdPJ1auGEVjfs0biOQLGXEx8g2B9uaT4IAF8qo59ZncAEjcCLpQ40si2nkEO7JbdZDBH72maxzVYPXvZRKRzGBo4_oiONesAFHQ0UYTang8JN4htliG6YSDWvZMmnz0Mvf7e4-uF_l3virvoYug3She_smYqht2fEUO_MF6NpxYuv7LhHuaduJrP3C36QOTi60TFZuUmN02IX9jQR1ULtV9BZQVK45CiJwznmxKVzW492i7yl6VYO2g",
+      "widthPx": 4032,
+      "heightPx": 2268,
+      "authorAttributions": [
+        {
+          "displayName": "Narendra Adhit",
+          "uri": "https://maps.google.com/maps/contrib/102488650974021293690",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVDd3B_k_PHBbuG-GGsIpD2W3d9mafaNDq_5qolw71EGMLMSc4J=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICMxo3-SQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICMxo3-SQ!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMa_0O5Bctt072MDS7lf7SYkeSD8qRp76_-se7Tt_Qw6gxBnfKB9ii7YzjGrj7eSyNDYQh5oBk5izZr4bLO9vvVGTuP27OGMY6Ol2ZGW_2PdHh57ySdHSzYYU6L8_zunNfxXBYplYHBQYbIFCTwzMKVZUl_Qra0Rk8bvz5VlWxfxpegj3ZNOyljb75tkXBorDhhSUq3rS2-A7a_XGo_z1dWi4RYdWp23tXubi00FtEHv2duLNldYK6mwADUMwOOAnEtYDXu32V3joH2pVfgWyFNrF-vtlE-hXjP0RoTBbHL1UQa8R8jFUjvqefpMnoViSjEVfGPym_w4jZPg8UNzOWFpAns5L1myFlaf1QA6Nvc3yglEcz5kOcHVK0MpI2z1JOrb1Br57yzIeux_EiHtQQ",
+      "widthPx": 4608,
+      "heightPx": 3456,
+      "authorAttributions": [
+        {
+          "displayName": "Aliya Izet Adrianto",
+          "uri": "https://maps.google.com/maps/contrib/108980353529661511578",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXM99c9Xm5CtNZRBzSRZ7Bj30mcABqUH46yN6cGK05oZyR7SKxx7Q=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICE7ekM&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICE7ekM!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMbPSl9ByJDAJ6SrbprPHEx0-3ntlSGNKRk82kO-qb5Ruhzr9VIfaB-E-Fl0lhMNiPOzk0uYC5dN2NHEP9z2v5J8QdqV_LtyS5h2hUtz4IcEucWBOFmOZNQZR6frQkGrb-3LkQEaJCCXGSSDNTrH3xIexP_SqIHkjLxeoERKj-y3j8fg_f4B4f-Bf7CXjwmVXia5GLrs7B9wM0ds3b0QR004cPwdORJI4iUoxhT3hL-mv6QuIzGiyb5Fu1n-qiFUEOQH0nNKEriA4ulWN8gt7BmTl9-OXQ6C-dpbm3dAACUqXFTHgWsJfk4scWFGkpOvHV_mibq06mB0QS0eVjQu6fmIuNdYC_H1SfdbG1_hHeqtIHi2eQYfqDHRM4VruXK2396oqZm3op4SiSOLrkZkejoWW1GwSUjNdL4FCon4cSoZfA",
+      "widthPx": 4080,
+      "heightPx": 2296,
+      "authorAttributions": [
+        {
+          "displayName": "Suci Ramadhan",
+          "uri": "https://maps.google.com/maps/contrib/117535101720990669691",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKGgmgI2lJdCXzIRw5XSy0Z9Hk-imF3Zq7AzSwIrjE8jAH-bgkB=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhA13Ek8Bkf9diY34KBs00nc&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhA13Ek8Bkf9diY34KBs00nc!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMbtZbi-22ItHRFUdJxcSP7YpQqnTTPBGwsmyy64Az8AcgaqlDKi4qXbKtTTgCJP-vunFxcrVcUzru8Jlwfu6sImlYA2MhuNeb_b5TQdxeO7zg0HRlTmDrmBRDmSD5j-L08gHfajNeYJv_TPpVxfqpjwJ99_X2crDgdpbCCXNFEJX5DVLxHy4_fk11Gupm3gjyxbEV8EC9HjgTvv2_Je8ENQOCcOvs7MZENej_1MuctGa9o7f2Efibwgmw7Cla-SF8iM-iJUO1U5BMkYP53B-1wkWCJ6v-qi6wOBjZgMRbbdidH7DBoRaUt0oFn8bY1CD5g_baJ5FlUTynOl9NzpMCNTZz6Siy3Yhj-hp_XJLrBMDTs5_O_rFv5vEEQlQSSI4FhD5tLK-E3gsKSfCkyn3zJsFA5R7ww",
+      "widthPx": 2268,
+      "heightPx": 3105,
+      "authorAttributions": [
+        {
+          "displayName": "Hendrik Naghata",
+          "uri": "https://maps.google.com/maps/contrib/106550458233403565375",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVh0e8bgRxnDnnlCw1rYAue7B64TWZXGtGJqgqRfvq3JZBX-2N-KQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICq68bGtQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICq68bGtQE!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    },
+    {
+      "name": "places/ChIJV_HlqXnzaS4R9iWXOROVGNY/photos/Aa-ngMapcBeHTLK6WqmgLkPwRXDL_xBGj09LrBtieD9MN9i2s7qEAWQ0dwfBIv9AU-uQrTwkPuj1QAGaW3IXHVSedumP4O1Mddhe5nX5iHNymPgsPnXrUYmZrYK254hw5iDQD5HhjmepHjUbfU9C8TJMf0N1yJvecGvZs0MSwK1wzHNuFU7jnxIs25_e7tJsi9gCrdj0HWcdSMP6z2uG-DzNQHOWUm_mfMOO594A1_I4Ug-Cko0orMcYbcBe3s_jdK3rXEovffbhixvLfnlq_CaBsaDTG09SJ21uv7idQZMHv5QvZyovhr8v-6Nov6jWINQpjhu8UgYO3Rev0ARWWfXfA94fhjmTS2A39csE-O9wxHP7htSbnzWWMDuYYLhV-9GFw6xMKMyLUBMvfsMpqo-H3cSvoGUkmPU",
+      "widthPx": 2160,
+      "heightPx": 2880,
+      "authorAttributions": [
+        {
+          "displayName": "Narendra Adhi Wardhana",
+          "uri": "https://maps.google.com/maps/contrib/105285210802700508403",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVw_e6-ZmefzhHuyn1R7nYHFl5azGMTsL7fNotU-lpiWhAyiCgl=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID4gcOS9QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID4gcOS9QE!2e10!4m2!3m1!1s0x2e69f379a9e5f157:0xd6189513399725f6"
+    }
+  ]
+}

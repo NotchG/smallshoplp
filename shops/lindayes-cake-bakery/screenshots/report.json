@@ -1,0 +1,368 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6346,
+    "sizes": [
+      {
+        "el": "h1 \"LINDAYES Cake & Bakery patisserie & coff\"",
+        "fontSize": 52.9,
+        "lineHeight": "50.255px",
+        "textWidth": 326,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#etalase-h \"Etalase kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 210,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "h3 \"Kue\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 40,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Brownies\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 100,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Roti\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 44,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Kue kering\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 112,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#ngopi-h \"Ngopi di LINDAYES\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 319,
+        "pctOfContentWidth": 98
+      },
+      {
+        "el": "h2#hampers-h \"Hampers & kue kering\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 184,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h3 \"Menara toples\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 149,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Hampers\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 98,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Tas hadiah\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 116,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#acara-h \"Pesan untuk acara\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 301,
+        "pctOfContentWidth": 92
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 204,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "p \"4,1 dari 490 ulasan Google\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 250,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 238,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 229,
+        "pctOfContentWidth": 70
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 22
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6823,
+    "sizes": [
+      {
+        "el": "h1 \"LINDAYES Cake & Bakery · patisserie & co\"",
+        "fontSize": 79.4,
+        "lineHeight": "75.392px",
+        "textWidth": 672,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#etalase-h \"Etalase kami\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.9152px",
+        "textWidth": 267,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Kue\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4096px",
+        "textWidth": 44,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Brownies\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4096px",
+        "textWidth": 111,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Roti\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4096px",
+        "textWidth": 49,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Kue kering\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4096px",
+        "textWidth": 125,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#ngopi-h \"Ngopi di LINDAYES\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.9152px",
+        "textWidth": 408,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#hampers-h \"Hampers & kue kering\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.9152px",
+        "textWidth": 456,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h3 \"Menara toples\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4096px",
+        "textWidth": 166,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Hampers\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4096px",
+        "textWidth": 110,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Tas hadiah\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4096px",
+        "textWidth": 130,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#acara-h \"Pesan untuk acara\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.9152px",
+        "textWidth": 384,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.9152px",
+        "textWidth": 260,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "p \"4,1 dari 490 ulasan Google\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4096px",
+        "textWidth": 279,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.9152px",
+        "textWidth": 304,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.9152px",
+        "textWidth": 292,
+        "pctOfContentWidth": 43
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 22
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5384,
+    "sizes": [
+      {
+        "el": "h1 \"LINDAYES Cake & Bakery · patisserie & co\"",
+        "fontSize": 120,
+        "lineHeight": "114px",
+        "textWidth": 1200,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#etalase-h \"Etalase kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 341,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Kue\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.088px",
+        "textWidth": 53,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Brownies\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.088px",
+        "textWidth": 132,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Roti\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.088px",
+        "textWidth": 58,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Kue kering\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.088px",
+        "textWidth": 148,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#ngopi-h \"Ngopi di LINDAYES\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 519,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#hampers-h \"Hampers & kue kering\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 299,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Menara toples\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.088px",
+        "textWidth": 197,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Hampers\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.088px",
+        "textWidth": 130,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Tas hadiah\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.088px",
+        "textWidth": 154,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#acara-h \"Pesan untuk acara\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 489,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 331,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "p \"4,1 dari 490 ulasan Google\"",
+        "fontSize": 27.8,
+        "lineHeight": "36.088px",
+        "textWidth": 331,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 387,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 372,
+        "pctOfContentWidth": 31
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 22
+  }
+}

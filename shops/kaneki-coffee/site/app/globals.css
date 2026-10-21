@@ -1,0 +1,1005 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Colours and fonts become Tailwind utilities (bg-kanopi, text-tinta, font-script...). */
+@theme {
+  --color-dinding: #f7f7f4; /* page ground, the white walls; text on Kanopi */
+  --color-tinta: #1c2523; /* text, headings, outline buttons */
+  --color-kanopi: #2e4640; /* awning green: two full fields, primary button, focus ring */
+  --color-ek: #c29466; /* oak counter: surfaces only, never text */
+  --color-beton: #dadbd7; /* terrace concrete: "Di luar" panel, map frame */
+  --color-gerinda: #4e6472; /* grinder slate: secondary text on Dinding only */
+  --font-script: var(--font-pinyon), "Snell Roundhand", cursive;
+  --font-body: var(--font-zen), "Hiragino Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+
+  /* = 0.21 × --glass-w (45 → 84px). The brief's 0.3 (fallback 0.27) put Pinyon's wide
+     swashes past the glass walls; 0.21 keeps the print within 80% of the glass at its height. */
+  --step-display: clamp(2.835rem, 1.89rem + 3.78vw, 5.25rem);
+  --step-head: clamp(2rem, 1.5rem + 2vw, 3.25rem); /* 32 → 52px */
+  --step-lead: clamp(1.375rem, 1.25rem + 0.5vw, 1.625rem); /* 22 → 26px */
+  --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem); /* 17 → 19px */
+  --step-small: 0.8125rem; /* 13px */
+  --step-mark: clamp(3.25rem, 2.6rem + 2.6vw, 4.75rem); /* footer wordmark */
+
+  --leading-display: 1.1; /* script swashes need room */
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  /* The hero glass, and the one signature moment that fills it. */
+  --glass-w: clamp(13.5rem, 9rem + 18vw, 25rem);
+  --menu-glass-w: clamp(6.5rem, 5rem + 6vw, 10rem);
+  --food-w: clamp(9.5rem, 6rem + 10vw, 15rem);
+  --dur-hero: 1.1s;
+  --ease-pour: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Illustration-only oak edge (the counter's front face). */
+  --oak-edge: #a87d52;
+
+  --space-head: clamp(2.25rem, 1.75rem + 2vw, 4rem); /* section heading to content */
+  --radius: 12px;
+}
+@media (min-width: 768px) {
+  :root {
+    --gutter: 40px;
+    --section-y: 112px;
+  }
+}
+
+html {
+  background: var(--color-dinding);
+  color: var(--color-tinta);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-kanopi);
+  color: var(--color-dinding);
+}
+.on-kanopi ::selection {
+  background: var(--color-dinding);
+  color: var(--color-kanopi);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-kanopi);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.on-kanopi :focus-visible {
+  outline-color: var(--color-dinding);
+}
+
+a {
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 1px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -100px;
+  z-index: 50;
+  padding: 12px 16px;
+  background: var(--color-kanopi);
+  color: var(--color-dinding);
+  border-radius: 8px;
+  font-weight: 500;
+}
+.skip-link:focus {
+  top: 12px;
+}
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section {
+  padding-block: var(--section-y);
+}
+/* Two light sections in a row would stack both paddings into a dead band. */
+.section:not(.on-kanopi) + .section:not(.on-kanopi) {
+  padding-top: calc(var(--section-y) * 0.55);
+}
+
+.t-display {
+  font-family: var(--font-script);
+  font-weight: 400;
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+}
+.t-head {
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+.t-lead {
+  font-size: var(--step-lead);
+  line-height: 1.35;
+  text-wrap: pretty;
+}
+.t-body {
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  text-wrap: pretty;
+}
+.t-small {
+  font-size: var(--step-small);
+  line-height: 1.4;
+}
+.nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.mockup-banner {
+  font-size: var(--step-small);
+  line-height: 1.4;
+  text-align: center;
+  padding: 8px 16px;
+  background: var(--color-tinta);
+  color: var(--color-dinding);
+}
+
+/* ---------- Buttons ---------- */
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.btn {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: 10px;
+  font-size: var(--step-body);
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 150ms ease-out;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity 200ms ease-out;
+  pointer-events: none;
+}
+.btn:hover::after {
+  opacity: 0.12;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn svg {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+.btn-primary {
+  background: var(--color-kanopi);
+  color: var(--color-dinding);
+}
+.btn-secondary {
+  color: var(--color-tinta);
+  box-shadow: inset 0 0 0 1.5px currentColor;
+}
+.on-kanopi .btn-primary {
+  background: var(--color-dinding);
+  color: var(--color-kanopi);
+}
+.on-kanopi .btn-secondary {
+  color: var(--color-dinding);
+}
+/* On the pale primary, a dark overlay reads better than a pale one. */
+.on-kanopi .btn-primary::after {
+  background: var(--color-kanopi);
+}
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.text-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  overflow-x: clip;
+  padding-bottom: 40px;
+}
+.rail {
+  position: relative;
+  margin-top: 16px;
+  height: 40px;
+  border-top: 2px solid var(--color-tinta);
+}
+.rail-spot {
+  position: absolute;
+  top: 0;
+  width: 12px;
+  height: 26px;
+  margin-left: -6px;
+  transform-origin: 50% 0;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    "desc"
+    "glass"
+    "counter"
+    "line"
+    "actions";
+}
+.hero-desc {
+  grid-area: desc;
+  color: var(--color-gerinda);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.hero-glass {
+  grid-area: glass;
+  justify-self: center;
+  position: relative;
+  z-index: 1;
+  width: var(--glass-w);
+}
+.hero-glass svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* The white print on the glass is the real h1. It sits where Kaneki prints it,
+   just below the middle, and shows as the coffee rises behind it. */
+.hero-mark {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 49%;
+  text-align: center;
+  color: #fff;
+  transform: translateY(-50%) rotate(-5deg);
+  pointer-events: none;
+  white-space: nowrap;
+}
+.hero-crois {
+  grid-area: crois;
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+.hero-crois svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hero-counter {
+  grid-area: counter;
+  margin-inline: calc(50% - 50vw);
+  margin-top: calc(var(--glass-w) * -0.24);
+  height: calc(var(--glass-w) * 0.26 + 14px);
+  background: var(--color-ek);
+  border-bottom: 14px solid var(--oak-edge);
+}
+.hero-line {
+  grid-area: line;
+  margin-top: 28px;
+  max-width: 24ch;
+}
+.hero-actions {
+  grid-area: actions;
+  margin-top: 20px;
+}
+.hero-hours {
+  font-weight: 400;
+}
+.hero-hours strong {
+  font-weight: 700;
+}
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--color-gerinda);
+  font-weight: 500;
+}
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-gerinda);
+  flex: none;
+}
+.status[data-open="true"] .status-dot {
+  background: var(--color-kanopi);
+  box-shadow: 0 0 0 3px rgb(46 70 64 / 0.18);
+}
+.hero-actions .btn-row {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-bottom: 24px;
+  }
+  .hero-grid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    column-gap: 32px;
+    grid-template-areas:
+      "desc desc"
+      "glass glass"
+      "counter counter"
+      "line actions";
+  }
+  /* Tablet: the glass centred, the croissant beside it on the same counter. */
+  .hero-crois {
+    display: block;
+    grid-column: 2;
+    grid-row: 2;
+    align-self: end;
+    justify-self: end;
+    width: calc(var(--glass-w) * 0.66);
+    margin-bottom: calc(var(--glass-w) * 0.05);
+  }
+  .hero-desc {
+    margin-bottom: 8px;
+  }
+  .hero-line {
+    margin-top: 36px;
+  }
+  .hero-actions {
+    margin-top: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding-bottom: 0;
+  }
+  .hero-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 24px;
+    grid-template-rows: minmax(0, 1fr) auto auto auto;
+    grid-template-areas:
+      "desc desc desc desc glass glass glass glass actions actions actions actions"
+      "line line line line glass glass glass glass actions actions actions actions"
+      ". . . . glass glass glass glass crois crois crois crois"
+      "counter counter counter counter counter counter counter counter counter counter counter counter";
+    padding-top: 8px;
+  }
+  .hero-crois {
+    grid-column: auto;
+    grid-row: auto;
+    grid-area: crois;
+  }
+  .hero-desc {
+    align-self: end;
+    margin-bottom: 12px;
+  }
+  .hero-line {
+    align-self: start;
+    margin-top: 0;
+    margin-bottom: 48px;
+  }
+  .hero-actions {
+    align-self: end;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .hero-crois {
+    justify-self: start;
+    width: calc(var(--glass-w) * 0.62);
+    margin-bottom: calc(var(--glass-w) * 0.06);
+  }
+}
+
+/* The signature moment: iced kopi susu rises inside the glass, once, on load.
+   Pure CSS so it plays (and ends full) without JS. */
+.glass-pour {
+  transform-box: fill-box;
+  animation: pour var(--dur-hero) var(--ease-pour) 0.15s both;
+}
+@keyframes pour {
+  from {
+    transform: translateY(102%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Section heads ---------- */
+.section-head {
+  display: grid;
+  gap: 12px;
+  margin-bottom: var(--space-head);
+  max-width: 40rem;
+}
+.section-head p {
+  max-width: 34ch;
+}
+
+/* ---------- Menu andalan ---------- */
+.drinks {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 48px;
+}
+.drink-stage,
+.food-stage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.drink-stage {
+  padding-bottom: calc(var(--menu-glass-w) * 0.02 + 8px);
+}
+.drink-stage::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: calc(var(--menu-glass-w) * 0.26 + 8px);
+  background: var(--color-ek);
+  border-bottom: 8px solid var(--oak-edge);
+}
+.drink-stage svg {
+  position: relative;
+  display: block;
+  width: var(--menu-glass-w);
+  height: auto;
+}
+.item-cap {
+  margin-top: 14px;
+  padding-inline: 8px;
+  text-align: center;
+}
+.item-name {
+  font-weight: 700;
+}
+.item-price {
+  color: var(--color-gerinda);
+}
+.item-note {
+  margin-top: 4px;
+  color: var(--color-gerinda);
+  font-size: var(--step-small);
+  line-height: 1.4;
+  max-width: 22ch;
+  margin-inline: auto;
+}
+.foods {
+  margin-top: 56px;
+  display: grid;
+  gap: 28px;
+}
+.food {
+  display: grid;
+  grid-template-columns: minmax(0, 46%) minmax(0, 1fr);
+  align-items: center;
+  column-gap: 16px;
+}
+.food-stage {
+  border-bottom: 1.5px solid var(--color-tinta);
+}
+.food-stage svg {
+  display: block;
+  width: 100%;
+  max-width: var(--food-w);
+  height: auto;
+}
+.food .item-cap {
+  margin-top: 0;
+  padding-inline: 0;
+  text-align: left;
+}
+.food .item-note {
+  margin-inline: 0;
+}
+@media (min-width: 768px) {
+  .drinks {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .foods {
+    margin-top: 72px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+  }
+  .food {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .food-stage {
+    padding-inline: 12px;
+  }
+  .food .item-cap {
+    margin-top: 14px;
+    text-align: center;
+    padding-inline: 8px;
+  }
+  .food .item-note {
+    margin-inline: auto;
+  }
+}
+
+.menu-list {
+  margin-top: 72px;
+}
+.menu-list-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 16px;
+  padding-bottom: 16px;
+  border-bottom: 1.5px solid var(--color-tinta);
+}
+.tag {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--color-beton);
+  color: var(--color-tinta);
+  font-size: var(--step-small);
+  line-height: 1.6;
+  font-weight: 500;
+}
+.menu-groups {
+  display: grid;
+  gap: 36px;
+  margin-top: 28px;
+}
+.menu-group h4 {
+  font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-beton);
+}
+.menu-group ul {
+  display: grid;
+  gap: 14px;
+  margin-top: 14px;
+}
+.menu-group li p:first-child {
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .menu-list {
+    margin-top: 96px;
+  }
+  .menu-groups {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 40px;
+  }
+}
+
+/* ---------- Seduh manual (Kanopi field) ---------- */
+.on-kanopi {
+  background: var(--color-kanopi);
+  color: var(--color-dinding);
+}
+.brew-grid {
+  display: grid;
+  gap: 48px;
+}
+.brew-main .t-lead {
+  margin-top: 16px;
+  font-weight: 500;
+}
+.brew-body {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  margin-top: 16px;
+  max-width: 34ch;
+}
+.brew-art {
+  margin-top: 36px;
+  width: clamp(9rem, 6rem + 9vw, 13.5rem);
+}
+.brew-art svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.brew-beans h3 {
+  font-weight: 700;
+  padding-bottom: 14px;
+  border-bottom: 1.5px solid currentColor;
+}
+.bean {
+  padding-block: 18px;
+  border-bottom: 1px solid rgb(247 247 244 / 0.28);
+}
+.bean-method {
+  margin-top: 2px;
+}
+.brew-milk {
+  margin-top: 32px;
+}
+.brew-milk h3 {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.brew-milk p {
+  margin-top: 6px;
+  max-width: 34ch;
+}
+@media (min-width: 768px) {
+  .brew-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .brew-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 24px;
+  }
+  .brew-main {
+    grid-column: 1 / span 6;
+  }
+  .brew-art {
+    margin-top: 48px;
+  }
+  .brew-beans {
+    grid-column: 8 / span 5;
+  }
+}
+
+/* ---------- Suasana ---------- */
+.panels {
+  display: grid;
+  gap: 24px;
+}
+.panel {
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.panel-in {
+  background: #fff;
+  box-shadow: inset 0 0 0 1px var(--color-beton);
+}
+.panel-out {
+  background: var(--color-beton);
+}
+.panel figure {
+  position: relative;
+  margin: 0;
+}
+.panel figure svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.panel figcaption {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgb(247 247 244 / 0.92);
+  color: var(--color-tinta);
+  font-size: var(--step-small);
+  line-height: 1.5;
+  font-weight: 500;
+}
+.panel-body {
+  padding: 20px 20px 24px;
+}
+.panel-body h3 {
+  font-weight: 700;
+}
+.panel-body p {
+  margin-top: 6px;
+  max-width: 44ch;
+}
+.panel-body .smoke {
+  font-weight: 700;
+}
+.facts {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+}
+.facts li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+.facts svg {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  color: var(--color-kanopi);
+}
+@media (min-width: 768px) {
+  .panels {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+  }
+  .panel-body {
+    padding: 24px 28px 32px;
+  }
+  .facts {
+    margin-top: 40px;
+  }
+}
+
+/* ---------- Kata mereka ---------- */
+.praise-grid {
+  display: grid;
+  gap: 40px;
+}
+.praise-side .t-lead {
+  margin-top: 16px;
+  font-weight: 500;
+}
+.praise-side .t-body {
+  margin-top: 8px;
+  color: var(--color-gerinda);
+  max-width: 32ch;
+}
+.praise-side .btn {
+  margin-top: 24px;
+}
+.themes li {
+  padding-block: 22px;
+  border-top: 1px solid var(--color-beton);
+}
+.themes li:first-child {
+  border-top: 1.5px solid var(--color-tinta);
+}
+.themes h3 {
+  font-weight: 700;
+}
+.themes p {
+  margin-top: 4px;
+  max-width: 48ch;
+}
+@media (min-width: 1024px) {
+  .praise-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 24px;
+  }
+  .praise-side {
+    grid-column: 1 / span 5;
+  }
+  .themes {
+    grid-column: 7 / span 6;
+  }
+  .themes li {
+    display: grid;
+    grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+    column-gap: 24px;
+    align-items: baseline;
+  }
+  .themes p {
+    margin-top: 0;
+  }
+}
+
+/* ---------- Kunjungi kami ---------- */
+.visit-grid {
+  display: grid;
+  gap: 32px;
+}
+.visit-details address {
+  font-style: normal;
+}
+.visit-details .t-lead {
+  margin-top: 16px;
+  font-weight: 500;
+  max-width: 26ch;
+}
+.landmark {
+  margin-top: 6px;
+  color: var(--color-gerinda);
+}
+.visit-hours {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-beton);
+}
+.visit-hours dt {
+  color: var(--color-gerinda);
+  font-weight: 500;
+}
+.visit-hours dd {
+  font-weight: 700;
+}
+.visit-hours .note {
+  font-weight: 400;
+  color: var(--color-gerinda);
+}
+.visit-details .btn {
+  margin-top: 24px;
+}
+.map-frame {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--color-beton);
+  padding: 8px;
+}
+.map-frame iframe {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+}
+/* Shown until the lazy map loads over it. */
+.map-wait {
+  position: absolute;
+  inset: 8px;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #e6e6e1;
+  color: var(--color-tinta);
+  text-align: center;
+  padding: 24px;
+}
+.map-wait svg {
+  width: 32px;
+  height: 32px;
+  color: var(--color-kanopi);
+}
+.map-link {
+  margin-top: 8px;
+}
+@media (min-width: 768px) {
+  .map-frame iframe {
+    aspect-ratio: 4 / 3;
+  }
+}
+@media (min-width: 1024px) {
+  .visit-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 24px;
+    align-items: center;
+  }
+  .visit-map {
+    grid-column: 1 / span 7;
+  }
+  .visit-details {
+    grid-column: 9 / span 4;
+    grid-row: 1;
+  }
+}
+
+/* ---------- Hubungi kami (Kanopi field, the awning's scalloped edge) ---------- */
+.contact {
+  position: relative;
+  margin-top: 18px;
+}
+.contact::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -17px;
+  height: 18px;
+  background: radial-gradient(circle at 50% 100%, var(--color-kanopi) 17.5px, transparent 18px) 0 0 / 36px 18px repeat-x;
+}
+.contact-grid {
+  display: grid;
+  gap: 48px;
+}
+.contact-main .t-body {
+  margin-top: 16px;
+  max-width: 36ch;
+}
+.contact-phone {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  min-height: 44px;
+}
+.contact-phone:hover {
+  text-decoration: underline;
+}
+.contact-main .btn-row {
+  margin-top: 20px;
+}
+.contact-mark {
+  font-family: var(--font-script);
+  font-size: var(--step-mark);
+  line-height: 1.15;
+}
+.contact-foot address {
+  font-style: normal;
+  margin-top: 8px;
+}
+.contact-foot p {
+  margin-top: 4px;
+}
+@media (min-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 24px;
+    align-items: end;
+  }
+  .contact-main {
+    grid-column: 1 / span 7;
+  }
+  .contact-foot {
+    grid-column: 9 / span 4;
+  }
+}
+
+/* ---------- Reduced motion: none ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .glass-pour {
+    animation: none;
+  }
+  .btn,
+  .btn::after {
+    transition: none;
+  }
+  .btn:active {
+    transform: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

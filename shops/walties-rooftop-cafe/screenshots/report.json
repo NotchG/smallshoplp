@@ -1,0 +1,599 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7620,
+    "sizes": [
+      {
+        "el": "h1 \"WALTIE’S ROOFTOP CAFÉ\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "span \"WALTIE’S\"",
+        "fontSize": 90.9,
+        "lineHeight": "81.81px",
+        "textWidth": 281,
+        "pctOfContentWidth": 80
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 32.2,
+        "lineHeight": "33.7785px",
+        "textWidth": 174,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3 \"Bolvano\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 82,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Soto Betawi\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 123,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Platter Waltie’s\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 151,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Es Kopi Susu Gula Aren\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Cookies & Cream Blend\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 129,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"INDONESIA\"",
+        "fontSize": 22,
+        "lineHeight": "25.3px",
+        "textWidth": 144,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"BARAT\"",
+        "fontSize": 22,
+        "lineHeight": "25.3px",
+        "textWidth": 82,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"CAMILAN\"",
+        "fontSize": 22,
+        "lineHeight": "25.3px",
+        "textWidth": 117,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 22,
+        "lineHeight": "25.3px",
+        "textWidth": 64,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 22,
+        "lineHeight": "25.3px",
+        "textWidth": 131,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#suasana-title \"DUA SUASANA\"",
+        "fontSize": 32.2,
+        "lineHeight": "33.7785px",
+        "textWidth": 153,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Teras rooftop\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 133,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Ruang dalam ber-AC\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 207,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h2#betah-title \"BETAH BERJAM-JAM\"",
+        "fontSize": 32.2,
+        "lineHeight": "33.7785px",
+        "textWidth": 225,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "h3 \"Wi-Fi gratis\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 116,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Teras atau ber-AC\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 176,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3 \"Buka sampai 22.30\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 191,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#ulasan-title \"KATA MEREKA\"",
+        "fontSize": 32.2,
+        "lineHeight": "33.7785px",
+        "textWidth": 150,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Nyaman buat nongkrong lama\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 302,
+        "pctOfContentWidth": 86
+      },
+      {
+        "el": "h3 \"Stafnya ramah\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 144,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Makanannya enak\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 182,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Harganya bersahabat\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 216,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#kunjungi-title \"KUNJUNGI KAMI\"",
+        "fontSize": 32.2,
+        "lineHeight": "33.7785px",
+        "textWidth": 181,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h2#hubungi-title \"HUBUNGI KAMI\"",
+        "fontSize": 32.2,
+        "lineHeight": "33.7785px",
+        "textWidth": 166,
+        "pctOfContentWidth": 47
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 37
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7185,
+    "sizes": [
+      {
+        "el": "h1 \"WALTIE’S ROOFTOP CAFÉ\"",
+        "fontSize": 17.2,
+        "lineHeight": "26.5856px",
+        "textWidth": 707,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "span \"WALTIE’S\"",
+        "fontSize": 132.5,
+        "lineHeight": "119.232px",
+        "textWidth": 410,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 40.9,
+        "lineHeight": "42.9072px",
+        "textWidth": 221,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Bolvano\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 89,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Soto Betawi\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 133,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Platter Waltie’s\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 163,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Es Kopi Susu Gula Aren\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 251,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Cookies & Cream Blend\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 255,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"INDONESIA\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3792px",
+        "textWidth": 156,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"BARAT\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3792px",
+        "textWidth": 89,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"CAMILAN\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3792px",
+        "textWidth": 127,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3792px",
+        "textWidth": 69,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 23.8,
+        "lineHeight": "27.3792px",
+        "textWidth": 142,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#suasana-title \"DUA SUASANA\"",
+        "fontSize": 40.9,
+        "lineHeight": "42.9072px",
+        "textWidth": 195,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Teras rooftop\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 144,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Ruang dalam ber-AC\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 224,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#betah-title \"BETAH BERJAM-JAM\"",
+        "fontSize": 40.9,
+        "lineHeight": "42.9072px",
+        "textWidth": 286,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Wi-Fi gratis\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 125,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Teras atau ber-AC\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 191,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Buka sampai 22.30\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 207,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#ulasan-title \"KATA MEREKA\"",
+        "fontSize": 40.9,
+        "lineHeight": "42.9072px",
+        "textWidth": 190,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Nyaman buat nongkrong lama\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 177,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Stafnya ramah\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 156,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Makanannya enak\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 197,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Harganya bersahabat\"",
+        "fontSize": 23.8,
+        "lineHeight": "30.9504px",
+        "textWidth": 234,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#kunjungi-title \"KUNJUNGI KAMI\"",
+        "fontSize": 40.9,
+        "lineHeight": "42.9072px",
+        "textWidth": 230,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#hubungi-title \"HUBUNGI KAMI\"",
+        "fontSize": 40.9,
+        "lineHeight": "42.9072px",
+        "textWidth": 211,
+        "pctOfContentWidth": 30
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 37
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 6208,
+    "sizes": [
+      {
+        "el": "h1 \"WALTIE’S ROOFTOP CAFÉ\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 545,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "span \"WALTIE’S\"",
+        "fontSize": 176,
+        "lineHeight": "158.4px",
+        "textWidth": 545,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 303,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Bolvano\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 97,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Soto Betawi\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 145,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Platter Waltie’s\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 178,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Es Kopi Susu Gula Aren\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 275,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Cookies & Cream Blend\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 279,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"INDONESIA\"",
+        "fontSize": 26,
+        "lineHeight": "29.9px",
+        "textWidth": 170,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"BARAT\"",
+        "fontSize": 26,
+        "lineHeight": "29.9px",
+        "textWidth": 97,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"CAMILAN\"",
+        "fontSize": 26,
+        "lineHeight": "29.9px",
+        "textWidth": 138,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 26,
+        "lineHeight": "29.9px",
+        "textWidth": 75,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 26,
+        "lineHeight": "29.9px",
+        "textWidth": 155,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#suasana-title \"DUA SUASANA\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 267,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Teras rooftop\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 157,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Ruang dalam ber-AC\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 245,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#betah-title \"BETAH BERJAM-JAM\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 392,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Wi-Fi gratis\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 137,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Teras atau ber-AC\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 208,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Buka sampai 22.30\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 226,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#ulasan-title \"KATA MEREKA\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 261,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Nyaman buat nongkrong lama\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 193,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Stafnya ramah\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 170,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Makanannya enak\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 215,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Harganya bersahabat\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 256,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#kunjungi-title \"KUNJUNGI KAMI\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 315,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#hubungi-title \"HUBUNGI KAMI\"",
+        "fontSize": 56,
+        "lineHeight": "58.8px",
+        "textWidth": 289,
+        "pctOfContentWidth": 24
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 37
+  }
+}

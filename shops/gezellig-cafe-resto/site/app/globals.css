@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4. Colours and fonts become Tailwind utilities
+   (bg-kapur, text-besi, font-display...). paper/ink/muted/accent stay mapped for the starter. */
+@theme {
+  --color-kapur: #F2F1EC;      /* plaster: page ground */
+  --color-besi: #1A1A17;       /* steel: text, frames, footer */
+  --color-besi-soft: #55554E;  /* muted text on kapur */
+  --color-hijau: #23392E;      /* house green: Suasana, Kunjungi kami */
+  --color-lampu: #E9A94B;      /* lamplight: on dark grounds only */
+  --color-delft: #1F3F8F;      /* cobalt: Dutch words, links, the reserved card */
+  --color-tulp: #B3262E;       /* tulip red: marks and illustrations only */
+
+  --color-paper: var(--color-kapur);
+  --color-ink: var(--color-besi);
+  --color-muted: var(--color-besi-soft);
+  --color-accent: var(--color-delft);
+
+  --font-display: var(--font-castoro), "Iowan Old Style", Georgia, serif;
+  --font-body: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale (design brief §4–5). Sizes live here as variables, never as Tailwind
+   arbitrary values with spaces. */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --grid-gap: 24px;
+
+  --step-display: clamp(3.5rem, 1.6rem + 7.4vw, 8.5rem);
+  --step-head: clamp(2rem, 1.5rem + 2.2vw, 3.25rem);
+  --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.5rem);
+  --step-body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  --step-small: 0.8rem;
+
+  --leading-display: 0.95;
+  --leading-head: 1.08;
+  --leading-body: 1.6;
+
+  /* illustration mixes, palette tints only */
+  --teak: color-mix(in oklch, var(--color-lampu) 55%, var(--color-besi));
+  --hijau-deep: color-mix(in oklch, var(--color-hijau) 78%, var(--color-besi));
+  --hijau-mat: color-mix(in oklch, var(--color-hijau) 86%, var(--color-kapur));
+  --rule-soft: color-mix(in oklch, var(--color-besi) 22%, transparent);
+
+  --focus: var(--color-delft);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 40px; --section-y: 112px; }
+}
+/* GEZELLIG must stay on one line at the narrowest phones too. */
+@media (max-width: 359px) {
+  :root { --step-display: 3.05rem; }
+}
+
+html {
+  background: var(--color-kapur);
+  color: var(--color-besi);
+  scrollbar-color: var(--color-besi-soft) var(--color-kapur);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-lampu); color: var(--color-besi); }
+
+h1, h2, h3, h4 { text-wrap: balance; }
+p { text-wrap: pretty; }
+
+@layer components {
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+.hero-pad { padding-top: 24px; padding-bottom: 56px; }
+@media (min-width: 768px) {
+  .hero-pad { padding-top: 48px; padding-bottom: 88px; }
+}
+
+/* 12-column grid from 1024px; one column below. */
+.grid-12 { display: grid; grid-template-columns: minmax(0, 1fr); row-gap: 32px; }
+@media (min-width: 1024px) {
+  .grid-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--grid-gap); }
+}
+
+.t-display {
+  font-family: var(--font-display);
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.t-head    { font-family: var(--font-display); font-size: var(--step-head); line-height: var(--leading-head); font-weight: 400; letter-spacing: -0.01em; }
+.t-lead    { font-size: var(--step-lead);  line-height: 1.35; }
+.t-body    { font-size: var(--step-body);  line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small); line-height: 1.45; }
+.t-desc    { font-size: var(--step-small); line-height: 1.5; }
+@media (min-width: 768px) { .t-desc { font-size: var(--step-body); line-height: 1.55; } }
+.t-label {
+  font-family: var(--font-body);
+  font-size: var(--step-small);
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+.measure { max-width: 34em; }
+.nums { font-variant-numeric: tabular-nums lining-nums; }
+
+/* Dutch words: Delft italics on light grounds; inherit the ground's text colour on dark. */
+.nl { font-family: var(--font-display); font-style: italic; color: var(--color-delft); }
+.on-dark .nl { color: inherit; }
+
+/* Grounds. Dark grounds switch the focus ring to lamplight. */
+.on-dark { --focus: var(--color-lampu); }
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+a { text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+.link {
+  color: var(--color-delft);
+  text-decoration: underline;
+  transition: color 180ms ease-out;
+}
+.link:hover { color: var(--color-besi); }
+.on-dark .link { color: var(--color-kapur); }
+.on-dark .link:hover { color: var(--color-lampu); }
+
+/* Buttons: <a> styled. Square corners (steel), 48px tall. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 22px;
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: background-color 180ms ease-out, color 180ms ease-out, border-color 180ms ease-out;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn svg { flex: none; width: 18px; height: 18px; }
+.btn-primary { background: var(--color-besi); color: var(--color-kapur); border-color: var(--color-besi); }
+.btn-primary:hover { background: var(--color-hijau); border-color: var(--color-hijau); }
+.btn-secondary { background: transparent; color: var(--color-besi); border-color: var(--color-besi); }
+.btn-secondary:hover { background: var(--color-besi); color: var(--color-kapur); }
+.on-dark .btn-primary { background: var(--color-lampu); color: var(--color-besi); border-color: var(--color-lampu); }
+.on-dark .btn-primary:hover { background: var(--color-kapur); border-color: var(--color-kapur); }
+.on-dark .btn-secondary { color: var(--color-kapur); border-color: var(--color-kapur); }
+.on-dark .btn-secondary:hover { background: var(--color-kapur); color: var(--color-besi); }
+.btn-card { background: var(--color-kapur); color: var(--color-besi); border-color: var(--color-kapur); }
+.btn-card:hover { background: var(--color-lampu); border-color: var(--color-lampu); }
+.btn:active { transform: translateY(1px); }
+
+/* Steel: used in exactly four places (hero window, menu mullion, zone grid, map frame). */
+.steel-frame { border: 3px solid var(--color-besi); }
+
+/* Menu: centre mullion + transom, like the window. Phone: horizontal rules. */
+.menu-grid { display: grid; grid-template-columns: minmax(0, 1fr); }
+.menu-cell { padding-block: 32px; }
+.menu-cell + .menu-cell { border-top: 2px solid var(--color-besi); }
+@media (min-width: 1024px) {
+  .menu-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .menu-cell { padding-block: 40px; }
+  .menu-cell + .menu-cell { border-top: 0; }
+  .menu-cell:nth-child(odd) { padding-right: 48px; border-right: 2px solid var(--color-besi); }
+  .menu-cell:nth-child(even) { padding-left: 48px; }
+  .menu-cell:nth-child(n + 3) { border-top: 2px solid var(--color-besi); }
+}
+
+/* Suasana zone grid: kapur 25% lines. */
+.zone-grid { display: grid; grid-template-columns: minmax(0, 1fr); }
+.zone-cell { padding: 24px 0; }
+.zone-cell + .zone-cell { border-top: 2px solid color-mix(in oklch, var(--color-kapur) 25%, transparent); }
+@media (min-width: 640px) {
+  .zone-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-auto-rows: 1fr; }
+  .zone-cell { padding: 28px 28px 28px 0; }
+  .zone-cell:nth-child(even) { padding-left: 28px; padding-right: 0; border-left: 2px solid color-mix(in oklch, var(--color-kapur) 25%, transparent); }
+  .zone-cell + .zone-cell { border-top: 0; }
+  .zone-cell:nth-child(n + 3) { border-top: 2px solid color-mix(in oklch, var(--color-kapur) 25%, transparent); }
+}
+
+/* Plates sit on the plaster with a soft, offset shadow. */
+.plate-shadow { filter: drop-shadow(0 6px 10px color-mix(in oklch, var(--color-besi) 14%, transparent)); }
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px; line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-besi); color: var(--color-kapur);
+}
+
+/* Signature moment pre-paint state (TRD): only with JS and without reduced motion, the window
+   starts dark so it never flashes lit → dark → lit. The 2.5s fallbacks match GSAP's end state. */
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-glass] { opacity: 0.86; animation: glass-off 0s 2.5s forwards; }
+  .js [data-halo] { opacity: 0; animation: halo-on 0s 2.5s forwards; }
+}
+@keyframes glass-off { to { opacity: 0; } }
+@keyframes halo-on { to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active { transform: none; }
+}

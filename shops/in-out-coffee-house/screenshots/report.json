@@ -1,0 +1,368 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7287,
+    "sizes": [
+      {
+        "el": "h1 \"I N OUT coffee house\"",
+        "fontSize": 72,
+        "lineHeight": "64.8px",
+        "textWidth": 218,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#pilih-title \"Pilih tempatmu\"",
+        "fontSize": 30.2,
+        "lineHeight": "32.616px",
+        "textWidth": 193,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3#ruang-rooftop \"Rooftop lantai 3\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 182,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3#ruang-indoor \"Lantai 2, indoor\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 154,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3#ruang-beanbag \"Ruang beanbag\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 155,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 30.2,
+        "lineHeight": "32.616px",
+        "textWidth": 182,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 42,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Non-kopi Rp 20–27rb\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 176,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3 \"Makanan Rp 25–35rb\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 179,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3 \"Camilan Rp 15–25rb\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 169,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Paket Nongkrong\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 169,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#cuci-title \"Sambil menunggu cuci mobil\"",
+        "fontSize": 30.2,
+        "lineHeight": "32.616px",
+        "textWidth": 230,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 30.2,
+        "lineHeight": "32.616px",
+        "textWidth": 161,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 30.2,
+        "lineHeight": "32.616px",
+        "textWidth": 181,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.082px",
+        "textWidth": 94,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2 \"Masuk santai, keluar senang.\"",
+        "fontSize": 30.2,
+        "lineHeight": "32.616px",
+        "textWidth": 187,
+        "pctOfContentWidth": 53
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 23
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5477,
+    "sizes": [
+      {
+        "el": "h1 \"I N OUT coffee house\"",
+        "fontSize": 86.4,
+        "lineHeight": "77.76px",
+        "textWidth": 262,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#pilih-title \"Pilih tempatmu\"",
+        "fontSize": 37.8,
+        "lineHeight": "40.7808px",
+        "textWidth": 241,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3#ruang-rooftop \"Rooftop lantai 3\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 200,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3#ruang-indoor \"Lantai 2, indoor\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 169,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3#ruang-beanbag \"Ruang beanbag\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 170,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 37.8,
+        "lineHeight": "40.7808px",
+        "textWidth": 228,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 46,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Non-kopi Rp 20–27rb\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 186,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Makanan Rp 25–35rb\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 189,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Camilan Rp 15–25rb\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 177,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Paket Nongkrong\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 185,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#cuci-title \"Sambil menunggu cuci mobil\"",
+        "fontSize": 37.8,
+        "lineHeight": "40.7808px",
+        "textWidth": 452,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 37.8,
+        "lineHeight": "40.7808px",
+        "textWidth": 202,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 37.8,
+        "lineHeight": "40.7808px",
+        "textWidth": 227,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 25.4,
+        "lineHeight": "33.0304px",
+        "textWidth": 103,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2 \"Masuk santai, keluar senang.\"",
+        "fontSize": 37.8,
+        "lineHeight": "40.7808px",
+        "textWidth": 466,
+        "pctOfContentWidth": 66
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 23
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5403,
+    "sizes": [
+      {
+        "el": "h1 \"I N OUT coffee house\"",
+        "fontSize": 96,
+        "lineHeight": "86.4px",
+        "textWidth": 291,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#pilih-title \"Pilih tempatmu\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 281,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3#ruang-rooftop \"Rooftop lantai 3\"",
+        "fontSize": 26,
+        "lineHeight": "29.9px",
+        "textWidth": 205,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3#ruang-indoor \"Lantai 2, indoor\"",
+        "fontSize": 26,
+        "lineHeight": "29.9px",
+        "textWidth": 173,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3#ruang-beanbag \"Ruang beanbag\"",
+        "fontSize": 26,
+        "lineHeight": "29.9px",
+        "textWidth": 174,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 266,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 47,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Non-kopi Rp 20–27rb\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 188,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Makanan Rp 25–35rb\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 191,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Camilan Rp 15–25rb\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 179,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Paket Nongkrong\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 189,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#cuci-title \"Sambil menunggu cuci mobil\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 527,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#kata-title \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 235,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 264,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 105,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2 \"Masuk santai, keluar senang.\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 543,
+        "pctOfContentWidth": 45
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 23
+  }
+}

@@ -1,0 +1,275 @@
+@import "tailwindcss";
+
+/* Palette from docs/design-brief.md §3. Six named colours; they become Tailwind utilities
+   (bg-paper, text-ink, fill-kuning...). Fonts come from next/font as --font-display / --font-body. */
+@theme {
+  --color-paper: #F8F8F5;   /* Dinding: wall white */
+  --color-ink: #161616;     /* Hitam: logo black */
+  --color-kuning: #F1D21C;  /* beanbag-room yellow */
+  --color-bata: #E0502A;    /* the oval's orange-red rim. Graphics, or Hitam text on it */
+  --color-kayu: #6E4428;    /* walnut floor, chairs, coffee */
+  --color-hijau: #2F7A4A;   /* enamel shades, turf, trees, matcha */
+}
+
+/* Layout and type scale (design brief §4, §5). Sizes live here as variables, never as
+   Tailwind arbitrary values with spaces. */
+:root {
+  --container: 1200px;
+  --gutter: clamp(1.25rem, 0.5rem + 3vw, 3rem);       /* 20px phone, 48px desktop */
+  --section-y: clamp(3.5rem, 2rem + 6vw, 7rem);       /* 56px phone, 112px desktop */
+
+  --step-display: clamp(4.5rem, 3rem + 5vw, 6rem);    /* 72 to 96px, the hero "IN OUT" only */
+  --step-head: clamp(1.875rem, 1.4rem + 2vw, 2.75rem);/* 30 to 44px, h2 */
+  --step-lead: clamp(1.4375rem, 1.3rem + 0.6vw, 1.625rem); /* 23 to 26px */
+  --step-body: 1.125rem;                              /* 18px */
+  --step-small: 0.875rem;                             /* 14px */
+
+  --leading-display: 0.9;   /* one-line wordmark only, nowrap */
+  --leading-head: 1.08;
+  --leading-body: 1.55;
+
+  /* Drawing-only tints. Never used for text. */
+  --tint-kopi: color-mix(in oklch, var(--color-kayu) 55%, var(--color-paper));
+  --tint-nasi: color-mix(in oklch, var(--color-kayu) 45%, var(--color-kuning));
+  --tint-beton: color-mix(in oklch, var(--color-ink) 35%, var(--color-paper));
+  --tint-bata-tua: color-mix(in oklch, var(--color-bata) 70%, var(--color-ink));
+  --tint-susu: color-mix(in oklch, var(--color-kayu) 14%, var(--color-paper));
+
+  --frame: 6px;             /* frame border, map frame */
+  --slab: 10px;             /* floor slabs in the building */
+  --rule: 3px;              /* praise rules, walls */
+}
+
+@utility font-display { font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif; }
+@utility font-body { font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif; }
+@utility fill-kopi { fill: var(--tint-kopi); }
+@utility fill-nasi { fill: var(--tint-nasi); }
+@utility fill-beton { fill: var(--tint-beton); }
+@utility fill-batatua { fill: var(--tint-bata-tua); }
+@utility fill-susu { fill: var(--tint-susu); }
+@utility stroke-beton { stroke: var(--tint-beton); }
+
+@layer base {
+html { background: var(--color-paper); color: var(--color-ink); }
+body {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+}
+p { max-width: 60ch; }
+
+h1, h2, h3 {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+}
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+.section-follow { padding-top: calc(var(--section-y) * 0.5); } /* follows a section on the same ground */
+.section-strip { padding-block: calc(var(--section-y) * 0.6); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.3; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.45; }
+
+/* Browser surfaces */
+@layer base {
+::selection { background: var(--color-kuning); color: var(--color-ink); }
+html { scrollbar-color: var(--color-ink) var(--color-paper); }
+a { text-decoration-line: underline; text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+a:hover, a:focus-visible { text-decoration-thickness: 3px; }
+:focus-visible { outline: 3px solid var(--color-ink); outline-offset: 3px; }
+.on-ink :focus-visible { outline-color: var(--color-kuning); }
+}
+.tabular { font-variant-numeric: tabular-nums; }
+
+.skip-link {
+  position: absolute; left: 12px; top: 12px; z-index: 50;
+  padding: 12px 18px; min-height: 48px;
+  background: var(--color-kuning); color: var(--color-ink);
+  font-weight: 800;
+  transform: translateY(-200%);
+}
+.skip-link:focus-visible { transform: none; }
+main:focus { outline: none; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px; line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-ink); color: var(--color-paper);
+}
+
+/* ---------- Buttons (48px, pill) ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  min-height: 48px; padding: 0 1.375rem;
+  border-radius: 999px; border: 3px solid transparent;
+  font-family: var(--font-display), ui-sans-serif, sans-serif;
+  font-weight: 700; font-size: var(--step-body); line-height: 1;
+  letter-spacing: -0.01em;
+  text-decoration: none; white-space: nowrap;
+  transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out;
+}
+.btn .btn-arrow { width: 0.95em; height: 0.95em; flex: none; transition: transform 180ms ease-out; }
+.btn:hover .btn-arrow, .btn:focus-visible .btn-arrow { transform: translate(3px, -3px); }
+.btn:active { transition-duration: 80ms; }
+
+.btn-solid-light { background: var(--color-ink); color: var(--color-paper); }
+.btn-solid-light:hover { background: var(--color-kayu); }
+.btn-outline-light { border-color: var(--color-ink); color: var(--color-ink); }
+.btn-outline-light:hover { background: var(--color-kuning); }
+.btn-solid-dark { background: var(--color-kuning); color: var(--color-ink); }
+.btn-solid-dark:hover { background: var(--color-paper); }
+.btn-outline-dark { border-color: var(--color-paper); color: var(--color-paper); }
+.btn-outline-dark:hover { background: var(--color-paper); color: var(--color-ink); }
+
+/* ---------- Wordmark (hero h1) ----------
+   Real text "In Out" (uppercase) + "coffee house". The cup outline and the two arrowheads are
+   positioned in em on the glyphs, from League Spartan 700 metrics measured in Chromium:
+   ascent 0.70, descent 0.22, cap height 0.66; I advance 0.2705 (stem centre 0.1216);
+   T advance 0.5101, crossbar 0.53 to 0.66, right end 0.4709. Letter spacing -0.02em.
+   With line-height 0.9 the baseline sits 0.69em below the top of .wm-main. */
+.wordmark {
+  display: inline-block;
+  font-size: var(--step-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: var(--leading-display);
+  padding-top: 0.9em;             /* room for the cup and its steam */
+  padding-right: 0.34em;          /* the T's arm reaches past the last letter */
+}
+.wm-main { position: relative; display: block; white-space: nowrap; text-transform: uppercase; }
+/* Cup sits 0.05em above the cap line, from over the N to the handle over the T. */
+.wm-cup {
+  position: absolute; pointer-events: none; overflow: visible;
+  left: 0.4em; top: -0.88em;
+  width: 2.3em; height: 0.86em;
+}
+/* A zero-size box on the baseline, right after the glyph it decorates. */
+.wm-anchor { position: relative; display: inline-block; width: 0; height: 0; vertical-align: baseline; }
+.wm-arrow { position: absolute; pointer-events: none; }
+.wm-arrow svg { display: block; width: 100%; height: 100%; }
+/* I: the triangle (22 of 24 units wide) sits on the stem, its base on the cap line. */
+.wm-arrow-i { width: 0.4em; height: 0.4em; left: -0.3289em; bottom: 0.617em; }
+/* T: the arm leaves the end of the crossbar and turns up and forward, as on the cups.
+   The box rotates about its left-centre, which sits just inside the crossbar's end. */
+.wm-arrow-t {
+  width: 0.4875em; height: 0.4875em;
+  left: -0.07em; bottom: 0.351em;
+  transform: rotate(-38deg); transform-origin: 0% 50%;
+}
+.wm-arrow-anim { display: block; width: 100%; height: 100%; }
+/* "coffee house": tight under the caps like the cup print, spanning most of "IN OUT". */
+.wm-sub {
+  display: block;
+  margin-top: -0.63em;
+  padding-left: 0.12em;
+  font-family: var(--font-body), ui-sans-serif, sans-serif;
+  font-weight: 800; text-transform: lowercase;
+  font-size: 0.3em; line-height: 1;
+  letter-spacing: 0.24em;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .js .wm-arrow-anim { opacity: 0; }
+}
+
+/* ---------- Hero ---------- */
+.hero { padding-top: clamp(0.75rem, 0.25rem + 2vw, 2.5rem); padding-bottom: calc(var(--section-y) * 0.5); }
+.hero p { text-wrap: balance; }
+.hero-oval { width: min(100%, 300px); justify-self: center; }
+@media (min-width: 768px) { .hero-oval { width: 100%; justify-self: end; } }
+@media (min-width: 1024px) { .hero-oval { width: min(100%, 470px); justify-self: center; } }
+
+/* ---------- Space signs (h3) ---------- */
+.sign {
+  display: inline-flex; align-items: center; gap: 0.4em;
+  background: var(--color-ink); color: var(--color-paper);
+  padding: 0.28em 0.6em 0.22em;
+  font-size: var(--step-lead); line-height: 1.15;
+}
+.sign svg { width: 0.75em; height: 0.75em; flex: none; }
+
+/* ---------- Building ---------- */
+.slab { height: var(--slab); background: var(--color-ink); }
+.deck { display: block; width: 100%; height: 25px; }
+.floor2 { border-inline: var(--rule) solid var(--color-ink); }
+.wall-between { border-top: var(--rule) solid var(--color-ink); }
+@media (min-width: 768px) { .wall-between { border-top: 0; border-left: var(--rule) solid var(--color-ink); } }
+.art-box { position: relative; width: 100%; overflow: hidden; }
+.art-box > svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.art-rooftop { aspect-ratio: 16 / 9; background: var(--color-kuning); }
+.art-indoor { aspect-ratio: 7 / 4; background: var(--color-paper); }
+.art-beanbag { aspect-ratio: 5 / 4; background: var(--color-kuning); }
+
+/* ---------- Gallery (framed prints) ---------- */
+.frame {
+  border: var(--frame) solid var(--color-ink);
+  background: var(--color-paper);
+  padding: 8%;
+}
+.field { position: relative; aspect-ratio: 1 / 1; }
+.field > svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.field-paper { outline: var(--rule) solid var(--color-ink); outline-offset: calc(-1 * var(--rule)); }
+.plaque {
+  display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 12px; row-gap: 2px;
+  margin-top: 8px; padding: 8px 12px;
+  background: var(--color-ink); color: var(--color-paper);
+}
+.plaque-name { font-family: var(--font-display), sans-serif; font-weight: 600; font-size: var(--step-body); line-height: 1.25; }
+.plaque-price { font-weight: 700; font-size: var(--step-small); line-height: 1.3; color: var(--color-kuning); }
+@media (min-width: 768px) {
+  .print-large { display: flex; flex-direction: column; }
+  .print-large .frame { flex: 1; display: flex; }
+  .print-large .field { flex: 1; aspect-ratio: auto; }
+}
+
+.price, .price-range {
+  margin-left: 0.4em;  /* plus the word space: about 12px after the name */
+  font-family: var(--font-body), ui-sans-serif, sans-serif;
+  font-size: var(--step-small); font-weight: 700; letter-spacing: 0;
+  color: var(--color-kayu);
+}
+.paket-art svg { display: block; width: 100%; height: auto; }
+
+@media (min-width: 640px) { .close-actions { align-items: flex-start; } .close-actions .btn { min-width: 16rem; } }
+
+/* ---------- Praise ---------- */
+.praise-item { border-top: var(--rule) solid var(--color-ink); padding-top: 16px; }
+
+/* ---------- Hours ---------- */
+.hours-grid { display: grid; grid-template-columns: max-content max-content; column-gap: 16px; row-gap: 6px; align-items: baseline; }
+.today-tag {
+  display: inline-block; margin-left: 12px; padding: 1px 8px 2px;
+  background: var(--color-kuning); color: var(--color-ink);
+  font-size: var(--step-small); font-weight: 800; line-height: 1.4;
+}
+
+/* ---------- Map ---------- */
+.map-frame {
+  position: relative; border: var(--frame) solid var(--color-ink);
+  background: var(--color-kuning); aspect-ratio: 1 / 1;
+}
+@media (min-width: 768px) { .map-frame { aspect-ratio: 4 / 3; } }
+.map-fallback { position: absolute; inset: 0; display: grid; place-content: center; padding: 24px; text-align: center; }
+.map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:hover .btn-arrow, .btn:focus-visible .btn-arrow { transform: none; }
+}

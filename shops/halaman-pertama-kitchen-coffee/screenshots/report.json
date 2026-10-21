@@ -1,0 +1,368 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6844,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"halamanpertama\"",
+        "fontSize": 37.4,
+        "lineHeight": "35.568px",
+        "textWidth": 283,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h2#sudut-title \"Tiga sudut, satu halaman\"",
+        "fontSize": 28.8,
+        "lineHeight": "31.68px",
+        "textWidth": 307,
+        "pctOfContentWidth": 88
+      },
+      {
+        "el": "h3 \"Ruang ber-AC\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 140,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Area terbuka\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Teras beratap\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 138,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 28.8,
+        "lineHeight": "31.68px",
+        "textWidth": 175,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3 \"Dari bar\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 78,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Dari dapur\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 102,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kerja-title \"Betah kerja di sini\"",
+        "fontSize": 28.8,
+        "lineHeight": "31.68px",
+        "textWidth": 210,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Banyak colokan\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 152,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"AC yang dingin\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 150,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Betah berjam-jam\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 179,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3 \"Buka sampai malam\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 28.8,
+        "lineHeight": "31.68px",
+        "textWidth": 156,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 28.8,
+        "lineHeight": "31.68px",
+        "textWidth": 170,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 28.8,
+        "lineHeight": "31.68px",
+        "textWidth": 167,
+        "pctOfContentWidth": 48
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 18
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6168,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"halamanpertama\"",
+        "fontSize": 73.7,
+        "lineHeight": "70.0416px",
+        "textWidth": 557,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h2#sudut-title \"Tiga sudut, satu halaman\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 385,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"Ruang ber-AC\"",
+        "fontSize": 24.6,
+        "lineHeight": "33.1776px",
+        "textWidth": 156,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Area terbuka\"",
+        "fontSize": 24.6,
+        "lineHeight": "33.1776px",
+        "textWidth": 143,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Teras beratap\"",
+        "fontSize": 24.6,
+        "lineHeight": "33.1776px",
+        "textWidth": 154,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 219,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Dari bar\"",
+        "fontSize": 24.6,
+        "lineHeight": "33.1776px",
+        "textWidth": 87,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Dari dapur\"",
+        "fontSize": 24.6,
+        "lineHeight": "33.1776px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#kerja-title \"Betah kerja di sini\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 263,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Banyak colokan\"",
+        "fontSize": 24.6,
+        "lineHeight": "33.1776px",
+        "textWidth": 170,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"AC yang dingin\"",
+        "fontSize": 24.6,
+        "lineHeight": "33.1776px",
+        "textWidth": 167,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Betah berjam-jam\"",
+        "fontSize": 24.6,
+        "lineHeight": "33.1776px",
+        "textWidth": 200,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Buka sampai malam\"",
+        "fontSize": 24.6,
+        "lineHeight": "33.1776px",
+        "textWidth": 223,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 196,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 213,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 36.1,
+        "lineHeight": "39.7056px",
+        "textWidth": 209,
+        "pctOfContentWidth": 30
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 18
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5828,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"halamanpertama\"",
+        "fontSize": 112,
+        "lineHeight": "106.4px",
+        "textWidth": 847,
+        "pctOfContentWidth": 71
+      },
+      {
+        "el": "h2#sudut-title \"Tiga sudut, satu halaman\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 512,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Ruang ber-AC\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 165,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Area terbuka\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 151,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Teras beratap\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 163,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 292,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Dari bar\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 92,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Dari dapur\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 120,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#kerja-title \"Betah kerja di sini\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 350,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Banyak colokan\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 180,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"AC yang dingin\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 177,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Betah berjam-jam\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 211,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Buka sampai malam\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 236,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#ulasan-title \"Kata mereka\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 261,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#kunjungi-title \"Kunjungi kami\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 283,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#hubungi-title \"Hubungi kami\"",
+        "fontSize": 48,
+        "lineHeight": "52.8px",
+        "textWidth": 278,
+        "pctOfContentWidth": 23
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 18
+  }
+}

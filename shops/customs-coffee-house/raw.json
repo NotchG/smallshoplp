@@ -1,0 +1,377 @@
+{
+  "id": "ChIJFeiPAJD0aS4R3gGflG66I1M",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0812-9154-8783",
+  "internationalPhoneNumber": "+62 812-9154-8783",
+  "formattedAddress": "Jl. Bujana Tirta 2 No.4A, RT.11/RW.6, Pisangan Tim., Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13230, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=5990836913435509214&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": true,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 1,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 1:00 AM",
+      "Tuesday: 8:00 AM – 1:00 AM",
+      "Wednesday: 8:00 AM – 1:00 AM",
+      "Thursday: 8:00 AM – 1:00 AM",
+      "Friday: 8:00 AM – 1:00 AM",
+      "Saturday: 8:00 AM – 1:00 AM",
+      "Sunday: 9:00 AM – 1:00 AM"
+    ],
+    "nextCloseTime": "2026-10-20T18:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 334,
+  "displayName": {
+    "text": "CUSTOMS coffee house",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/reviews/ChZDSUhNMG9nS0VJQ0FnSUNJazh6MUZnEAE",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 4,
+      "text": {
+        "text": "genuine service, the coffee tastes strong n good, pretty affordable, nice place to just chilling w friends or alone while doing ur assignment as they also provide free wifi.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "genuine service, the coffee tastes strong n good, pretty affordable, nice place to just chilling w friends or alone while doing ur assignment as they also provide free wifi.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Tia Aulia",
+        "uri": "https://www.google.com/maps/contrib/109385190185909897257/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXcMO7rATK1Gm4Ow-6d3LLGpBIT52PxOAdYabbDMtyRUtmdnIsi=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2018-12-05T09:20:00.450923Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNJazh6MUZnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNJazh6MUZnEAE!2m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/reviews/ChdDSUhNMG9nS0VJQ0FnSUNtbl9yLXlnRRAB",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Many choices of single origin coffee, Nice place for chill, nice taste of music, suitable for quick meeting, even working, goweser are very welcome",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Many choices of single origin coffee, Nice place for chill, nice taste of music, suitable for quick meeting, even working, goweser are very welcome",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Yogi Ariewibowo",
+        "uri": "https://www.google.com/maps/contrib/111886526973357352537/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUhltbcXL5nr9A4tYqA2ZsnGE2QHTL1bodvZ5mHFxDoeOr1lnwy=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2022-01-14T04:47:35.787452Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNtbl9yLXlnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNtbl9yLXlnRRAB!2m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/reviews/ChZDSUhNMG9nS0VJQ0FnSUNvdjVDcUZBEAE",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Just don't bring outside food or beverages. Be respectful to the shop. They can offer what you need. Great coffee btw",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Just don't bring outside food or beverages. Be respectful to the shop. They can offer what you need. Great coffee btw",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Didit Rahadi",
+        "uri": "https://www.google.com/maps/contrib/115510672143418210911/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXw2Q_phLuWjc587bgZgP9T6qKH5OTowrb3VasGr5xcWJY6g4SL=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2019-05-27T07:11:42.007328Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNvdjVDcUZBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNvdjVDcUZBEAE!2m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/reviews/ChZDSUhNMG9nS0VJQ0FnTUR3eV9QME5BEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "good food and place to hangout",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "good food and place to hangout",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Ryan Saputra alam",
+        "uri": "https://www.google.com/maps/contrib/103582366450243792697/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV3DwjVDsW8C28_ungVIJh7XWAmarlyJiMlLSdDXyAXx3UEcTJ_=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-03-28T08:56:14.163291Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTUR3eV9QME5BEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTUR3eV9QME5BEAE!2m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/reviews/ChZDSUhNMG9nS0VJQ0FnSUM2elpXNkFnEAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Recommended place for meeting,for sharing with friends and other....awesome",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Recommended place for meeting,for sharing with friends and other....awesome",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Sir Holmar",
+        "uri": "https://www.google.com/maps/contrib/103811243215905953356/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXp9qE5-_RV4u6Vixd2E_mRcg50vjXY9ck54rbjw0wBTKBaSxU=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2021-09-10T10:25:51.260730Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUM2elpXNkFnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUM2elpXNkFnEAE!2m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMboDDstZpA4KxutOPxoof3M-jUQ5S9cswjOQApWZw27Qw3uSr3jvP9uy0WpaZe5tEdIjX9FYPESiZr7B3TLT-8ODreLS3AZL-YFqRHL0FcGB0HOobiq4MVchAd2P7lf_YbyLpYinO-4hcoQ2RKI1jPBGeXBb5YuxnNWEwzsR1tM-Utm5chHWn9wAG0a8f2-C8nnhEjngKf4puxfJLjc9CZ6yvaKpYD9foja59NYlFvh60VESeW57J-tDdlc2RD05fO-I4TqSwxIbCQ0Jmr_8ijSiL2lcZgNfrm9MX2SgOpq9ms2nu2HywjC1ptNHeLYPmY0Xpvns13b_lhZpkREMwcMXtZ3Q0S7yfS81S2bFoRuVbbX584dusTZZIsuT68sq8cjXV6b2C0yB_QXSEL48FwzaKwicI0",
+      "widthPx": 1440,
+      "heightPx": 810,
+      "authorAttributions": [
+        {
+          "displayName": "CUSTOMS coffee house",
+          "uri": "https://maps.google.com/maps/contrib/111714732319428355746",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVhLZYEA8NGCuwr2eFsWNQPnvaE0lAYEBuZmrL5OJP3lCLfNRr6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDGl96q9QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDGl96q9QE!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMaeXIcaWFR2UPttrnwj9DcQ5mRurbT87xYOvn8Cq_i8ann9ZbD82qVS90ihOewTrYq6MQkfnKyUBXIbdemFPBU_ty9LdU2Ey1yTB-2ReKc8ct9Yh5c3-V7eEzTsSs0BRExrDYuw2huCA7ND2L4X21c5iutLGpCCyCFznfVaS-OweoBclDngNG4B7Eoue_Mv6zlrGL3Ur3wf61kDFkgG01D0Ab61Bg0c7U0bEZBscz9n-ksTfg8j4dHISxawzxVIl8P2kmxmJB_E0y6NtQoBMsq_4NCdmrL2YDuBVyTol8TuKcZNJpU4upDQRQaI3vCqxc5xoURuCjYQ7ZjP4qfa5b3x10EBhWXiK1SW6PsF-l_-OKB_8jZR_4EgfKdrYj-PjFEZAaBK5Q4HqnT-K9w6qkDloQo",
+      "widthPx": 3024,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "CUSTOMS coffee house",
+          "uri": "https://maps.google.com/maps/contrib/111714732319428355746",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVhLZYEA8NGCuwr2eFsWNQPnvaE0lAYEBuZmrL5OJP3lCLfNRr6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID8kZDbVQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID8kZDbVQ!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMZazk71TE0AVv0QxdyHj5B4tmidr_gbxfld8ulzfKXkKd7RyDvWIjM8l8oJPzqsfIAJgcozl5hQ-jk-FJOIKgHPVFsi0z3kcZ9zSE29x1z-5vamYK30Gs_vcnNsay-iH8bElgGiKw3VFUopMq1mZHpOremd41xb_B2qZURUzIoofZHtZ6D_MUHmH8UJytjUQEl33pOYGebs_agSnqABLMEb3h3ei2mevaCDsX8mjlMuvPIQ5w3VqCc4-mBF2jAsjz2vB9X9pR03CR1FIsL1AvYcCLDA1PE3D1NWuG_dmxzVWd4BlaNXG-3FjPhVcJPQrBVg7j8eVcTsRKubvlyoJsIjgwTe0yp_gSySzHCQgkh-RA-wVfjKjsDk3HsvOF29Spu71TCMM419f9PU6IeP6AuXeyk",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "CUSTOMS coffee house",
+          "uri": "https://maps.google.com/maps/contrib/111714732319428355746",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVhLZYEA8NGCuwr2eFsWNQPnvaE0lAYEBuZmrL5OJP3lCLfNRr6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID8kdCRcA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID8kdCRcA!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMZv4BL3Dt0JCk3KEovBCCQdkLYmdX6LBz48PNOOsm3ziwVvqDOQDJnZJBEge5KLl5ASyPokR9ikzhHnqQyh9McUoxeaTlTuoOCvyLn1Rm9AwoBkLbVPllbGTIbO3jPHVjXi-SRGf4N7V96u8ZDUPt7CEVwCu_dfD0Wogn4MKGVx10pPgNpA47JkpIdBoOI6YS4f279Xzs5qDArNU5htZUzIBdKL_bitBQaAZgoeEvzVOEXV93wBU7BpBsThfaxZKbb7rzsarbWa8usUWjWyEOT-VGYqAvSr6oiHiJWUUcjaheTeXRmINC8IlXnr1Ap7reUGJUAVTDulAMfMTAfnRQUa-SsZ2w3EalAOmMiFmCexxkQSkqHNyvAKLBPZVKEdZqOO11iCXhEVQhvNSujo8h1bW0g",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "FREDY NOYA",
+          "uri": "https://maps.google.com/maps/contrib/115598433489121354973",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX7AjJSoCX6Eurt6xSn-uQ6ApWC3JSwz0PPFzes7b1ihU5oQdP6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICEotKHUg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICEotKHUg!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMYsBl1HIqWRXDUijo6EARbZrFlV8AccH_y7n_G4qt_6d5CHN609MbCOHXKhdpABMB161ujwKxQKlvMqNoGIdrFtcjUZ3HuOZXMSnV9pb13sAQoj7s-lKd1jQbkKa8PENHwG4M2AiEpIDziq_wdbJMAZWOIzUemUEZC1rAknOkyEem6J3VvJGrBmlGi-Gktk2U9nlUfEMdlJOIcDSebAYFFdeV2vtq2RINx98sw8Hq27S3_roI0lvrOFQveflg59TALwBwDpRh1TzD4-ls3WFuCxMIFUUWxNDmHR9ORNUSYTxxbaN7yGeeJ5AbKz6DZmO-w50hfRJAkc5NW1myS_HpQXLV44CIlzIFLZ1PIaeQ4DlbVXFp94D0ACzAkjXFv4fXu-LFH61hx7Ho13CdCX1kZ16w",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "A M S Pamulu",
+          "uri": "https://maps.google.com/maps/contrib/117763231873026251032",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWLkZg6cg2Krbzu_yqdwtDAc5zTT2MFmz_y852NC0YeY20VFGDzkQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICfru_6EQ&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICfru_6EQ!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMZASq06L4cY6MRXK0B4IXfCn0dOLoEnZ4MrK3rvlVpz8bhBHw9UFQLpaMFdCPRzQu-nCbulUYANNHYOn_efygzAWoeu_ut0Fh8FTboBNBUh8Fph48ovxDgY3hU87Hb_scJuxNW68O-KxzKfqAH3tRgN0VBhU79pwJPMfkzK9Lz7hIkSkvBcVhZs7fF2LYLdI-9y4iTMhj_V-22kJ2WAy3zwc0o7lZ6As_Cb6bf3FApmkhbo8MRacmctH_6-DurdEq10MRrRyYPNXyknRhPIjg9AInPYrF7A_Qi0L2BrllKOzs1Lv4289AyaV71PZof0JJIH44aw4u_J6GSU75oJPw9wuthjLqln9eIRhZN0xsDi_80lWuh1XWLh7gvCxpQtR-81ryv_webWb6pzV0zqf89RiA",
+      "widthPx": 1280,
+      "heightPx": 960,
+      "authorAttributions": [
+        {
+          "displayName": "CUSTOMS coffee house",
+          "uri": "https://maps.google.com/maps/contrib/111714732319428355746",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVhLZYEA8NGCuwr2eFsWNQPnvaE0lAYEBuZmrL5OJP3lCLfNRr6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICOyPuNGw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICOyPuNGw!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMaLRMjDvmIjBWntnUjMQxU30WLtfPlKWLvxVaOdMLbjs2kjTUnh0dMM-Rxg5oEMnrDKJpZQFvUxOVZzXhYRzLE0fcqFicpuBOQfTFeBbKgZ71SlI1jFcAlmMVaJ9hxF3jrcw0_xYI0mlaRV6QlJ6w7MgDceklkihU7mB1TivyeZ38ZMJLIvnz5LPFhQvmyQ1vreK86wx2W_SKx8RUxOgc7n3YqVCnwQUjZU5KuRGpWrp5_R4-xgeBfJbUGMhLJYcV-gY2lM6PFWXRuICjIknivyq0P3ycd1R9APj6ExwHlz1vrI5nkCeWcNC8hVsc8kM1tZfLTGFntcwWrVyH76JhRqzYe6tjsgisYXK8DVteih1DungCy6i-Z7OtY68uyUs7UqeaQER_JhJdreZzUZEnCJVYL7SaQ",
+      "widthPx": 2824,
+      "heightPx": 3764,
+      "authorAttributions": [
+        {
+          "displayName": "CUSTOMS coffee house",
+          "uri": "https://maps.google.com/maps/contrib/111714732319428355746",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVhLZYEA8NGCuwr2eFsWNQPnvaE0lAYEBuZmrL5OJP3lCLfNRr6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID8kdCRiAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID8kdCRiAE!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMabQ-4XvX61nNeyG0hOXvS7lxb_5fqK5uiu5esSHDRZGsAcWwKEqdRPfB3hH_F4qLUQjwYqOLOFhboYcJt79jZyddLUTAJnyk2Z5d1vhLtO6-3Z-iTjmWjEa0xu23FA6wrBapcoBVPoitsnyIIbSQX--sa-cPwr2ezwInmxoehaEXeChk7NGkpZj_ktwMMoHWEQ8WGbkxhE6f_sfrBQo01zaCHdnD5Dacx-1ZG6yVG-Mx-hEvxagTFK109u8lOVP5lZ3vgkA6Mb3RWg0eK_UqMKG0HWWMvandCPqQjTVvOviMe9HcyLP37UkqKqqjRV-ISTbJMnG4eSrybf2FtOunvnqDyu6pbGs0tdZfSX-Heaynu1_wDbGgVTBBqFzKVpg_Ze9Y9Nlgb4irOHuGnmOd7eWVeMUsw",
+      "widthPx": 4160,
+      "heightPx": 3120,
+      "authorAttributions": [
+        {
+          "displayName": "Rendi Restiawan",
+          "uri": "https://maps.google.com/maps/contrib/111000546383365716771",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVNbA0jMgtOgjRM0PeGFNfc-mpsJyNXcWcRn6qLaSS3cis-GOA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICE8bXkxQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICE8bXkxQE!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMapF9VBqGH-NdX4O2lN6GUvKeKV_S79MikaG5wJ5kJ-3ijm05aSp0epCE0mYtzdX2vO4cKe1agU3wH63sOdsYe-ROWcxdnxWB1qYVhB3sq1AbGTlEJYaksG4NNO5cKf8ms2ir6iu467th7mShdZXtpA1EGa6c0sCWkQdPH_M-QJF5U1VzLsFUbYqO2z0S093f9s1kF8Dbd3j8eyCLfwuhmRex9IhujwLKBz4lMh7J6WgQnLwhm1Tr0Rq9rPsdUvib2ziSekabNmvCLACZX8qyN7wD0hGfjUvXnU9EdUs0RFgxyY71Z-Ttv87A_hnr8AZ8daugM8S-ZVhF2moo3WUTgTJXWQS2jkfhqDaQmL2X6g-M3sWya2kiwxwRhBMySDEEHwaz3yiQRJzEbA4bJfrsAxQXb-",
+      "widthPx": 3264,
+      "heightPx": 1836,
+      "authorAttributions": [
+        {
+          "displayName": "rydwan ok",
+          "uri": "https://maps.google.com/maps/contrib/115874048344487958921",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUxNYreSttHNbGhXAkM-v5Zbm9cukkhLO0zMKn94NuGD0Q_O3gI=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC8iuuiuwE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC8iuuiuwE!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    },
+    {
+      "name": "places/ChIJFeiPAJD0aS4R3gGflG66I1M/photos/Aa-ngMYAVNoPkyaDQ0CWxq7QQN_CBu1Fkt_A-1dY8QyEbPnOzYYxEbnJQzWvsNgQDRYj1Ni4j7tV1azXNHXpJTsGNx3_19sIGBgdQLwASpQZ2C77YGWR6Uq4ZrCtXG4_uGAd4pf0cWRJx67iU9-sVQnLNb_OHB1B6axza82g7YunEifG-7lb4MFofDfkgVhW7DBPMlkcbPfWRpr5jKr45DxtkHisq3Rw4VbAhHd2FGxY8owqFQmcrNtnuzAY3OCKcOx2LAUgMqHTrqHOFom3Ha8wET_UlhM8-j080HMU3uLfCnrde1YZPAJs9MV30KSjsU-M3a0e7kTnIR8gDAdu2ZxptImCSeCOizDM0Yf3Db8YD8xkVSkhiG_0gJhrrV5lWtP2_4qbSLnvEAFo0SZ4JO0FpQxNk6w",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "FREDY NOYA",
+          "uri": "https://maps.google.com/maps/contrib/115598433489121354973",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX7AjJSoCX6Eurt6xSn-uQ6ApWC3JSwz0PPFzes7b1ihU5oQdP6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICEotKHNA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICEotKHNA!2e10!4m2!3m1!1s0x2e69f490008fe815:0x5323ba6e949f01de"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7447,
+    "sizes": [
+      {
+        "el": "h1 \"Agan Coffee\"",
+        "fontSize": 63.3,
+        "lineHeight": "69.63px",
+        "textWidth": 272,
+        "pctOfContentWidth": 78
+      },
+      {
+        "el": "span \"TUTUP\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 148,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 255,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h3 \"Coffee\"",
+        "fontSize": 28.8,
+        "lineHeight": "34.5px",
+        "textWidth": 66,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "span \"Americano\"",
+        "fontSize": 23,
+        "lineHeight": "31.05px",
+        "textWidth": 132,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "span \"Rp 22rb\"",
+        "fontSize": 18,
+        "lineHeight": "24.3px",
+        "textWidth": 75,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Selain kopi\"",
+        "fontSize": 28.8,
+        "lineHeight": "34.5px",
+        "textWidth": 109,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#food-title \"Teman ngopi\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 229,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h2#stay-title \"Nongkrong atau kerja\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 199,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 228,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "p \"Tempatnya nyaman untuk kumpul bareng tem\"",
+        "fontSize": 23,
+        "lineHeight": "31.05px",
+        "textWidth": 315,
+        "pctOfContentWidth": 90
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 268,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 32.2,
+        "lineHeight": "35.387px",
+        "textWidth": 256,
+        "pctOfContentWidth": 73
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7415,
+    "sizes": [
+      {
+        "el": "h1 \"Agan Coffee\"",
+        "fontSize": 89.8,
+        "lineHeight": "98.736px",
+        "textWidth": 386,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "span \"TUTUP\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 188,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 324,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Coffee\"",
+        "fontSize": 29.3,
+        "lineHeight": "35.184px",
+        "textWidth": 67,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "span \"Americano\"",
+        "fontSize": 23.5,
+        "lineHeight": "31.6656px",
+        "textWidth": 135,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "span \"Rp 22rb\"",
+        "fontSize": 18,
+        "lineHeight": "24.3px",
+        "textWidth": 75,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Selain kopi\"",
+        "fontSize": 29.3,
+        "lineHeight": "35.184px",
+        "textWidth": 111,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#food-title \"Teman ngopi\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 291,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#stay-title \"Nongkrong atau kerja\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 495,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 290,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "p \"Tempatnya nyaman untuk kumpul bareng tem\"",
+        "fontSize": 23.5,
+        "lineHeight": "31.6656px",
+        "textWidth": 321,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 340,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 40.9,
+        "lineHeight": "44.9504px",
+        "textWidth": 325,
+        "pctOfContentWidth": 47
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5849,
+    "sizes": [
+      {
+        "el": "h1 \"Agan Coffee\"",
+        "fontSize": 136,
+        "lineHeight": "149.6px",
+        "textWidth": 585,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "span \"TUTUP\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 240,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 413,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Coffee\"",
+        "fontSize": 33.1,
+        "lineHeight": "39.72px",
+        "textWidth": 76,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "span \"Americano\"",
+        "fontSize": 26.5,
+        "lineHeight": "35.748px",
+        "textWidth": 152,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "span \"Rp 22rb\"",
+        "fontSize": 18,
+        "lineHeight": "24.3px",
+        "textWidth": 75,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Selain kopi\"",
+        "fontSize": 33.1,
+        "lineHeight": "39.72px",
+        "textWidth": 125,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#food-title \"Teman ngopi\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 370,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#stay-title \"Nongkrong atau kerja\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 322,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 369,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "p \"Tempatnya nyaman untuk kumpul bareng tem\"",
+        "fontSize": 26.5,
+        "lineHeight": "35.748px",
+        "textWidth": 362,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 433,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 413,
+        "pctOfContentWidth": 34
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  }
+}

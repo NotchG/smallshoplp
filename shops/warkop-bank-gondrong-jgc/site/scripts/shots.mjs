@@ -123,7 +123,30 @@ const main = async () => {
       await page.evaluate(() => document.fonts.ready);
       await page.waitForTimeout(400);
       await page.screenshot({ path: path.join(SHOTS, `${vp.name}-fold.png`) });
+
+      // Lazy images and iframes below the fold only load once scrolled near. Scroll through
+      // the page once, then grow the viewport to the full page height and wait briefly, so
+      // the full-page capture shows them instead of blank boxes.
+      await page.evaluate(async () => {
+        const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+        const step = Math.max(200, Math.floor(window.innerHeight * 0.75));
+        for (let y = 0; y < document.documentElement.scrollHeight; y += step) {
+          window.scrollTo(0, y);
+          await wait(120);
+        }
+        window.scrollTo(0, 0);
+      });
+      const fullHeight = await page.evaluate(() => document.documentElement.scrollHeight);
+      await page.setViewportSize({ width: vp.width, height: fullHeight });
+      await page
+        .waitForFunction(() => [...document.images].every((img) => img.complete), null, { timeout: 8000 })
+        .catch(() => {});
+      await page.waitForTimeout(1200);
       await page.screenshot({ path: path.join(SHOTS, `${vp.name}-full.png`), fullPage: true });
+
+      // Back to the real viewport for the layout checks.
+      await page.setViewportSize({ width: vp.width, height: vp.height });
+      await page.waitForTimeout(200);
       report[vp.name] = await page.evaluate(inspect);
       await page.close();
     }

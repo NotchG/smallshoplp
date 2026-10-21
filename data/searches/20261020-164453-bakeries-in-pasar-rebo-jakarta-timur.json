@@ -1,0 +1,702 @@
+{
+  "query": "bakeries in Pasar Rebo, Jakarta Timur",
+  "includedType": "bakery",
+  "fetched_at": "2026-10-20T16:44:57Z",
+  "count": 40,
+  "places": [
+    {
+      "id": "ChIJX58ECLvtaS4R6UYP1HflvoU",
+      "formattedAddress": "Jl. H. Hasan No.4B, RT.2/RW.2, Baru, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13780, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=9637392555441080041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 658,
+      "displayName": {
+        "text": "Dalmonde Cake & Bakery Kalisari",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJL8gyBpXzaS4RAlC9zGOniIc",
+      "formattedAddress": "Jl. Raya Tengah No.1, RT.8/RW.8, Gedong, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13760, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=9766239839031480322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 256,
+      "displayName": {
+        "text": "D'almonde Cake & Bakery Ps. Rebo",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJvwyi7xbzaS4RXr5NiD2FvMg",
+      "formattedAddress": "Jl. Raya Condet Ruko D, East No.2, RT.2/RW.3, Gedong, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13520, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=14464582602533486174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://beacons.ai/alana.justbaked",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 851,
+      "displayName": {
+        "text": "Alana Justbaked Condet",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ47ATf63taS4RbLcLTy61oAY",
+      "formattedAddress": "Jl. Pd. Baru Raya No.31, RT.003/RW.11, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=477580771000563564&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/__buttercrust/profilecard/?igsh=cWkybWV5aXE1b3dp",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 66,
+      "displayName": {
+        "text": "Buttercrust Cafe - Cake and Coffee",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Coffee Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "coffee_shop"
+    },
+    {
+      "id": "ChIJCxBWUQDtaS4R-FOhf5iTPI4",
+      "formattedAddress": "MRHX+59V, Jl. RA. Fadillah, RT.11/RW.4, Baru, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13780, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=10249229135173997560&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 28,
+      "displayName": {
+        "text": "Kartika Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJB2_0FkTtaS4R4SjR88xIFe4",
+      "formattedAddress": "Jl. H. Hasan No.29, RT.1/RW.1, Baru, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13780, Indonesia",
+      "rating": 4.2,
+      "googleMapsUri": "https://maps.google.com/?cid=17155698400638871777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 29,
+      "displayName": {
+        "text": "Setro binorong bakery jl.H.hasan",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJt9Fr0i7taS4RZbnFs22KtAw",
+      "formattedAddress": "Jl. Kalisari Raya No.68 2 2, RT.2/RW.3, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Jawa Barat 13790, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=915508828035201381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.instagram.com/globalcakebakery",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 284,
+      "displayName": {
+        "text": "Global Cake & Bakery Kalisari",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ_c73zcHtaS4R2u6SPUXJvzo",
+      "formattedAddress": "Jl. Kresek Indah I A, RT.2/RW.3, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=4233323473974521562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://s.id/Bakulis",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 19,
+      "displayName": {
+        "text": "BAKULIS Bakery & Cookies",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJh8_MdFXsaS4RGFJ4sZobQsM",
+      "formattedAddress": "9, RT.9/RW.1, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13710, Indonesia",
+      "rating": 3.6,
+      "googleMapsUri": "https://maps.google.com/?cid=14069838537075216920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 16,
+      "displayName": {
+        "text": "Baker Old Pasar rebo",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ3bSXipztaS4RRYmx37CDgQU",
+      "formattedAddress": "DEPAN TK ISLAM SYARIFATUNISA, Jl. Belly 2 No.2 6, RT.6/RW.6, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13710, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=396743037875751237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/_bellybakery?igshid=yha1gko4t6so",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 35,
+      "displayName": {
+        "text": "Belly belly bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJdVWS6obzaS4R2Of0z__HqbU",
+      "formattedAddress": "Jl. Pedati Sel., RT.2/RW.6, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=13090213693448579032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://ruthsbakery.wuaze.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 14,
+      "displayName": {
+        "text": "Ruth's Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ05n8u57taS4RuXrc9FcbgqY",
+      "formattedAddress": "Gg. Permata Indah 2 No.13, RT.7/RW.3, Cijantung, Jakarta, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=11998182421852617401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 21,
+      "displayName": {
+        "text": "Passionate Bake House",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJBUXtMgDtaS4Rzd_DNgrA00k",
+      "formattedAddress": "Jl. Beringin No.38, RT.1/RW.4, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=5319806734955700173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.mako.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 141,
+      "displayName": {
+        "text": "MAKO CAKE & BAKERY - MALL GRAHA CIJANTUNG",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJPeqslcHtaS4RsK335e2bSkA",
+      "formattedAddress": "Jl. Kalisari Raya No.22, RT.3/RW.3, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=4632686612771745200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hollandbakery.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 158,
+      "displayName": {
+        "text": "Holland Bakery Kalisari",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJzc0ZtTbtaS4RB0158VWgyTc",
+      "formattedAddress": "Jl. Raya Tengah Gg. H. Nausin No.26, RT.5/RW.12, Gedong, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13760, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=4019920433388801287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 170,
+      "displayName": {
+        "text": "Holland Bakery Gedong",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ4-RCFj7taS4RZh66H8-5ZQw",
+      "formattedAddress": "2, Jl. Sawo No.2, RT.7/RW.2, Baru, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13780, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=893324400344571494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 23,
+      "displayName": {
+        "text": "Kuaya",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJL1Ryp3jtaS4RrcXzGql7FD8",
+      "formattedAddress": "Jl. Kali Sari III, RT.9/RW.9, Baru, Kec. Ps. Rebo, Kota Jakarta Timur, Jawa Barat 13780, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=4545393890155546029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 9,
+      "displayName": {
+        "text": "Global Cake & Bakery Gongseng",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJExQvKsLsaS4RO4OmdNqTiXw",
+      "formattedAddress": "Ciracas, Jl. Lap. Tembak Blok Mesjid 3 No.57, RT.1/RW.10, Klp. Dua Wetan, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13720, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=8973866298981647163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 166,
+      "displayName": {
+        "text": "Dalmonde Cake & Bakery Cibubur",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJZ_ivaWPtaS4RVfwtJ90tc9c",
+      "formattedAddress": "Gg. Swadaya IV No.50, RT.2/RW.11, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=15524802768344579157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 12,
+      "displayName": {
+        "text": "Dewaacake",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJZdDghQftaS4RG9752C8uwPI",
+      "formattedAddress": "Jl. Lestari No.12, RT.9/RW.3, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=17492031735745601051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://gofood.link/a/AhRHRFE",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 6,
+      "displayName": {
+        "text": "Rezika Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "restaurant"
+    },
+    {
+      "id": "ChIJI9nVQvXtaS4RtwnVKu6-fbo",
+      "formattedAddress": "Jl. Pedati Sel. No.90A, RT.4/RW.10, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=13438106793273526711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 16,
+      "displayName": {
+        "text": "Hummi Pudding & Dessert",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Deli",
+        "languageCode": "en-US"
+      },
+      "primaryType": "deli"
+    },
+    {
+      "id": "ChIJ6RBUawDtaS4RYBFSK-fIvfQ",
+      "formattedAddress": "Jl. Kalisari Raya No.3, RT.7/RW.3, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=17635472611042529632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://beaconsai.com/elud_cake",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 16,
+      "displayName": {
+        "text": "ELUD Cake & Bakery, KALISARI",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJzWOw9rzraS4RCtN4AIQEDBU",
+      "formattedAddress": "Jln. Anggrek No2 RT.03/RW02. Kel. Susukan, Samping KCP BRI, Jl. Raya Jakarta-Bogor, RT.4/RW.2, Cijantung, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13750, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=1516592139507127050&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.thecakehouseindonesia.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 17,
+      "displayName": {
+        "text": "The Cake House CIJANTUNG",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJbfYLDmLtaS4RxDJz93QYeOU",
+      "formattedAddress": "Jl. Pertengahan No.13, RT.5/RW.7, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=16534992922537571012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 3,
+      "displayName": {
+        "text": "Ma'Nemi bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJd4zGUeftaS4R6trK_nn4JMc",
+      "formattedAddress": "Jl. Stadion Mini No.24-64 7, RT.7/RW.2, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=14349867515558681322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 10,
+      "displayName": {
+        "text": "Gelamor Bakery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJm_RTJADtaS4RoYSVe9QPNxo",
+      "formattedAddress": "MV63+JRG, Jl. Kalisari II, RT.11/RW.2, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=1888995973986092193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "MissYou Cake & Bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJxZNpVQDtaS4RxfBiblG-_9U",
+      "formattedAddress": "MV56+JF7, Jl. Raya Lapan, RT.4/RW.9, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13710, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=15420252906093473989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 5,
+      "displayName": {
+        "text": "Global Cake & Bakery Pekayon",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJ2b4McYftaS4Rsfn7nj51c1g",
+      "formattedAddress": "Jl. Masjid Gedong No.6 01, RT./RW/RW.: 001, Gedong, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13760, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=6373566809475119537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://kuehany.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 53,
+      "displayName": {
+        "text": "KUEHANY - Snack Box Hany - SNACK BOX JAKARTA",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJkdA_CP3taS4RAcK-7z8a_bQ",
+      "formattedAddress": "Jl. Kirai Indah No.4, RT.1/RW.10, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=13041608957842342401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "marvelsbakehouse",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJm_qyzU7taS4R0ByG3-RIKKQ",
+      "formattedAddress": "Gg. Mawar Sari I No.35, RT.7/RW.11, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=11828784569128459472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/nursiah_cakehouse?igshid=1maakiv5ty4v8",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 13,
+      "displayName": {
+        "text": "Nursiah Cake House",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJi6lOTwDtaS4RbaN6NX92R1c",
+      "formattedAddress": "Jl. Gongseng Raya No.7A, RT.4/RW.11, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=6289125693376340845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 15,
+      "displayName": {
+        "text": "Lucky Cheese - Gongseng Raya",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJD2S9ClXsaS4RGUXPJPLEakw",
+      "formattedAddress": "Jl. Raya Lapan No.42, RT.9/RW.1, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13710, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=5506430038692545817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "STAR CAKE AND BAKERY",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJY4ILE8TtaS4RQHLAoJlq_sc",
+      "formattedAddress": "MV63+4G5, Jl. Kenanga II No.1, RT.4/RW.2, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=14411073065691673152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://instagram.com/domoe_bakery",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 5,
+      "displayName": {
+        "text": "Domoe Bread n' Coffee",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJh5WOjOLtaS4Rbyvyk0xLnDA",
+      "formattedAddress": "Jl. Gondang Sari 3 No.63 5, RT.5/RW.9, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=3502757402459122543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 6,
+      "displayName": {
+        "text": "MADAM BROWN",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJd8y8LGLtaS4RAwYDE73N0U4",
+      "formattedAddress": "Jl. Kalisari raya 2 no. 1, RT.1/RW.2, Kalisari, Pasar Rebo, East Jakarta City, Jakarta 13790, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=5679546817042384387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Mana bakery",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJwcEfeGHtaS4ROu8vV1pB7NU",
+      "formattedAddress": "Jl. Kalisari Raya No.148, RT.3/RW.3, Kalisari, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=15414767480847986490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 15,
+      "displayName": {
+        "text": "TOKO KUE \"YANI\"",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Cake Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "cake_shop"
+    },
+    {
+      "id": "ChIJL9nKrSvtaS4RwqdJ_JbHav4",
+      "formattedAddress": "Cluster Al-Kalam C2, Jl. Al-Maghfiroh No.3 3, RT.3/RW.9, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13710, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=18332684684456732610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "The Bakery (anteyai_kitchen)",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJt4CQBm3taS4RquE1xBnaux8",
+      "formattedAddress": "13, Jl. Pertengahan No.1A, RT.1/RW.3, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 3.7,
+      "googleMapsUri": "https://maps.google.com/?cid=2286661040021561770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 3,
+      "displayName": {
+        "text": "Barokah berkah bakery",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJIxRx-9ntaS4RKdLRjMlulO0",
+      "formattedAddress": "2, Jl. Serba Guna No.54, RT.2/RW.1, Baru, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13780, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=17119429895472140841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "ALKHA CAKE AND BAKERY",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Bakery",
+        "languageCode": "en-US"
+      },
+      "primaryType": "bakery"
+    },
+    {
+      "id": "ChIJjVHay6ftaS4RSjbYWq9HvR4",
+      "formattedAddress": "31, Jl. Gongseng Raya Jl. Asem No.6, RT.6/RW.1, Cijantung, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=2215005410205120074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 166,
+      "displayName": {
+        "text": "Mardonuts - Gongseng",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Donut Shop",
+        "languageCode": "en-US"
+      },
+      "primaryType": "donut_shop"
+    }
+  ]
+}

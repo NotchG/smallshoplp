@@ -1,0 +1,382 @@
+{
+  "id": "ChIJdTOcWmjzaS4RzdlubaWs7S4",
+  "types": [
+    "bakery",
+    "noodle_shop",
+    "food_store",
+    "store",
+    "restaurant",
+    "point_of_interest",
+    "food",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "(021) 8616311",
+  "internationalPhoneNumber": "+62 21 8616311",
+  "formattedAddress": "Jl. Cipinang Muara I No. 20, RT 12 / RW 03 Cipinang Muara, Jatinegara, RT.16/RW.3, Pd. Bambu, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13430, Indonesia",
+  "rating": 4.5,
+  "googleMapsUri": "https://maps.google.com/?cid=3381548721730673101&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 19,
+          "minute": 30
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 9:00 AM – 7:00 PM",
+      "Tuesday: 9:00 AM – 7:00 PM",
+      "Wednesday: 9:00 AM – 7:00 PM",
+      "Thursday: 9:00 AM – 7:00 PM",
+      "Friday: 9:00 AM – 7:00 PM",
+      "Saturday: 8:00 AM – 7:30 PM",
+      "Sunday: 8:00 AM – 7:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T02:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 942,
+  "displayName": {
+    "text": "Sedap Wangi Bakery",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Bakery",
+    "languageCode": "en-US"
+  },
+  "primaryType": "bakery",
+  "editorialSummary": {
+    "text": "Homestyle baked goods, including cakes, cookies & breads, on offer in a vibrant bakery.",
+    "languageCode": "en"
+  },
+  "reviews": [
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ1bXV2dWtBRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Sedap wangi bakery also sells food like mie ayam. Their taste is good and yes I love their lapis kopi.\nThey also offer some discount or a special bundling set menu (mostly bread)",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Sedap wangi bakery also sells food like mie ayam. Their taste is good and yes I love their lapis kopi.\nThey also offer some discount or a special bundling set menu (mostly bread)",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Siska dewi Paramitha",
+        "uri": "https://www.google.com/maps/contrib/104080826628672800413/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX00VKIFSRM2KN91ts2OgoD_q3RVHkj5U9mp3_VzltRZSkKgeU0=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2023-11-01T05:22:54.213578Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUQ1bXV2dWtBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUQ1bXV2dWtBRRAB!2m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/reviews/ChdDSUhNMG9nS0VLZmdxTkdIazltODNBRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 4,
+      "text": {
+        "text": "We were eating at the Dragon Point outlet. Taste is not up to expectation..they used to have nice chasing but not today. Overall the taste today is not as good as before.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "We were eating at the Dragon Point outlet. Taste is not up to expectation..they used to have nice chasing but not today. Overall the taste today is not as good as before.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Suzzy Cuang",
+        "uri": "https://www.google.com/maps/contrib/114339533808746981237/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWQJEa-Wn6zh1uzXqSVFGwStOMSZpztwJvWSKBuBnzd6_i2TyN_=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-05-10T14:54:26.944151Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VLZmdxTkdIazltODNBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VLZmdxTkdIazltODNBRRAB!2m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/reviews/ChdDSUhNMG9nS0VJQ0FnSUNKOVlQanpRRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Legendary Cakery shop\nHome Made bread\nFresh from the oven\nThe most delicious is lemon cake and strawberry 🍓 cake\nAlso they have a delicious restaurant serving noodles and indonesian food. They have a good parking for cars and motorcycles.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Legendary Cakery shop\nHome Made bread\nFresh from the oven\nThe most delicious is lemon cake and strawberry 🍓 cake\nAlso they have a delicious restaurant serving noodles and indonesian food. They have a good parking for cars and motorcycles.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Adi Pratomo (Tomo)",
+        "uri": "https://www.google.com/maps/contrib/110390476256017892112/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVpbrvyDtq3lJL_swesV9qvfDEqHjgUiMolJ7VMAggzSDjsZL_V-g=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2023-07-02T08:21:45.874096Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNKOVlQanpRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNKOVlQanpRRRAB!2m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/reviews/ChdDSUhNMG9nS0VJQ0FnSUQyLS1pa3lnRRAB",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Bakery since my childhood. For jadul cake lovers, you must try, the taste is different. Try their lemon cake and cheese brownie cake, their pandan chiffon cake is also good,using real pandan. They also take order for professional custom bday/wedding cake. Always love this cake shop",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Bakery since my childhood. For jadul cake lovers, you must try, the taste is different. Try their lemon cake and cheese brownie cake, their pandan chiffon cake is also good,using real pandan. They also take order for professional custom bday/wedding cake. Always love this cake shop",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Nur Raisa Olivia",
+        "uri": "https://www.google.com/maps/contrib/105959625333595336058/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWLPnxuh-Yvzx5wsYFnfPhoyuQ7UlthE78mtUyy9q6NRtympcvU=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2022-06-05T08:47:40.400107Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUQyLS1pa3lnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUQyLS1pa3lnRRAB!2m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/reviews/ChdDSUhNMG9nS0VJQ0FnSURJMDRlQzhRRRAB",
+      "relativePublishTimeDescription": "7 years ago",
+      "rating": 4,
+      "text": {
+        "text": "This bakery also serve as diner. The Soto Mie is real delish!! But it cannot be said it's a clean restaurant. The moment I sat, there are lots of lime seeds laying about on the tabletop",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "This bakery also serve as diner. The Soto Mie is real delish!! But it cannot be said it's a clean restaurant. The moment I sat, there are lots of lime seeds laying about on the tabletop",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Gregorius Dermawan",
+        "uri": "https://www.google.com/maps/contrib/114824777916534636160/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL3u881VSnU7lIFoAsQeto3MVij98gkNCfiSJQ22vT2HRPIGw=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2019-01-20T11:40:34.059221136Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURJMDRlQzhRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURJMDRlQzhRRRAB!2m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMZPkfUeUvA8FvryFGmFyirgUTKVkJRYe3CEEIR6o0NG2oQQwSrRXdH6qwPs0iz7GCFkkDqkwimhRtW4olqoVoHmbiMve1zVtRSmae8zC2YmIfwPz-64NhwR6yqsE1B2erXY3Ezbj70bW1LkhYDGqQuBXH4xf2gwUeE6z0YzScBaGo0NoOON5RH0Sif9BLLOTFSwjjqbhuP_uzlTMCxVwrDm3GwXYzYNfP5eg4C9tn7Kh3ZrGw1q3qOhctlNxaaRFLugRWbmrHNcnMumr6mSoyvFDQlv1LEjLx21lfQMJgzO-2ScrDMBnqKk0I4_0hOolg2_eake-zX3lnN7CptPebV8lExIumnLF28PP3n5Iq9Ev7Rc4rnAcShOpJizM5AjAUp28okgx3DbTdNG4WldUuLzhawUlJ5BBSsLgXpBcExnug",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "Budi Tanuwijaya",
+          "uri": "https://maps.google.com/maps/contrib/109185283172104926658",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU_fT9Ea6UpKjvdbVuOQ1z6_Wwgo4A5Xgk3bzVBCq5hlhlgL5nJuA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCSyHtUBxpbSeZlVn34XfYW&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCSyHtUBxpbSeZlVn34XfYW!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMbEzREuozQeu-jvan-z2-ElRVfb4PRJTZu2bvrd6fLYpq3R3ppJ1nu-rVfAAzegDydIbAcfuK-0H_5cyxv6fsUk3iKXwzO3AMThYl2aNGpnq8LuxlV-XJfXiBmFvZ1qB7c16Bz9DqORwz7KmX0bED87K-OyvKj6d8Ot9-b2I_XaxB4w9yAPkHbg625zcpOVOJFnkAAv53NFLcViqlR9D1Qua6kw4P6AJRRgnl7NGeRFnDyPk4qLXx7pAf-7oeCFZ1LABHQpVZJxRhspMCg105ozfsnI5WgkklHMlGGQaIUDR5itnF62dth7-NzQcDDMn9RKuuoKemVOKfm8f7OQzRL09O6u-m6Mo93v32RWWjFGHIu93vSlV3nMMSkHgrh__GmPXgCj1XPmt_-_pkP_bFu2xhLxv5w",
+      "widthPx": 4800,
+      "heightPx": 2700,
+      "authorAttributions": [
+        {
+          "displayName": "Iqbal Muhammad",
+          "uri": "https://maps.google.com/maps/contrib/103305799876245506728",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWH9zIR8zxWcagjVxUDPFnALnIuoJgrpSMLm-Uaxg10w8qXvQTO=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID4hNb-qAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID4hNb-qAE!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMZ-ylHWkg0DvvWAmu9zcaTU3tE3mXlOBB5EMAWBBxSPOkYvc0OQ3NiO45_FIK29BaeVRBHVaU_iEzwIigJsFzBUJoMlM0muqOVAWUlgbFY0mUX3vr0UJkrNEYpoguiFbe3wh8fAYZHfk0alElPiyme-FCrvOfY09NE0CDAnE3TRSKVJwlVJNvAQaDcUGtom3YGL3A1_P_PaNoyskw_8dyi0zlAvHBhNLv0PBE4tq3LUN0JRDja5Je82P9pPCu_qWgY4hRLOU68qJdlcYFcYQLg84SWJQPHggLMXphBGxRhQSXPYPgZRpCFQo7qx_dWmsh_wSQuaK3kjdlrgq4HjvgmHOLD_23KoUZN4Dm6vkzMoTVY4-9_JJf4WAZuHleYmU9QJo92NL7xKfGn2TRg5sKX0qgIsJGt6JfAyAhO2X4uPlQ",
+      "widthPx": 2000,
+      "heightPx": 1414,
+      "authorAttributions": [
+        {
+          "displayName": "Sedap Wangi Bakery",
+          "uri": "https://maps.google.com/maps/contrib/101357230019672958361",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUwsiJgh2byoO-CHkoT9cD_DUmieVEWUH_cgKnWbubJMLQUrc8=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDaraMN51WnBJIJiRpUUoId&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDaraMN51WnBJIJiRpUUoId!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMZ3sqqtioKVB79pv6Ju0hRx0dD4CQFnBuCr-Y4J5F0LU7fcSDXFjnq3aTVxbpi0wmIj6EWRTyYBV395lJgp0j2sIIama0yzdulbOH-KQUlnHPWAZ_LRF9W8X2jomhgKZxTQH7-Uv5_Ge93jXhcYRYxQ74BQnJLrtLCNzvwDuPio2Vb9o1RTagPRHb5NYBOuBUcg8AeXDH7yZho2hWNE-SFGCEBVKvlbYuodhxU-d0P8Uv2W9K_enruAk-lWOL8PX484uZiaKMviFz68Vo6-573toaK0G7e_TlbDgMuaEZeF9xa8qZU3N4jojPhjQ9TxPwDRUBUq14xkmJkwZUM_8d_OtkYVOjIlpo_2ouFqC2DTV7NcDpSl6U-kqUpq1UFQUAeQBoU8mF76-YzTCLlXs1eL79XMt3YVWJ3UpHnEpcvH_w",
+      "widthPx": 2252,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Galih Mukti Annas Wibisono",
+          "uri": "https://maps.google.com/maps/contrib/109039501995915952519",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUEy_0WQsx0a24ukHbvxemhGf4KIH8Op4PAGDy8zAEf4QQmXu4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAvbFMH_yw4k_09mks08kmF&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAvbFMH_yw4k_09mks08kmF!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMYfdP9gXfaG6FUV69zDyww7aNZ_Q2nqqvJvvHMkd5DhHfy3R-TfgA6HJdVcR9NZu-ePLpsnN_Bj4Jh_0X_fm3Haa629jgHWd_o0pfHZFUfFdMbHVWSQSfSi5jmcdn7FRGAdFsWWOVSFwENthPpnJpf79tG-rQDQzywb8XbRGbsiWAEb5Ambk_S6IzDFUtx1Dq3USQ0vwijvxwUfgTEpS2FrinySVeGh-1Tr20G2UjjNaW0Ue2O-Id8ep0HhJYfzPh-yY1ZKIxVrRPg5VVwJxEMIrA4RJ7RBEpyudBaCp-VIbb-OuTgNTkCN4qlONs-QhDhLzmimbhCX4zCJQXQrHliTN88lnaKm3OsXqI60aJ1Z6g9GrMlHghcoXtKOst0ZCuJAGC2CgiiUKqRVjol7xWiPDGxF_aLK_F7BZOX789Qxsw",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "Budi Tanuwijaya",
+          "uri": "https://maps.google.com/maps/contrib/109185283172104926658",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU_fT9Ea6UpKjvdbVuOQ1z6_Wwgo4A5Xgk3bzVBCq5hlhlgL5nJuA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAl8m7gadIq7_2L-nrrLwsg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAl8m7gadIq7_2L-nrrLwsg!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMaBkhwOTfOSHoNhOox6kiH9Aixf0lSQ9cUO7RPx46VS3cB43vT2zFSuSDBRQYUNu28qJfZdZlN6xb97NuUN9kdHdknib2SWoRjmD8mBZfdtqOyyKM19UmJ8OJ9qri9Dj-UADXcZNfQNfZPURXXsYyRtWfRwzgEBgj3geHRFS6EfMUYbtcJHTN_zMh2lURCHvPgrVnTo3e2G8Xsg53OhQS1NzA09xCwi4tqK0XLjmCEuSqDwSPDZiiDBM4XDE-djLLgbZsvS850ULcSRvmt2GNeX6SYZkzFSZnuN7AK6ia7XwFF6ShrcLvCWY-fgyX4w3UPLFO99VcegIgypuLfMPQtbiFZYF5wMVMoo0cb2IiYJppjS_4hmF-IlphEDx5O2xZd3eRxxe-Y8-o-w_JSjaX49c6oyJh46-4_ejaymtgqrLg",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "Budi Tanuwijaya",
+          "uri": "https://maps.google.com/maps/contrib/109185283172104926658",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU_fT9Ea6UpKjvdbVuOQ1z6_Wwgo4A5Xgk3bzVBCq5hlhlgL5nJuA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBhrUogb6M3R6zYArvRDqLT&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBhrUogb6M3R6zYArvRDqLT!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMZPXzZm2FEGuoLUEoCBUwdL3T8vptyG4tce-18wyar15Ls9yJ_nUxS-BQQUjw4061VnssO2iwGmMtVWsQX8bsmmsH17z6aQLzPrtTse6-q2E24R_DBxMEysYkrl8igakZFq_jak-a9L2kDccGMuBHEa7Tj4_ZsKPCz_1SilaPkZapNluhHAZcY43wWBJ9hYU__xV0Pp6vSXUscXTKW2VlKf7zRQTXkLb0V2wpB-8Pm7QsSsP34m3kXk-wTh91usgDu7YZryXlHdSdzI5tyoOOMqFMSm54SmokCJPoRhqPZnLrsvo3395XM_6pbgADSvNiXvtFfSBAtkS5yY08weij0IF2Tv5BOJu7PVYl9kU6HbmWuAz5MXEAAoT0x-ZlHm1Z0QAm0eW-6I3_at8nhGkwvwsghtQCKPPlkyn_R9NGyG",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Rifky Ananda",
+          "uri": "https://maps.google.com/maps/contrib/116293373565117258179",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWa6-1jB6Cc3oPEKsfhiHrb4OmCwvPW0boPwWuBw4nFPr7VHGl6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAL0SUxwvqx9qsCmL-5A6wI&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAL0SUxwvqx9qsCmL-5A6wI!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMaFGyX5kJL4h2Yam5eI-1kl9OPqz5TnaTq1pE3YGLims6oab6RLmSS99E6P3oJRvprpRQGPqmnoDinDyMk4xTqCHTqim8mYaZNBOj_0hZ28Zfi_y8W10YjMwtGgcms7E5JmCI0lHfvY_4Qnx2MLONDiFagTWU_VGbDfYNrdLSe9ZMg8EfvE67aFEwhAw_fGmoMlzFopnx6H8aXYZ5GE0oiaAIUFj3ncrKkIdLtd3tWpsLIlu4_z2u1waTXmU2stBU2te-XolpTqvDtVOnklkHsVkWxxfrX2OmYcK0Qn3fn202YOYGUn92_NzQoYikLkgJ1hhv_tH2l1JwpNzfjTFikcNXmD_WlKJ-PN4v12oOECZOMzaAfvKtDFZVC9oqWAA4zi4UUPJllz-B_xrXuwsRk7rwB5zBRX2IbijSowCx-7Yg",
+      "widthPx": 2448,
+      "heightPx": 3264,
+      "authorAttributions": [
+        {
+          "displayName": "Rifky Ananda",
+          "uri": "https://maps.google.com/maps/contrib/116293373565117258179",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWa6-1jB6Cc3oPEKsfhiHrb4OmCwvPW0boPwWuBw4nFPr7VHGl6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCYHNcNbWJEy4C3Jfh0Jtpn&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCYHNcNbWJEy4C3Jfh0Jtpn!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMaEdpEZ8GySM7t96XkNFLemTNSgSgQs1mddvut7VSAuJAsDjPaCGI5GnW91kK3ZkKoMsqHzWjhg1jnIORFfp1KIQGkXgG60H0QxNPx3AgpIKEzN59bn4ebjhxLgdookNdSEqaicjmqF2thIxAsfsLL4TvHQo-ZlqYMjmNXVYHWlQc1pZv-YHVfu-Bv_W5ORg7wuhlOtyoD9lu9fMAJcE1ngq3W3NjSjMdtq89RhDr0GYZ7pOGlmT3Wn6mEmLcIR0oRzDW_YJsp-aDVBrxReqovrHVVZD9dq-yDq9txv7iEs4Gc886PO8ASkTvrmNV8PrU9qAAcYnXTmcB3WiBFbnpW_9LI9xrnKPJ0B5Rww8LUDTcV_PmdWhCQCnjaQCRtluTVqsBe2mi6h_V8-4Rn7CHmvFU4",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "wendy biliam",
+          "uri": "https://maps.google.com/maps/contrib/116885470083577321299",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV-mqDk-PxxP7_zBI5r39UGw5PJ85r1hutK9Ic9BWZqPckvrpw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDpt97zYA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDpt97zYA!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    },
+    {
+      "name": "places/ChIJdTOcWmjzaS4RzdlubaWs7S4/photos/Aa-ngMa3rO5ylU_LS0E-hiz-zEvAhHTcWO1MbUALtHugFJTs37mn8-eWujEap9SGXbSung_kLguj5204LjUeAIbehM0VKojKdtBY--mH5Ne7QJ_7hWHANxMQWzDHtpnoawYp_Dnl8ww1_1bTrXVJUKNee62hqkkEe563aDbXPngTCyTcSdfCHrfmIa29kpjv3dR-VDx-rks7cQCzcrAeo1msulhstFofobl6QcUmDwIHS-IsAJUF2aoJb06GgRK5eyXMRfpZZ24JTUDnzFK5YHNF8OVTtbDJ3gVi6x4BHSir0-UnixWunddtEu0hPgAZErxl6jW4SHnlE1ZqpGiyyLifGziowPmaEeteIEGAf0rQ66wIgoxgBOKu00WHmH8M4-wAP5FLXRt00fSzHzKj7FKzGZvGy-wVGwQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "wendy biliam",
+          "uri": "https://maps.google.com/maps/contrib/116885470083577321299",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV-mqDk-PxxP7_zBI5r39UGw5PJ85r1hutK9Ic9BWZqPckvrpw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDpt96b1QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDpt96b1QE!2e10!4m2!3m1!1s0x2e69f3685a9c3375:0x2eedaca56d6ed9cd"
+    }
+  ]
+}

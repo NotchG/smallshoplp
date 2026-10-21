@@ -1,0 +1,410 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 8435,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"SEDAP WANGI\"",
+        "fontSize": 92,
+        "lineHeight": "82.8px",
+        "textWidth": 221,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#kue-title \"ETALASE KAMI\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 182,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3 \"Kue favorit pelanggan\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.239px",
+        "textWidth": 240,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h3 \"Juga di etalase\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.239px",
+        "textWidth": 167,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#dapur-title \"DAPUR SEDAP WANGI\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 275,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h3#menu-mie-spesial \"MIE SPESIAL\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 102,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3#menu-soto \"SOTO\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 41,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3#menu-tambahan \"TAMBAHAN\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 92,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3#menu-mie-bangka \"MIE BANGKA\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 104,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3#menu-nasi \"NASI\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 40,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3#menu-ayam \"AYAM\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 47,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3#menu-minuman \"MINUMAN\"",
+        "fontSize": 23.1,
+        "lineHeight": "26.611px",
+        "textWidth": 86,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#pesan-title \"PESAN UNTUK ACARA\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 271,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "h3#order-kue \"KUE ULANG TAHUN & PERNIKAHAN\"",
+        "fontSize": 23.1,
+        "lineHeight": "25.454px",
+        "textWidth": 285,
+        "pctOfContentWidth": 80
+      },
+      {
+        "el": "h3#order-nasi-box \"NASI BOX\"",
+        "fontSize": 23.1,
+        "lineHeight": "25.454px",
+        "textWidth": 79,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#ulasan-title \"KATA PELANGGAN\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 224,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#lokasi-title \"KUNJUNGI KAMI\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 216,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3#jam-buka \"Jam buka · buka setiap hari\"",
+        "fontSize": 18.1,
+        "lineHeight": "27.993px",
+        "textWidth": 236,
+        "pctOfContentWidth": 66
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 8171,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"SEDAP WANGI\"",
+        "fontSize": 128.1,
+        "lineHeight": "115.315px",
+        "textWidth": 308,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#kue-title \"ETALASE KAMI\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 235,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Kue favorit pelanggan\"",
+        "fontSize": 25.4,
+        "lineHeight": "34.3008px",
+        "textWidth": 263,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Juga di etalase\"",
+        "fontSize": 25.4,
+        "lineHeight": "34.3008px",
+        "textWidth": 184,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#dapur-title \"DAPUR SEDAP WANGI\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 354,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3#menu-mie-spesial \"MIE SPESIAL\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 112,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3#menu-soto \"SOTO\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 45,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3#menu-tambahan \"TAMBAHAN\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 101,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3#menu-mie-bangka \"MIE BANGKA\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3#menu-nasi \"NASI\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 43,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3#menu-ayam \"AYAM\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 52,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3#menu-minuman \"MINUMAN\"",
+        "fontSize": 25.4,
+        "lineHeight": "29.2192px",
+        "textWidth": 94,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#pesan-title \"PESAN UNTUK ACARA\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 350,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3#order-kue \"KUE ULANG TAHUN & PERNIKAHAN\"",
+        "fontSize": 25.4,
+        "lineHeight": "27.9488px",
+        "textWidth": 169,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3#order-nasi-box \"NASI BOX\"",
+        "fontSize": 25.4,
+        "lineHeight": "27.9488px",
+        "textWidth": 86,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#ulasan-title \"KATA PELANGGAN\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 289,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#lokasi-title \"KUNJUNGI KAMI\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 279,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3#jam-buka \"Jam buka · buka setiap hari\"",
+        "fontSize": 18.8,
+        "lineHeight": "29.1648px",
+        "textWidth": 246,
+        "pctOfContentWidth": 35
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 6488,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"SEDAP WANGI\"",
+        "fontSize": 168,
+        "lineHeight": "151.2px",
+        "textWidth": 404,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#kue-title \"ETALASE KAMI\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 319,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Kue favorit pelanggan\"",
+        "fontSize": 28,
+        "lineHeight": "37.8px",
+        "textWidth": 290,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Juga di etalase\"",
+        "fontSize": 28,
+        "lineHeight": "37.8px",
+        "textWidth": 202,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#dapur-title \"DAPUR SEDAP WANGI\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 481,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3#menu-mie-spesial \"MIE SPESIAL\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 124,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3#menu-soto \"SOTO\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 50,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3#menu-tambahan \"TAMBAHAN\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 111,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3#menu-mie-bangka \"MIE BANGKA\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 126,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3#menu-nasi \"NASI\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 48,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3#menu-ayam \"AYAM\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 57,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3#menu-minuman \"MINUMAN\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 104,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#pesan-title \"PESAN UNTUK ACARA\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 476,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3#order-kue \"KUE ULANG TAHUN & PERNIKAHAN\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 186,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3#order-nasi-box \"NASI BOX\"",
+        "fontSize": 28,
+        "lineHeight": "30.8px",
+        "textWidth": 95,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h2#ulasan-title \"KATA PELANGGAN\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 393,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#lokasi-title \"KUNJUNGI KAMI\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 379,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3#jam-buka \"Jam buka · buka setiap hari\"",
+        "fontSize": 20,
+        "lineHeight": "31px",
+        "textWidth": 262,
+        "pctOfContentWidth": 22
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7876,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"kupinami Cafe & Resto\"",
+        "fontSize": 17,
+        "lineHeight": "27.2px",
+        "textWidth": 262,
+        "pctOfContentWidth": 75
+      },
+      {
+        "el": "h2#keluarga-title \"Nyaman untuk keluarga\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 222,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Area bermain anak\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"Musala\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 75,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Tanpa musik\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 134,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Parkir luas\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 113,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Lantai atas untuk acara\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 256,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 213,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3#menu-mie \"Mie\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 36,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3#menu-pasta \"Pasta & Western\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 177,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3#menu-kopi \"Kopi & minuman\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 173,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h3#menu-sarapan \"Sarapan & camilan\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 202,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#acara-title \"Acara di kupinami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 269,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h3 \"Cocok untuk\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 132,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#tamu-title \"Kata para tamu\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 241,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 211,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 29
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6865,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"kupinami Cafe & Resto\"",
+        "fontSize": 17.5,
+        "lineHeight": "28.0576px",
+        "textWidth": 373,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#keluarga-title \"Nyaman untuk keluarga\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 447,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Area bermain anak\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 228,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"Musala\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 84,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Tanpa musik\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 149,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Parkir luas\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 126,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Lantai atas untuk acara\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 286,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 262,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3#menu-mie \"Mie\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 40,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3#menu-pasta \"Pasta & Western\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 198,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3#menu-kopi \"Kopi & minuman\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 194,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3#menu-sarapan \"Sarapan & camilan\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 226,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#acara-title \"Acara di kupinami\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 330,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h3 \"Cocok untuk\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 147,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#tamu-title \"Kata para tamu\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 296,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 259,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 253,
+        "pctOfContentWidth": 36
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 29
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4966,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"kupinami Cafe & Resto\"",
+        "fontSize": 18,
+        "lineHeight": "28.8px",
+        "textWidth": 504,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h2#keluarga-title \"Nyaman untuk keluarga\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 361,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Area bermain anak\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 260,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Musala\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 96,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Tanpa musik\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 170,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Parkir luas\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 144,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Lantai atas untuk acara\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 325,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 347,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3#menu-mie \"Mie\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 46,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3#menu-pasta \"Pasta & Western\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 225,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3#menu-kopi \"Kopi & minuman\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 221,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3#menu-sarapan \"Sarapan & camilan\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 258,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#acara-title \"Acara di kupinami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 437,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Cocok untuk\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 168,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#tamu-title \"Kata para tamu\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 248,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#lokasi-title \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 343,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kontak-title \"Hubungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 335,
+        "pctOfContentWidth": 28
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 29
+  }
+}

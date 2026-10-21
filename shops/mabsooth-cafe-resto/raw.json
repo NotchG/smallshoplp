@@ -1,0 +1,377 @@
+{
+  "id": "ChIJTeUERADzaS4RlZXUGSVdils",
+  "types": [
+    "coffee_shop",
+    "cafe",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0819-4744-4493",
+  "internationalPhoneNumber": "+62 819-4744-4493",
+  "formattedAddress": "Jl. Raya Condet No.6, RT.3/RW.16, Cililitan, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13640, Indonesia",
+  "rating": 4.7,
+  "googleMapsUri": "https://maps.google.com/?cid=6596187018166048149&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 0,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 1,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 12:00 AM",
+      "Tuesday: 8:00 AM – 12:00 AM",
+      "Wednesday: 8:00 AM – 12:00 AM",
+      "Thursday: 8:00 AM – 12:00 AM",
+      "Friday: 8:00 AM – 1:00 AM",
+      "Saturday: 8:00 AM – 1:00 AM",
+      "Sunday: 8:00 AM – 12:00 AM"
+    ],
+    "nextOpenTime": "2026-10-21T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 240,
+  "displayName": {
+    "text": "Mabsooth Cafe & Resto",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Coffee Shop",
+    "languageCode": "en-US"
+  },
+  "primaryType": "coffee_shop",
+  "reviews": [
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pkdWNYYzJOa05qUVZCSGFUSjBiekl3WjJWeVIyYxAB",
+      "relativePublishTimeDescription": "5 months ago",
+      "rating": 5,
+      "text": {
+        "text": "food & drink nice, price affordable, cozy places.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "food & drink nice, price affordable, cozy places.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Nazar Prama",
+        "uri": "https://www.google.com/maps/contrib/103834959813927103392/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU1mz3gaCnX0KYLNXqQLc1e_CNg9Oy5eMnVOBxtMOUjqjT38NRl=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-04-25T17:17:22.717765929Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pkdWNYYzJOa05qUVZCSGFUSjBiekl3WjJWeVIyYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pkdWNYYzJOa05qUVZCSGFUSjBiekl3WjJWeVIyYxAB!2m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/reviews/Ci9DQUlRQUNvZENodHljRjlvT25CNGNqWlJORzh3UTBwYWVHTnlaWEp2U0hWV01FRRAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "nice food & cozy places. the prices also cheap.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "nice food & cozy places. the prices also cheap.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Halika Ashya",
+        "uri": "https://www.google.com/maps/contrib/106338849611072222293/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIqn3IHapgqv39UuvWMbCkbDlYRlIjHhfhW5_Lk-OAd0XE7mg=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-04-22T15:58:17.534893282Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT25CNGNqWlJORzh3UTBwYWVHTnlaWEp2U0hWV01FRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT25CNGNqWlJORzh3UTBwYWVHTnlaWEp2U0hWV01FRRAB!2m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xabGVVMU9TV2c1T0d4V1puRkdSM05KWlRKUlpGRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Best arabian cafe in Condet ever, I love this place a lot❤️🤍❤️🤍\n\nComfy , the atmosphere is good, ramah pelayanan-nya, overall this is the best place for hookah currently in Condet, no doubt🥰🥰🥰",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Best arabian cafe in Condet ever, I love this place a lot❤️🤍❤️🤍\n\nComfy , the atmosphere is good, ramah pelayanan-nya, overall this is the best place for hookah currently in Condet, no doubt🥰🥰🥰",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Favi",
+        "uri": "https://www.google.com/maps/contrib/117143098646445613207/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVzkHBRlGZRHYYJOLRjVcB_xL1oOWfN_YB6tA-99vVvLPeUAevi=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-08-31T12:28:21.480859673Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xabGVVMU9TV2c1T0d4V1puRkdSM05KWlRKUlpGRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xabGVVMU9TV2c1T0d4V1puRkdSM05KWlRKUlpGRRAB!2m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/reviews/Ci9DQUlRQUNvZENodHljRjlvT21WNGNuZHpTV0YzYTBJd1FXNUxPSHBSY2xoQ1VHYxAB",
+      "relativePublishTimeDescription": "5 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Good…",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Good…",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Gerry Berlian",
+        "uri": "https://www.google.com/maps/contrib/108862847711785685776/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJM3zj1ti4M_Qn1_dGLrZQfQeCp2uEVNElkFNo_Xz4nYomJtg=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-05-03T10:37:58.365501337Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21WNGNuZHpTV0YzYTBJd1FXNUxPSHBSY2xoQ1VHYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21WNGNuZHpTV0YzYTBJd1FXNUxPSHBSY2xoQ1VHYxAB!2m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xkWmNFcDRkM2Q2WjJNemEwWnFWVzA1Ylc5RWRGRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Such a cozy spot with delicious food!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Such a cozy spot with delicious food!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Mona Thalib",
+        "uri": "https://www.google.com/maps/contrib/105403993047434587334/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJMGZZ4oKoIjstjz60MZ5cp2CHqQmkRIXMt_r5Hzf8CI3qnKw=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-08-31T11:48:03.894799778Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xkWmNFcDRkM2Q2WjJNemEwWnFWVzA1Ylc5RWRGRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xkWmNFcDRkM2Q2WjJNemEwWnFWVzA1Ylc5RWRGRRAB!2m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMaWYgXTFtSt7NXZRnYtbl4nxvW09gHQ6A-VPvd8AqiNwiv_gkpVqPADFRHFJ9dcl5tmqWpOjymnz6JuWg_hp3Z2VHfuOm8O3zh6lJQOgiPGJ9Knt0fer4gR_SiapOC0usr0epyk5EvfCzif7539T_FE2W2V_LBxBOU5Az3CPqwn0sm0MAyy8ERpVapkRhQgcKrwQZZ051TRRu3AOKAifHnVGBa3-qRZovZf_jMsGrQfLbVJM-dzbzaos6x-rviNdPTXMdLVQu4EmW8heSST0GKwFygQ7fhWg9B0AtI9wXHXwSRf1C7-_Amjxsgaq8xhUCNvD6PT6zCcTCoif40mEdP-t2zpT3MwfR2oAsDwp5xHYNQey9fgBnDiy9410j-yqkSPTl2WntBMbcQ3k7IVGlilB2bcA_HwOpGOgkD7iiiElA",
+      "widthPx": 1290,
+      "heightPx": 1394,
+      "authorAttributions": [
+        {
+          "displayName": "Mabsooth Cafe & Resto",
+          "uri": "https://maps.google.com/maps/contrib/115026217381720593157",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLx5KPysKKbKPl3Ecd7n3dXp8b_7FkJHzU_nFiRdFMHlVQM2Q=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC3P3OJTl_No5h2VQYtzwRr&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC3P3OJTl_No5h2VQYtzwRr!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMa2BKPS_OqmmAHdSgqqttmHWYHahV_dBOcf8rq0LmqRvv6ZZNOQT-Z5_OihZFOI28JbE-ijgOyxCKzJBipd-TF_gfWI5AcXxHU3X04XcZzH2-xQyocdwjCpRo5kKspZ28RECg5m6NPgEfccbE8_1m99wSlFcOSsR_4hpkNn0b1j-t9PVrrMQSUURCT2jk_kK6XdUBu_mPeBh9YfBH_aWoCar48CDSw9suvQUuYV-exhoY0fXZ1-BrwThJK46ntfX6A0vlHSWZMFzeqHnpaAmkK9o_dD5oTCdf7LtpYBhDKq3_cGo8Gp2TZeh_2kSG98iPEgx_nuA4WpwniVxX1_nXoBN3ktWaePbWvVJx3ac4eJOqbJMmkgWKdgScuFiCCeifXLpcj3hJ72RSNXDtMILybh13A8x1sO5ejiyWrpaRPmUw",
+      "widthPx": 2700,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Mabsooth Cafe & Resto",
+          "uri": "https://maps.google.com/maps/contrib/115026217381720593157",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLx5KPysKKbKPl3Ecd7n3dXp8b_7FkJHzU_nFiRdFMHlVQM2Q=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDDm-_BVOqGa9rrJHmTtjKX&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDDm-_BVOqGa9rrJHmTtjKX!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMb-PMMmyy1sIBtyRDd9Sjrfp_pF0C5drghKUGvpi2h3ZoCflU8MWodDJ7UySbi8b_ib8Y3DVN_uLqq-Xp1AKe-BiNvCf9x64UcN4LRWt1AXqs26Hg0ZVv8xO4H0vlH6CpnIeS9jmhdJ_k1OGLYTrAbbvmF4A0H_0r4wK-l-kdhzcag9jEddPZQT_39S9-JCpbA4YNVdhaIknAEUv9kx0VotzHgkkZ6vIEClHaI9t87JjuDXnn3LmuPlvQ3tebUX9KqbneFittLP2rOEa2gvV-6K0HNbZsJC82nCpb8Mnc9fwcBWJJVRrjauyZSEsSiVCEAHexW4_NraALqvPsrFvWbe06YWpkUhiKg48l4KjkuBjJbmRF-08q26s-Z2zLv0SLXMZxU3mDuZNsVmOX0gT1BnJzOJaBbk4ljldASOZkayCg",
+      "widthPx": 1080,
+      "heightPx": 1440,
+      "authorAttributions": [
+        {
+          "displayName": "EULIS TURSIA SAFIRA",
+          "uri": "https://maps.google.com/maps/contrib/115324802227410516877",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXOfT4iens0DWtSf1keih3k_EqoBATLYGNmBTw7BEZ3gy1sz58=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC9B_yHZKuM_LRnuLrZfVwC&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC9B_yHZKuM_LRnuLrZfVwC!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMYTM4WUMLB75lyRzCa2bva6iCKGEzKcyAGtF8mX147aMrjl37cU5vqOGkAwe3Nn5AqjOrBmuQzXC4F0-1kvf3b-NfY6gj5e8vTNI6Th1LwxO8qnPznTkWDLNKj20UhXhDTGJvi5-z93Jp155ym0dmS-jnFDMR5uks8eE-8lHL5eHn2LjCMyYOpZdPv1Re4ftlkoiz1c26IqjVMET9vNfvuaRdAIFwXw_qCXSve6MAOzyeYT--bIwUgAm1GZSo8em6LDx3uoZBkepBETM3dFP3XFcvK4ZNxIZMfPK584gxUDrW-Doo8-3qBG43r7DF_X7k0pQJENmXp6nosWDEvQktQgpxh3cvQKIvw-L7JPIzwFg2OJtrSghiU4qacKkEhxCrbOmjaN09Hojim_d4d_wUtKMJBYtgt_GqxklVPsDXhkaQ",
+      "widthPx": 4800,
+      "heightPx": 3600,
+      "authorAttributions": [
+        {
+          "displayName": "Ammar Butt",
+          "uri": "https://maps.google.com/maps/contrib/109868974624685112429",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLx-imGgaooqz3-25XgIRk5Z9vrVydLAkNa093P-d5jKmzLwA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCxguY5TmhTitGN_nJUjCYw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCxguY5TmhTitGN_nJUjCYw!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMZS7EFcc9hYF6YLiBBTCdF9NCODqwaOF-9ZyUd1SJNdTsRnnrSvWwLGyciffNu-GtvKnG2HVzsHDO-CG2emMYJY8tHMeeM4VdZ13yRJ7uJ1xDQQeN3urbxmKYTJk2CXsXekWYWlj8qNxGPhhAYJXnHEseNfw_ydSg1sKTWkzn_KYoiqfCgXYn4LynkOmrK9NdwY9PRluBb37B2rrQbFPsC51lvZwMnOeL_7sziz89Rc0FYJ4h5h1LqsGGxYEqufu6R3VvF2A5a2SyRFfTnZ3APOR0vzJ3wu4XYIK_A5ccQpDMd4vDMmRDvGHLj4jo34d21ainiI5eUCMM5Q1Sc6tPoF5STGUTy1u22W9ketpYRW6-rMx58Tz23EPzV4coOEVPQEu2WIrNS0ijtmMiIsYdlve2NefI6YyyL8BBCmBp4PkA",
+      "widthPx": 4800,
+      "heightPx": 3600,
+      "authorAttributions": [
+        {
+          "displayName": "Ammar Butt",
+          "uri": "https://maps.google.com/maps/contrib/109868974624685112429",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLx-imGgaooqz3-25XgIRk5Z9vrVydLAkNa093P-d5jKmzLwA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBVwLE9GXfMaPgRtty085Bf&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBVwLE9GXfMaPgRtty085Bf!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMYNDhrmCwt2A1igwPjryX-jI2dEM1U6_3qqUxupmTzShFBX2RGYOL7W7z20pkeBhkZAoUlWAsVC-DrH2q6IQhBK0gAuWSpc1QjVONz6YZo2wCbETuK921jJ7_Px6c_lZxIYYfZREwjYm8Ik8s-zi5BB_ja2biGJwm0WInWFbEWmLMtopfwQ0ruoOlFQhVXPgdfWZngAsUKbdrw41rLGpFIUsE7vEWT9an9xXxvU3HcdtVu8k3DisF1SSUpoeoBKwnDrALxRMj0TSsnnVH5DVBqPpwnjrRnDrlKTbLzohOr8xYntlE7W8DSPEFp4MPVRbPHC1s8zIZpjhMReN3NIehYM7uHxkcOLGAEs37R2CVJ3P5skbUfHTP05Ohx964NYxaJ-Gn_GViCKs7JizU-Eizf08FmLX53XQYoQ4DiLxvWTDA",
+      "widthPx": 1200,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "Ica chaca Allyssa",
+          "uri": "https://maps.google.com/maps/contrib/100365659743544533606",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJT5xdMJ8BbebbhKtUL5OEd7sl9t1x8ylrg65jcMVjdl1Bq7A=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC-veB727sYxf4wO13ukx9Q&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC-veB727sYxf4wO13ukx9Q!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMYe32f9DtPTOLnV18xzqt6V_Rxg0zK0sOH4BIb4hbjR2y_uGhGL3Crb6Bio64rC5HJFFrogqmpOj0Tf3uby6TEmCR94BV7S9Y0seN1_jgllJera8OyTj-K_BFU7EwkiQvzMolayN95XqPnSIHUx0I2z-K_oP7AGu8ps8NXgKd7xTK6xpflcJ6Z8a4gQaIygJnD3vFrCjE6vNm417jyef3lBFjmuB0uyZtxZyy0KtiY08Lo4Y2l89XnuruS597fOZReA-OeR8KNFYMnAol2aMT9SdhMH-KdPa5nkpTcftLQSwL8UmUv8HJNhRM21lpki99k1i7DK6g1Z4KGH54CD5lcvPUeLopJYlnGHc7Lc31PAElV5cSnBJGgu7bW5AF2MZjxbOlJrGqZPXWwvZUgp_qtTADiV_K3ePHD95UD9BgnEXw",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "ratna fuji utami",
+          "uri": "https://maps.google.com/maps/contrib/106162044485621972253",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocII2X_cqbC1tLE8AIjYstygoP70LiMiv8mS3PDYx3E5mRj1AXE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBdJSHJO8enhegL2Jss7m69&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBdJSHJO8enhegL2Jss7m69!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMbLpDHpRnq-nxu8N-832Krd1lIc9anSq8D8oByyjpOxCINyATEFjI6eMI3lNFKZyS8oHe3OGEeCnHgkFjTYFWa2KMoDcpH6tlkW5cCMkG4S8FqGUJTrq5hq9wsA0Sb-vVeQefJc6RrFuQcM2yzza_Zyx3zujBplD1QFNX32yGRWtkfegLBGeDsYWxmdpfegyZGAnRJoiB-h3bKqsPYeQBPbYlrDflyt1V1FLfqB8Cv1cLGD2jEvtKNnpIFYseligha3yOebctXHXncBrMAJKapvAEeMJWvIugeTD0Nl4i3eraQ5Ny4DTwpp4jxUm0f_AnjEOJtb6bVyeiSPMwAn_gj1I8C76E-DX5hbpt8JHjLJcdA4B9DDtoz4L7pNt4iHdVkmLd3LiCu796lTAxMpOUtLxfZ08TAJcWorzrEVpbZOtA",
+      "widthPx": 3072,
+      "heightPx": 4096,
+      "authorAttributions": [
+        {
+          "displayName": "Rizza Fasa Setiawan",
+          "uri": "https://maps.google.com/maps/contrib/117403385244263885172",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVgepRG1eJEBphSXfMZApigdhffPi31zBvEb-K0FZhFHz3kH0er=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBGFDfq05SN2evMLzSBW_9A&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBGFDfq05SN2evMLzSBW_9A!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMZswXH_zPKFgR8oxGn0I15GPhQ5Ekwf-wet8SdLYIDcioNKUnFPDunuBcG_qildmBLoPK1L0fftoE_b22HD8StD7s9_d0tDQuVqIFns6HH6O7EMLWtHn-PbMvMWR97Q-qoHOpx-PLPFE8S_zSNBaT-3QOLPl0GjRiI4Zkkr6xYcnRteTzOVqqL744SY975y9xfi_jtdWE9EUJkP9onlZUZE21iSiA-siqD91b5AZ1VkxAWfssqNlcPK4vvXnHBVeEQt-61MZeWty1Tgk2g6Af7s2PqG20ESj_MofkBq21EYJnxmaxB81F9RN6Xqa5L9vti1DCT9jqftqxNjVVhoItSNt4xc_FXe2uRncyIWuOmRtbpPYvpIeigowXB6wxRd3QJPuchI_ec9tO3Bj3zWqqq8IMvJcWgv6YQrkPTfwRE65Q",
+      "widthPx": 2700,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Gerry Berlian",
+          "uri": "https://maps.google.com/maps/contrib/108862847711785685776",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJM3zj1ti4M_Qn1_dGLrZQfQeCp2uEVNElkFNo_Xz4nYomJtg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBcfcD_A4mYhy_EvhyN219f&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBcfcD_A4mYhy_EvhyN219f!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    },
+    {
+      "name": "places/ChIJTeUERADzaS4RlZXUGSVdils/photos/Aa-ngMZ-RFmyt6MquguCuYGW-4JtkyevlyOMTv6KYldz9LdaXz7ABkz8nROCP8jLafGSQhON7-All9xR1ZP12t1lHDYGLbzhUzkRUMiFF_cVy4ierNbQsSTIe256MelZvntiDNeXM6gmZ00a3HSxoQ0eedvh9no_MhHU9yAYBG9lF-u--SPz-8SZ5TkiwlQuHqWLto-ISLQwCwMOcZLI7tXDm5dlnlZ98DtDIQGERsJq8zKgHFqErvtNqT5SaJwAS_68mwc0xwwhUWYAuGmS9YZDGdiwe6ylEGcmAR24C3J3A4aVXxXDeGuJnAYNKGwua5h-p1wY_WiFwaqHQBcrJ8w2ZF3CLyHQlJc0JIu0IIgQIUWf7zIUHmSD0rU0ZqCyJyBa0DYGxifnA44qq275YTFJSd2uWyWwFYdwrAp6_DDZmEsM",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Ammar Butt",
+          "uri": "https://maps.google.com/maps/contrib/109868974624685112429",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLx-imGgaooqz3-25XgIRk5Z9vrVydLAkNa093P-d5jKmzLwA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCuPAYLcW069nxzJ6H5fUY_&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCuPAYLcW069nxzJ6H5fUY_!2e10!4m2!3m1!1s0x2e69f3004404e54d:0x5b8a5d2519d49595"
+    }
+  ]
+}

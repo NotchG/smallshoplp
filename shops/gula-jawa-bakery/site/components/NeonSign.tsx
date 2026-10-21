@@ -1,6 +1,7 @@
 // The shop's "Gula Jawa" neon, set in Leckerli One as an outline.
 // Two layers in one grid cell: the unlit tube (aria-hidden, always visible) and the lit
 // text on top, which switches on once via CSS (globals.css: .neon-lit / @keyframes neon-on).
+// The tube is drawn by a ::before from data-lines, so the page holds the name once as real text.
 // `static` = the footer mark: lit, smaller glow, never animated.
 export default function NeonSign({
   lines,
@@ -23,9 +24,11 @@ export default function NeonSign({
   );
   return (
     <span className={`neon ${className}`}>
-      <span aria-hidden="true" className={`neon-text neon-tube ${isStatic ? "neon-static" : ""}`}>
-        {text}
-      </span>
+      <span
+        aria-hidden="true"
+        className={`neon-text neon-tube ${isStatic ? "neon-static" : ""}`}
+        data-lines={lines.join("\n")}
+      />
       <span className={`neon-text neon-lit ${isStatic ? "neon-static" : ""}`} {...(isStatic ? {} : { "data-check": "" })}>
         {text}
       </span>

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "owner-1.jpg",
+    "author": "Rumah Roti Ciracas",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-2.jpg",
+    "author": "Rumah Roti Ciracas",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-3.jpg",
+    "author": "Rumah Roti Ciracas",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-4.jpg",
+    "author": "Rumah Roti Ciracas",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-5.jpg",
+    "author": "Rumah Roti Ciracas",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-6.jpg",
+    "author": "Rumah Roti Ciracas",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-7.jpg",
+    "author": "Rumah Roti Ciracas",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "owner-8.jpg",
+    "author": "Rumah Roti Ciracas",
+    "owner": true,
+    "usable_on_site": true
+  },
+  {
+    "file": "photo-1.jpg",
+    "author": "Verdy Imandaguna",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Rulian Syah",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

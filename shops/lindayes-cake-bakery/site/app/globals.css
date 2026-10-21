@@ -1,0 +1,277 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–5.
+   Six named colours become Tailwind utilities (bg-fascia, text-sign, fill-blush...). */
+@theme {
+  --color-fascia: #26211e;
+  --color-sign: #f5873a;
+  --color-awning: #b93f1a;
+  --color-teal: #0f4a55;
+  --color-blush: #f4c6ce;
+  --color-glass: #eef2ef;
+}
+
+/* Derived tones are color-mix() of the six above (not new colours), exposed as utilities too. */
+@theme inline {
+  --color-frame: var(--frame);
+  --color-unlit: var(--sign-unlit);
+  --color-wood: var(--wood);
+  --color-steel: var(--steel);
+  --color-muted: var(--muted);
+  --color-muted-dark: var(--muted-dark);
+  --color-muted-teal: var(--muted-teal);
+  --color-case: var(--case);
+  --font-display: var(--font-young-serif), Georgia, serif;
+  --font-body: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  --spacing-grid: var(--grid-gap);
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --frame: color-mix(in srgb, var(--color-awning) 45%, var(--color-fascia));      /* #682E1C */
+  --sign-unlit: color-mix(in srgb, var(--color-sign) 35%, var(--color-fascia));   /* #6E4528, decorative */
+  --wood: color-mix(in srgb, var(--color-sign) 60%, var(--color-fascia));         /* #A25E2F */
+  --steel: color-mix(in srgb, var(--color-fascia) 25%, transparent);              /* case shelf line */
+  --led: color-mix(in srgb, var(--color-sign) 50%, transparent);                  /* case LED line */
+  --case: color-mix(in srgb, var(--color-sign) 7%, var(--color-glass));           /* lit case interior */
+  --muted: color-mix(in srgb, var(--color-fascia) 72%, var(--color-glass));       /* #5E5C59 on glass, 5.9:1 */
+  --muted-dark: color-mix(in srgb, var(--color-glass) 72%, var(--color-fascia));  /* #B6B7B4 on fascia, 7.9:1 */
+  --muted-teal: color-mix(in srgb, var(--color-glass) 75%, var(--color-teal));    /* #B6C8C8 on teal, 5.7:1 */
+  --ivy-dark: color-mix(in srgb, var(--color-glass) 24%, var(--color-teal));      /* ivy leaves, decorative */
+  --ivy-light: color-mix(in srgb, var(--color-glass) 42%, var(--color-teal));
+
+  --container: 75rem;                              /* 1200px, 12 columns */
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);           /* 20px phone / 40px desktop */
+  --section-y: clamp(3.5rem, 2rem + 6vw, 7rem);    /* 56px phone / 112px desktop */
+  --grid-gap: 1.5rem;                              /* 24px phone */
+  --frame-w: clamp(0.75rem, 0.4rem + 1.4vw, 1.75rem); /* sign frame thickness */
+
+  --step-display: clamp(3.25rem, 1.6rem + 7vw, 7.5rem);          /* 52 → 120px */
+  --step-head: clamp(2rem, 1.4rem + 2.4vw, 3.25rem);             /* 32 → 52px */
+  --step-lead: clamp(1.3125rem, 1.15rem + 0.65vw, 1.75rem);      /* 21 → 28px */
+  --step-body: clamp(1.03125rem, 0.98rem + 0.2vw, 1.125rem);     /* 16.5 → 18px */
+  --step-small: clamp(0.8125rem, 0.78rem + 0.1vw, 0.875rem);     /* 13 → 14px */
+
+  --leading-display: 0.95;
+  --leading-head: 1.1;
+  --leading-lead: 1.3;
+  --leading-body: 1.6;
+  --leading-small: 1.45;
+
+  --focus: var(--color-teal);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+@media (min-width: 1024px) {
+  :root { --grid-gap: 2rem; } /* 32px desktop */
+}
+
+html { background: var(--color-glass); color: var(--color-fascia); }
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-blush); color: var(--color-fascia); }
+
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
+
+/* Component classes sit in the components layer, so Tailwind utilities (md:hidden...) win. */
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: calc(var(--container) + 2 * var(--gutter));
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+  .section { padding-block: var(--section-y); }
+  .grid-12 {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--grid-gap);
+  }
+  .gap-grid { gap: var(--grid-gap); }
+
+  .measure   { max-width: 34em; }
+
+  /* Grounds set the focus ring colour: teal on light, blush on charcoal and teal. */
+  .ground-light { --focus: var(--color-teal); }
+  .ground-dark  { --focus: var(--color-blush); }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+
+  a { text-underline-offset: 0.22em; text-decoration-thickness: 1px; }
+
+  /* ---------- The sign (hero) ---------- */
+  .sign-frame {
+    background: var(--frame);
+    padding: var(--frame-w) var(--frame-w) calc(var(--frame-w) * 0.75);
+  }
+  .sign-panel {
+    background: var(--color-fascia);
+    /* the panel sits back inside the frame */
+    box-shadow: inset 0 0.6rem 1.25rem -0.4rem rgb(0 0 0 / 0.55);
+    padding-block: clamp(2rem, 1rem + 3.5vw, 3.75rem);
+  }
+  .sign-word {
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  /* Unlit layer: paints at once in unlit brown, never read aloud (empty alt text). */
+  .sign-word::before {
+    content: attr(data-text);
+    content: attr(data-text) / "";
+    position: absolute;
+    inset: 0;
+    color: var(--sign-unlit);
+  }
+  .sign-lit {
+    position: relative;
+    color: var(--color-sign);
+    text-shadow: 0 0 0.22em color-mix(in srgb, var(--color-sign) 45%, transparent);
+    animation: sign-on 700ms var(--ease-out-expo) 150ms both;
+  }
+  @keyframes sign-on {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .tagline { letter-spacing: 0.08em; }
+
+  /* ---------- Awning ---------- */
+  .awning-band { height: clamp(2rem, 1.4rem + 1.8vw, 3.25rem); }
+  .awning-edge { width: 100%; filter: drop-shadow(0 0.4rem 0.45rem rgb(38 33 30 / 0.22)); }
+
+  .sign-sub {
+    display: flex; flex-direction: column; align-items: center; gap: 0.35rem;
+    margin-top: 0.3em; /* em of the display size: clears the wordmark's glow and descent */
+  }
+  .sign-dot { display: none; color: var(--sign-unlit); }
+  @media (min-width: 768px) {
+    .sign-sub { flex-direction: row; justify-content: center; align-items: baseline; gap: 1rem; }
+    .sign-dot { display: inline; }
+  }
+
+  /* ---------- Hero storefront row ---------- */
+  .storefront { padding-block: calc(var(--section-y) * 0.62) calc(var(--section-y) * 0.75); }
+  .status-row { min-height: calc(var(--step-body) * var(--leading-body)); }
+  .status-dot-open { background: var(--color-teal); }
+  .status-dot-closed { background: var(--color-awning); }
+  .photo { border-radius: 4px; }
+
+  /* A section on the same ground as the one before it: one rule instead of a double gap. */
+  .section-follow { padding-top: 0; }
+  .divider { border-top: 1px solid var(--steel); margin-bottom: calc(var(--section-y) * 0.75); }
+
+  /* ---------- The cake case ---------- */
+  .case {
+    background: var(--case);
+    border-top: 2px solid var(--led);
+    box-shadow: inset 0 1.25rem 1.5rem -1.25rem var(--led);
+  }
+  .case { padding: clamp(1.75rem, 1rem + 2.5vw, 3rem) clamp(1rem, 0.5rem + 2vw, 2.5rem) clamp(1.75rem, 1rem + 2.5vw, 2.75rem); }
+  .case-grid, .gift-grid { column-gap: var(--grid-gap); }
+  /* Shelf lines reach into the column gap, so a row of items stands on one continuous shelf. */
+  .shelf, .shelf-wood {
+    margin-inline: calc(var(--grid-gap) / -2);
+    padding-inline: calc(var(--grid-gap) / 2);
+  }
+  .shelf { border-bottom: 3px solid var(--steel); }
+  .shelf-wood { border-bottom: 4px solid var(--wood); }
+  .tent { border-top: 3px solid var(--color-awning); padding-top: 0.75rem; }
+  @media (max-width: 767px) {
+    /* phone gift rows: illustration beside its card, shelf only under the illustration */
+    .gift-grid .shelf-wood { margin-inline: 0; padding-inline: 0; }
+  }
+
+  /* ---------- Coffee corner ---------- */
+  .ngopi { padding-top: calc(var(--section-y) + clamp(3.5rem, 2rem + 4vw, 4.5rem)); }
+  .ivy { width: clamp(15rem, 10rem + 22vw, 28rem); margin-left: calc(var(--gutter) * -0.5); }
+  .drinks { column-gap: var(--grid-gap); }
+  .drinks li { padding-block: 0.6rem; border-bottom: 1px solid color-mix(in srgb, var(--color-glass) 22%, transparent); }
+
+  /* ---------- Order counter ---------- */
+  .order-list li {
+    display: flex; align-items: baseline; gap: 0.75rem;
+    padding-block: 0.7rem; border-bottom: 1px solid color-mix(in srgb, var(--color-glass) 16%, transparent);
+  }
+  .order-list li::before {
+    content: ""; flex: none; width: 0.5rem; height: 0.5rem; background: var(--color-sign);
+    transform: translateY(-0.12em) rotate(45deg);
+  }
+
+  /* ---------- Footer ---------- */
+  .footer-inner {
+    border-top: 1px solid color-mix(in srgb, var(--color-glass) 16%, transparent);
+    padding-block: 2rem 2.5rem;
+    align-items: baseline;
+  }
+
+  /* ---------- Map ---------- */
+  .map-box { position: relative; aspect-ratio: 4 / 3; background: var(--case); }
+  .map-box iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .map-empty {
+    position: absolute; inset: 0; display: grid; place-content: center; justify-items: center;
+    gap: 0.5rem; padding: 1.5rem; text-align: center; color: var(--muted);
+  }
+
+  /* ---------- Buttons ---------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 48px;
+    padding: 0.6rem 1.25rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: var(--step-body);
+    line-height: 1.2;
+    text-decoration: none;
+    transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out, transform 150ms ease-out;
+  }
+  .btn:active { transform: translateY(1px); }
+  .btn svg { flex: none; width: 1.15em; height: 1.15em; }
+  .btn-primary-light { background: var(--color-awning); color: var(--color-glass); }
+  .btn-primary-light:hover { background: color-mix(in srgb, var(--color-awning) 82%, var(--color-fascia)); }
+  .btn-primary-dark { background: var(--color-sign); color: var(--color-fascia); }
+  .btn-primary-dark:hover { background: color-mix(in srgb, var(--color-sign) 80%, var(--color-glass)); }
+  .btn-secondary { border: 1.5px solid currentColor; color: inherit; padding-inline: calc(1.25rem - 1.5px); }
+  .btn-secondary:hover { background: color-mix(in srgb, currentColor 10%, transparent); }
+
+  .text-link { text-decoration: underline; min-height: 48px; display: inline-flex; align-items: center; gap: 0.4rem; }
+  .text-link:hover { text-decoration-thickness: 2px; }
+}
+
+/* Type steps as utilities, so responsive variants work (lg:t-lead). */
+@utility t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+@utility t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+@utility t-lead    { font-size: var(--step-lead);    line-height: var(--leading-lead); }
+@utility t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+@utility t-small   { font-size: var(--step-small);   line-height: var(--leading-small); }
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: 13px; line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-blush); color: var(--color-fascia);
+}
+
+.skip-link {
+  position: absolute; left: 1rem; top: -100px; z-index: 50;
+  background: var(--color-glass); color: var(--color-fascia);
+  padding: 0.75rem 1rem; border-radius: 6px; font-weight: 600;
+}
+.skip-link:focus { top: 1rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  .sign-lit { animation: none; opacity: 1; }
+  .btn:active { transform: none; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

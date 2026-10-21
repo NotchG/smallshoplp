@@ -1,0 +1,347 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6226,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Cup Times & Warkop\"",
+        "fontSize": 64.1,
+        "lineHeight": "67.347px",
+        "textWidth": 273,
+        "pctOfContentWidth": 78
+      },
+      {
+        "el": "span \"Rp 15.000\"",
+        "fontSize": 36,
+        "lineHeight": "43.2px",
+        "textWidth": 161,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 220,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Cup Times\"",
+        "fontSize": 22.1,
+        "lineHeight": "25.4438px",
+        "textWidth": 96,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "span \"Vanilla Latte\"",
+        "fontSize": 17,
+        "lineHeight": "23.375px",
+        "textWidth": 107,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "span \"Caramel Latte\"",
+        "fontSize": 17,
+        "lineHeight": "23.375px",
+        "textWidth": 120,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "span \"Hazelnut Latte\"",
+        "fontSize": 17,
+        "lineHeight": "23.375px",
+        "textWidth": 127,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"& Warkop\"",
+        "fontSize": 22.1,
+        "lineHeight": "25.4438px",
+        "textWidth": 95,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#night-title \"Nongkrong sampai malam\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 220,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 192,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "p \"Kopinya enak, harganya bersahabat.\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 252,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "p \"Pemilik dan stafnya ramah.\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 160,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "p \"Pilihan minumannya banyak, pasti ada yan\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 216,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 219,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 36,
+        "lineHeight": "39.6px",
+        "textWidth": 209,
+        "pctOfContentWidth": 60
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 27
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6108,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Cup Times & Warkop\"",
+        "fontSize": 89.1,
+        "lineHeight": "93.5424px",
+        "textWidth": 379,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "span \"Rp 15.000\"",
+        "fontSize": 44.1,
+        "lineHeight": "52.9152px",
+        "textWidth": 197,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 44.1,
+        "lineHeight": "48.5056px",
+        "textWidth": 269,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Cup Times\"",
+        "fontSize": 25,
+        "lineHeight": "28.704px",
+        "textWidth": 109,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "span \"Vanilla Latte\"",
+        "fontSize": 17.5,
+        "lineHeight": "24.112px",
+        "textWidth": 110,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "span \"Caramel Latte\"",
+        "fontSize": 17.5,
+        "lineHeight": "24.112px",
+        "textWidth": 124,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "span \"Hazelnut Latte\"",
+        "fontSize": 17.5,
+        "lineHeight": "24.112px",
+        "textWidth": 131,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"& Warkop\"",
+        "fontSize": 25,
+        "lineHeight": "28.704px",
+        "textWidth": 107,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#night-title \"Nongkrong sampai malam\"",
+        "fontSize": 44.1,
+        "lineHeight": "48.5056px",
+        "textWidth": 269,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 44.1,
+        "lineHeight": "48.5056px",
+        "textWidth": 236,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "p \"Kopinya enak, harganya bersahabat.\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 165,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "p \"Pemilik dan stafnya ramah.\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 181,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "p \"Pilihan minumannya banyak, pasti ada yan\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 192,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 44.1,
+        "lineHeight": "48.5056px",
+        "textWidth": 268,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 44.1,
+        "lineHeight": "48.5056px",
+        "textWidth": 256,
+        "pctOfContentWidth": 37
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 27
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4880,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"Cup Times & Warkop\"",
+        "fontSize": 128,
+        "lineHeight": "134.4px",
+        "textWidth": 545,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "span \"Rp 15.000\"",
+        "fontSize": 56,
+        "lineHeight": "67.2px",
+        "textWidth": 251,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 342,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Cup Times\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 122,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "span \"Vanilla Latte\"",
+        "fontSize": 18.9,
+        "lineHeight": "25.96px",
+        "textWidth": 118,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "span \"Caramel Latte\"",
+        "fontSize": 18.9,
+        "lineHeight": "25.96px",
+        "textWidth": 133,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "span \"Hazelnut Latte\"",
+        "fontSize": 18.9,
+        "lineHeight": "25.96px",
+        "textWidth": 141,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"& Warkop\"",
+        "fontSize": 28,
+        "lineHeight": "32.2px",
+        "textWidth": 120,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#night-title \"Nongkrong sampai malam\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 342,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 299,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "p \"Kopinya enak, harganya bersahabat.\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 318,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "p \"Pemilik dan stafnya ramah.\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 203,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "p \"Pilihan minumannya banyak, pasti ada yan\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 273,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 341,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 326,
+        "pctOfContentWidth": 27
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 27
+  }
+}

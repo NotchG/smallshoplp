@@ -1,0 +1,536 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7546,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"UNDERTWENTY Coffee. Co\"",
+        "fontSize": 17.1,
+        "lineHeight": "26.505px",
+        "textWidth": 331,
+        "pctOfContentWidth": 95
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 213,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"Es Kopi Susu U20Rp 20rb\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7885px",
+        "textWidth": 255,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h3 \"Green Tea Latte\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7885px",
+        "textWidth": 160,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Manual brew\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7885px",
+        "textWidth": 129,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Espresso + susu kental manis\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7885px",
+        "textWidth": 170,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h3 \"KOPI SUSU & ESPRESSO\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 172,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h3 \"MANUAL BREW\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 106,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 71,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"CAMILAN MALAM\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 120,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#brew-title \"CARA KAMI MENYEDUH\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 153,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Pour over\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7885px",
+        "textWidth": 98,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Syphon\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7885px",
+        "textWidth": 79,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Cold drip\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7885px",
+        "textWidth": 92,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"French press\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7885px",
+        "textWidth": 133,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#late-title \"NGOPI SAMPAI LARUT\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 290,
+        "pctOfContentWidth": 83
+      },
+      {
+        "el": "h2#praise-title \"KATA MEREKA\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 187,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"PILIHAN KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 95,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"SUASANA\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 69,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"PELAYANAN\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 85,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"MALAM HARI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 90,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#visit-title \"KUNJUNGI KAMI\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 215,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"PATOKAN\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 67,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#contact-title \"HUBUNGI KAMI\"",
+        "fontSize": 36.5,
+        "lineHeight": "38.346px",
+        "textWidth": 198,
+        "pctOfContentWidth": 57
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7346,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"UNDERTWENTY Coffee. Co\"",
+        "fontSize": 17.9,
+        "lineHeight": "27.6768px",
+        "textWidth": 609,
+        "pctOfContentWidth": 89
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 275,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Es Kopi Susu U20Rp 20rb\"",
+        "fontSize": 24.2,
+        "lineHeight": "31.4912px",
+        "textWidth": 274,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Green Tea Latte\"",
+        "fontSize": 24.2,
+        "lineHeight": "31.4912px",
+        "textWidth": 175,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Manual brew\"",
+        "fontSize": 24.2,
+        "lineHeight": "31.4912px",
+        "textWidth": 141,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Espresso + susu kental manis\"",
+        "fontSize": 24.2,
+        "lineHeight": "31.4912px",
+        "textWidth": 140,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"KOPI SUSU & ESPRESSO\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 172,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"MANUAL BREW\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 106,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 71,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"CAMILAN MALAM\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 120,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#brew-title \"CARA KAMI MENYEDUH\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 197,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Pour over\"",
+        "fontSize": 24.2,
+        "lineHeight": "31.4912px",
+        "textWidth": 107,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Syphon\"",
+        "fontSize": 24.2,
+        "lineHeight": "31.4912px",
+        "textWidth": 86,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Cold drip\"",
+        "fontSize": 24.2,
+        "lineHeight": "31.4912px",
+        "textWidth": 101,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"French press\"",
+        "fontSize": 24.2,
+        "lineHeight": "31.4912px",
+        "textWidth": 146,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#late-title \"NGOPI SAMPAI LARUT\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 374,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#praise-title \"KATA MEREKA\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 241,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"PILIHAN KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 95,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"SUASANA\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 69,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"PELAYANAN\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 85,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"MALAM HARI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 90,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#visit-title \"KUNJUNGI KAMI\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 277,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"PATOKAN\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 67,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#contact-title \"HUBUNGI KAMI\"",
+        "fontSize": 47.1,
+        "lineHeight": "49.4592px",
+        "textWidth": 256,
+        "pctOfContentWidth": 37
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5445,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"UNDERTWENTY Coffee. Co\"",
+        "fontSize": 19,
+        "lineHeight": "29.45px",
+        "textWidth": 1168,
+        "pctOfContentWidth": 97
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 373,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Es Kopi Susu U20Rp 20rb\"",
+        "fontSize": 27.9,
+        "lineHeight": "36.296px",
+        "textWidth": 309,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Green Tea Latte\"",
+        "fontSize": 27.9,
+        "lineHeight": "36.296px",
+        "textWidth": 202,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Manual brew\"",
+        "fontSize": 27.9,
+        "lineHeight": "36.296px",
+        "textWidth": 163,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Espresso + susu kental manis\"",
+        "fontSize": 27.9,
+        "lineHeight": "36.296px",
+        "textWidth": 161,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"KOPI SUSU & ESPRESSO\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 172,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"MANUAL BREW\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 106,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 71,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"CAMILAN MALAM\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 120,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#brew-title \"CARA KAMI MENYEDUH\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 268,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Pour over\"",
+        "fontSize": 27.9,
+        "lineHeight": "36.296px",
+        "textWidth": 124,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Syphon\"",
+        "fontSize": 27.9,
+        "lineHeight": "36.296px",
+        "textWidth": 99,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Cold drip\"",
+        "fontSize": 27.9,
+        "lineHeight": "36.296px",
+        "textWidth": 116,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"French press\"",
+        "fontSize": 27.9,
+        "lineHeight": "36.296px",
+        "textWidth": 90,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h2#late-title \"NGOPI SAMPAI LARUT\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 345,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#praise-title \"KATA MEREKA\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 327,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"PILIHAN KOPI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 95,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"SUASANA\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 69,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"PELAYANAN\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 85,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"MALAM HARI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 90,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h2#visit-title \"KUNJUNGI KAMI\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 377,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"PATOKAN\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 67,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#contact-title \"HUBUNGI KAMI\"",
+        "fontSize": 64,
+        "lineHeight": "67.2px",
+        "textWidth": 347,
+        "pctOfContentWidth": 29
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 26
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "id": "ChIJTagUebjtaS4RcqTIjCibZpM",
+  "types": [
+    "bakery",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0838-9818-8891",
+  "internationalPhoneNumber": "+62 838-9818-8891",
+  "formattedAddress": "Jln masjid Al-Ishlah NO 20 Rt 11/Rw 007 Susukan, RT.11/RW.7, Ciracas, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13750, Indonesia",
+  "rating": 4.9,
+  "googleMapsUri": "https://maps.google.com/?cid=10621347369662850162&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 10
+        },
+        "close": {
+          "day": 1,
+          "hour": 19,
+          "minute": 10
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 10
+        },
+        "close": {
+          "day": 2,
+          "hour": 19,
+          "minute": 10
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 10
+        },
+        "close": {
+          "day": 3,
+          "hour": 19,
+          "minute": 10
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 10
+        },
+        "close": {
+          "day": 4,
+          "hour": 19,
+          "minute": 10
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 10
+        },
+        "close": {
+          "day": 5,
+          "hour": 19,
+          "minute": 10
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 10
+        },
+        "close": {
+          "day": 6,
+          "hour": 19,
+          "minute": 10
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:10 AM – 7:10 PM",
+      "Tuesday: 8:10 AM – 7:10 PM",
+      "Wednesday: 8:10 AM – 7:10 PM",
+      "Thursday: 8:10 AM – 7:10 PM",
+      "Friday: 8:10 AM – 7:10 PM",
+      "Saturday: 8:10 AM – 7:10 PM",
+      "Sunday: Closed"
+    ],
+    "nextOpenTime": "2026-10-21T01:10:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+  "userRatingCount": 736,
+  "displayName": {
+    "text": "Rumah Roti Ciracas",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Bakery",
+    "languageCode": "en-US"
+  },
+  "primaryType": "bakery",
+  "reviews": [
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/reviews/Ci9DQUlRQUNvZENodHljRjlvT201UGFXVldWbGRSTFVKbFIwWlJVV05NUkU4NVQyYxAB",
+      "relativePublishTimeDescription": "4 months ago",
+      "rating": 5,
+      "text": {
+        "text": "good quality bread and friendly service🫶🏻 worth it bangeeet!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "good quality bread and friendly service🫶🏻 worth it bangeeet!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Cesilia Ardina Hartari",
+        "uri": "https://www.google.com/maps/contrib/111697700256281174364/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVt2luQC6ODZHxiWCXfguvnvXQgshsQ5rbWD336rAz3rnMo52r2=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-06-10T13:20:08.594158377Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT201UGFXVldWbGRSTFVKbFIwWlJVV05NUkU4NVQyYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT201UGFXVldWbGRSTFVKbFIwWlJVV05NUkU4NVQyYxAB!2m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/reviews/ChZDSUhNMG9nS0VJQ0FnTURneTZ6RFBBEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "You see food images on Instagram, and how mouthwatering are they? Their food presentation and taste are just like that. Very fancy yet delicious,i like all in menu.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "You see food images on Instagram, and how mouthwatering are they? Their food presentation and taste are just like that. Very fancy yet delicious,i like all in menu.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "afrizal indra lesmana",
+        "uri": "https://www.google.com/maps/contrib/109807940811430060550/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUDyoBp6Gv05rS6NCPJ40NPw0ZYflao_50lPBUGoUJ0s73SjUyp=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-02-27T12:15:12.003171Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTURneTZ6RFBBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTURneTZ6RFBBEAE!2m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xaVFJIZzBVVk4zYkVWV2JucFZZMmRGVVVWcVNVRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "the bread is so amazing i love the texture 🥹",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "the bread is so amazing i love the texture 🥹",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Veron F",
+        "uri": "https://www.google.com/maps/contrib/108966464689849982165/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocILMNt2_sPMp52tFRiBRdF5hb0-ivc0S3eCNOmvVYDloExfQw=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-08-31T11:44:11.938722673Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xaVFJIZzBVVk4zYkVWV2JucFZZMmRGVVVWcVNVRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xaVFJIZzBVVk4zYkVWV2JucFZZMmRGVVVWcVNVRRAB!2m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/reviews/Ci9DQUlRQUNvZENodHljRjlvT2kxSWFURXRPRWN6TVRBellVTkRaWHBxU21sV1RrRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "bread was sooo goooddd love itt🩷🩷🩷🩷",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "bread was sooo goooddd love itt🩷🩷🩷🩷",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "natasya diva",
+        "uri": "https://www.google.com/maps/contrib/106845495379146482882/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWHgkUm9NsWVCuqezn3XG0llH3QNfk2s0eVB3pCq6rs9-ucvsx7=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-09-18T12:07:38.220340483Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2kxSWFURXRPRWN6TVRBellVTkRaWHBxU21sV1RrRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2kxSWFURXRPRWN6TVRBellVTkRaWHBxU21sV1RrRRAB!2m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xsalVWcFJla1ozYkZaaVJEUjNhVkE1TjFacFNXYxAB",
+      "relativePublishTimeDescription": "2 months ago",
+      "rating": 5,
+      "text": {
+        "text": "good taste!!!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "good taste!!!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "valerie anne",
+        "uri": "https://www.google.com/maps/contrib/112930978967258650762/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKmu5Pa6aiRFtFDljgKg3bkklKeEsEFlOvI7C9ws_IQu5gf3g=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-08-09T01:36:31.583624406Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xsalVWcFJla1ozYkZaaVJEUjNhVkE1TjFacFNXYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xsalVWcFJla1ozYkZaaVJEUjNhVkE1TjFacFNXYxAB!2m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMaCak-xzgvCyyRxORc9DVxwzZwEIdsfU4Fs_H0E5fmCr2icb37UWEBx5ti8cil_-2NBpwdSkpojIksPGpMltBFE1wJtQvsN2Zy7s0zIYX5nuxwy6vAXzLHSIk2SkfSVj2eAJ0y0YBuEbR7XZXm7IURl8bAWIfCDeIgkQpAyaa7bs7-eGJDi2nS5_P-geC-qnkDxQkjnFDhhKNn_82sgNwpsC5xjp7pKDJOu5XIZ7S13EDRXG_NdJXYqfa_k6kw3gejZ7QnzaF2IwNjgekbhV62nJbgazL2Vg0aPfR77_ZIcTOop6cDWqxJZUjEIs9N0PmQ2hlsj8a8J2jyGVdt-Whga7KhNwvr3LR0nEXJagpqnwgWXkPnsjby7Irs544LEgDruwSBDznAEIYXK2-zpqyyjai3fYXI",
+      "widthPx": 810,
+      "heightPx": 456,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Roti Ciracas",
+          "uri": "https://maps.google.com/maps/contrib/104598563549077434775",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWeOCZmAV6o6b0f6OQdeXuuO2-bBl66xlO-yrCyPt8DGUK_4jFv=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICm4_bClAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICm4_bClAE!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMbprtqyebtY1KsTf1CFG2vuytkaHq2PWGPVHUILgKocJksC1PofFXo9T6pnp2CN40j_fI8yaRl0H_U30tHnXTpdThwyKafwinAlgJzbmDh1tJOlZAEA2K4OZJ0AS58JlmfFyFJHRXrJs6oapJN_CyH71XtW9lq4Y7WAmvMiCLuLZsigZFG4-RCj9pwhfbtndSLnjaUsn-AqRapDsCHo6HE6aJ2hww6q1-RpYI-vz0WkCD7rPOu0hxIhFFiqGPT9hZrBhqdsv2hfhh6BcBxja8HTYWmuNndiEeHGULSCLnTTv__fUmGgWHSyrXZvDQU3YCYgCMloW81KObtbtoBjPZKddw7fkhKwfx9SPK8D_JO5o5KVUTOjVZuQnQZZrIGTW12JdbxejJaiw7HXXwKgklJ3kIM-Gcc",
+      "widthPx": 3264,
+      "heightPx": 2448,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Roti Ciracas",
+          "uri": "https://maps.google.com/maps/contrib/104598563549077434775",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWeOCZmAV6o6b0f6OQdeXuuO2-bBl66xlO-yrCyPt8DGUK_4jFv=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICC8JGgrAE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICC8JGgrAE!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMaH10w-jROYeAxPrCSsg3clenR_Ehha2Q9Iy6T2telQ5io-XZoaOiSNl-mRFOuhzXtzCTZcyyXi8HAlI6BAQqAchmMts5NxeIy8TItdMOJCH1L1zo6_XM6J9HzTRdIV7l0Ho25snbsBQbVWw4on2RzI_pKtGjJnXeiH1FwxI-YcwlOZrf3fcDiCNYRillYVpBQrB7OzAbUMdmqQVfC97kHNz0K-y7TQHNCeeyImHKHwiz41YIpxXceXhIoKEuBAvGFSwFVE4v7euMTUICF1eXVQ27luVyMPjfpbH9RVvaWPRaRtUYc9NpzcSeahyux0ap9lUL3NhqmIshjIW19N47ln1SWBX2c1nJseBPOhZZCc-aEvrgJyTnrc_4j3HSWXRs0ZZtNOyvEVWH7ja1qRkmzIoEqD-uw",
+      "widthPx": 535,
+      "heightPx": 417,
+      "authorAttributions": [
+        {
+          "displayName": "Verdy Imandaguna",
+          "uri": "https://maps.google.com/maps/contrib/106155179761227053653",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVhxGbkMTfPsMUipvAvKtHg1CNaTyhK0ywMgfKagv9VrV5qbw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDt38z20QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDt38z20QE!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMa0osZ0pbHVDzARmFYN4WHCwOXFq4k-EBQFYYCJ_1orBlTZyWKLOBgWl9N0yAeYJV1fFRvS53uolOtc4pfBRyCbRPNYZOoXB-3ktZ9R4LmouZdCiCTpTARYdk3jLlsxzvallujFbN1SYyHXuhdKeMavnkzhiZnqamKRNCRxPiaMgfSll4SNQRcP3nlR1cZmQzZA75MMZdh4e_roXGrNiK3Sq97t1t46s6eDtiLxZHwUIBrIyxlHW1qgHXYhwRUfeYHddJbxbSzFWf-9c7cFguDlHDK6TQdsOh0awTaP9dowhcHUHm8YqdKtPx82SCuHa8Jo43wWP2010aJvlfUWHAfOJBfp7rCMFhdjUu2X3LsHtwCONdOZJXXxKlAfQB1q7gfmfWFknV99ezuyt2YYuUuvxh0gvIlt9GODGuz9v3ia3A",
+      "widthPx": 2092,
+      "heightPx": 2384,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Roti Ciracas",
+          "uri": "https://maps.google.com/maps/contrib/104598563549077434775",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWeOCZmAV6o6b0f6OQdeXuuO2-bBl66xlO-yrCyPt8DGUK_4jFv=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAJQfwZXH1Fdc9SZ_9DsSBy&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAJQfwZXH1Fdc9SZ_9DsSBy!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMYhABvX-tPlx6-PimRR6HVI-VYE5QpQkBst5jz6VUHDorWnQJqjFK8QRNmtxm8WKhebBHV9Im8_wjKG_GWPW7-TYTlmhOuNRsf9qd3S46Of2ooCg5kfwMsKU6R-9fCCitUmnpbcuRl4fZCKVsJDvQoUnVW8p2GKRF1tTg8Rc4TcFpsAi56whZRtkt2uEa51INQs-jTN92TGrNO1WOxPT3m8pBNb8Fz24AuwCPO8BaTXRmhINC9mIWBfzrgOp6GnhUqXYMmSUw_cYGexv4OChkBG2cZFqm23vY7fOJd5bXdjsIzpFNJaR6x3_vv8Lrxf35Gh-1Y48wNXfiTpfVhLfBCC9g8n3dDyeVgCeyxpmxsMfv48G2zfHV-vPu2DKiEg5_NN4xWTIbOISvpE6HY35rOyBTr4GOB1UShaBYoPFLcoeQ",
+      "widthPx": 1599,
+      "heightPx": 1599,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Roti Ciracas",
+          "uri": "https://maps.google.com/maps/contrib/104598563549077434775",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWeOCZmAV6o6b0f6OQdeXuuO2-bBl66xlO-yrCyPt8DGUK_4jFv=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBLnbh-qS0lAAsdM-6EdNj_&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBLnbh-qS0lAAsdM-6EdNj_!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMZhYorpGjDf6FV20dv-PGB-WtegsHbYRAjytYPqnnEVM8rSaAnDs_QAeqrlCQj42wZszE0krws5RB77PyfnpqkuH5rJqIeCOiAQagqjAAD7jQCimNFKzCJJfRfqiOURlyHrYDLoabNusXSugDRG9_SapCrS1ao5GhUuCfJK2r4zlg2xVHvqmY2_zE3x9Av-4GqHSlK2VdVeZ7KGhsjuEa4lDEsf-s9sZCXqRAxNBlV-AlEqxmym67m5PSfo0SzyNyYYZoMg8CRKzYSdx0dszDY89ziE-izF8H4yo4ZXdGHK9-Ts5KC0VsrQhvtMyG1T15LPy7HKM8a95ss9qo6iSufY0Ag0XRGz1cNG4y3nnHwuSdp5W3UmxVJ0u2nhjYE6IznnJmYMljbAo6OTtX2EPXXliDZ26nPQwwi7RaIGq0beEQ",
+      "widthPx": 3060,
+      "heightPx": 4080,
+      "authorAttributions": [
+        {
+          "displayName": "Rulian Syah",
+          "uri": "https://maps.google.com/maps/contrib/110317444753709902708",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXEu0q0_EYe4u58ODTg8TX8vcVCJ6SAmDEpjmNgZDwuPKxXZdM=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCj6pXh9W8M4qQnwd-p_2bl&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCj6pXh9W8M4qQnwd-p_2bl!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMasgoHJV6whwUAtvr_9CJc9NoP-QhP9BwqIO0c-mF2yG35TiKcAoz43_uXAhkt7Mbw8UNzi2rP4Gy5o_LOTpQskTTPc5MAqUvkv0pXc8vDw80PyzXptPHTfMDhXEOdWialPrfMwcK8hdrA_H_0trEMb7_5_AuFjMMSo9OUDmcNE3X5WU7OX28ivpCH12HaqNCfCBVdTaMvjN5orLTc7ETscplzalXPLPbfnLuOHjnxuqupk_-jJ9gQ96T-53H0C-VKtMJ7cfO3PxmBAHYqbj546k1Inb14N-OI2UcZCYm5D2VDn5AFBS_asbTFBE8IyFsKtm-zTbj8FTzt82KaTSz12jQPgIRY2gK1UHxhXFIvHsh9piAuCSLgbwAmeDRKENQo18Dr_rRnVOBhIXh4mGrxj-dCLET9dOKD6V2aViJzE",
+      "widthPx": 1599,
+      "heightPx": 899,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Roti Ciracas",
+          "uri": "https://maps.google.com/maps/contrib/104598563549077434775",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWeOCZmAV6o6b0f6OQdeXuuO2-bBl66xlO-yrCyPt8DGUK_4jFv=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCpvfVCUMRWKXaR1ElREnH0&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCpvfVCUMRWKXaR1ElREnH0!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMZC1X2N-T-C1wWLabp7eNvfSbonap-Vl2LWxDXk2kwK4-JVoKHnBbwY8bBhF8MosZ0DpGXpjr4X9PUPupza_BX6aZSvrhy4K8kqVflwV_DDY0YIIQ8U7YuyRLgNFhFO5ETH7nKxx533lg1EAJhfDR5Kwu_eSwi-uX2WNnjIZrJ-tuuVKH9eSlqN4ZtdsskNSAbo5bZWsrC1gua_-rJT0rrN0uhC_XlMS1tX_vMH-U4dflEKrsjsWEBfeqkvQF70VOKN0YCzLIjxVienwhHVSl49a3Qsm6vswcIu4USdNgNrvuKMhoBfRJDgvEKEyiCDevPc5EEtCXdye5pPGw9o8QzjZNMkEa_Rg4uulhL48TVBS6gLBcfo9AuidQkUzBSLRsQIVdimmwDKO5r5FSRY0McoXMxED5M",
+      "widthPx": 2172,
+      "heightPx": 2308,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Roti Ciracas",
+          "uri": "https://maps.google.com/maps/contrib/104598563549077434775",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWeOCZmAV6o6b0f6OQdeXuuO2-bBl66xlO-yrCyPt8DGUK_4jFv=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDLyoTG4wE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDLyoTG4wE!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMb9Etgq2UrTm3r-JqARdxgSZfIkpjXDC5b8NkuVYoxMgNuJKR2SUhEXz3NPST99MgatSSGJ6oVwlr5wmkakVplYPqkDjJjxLduM4uk-iXHsfT5iUgQJu5us32eGysycH1vldXeCNwe3RaMgyh4VDQBV6Dqoars7CjXaiVoobMxsdk35HdOj7EFu-zXrqbIFmcc3eH43SLCDh8Vu6Otaa0sRieouDWKpDrof3f0rezAQa7T_eWLd2YYh1cDZB20Og_EgRCQGikFpseAEaDFurnIM6STLRA_tqGTK2lteWjFW02myj5dw1XLx8zM7Qggh8I5m5r9Lf1F-LYcZKR_cfWDmmcISq92h4-KuVsv7CYuqrPCcb9iNFFdlkxaK2Ce0SrzEce3x1btEzrgECthd6mVXq1LbQEzfxqo",
+      "widthPx": 1599,
+      "heightPx": 1599,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Roti Ciracas",
+          "uri": "https://maps.google.com/maps/contrib/104598563549077434775",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWeOCZmAV6o6b0f6OQdeXuuO2-bBl66xlO-yrCyPt8DGUK_4jFv=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhADoFHrel8Guha3NYZWP86J&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhADoFHrel8Guha3NYZWP86J!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    },
+    {
+      "name": "places/ChIJTagUebjtaS4RcqTIjCibZpM/photos/Aa-ngMbGnAC279Khr99IX4EmhSXGtUGCG0F8dpQ4Hqn6GZQiOUUB89A_ldRIQ2MU__41XNRknhNXDrlkzp9BIG0QKYdA_HK0XkgGIhjRCd-qX6ohWx0_NSULIJfxCACruJtClAkdjYg9nz_9_f7rUxazwST4zejpPIP-IjSgLGzXdU9PlaWUVmmeaVw6_u7AEz5V1l6xolV-CW26Q2FsaNumtBMscf3UTtht-bqtEdYmUSCC9gqoyuL77Jrk3_nY0NbP85kWoM_dKsKMGa_P_L40_MVPXjecs4IKa10AEYrH4EBJLCXPAU8uM2PKxmcZRcfNgCfFmfZHurejtcdSF-VCid1z8owH3A8kSR-24DI6J5iA6QRe0d0NpPtLjy9VsUDP1ab9yAWADp2X6EDLJB69BE_B27o",
+      "widthPx": 1080,
+      "heightPx": 877,
+      "authorAttributions": [
+        {
+          "displayName": "Rumah Roti Ciracas",
+          "uri": "https://maps.google.com/maps/contrib/104598563549077434775",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWeOCZmAV6o6b0f6OQdeXuuO2-bBl66xlO-yrCyPt8DGUK_4jFv=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICy1dXCPA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICy1dXCPA!2e10!4m2!3m1!1s0x2e69edb87914a84d:0x93669b288cc8a472"
+    }
+  ]
+}

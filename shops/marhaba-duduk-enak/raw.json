@@ -1,0 +1,379 @@
+{
+  "id": "ChIJp4_ZYX3zaS4RJqjlDvRoPEY",
+  "types": [
+    "cafe",
+    "family_restaurant",
+    "coffee_shop",
+    "food_store",
+    "store",
+    "restaurant",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0813-9938-5352",
+  "internationalPhoneNumber": "+62 813-9938-5352",
+  "formattedAddress": "Jl. Pahlawan Revolusi No.55, RT.3/RW.5, Pd. Bambu, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13430, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=5061035478688835622&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 21,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 9:00 PM",
+      "Tuesday: 8:00 AM – 9:00 PM",
+      "Wednesday: 8:00 AM – 9:00 PM",
+      "Thursday: 8:00 AM – 9:00 PM",
+      "Friday: 8:00 AM – 11:00 PM",
+      "Saturday: 8:00 AM – 11:00 PM",
+      "Sunday: 8:00 AM – 11:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 569,
+  "displayName": {
+    "text": "Marhaba! Coffee and Eatery",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xoWVZFSjNTVEpsU2tsVU1IWjJZWEZMYjJKYVJVRRAB",
+      "relativePublishTimeDescription": "8 months ago",
+      "rating": 5,
+      "text": {
+        "text": "first time coming here for wfc. tried their Kopi Susu Kurma and Caesar Salad. the espresso based for the Kopi Susu wasn't too strong for me, but not that light. guess they used sukkari dates in it bc it was kinda too sweet for me, but since it was date so it was acceptable.\n\nhas mushala, the wudhu place for women is separated.\n\nI loved the ambience—had no issue with no music concept cafe, the staff who served my coffee and salad were friendly, and didn't need to wait too long for them to be served. would say it was pleasant to come here.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "first time coming here for wfc. tried their Kopi Susu Kurma and Caesar Salad. the espresso based for the Kopi Susu wasn't too strong for me, but not that light. guess they used sukkari dates in it bc it was kinda too sweet for me, but since it was date so it was acceptable.\n\nhas mushala, the wudhu place for women is separated.\n\nI loved the ambience—had no issue with no music concept cafe, the staff who served my coffee and salad were friendly, and didn't need to wait too long for them to be served. would say it was pleasant to come here.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Nurul F",
+        "uri": "https://www.google.com/maps/contrib/117855776619564388340/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJI6iLm9qGQlYoGrzV-tYl4mFOr-4kpgw5YWySpe0HmDpvD-A=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2026-02-05T18:44:49.882171896Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xoWVZFSjNTVEpsU2tsVU1IWjJZWEZMYjJKYVJVRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xoWVZFSjNTVEpsU2tsVU1IWjJZWEZMYjJKYVJVRRAB!2m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/reviews/ChdDSUhNMG9nS0VJQ0FnSUNfLTVtQ3N3RRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 4,
+      "text": {
+        "text": "The cafe is located beside the 'G' mie resto. Parking lot can contain several cars and motors, not too many cars can be parked here.\n\nThe concept is semi outdoor and they provide with a quite big AC room. Recently, they provide also with kids area. Overall the athmosphere is quite cozy.\n\nThe good...hmm...quite good as I can not say 'special'. I ordered capucino with some foods at the picture.\n\nMy suggestion to the resto:\n- provide more wastafels to make easy for us washing our hands before eating\n- think you should consider abt the price\n- some music at the background -live- may add the ambience more enjoyable, rather than nothing to hear or sound of motors",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The cafe is located beside the 'G' mie resto. Parking lot can contain several cars and motors, not too many cars can be parked here.\n\nThe concept is semi outdoor and they provide with a quite big AC room. Recently, they provide also with kids area. Overall the athmosphere is quite cozy.\n\nThe good...hmm...quite good as I can not say 'special'. I ordered capucino with some foods at the picture.\n\nMy suggestion to the resto:\n- provide more wastafels to make easy for us washing our hands before eating\n- think you should consider abt the price\n- some music at the background -live- may add the ambience more enjoyable, rather than nothing to hear or sound of motors",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "A. Hidayat",
+        "uri": "https://www.google.com/maps/contrib/103178988946487660183/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUeyWDMx8uptFIPih02KJ1kKpSZP50nUlhkTy-3QOUzcHH_TOH2Rg=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-01-19T10:26:39.584922Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNfLTVtQ3N3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNfLTVtQ3N3RRAB!2m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/reviews/ChZDSUhNMG9nS0VJQ0FnTUNBaGY3ZUt3EAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Been going here since 2022 with my family and friends! We always like the ambience and the food, and it’s close to our house too. What I like even more is that Marhaba always improves their quality. They don’t use disposable utensil anymore, and the menus are even more better now!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Been going here since 2022 with my family and friends! We always like the ambience and the food, and it’s close to our house too. What I like even more is that Marhaba always improves their quality. They don’t use disposable utensil anymore, and the menus are even more better now!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Mega AF",
+        "uri": "https://www.google.com/maps/contrib/100817960203532593493/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJccjxRmIQf7Dd7oiUaZn58c3KLRPeA4M077PteCjn9jk3w-w=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2025-02-02T13:04:20.460483Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTUNBaGY3ZUt3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTUNBaGY3ZUt3EAE!2m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/reviews/Ci9DQUlRQUNvZENodHljRjlvT21FelpUTlFaSGRxY1dzM1ZuWXhRMWhuUjFGUFVGRRAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice salad and cofee…umm ali favorite",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice salad and cofee…umm ali favorite",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Agus AS",
+        "uri": "https://www.google.com/maps/contrib/107060017332277314625/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWwsgV7HR9BZSb0SOYyFzaGaRSiu4s8LwqPw7wL0Y8Ltp79UJQT=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2026-07-15T01:35:53.459474535Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21FelpUTlFaSGRxY1dzM1ZuWXhRMWhuUjFGUFVGRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21FelpUTlFaSGRxY1dzM1ZuWXhRMWhuUjFGUFVGRRAB!2m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/reviews/Ci9DQUlRQUNvZENodHljRjlvT2paSmNFMTRWVzgwWm04MFFVNTJlVVU0ZWxsMFYxRRAB",
+      "relativePublishTimeDescription": "11 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Food is fine. The place is good. Plenty of parking space. Services very good. This place is recomended",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Food is fine. The place is good. Plenty of parking space. Services very good. This place is recomended",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Kenny F B Ibnu",
+        "uri": "https://www.google.com/maps/contrib/106465459796741205343/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWkSepDGWZaUTriKqJl1J2oGRl0TrpxbVOz7wVkxBmRF8aeAvHR=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2025-11-02T03:51:50.917786676Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2paSmNFMTRWVzgwWm04MFFVNTJlVVU0ZWxsMFYxRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2paSmNFMTRWVzgwWm04MFFVNTJlVVU0ZWxsMFYxRRAB!2m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMaPCzRHioG0bbHF4V6xD3eF7V4Ia3AbdI0L8-MEvPtdKhOnXIbhazHB2--af0a1qDC9i2FioV_L9F4qswu-g7s7nJHMrl9EudgxVfeDrtAi5E6nEtVHO-L44p7IdNElfA2qTounT39xWzZagLgyFVq8cM8bPTB59KfkNVPCdAhACBNYrEb_isZbRiHcfR7GVcYTgUlcp4SEpIzJy9a9zOlP7c85TP56EdIjp-5J7JEaqKr1qIszKAfVgs-_PHKUAqirVDQahqCWv__TGE7NBf9fZZmHq864oCgG_v5sEWtlRULHZ3ub2GDJNnSq8DERHdw9yI70YqtwkrufBL9aJ8WtECJppYHu-yQ3SEFpH1JvgeTZjCwh2jwAWRHS_AbIKT4JNCZhAxpwaRkTHfAzsX3jCNfBDGW9HfzjElfIpJnR",
+      "widthPx": 1080,
+      "heightPx": 608,
+      "authorAttributions": [
+        {
+          "displayName": "Marhaba! Duduk Enak Makan Enak",
+          "uri": "https://maps.google.com/maps/contrib/117810849989722542086",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWtwzAqembbRAhw_zl-i_dgJV0VhrOgdGHOEo4i2XWojFixcrA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhByu7s_ZHAbTXbSJXZD5THl&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhByu7s_ZHAbTXbSJXZD5THl!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMbMvv6Hamtvec9YDJzAhJj5Em5chVU2muIYa13bTweGB3TFpWKuWEUpecrTk7SGFX09jFclQVyfBepE0oNHNe_bL1U1Zr1TIG6ASYqwsCGlQGGb79IvgegS9HMqcXWcdKDNQPlG7Is05B8snTISBgS-BNpfp1N1o32789YjIoreO2tRqbpuSbM7ZPiS6jSi4ui3-kyCFRQCBCxUqyO-a2pw3AzHoZ-O_g8_TDlWzNcHXEm7rY4ZUfU0c4b7Ieduu0lW4iTc5y86clwVg1YC7nRZONpL61-YCuzpi5wS129BH3M9H-oD5aWLaaUIHoGsKf52iC1AQ5JFr0O0fE8Cc3HetyRQg-aZsr1kkbdP57gUBzU3Y1FcJI02PJhC8rNmLHF_Lcjj35FBV9QjHvrVXRIRwn3uOvE153N5eknCve-WeQ",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Marhaba! Duduk Enak Makan Enak",
+          "uri": "https://maps.google.com/maps/contrib/117810849989722542086",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWtwzAqembbRAhw_zl-i_dgJV0VhrOgdGHOEo4i2XWojFixcrA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhASujYmNQrwX8OdSPjx78XP&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhASujYmNQrwX8OdSPjx78XP!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMauKwj_-ejV0TW1TcaEpuKH79CVVrKvmb0kVsdnm88kFZY7386PtmXfBpBveF2LdYKJs38CfoIqQJLn4hXWCRibsAz-lMbDfP8eMBxlnMDLAsDFoHM1qXXm8tZ7m3yHGOMADX77G_cCD9hPV3dyIkPW-q5CFbKssw0qV3gwkHMBo29pPaH9V8XWxa7IlkUAksNwdHmEgldeP-pUc983bB8k8Sb1wnasWlzUtnn63EnAzYs4-e0HPGxhrmrG3vTdLflTXQMHHNQdJjDT9W9X2fBNXaCVpZANjEnM_picTx-ybCabkEUDdwTNHgqEl8aVSWRATfI10F5DkgWJvgWbcEBlliSA1S4spyQoHRd29F44Ejyty4kce5m80dzVijocWlEqqqhD9r5Z623DDIJ6Xhf3VGSYHK-ewxMojAYzkE706Q",
+      "widthPx": 3120,
+      "heightPx": 4160,
+      "authorAttributions": [
+        {
+          "displayName": "Din",
+          "uri": "https://maps.google.com/maps/contrib/109112850676108601836",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIeVOmL-CFdOh43sfiwy3ih1ASkhZF9h2ICsgSzIjbW3PaFkUE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAPbBDPXj--gGya1c8xCC5E&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAPbBDPXj--gGya1c8xCC5E!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMY0rkvNbkhYXI_fmfNytayKVbkBE7Wnq6ApuAqqNzdwHSCXwQXQZXcm93DekwbG1d5s1LF3HY2EfVd_-chNXr8lG61UXjxJL6TQeKBV8fZ70G19U3eTbb2PBaxZM-QqS5Nz0iXDI2cDLsoO_uJODhCKUFxQCbvTEZlhA7Wj9QkEc2qPHUCB5G-QNSwxu2DVvG1e8UX3h5hVz2QhZipXvEhoOjAj1jh6MN7cuhjOdgQuWoWEq--7qDZgGQ5ipYSUktRivKyc6wsWa9HipTj4vkd8ajg3DDCfH5Md68qPJ6d7h6zbZozouZUvxqtaYO8FogEdrBI5XjnE7Y1dSCiYUgPS-nBLK8LE9nsGzcYu9-6LTaLheVw04nqu6ukJb6a5IpcSHIaK3SiVkwFOctLWXJHtrgehflodhv4wBtVjfSDcNg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Suci Sukmawati",
+          "uri": "https://maps.google.com/maps/contrib/117094414976288909141",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUI8qlJDb6y_ff1cb0lMp91Sf5wKGDWHMC36s_hKtTDTc5udzTc=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCFyOIq6caZq0hzthxxf2z-&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCFyOIq6caZq0hzthxxf2z-!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMZYVZO0yWICjjdTgNk_oqqsM5O61ZHdPB4bTqkV3-h0PN3akwOU2pvMib2666Jk0W9ZBHTTn9kTPT1pOk5_ekR-7FkYM9qOamkt9Bdc34Xi4a3eUhsjYhBT0s7My5vkGltlcB-FuzddCcE4FXikHzm2kwp2npEnK1UIV8TRWss9EwXtPP5uhA0AFrZnBwab8qoG0JPQx870_VAuk8q9WvwdXgj5W5k_H8jSr3FCvK5FW7NHWDKMUUjVtA-pxSmOfKbQZuPW5Zb7kG6FTuLQ4aFe0gc8ymKjA8g_hqpVYuEwk5K9IL2u_9BBarHMdj0fNAElDcF7m9Fpuc4GmVrVUzOoZyAn6PxybxZ1AOgnjm3umeO_WFILrQXurLMjDoOGO1E9sElDdjxhxyDe6gq058W2bNuQ5Cy1wtmSOoRhtyrWlw",
+      "widthPx": 960,
+      "heightPx": 1280,
+      "authorAttributions": [
+        {
+          "displayName": "Kiki Ayuningtyas",
+          "uri": "https://maps.google.com/maps/contrib/114186891777234104564",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK_yxeHaMQq_hsZCYeANsQNBPGIiCAITQ-BK3W5NWulU411TSE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDrtS3jO-H_Z6vwPn69oNQL&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDrtS3jO-H_Z6vwPn69oNQL!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMaSRY2I8Tx5JPkLvrhdJMnXgAHC0uARbeBHxyFiX6kl34kN3dMWYv0dNQWgsczTYAWAl0lQrkqMp9-4shDCB5A63FbSc0NZvOgKWIHb06D7KprbqmKCrBvFpRrP-59V8ihiumS0hJdk7BljqOuqGhs8VsoSLyf2TnG7Igz0EQ4U5iVJpXHPCe_9g5QCzNv4ePls33hFKqCtVczuAsBsPIwT5xT7VLndNjsIr47Shef7VG5Z8RftOnQNqh1B4m39yA47HdCwmMNxCghwNt0Y2sklwAQ8vu1ZjbiNDGOPcW7MGgN6Xhm5xZmwIjC5aBzDT6O9EX5nb4zyamWoT2Q6DBCyC9duxRk1UEAtWSKsxediAzlWPWav46m5meFBzY008NmXr710LxVJBS9rP0yArht_ziU4Nr63NSPGIaKxHmDU3g",
+      "widthPx": 3060,
+      "heightPx": 4080,
+      "authorAttributions": [
+        {
+          "displayName": "Agung Dwi-Handoyo",
+          "uri": "https://maps.google.com/maps/contrib/109073181532440762652",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKpjyF4icthZ5DSXZT5vLYjC1C1u3hcl2R4eiOaPg3ZXnvnHA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDcJxGcrEsB_MUNPkFyO21i&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDcJxGcrEsB_MUNPkFyO21i!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMZMG3tLbA4h5CHxt7FtPlBjFBOzTaRcA71Zp4Sn55ijjzbtQnOH_AwDggCRzAT35SxM4OzG4YZqfDmv1gxWK-9_fXMwpA366iAvA7DdnK6yu8CWtMwjw11g-0sgJyDSS9f3g0PnoszJb3rRa9wzfWB28_tXNHKOzsLROYH-l3Fa7aZXeQzTcd6Q0kzMVpcdd39POe1_hhm8lST1LGFBPBwXribR4l_bOMM1VGBuGi2KcoWFI49_L1A9RiIqV0DGRBQcwFhjc4s4UjLwTvpU0rz6QAvxGHgUoTZvd2Z-wPu5_VbHaKxh66X8LUxhwyBfTS_e60mgSqo6W79udivWh5672DbZYNxjFlG9w6oQMmT_GHDG2uPrwpCMBXPeplIuF_EKx_piD-NzTK3KBobXOlZXK6Ag0sICRzcqRHVO_gr06A",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "M. Maulana Z. Pramersyah",
+          "uri": "https://maps.google.com/maps/contrib/108007076858404974301",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX_dhxQYWt0-RIfC8OBpQZ3fDWWmP64Xew6WSXUKk2v2hI42QjR=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBdbVvQEzJ6nL84yotQc88_&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBdbVvQEzJ6nL84yotQc88_!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMYz2w6MZ0TgoV6eEQJ3P68IvMCDQke5tJ-JwXGuRJxon6wWvCIpS5moi08G0oKRNdOaxS-yOZ_CIivItl1L31oEPRvLUWH-zC_rVEfHolWSeFSWFbdi-KXZ42mX7C4ESkfpQljEG1iCOA1FKhFq0D_X-tH1yNfx0YThpqDMCeHugtedEdBfiU880Gp8PbqboK5xYxlxz5R2qMcvIHT0MvJvwlQHBgncvuW1BSTcx4YnIa9sHSQoTaZCMxr9NKdoXOUQwBL2sJhDQk6eN-NuaNtpC0MRII4S47dTzRQAAPtZ1YQTo_gAtUStmLD_foMt4YzgHsEGKixekj7cdhI-C8i2G7aABE_IrGDT6RIEs_EoU5Iwg_1Tt0eIa9czqCpr1zYFuuf2u0RE-Dgec5ZERPze-MIc-rSaMObPtoXogm16mA",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Dana Melisa",
+          "uri": "https://maps.google.com/maps/contrib/117896562882880758910",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWAmWkeHU8uqSaTjgtdWOCVT8KGk6_-wboT4G2la7xb_ndtMuiDrA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDg4QiyfS9exsj5T2uT4GUi&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDg4QiyfS9exsj5T2uT4GUi!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMb74QkAPm3B9guQjVxxVRicSXC0M7GXofeuAjexErkW_8TuitW7R_jYkAkAy9oheE3QGhDVnOJsVcws-HwIctLUmZ59dt-oAMMVymlU-HsDiA4mde3eziqDJNfdH4Wo894qQu_wac-dpXgCDA_AXbVTa9jO4_kxfZD7wEqI5H2t8c93W0NrtCRdv_BY0wJbJJuaGEGKzazd5PhLjArJnvulPzsLPAc4uXYIAkcxRQ_TB7gbVVkSexHfqdXaFd6-FIcM3WaVpD_YKrXnFd95BFKErWOKli5UDOa-BWkPO3o18AlyUtvdthKux2yV_b65kEMdAQ1twfXtWKOFBOLTt1ZRzK84wlfwzC4kSE72BZsIXhK2hPLwrL6lmxplWzrMsHOvg9d6O8cJGXuJ2b9OXLP_Rw_jzOVlT_uBU1V8VzSr",
+      "widthPx": 3468,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "Bunga Mayang",
+          "uri": "https://maps.google.com/maps/contrib/107785433870663663706",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWX3fpgbAoTj-TMfydo2bfkFV-YjIpnO3capW8f6xSkCbCJ2Y0H=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhACUfPxZV1QYc7K5qtuhVvf&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhACUfPxZV1QYc7K5qtuhVvf!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    },
+    {
+      "name": "places/ChIJp4_ZYX3zaS4RJqjlDvRoPEY/photos/Aa-ngMa8T0rhws35wik7OR0m6AIglw_f_PSYVkJJwakrf4F9a5YO4FMLBq4mz0xKtCtnGwa7PxaG2-GvClUGOt_bH_sY9LVFgv8Sp_V9bo3k1SloQNPL3AUbZIxwaXvtKei6fdPc3jOIMbbHHlslGJoOTLGpjbeWLiSYxf4YL6PvtMLM-CYkQ7n5J8Jz5YIvp3bofcWS5X6L96IxLd41609Ijoy-WxNrkPxC_STIlsqyq0__92UrZwrshLa54pIpAUXN5zi4J6zsNpvVmGp6cHxclbnUHB5OaQq14fr9wRsU872UMhcABUkrk6OXFrvqgGyu0DX0a1jNB8XiTc00CVBBZeApfC5shyKE0eBLEPzSh_i52OuFuhAbaPZUsbBUDG7vNtbh6-ABdElzpH93oVyZ_YjJU5eTP9PWiYLZOYxDdvm79A",
+      "widthPx": 3468,
+      "heightPx": 4624,
+      "authorAttributions": [
+        {
+          "displayName": "Bunga Mayang",
+          "uri": "https://maps.google.com/maps/contrib/107785433870663663706",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWX3fpgbAoTj-TMfydo2bfkFV-YjIpnO3capW8f6xSkCbCJ2Y0H=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCsw7Acbd5lwiNVxkZhnDdH&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCsw7Acbd5lwiNVxkZhnDdH!2e10!4m2!3m1!1s0x2e69f37d61d98fa7:0x463c68f40ee5a826"
+    }
+  ]
+}

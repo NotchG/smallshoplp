@@ -1,0 +1,494 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6588,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"OSMO COFFEE & EATERY\"",
+        "fontSize": 16.1,
+        "lineHeight": "25.017px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "span \"OSMO\"",
+        "fontSize": 64,
+        "lineHeight": "57.6px",
+        "textWidth": 280,
+        "pctOfContentWidth": 80
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 26.6,
+        "lineHeight": "29.271px",
+        "textWidth": 250,
+        "pctOfContentWidth": 71
+      },
+      {
+        "el": "h3 \"Rice Bowl Chicken Salted Egg · Rp 45rb\"",
+        "fontSize": 18,
+        "lineHeight": "25.2px",
+        "textWidth": 168,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Rice Bowl Cumi Sambal · Rp 45rb\"",
+        "fontSize": 18,
+        "lineHeight": "25.2px",
+        "textWidth": 140,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Rice Bowl Beef Sambal · Rp 45rb\"",
+        "fontSize": 18,
+        "lineHeight": "25.2px",
+        "textWidth": 140,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Juga dari dapur\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 139,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#praise-title \"KATA MEREKA\"",
+        "fontSize": 26.6,
+        "lineHeight": "29.271px",
+        "textWidth": 209,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Rasanya pas\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 109,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Cepat dan perhatian\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 182,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Enak buat kerja\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 138,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Kopi pagi dari jam 8\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 184,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#bar-title \"DARI BAR KOPI\"",
+        "fontSize": 26.6,
+        "lineHeight": "29.271px",
+        "textWidth": 226,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 41,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 82,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Canned series\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#space-title \"KERJA, NONGKRONG, NOBAR\"",
+        "fontSize": 26.6,
+        "lineHeight": "29.271px",
+        "textWidth": 332,
+        "pctOfContentWidth": 95
+      },
+      {
+        "el": "h3 \"Kerja\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 46,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Nongkrong\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 102,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Nobar\"",
+        "fontSize": 20.4,
+        "lineHeight": "26.455px",
+        "textWidth": 57,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2 \"KUNJUNGI KAMI\"",
+        "fontSize": 26.6,
+        "lineHeight": "29.271px",
+        "textWidth": 243,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h2 \"HUBUNGI KAMI\"",
+        "fontSize": 26.6,
+        "lineHeight": "29.271px",
+        "textWidth": 231,
+        "pctOfContentWidth": 66
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 35
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6738,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"OSMO COFFEE & EATERY\"",
+        "fontSize": 16.9,
+        "lineHeight": "26.1888px",
+        "textWidth": 704,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "span \"OSMO\"",
+        "fontSize": 85.1,
+        "lineHeight": "76.608px",
+        "textWidth": 372,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 33.8,
+        "lineHeight": "37.1712px",
+        "textWidth": 318,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Rice Bowl Chicken Salted Egg · Rp 45rb\"",
+        "fontSize": 22.2,
+        "lineHeight": "31.136px",
+        "textWidth": 146,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Rice Bowl Cumi Sambal · Rp 45rb\"",
+        "fontSize": 22.2,
+        "lineHeight": "31.136px",
+        "textWidth": 173,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Rice Bowl Beef Sambal · Rp 45rb\"",
+        "fontSize": 22.2,
+        "lineHeight": "31.136px",
+        "textWidth": 173,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Juga dari dapur\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 152,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#praise-title \"KATA MEREKA\"",
+        "fontSize": 33.8,
+        "lineHeight": "37.1712px",
+        "textWidth": 265,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Rasanya pas\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 119,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Cepat dan perhatian\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 199,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Enak buat kerja\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 151,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Kopi pagi dari jam 8\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 201,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#bar-title \"DARI BAR KOPI\"",
+        "fontSize": 33.8,
+        "lineHeight": "37.1712px",
+        "textWidth": 287,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 45,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 89,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Canned series\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 140,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#space-title \"KERJA, NONGKRONG, NOBAR\"",
+        "fontSize": 33.8,
+        "lineHeight": "37.1712px",
+        "textWidth": 573,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h3 \"Kerja\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 50,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Nongkrong\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 112,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Nobar\"",
+        "fontSize": 22.2,
+        "lineHeight": "28.912px",
+        "textWidth": 62,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2 \"KUNJUNGI KAMI\"",
+        "fontSize": 33.8,
+        "lineHeight": "37.1712px",
+        "textWidth": 308,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2 \"HUBUNGI KAMI\"",
+        "fontSize": 33.8,
+        "lineHeight": "37.1712px",
+        "textWidth": 293,
+        "pctOfContentWidth": 42
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 35
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5497,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"OSMO COFFEE & EATERY\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 588,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "span \"OSMO\"",
+        "fontSize": 120,
+        "lineHeight": "108px",
+        "textWidth": 524,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#menu-title \"MENU ANDALAN\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 414,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Rice Bowl Chicken Salted Egg · Rp 45rb\"",
+        "fontSize": 24,
+        "lineHeight": "33.6px",
+        "textWidth": 224,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Rice Bowl Cumi Sambal · Rp 45rb\"",
+        "fontSize": 24,
+        "lineHeight": "33.6px",
+        "textWidth": 187,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Rice Bowl Beef Sambal · Rp 45rb\"",
+        "fontSize": 24,
+        "lineHeight": "33.6px",
+        "textWidth": 187,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Juga dari dapur\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 164,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#praise-title \"KATA MEREKA\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 345,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Rasanya pas\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 129,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Cepat dan perhatian\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 215,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Enak buat kerja\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 163,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Kopi pagi dari jam 8\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 217,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#bar-title \"DARI BAR KOPI\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 373,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 48,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 96,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Canned series\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 151,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#space-title \"KERJA, NONGKRONG, NOBAR\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 549,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Kerja\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 54,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"Nongkrong\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 121,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Nobar\"",
+        "fontSize": 24,
+        "lineHeight": "31.2px",
+        "textWidth": 67,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2 \"KUNJUNGI KAMI\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 401,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2 \"HUBUNGI KAMI\"",
+        "fontSize": 44,
+        "lineHeight": "48.4px",
+        "textWidth": 382,
+        "pctOfContentWidth": 32
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 35
+  }
+}

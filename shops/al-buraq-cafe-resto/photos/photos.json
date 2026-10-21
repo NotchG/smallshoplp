@@ -1,0 +1,20 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "ALBURAQ CAFE & RESTO",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "ALBURAQ CAFE & RESTO",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "ALBURAQ CAFE & RESTO",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

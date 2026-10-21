@@ -1,0 +1,282 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–5.
+   Colours and fonts become Tailwind utilities (bg-bata, text-kapur, font-script...). */
+@theme inline {
+  --color-bata: #8a3a2a;      /* brick: hero + Hubungi ground, prices on Kapur */
+  --color-arang: #1c1a18;     /* black wall, awning stripe: night band, Malam, tiles, footer */
+  --color-kapur: #f7f6f2;     /* white window frames: Menu + Kunjungi ground */
+  --color-lampu: #f4b740;     /* string-light glow: bulbs, primary button. Never text on Kapur */
+  --color-tegel: #4e5e70;     /* blue-grey floor tiles: Kata mereka ground */
+  --color-terakota: #b4703f;  /* table-tile terracotta: illustration only */
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  --font-script: var(--font-yellowtail), cursive;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 75rem;                                   /* 1200px */
+  --gutter: clamp(1.25rem, 0.6rem + 2.6vw, 2.5rem);     /* 20px phone / 40px desktop */
+  --section-y: clamp(4rem, 2.6rem + 5vw, 7rem);         /* 64px phone / 112px desktop */
+
+  --step-display: clamp(3rem, 1rem + 10vw, 7.5rem);     /* 55px @390, 120px @1440 */
+  --step-head: clamp(1.875rem, 1.3rem + 2.4vw, 3rem);   /* 30 → 48px */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.6vw, 1.625rem); /* 22 → 26px */
+  --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.125rem); /* 17 → 18px */
+  --step-small: clamp(0.8125rem, 0.78rem + 0.1vw, 0.875rem); /* 13 → 14px */
+
+  --leading-display: 0.9;
+  --leading-head: 1.1;
+  --leading-lead: 1.3;
+  --leading-body: 1.6;
+  --leading-small: 1.5;
+
+  --band-h: 56px;      /* night band */
+  --awning-h: 44px;    /* awning valance */
+  --stripe: 18px;      /* awning stripe width */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Secondary text, tinted from each ground's foreground (never grey). */
+  --kapur-soft: color-mix(in srgb, var(--color-kapur) 86%, transparent);
+  --arang-soft: color-mix(in srgb, var(--color-arang) 78%, transparent);
+}
+@media (min-width: 1024px) {
+  :root { --band-h: 80px; --awning-h: 60px; --stripe: 24px; }
+}
+
+html {
+  background: var(--color-arang);
+  color: var(--color-arang);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-sans);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  background: var(--color-kapur);
+}
+::selection { background: var(--color-lampu); color: var(--color-arang); }
+:focus-visible { outline: 3px solid var(--ring, currentColor); outline-offset: 3px; }
+
+/* Component classes sit in a layer so Tailwind utilities can override them. */
+@layer components {
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: var(--leading-lead); }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: var(--leading-small); }
+
+/* Section heading: tall, clean capitals like the façade letters. */
+.h-section {
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-wrap: balance;
+}
+/* Small spaced capitals (KEDAI, ROTI & KOPI, menu group titles). */
+.caps-wide { text-transform: uppercase; letter-spacing: 0.22em; }
+.caps-wider { text-transform: uppercase; letter-spacing: 0.32em; }
+
+/* Grounds: each colour owns whole sections. --ring sets the focus colour (TRD). */
+.ground-bata  { background: var(--color-bata);  color: var(--color-kapur); --ring: var(--color-kapur); --soft: var(--kapur-soft); }
+.ground-arang { background: var(--color-arang); color: var(--color-kapur); --ring: var(--color-lampu); --soft: var(--kapur-soft); }
+.ground-kapur { background: var(--color-kapur); color: var(--color-arang); --ring: var(--color-arang); --soft: var(--arang-soft); }
+.ground-tegel { background: var(--color-tegel); color: var(--color-kapur); --ring: var(--color-kapur); --soft: var(--kapur-soft); }
+.text-soft { color: var(--soft); }
+
+/* Skip link */
+.skip-link {
+  position: absolute; left: 12px; top: -100px; z-index: 50;
+  background: var(--color-lampu); color: var(--color-arang);
+  padding: 10px 16px; font-weight: 500; --ring: var(--color-arang);
+}
+.skip-link:focus { top: 12px; }
+
+/* ---------- Mockup banner ---------- */
+.mockup-banner {
+  font-size: var(--step-small); line-height: 1.4; text-align: center; padding: 8px 16px;
+  background: var(--color-kapur); color: var(--color-arang);
+}
+
+/* ---------- Night band + garland ---------- */
+.night-band { height: var(--band-h); background: var(--color-arang); overflow: hidden; }
+.garland { display: block; width: 100%; height: 100%; }
+/* Bulbs are lit in markup. With JS, the hero garland starts dark and GSAP switches it on.
+   If GSAP never runs, a CSS fallback lights it after 2.5s. Reduced motion: lit, static. */
+html.js .garland--animated:not([data-ready]) .bulb-on {
+  opacity: 0;
+  animation: bulb-fallback 0.4s ease-out 2.5s forwards;
+}
+@keyframes bulb-fallback { to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  html.js .garland--animated:not([data-ready]) .bulb-on { opacity: 1; animation: none; }
+}
+
+/* ---------- Awning valance ---------- */
+/* Canvas, not flat bars. The dark stripes are Arang lifted 10% towards Kapur (black cloth
+   under lights), so the awning keeps its own silhouette against the Arang night band.
+   Soft fold shading, a fold line where canopy meets flap, and the 4px Arang hem line. */
+.awning {
+  --awning-dark: color-mix(in srgb, var(--color-arang) 88%, var(--color-kapur));
+  --awning-wash: linear-gradient(to bottom, transparent, transparent);
+  height: var(--awning-h);
+  background:
+    var(--awning-wash),
+    linear-gradient(to bottom,
+      color-mix(in srgb, var(--color-arang) 22%, transparent),
+      transparent 26%,
+      transparent 60%,
+      color-mix(in srgb, var(--color-arang) 30%, transparent) 60% 63%,
+      transparent 63%),
+    repeating-linear-gradient(90deg,
+      transparent 0 var(--stripe),
+      color-mix(in srgb, var(--color-arang) 9%, transparent) var(--stripe),
+      transparent calc(1.4 * var(--stripe)),
+      color-mix(in srgb, var(--color-arang) 7%, transparent) calc(2 * var(--stripe))),
+    repeating-linear-gradient(90deg,
+      var(--awning-dark) 0 var(--stripe),
+      var(--color-kapur) var(--stripe) calc(2 * var(--stripe)));
+  border-bottom: 4px solid var(--color-arang);
+}
+/* Hero awning: warm light from the string lights above falls on its top edge. */
+.awning--lit {
+  --awning-wash: linear-gradient(to bottom, color-mix(in srgb, var(--color-lampu) 30%, transparent), transparent 42%);
+}
+
+/* ---------- Sign name (hero h1) ---------- */
+/* Jost's text box is 1.445em tall, so at line-height 0.9 MALABAR's box spills ~0.27em above
+   and below its line. The margins keep KEDAI and ROTI & KOPI clear of it. */
+.sign { display: inline-flex; flex-direction: column; align-items: stretch; }
+.sign h1 { font-size: var(--step-display); line-height: var(--leading-display); font-weight: 400; }
+.sign-kedai {
+  display: block; font-size: var(--step-lead); line-height: 1.1; font-weight: 400;
+  text-transform: uppercase; letter-spacing: 0.22em; margin-bottom: 0.18em;
+}
+.sign-malabar {
+  display: block; font-size: var(--step-display); line-height: var(--leading-display);
+  font-weight: 400; text-transform: uppercase; letter-spacing: 0.04em; margin-right: -0.04em;
+  white-space: nowrap; padding-top: 0.28em; margin-bottom: 0.28em; /* padding: no margin collapse with KEDAI */
+}
+.sign-sub {
+  font-size: var(--step-lead); line-height: 1.2; text-transform: uppercase;
+  letter-spacing: 0.32em; margin-right: -0.32em; text-align: right; margin-top: 0.13em;
+}
+
+/* ---------- Status line ---------- */
+.status { display: flex; align-items: center; gap: 10px; min-height: 1.6em; }
+.status-bulb { flex: none; width: 26px; height: 26px; }
+.status-bulb .bulb-on { opacity: 0; }
+.status-bulb[data-state="open"] .bulb-on { opacity: 1; }
+@media (max-width: 379px) { .status { min-height: 3.2em; } }
+
+/* ---------- Arch window ---------- */
+.arch {
+  position: relative; aspect-ratio: 3 / 4; overflow: hidden;
+  border: 10px solid var(--color-kapur); border-radius: 999px 999px 0 0;
+  background: var(--color-arang);
+}
+.arch--grounded { border-bottom: 0; }
+.arch img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.arch-muntin { position: absolute; background: var(--color-kapur); pointer-events: none; }
+.arch-muntin--v { top: 0; bottom: 0; left: 50%; width: 4px; transform: translateX(-50%); }
+.arch-muntin--h { left: 0; right: 0; height: 4px; top: 37.5%; transform: translateY(-50%); }
+
+/* Yellowtail, once: "Malabar" in the Malam heading, like the script on the black feature wall. */
+.script-word {
+  display: block; font-family: var(--font-script); font-weight: 400; text-transform: none;
+  letter-spacing: 0; font-size: 1.3em; line-height: 1.05; color: var(--color-lampu);
+  padding-left: 0.5em; margin-top: 0.05em;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  position: relative;
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.6em;
+  min-height: 48px; padding: 0 1.35em; border-radius: 999px;
+  font-size: var(--step-body); font-weight: 500; line-height: 1.2; text-decoration: none;
+  transition: transform 180ms var(--ease-out-expo);
+}
+.btn svg { flex: none; width: 1.15em; height: 1.15em; }
+@media (hover: hover) {
+  .btn:hover { transform: translateY(-2px); }
+}
+.btn:active { transform: scale(0.98); transition-duration: 150ms; }
+.btn-lampu { background: var(--color-lampu); color: var(--color-arang); }
+.btn-outline { border: 2px solid currentColor; }
+.btn-edge { border: 2px solid var(--color-arang); }   /* lampu button on Kapur keeps a visible edge */
+.ig-placeholder { border: 2px dashed color-mix(in srgb, currentColor 55%, transparent); border-radius: 999px; }
+@media (prefers-reduced-motion: reduce) {
+  .btn:hover, .btn:active { transform: none; }
+}
+.link {
+  text-decoration: underline; text-underline-offset: 0.25em; text-decoration-thickness: 1px;
+}
+.link:hover { text-decoration-thickness: 2px; }
+
+/* ---------- Dish tiles ---------- */
+.tiles { display: grid; grid-template-columns: 1fr 1fr; column-gap: 2px; row-gap: 28px; }
+.tiles > .dish--wide { grid-column: 1 / -1; }
+@media (min-width: 768px) {
+  .tiles { grid-template-columns: 1fr 1fr 20px 1fr 1fr 20px 1fr; }
+  .tiles > .dish:nth-child(3) { grid-column: 4; }
+  .tiles > .dish:nth-child(4) { grid-column: 5; }
+  .tiles > .dish--wide { grid-column: 7; }
+}
+.tile { position: relative; aspect-ratio: 1; background: var(--color-arang); overflow: hidden; }
+.dish--wide .tile { aspect-ratio: 2 / 1; }
+@media (min-width: 768px) { .dish--wide .tile { aspect-ratio: 1; } }
+.tile-corner { position: absolute; height: 22%; aspect-ratio: 1; }
+.tile-corner--tl { top: 0; left: 0; }
+.tile-corner--tr { top: 0; right: 0; transform: scaleX(-1); }
+.tile-corner--bl { bottom: 0; left: 0; transform: scaleY(-1); }
+.tile-corner--br { bottom: 0; right: 0; transform: scale(-1, -1); }
+.tile-dish { position: absolute; inset: 0; width: 100%; height: 100%; }
+.dish figcaption { margin-top: 10px; padding-right: 12px; }
+
+/* ---------- Menu list ---------- */
+.menu-item { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 12px; }
+.price { color: var(--color-bata); font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* ---------- Hours table ---------- */
+.hours { width: 100%; max-width: 22rem; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.hours th, .hours td { padding: 9px 12px; text-align: left; font-weight: 400; vertical-align: baseline; }
+.hours td { text-align: right; white-space: nowrap; }
+.hours tr + tr th, .hours tr + tr td { border-top: 1px solid color-mix(in srgb, var(--color-arang) 14%, transparent); }
+.hours tr[data-today] { background: color-mix(in srgb, var(--color-lampu) 32%, var(--color-kapur)); }
+.hours tr[data-today] th, .hours tr[data-today] td { font-weight: 600; }
+.hours .late { color: var(--color-bata); font-weight: 600; }
+.today-tag {
+  display: inline-block; margin-left: 12px; font-size: var(--step-small); font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+/* ---------- Map ---------- */
+.map {
+  position: relative; aspect-ratio: 4 / 3; overflow: hidden;
+  background: color-mix(in srgb, var(--color-arang) 9%, var(--color-kapur));
+}
+.map iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+} /* end @layer components */
+
+/* ---------- Lenis ---------- */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

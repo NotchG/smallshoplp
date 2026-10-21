@@ -1,0 +1,536 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 8102,
+    "sizes": [
+      {
+        "el": "h1#hero-judul \"INDOKOPI\"",
+        "fontSize": 45.8,
+        "lineHeight": "41.256px",
+        "textWidth": 271,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h2#menu-judul \"MENU ANDALAN\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 217,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h3 \"Caramel Latte\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 154,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Matcha Latte\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 143,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Es Kopi Susu Indokopi\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 157,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Indomie Goreng + Tahu\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 161,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 47,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 97,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"MAKANAN\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 100,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#promo-judul \"PROMO\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 103,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"BELI 3 GRATIS 1\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 149,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"PROMO BESTIE BERDUA\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 233,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h3 \"PROMO FAVORITE BESTIE\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 171,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h3 \"WORKSPACE\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 126,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"PROMO NIGHT HEALING\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 231,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"BIRTHDAY TREAT\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 166,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#cwt-judul \"Coffee · Work · Thrift\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 325,
+        "pctOfContentWidth": 93
+      },
+      {
+        "el": "h3 \"Coffee\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 71,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Work\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 62,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Thrift\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 66,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#kata-judul \"KATA MEREKA\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 190,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#kunjungi-judul \"KUNJUNGI KAMI\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 219,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 23.1,
+        "lineHeight": "27.744px",
+        "textWidth": 101,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#hubungi-judul \"HUBUNGI KAMI\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 202,
+        "pctOfContentWidth": 58
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 34
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 8082,
+    "sizes": [
+      {
+        "el": "h1#hero-judul \"INDOKOPI\"",
+        "fontSize": 67,
+        "lineHeight": "60.3072px",
+        "textWidth": 396,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h2#menu-judul \"MENU ANDALAN\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.8448px",
+        "textWidth": 276,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Caramel Latte\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 174,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Matcha Latte\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 162,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Es Kopi Susu Indokopi\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 277,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Indomie Goreng + Tahu\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 288,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 54,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 110,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"MAKANAN\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#promo-judul \"PROMO\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.8448px",
+        "textWidth": 131,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"BELI 3 GRATIS 1\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 169,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"PROMO BESTIE BERDUA\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 168,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"PROMO FAVORITE BESTIE\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 193,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"WORKSPACE\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 142,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"PROMO NIGHT HEALING\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 158,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"BIRTHDAY TREAT\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 188,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#cwt-judul \"Coffee · Work · Thrift\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.8448px",
+        "textWidth": 413,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"Coffee\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 80,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Work\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 71,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Thrift\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 74,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#kata-judul \"KATA MEREKA\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.8448px",
+        "textWidth": 242,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#kunjungi-judul \"KUNJUNGI KAMI\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.8448px",
+        "textWidth": 278,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 26.1,
+        "lineHeight": "31.3728px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#hubungi-judul \"HUBUNGI KAMI\"",
+        "fontSize": 40.8,
+        "lineHeight": "44.8448px",
+        "textWidth": 257,
+        "pctOfContentWidth": 37
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 34
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5885,
+    "sizes": [
+      {
+        "el": "h1#hero-judul \"INDOKOPI\"",
+        "fontSize": 91,
+        "lineHeight": "81.8986px",
+        "textWidth": 538,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#menu-judul \"MENU ANDALAN\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 352,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Caramel Latte\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 186,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Matcha Latte\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 173,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Es Kopi Susu Indokopi\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 190,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Indomie Goreng + Tahu\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 195,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 58,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"NON-KOPI\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 118,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"MAKANAN\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 122,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#promo-judul \"PROMO\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 167,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"BELI 3 GRATIS 1\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 181,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"PROMO BESTIE BERDUA\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 282,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"PROMO FAVORITE BESTIE\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 301,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"WORKSPACE\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 152,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"PROMO NIGHT HEALING\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 279,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"BIRTHDAY TREAT\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 201,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#cwt-judul \"Coffee · Work · Thrift\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 528,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Coffee\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 86,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Work\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 76,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Thrift\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 80,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#kata-judul \"KATA MEREKA\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 308,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#kunjungi-judul \"KUNJUNGI KAMI\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 355,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 28,
+        "lineHeight": "33.6px",
+        "textWidth": 122,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#hubungi-judul \"HUBUNGI KAMI\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 328,
+        "pctOfContentWidth": 27
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 34
+  }
+}

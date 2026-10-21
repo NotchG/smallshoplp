@@ -1,0 +1,368 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7931,
+    "sizes": [
+      {
+        "el": "h1 \"Kaneki\"",
+        "fontSize": 45.4,
+        "lineHeight": "49.896px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 187,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Daftar menu\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 121,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#brew-title \"Seduh manual\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 190,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h3 \"Contoh biji\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 106,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Susu nabati tersedia\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 200,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#suasana-title \"Suasana\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 115,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3#panel-inside \"Di dalam\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 85,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3#panel-outside \"Di luar\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 64,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 169,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"Kopinya kuat dan berasa\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 239,
+        "pctOfContentWidth": 68
+      },
+      {
+        "el": "h3 \"Butter croissant\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 157,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Enak untuk kerja\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 161,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h3 \"Dekat rumah\"",
+        "fontSize": 22,
+        "lineHeight": "29.7px",
+        "textWidth": 123,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 188,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 184,
+        "pctOfContentWidth": 53
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 54
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6727,
+    "sizes": [
+      {
+        "el": "h1 \"Kaneki\"",
+        "fontSize": 59.3,
+        "lineHeight": "65.1974px",
+        "textWidth": 168,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 230,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Daftar menu\"",
+        "fontSize": 23.8,
+        "lineHeight": "32.184px",
+        "textWidth": 132,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#brew-title \"Seduh manual\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 234,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Contoh biji\"",
+        "fontSize": 23.8,
+        "lineHeight": "32.184px",
+        "textWidth": 115,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Susu nabati tersedia\"",
+        "fontSize": 23.8,
+        "lineHeight": "32.184px",
+        "textWidth": 217,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#suasana-title \"Suasana\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 142,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3#panel-inside \"Di dalam\"",
+        "fontSize": 23.8,
+        "lineHeight": "32.184px",
+        "textWidth": 92,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3#panel-outside \"Di luar\"",
+        "fontSize": 23.8,
+        "lineHeight": "32.184px",
+        "textWidth": 69,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 208,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Kopinya kuat dan berasa\"",
+        "fontSize": 23.8,
+        "lineHeight": "32.184px",
+        "textWidth": 259,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Butter croissant\"",
+        "fontSize": 23.8,
+        "lineHeight": "32.184px",
+        "textWidth": 170,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Enak untuk kerja\"",
+        "fontSize": 23.8,
+        "lineHeight": "32.184px",
+        "textWidth": 175,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Dekat rumah\"",
+        "fontSize": 23.8,
+        "lineHeight": "32.184px",
+        "textWidth": 134,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 231,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 227,
+        "pctOfContentWidth": 33
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 54
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 6173,
+    "sizes": [
+      {
+        "el": "h1 \"Kaneki\"",
+        "fontSize": 84,
+        "lineHeight": "92.4px",
+        "textWidth": 238,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 304,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Daftar menu\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 143,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#brew-title \"Seduh manual\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 309,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Contoh biji\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 125,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Susu nabati tersedia\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 237,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#suasana-title \"Suasana\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 187,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3#panel-inside \"Di dalam\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 101,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3#panel-outside \"Di luar\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 75,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 275,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Kopinya kuat dan berasa\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 148,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Butter croissant\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 186,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Enak untuk kerja\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 190,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Dekat rumah\"",
+        "fontSize": 26,
+        "lineHeight": "35.1px",
+        "textWidth": 146,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 305,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#contact-title \"Hubungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 299,
+        "pctOfContentWidth": 25
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 54
+  }
+}

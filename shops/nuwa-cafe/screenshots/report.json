@@ -1,0 +1,347 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6146,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"NUWA CAFE\"",
+        "fontSize": 72.8,
+        "lineHeight": "65.52px",
+        "textWidth": 381,
+        "pctOfContentWidth": 109
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 187,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Ramen Rp 35rb–45rb\"",
+        "fontSize": 22.2,
+        "lineHeight": "27.7062px",
+        "textWidth": 194,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"Rice bowl Rp 30rb–38rb\"",
+        "fontSize": 22.2,
+        "lineHeight": "27.7062px",
+        "textWidth": 225,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "h3 \"Favorit Indonesia Rp 25rb–32rb\"",
+        "fontSize": 22.2,
+        "lineHeight": "27.7062px",
+        "textWidth": 302,
+        "pctOfContentWidth": 86
+      },
+      {
+        "el": "h3 \"Camilan Rp 18rb–28rb\"",
+        "fontSize": 22.2,
+        "lineHeight": "27.7062px",
+        "textWidth": 207,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h3 \"Paket makan siang\"",
+        "fontSize": 22.2,
+        "lineHeight": "27.7062px",
+        "textWidth": 198,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#coffee-title \"Ngopi di NUWA\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 223,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 22.2,
+        "lineHeight": "27.7062px",
+        "textWidth": 47,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Non-kopi Rp 20rb–28rb\"",
+        "fontSize": 22.2,
+        "lineHeight": "27.7062px",
+        "textWidth": 219,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#ambience-title \"Suasana NUWA\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 210,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 161,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 187,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 22.2,
+        "lineHeight": "27.7062px",
+        "textWidth": 98,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#close-title \"Mampir ke NUWA hari ini, ya.\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 243,
+        "pctOfContentWidth": 69
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 34
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5487,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"NUWA CAFE\"",
+        "fontSize": 103,
+        "lineHeight": "92.736px",
+        "textWidth": 747,
+        "pctOfContentWidth": 106
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 230,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Ramen Rp 35rb–45rb\"",
+        "fontSize": 23.5,
+        "lineHeight": "29.36px",
+        "textWidth": 200,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Rice bowl Rp 30rb–38rb\"",
+        "fontSize": 23.5,
+        "lineHeight": "29.36px",
+        "textWidth": 232,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Favorit Indonesia Rp 25rb–32rb\"",
+        "fontSize": 23.5,
+        "lineHeight": "29.36px",
+        "textWidth": 314,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Camilan Rp 18rb–28rb\"",
+        "fontSize": 23.5,
+        "lineHeight": "29.36px",
+        "textWidth": 214,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Paket makan siang\"",
+        "fontSize": 23.5,
+        "lineHeight": "29.36px",
+        "textWidth": 210,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#coffee-title \"Ngopi di NUWA\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 274,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 23.5,
+        "lineHeight": "29.36px",
+        "textWidth": 50,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Non-kopi Rp 20rb–28rb\"",
+        "fontSize": 23.5,
+        "lineHeight": "29.36px",
+        "textWidth": 226,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h2#ambience-title \"Suasana NUWA\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 259,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 197,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 230,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 23.5,
+        "lineHeight": "29.36px",
+        "textWidth": 103,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#close-title \"Mampir ke NUWA hari ini, ya.\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.296px",
+        "textWidth": 299,
+        "pctOfContentWidth": 42
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 34
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4454,
+    "sizes": [
+      {
+        "el": "h1#hero-title \"NUWA CAFE\"",
+        "fontSize": 156.8,
+        "lineHeight": "141.12px",
+        "textWidth": 799,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#menu-title \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 304,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Ramen Rp 35rb–45rb\"",
+        "fontSize": 24,
+        "lineHeight": "30px",
+        "textWidth": 206,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Rice bowl Rp 30rb–38rb\"",
+        "fontSize": 24,
+        "lineHeight": "30px",
+        "textWidth": 116,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Favorit Indonesia Rp 25rb–32rb\"",
+        "fontSize": 24,
+        "lineHeight": "30px",
+        "textWidth": 195,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Camilan Rp 18rb–28rb\"",
+        "fontSize": 24,
+        "lineHeight": "30px",
+        "textWidth": 116,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Paket makan siang\"",
+        "fontSize": 24,
+        "lineHeight": "30px",
+        "textWidth": 214,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#coffee-title \"Ngopi di NUWA\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 363,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Kopi\"",
+        "fontSize": 24,
+        "lineHeight": "30px",
+        "textWidth": 51,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Non-kopi Rp 20rb–28rb\"",
+        "fontSize": 24,
+        "lineHeight": "30px",
+        "textWidth": 233,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#ambience-title \"Suasana NUWA\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 342,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#praise-title \"Kata mereka\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 261,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#visit-title \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 304,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 24,
+        "lineHeight": "30px",
+        "textWidth": 106,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#close-title \"Mampir ke NUWA hari ini, ya.\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 395,
+        "pctOfContentWidth": 33
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 34
+  }
+}

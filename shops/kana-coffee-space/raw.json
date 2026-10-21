@@ -1,0 +1,372 @@
+{
+  "id": "ChIJ9V0uNZftaS4RhQwWETzUbg0",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "formattedAddress": "Jl. BBKK, RT.15/RW.9, Pekayon, Kec. Ps. Rebo, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13790, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=967944324381019269&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 22,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 10:00 PM",
+      "Tuesday: 8:00 AM – 10:00 PM",
+      "Wednesday: 8:00 AM – 10:00 PM",
+      "Thursday: 8:00 AM – 10:00 PM",
+      "Friday: 8:00 AM – 10:00 PM",
+      "Saturday: 8:00 AM – 10:00 PM",
+      "Sunday: 8:00 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 247,
+  "displayName": {
+    "text": "KANA Coffee & Space",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2twRWJEWjVNMGN4UkZaMVYzRlBjVU0zVEhNeFZIYxAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Honestly, this place feels like a hidden gem — not the kind you easily spot from the main road. It’s more like “yang tau, tau aja” kind of spot. But once you arrive, first impression langsung dapet banget. The security (yang juga handle parkiran) super organized. Even with limited space, they manage to fit quite a lot of motorbikes and around 4–6 cars neatly. Big plus.\n\nAku udah dua kali ke sini — first for brunch arisan, second time for buka bersama sama sahabat SMA. And both visits? Consistently good.\n\nFor brunch, I ordered cappuccino and cheesecake. And honestly, chef’s kiss. The cappuccino suits my taste perfectly — smooth, not too acidic, not too bold. Cheesecakenya juga light tapi tetap rich.\n\nSecond visit, I played safe — cappuccino & cheesecake again (because why not 😄). Since it was bukber, they served complimentary kurma and warm tea, which felt thoughtful. Teman-temanku order cuanki, and surprisingly… that became the star of the table. Comforting banget, apalagi pas buka puasa.\n\nSalad Kelapa Muda juga highlight banget untuk dipesan di Kana.\n\nOne thing that stands out here: ada abaya store inside the cafe. You can browse and shop while hanging out — such a unique touch. Though pas bukber kemarin, tokonya udah tutup.\n\nAnother highlight? The mushola. Proper banget. Even though the wudhu area is outside, it’s spacious, clean, wangi, and mukena-nya neatly prepared. This kind of detail really matters.\n\nFor WFA? Highly recommended. Banyak colokan, ambience-nya super nyaman — not too noisy, not too quiet. Perfect balance.\n\nAnd the focal points — the entrance is cuakep banget, very aesthetic. Plus the fish pond adds a calming vibe. Oh, and there’s literally a motor displayed in the middle of the cafe, which somehow works and becomes part of Kana’s identity.\n\nFinal thought:\nKana is not just a coffee place, it’s a whole experience. Cozy, thoughtful, and a little bit unexpected. Definitely a go-to spot when you want to chill, work, or catch up with friends.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Honestly, this place feels like a hidden gem — not the kind you easily spot from the main road. It’s more like “yang tau, tau aja” kind of spot. But once you arrive, first impression langsung dapet banget. The security (yang juga handle parkiran) super organized. Even with limited space, they manage to fit quite a lot of motorbikes and around 4–6 cars neatly. Big plus.\n\nAku udah dua kali ke sini — first for brunch arisan, second time for buka bersama sama sahabat SMA. And both visits? Consistently good.\n\nFor brunch, I ordered cappuccino and cheesecake. And honestly, chef’s kiss. The cappuccino suits my taste perfectly — smooth, not too acidic, not too bold. Cheesecakenya juga light tapi tetap rich.\n\nSecond visit, I played safe — cappuccino & cheesecake again (because why not 😄). Since it was bukber, they served complimentary kurma and warm tea, which felt thoughtful. Teman-temanku order cuanki, and surprisingly… that became the star of the table. Comforting banget, apalagi pas buka puasa.\n\nSalad Kelapa Muda juga highlight banget untuk dipesan di Kana.\n\nOne thing that stands out here: ada abaya store inside the cafe. You can browse and shop while hanging out — such a unique touch. Though pas bukber kemarin, tokonya udah tutup.\n\nAnother highlight? The mushola. Proper banget. Even though the wudhu area is outside, it’s spacious, clean, wangi, and mukena-nya neatly prepared. This kind of detail really matters.\n\nFor WFA? Highly recommended. Banyak colokan, ambience-nya super nyaman — not too noisy, not too quiet. Perfect balance.\n\nAnd the focal points — the entrance is cuakep banget, very aesthetic. Plus the fish pond adds a calming vibe. Oh, and there’s literally a motor displayed in the middle of the cafe, which somehow works and becomes part of Kana’s identity.\n\nFinal thought:\nKana is not just a coffee place, it’s a whole experience. Cozy, thoughtful, and a little bit unexpected. Definitely a go-to spot when you want to chill, work, or catch up with friends.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dhini Oktavianti",
+        "uri": "https://www.google.com/maps/contrib/116293955346880778851/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUdqnVdVFLuppmK_L2rXAOJYtNWcM4PX8vHcMS993W5CKsLKE0c=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2026-04-09T12:26:58.981553535Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2twRWJEWjVNMGN4UkZaMVYzRlBjVU0zVEhNeFZIYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2twRWJEWjVNMGN4UkZaMVYzRlBjVU0zVEhNeFZIYxAB!2m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/reviews/Ci9DQUlRQUNvZENodHljRjlvT21OZk1URjVNR05TYjBGTlVsTlpORUUyZUU5dlEwRRAB",
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 5,
+      "text": {
+        "text": "So peaceful as in they didn't turn on any music/instrument background. The food is okay, tho the fish batter in fish 'n chips taste a lil bit salty for me. Will be coming back for sure",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "So peaceful as in they didn't turn on any music/instrument background. The food is okay, tho the fish batter in fish 'n chips taste a lil bit salty for me. Will be coming back for sure",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Sifa Fauzia",
+        "uri": "https://www.google.com/maps/contrib/106831616997318064872/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVC5dtOm8QfChBvdICt2fDK53YSf_eXXS354NQfNfwr8f6hfVoU=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2026-01-02T12:06:48.945266757Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21OZk1URjVNR05TYjBGTlVsTlpORUUyZUU5dlEwRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21OZk1URjVNR05TYjBGTlVsTlpORUUyZUU5dlEwRRAB!2m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tKRlRISTNjM0pJUTBaNWQzbGZNRFJZYVRWbGFIYxAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 5,
+      "text": {
+        "text": "The first time I came here I was quite amazed of how fancy the place is, like deadass I don't think this is some sort of cafe that has this \"FOMO\" vibe bro, like I think you guys made this cafe with love in every aspect (God bless everyone who worked here & the owner) 🥹 I really love this place so much I wish to visit here often to draw while sippin that coffee/tea & do stuff.\n\nBout the food/drinks, I liked the nasgor Kana, truffle fries & truffle carbonara rice A LOT cus holy PEAK it's so good man, ngl since the day I ate them, those are my fav foods until now...\n\nThe place, again imma say this is an amazing place, it's hella clean & smell really good, both on the 1st floor outdoor (not 2nd cus ppl smoke there) that has the smell of flowers (I think) & inside it's like coffees lol. Now move to bathroom, damn the bathroom is ALSO clean & they provide small black plastics on each, guess those are for disposing pads (man tysm y'all are so considerate & helpful when I forgot to bring my own plastic).\n\nPeak cafe, keep it up dude, istg Imma second the person who said this is the best cafe in Kalisari bcs they're spittin FACTS 🥹🥹",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The first time I came here I was quite amazed of how fancy the place is, like deadass I don't think this is some sort of cafe that has this \"FOMO\" vibe bro, like I think you guys made this cafe with love in every aspect (God bless everyone who worked here & the owner) 🥹 I really love this place so much I wish to visit here often to draw while sippin that coffee/tea & do stuff.\n\nBout the food/drinks, I liked the nasgor Kana, truffle fries & truffle carbonara rice A LOT cus holy PEAK it's so good man, ngl since the day I ate them, those are my fav foods until now...\n\nThe place, again imma say this is an amazing place, it's hella clean & smell really good, both on the 1st floor outdoor (not 2nd cus ppl smoke there) that has the smell of flowers (I think) & inside it's like coffees lol. Now move to bathroom, damn the bathroom is ALSO clean & they provide small black plastics on each, guess those are for disposing pads (man tysm y'all are so considerate & helpful when I forgot to bring my own plastic).\n\nPeak cafe, keep it up dude, istg Imma second the person who said this is the best cafe in Kalisari bcs they're spittin FACTS 🥹🥹",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Mapokko",
+        "uri": "https://www.google.com/maps/contrib/106587247572529293759/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWjvd4hsn9YRfQ4KMLXZwVrqISluTnL_yHB2erC5AH354ytUYY=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-04-10T08:31:36.818465038Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tKRlRISTNjM0pJUTBaNWQzbGZNRFJZYVRWbGFIYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tKRlRISTNjM0pJUTBaNWQzbGZNRFJZYVRWbGFIYxAB!2m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/reviews/ChZDSUhNMG9nS0VPYWJ4ZjJNMXRybk1REAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "We just passed by and wanted to try out some drinks and food. But it turns out that their food and drink are so tasty, especially the fried rice. The space inside is neat and tidy, there's outdoor area on the 2nd floor. The cafe is really quiet, good vibe for talking or working.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "We just passed by and wanted to try out some drinks and food. But it turns out that their food and drink are so tasty, especially the fried rice. The space inside is neat and tidy, there's outdoor area on the 2nd floor. The cafe is really quiet, good vibe for talking or working.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Binh A. Dang (BinhBoong)",
+        "uri": "https://www.google.com/maps/contrib/109794012465062925078/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX5-xZQQ4G9PT0a-Nw8kRZcrQu3Fwl1P6XwGDxo_tTbF3TPwvHX=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2025-05-11T05:33:13.288757Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VPYWJ4ZjJNMXRybk1REAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VPYWJ4ZjJNMXRybk1REAE!2m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/reviews/ChZDSUhNMG9nS0VJQ0FnTUNZNFp1VElnEAE",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "Perfection!\n\nThis hidden gem exceeded my expectations! The cozy atmosphere, complete with industrial modern decor and comfy seatings made me feel right at home. The service was friendly and attentive.\n\nThe coffee was exceptional, with a perfect balance of flavors. I loved the unique blend they offered, and the presentation was Instagram-worthy. The food was delicious too ( i've tried several of them but my fav is Nasi Goreng Teri Hijau) flavorful, and beautifully plated.\n\nIf you're looking for a spot to unwind, work, or meet friends, come to this place.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Perfection!\n\nThis hidden gem exceeded my expectations! The cozy atmosphere, complete with industrial modern decor and comfy seatings made me feel right at home. The service was friendly and attentive.\n\nThe coffee was exceptional, with a perfect balance of flavors. I loved the unique blend they offered, and the presentation was Instagram-worthy. The food was delicious too ( i've tried several of them but my fav is Nasi Goreng Teri Hijau) flavorful, and beautifully plated.\n\nIf you're looking for a spot to unwind, work, or meet friends, come to this place.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Atika Tya",
+        "uri": "https://www.google.com/maps/contrib/117079842435999343346/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJrQJRmCdVn7ACei51qPrJ1Wn5T2B-uAgagHbMW5v90nCXQ9A=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2025-05-04T22:38:34.612980Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnTUNZNFp1VElnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnTUNZNFp1VElnEAE!2m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMaCRYh51D5XUHJe-e57sW69j84lrMG0xnI7CrgYTIWvBuZ-CGjmKcrFAtL91jnx7WrJ4d5_ZQVd40ym0639zaqsseFzS70Llarq9RM6yUrOHa4yP6z1RPdJF4AVVRqUuoWLvax30V0fMCj-oM9NIdIkTBbB4OhNKQqvFzt6DpcUawnd25nXTRxkW1p8CavDithQoZNCMXrvXnUlAQyqlS8w1Ts_kzoWu08x-h29FK47d96AY64p0akmqT3ZSicwDnHzOLa4EnL1uUK0apXefDfNElEi_qCwTsrCWdoW0dcmAGbYl7MlgE_EUBsNRbMWk80ci7DyEYaMeik88g-dNU4gmsg-q6c9Ebd3reX6qTlApIk1ZdNQVXWOWzdnhJQAFXN7fIrsh7hh7Tv-uRjHzpM30uTw4zMmKXmu--ln6RZ0Xg",
+      "widthPx": 1284,
+      "heightPx": 1712,
+      "authorAttributions": [
+        {
+          "displayName": "KANA Coffee & Space",
+          "uri": "https://maps.google.com/maps/contrib/115213968340713342234",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKN7kvjL-W6qfLGvAGX_IjiQLjikuOK8JcCR-BbonqZWKA0Yw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBN9PZKUvUtQyVbC_5IqhqO&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBN9PZKUvUtQyVbC_5IqhqO!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMYoKqGbKDE-JVHRYilMZvLP4eiCEbLp6ESTCly0WO-sivOeqbLlR9QnbNUpaF-jSKNX0W_TNa8n7Q7tmuFoWrFLpw1Fas_NMadM7fKKs_0VsCsS9E6tHx7bV6ZXGyJU3kZ4Vt1_4rspUoUxG181rfhUqawCK_jULLg4cgsFsatdaP8CZi_peMdXIwt64JASRehcier9BCoMSDudTvZY0BxbEnNiAIWjVal-yQBXnzzqti8S4Vl2afNDTedzi5csH0Pj0IJSfED14YcEHRB71y1Pr9u85P762sOiJNuSO0bmNzTZeBGE3i40IFESMoHzXLDmC4Cgv9pH2-JSCALvsUoCIhgZEM80ZvSCeIc-2SA7_i4S0oeNei9k9-8GXvLNgjt3diseC3cEigwMON4llp2QV10PcYcGlM0Phjp0_5f57g",
+      "widthPx": 1241,
+      "heightPx": 1754,
+      "authorAttributions": [
+        {
+          "displayName": "KANA Coffee & Space",
+          "uri": "https://maps.google.com/maps/contrib/115213968340713342234",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKN7kvjL-W6qfLGvAGX_IjiQLjikuOK8JcCR-BbonqZWKA0Yw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDJr-nSM3WMfunxDql9w7uE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDJr-nSM3WMfunxDql9w7uE!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMZeRWPVdmlybgKfW9zwrL7VD1qBtDl4BgcPon1ACvPZuFHjNCaNT2E8wQyVELKzyfefnRZVKABpEfl2ue0fRIt3FZzGvEyDN6cV8djGKOfOK4lSVIDD8P2dNRj6fvzHWBumMDILhx49uac1EqrfH9e7cn56xvhnKFlkVajQqxBK4wD5gU4JBiaMwBJgu6Zk4Ik6vbm8xKk-7XvefLYB3yHbt3VgPHnsHXzKvQZdFWOv1PMFmcnrMlxpR-R0j2yDb74IwStEaJu4q0SP_gH8mX69hsu3DgWNfafSSSxYIWM5RX9pN2EHVQcW18WZEYuZMynJkgmNM9FgVAt_I-ZqvrYUsM16KRHNPR6lLgvQfteP-mzjSM59BGBcFuUK794KNcxuplfDdC3nKeG4r1aEHI0Uu-mOddnOMDRpEgWWIUh_",
+      "widthPx": 4096,
+      "heightPx": 3072,
+      "authorAttributions": [
+        {
+          "displayName": "Fajar Setiawan",
+          "uri": "https://maps.google.com/maps/contrib/112466585424743815680",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKVf0Kd42p88h6uiuK6kRccdNpUJiLwGN6qbSTyXdo2QTh8ZH4=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDGsjjoBVa128fuIw0YXP0O&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDGsjjoBVa128fuIw0YXP0O!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMaQTU3J37EK2QrJtAJzN2XptQWSgJlL85aEzIgVZzDLb7Bh7cs0VpAs6saPrh58ZuQt2peMIAmOpVKSSToWXQ6tenfgenWloGLlDn_gNi2et5OH0brwRdvnSsquS2Pkzm0ugdqzqylmwryeL7dhoIz7VSN3RdgDbTpL4h1AHBOAQm2BjoD1al2lw-rxNSde_ZM0f0YVLknbKytFt-iBrVf12Xr3dujQPeFeGNstfA3q9oWjXBnxNiW4dAnmJUeicioBXn8zCaXCoKndSpy5SDbBU1UGl32WdKrb8HYfcdZKkPHRbZwrl97huyZzvmhpRPMFfBZ5x5VKEjUBklGJyrzVffF1qVWZbrELbqxVLWiu0DT_XWMuZRHGVR-aJ1l-H2GLB-R4gy3rn812Zf6CjFxshgGCbmE4XBSuA360zZ5V",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "kafabih Abdullah",
+          "uri": "https://maps.google.com/maps/contrib/105379519530931086565",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVWEgdEevyi-kWItGn2ci7iJJcbfFVABjZTJPZp0RQpkwRuksT9=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC9CIULzjm-GbL550j0tr3Z&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC9CIULzjm-GbL550j0tr3Z!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMZfZmexnh2-adSMUuwOEb-2nnVBLUoC8E9jZZgfYoQdJ6OK49CAHT1QPA_tW-ayGB4M_n7EgNBhraIzucO4V3tzAMzoXVL9ta-ZTMls4Iy5fabG778vBjdEMS9rJu2h_QOkbzMDFQyAPT8Uj3m_gpz58si3yF1cCA_rAhOQmPtYBczME9Ywt3bqWX3Rz2tESlxNuAWJggkE7BOU5VWoj3at5haF9t7Q95ii0g8GLCSyxqblz9EKTEW7dNI6Fg_-v_exu32uOL9iJJu6bgbw5ZJXlYN9rvL5Cb1BESwN_UMj65KXFg9_rPfetZ8ZuQYW82nmGnSshnm1blO3LAnSwHIg2aIMX94ADNLewLR3qCAC5V-WzmADya0YRYKiFFSzEwkUNc7hAjCQTpjIH2-z57iNJb2_udN5Yxy48-Uc25OLUg",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Dian",
+          "uri": "https://maps.google.com/maps/contrib/105183937963059366807",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUmYOnpMWUhLUZTDaLz1wvTs9po-BOI2ADZs1EBNqtP3T0i2oE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCC9f1jCCp1TUNrlpavb3cK&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCC9f1jCCp1TUNrlpavb3cK!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMaK3taSGCy8Ib0L-TTE-ELoA_dBGtP6DxY2bLFh1urpQtZ7-9Lcf504_96jYyqIFubBSMIQM35wOWkHE-opOVaI1tCtN2iyRTwLb1Ihk6Ii625HRBXxLoCPpTZNDy5dabN1GhlhX7tSb0_T5iQa5lrzWEBf-V8es2YgHotDJZkI2tpIufI6ggrk58dgVcBA2gUHmxKuSlzGKVD3rMfBk6mNSJ8RuE2DEPAYbBfszYw9vht2z_dYe3vjR_4vOvAEjfZmuzL_AGcesu-6jhnK8mgOyU494jz-nEyvrOnkgerYs5pyELBH4aYm9kjYvnFHiyC0O8z_dlRiiADLHlBF8s1nTu5P2KHCA7hqieJ9Qyu6lTnVPdvTgx5jrt3XQm9634tYavkgKj2Xha3by4cDbRVoj2OgBNBtAQIVuAwVIyhdIg",
+      "widthPx": 1241,
+      "heightPx": 1754,
+      "authorAttributions": [
+        {
+          "displayName": "KANA Coffee & Space",
+          "uri": "https://maps.google.com/maps/contrib/115213968340713342234",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKN7kvjL-W6qfLGvAGX_IjiQLjikuOK8JcCR-BbonqZWKA0Yw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAYxzMcJLnVz4Yayi1Q727q&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAYxzMcJLnVz4Yayi1Q727q!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMZkrQIi7WszmzNWhe705dmffFR0fiZF-ZnlZFVyJqngnogZAdVZDQySkJG-QrwHw2yEXqVBeCWvIVqlesAQgzEN6JKt8wFuIIfFsKlzid2ZP8xMtloqZJ339WJH8UFWFVInjWVhq8M6aOxS2MCmNjnSXJleVUhiOR3KpdL_KazhrCclS7fHJyaYfkZeIB5_Mo-pxwWUdoms3wdRPvbdrUk_h532wyBnb7jRPnqvHKQMoC6Zo7YJvIBXMr9-eGTJ3ujVwzV1u_HDXvw-als9wQ82SHAlHlL0punV9cWyFx9pQdoNNJN5gnXk60LYUWe5wzz6ihPfXv2sXPMecenOEsYL_G6Wx5lSPY4CpHUNL83Y68iU9e8oYJNjVgbrIxOEjeg4N6CefFqrN6rQN02dmU5rVd6GaUvSOEY3WX0UJgJk-w",
+      "widthPx": 4800,
+      "heightPx": 3199,
+      "authorAttributions": [
+        {
+          "displayName": "Prayoga Nyoman",
+          "uri": "https://maps.google.com/maps/contrib/100298647334907006421",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXIvggW3TbhPEAsO2D-GtNASs9C0Ei0WQZqoRrQKdwRUm98rA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDdjoSb6kVnqqeEciXUCzOO&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDdjoSb6kVnqqeEciXUCzOO!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMZeQ5ZW90lQeF8MC2B5d-_j2nRuzMHg5KJ6vDa1A4rfP7IX2FwWympIcCPZfXVGmtcpzeXmzJGQvukA7byb_opxezkTMvWGdW_o7AMS8kejJ-RuRCgW5RzVBFzo3ppLGqiUsHAapXc5mdxUIodBtN3RB2Kvjuz3T6CjJSQF2EWqGloTrs9IonynzSXkljtDyDn7b6gOTS2FwnlgKwBmyNYRSlaTnFGQD7gNNPYqwJoBplXVmDLp17rodCAaeMLw9zQPHChjcH8T1jSNu91ewZPGlTort0tp7iCe1usxXM6jA5w-WXLaGzrxUU3RHWyTyrEGpzu32IBmmDVQA9g94CpfkuordyaCHyJiVA3HWafFDbYJsKRcQsScywhnzWDufFK_ys3IEKa8hUFzRkWQDyQJB3hUabQUHut2grAO4uoFNQ",
+      "widthPx": 3060,
+      "heightPx": 4080,
+      "authorAttributions": [
+        {
+          "displayName": "Aulia Anindya",
+          "uri": "https://maps.google.com/maps/contrib/102115432468305006727",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUvqZCa_X8pCfOnsX-y-ZSwg0vdD9GlAITjd8SGJTPZlN3ImiE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDosQ5rxPJepbZQ2OXbzkai&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDosQ5rxPJepbZQ2OXbzkai!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMZGx7ZQFc6Zvy2jegSunXaT1Xht66PGRZx_i5W5LzyHik_pjaITKr3cd9ZaBNcBiKM4Lng91oKar6XPOKOljvsE9hSemWt03e8VuJITZzjI3yh5h4149awlAar5d_tT-TZWDGqH-dh31MArpRvZxotdymyhfi80CA_FEAdGSfzilFPL2pbYudcmGyaD966QBW_-eIuQRX3Y9xEe4KQ-w9a8yZIo8y7Vjnlbp_pIUjgzOux46CJWtYK9K6rwgLFIOFRhzyNYeXE0KkdYL5td26_Vl7QJCHBFO67O6SpZb7b6tfgvUs72pu0kwM4v0DtDR6FGf047d9BAqAdjUusOpOhTT-7jpw9Mt9O7WZhCCiLtjqpqqt17O7K_RUNtxus4BfhQAe-QdydBEyxCrr6OvlWMHoGdfdvk_UsuaH1clw3C",
+      "widthPx": 3827,
+      "heightPx": 2870,
+      "authorAttributions": [
+        {
+          "displayName": "fluorescent adolescent",
+          "uri": "https://maps.google.com/maps/contrib/112928003320989903665",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXYydfAyusNL9xqmypdaVKuFw6tHe7TcKkaDLVtWtmZqQMtFkk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBla2pXWqyqjqbuxr-DgzQb&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBla2pXWqyqjqbuxr-DgzQb!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    },
+    {
+      "name": "places/ChIJ9V0uNZftaS4RhQwWETzUbg0/photos/Aa-ngMam4Fa9_s5JKdqXih0RuO3qghNah_-glzxQFazvpA8xs14KlI5UMh_HI5HGAEOaLHIhR60Fo9SXBYOtumuEyXeGW_4IlPNBDCNAelknAPracGMEeMrvDL7HgxqFRwoH01R3wpeBc48NQU3ARmYbPySthClBAB_haJZNTmlTaytSbY55OEtzrE45OGTfvnnstfYd-xzk_7Ph_737KkjKBZZxpe6tihcMWWput5VG_tfy3crWqKCndtzt2ycU8s7a2t8bKaF0Hg4Ce-cESmbPRac21vBLdPoKOdIvbuf7zgHkq-v5koAviNcqenney-Dhu0rNECIQT7233rdSRYbb_jQHYSYwLTpfi11HeKZ6_ad3AjRhB5bm0j83VysQll1QfOR-fOA64dp5VejJwOO5o5OfDB2w5CLRKmn09Yn5NNyRuA",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "kafabih Abdullah",
+          "uri": "https://maps.google.com/maps/contrib/105379519530931086565",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVWEgdEevyi-kWItGn2ci7iJJcbfFVABjZTJPZp0RQpkwRuksT9=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBMMgHKmheGKtiOYKiNyycw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBMMgHKmheGKtiOYKiNyycw!2e10!4m2!3m1!1s0x2e69ed97352e5df5:0xd6ed43c11160c85"
+    }
+  ]
+}

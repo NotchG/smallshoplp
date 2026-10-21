@@ -1,0 +1,287 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Six colours sampled from the pavilion: merbau decking, green-painted steel,
+   marble-grey bar top, Ciliwung khaki, leaf green, the single rust column. */
+@theme {
+  --color-merbau: #6b2e1d;
+  --color-baja: #1f3b2c;
+  --color-batu: #e7e8e1;
+  --color-kali: #a88f5e;
+  --color-daun: #86ac55;
+  --color-karat: #d0662e;
+  --font-display: var(--font-young-serif), Georgia, serif;
+  --font-body: var(--font-archivo), system-ui, sans-serif;
+}
+
+/* Layout and type scale (design-brief §4–5). Sizes live here as variables, never as
+   Tailwind arbitrary values with spaces. */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --river-h: clamp(150px, 17vw, 250px);
+
+  --step-display: clamp(3rem, 1.2rem + 7vw, 7rem);          /* 48 / 73 / 112 */
+  --step-head: clamp(2.125rem, 1.5rem + 2.6vw, 3.25rem);    /* 34 / 44 / 52 */
+  --step-lead: clamp(1.4375rem, 1.3rem + 0.6vw, 1.75rem);   /* 23 / 25 / 28 */
+  --step-body: clamp(1.125rem, 1.1rem + 0.1vw, 1.1875rem);  /* 18 / 18.4 / 19 */
+  --step-small: 0.875rem;                                   /* 14 */
+
+  --leading-display: 1.05;  /* the name wraps to two lines by design */
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  /* Secondary text, tinted from the ground rather than grey */
+  --batu-soft: color-mix(in oklab, var(--color-batu) 84%, var(--color-baja));
+  --baja-soft: color-mix(in oklab, var(--color-baja) 86%, var(--color-batu));
+  --rule-on-merbau: color-mix(in oklab, var(--color-batu) 40%, var(--color-merbau));
+  --rule-on-baja: color-mix(in oklab, var(--color-batu) 30%, var(--color-baja));
+  --rule-on-batu: color-mix(in oklab, var(--color-baja) 28%, var(--color-batu));
+
+  --focus: var(--color-baja);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 40px; --section-y: 112px; }
+}
+
+html {
+  background: var(--color-batu);
+  color: var(--color-baja);
+  scrollbar-color: var(--color-merbau) var(--color-batu);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--color-merbau); color: var(--color-batu); }
+
+/* Grounds. The change of ground is the section divider. */
+.ground-merbau { background: var(--color-merbau); color: var(--color-batu); --focus: var(--color-batu); }
+.ground-baja   { background: var(--color-baja);   color: var(--color-batu); --focus: var(--color-batu); }
+.ground-batu   { background: var(--color-batu);   color: var(--color-baja); --focus: var(--color-baja); }
+.ground-merbau ::selection, .ground-baja ::selection { background: var(--color-batu); color: var(--color-merbau); }
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display {
+  font-family: var(--font-display);
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+.t-head {
+  font-family: var(--font-display);
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.t-lead {
+  font-family: var(--font-display);
+  font-size: var(--step-lead);
+  line-height: 1.25;
+  text-wrap: balance;
+}
+.t-body  { font-size: var(--step-body);  line-height: var(--leading-body); }
+.t-small { font-size: var(--step-small); line-height: 1.4; font-weight: 500; }
+.nums    { font-variant-numeric: tabular-nums; }
+.measure { max-width: 62ch; text-wrap: pretty; }
+
+/* Visually hidden, kept off-screen so its text box never sits under visible text. */
+.sr-only {
+  position: absolute; left: -10000px; top: auto; width: 1px; height: 1px;
+  overflow: hidden; white-space: nowrap;
+}
+
+/* Buttons (ActionLink). 48px tall, 4px radius, no shadows; colour swaps are instant. */
+.action {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 48px; padding: 0 22px; border-radius: 4px;
+  font-family: var(--font-body); font-size: var(--step-body); font-weight: 600; line-height: 1.2;
+  text-decoration: none; white-space: nowrap;
+  transition: transform 150ms ease-out;
+}
+.action:hover { transform: translateY(-2px); }
+.action:active { transform: scale(0.98); }
+.action-primary { background: var(--color-batu); color: var(--color-merbau); }
+.action-secondary-dark { box-shadow: inset 0 0 0 2px var(--color-batu); color: var(--color-batu); }
+.action-secondary-dark:hover { background: color-mix(in oklab, var(--color-batu) 10%, transparent); }
+.action-secondary-light { box-shadow: inset 0 0 0 2px var(--color-baja); color: var(--color-baja); }
+.action-secondary-light:hover { background: color-mix(in oklab, var(--color-baja) 8%, transparent); }
+.action svg { flex: none; }
+
+/* Hero: the beam plane and deck plane sit above the river band. */
+.hero-river {
+  position: relative; z-index: 0; height: var(--river-h); overflow: hidden;
+  background: var(--color-kali);
+}
+.hero-river > svg, .hero-river > .hero-layer { position: absolute; inset: 0; width: 100%; height: 100%; }
+.hero-layer > svg { width: 100%; height: 100%; display: block; }
+.hero-beam, .hero-deck { position: relative; z-index: 1; background: var(--color-merbau); }
+
+/* Signature moment "Pemandangan terbuka". Start offsets only when JS runs and motion is
+   allowed (html.motion-ok is set by an inline head script). The Hero timeline tweens them
+   to 0; the 2.5s failsafe settles them if the script never runs. */
+@keyframes hero-settle { to { transform: none; } }
+html.motion-ok .hero-beam   { transform: translateY(36px); }
+html.motion-ok .hero-deck   { transform: translateY(-36px); }
+html.motion-ok .hero-glints { transform: translateX(-48px); }
+html.motion-ok .hero-beam,
+html.motion-ok .hero-deck,
+html.motion-ok .hero-glints { animation: hero-settle 0s 2.5s forwards; }
+
+/* Menu: the rail ledge the drawings stand on (10px merbau, 3px karat top edge). */
+.rail-ledge {
+  height: 10px;
+  background: var(--color-merbau);
+  border-top: 3px solid var(--color-karat);
+}
+
+/* Secondary text tints */
+.text-batu-soft { color: var(--batu-soft); }
+.text-baja-soft { color: var(--baja-soft); }
+
+/* Hero */
+.hero-beam-inner { padding-top: 36px; padding-bottom: 28px; }
+.hero-steel { height: 14px; background: var(--color-baja); }
+.hero-rail { height: 10px; background: var(--color-karat); }
+.hero-deck-inner { padding-top: 28px; padding-bottom: 44px; }
+.hero-sub { max-width: 30ch; }
+.hero-hours { display: flex; align-items: center; gap: 12px; margin-top: 20px; font-weight: 600; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+.hero-actions .action { flex: 1 1 auto; }
+.hero-address { margin-top: 16px; }
+@media (min-width: 768px) {
+  .hero-beam-inner { padding-top: 64px; padding-bottom: 40px; }
+  .hero-steel { height: 18px; }
+  .hero-deck-inner { padding-top: 36px; padding-bottom: 56px; }
+  .hero-actions .action { flex: 0 0 auto; }
+}
+@media (min-width: 1024px) {
+  .hero-sub { padding-bottom: 0.6em; }
+  .hero-hours { margin-top: 0; gap: 16px; }
+  .hero-hours-label { display: block; font-weight: 500; }
+  .hero-hours-sep { display: none; }
+  .hero-hours-time {
+    display: block; font-family: var(--font-display); font-weight: 400;
+    font-size: var(--step-lead); line-height: 1.2;
+  }
+  .hero-actions { margin-top: 0; }
+}
+
+/* Di tepi Ciliwung: facts separated by hairlines, not cards */
+.fact-list > li { padding-block: 12px; border-top: 1px solid var(--rule-on-batu); }
+.fact-list > li:last-child { border-bottom: 1px solid var(--rule-on-batu); }
+
+/* Menu andalan: one continuous ledge on wide screens, one per row on phones */
+.featured-art {
+  height: 148px; display: flex; justify-content: center; align-items: flex-end;
+  padding-inline-end: 16px;
+}
+.featured-text { padding-top: 16px; padding-inline-end: 16px; }
+@media (max-width: 1023px) {
+  .featured-item:last-child:nth-child(odd) { grid-column: span 2; }
+  .featured-item:last-child:nth-child(odd) .featured-art,
+  .featured-item:last-child:nth-child(odd) .featured-text { width: 50%; }
+}
+@media (min-width: 768px) { .featured-art { height: 176px; } }
+@media (min-width: 1024px) {
+  .featured-art { height: 180px; padding-inline-end: 24px; }
+  .featured-text { padding-inline-end: 24px; }
+}
+.menu-items > li + li { margin-top: 6px; }
+.beans { border-top: 1px solid var(--rule-on-baja); }
+
+/* Day line: vertical on phones, proportional on wide screens */
+.dayline { position: relative; }
+.dayline::before {
+  content: ""; position: absolute; background: var(--color-baja);
+  left: calc(4.5rem + 14px + 5px); top: 14px; bottom: 14px; width: 2px;
+}
+.dayline-stop {
+  position: relative; display: grid; grid-template-columns: 4.5rem 12px 1fr;
+  column-gap: 14px; align-items: start; padding-bottom: 22px;
+}
+.dayline-stop:last-child { padding-bottom: 0; }
+.dayline-time { font-weight: 600; }
+.dayline-dot {
+  width: 12px; height: 12px; margin-top: 8px; border-radius: 50%;
+  background: var(--color-karat); box-shadow: 0 0 0 4px var(--color-batu);
+}
+@media (min-width: 768px) {
+  .dayline { display: flex; padding-top: 0; }
+  .dayline::before { left: 0; right: 0; top: 5px; bottom: auto; width: auto; height: 2px; }
+  .dayline-stop {
+    flex: none; display: flex; flex-direction: column; padding: 0;
+    width: calc((var(--next) - var(--at)) * 100%);
+    padding-inline-end: 20px;
+  }
+  .dayline-dot { order: -1; margin: 0 0 18px; box-shadow: 0 0 0 5px var(--color-batu); }
+  .dayline-time { margin-bottom: 2px; }
+  .dayline-stop[data-before-last] .dayline-label,
+  .dayline-stop[data-before-last] .dayline-time { max-width: calc(100% - 5.5rem); }
+  .dayline-stop[data-last] {
+    position: absolute; right: 0; top: 0; width: auto; padding: 0;
+    align-items: flex-end; text-align: right;
+  }
+}
+
+/* Kata mereka: statements under hairline rules */
+.praise-list > li { padding-top: 20px; padding-bottom: 32px; border-top: 1px solid var(--rule-on-merbau); }
+
+/* Kunjungi kami */
+.visit-notes > li { padding-block: 11px; border-top: 1px solid var(--rule-on-batu); }
+.visit-notes > li:last-child { border-bottom: 1px solid var(--rule-on-batu); }
+.visit-map { position: relative; background: color-mix(in oklab, var(--color-kali) 30%, var(--color-batu)); }
+.visit-map iframe { position: relative; }
+.visit-map-fallback {
+  position: absolute; inset: 0; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 10px; color: var(--color-merbau);
+}
+
+/* Hubungi kami + footer */
+.contact { padding-bottom: 56px; }
+.contact-actions { display: flex; flex-direction: column; gap: 12px; }
+@media (min-width: 640px) {
+  .contact-actions { flex-direction: row; flex-wrap: wrap; }
+}
+@media (min-width: 1024px) {
+  .contact-actions { justify-content: flex-end; }
+}
+.site-footer-inner { border-top: 1px solid var(--rule-on-baja); padding-top: 28px; padding-bottom: 40px; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-family: var(--font-body);
+  font-size: var(--step-small); line-height: 1.4; font-weight: 500;
+  text-align: center; padding: 9px var(--gutter);
+  background: var(--color-baja); color: var(--color-batu);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .action:hover, .action:active { transform: none; }
+}

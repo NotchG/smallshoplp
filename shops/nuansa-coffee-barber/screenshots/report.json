@@ -1,0 +1,305 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 5075,
+    "sizes": [
+      {
+        "el": "h1 \"nuansa n BARBER & COFFEE\"",
+        "fontSize": 17,
+        "lineHeight": "27.2px",
+        "textWidth": 312,
+        "pctOfContentWidth": 89
+      },
+      {
+        "el": "span \"nuansa n\"",
+        "fontSize": 72,
+        "lineHeight": "68.4px",
+        "textWidth": 310,
+        "pctOfContentWidth": 89
+      },
+      {
+        "el": "span \"BARBER & COFFEE\"",
+        "fontSize": 22,
+        "lineHeight": "22px",
+        "textWidth": 254,
+        "pctOfContentWidth": 73
+      },
+      {
+        "el": "h2#barbershop-h \"barbershop\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 211,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Layanan & harga\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 195,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h2#kopi-h \"kopi\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 74,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#juga-h \"juga di sini\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 192,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"Paket Potong + Kopi\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 221,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Cuci sepatu\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 136,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Bayar non-tunai\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 185,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h2#kata-h \"kata mereka\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 214,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h2#kunjungi-h \"kunjungi kami\"",
+        "fontSize": 34.2,
+        "lineHeight": "37.598px",
+        "textWidth": 245,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 111,
+        "pctOfContentWidth": 32
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 19
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5376,
+    "sizes": [
+      {
+        "el": "h1 \"nuansa n BARBER & COFFEE\"",
+        "fontSize": 17.2,
+        "lineHeight": "27.4432px",
+        "textWidth": 369,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "span \"nuansa n\"",
+        "fontSize": 85.2,
+        "lineHeight": "80.9856px",
+        "textWidth": 366,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "span \"BARBER & COFFEE\"",
+        "fontSize": 24.6,
+        "lineHeight": "24.576px",
+        "textWidth": 284,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#barbershop-h \"barbershop\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 263,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Layanan & harga\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 218,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#kopi-h \"kopi\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 92,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#juga-h \"juga di sini\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 239,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Paket Potong + Kopi\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 247,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Cuci sepatu\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 152,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Bayar non-tunai\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 206,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kata-h \"kata mereka\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 267,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#kunjungi-h \"kunjungi kami\"",
+        "fontSize": 42.5,
+        "lineHeight": "46.7456px",
+        "textWidth": 304,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 24.6,
+        "lineHeight": "31.9488px",
+        "textWidth": 124,
+        "pctOfContentWidth": 18
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 19
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4181,
+    "sizes": [
+      {
+        "el": "h1 \"nuansa n BARBER & COFFEE\"",
+        "fontSize": 18,
+        "lineHeight": "28.8px",
+        "textWidth": 416,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "span \"nuansa n\"",
+        "fontSize": 96,
+        "lineHeight": "91.2px",
+        "textWidth": 413,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "span \"BARBER & COFFEE\"",
+        "fontSize": 28,
+        "lineHeight": "28px",
+        "textWidth": 323,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#barbershop-h \"barbershop\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 346,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h3 \"Layanan & harga\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 248,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#kopi-h \"kopi\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 121,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#juga-h \"juga di sini\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 315,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Paket Potong + Kopi\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 188,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Cuci sepatu\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 173,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Bayar non-tunai\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 235,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#kata-h \"kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 351,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kunjungi-h \"kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 401,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Jam buka\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 141,
+        "pctOfContentWidth": 12
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 19
+  }
+}

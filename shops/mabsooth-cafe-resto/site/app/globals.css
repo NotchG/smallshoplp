@@ -1,0 +1,315 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3 and §4.
+   Colours and fonts become Tailwind utilities (bg-walnut, text-gold, font-display...). */
+@theme {
+  --color-walnut: #2A1914;      /* page ground: hero, menu */
+  --color-bark: #3D261D;        /* second wood: Kata mereka, banner */
+  --color-gold: #E4B65F;        /* wordmark, prices, primary action. Never on rattan */
+  --color-lantern: #7C2139;     /* Teh, kopi & shisha; accent + focus on rattan */
+  --color-vine: #1D3A2B;        /* Suasana */
+  --color-rattan: #F1E4CA;      /* text on dark grounds; floor-zone ground */
+  --color-rattan-dim: #CDBB9C;  /* secondary text on dark grounds (>= 5.2:1) */
+  --color-walnut-soft: #5E4636; /* secondary text on rattan (6.9:1) */
+  --color-rattan-deep: #E8D6B4; /* hover fill on rattan */
+  --color-tile: #E6D8BD;        /* tile ground (decoration only) */
+  --color-tile-line: #A8977F;   /* tile lines (decoration only) */
+}
+@theme inline {
+  --font-display: var(--font-aref-ar), var(--font-aref), serif;
+  --font-body: var(--font-readex), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 16px;
+  --section-y: 64px;
+  --col-gap: 24px;
+
+  --step-display: clamp(3.25rem, 1.6rem + 7.4vw, 8.5rem);   /* 54 / 132 px */
+  --step-head: clamp(2.125rem, 1.6rem + 2.2vw, 3.5rem);     /* 34 / 56 px */
+  --step-lead: clamp(1.3125rem, 1.15rem + 0.6vw, 1.625rem); /* 21 / 26 px */
+  --step-body: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);    /* 16 / 17 px */
+  --step-small: clamp(0.8rem, 0.77rem + 0.1vw, 0.85rem);    /* 12.8 / 13.6 px */
+
+  --leading-display: 1.0;
+  --leading-head: 1.12;
+  --leading-body: 1.6;
+
+  /* Motion (mirrors lib/motion.ts) */
+  --dur-press: 180ms;
+  --dur-lights: 1.4s;
+  --dur-lockup: 0.9s;
+  --ease-lights: cubic-bezier(0.45, 0, 0.2, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Hero: how far the lockup rises into the canopy's fade */
+  --hero-overlap: 64px;
+  --focus: var(--color-gold);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 32px; --section-y: 112px; --hero-overlap: 104px; }
+}
+@media (min-width: 1200px) {
+  :root { --hero-overlap: 150px; }
+}
+
+html {
+  background: var(--color-walnut);
+  color: var(--color-rattan);
+  accent-color: var(--color-gold);
+  color-scheme: dark;
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-gold); color: var(--color-walnut); }
+a { text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+@layer base {
+  h1, h2, h3 { text-wrap: balance; }
+  p { text-wrap: pretty; }
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+#konten:focus { outline: none; }
+.ground-rattan { --focus: var(--color-lantern); }
+
+@layer components {
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+/* 12-column grid inside the container (brief §5), from 1024px. */
+.grid-12 { display: grid; grid-template-columns: minmax(0, 1fr); column-gap: var(--col-gap); }
+@media (min-width: 1024px) {
+  .grid-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+}
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); letter-spacing: -0.01em; }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.3; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.45; }
+.t-caps    { text-transform: uppercase; letter-spacing: 0.32em; font-weight: 500; }
+.measure   { max-width: 62ch; }
+.nums      { font-variant-numeric: tabular-nums; }
+
+/* [MOCKUP] marker: dotted underline. Sentence-level mockup copy is .mock-quiet (no line). */
+[data-mockup] {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+  text-decoration-color: var(--color-rattan-dim);
+}
+.ground-rattan [data-mockup] { text-decoration-color: #8C7A62; }
+[data-mockup].mock-quiet { text-decoration-line: none; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small); line-height: 1.45; text-align: center; padding: 8px 16px;
+  background: var(--color-bark); color: var(--color-rattan);
+  text-wrap: balance;
+}
+
+.skip-link {
+  position: absolute; left: 12px; top: -100px; z-index: 50;
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px;
+  background: var(--color-gold); color: var(--color-walnut); font-weight: 500; border-radius: 8px;
+}
+.skip-link:focus { top: 12px; }
+
+/* ---------- Hero: the canopy and the lanterns switching on ---------- */
+.canopy {
+  /* Phone: the lockup overlaps the last ~23% of the crop. */
+  --canopy-fade: linear-gradient(to bottom, #000 0%, #000 50%, rgb(0 0 0 / 0.55) 72%, rgb(0 0 0 / 0.12) 88%, transparent 100%);
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  aspect-ratio: 620 / 440;
+  overflow: hidden;
+  -webkit-mask-image: var(--canopy-fade);
+          mask-image: var(--canopy-fade);
+}
+@media (min-width: 640px) {
+  /* Wide crop: the lockup overlaps ~30%, over the skyline and window rails, so the photo
+     fades earlier and deeper to keep the gold display above 3:1 against every light. */
+  .canopy {
+    --canopy-fade: linear-gradient(to bottom, #000 0%, #000 44%, rgb(0 0 0 / 0.5) 60%, rgb(0 0 0 / 0.16) 72%, rgb(0 0 0 / 0.04) 86%, transparent 100%);
+    aspect-ratio: 1290 / 440;
+  }
+}
+/* Wider than the photo: centre it on walnut and soften the side edges. */
+@media (min-width: 1441px) {
+  .canopy {
+    -webkit-mask-image: var(--canopy-fade), linear-gradient(to right, transparent 0, #000 64px, #000 calc(100% - 64px), transparent 100%);
+    -webkit-mask-composite: source-in;
+            mask-image: var(--canopy-fade), linear-gradient(to right, transparent 0, #000 64px, #000 calc(100% - 64px), transparent 100%);
+            mask-composite: intersect;
+  }
+}
+.canopy picture, .canopy img {
+  position: absolute; inset: 0; width: 100%; height: 100%; display: block;
+}
+.canopy img { object-fit: cover; object-position: 50% 0%; }
+.canopy-dim img { filter: brightness(0.38) saturate(0.35); } /* static, never animated */
+
+/* Lockup (the bar sign) */
+.lockup-ar { font-size: var(--step-head); line-height: 1.12; margin-top: 0.1em; }
+.lockup-sub { font-size: var(--step-body); line-height: 1.4; margin-top: 14px; padding-inline-start: 0.32em; }
+.lockup-small-word { font-size: calc(var(--step-head) * 0.72); line-height: 1.1; }
+.lockup-small-ar { font-size: calc(var(--step-head) * 0.5); line-height: 1.1; }
+.lockup-small-sub { margin-top: 6px; }
+
+.hero-body {
+  position: relative;
+  margin-top: calc(-1 * var(--hero-overlap));
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .canopy-lit {
+    animation: lights-on var(--dur-lights) var(--ease-lights) 0.15s both;
+  }
+  .lockup-hero {
+    animation: lockup-in var(--dur-lockup) var(--ease-out-expo) 0.35s both;
+  }
+}
+@keyframes lights-on {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes lockup-in {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Reserve the fallback's space so the swap to today's hours causes no shift. */
+.today-hours { display: grid; place-items: center; min-height: 3.2em; }
+@media (min-width: 640px) { .today-hours { min-height: 1.6em; } }
+
+/* ---------- Buttons and rows: colour responses only ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 48px; padding: 0 12px; border-radius: 8px; white-space: nowrap;
+  font-weight: 500; font-size: var(--step-body); line-height: 1.2;
+  text-decoration: none;
+  transition: background-color var(--dur-press) ease-out, color var(--dur-press) ease-out,
+    border-color var(--dur-press) ease-out;
+}
+@media (min-width: 640px) { .btn { padding: 0 22px; gap: 10px; } }
+@media (min-width: 1024px) { .btn { min-height: 52px; } }
+.btn svg { flex: none; }
+.btn-gold { background: var(--color-gold); color: var(--color-walnut); }
+.btn-gold:hover { background: #F0C878; }
+.btn-gold:active { background: #D4A44E; }
+.btn-ghost { box-shadow: inset 0 0 0 1.5px var(--color-rattan); color: var(--color-rattan); }
+.btn-ghost:hover { background: rgb(241 228 202 / 0.1); }
+.btn-ghost:active { background: rgb(241 228 202 / 0.18); }
+.btn-walnut { background: var(--color-walnut); color: var(--color-gold); }
+.btn-walnut:hover { background: var(--color-bark); }
+.btn-outline-walnut { box-shadow: inset 0 0 0 1.5px var(--color-walnut); color: var(--color-walnut); }
+.btn-outline-walnut:hover { background: var(--color-rattan-deep); }
+
+.text-link {
+  display: inline-flex; align-items: center; min-height: 44px; gap: 8px;
+  text-decoration-line: underline; text-decoration-color: currentColor;
+  transition: text-decoration-color var(--dur-press) ease-out, color var(--dur-press) ease-out;
+}
+.text-link:hover { text-decoration-color: var(--color-gold); }
+.ground-rattan .text-link:hover { text-decoration-color: var(--color-lantern); color: var(--color-lantern); }
+
+.contact-row {
+  display: flex; align-items: center; gap: 14px; min-height: 64px; padding: 0 16px;
+  text-decoration: none; color: var(--color-walnut);
+  transition: background-color var(--dur-press) ease-out, color var(--dur-press) ease-out;
+}
+.contact-row:hover { background: var(--color-rattan-deep); }
+.contact-row:hover .row-arrow { color: var(--color-lantern); }
+.row-arrow { margin-left: auto; color: var(--color-walnut-soft); transition: color var(--dur-press) ease-out; }
+
+/* Product illustrations sit on the wood like the plate */
+.dish-illus { filter: drop-shadow(0 8px 16px rgb(0 0 0 / 0.35)); }
+
+/* Hours chart (bars are decoration; times are table text) */
+.hours-chart { --daycol: 76px; --reserve: 120px; position: relative; padding-bottom: 28px; }
+@media (min-width: 640px) { .hours-chart { --reserve: 180px; } }
+@media (min-width: 768px) { .hours-chart { --daycol: 110px; } }
+.hours-table { width: 100%; border-collapse: collapse; position: relative; z-index: 1; }
+.hours-table th { text-align: left; font-weight: 400; width: var(--daycol); padding: 0; vertical-align: middle; }
+.hours-table td { padding: 0; }
+.hours-table tr > * { height: 40px; }
+.hours-cell { display: flex; align-items: center; }
+.hours-bar {
+  flex: none; height: 12px; border-radius: 6px; background: var(--color-lantern);
+  margin-inline-start: calc((100% - var(--reserve)) * var(--start));
+  width: calc((100% - var(--reserve)) * var(--len));
+}
+.is-today .hours-bar { background: var(--color-walnut); }
+.hours-time { margin-inline-start: 12px; white-space: nowrap; }
+.today-tag {
+  display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border-radius: 4px;
+  background: var(--color-walnut); color: var(--color-rattan); white-space: nowrap; font-weight: 400;
+}
+.hours-axis { position: absolute; inset: 0; pointer-events: none; }
+.hours-axis-track {
+  position: absolute; top: 0; bottom: 0; left: var(--daycol);
+  width: calc(100% - var(--daycol) - var(--reserve));
+}
+.hours-midnight {
+  position: absolute; top: 4px; bottom: 26px; width: 0;
+  border-left: 1px dashed rgb(42 25 20 / 0.4);
+}
+.hours-tick {
+  position: absolute; bottom: 0; transform: translateX(-50%);
+  color: var(--color-walnut-soft); white-space: nowrap;
+}
+
+.tile-floor { display: block; width: 100%; height: 72px; }
+.tile-floor .tile-lg { display: none; }
+@media (min-width: 768px) {
+  .tile-floor { height: 120px; }
+  .tile-floor .tile-sm { display: none; }
+  .tile-floor .tile-lg { display: inline; }
+}
+
+.map-frame {
+  height: 280px; border-radius: 12px; overflow: hidden;
+  background: var(--color-tile);
+}
+@media (min-width: 768px) { .map-frame { height: 360px; } }
+
+.section-join-bottom { padding-bottom: calc(var(--section-y) * 0.6); }
+.section-join-top { padding-top: 0; }
+.join-rule {
+  border-top: 1px solid rgb(42 25 20 / 0.15);
+  padding-top: calc(var(--section-y) * 0.6);
+}
+
+.contact-list { border-bottom: 1px solid rgb(42 25 20 / 0.18); }
+.contact-list > li { border-top: 1px solid rgb(42 25 20 / 0.18); }
+} /* end @layer components */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .canopy-lit, .lockup-hero { animation: none !important; opacity: 1; transform: none; }
+}

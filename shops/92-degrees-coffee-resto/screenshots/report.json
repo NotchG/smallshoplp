@@ -1,0 +1,494 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 8106,
+    "sizes": [
+      {
+        "el": "h1 \"de 92\"",
+        "fontSize": 75.3,
+        "lineHeight": "67.77px",
+        "textWidth": 169,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#lantai-judul \"Empat lantai, satu tempat\"",
+        "fontSize": 31,
+        "lineHeight": "34.078px",
+        "textWidth": 250,
+        "pctOfContentWidth": 71
+      },
+      {
+        "el": "h3 \"Lantai 2\"",
+        "fontSize": 21.6,
+        "lineHeight": "29.16px",
+        "textWidth": 107,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Lantai 3\"",
+        "fontSize": 21.6,
+        "lineHeight": "29.16px",
+        "textWidth": 107,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Lantai 4\"",
+        "fontSize": 21.6,
+        "lineHeight": "29.16px",
+        "textWidth": 107,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#menu-judul \"Menu andalan\"",
+        "fontSize": 31,
+        "lineHeight": "34.078px",
+        "textWidth": 267,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "h3 \"NASI & LAUK\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 95,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"PASTA\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 48,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3#klepon-judul \"Klepon Cake28rb\"",
+        "fontSize": 21.6,
+        "lineHeight": "29.16px",
+        "textWidth": 176,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h2#minuman-judul \"Kopi & minuman\"",
+        "fontSize": 31,
+        "lineHeight": "34.078px",
+        "textWidth": 299,
+        "pctOfContentWidth": 85
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 36,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"NON-KOPI28–35rb\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 139,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"TEMAN NGOPI\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 107,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#acara-judul \"Acara & reservasi\"",
+        "fontSize": 31,
+        "lineHeight": "34.078px",
+        "textWidth": 331,
+        "pctOfContentWidth": 95
+      },
+      {
+        "el": "h3 \"Ruang acara lantai 3\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 157,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"Ruang VIP\"",
+        "fontSize": 17,
+        "lineHeight": "26.35px",
+        "textWidth": 81,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#ulasan-judul \"4,8 dari 920 ulasan\"",
+        "fontSize": 31,
+        "lineHeight": "34.078px",
+        "textWidth": 212,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"Luas dan nyaman\"",
+        "fontSize": 21.6,
+        "lineHeight": "29.16px",
+        "textWidth": 171,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h3 \"Bersih, sampai toiletnya\"",
+        "fontSize": 21.6,
+        "lineHeight": "29.16px",
+        "textWidth": 236,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h3 \"Stafnya ramah dan sigap\"",
+        "fontSize": 21.6,
+        "lineHeight": "29.16px",
+        "textWidth": 245,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h3 \"Kopinya juara, porsinya besar\"",
+        "fontSize": 21.6,
+        "lineHeight": "29.16px",
+        "textWidth": 291,
+        "pctOfContentWidth": 83
+      },
+      {
+        "el": "h2#kunjungi-judul \"Kunjungi kami\"",
+        "fontSize": 31,
+        "lineHeight": "34.078px",
+        "textWidth": 258,
+        "pctOfContentWidth": 74
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7882,
+    "sizes": [
+      {
+        "el": "h1 \"de 92\"",
+        "fontSize": 101.8,
+        "lineHeight": "91.584px",
+        "textWidth": 229,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#lantai-judul \"Empat lantai, satu tempat\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 625,
+        "pctOfContentWidth": 89
+      },
+      {
+        "el": "h3 \"Lantai 2\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.1472px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Lantai 3\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.1472px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Lantai 4\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.1472px",
+        "textWidth": 114,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#menu-judul \"Menu andalan\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 339,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h3 \"NASI & LAUK\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 95,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"PASTA\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 48,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3#klepon-judul \"Klepon Cake28rb\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.1472px",
+        "textWidth": 185,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#minuman-judul \"Kopi & minuman\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 379,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 36,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3 \"NON-KOPI28–35rb\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 139,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"TEMAN NGOPI\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 107,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h2#acara-judul \"Acara & reservasi\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 420,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Ruang acara lantai 3\"",
+        "fontSize": 17.5,
+        "lineHeight": "27.1808px",
+        "textWidth": 162,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Ruang VIP\"",
+        "fontSize": 17.5,
+        "lineHeight": "27.1808px",
+        "textWidth": 84,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h2#ulasan-judul \"4,8 dari 920 ulasan\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 459,
+        "pctOfContentWidth": 65
+      },
+      {
+        "el": "h3 \"Luas dan nyaman\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.1472px",
+        "textWidth": 182,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Bersih, sampai toiletnya\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.1472px",
+        "textWidth": 252,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Stafnya ramah dan sigap\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.1472px",
+        "textWidth": 261,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Kopinya juara, porsinya besar\"",
+        "fontSize": 23.1,
+        "lineHeight": "31.1472px",
+        "textWidth": 311,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h2#kunjungi-judul \"Kunjungi kami\"",
+        "fontSize": 39.3,
+        "lineHeight": "43.2256px",
+        "textWidth": 328,
+        "pctOfContentWidth": 47
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 6120,
+    "sizes": [
+      {
+        "el": "h1 \"de 92\"",
+        "fontSize": 136,
+        "lineHeight": "122.4px",
+        "textWidth": 306,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#lantai-judul \"Empat lantai, satu tempat\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 418,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Lantai 2\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 119,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Lantai 3\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 119,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Lantai 4\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 119,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#menu-judul \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 448,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"NASI & LAUK\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 95,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"PASTA\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 48,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3#klepon-judul \"Klepon Cake28rb\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 190,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#minuman-judul \"Kopi & minuman\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 502,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"KOPI\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 36,
+        "pctOfContentWidth": 3
+      },
+      {
+        "el": "h3 \"NON-KOPI28–35rb\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 139,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"TEMAN NGOPI\"",
+        "fontSize": 13.6,
+        "lineHeight": "19.04px",
+        "textWidth": 107,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h2#acara-judul \"Acara & reservasi\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 294,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Ruang acara lantai 3\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 166,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Ruang VIP\"",
+        "fontSize": 18,
+        "lineHeight": "27.9px",
+        "textWidth": 86,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#ulasan-judul \"4,8 dari 920 ulasan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 356,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Luas dan nyaman\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 190,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Bersih, sampai toiletnya\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 262,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Stafnya ramah dan sigap\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 272,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Kopinya juara, porsinya besar\"",
+        "fontSize": 24,
+        "lineHeight": "32.4px",
+        "textWidth": 323,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#kunjungi-judul \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 434,
+        "pctOfContentWidth": 36
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 17
+  }
+}

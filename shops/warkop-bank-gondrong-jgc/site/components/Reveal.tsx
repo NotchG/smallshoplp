@@ -5,6 +5,8 @@ import { prefersReducedMotion, reveal } from "@/lib/motion";
 
 // Fades a section's content up once as it enters the viewport. One per section (S2–S7),
 // never in the hero. Uses gsap.from, so content stays visible with no JS or reduced motion.
+// Animates opacity (not autoAlpha), so a block that hasn't revealed yet is never
+// visibility:hidden and stays reachable by keyboard. When focus enters it, the reveal completes.
 export default function Reveal({
   children,
   as: Tag = "div",
@@ -18,14 +20,35 @@ export default function Reveal({
 
   useGSAP(
     () => {
-      if (!ref.current || prefersReducedMotion()) return;
-      gsap.from(ref.current, {
-        autoAlpha: 0,
+      const el = ref.current;
+      if (!el || prefersReducedMotion()) return;
+      const tween = gsap.from(el, {
+        opacity: 0,
         y: reveal.y,
         duration: reveal.duration,
         ease: reveal.ease,
-        scrollTrigger: { trigger: ref.current, start: reveal.start, once: true },
+        scrollTrigger: { trigger: el, start: reveal.start, once: true },
       });
+
+      // Keyboard users must never land in an invisible block: finish the reveal at once.
+      // kill(false, true) keeps the tween alive; a plain kill() would kill it with the trigger.
+      const finish = () => {
+        if (tween.progress() === 1) return;
+        tween.scrollTrigger?.kill(false, true);
+        tween.progress(1);
+      };
+      // Focus moving into an iframe (the map) fires no focusin here, only a window blur.
+      const onWindowBlur = () =>
+        window.setTimeout(() => {
+          if (document.activeElement && el.contains(document.activeElement)) finish();
+        }, 0);
+
+      el.addEventListener("focusin", finish);
+      window.addEventListener("blur", onWindowBlur);
+      return () => {
+        el.removeEventListener("focusin", finish);
+        window.removeEventListener("blur", onWindowBlur);
+      };
     },
     { scope: ref },
   );

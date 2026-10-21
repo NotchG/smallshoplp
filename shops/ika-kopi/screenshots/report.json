@@ -1,0 +1,221 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 7287,
+    "sizes": [
+      {
+        "el": "h1#hero-h \"Ika Kopi\"",
+        "fontSize": 72,
+        "lineHeight": "68.4px",
+        "textWidth": 268,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h2#kopi-h \"Kopi kami\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 141,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Arabica Pangalengan\"",
+        "fontSize": 23,
+        "lineHeight": "29.9px",
+        "textWidth": 221,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#kerja-h \"Nyaman untuk kerja\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 278,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 197,
+        "pctOfContentWidth": 56
+      },
+      {
+        "el": "h2#bawa-h \"Bawa pulang biji kopi\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 286,
+        "pctOfContentWidth": 82
+      },
+      {
+        "el": "h2#kata-h \"Kata mereka\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 175,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h2#lokasi-h \"Kunjungi kami\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 204,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h2#kontak-h \"Hubungi kami\"",
+        "fontSize": 30.2,
+        "lineHeight": "33.176px",
+        "textWidth": 197,
+        "pctOfContentWidth": 56
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 22
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7074,
+    "sizes": [
+      {
+        "el": "h1#hero-h \"Ika Kopi\"",
+        "fontSize": 100,
+        "lineHeight": "94.9696px",
+        "textWidth": 373,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#kopi-h \"Kopi kami\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 183,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Arabica Pangalengan\"",
+        "fontSize": 25,
+        "lineHeight": "32.5312px",
+        "textWidth": 240,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h2#kerja-h \"Nyaman untuk kerja\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 361,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 256,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#bawa-h \"Bawa pulang biji kopi\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 372,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#kata-h \"Kata mereka\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 227,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#lokasi-h \"Kunjungi kami\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 265,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#kontak-h \"Hubungi kami\"",
+        "fontSize": 39.2,
+        "lineHeight": "43.1552px",
+        "textWidth": 257,
+        "pctOfContentWidth": 37
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 22
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5229,
+    "sizes": [
+      {
+        "el": "h1#hero-h \"Ika Kopi\"",
+        "fontSize": 144,
+        "lineHeight": "136.8px",
+        "textWidth": 537,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#kopi-h \"Kopi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 243,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Arabica Pangalengan\"",
+        "fontSize": 28,
+        "lineHeight": "36.4px",
+        "textWidth": 269,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#kerja-h \"Nyaman untuk kerja\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 272,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 339,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#bawa-h \"Bawa pulang biji kopi\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 493,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#kata-h \"Kata mereka\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 301,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h2#lokasi-h \"Kunjungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 352,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kontak-h \"Hubungi kami\"",
+        "fontSize": 52,
+        "lineHeight": "57.2px",
+        "textWidth": 340,
+        "pctOfContentWidth": 28
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 22
+  }
+}

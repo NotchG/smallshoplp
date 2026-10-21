@@ -1,0 +1,389 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6608,
+    "sizes": [
+      {
+        "el": "h1 \"MABSOOTH مبسوط CAFE & RESTO\"",
+        "fontSize": 54.5,
+        "lineHeight": "54.46px",
+        "textWidth": 333,
+        "pctOfContentWidth": 93
+      },
+      {
+        "el": "h2#suasana-h \"Suasana\"",
+        "fontSize": 34.2,
+        "lineHeight": "38.2816px",
+        "textWidth": 140,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Teras di bawah lentera\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 237,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h3 \"Lounge ber-AC\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 154,
+        "pctOfContentWidth": 43
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 34.2,
+        "lineHeight": "38.2816px",
+        "textWidth": 248,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h3 \"Lamb Shank\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 126,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Rice bowl\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 98,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h3 \"Lychee Tea\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 112,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Juga ada di menu\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 183,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h2#teh-h \"Teh, kopi & shisha\"",
+        "fontSize": 34.2,
+        "lineHeight": "38.2816px",
+        "textWidth": 305,
+        "pctOfContentWidth": 85
+      },
+      {
+        "el": "h3 \"Teh Arab satu teko\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 195,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h3 \"Teh & kopi\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 112,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Shisha\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 66,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 34.2,
+        "lineHeight": "38.2816px",
+        "textWidth": 212,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 34.2,
+        "lineHeight": "38.2816px",
+        "textWidth": 249,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h3#jam-h \"Buka setiap hari\"",
+        "fontSize": 21,
+        "lineHeight": "27.3px",
+        "textWidth": 167,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 34.2,
+        "lineHeight": "38.2816px",
+        "textWidth": 240,
+        "pctOfContentWidth": 67
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 28
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7378,
+    "sizes": [
+      {
+        "el": "h1 \"MABSOOTH مبسوط CAFE & RESTO\"",
+        "fontSize": 82.4,
+        "lineHeight": "82.432px",
+        "textWidth": 504,
+        "pctOfContentWidth": 72
+      },
+      {
+        "el": "h2#suasana-h \"Suasana\"",
+        "fontSize": 42.5,
+        "lineHeight": "47.5955px",
+        "textWidth": 174,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Teras di bawah lentera\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 259,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"Lounge ber-AC\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 168,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 42.5,
+        "lineHeight": "47.5955px",
+        "textWidth": 309,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Lamb Shank\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 138,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Rice bowl\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 107,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Lychee Tea\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 123,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Juga ada di menu\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 200,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#teh-h \"Teh, kopi & shisha\"",
+        "fontSize": 42.5,
+        "lineHeight": "47.5955px",
+        "textWidth": 379,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h3 \"Teh Arab satu teko\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 213,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Teh & kopi\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 123,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Shisha\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 72,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 42.5,
+        "lineHeight": "47.5955px",
+        "textWidth": 263,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 42.5,
+        "lineHeight": "47.5955px",
+        "textWidth": 310,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3#jam-h \"Buka setiap hari\"",
+        "fontSize": 23,
+        "lineHeight": "29.9104px",
+        "textWidth": 183,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 42.5,
+        "lineHeight": "47.5955px",
+        "textWidth": 298,
+        "pctOfContentWidth": 42
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 28
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5732,
+    "sizes": [
+      {
+        "el": "h1 \"MABSOOTH مبسوط CAFE & RESTO\"",
+        "fontSize": 132.2,
+        "lineHeight": "132.16px",
+        "textWidth": 808,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#suasana-h \"Suasana\"",
+        "fontSize": 56,
+        "lineHeight": "62.72px",
+        "textWidth": 229,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Teras di bawah lentera\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 293,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Lounge ber-AC\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 190,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 56,
+        "lineHeight": "62.72px",
+        "textWidth": 407,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Lamb Shank\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 156,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"Rice bowl\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 121,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Lychee Tea\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 139,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Juga ada di menu\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 226,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h2#teh-h \"Teh, kopi & shisha\"",
+        "fontSize": 56,
+        "lineHeight": "62.72px",
+        "textWidth": 500,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"Teh Arab satu teko\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 241,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"Teh & kopi\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 139,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Shisha\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 82,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#ulasan-h \"Kata mereka\"",
+        "fontSize": 56,
+        "lineHeight": "62.72px",
+        "textWidth": 347,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kunjungi-h \"Kunjungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "62.72px",
+        "textWidth": 409,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3#jam-h \"Buka setiap hari\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 207,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h2#hubungi-h \"Hubungi kami\"",
+        "fontSize": 56,
+        "lineHeight": "62.72px",
+        "textWidth": 393,
+        "pctOfContentWidth": 33
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 28
+  }
+}

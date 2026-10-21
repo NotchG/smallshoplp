@@ -1,0 +1,376 @@
+{
+  "id": "ChIJN7A6K5T0aS4R3HmtKwEWI8c",
+  "types": [
+    "bakery",
+    "food_store",
+    "store",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "(021) 4757603",
+  "internationalPhoneNumber": "+62 21 4757603",
+  "formattedAddress": "Jl. Balai Pustaka No.12 2, RT.4/RW.10, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+  "rating": 4.5,
+  "googleMapsUri": "https://maps.google.com/?cid=14349337032016099804&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 0,
+          "hour": 20,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 20,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 20,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 20,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 20,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 20,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 7,
+          "minute": 0
+        },
+        "close": {
+          "day": 6,
+          "hour": 20,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 7:00 AM – 8:00 PM",
+      "Tuesday: 7:00 AM – 8:00 PM",
+      "Wednesday: 7:00 AM – 8:00 PM",
+      "Thursday: 7:00 AM – 8:00 PM",
+      "Friday: 7:00 AM – 8:00 PM",
+      "Saturday: 7:00 AM – 8:00 PM",
+      "Sunday: 7:00 AM – 8:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T00:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+  "userRatingCount": 308,
+  "displayName": {
+    "text": "Soes Roti Kue Merdeka",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Bakery",
+    "languageCode": "en-US"
+  },
+  "primaryType": "bakery",
+  "reviews": [
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s0M016ZHBabkpYV20xSlQwaHRYemR4Vm1GME1sRRAB",
+      "relativePublishTimeDescription": "4 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Legendary soes from Bandung, it was good but soes were on the dry side even though the rum custard filling was still good.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Legendary soes from Bandung, it was good but soes were on the dry side even though the rum custard filling was still good.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Lusman Yunarto",
+        "uri": "https://www.google.com/maps/contrib/105885508694706112303/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU-1jb29tAcyWIMUxNhBebldfIAAK6EAqHuYYWzplqfYOmN9GdN=s128-c0x00000000-cc-rp-mo-ba7"
+      },
+      "publishTime": "2026-06-22T13:54:56.567529973Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s0M016ZHBabkpYV20xSlQwaHRYemR4Vm1GME1sRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s0M016ZHBabkpYV20xSlQwaHRYemR4Vm1GME1sRRAB!2m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s1ZlYzSnBSMVkzV201M1lqTkthVWg0YkZCaE0xRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "For soes merdeka whi lives at Jakarta, don't need go to bandung, just come to this place",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "For soes merdeka whi lives at Jakarta, don't need go to bandung, just come to this place",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "the jo",
+        "uri": "https://www.google.com/maps/contrib/102125217829510212266/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK8HP7XerA0VP-icug_BplJgOwPyksFBGx2sZfEoDmNrMmfwQ=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-08-10T14:47:36.735435128Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2s1ZlYzSnBSMVkzV201M1lqTkthVWg0YkZCaE0xRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2s1ZlYzSnBSMVkzV201M1lqTkthVWg0YkZCaE0xRRAB!2m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/reviews/ChZDSUhNMG9nS0VJQ0FnSURjd29mN0VREAE",
+      "relativePublishTimeDescription": "4 years ago",
+      "rating": 5,
+      "text": {
+        "text": "They serve delicious kue soes, and also abon (both chicken and meat are delicious) and telur asin",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "They serve delicious kue soes, and also abon (both chicken and meat are delicious) and telur asin",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Bella Yunita",
+        "uri": "https://www.google.com/maps/contrib/101019831611691710995/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWgn56qrD2PkZ-apW7m8WswYSCQz4P8YJIZz-clQmygbCj6-lc=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2022-03-21T12:16:46.066648Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURjd29mN0VREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURjd29mN0VREAE!2m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/reviews/ChZDSUhNMG9nS0VJQ0FnSURNdGRtbk9BEAE",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Traditional cake and bakery in Balai Pustaka Street, rawamangun area",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Traditional cake and bakery in Balai Pustaka Street, rawamangun area",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "siti chandra widjanantie",
+        "uri": "https://www.google.com/maps/contrib/112230628669093387658/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW0l27w2hhqZxwlU1ktwRkw56_TGdZumxuRQUfZ1L6f3rDwOxps=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2020-01-07T06:15:39.939121Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURNdGRtbk9BEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURNdGRtbk9BEAE!2m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/reviews/ChdDSUhNMG9nS0VJQ0FnSUM4eVk2d3ZBRRAB",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Its good shops for local tid-bits ....",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Its good shops for local tid-bits ....",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Faisal Suryo",
+        "uri": "https://www.google.com/maps/contrib/103689441371018101413/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXntc2AXIy0CYE_z012BEnJtCOBpy4MW0IWeDkP3XgXFzNbQeZ6=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2020-07-10T07:40:24.479681Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUM4eVk2d3ZBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUM4eVk2d3ZBRRAB!2m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMbYsckZ3ygTiSRUla58nKwDxFlPmDjMga1IryWVhi_-QkIuKwGSSegH58RLGeRm_3z75rfVIrabxlGYLE2sqc89eksfjTudLX3ild4aqcq7SP477_z9wRhhgb2yxypf9dzthYZiMhVRei3KHGDDN8j2qvMLX1CCfayysbMpb_eTZsUPX_FrO3cg2GP6vXuk2VIpFRDpDSMY6P1Mafky2z6sMXer-U3c-c0GyaCJE3cjnNZQHynSyZkeMoykNp5lrM88Zrq2xG6SK9WxQyAN4128DVT4M3BkMVkF2BHhH1ckjv1DUGPZZqJPmpSDGocQJjoSFTdY_LHfIXBvXNU4GSrI5QJMgBviDbwJJtwhaNVAndkicWhktIPagHh7igVu7JGhunc1fTLWSCo7bAqlY74XeS6IPA8",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Andieka Almas",
+          "uri": "https://maps.google.com/maps/contrib/107762077029993694305",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXhhOPic8o39bvuaGj83kko6Td2UUVIuDfceUvKss5sosD8V5yp=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIDxsKznlgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDxsKznlgE!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMZGQT9NQrMiARwCyOCTFuoGixk4vL6D-uafgxWuUEysQdgabCQcdWqCHtz-7SDpoGKt_Q_Eyi9jNsla6DBSWdNvPWdxkfQeYdFfMCy9tTIP_BMLXR3GxL10qL7ALyV7Aeqts9c_5IurecGFW4HaqJ0Uv3SD9VZtG4V3WrPPE_Vi_OjqY43nTQQovzTMFGaLWsXNyRSgXvS7W5P5ofp7OwD_x3RP2VFncO1pwGcH1zvqBduLzVVt7dORTuZsdwRWkSXaYqX7azSfA5Vdwse7uCXdgeGs5ohuaGFODF2MKLxbBD3iAMGbOCCKD0_Z9yeoVh1No8Qqa8v2m8jtzK9gY16TRIogNfkivqsL1ItkHqsND6PUhyt9wHui2ObsKFoMKHpt6bFd-tRR-GKJEgQAYYMCxUuULXc",
+      "widthPx": 2944,
+      "heightPx": 2944,
+      "authorAttributions": [
+        {
+          "displayName": "Heru Setiawan",
+          "uri": "https://maps.google.com/maps/contrib/102228742552596881136",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW2lE5rYGzHufaaBs4PsTOUXZccq1zmc7HNo1zdtWbRHLTUtFVjJA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICmyfm9pgE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICmyfm9pgE!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMaqvTSdVNjYqpv2TlM9SZDpOtu5CKl9T8BIh6XwdnoPy-rqwTcv3DldCuw9oWS0cwSzq3gt6_e_fxfFLeT63Iz9N4x3DsjonmGeYkcRmcfGbZsOEDzPsN8zRrYu7PDw6QGOQBLP2mRheyiZLXj4l3lKPGOv23CY5NGsr3Ptrk3bMxvkFinWNqGiXuDjOGRbKETvkmmxMfgxsA1prTqU__JujrvaJZe33eu3jBfXvY9cTn8VaOWJhnEyce4c-f0QB_jQEBEnUFpvb5SY2ymlb6Ibgy_Iaaj4LZc6is4Ze5Nf3HAm_7WuwacXtGhusYM2rLEIlP5H9GawgWQXjDGT0b03T59ckZ8RX1izCYynzUeNWa-K1zAysIgaPCH4KzrPspucxkHatzji8k5qHpJdnSjr7cn5n6lq25hgGssp6PLD",
+      "widthPx": 2448,
+      "heightPx": 3264,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC6TNz2ToEkTZS130PYxAfk&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC6TNz2ToEkTZS130PYxAfk!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMbizgbTN0EwodzS9ZdepmtqAM5XzMO158qBRrSd8OKeuNDRm_7-LqlhpSZz3PhY7f3VHISN6bzX9nuNp0NckWbPnZUUPR5FteSOODetAR1b9tA8WfD4JClGN5wgrKsqjoa5aTLy0ElSfTu6MSEsm7jfX32qjLjtTU9AphWWM2lm_bngwybH_h11-g0IFps2NNt2lzlhJBRF5KA8J7mO0EwO2AYKvT9g2qVTP6LyFNdERh8RLvH4-NNYVeDHRP8BUqpMWH3KjCrrsh5P0VqLGnjrzC0cNJzl2tmwEyQ1N0wQGCH5lu-KfjW5hVNAzLO4SrnwkZlaCLUjANczjyzJBVDplwy11cL7LtCGnYFMJtxYt0XczJIklVQxA1tJaG3EVIjDSujehAFsbjbOXQQdH524JRGAbQMZPxcAlINS2hBn8g",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Vivien Novarina",
+          "uri": "https://maps.google.com/maps/contrib/106654872444782591888",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJK1uIjzRQf1GYFWptcbpwxcjKUwKl3nkif0wiFn2NFCpfM8g=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBO-r7g7jHHpvJf6YvKixxT&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBO-r7g7jHHpvJf6YvKixxT!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMYSnoB42ZQQYnZU8qvTxbtzaytU8_awQwTpAtj3fjVMGAG421wDy-hCeFjANqkI_16soWw0D4PS0ZAu1fkPDPE66zkFmerWfhDgqq7uKmpOglI7zZXNyj7zN9WhFiAkFaabirjtF6ZZVh-i9qdEGneJBng8LMIMPG0ZQc6RPv-0OvtXgSYwRgHqHS-k1uJ7rG4yhOQMXRYl9NchCUxnxN1tG-KeoO6LhiK9KKovC2yfOpojbTCl0lKEmS_LINgLp4kGAV2Aqj-ZNGO5J7_pGfH7stuz_L7bnWANRtdEvu07FVVuG_LsM9NR0gYlIsSlSXf7LgV-bsFPPnTdKin7CLZ_zT8gpMjk3q9YVMsFG_x8WojKf3HJXimGGxHMUD2k6hz5QfzPq-8jLNVs0f16YEtbPg",
+      "widthPx": 493,
+      "heightPx": 1127,
+      "authorAttributions": [
+        {
+          "displayName": "zainul arifianto",
+          "uri": "https://maps.google.com/maps/contrib/105088635347770315079",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIDKZjAunwu1SeqiF7oBDRt2L1L27wUALjcDmXpFEH08ZZtfg=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICTq4XHZw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICTq4XHZw!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMaf111m-GvnRlEdoaY171H_7fp_ILyDAeQagS9EHg5jPDsmLLhP0icq9ZxR1aAXzSoZR-pOFvDQwHH5gxGyWhhJ2_dd6MOUSOXC0isEWKljNpR65mRaHHg0-PfxLhR5ID1tfk4VIs3miV49nQX5Y-Mx_VGqOhpeemQPCgcYpwpvas0Jo-q2DLYD_R9VpS5XCUjY8RR71MGu-vnGgYbw-mBULGlY0uRP0Oh64bDNGUIweUeEyg-HjYv7HztF-DOqbvOfS--2Gy2RvxTZb3D3qUpB2QDclPSq6_jaghcnNi_qP_F5w2EoPbHhYvY1BnNIjgGRV_BtaruvQIgxxT_MGTG3cKGHxMKWT0eHcAaekYGmvnLIoplzbwCju1i96fdOR79OhJxbonsVRaBRB0a0P31Ws74jgYjdULzsuhs9uSuFIg",
+      "widthPx": 3600,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "Blessingmom Oftwo",
+          "uri": "https://maps.google.com/maps/contrib/106468365321440809246",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVtcMwTzmsfuEN8_6dogDhcL3GHwRfQjir7A7KNam1mmvQTiS6b=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCqVqctcNXIKmcvLj4NX2si&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCqVqctcNXIKmcvLj4NX2si!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMYWYdCG1A-uO-Virm2u59feX9So8HaX5iSBSzG3_7WB4h5J9SS0unGuikD51v-qJqkiQBiIx-X6nnv38H3-DXvtGQiI5yvWzc26YCOavd4ffdG8t7leRXiVi-i8uM-2JLoZNQWGcIpS9LMvSWuP5j4s4qbiNgfXm4p7DZTp4rb8QKbHyO_U6PQDYlVCQGgcx4aHGN6c5XClCDancRYXVbbe_aMy5UmQ2t99Gj4SwYuoa9_KIjOZ-OhpI_tzh31O9GJrtCp62qwJ8HAdZfHOwGdvxe3Oe_5Dnav5rwxj2_Ob-rSWArbGaJ4RIF7idfo3FZZta4z9rC-3gupXf7dzjt4uJG9Jd3-71bcp9jK_OhyGQTyrfHpJlGzxUxZQN3SRpUm8KLMuQc-jHrW-_dKgtkrAP48sEezWA6QSzQTqf4Xg",
+      "widthPx": 4080,
+      "heightPx": 3060,
+      "authorAttributions": [
+        {
+          "displayName": "Freddy Phang",
+          "uri": "https://maps.google.com/maps/contrib/118255922645179860128",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVScIj9xr8fss1iUKjZGKr1lazaSI3ofkTSHo5XRWlJl1WziQrG=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCjnGAbJL0vc9AAVA9LzLhV&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCjnGAbJL0vc9AAVA9LzLhV!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMbngqkSs-N-40FZNccHspsq_sneRn8E01eLuPIDwi9gaCss4NMWuZ32F0bu08x3Kv9fmdTo_2A0ktvCnRS0sJUgr7zfO8KlxikLQwM6RTMylFX-mWisr-LL7Be-gwpRFloWykL670lxZeeMfh-uiX8kYzypA1Qp_GgL5Gb9wayKErGHBAZgxKa6TL1w1NTRXEIdqXkIgB7sbeZ0kshm7U4hAsuG7DY7jYLb_W2VS92tupJ0IUdep3kzT4UEq2o0Apr4zdyerzd0S0jvCPhM3QnYfAYfdcZqP8qvS7EvL19cp0X6kINypIaYuKYGD9obX3KtV1ExDj6fF8rUhGm3x-PzZIKy89Y5Rfe5T63mt-Swuwb7yIjJi9LpofhEgSGl7-dTSbmjCBR2BdWN1ee4xOxDA2pbEcEJRb8JrKbEsIx7",
+      "widthPx": 3000,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "Ursandnic JKT",
+          "uri": "https://maps.google.com/maps/contrib/102165050932678036157",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUoVsSx1YDQTIm3Yso0yUPZlkgXl1pIUUY0rSv3e1RHKlBUnMs=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhDX1arMG4LiqMBGmdiMfgbN&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDX1arMG4LiqMBGmdiMfgbN!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMbgXp72zJUjBc_cxbQmtduXLSQJXFF28IAruMlGvaIbwuQ6BzG5vu09wim7gjgYoEYv4J1l49jo18hh-0tSOL9JSbPWroTo66USXFaJInZEBdoFvMHD0XBh-BxvRMsLTTMy1zciTmPzmuPIvGxn_02GJoSIvZPXgCjZTqE0m8cvzQqdJx52VMhzFrUi5hTzH39MGMf2LnVeqnma0VZE9Eu2hLunFshiVB9RbeVVmJhsl56Ccv-bWC7A7SGqq94Qr2vwpWc1N-z3cdeu9ABcmBEdfNOlOir9qw2W7UBFu58JPjyx55i3uCHl4csqNHQZCcXcdamzHElU0J6HD-IyWyQ60gVe87muhTMJlLb05guICH9kwS2nMyR8NgvVoVvau0LjViy8tJ80uY9ZBkbVZzX1zYRFWhkxc6b0I4glw3t7",
+      "widthPx": 1080,
+      "heightPx": 1440,
+      "authorAttributions": [
+        {
+          "displayName": "Metta N",
+          "uri": "https://maps.google.com/maps/contrib/100932453328440487024",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU38i1mo7DDGDighFVQcmVDfKJjKkrD2aGZCttgN2oqXH9iihLA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAynD8Eo6NcI5oqu2692ZuF&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAynD8Eo6NcI5oqu2692ZuF!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    },
+    {
+      "name": "places/ChIJN7A6K5T0aS4R3HmtKwEWI8c/photos/Aa-ngMZ5Q--cB0jB_DQ_NrQE-kr7zm5Qb7VvZ5Djmj_bBQAtNTWZCPT17GiVzYCmoXtsC2r_NuvpA9ksHA8f8ebbMYyqUt12Tzyh4AvL0FI8CnhEu25aZXGeduRUtugdEeT71QvJPezkoUkkYP-QHpuudLQObvRNRnAKL2r7CYw8_8vfazg6bRTkrHKc-Yha0aRJIthqBqDyi-sMA91rgoLgQ1De2ND9SlcLi3HWyJNTZjA0uNtL60Brz1J5VOX1f4PGX5vOS5U7SdmNSV8BGseQnNENLlV8ZRvXbhxTszr53yb0D38tO9YfniQGXZ9ynERFoeAq74C8h6mgkQzuIJgz_Z59c6yEeZwe-YyGl6QjOZOXizPlU1-u1NZAXfKN9oucYMakWsGrBVoV3QzNYvcjMtjLn2WHZJU",
+      "widthPx": 3264,
+      "heightPx": 2448,
+      "authorAttributions": [
+        {
+          "displayName": "Wijaya Jati",
+          "uri": "https://maps.google.com/maps/contrib/114455999444794765402",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKFYW7-1cZtNnKToeS-3b03_RqhqrRf3Z-JQ4shpLUBraW9afSX=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEInD_4qUyZia-gE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEInD_4qUyZia-gE!2e10!4m2!3m1!1s0x2e69f4942b3ab037:0xc72316012bad79dc"
+    }
+  ]
+}

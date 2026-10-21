@@ -1,0 +1,347 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6766,
+    "sizes": [
+      {
+        "el": "h1#hero-name \"Kopi Goen\"",
+        "fontSize": 62.6,
+        "lineHeight": "59.47px",
+        "textWidth": 268,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 30,
+        "lineHeight": "32.4px",
+        "textWidth": 190,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h3 \"Es Kopi Aren\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 119,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Kopi Havana\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 123,
+        "pctOfContentWidth": 35
+      },
+      {
+        "el": "h3 \"Cappuccino\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 116,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"V60\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 39,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"Kentang Goreng\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 155,
+        "pctOfContentWidth": 44
+      },
+      {
+        "el": "h3 \"Menu lainnya\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 132,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#garden-h \"Suasana kebun\"",
+        "fontSize": 30,
+        "lineHeight": "32.4px",
+        "textWidth": 202,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"Siang\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 55,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Malam\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 69,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#reviews-h \"Kata mereka\"",
+        "fontSize": 30,
+        "lineHeight": "32.4px",
+        "textWidth": 166,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#visit-h \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "32.4px",
+        "textWidth": 187,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "h3 \"Alamat\"",
+        "fontSize": 22,
+        "lineHeight": "26.4px",
+        "textWidth": 70,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#close-h \"Sampai ketemu di kebun.\"",
+        "fontSize": 30,
+        "lineHeight": "32.4px",
+        "textWidth": 329,
+        "pctOfContentWidth": 94
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 30
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6855,
+    "sizes": [
+      {
+        "el": "h1#hero-name \"Kopi Goen\"",
+        "fontSize": 115.5,
+        "lineHeight": "109.744px",
+        "textWidth": 494,
+        "pctOfContentWidth": 70
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 37.7,
+        "lineHeight": "40.7117px",
+        "textWidth": 238,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Es Kopi Aren\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.5696px",
+        "textWidth": 128,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"Kopi Havana\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.5696px",
+        "textWidth": 133,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Cappuccino\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.5696px",
+        "textWidth": 125,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3 \"V60\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.5696px",
+        "textWidth": 42,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Kentang Goreng\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.5696px",
+        "textWidth": 168,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Menu lainnya\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.5696px",
+        "textWidth": 142,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#garden-h \"Suasana kebun\"",
+        "fontSize": 37.7,
+        "lineHeight": "40.7117px",
+        "textWidth": 254,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Siang\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.5696px",
+        "textWidth": 60,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"Malam\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.5696px",
+        "textWidth": 74,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h2#reviews-h \"Kata mereka\"",
+        "fontSize": 37.7,
+        "lineHeight": "40.7117px",
+        "textWidth": 208,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#visit-h \"Kunjungi kami\"",
+        "fontSize": 37.7,
+        "lineHeight": "40.7117px",
+        "textWidth": 235,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Alamat\"",
+        "fontSize": 23.8,
+        "lineHeight": "28.5696px",
+        "textWidth": 76,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h2#close-h \"Sampai ketemu di kebun.\"",
+        "fontSize": 37.7,
+        "lineHeight": "40.7117px",
+        "textWidth": 413,
+        "pctOfContentWidth": 58
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 30
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5106,
+    "sizes": [
+      {
+        "el": "h1#hero-name \"Kopi Goen\"",
+        "fontSize": 176,
+        "lineHeight": "167.2px",
+        "textWidth": 753,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h2#menu-h \"Menu andalan\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 278,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Es Kopi Aren\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 140,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Kopi Havana\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 145,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Cappuccino\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 137,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"V60\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 46,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Kentang Goreng\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 184,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3 \"Menu lainnya\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 156,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#garden-h \"Suasana kebun\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 297,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"Siang\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 66,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"Malam\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 81,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#reviews-h \"Kata mereka\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 243,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h2#visit-h \"Kunjungi kami\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 274,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"Alamat\"",
+        "fontSize": 26,
+        "lineHeight": "31.2px",
+        "textWidth": 83,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#close-h \"Sampai ketemu di kebun.\"",
+        "fontSize": 44,
+        "lineHeight": "47.52px",
+        "textWidth": 482,
+        "pctOfContentWidth": 40
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 30
+  }
+}

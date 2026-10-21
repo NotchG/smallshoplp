@@ -1,0 +1,410 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 6568,
+    "sizes": [
+      {
+        "el": "h1 \"CUSTOM S\"",
+        "fontSize": 57.7,
+        "lineHeight": "51.93px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#rak-biji-h \"rak biji kami\"",
+        "fontSize": 32,
+        "lineHeight": "33.6px",
+        "textWidth": 193,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#menu-h \"menu andalan\"",
+        "fontSize": 32,
+        "lineHeight": "33.6px",
+        "textWidth": 212,
+        "pctOfContentWidth": 61
+      },
+      {
+        "el": "h3 \"Vietnam Drip ·Rp 22rb\"",
+        "fontSize": 20.8,
+        "lineHeight": "24.96px",
+        "textWidth": 220,
+        "pctOfContentWidth": 63
+      },
+      {
+        "el": "h3 \"Es Green Tea Latte ·Rp 25rb\"",
+        "fontSize": 16.1,
+        "lineHeight": "19.368px",
+        "textWidth": 110,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h3 \"Manual Brew Single Origin ·Rp 25rb\"",
+        "fontSize": 16.1,
+        "lineHeight": "19.368px",
+        "textWidth": 157,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h3 \"KOPI LAINNYA\"",
+        "fontSize": 12.8,
+        "lineHeight": "18.56px",
+        "textWidth": 78,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"MAKANAN\"",
+        "fontSize": 12.8,
+        "lineHeight": "18.56px",
+        "textWidth": 56,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#nongkrong-h \"tempat nongkrong\"",
+        "fontSize": 32,
+        "lineHeight": "33.6px",
+        "textWidth": 285,
+        "pctOfContentWidth": 81
+      },
+      {
+        "el": "h3 \"WIFI GRATIS\"",
+        "fontSize": 16.1,
+        "lineHeight": "17.754px",
+        "textWidth": 86,
+        "pctOfContentWidth": 25
+      },
+      {
+        "el": "h3 \"MUSIKNYA ASIK\"",
+        "fontSize": 16.1,
+        "lineHeight": "17.754px",
+        "textWidth": 111,
+        "pctOfContentWidth": 32
+      },
+      {
+        "el": "h3 \"MEETING & KERJA\"",
+        "fontSize": 16.1,
+        "lineHeight": "17.754px",
+        "textWidth": 128,
+        "pctOfContentWidth": 37
+      },
+      {
+        "el": "h3 \"GOWESER WELCOME\"",
+        "fontSize": 16.1,
+        "lineHeight": "17.754px",
+        "textWidth": 147,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"BUKA S/D 01.00\"",
+        "fontSize": 16.1,
+        "lineHeight": "17.754px",
+        "textWidth": 106,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"KOMUNITAS\"",
+        "fontSize": 16.1,
+        "lineHeight": "17.754px",
+        "textWidth": 84,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h2#kata-mereka-h \"kata mereka\"",
+        "fontSize": 32,
+        "lineHeight": "33.6px",
+        "textWidth": 189,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h2#kunjungi-h \"kunjungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "33.6px",
+        "textWidth": 216,
+        "pctOfContentWidth": 62
+      },
+      {
+        "el": "h2#hubungi-h \"hubungi kami\"",
+        "fontSize": 32,
+        "lineHeight": "33.6px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 6221,
+    "sizes": [
+      {
+        "el": "h1 \"CUSTOM S\"",
+        "fontSize": 84.2,
+        "lineHeight": "75.744px",
+        "textWidth": 704,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#rak-biji-h \"rak biji kami\"",
+        "fontSize": 40.1,
+        "lineHeight": "42.1008px",
+        "textWidth": 242,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#menu-h \"menu andalan\"",
+        "fontSize": 40.1,
+        "lineHeight": "42.1008px",
+        "textWidth": 266,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h3 \"Vietnam Drip ·Rp 22rb\"",
+        "fontSize": 23,
+        "lineHeight": "27.6096px",
+        "textWidth": 242,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Es Green Tea Latte ·Rp 25rb\"",
+        "fontSize": 16.9,
+        "lineHeight": "20.2752px",
+        "textWidth": 115,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Manual Brew Single Origin ·Rp 25rb\"",
+        "fontSize": 16.9,
+        "lineHeight": "20.2752px",
+        "textWidth": 122,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"KOPI LAINNYA\"",
+        "fontSize": 12.8,
+        "lineHeight": "18.56px",
+        "textWidth": 78,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"MAKANAN\"",
+        "fontSize": 12.8,
+        "lineHeight": "18.56px",
+        "textWidth": 56,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h2#nongkrong-h \"tempat nongkrong\"",
+        "fontSize": 40.1,
+        "lineHeight": "42.1008px",
+        "textWidth": 358,
+        "pctOfContentWidth": 51
+      },
+      {
+        "el": "h3 \"WIFI GRATIS\"",
+        "fontSize": 16.9,
+        "lineHeight": "18.5856px",
+        "textWidth": 90,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"MUSIKNYA ASIK\"",
+        "fontSize": 16.9,
+        "lineHeight": "18.5856px",
+        "textWidth": 116,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"MEETING & KERJA\"",
+        "fontSize": 16.9,
+        "lineHeight": "18.5856px",
+        "textWidth": 134,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"GOWESER WELCOME\"",
+        "fontSize": 16.9,
+        "lineHeight": "18.5856px",
+        "textWidth": 154,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"BUKA S/D 01.00\"",
+        "fontSize": 16.9,
+        "lineHeight": "18.5856px",
+        "textWidth": 111,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"KOMUNITAS\"",
+        "fontSize": 16.9,
+        "lineHeight": "18.5856px",
+        "textWidth": 88,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#kata-mereka-h \"kata mereka\"",
+        "fontSize": 40.1,
+        "lineHeight": "42.1008px",
+        "textWidth": 236,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h2#kunjungi-h \"kunjungi kami\"",
+        "fontSize": 40.1,
+        "lineHeight": "42.1008px",
+        "textWidth": 271,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#hubungi-h \"hubungi kami\"",
+        "fontSize": 40.1,
+        "lineHeight": "42.1008px",
+        "textWidth": 258,
+        "pctOfContentWidth": 37
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5242,
+    "sizes": [
+      {
+        "el": "h1 \"CUSTOM S\"",
+        "fontSize": 131.2,
+        "lineHeight": "118.08px",
+        "textWidth": 1200,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#rak-biji-h \"rak biji kami\"",
+        "fontSize": 54.9,
+        "lineHeight": "57.624px",
+        "textWidth": 331,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h2#menu-h \"menu andalan\"",
+        "fontSize": 54.9,
+        "lineHeight": "57.624px",
+        "textWidth": 364,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Vietnam Drip ·Rp 22rb\"",
+        "fontSize": 25.6,
+        "lineHeight": "30.72px",
+        "textWidth": 268,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Es Green Tea Latte ·Rp 25rb\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 229,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Manual Brew Single Origin ·Rp 25rb\"",
+        "fontSize": 17,
+        "lineHeight": "20.4px",
+        "textWidth": 293,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"KOPI LAINNYA\"",
+        "fontSize": 12.8,
+        "lineHeight": "18.56px",
+        "textWidth": 78,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"MAKANAN\"",
+        "fontSize": 12.8,
+        "lineHeight": "18.56px",
+        "textWidth": 56,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h2#nongkrong-h \"tempat nongkrong\"",
+        "fontSize": 54.9,
+        "lineHeight": "57.624px",
+        "textWidth": 490,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"WIFI GRATIS\"",
+        "fontSize": 17,
+        "lineHeight": "18.7px",
+        "textWidth": 91,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3 \"MUSIKNYA ASIK\"",
+        "fontSize": 17,
+        "lineHeight": "18.7px",
+        "textWidth": 117,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"MEETING & KERJA\"",
+        "fontSize": 17,
+        "lineHeight": "18.7px",
+        "textWidth": 135,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"GOWESER WELCOME\"",
+        "fontSize": 17,
+        "lineHeight": "18.7px",
+        "textWidth": 155,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h3 \"BUKA S/D 01.00\"",
+        "fontSize": 17,
+        "lineHeight": "18.7px",
+        "textWidth": 112,
+        "pctOfContentWidth": 9
+      },
+      {
+        "el": "h3 \"KOMUNITAS\"",
+        "fontSize": 17,
+        "lineHeight": "18.7px",
+        "textWidth": 89,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h2#kata-mereka-h \"kata mereka\"",
+        "fontSize": 54.9,
+        "lineHeight": "57.624px",
+        "textWidth": 324,
+        "pctOfContentWidth": 27
+      },
+      {
+        "el": "h2#kunjungi-h \"kunjungi kami\"",
+        "fontSize": 54.9,
+        "lineHeight": "57.624px",
+        "textWidth": 371,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#hubungi-h \"hubungi kami\"",
+        "fontSize": 54.9,
+        "lineHeight": "57.624px",
+        "textWidth": 353,
+        "pctOfContentWidth": 29
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 32
+  }
+}

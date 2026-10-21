@@ -1,0 +1,389 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 8054,
+    "sizes": [
+      {
+        "el": "h1#hero-name \"D’ROOFTOP & GARAGE\"",
+        "fontSize": 52,
+        "lineHeight": "54.6px",
+        "textWidth": 318,
+        "pctOfContentWidth": 91
+      },
+      {
+        "el": "h2#dua-lantai-h \"DUA LANTAI, DUA SUASANA\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 241,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h3 \"Garasi penuh mural\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 210,
+        "pctOfContentWidth": 60
+      },
+      {
+        "el": "h3 \"Langit terbuka, lampu gantung\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 165,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#menu-h \"MENU ANDALAN\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 271,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h3 \"Kopi Susu Garage\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 188,
+        "pctOfContentWidth": 54
+      },
+      {
+        "el": "h3 \"Es Kopi Susu Gula Aren\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 137,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Kopi Tubruk Lampung\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 127,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"V60\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 43,
+        "pctOfContentWidth": 12
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 99,
+        "pctOfContentWidth": 28
+      },
+      {
+        "el": "h3 \"Teman ngopi\"",
+        "fontSize": 22.1,
+        "lineHeight": "28.7625px",
+        "textWidth": 137,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#rombongan-h \"DATANG RAME-RAME\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 206,
+        "pctOfContentWidth": 59
+      },
+      {
+        "el": "h2#ulasan-h \"KATA MEREKA\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 240,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h2#lokasi-h \"KUNJUNGI KAMI\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 289,
+        "pctOfContentWidth": 83
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 77,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"CARA KE SINI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 100,
+        "pctOfContentWidth": 29
+      },
+      {
+        "el": "h2#kontak-h \"HUBUNGI KAMI\"",
+        "fontSize": 32,
+        "lineHeight": "35.2px",
+        "textWidth": 266,
+        "pctOfContentWidth": 76
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 23
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 7129,
+    "sizes": [
+      {
+        "el": "h1#hero-name \"D’ROOFTOP & GARAGE\"",
+        "fontSize": 55.9,
+        "lineHeight": "58.7328px",
+        "textWidth": 342,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#dua-lantai-h \"DUA LANTAI, DUA SUASANA\"",
+        "fontSize": 43,
+        "lineHeight": "47.344px",
+        "textWidth": 638,
+        "pctOfContentWidth": 91
+      },
+      {
+        "el": "h3 \"Garasi penuh mural\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 237,
+        "pctOfContentWidth": 34
+      },
+      {
+        "el": "h3 \"Langit terbuka, lampu gantung\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 267,
+        "pctOfContentWidth": 38
+      },
+      {
+        "el": "h2#menu-h \"MENU ANDALAN\"",
+        "fontSize": 43,
+        "lineHeight": "47.344px",
+        "textWidth": 365,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h3 \"Kopi Susu Garage\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 213,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h3 \"Es Kopi Susu Gula Aren\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 154,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Kopi Tubruk Lampung\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 144,
+        "pctOfContentWidth": 20
+      },
+      {
+        "el": "h3 \"V60\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 49,
+        "pctOfContentWidth": 7
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 111,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h3 \"Teman ngopi\"",
+        "fontSize": 25,
+        "lineHeight": "32.448px",
+        "textWidth": 155,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#rombongan-h \"DATANG RAME-RAME\"",
+        "fontSize": 43,
+        "lineHeight": "47.344px",
+        "textWidth": 473,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#ulasan-h \"KATA MEREKA\"",
+        "fontSize": 43,
+        "lineHeight": "47.344px",
+        "textWidth": 322,
+        "pctOfContentWidth": 46
+      },
+      {
+        "el": "h2#lokasi-h \"KUNJUNGI KAMI\"",
+        "fontSize": 43,
+        "lineHeight": "47.344px",
+        "textWidth": 389,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 77,
+        "pctOfContentWidth": 11
+      },
+      {
+        "el": "h3 \"CARA KE SINI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 100,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#kontak-h \"HUBUNGI KAMI\"",
+        "fontSize": 43,
+        "lineHeight": "47.344px",
+        "textWidth": 358,
+        "pctOfContentWidth": 51
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 23
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 5784,
+    "sizes": [
+      {
+        "el": "h1#hero-name \"D’ROOFTOP & GARAGE\"",
+        "fontSize": 88,
+        "lineHeight": "92.4px",
+        "textWidth": 539,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "h2#dua-lantai-h \"DUA LANTAI, DUA SUASANA\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 831,
+        "pctOfContentWidth": 69
+      },
+      {
+        "el": "h3 \"Garasi penuh mural\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 247,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Langit terbuka, lampu gantung\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 393,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h2#menu-h \"MENU ANDALAN\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 475,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h3 \"Kopi Susu Garage\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 222,
+        "pctOfContentWidth": 19
+      },
+      {
+        "el": "h3 \"Es Kopi Susu Gula Aren\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 290,
+        "pctOfContentWidth": 24
+      },
+      {
+        "el": "h3 \"Kopi Tubruk Lampung\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 275,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3 \"V60\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 51,
+        "pctOfContentWidth": 4
+      },
+      {
+        "el": "h3 \"Non-kopi\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 116,
+        "pctOfContentWidth": 10
+      },
+      {
+        "el": "h3 \"Teman ngopi\"",
+        "fontSize": 26,
+        "lineHeight": "33.8px",
+        "textWidth": 161,
+        "pctOfContentWidth": 13
+      },
+      {
+        "el": "h2#rombongan-h \"DATANG RAME-RAME\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 361,
+        "pctOfContentWidth": 30
+      },
+      {
+        "el": "h2#ulasan-h \"KATA MEREKA\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 248,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#lokasi-h \"KUNJUNGI KAMI\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 506,
+        "pctOfContentWidth": 42
+      },
+      {
+        "el": "h3 \"JAM BUKA\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 77,
+        "pctOfContentWidth": 6
+      },
+      {
+        "el": "h3 \"CARA KE SINI\"",
+        "fontSize": 13,
+        "lineHeight": "18.2px",
+        "textWidth": 100,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h2#kontak-h \"HUBUNGI KAMI\"",
+        "fontSize": 56,
+        "lineHeight": "61.6px",
+        "textWidth": 466,
+        "pctOfContentWidth": 39
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 23
+  }
+}

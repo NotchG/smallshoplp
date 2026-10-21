@@ -1,0 +1,285 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4. Colours become Tailwind utilities
+   (bg-awning, text-sign, ...). */
+@theme {
+  --color-awning: #5A1E2C;
+  --color-sign: #F4CF2E;
+  --color-kayu: #2A1A14;
+  --color-bata: #A94A2A;
+  --color-pagar: #B6D4BE;
+  --color-piring: #F7F4EF;
+}
+@theme inline {
+  --font-display: var(--font-rounded), "M PLUS Rounded 1c", ui-rounded, sans-serif;
+  --font-body: var(--font-rounded), "M PLUS Rounded 1c", ui-rounded, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+
+  --step-display: clamp(4.75rem, 3.35rem + 5.7vw, 8.5rem);   /* 76 → 136px */
+  --step-head: clamp(2.25rem, 1.7rem + 2.3vw, 3.5rem);       /* 36 → 56px */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.75vw, 1.75rem);    /* 22 → 28px */
+  --step-body: clamp(1.0625rem, 1rem + 0.2vw, 1.1875rem);    /* 17 → 19px */
+  --step-small: 0.8125rem;                                   /* 13px */
+
+  --leading-display: 1.05;
+  --leading-head: 1.1;
+  --leading-lead: 1.3;
+  --leading-body: 1.55;
+
+  /* Derived steps (not tokens): used only inside components and SVGs. */
+  --sign-off: #A88B3C;
+  --kayu-2: #3A261D;
+  --pagar-dark: #4F7A5A;
+  --mint-drink: #7CC79E;
+
+  /* Hero measures */
+  --awning-h: 230px;
+  --scallop: 28px;
+  --counter-item-h: 88px;
+  --shelf-h: 150px;
+  --frieze-h: clamp(140px, 15.28vw, 300px);
+
+  --ring: var(--color-awning);
+}
+@media (min-width: 768px) {
+  :root {
+    --gutter: 32px;
+    --section-y: 88px;
+    --awning-h: 270px;
+    --counter-item-h: 150px;
+    --shelf-h: 168px;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --section-y: 112px;
+    --awning-h: 300px;
+    --counter-item-h: 172px;
+    --shelf-h: 240px;
+  }
+}
+@media (min-width: 1200px) {
+  :root { --gutter: 40px; }
+}
+
+html {
+  background: var(--color-kayu);
+  color: var(--color-kayu);
+  scrollbar-color: var(--color-awning) var(--color-piring);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  font-weight: 500;
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  background: var(--color-piring);
+}
+::selection { background: var(--color-sign); color: var(--color-kayu); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display {
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+.t-head    { font-size: var(--step-head);  line-height: var(--leading-head); font-weight: 800; text-wrap: balance; }
+.t-lead    { font-size: var(--step-lead);  line-height: var(--leading-lead); text-wrap: pretty; }
+.t-body    { font-size: var(--step-body);  line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small); line-height: 1.4; letter-spacing: 0.02em; }
+.measure   { max-width: 60ch; }
+.tabular   { font-variant-numeric: tabular-nums; }
+
+/* Grounds set the focus ring colour: sign on dark, awning on light. */
+.ground-dark  { --ring: var(--color-sign); }
+.ground-light { --ring: var(--color-awning); }
+:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -100px;
+  z-index: 50;
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: var(--color-sign);
+  color: var(--color-kayu);
+  font-weight: 700;
+  --ring: var(--color-piring);
+}
+.skip-link:focus { top: 12px; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small);
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding: 8px var(--gutter);
+  background: var(--color-kayu);
+  color: var(--color-piring);
+}
+
+/* ---------- Buttons (§7) ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 52px;
+  padding-inline: 20px;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: var(--step-body);
+  line-height: 1.1;
+  white-space: nowrap;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition:
+    background-color 160ms ease-out,
+    border-color 160ms ease-out,
+    color 160ms ease-out,
+    transform 160ms ease-out;
+}
+.btn svg { width: 20px; height: 20px; flex: none; }
+.btn-primary-dark { background: var(--color-sign); color: var(--color-kayu); }
+.btn-primary-dark:hover { background: #FFDF57; }
+.btn-secondary-dark { border-color: var(--color-piring); color: var(--color-piring); }
+.btn-secondary-dark:hover { background: rgb(247 244 239 / 0.12); }
+.btn-primary-light { background: var(--color-awning); color: var(--color-sign); }
+.btn-primary-light:hover { background: #6E2738; }
+@media (prefers-reduced-motion: no-preference) {
+  .btn:hover { transform: translateY(-1px); }
+  .btn:active { transform: scale(0.98); }
+}
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+/* ---------- Hero: awning sign + lit layer ---------- */
+.awning { min-height: var(--awning-h); }
+.stack { display: grid; }
+.stack > * { grid-area: 1 / 1; }
+.awning-inner {
+  min-height: var(--awning-h);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  padding-block: 22px 26px;
+}
+.tube {
+  display: block;
+  height: 7px;
+  width: 9.5rem;
+  border-radius: 999px;
+}
+@media (min-width: 1024px) { .tube { width: 19rem; height: 8px; } }
+.tube-off { background: rgb(247 244 239 / 0.16); }
+.tube-on  { background: var(--color-piring); }
+.wordmark { color: var(--sign-off); }
+.lit-layer {
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgb(247 244 239 / 0.08), rgb(247 244 239 / 0));
+}
+.lit-layer .wordmark { color: var(--color-sign); }
+.lit-word::before { content: attr(data-text); }
+
+.glow-pool {
+  position: absolute;
+  inset: -30% -12% -6% -12%;
+  background: radial-gradient(closest-side, rgb(244 207 46 / 0.26), rgb(244 207 46 / 0.09) 60%, rgb(244 207 46 / 0));
+  pointer-events: none;
+}
+
+/* JS present and motion allowed: start dark, GSAP switches it on.
+   No JS: lit (CSS default). Sunday: off, as a state. */
+@media (prefers-reduced-motion: no-preference) {
+  html.js .lit-layer, html.js .glow-pool { opacity: 0; }
+}
+[data-closed] .lit-layer, [data-closed] .glow-pool { opacity: 0; }
+
+.counter-items svg { height: var(--counter-item-h); width: auto; display: block; }
+
+/* Bar front: dark wood with horizontal panel lines (kayu-2). */
+.counter-top {
+  height: 14px;
+  background: var(--kayu-2);
+  box-shadow: inset 0 2px 0 rgb(247 244 239 / 0.14);
+}
+.counter-front { display: grid; }
+.counter-front > span { display: block; height: 16px; border-top: 2px solid var(--kayu-2); }
+@media (min-width: 1024px) { .counter-front > span { height: 22px; } }
+
+/* ---------- Menu shelf ---------- */
+.shelf-box {
+  height: var(--shelf-h);
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 2px solid var(--color-kayu);
+}
+.shelf-box svg { height: calc(var(--shelf-h) - 8px); width: auto; display: block; margin-bottom: -1px; }
+
+/* ---------- Order slip ---------- */
+.slip {
+  position: relative;
+  filter: drop-shadow(0 16px 22px rgb(42 26 20 / 0.32));
+}
+@media (min-width: 1024px) { .slip { transform: rotate(-2deg); } }
+
+/* ---------- Frieze ---------- */
+.frieze { overflow-x: clip; }
+.frieze svg { display: block; width: 100%; height: var(--frieze-h); }
+
+/* ---------- Hours ---------- */
+.hours { width: 100%; max-width: 360px; border-collapse: collapse; }
+.hours th, .hours td { padding: 10px 12px; text-align: left; vertical-align: baseline; }
+.hours tr + tr th, .hours tr + tr td { border-top: 2px solid rgb(42 26 20 / 0.18); }
+.hours td { text-align: right; }
+.hours tr[aria-current="date"] th { box-shadow: inset 4px 0 0 var(--color-awning); }
+
+.map-frame {
+  border: 2px solid var(--color-kayu);
+  border-radius: 16px;
+  overflow: hidden;
+  height: 300px;
+  background: var(--color-piring);
+}
+@media (min-width: 1024px) { .map-frame { height: 420px; } }
+.map-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

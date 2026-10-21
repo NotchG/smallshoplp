@@ -1,0 +1,399 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–4.
+   Colours and fonts become Tailwind utilities (bg-fascia, text-ink, font-sign...). */
+@theme {
+  --color-fascia: #16215a;   /* navy fascia: hero + kunjungi grounds, headings on light */
+  --color-lightbox: #f5f6fa; /* backlit white: text on navy */
+  --color-limewash: #eceae5; /* ground: kopi, juga di sini */
+  --color-concrete: #d6d3cd; /* ground: barbershop, kata mereka */
+  --color-ink: #161a2b;      /* body on light, draft banner */
+  --color-brass: #c8a15a;    /* frames, hairlines, hours dot; text only on navy */
+
+  --font-sign: var(--font-comfortaa), ui-rounded, "Arial Rounded MT Bold", sans-serif;
+  --font-wall: var(--font-gelasio), Georgia, "Times New Roman", serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 75rem;                         /* 1200px */
+  --gutter: clamp(1.25rem, 4vw, 3rem);        /* 20 → 48px */
+  --section-y: clamp(4rem, 8vw, 7rem);        /* 64 → 112px */
+
+  --step-display: clamp(4.5rem, 3.6rem + 3.6vw, 6rem);       /* 72 → 96 */
+  --step-head: clamp(2.125rem, 1.6rem + 2.2vw, 3.5rem);      /* 34 → 56 */
+  --step-lead: clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem);     /* 22 → 28 */
+  --step-body: clamp(1.0625rem, 1rem + 0.15vw, 1.125rem);    /* 17 → 18 */
+  --step-small: clamp(0.8125rem, 0.78rem + 0.1vw, 0.875rem); /* 13 → 14 */
+
+  --leading-display: 0.95;
+  --leading-head: 1.1;
+  --leading-lead: 1.3;
+  --leading-body: 1.6;
+  --leading-small: 1.45;
+
+  --measure: 60ch;
+  --hover: 180ms;
+  --press: 120ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* The sign's glow layer (hero). 1 = lit; the signature moment tweens it from 0. */
+  --glow: 1;
+}
+
+html {
+  background: var(--color-fascia);
+  color: var(--color-ink);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: var(--font-wall);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-numeric: lining-nums;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--color-brass); color: var(--color-ink); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: var(--leading-lead); }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: var(--leading-small); }
+
+/* Section headings: the sign's rounded lowercase, typed lowercase in content.ts. */
+.h-sign {
+  font-family: var(--font-sign);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.measure { max-width: var(--measure); }
+.prices { font-variant-numeric: lining-nums tabular-nums; }
+
+/* Navy grounds: slightly looser body, brass focus ring. */
+.on-navy { background: var(--color-fascia); color: var(--color-lightbox); }
+.on-navy .t-body, .on-navy.t-body { line-height: 1.65; letter-spacing: 0.01em; }
+
+/* Focus: Fascia on light grounds, Brass on navy (never Brass on light: 2.0:1). */
+:focus-visible {
+  outline: 3px solid var(--color-fascia);
+  outline-offset: 3px;
+}
+.on-navy :focus-visible { outline-color: var(--color-brass); }
+
+/* Text links on light grounds. */
+.text-link {
+  color: var(--color-fascia);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: color-mix(in srgb, var(--color-fascia) 45%, transparent);
+  transition: text-decoration-color var(--hover) ease-out;
+}
+.text-link:hover { text-decoration-color: var(--color-fascia); }
+
+/* ---------- Draft banner ---------- */
+.mockup-banner {
+  font-family: var(--font-sign);
+  font-weight: 600;
+  font-size: var(--step-small);
+  line-height: var(--leading-small);
+  text-align: center;
+  padding: 0.5rem var(--gutter);
+  background: var(--color-ink);
+  color: var(--color-lightbox);
+}
+
+/* ---------- Hero wordmark (the sign) ---------- */
+.sign {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: var(--font-sign);
+  font-weight: 700;
+  color: var(--color-lightbox);
+}
+.sign-word {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+.sign-desc {
+  display: block;
+  margin-top: 0.3em;
+  font-size: var(--step-lead);
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  white-space: nowrap;
+  text-align: center;
+  /* The last letter's tracking would push the line off-centre. */
+  margin-right: -0.12em;
+}
+/* Circled "n": a placeholder for the real logo file. */
+.sign-mark {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 0.36em;
+  height: 0.36em;
+  margin-left: 0.06em;
+  margin-top: 0.07em;
+  border: 0.035em solid currentColor;
+  border-radius: 50%;
+  font-size: 1em;
+}
+.sign-mark > span {
+  font-size: 0.24em;
+  line-height: 1;
+  transform: translateY(-0.04em);
+}
+
+/* Glow: a decorative copy of each lit part, drawn behind it as a halo only.
+   Hidden from assistive tech with the empty alt text after the slash. */
+.glow { position: relative; isolation: isolate; }
+.glow::before {
+  content: attr(data-glow) / "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  color: transparent;
+  text-shadow: 0 0 0.28em rgb(150 180 255 / 0.6);
+  opacity: var(--glow);
+  pointer-events: none;
+}
+.sign-desc.glow::before { text-align: center; margin-right: 0; }
+.sign-mark.glow::before {
+  content: "" / "";
+  inset: -0.035em;
+  border-radius: 50%;
+  box-shadow: 0 0 0.14em rgb(150 180 255 / 0.55);
+}
+
+/* Before JS takes over (set by the inline script in <head>, only when motion is allowed):
+   the sign starts unlit. A safety animation lights it if the script bundle never arrives. */
+html[data-sign="pending"] .js-sign-lit {
+  opacity: 0.18;
+  --glow: 0;
+  animation: sign-safety 0.01s linear 1.6s forwards;
+}
+html[data-sign="pending"] .js-sign-photo {
+  opacity: 0.55;
+  animation: sign-safety 0.01s linear 1.6s forwards;
+}
+@keyframes sign-safety { to { opacity: 1; --glow: 1; } }
+
+/* ---------- Buttons ---------- */
+.btn {
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.6rem 1.5rem;
+  border-radius: 9999px;
+  font-family: var(--font-sign);
+  font-weight: 700;
+  font-size: var(--step-body);
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform var(--press) ease-out;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity var(--hover) ease-out;
+  pointer-events: none;
+}
+.btn:hover::after, .btn:focus-visible::after { opacity: 0.12; }
+.btn:active { transform: scale(0.98); }
+.btn-navy-primary { background: var(--color-lightbox); color: var(--color-fascia); }
+.btn-navy-secondary { box-shadow: inset 0 0 0 2px var(--color-lightbox); color: var(--color-lightbox); }
+.btn-light-primary { background: var(--color-fascia); color: var(--color-lightbox); }
+
+/* ---------- Barbershop ---------- */
+.mirror {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border: 6px solid var(--color-brass);
+  border-radius: 9999px;
+  overflow: hidden;
+  background: var(--color-limewash);
+}
+.mirror img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 40%;
+}
+.wall-small {
+  font-family: var(--font-wall);
+  font-style: italic;
+  font-weight: 700;
+  font-size: var(--step-body);
+  line-height: 1.3;
+}
+.wall-big {
+  font-family: var(--font-wall);
+  font-weight: 700;
+  font-size: var(--step-lead);
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+/* Reviewed points: a short brass rule as the marker. */
+.points > li { position: relative; padding-left: 1.25rem; }
+.points > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.8em;
+  width: 0.6rem;
+  height: 2px;
+  background: var(--color-fascia);
+}
+
+/* ---------- Kopi counter ---------- */
+.counter {
+  --art-h: 130px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (min-width: 768px) { .counter { --art-h: 170px; } }
+@media (min-width: 1024px) { .counter { --art-h: 230px; } }
+/* Adjacent slots with no gap, so the brass counter line runs unbroken. */
+.art-slot {
+  height: calc(var(--art-h) + 2px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: 2px solid var(--color-brass);
+}
+.counter-art { display: block; height: var(--art-h); width: auto; }
+
+/* Hairlines between list items (brass, decorative). */
+.hairlines > * + * { border-top: 1px solid var(--color-brass); }
+
+/* ---------- Juga di sini: follows Kopi on the same ground, separated by a brass rule. */
+.section-follow { padding-top: 0; }
+.follow-rule {
+  border-top: 1px solid var(--color-brass);
+  padding-top: calc(var(--section-y) * 0.6);
+}
+.also-list > li + li { border-top: 1px solid var(--color-brass); margin-top: 1.25rem; padding-top: 1.25rem; }
+@media (min-width: 1024px) {
+  .also-list > li + li { border-top: 0; margin-top: 0; padding-top: 0; }
+}
+
+/* ---------- Hero ---------- */
+.bleed-phone { margin-inline: calc(var(--gutter) * -1); }
+@media (min-width: 1024px) { .bleed-phone { margin-inline: 0; } }
+.hours-dot {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-brass);
+}
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: 0.75rem;
+  font-family: var(--font-sign);
+  font-weight: 600;
+  color: var(--color-lightbox);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.3em;
+  text-decoration-color: transparent;
+  transition: text-decoration-color var(--hover) ease-out;
+}
+.nav-link:hover { text-decoration-color: var(--color-brass); }
+
+/* ---------- Footer ---------- */
+.footer-rule { border-top: 1px solid color-mix(in srgb, var(--color-brass) 55%, transparent); }
+.footer-mark {
+  display: inline-flex;
+  align-items: flex-start;
+  font-family: var(--font-sign);
+  font-weight: 700;
+  font-size: var(--step-lead);
+  line-height: 1;
+}
+
+/* Map: the link underneath shows until (or unless) the embed loads over it. */
+.map-wrap {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: #222c66;
+}
+.map-fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 1.5rem;
+}
+.map-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* Skip link: off-screen until focused. */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  z-index: 50;
+  transform: translateY(-300%);
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  background: var(--color-lightbox);
+  color: var(--color-fascia);
+  font-family: var(--font-sign);
+  font-weight: 700;
+}
+.skip-link:focus { transform: none; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active { transform: none; }
+}

@@ -1,0 +1,441 @@
+@import "tailwindcss";
+
+/* Design tokens from docs/design-brief.md §3–5.
+   Colours and fonts become Tailwind utilities (bg-chalk, text-ink, font-display...). */
+@theme {
+  --color-chalk: #F8F9F5;   /* page ground, roster cells, text on leaf and tomato */
+  --color-ink: #1C1F1B;     /* text on chalk and blush, wordmark, line drawings */
+  --color-ink-soft: #4B4E49;/* secondary text on chalk (8.1:1) and blush (6.6:1) */
+  --color-tomato: #C7372A;  /* primary button, closing field, crockery. Never text on blush */
+  --color-tomato-deep: #A92E23;
+  --color-leaf: #2E6A3A;    /* "Kata mereka" field, open-today dot, vines */
+  --color-blush: #F4DCD8;   /* "Menu andalan" field (the ceiling panels) */
+  --color-rim: #7DBEDD;     /* illustration only, never text */
+  --color-bowl: #FFFFFF;
+  --font-display: var(--font-jost), "Jost", ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-nunito), "Nunito", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --grid-gap: 32px;
+
+  --step-display: clamp(4.5rem, 2.6rem + 8vw, 11rem);      /* 72.8 @390, 157 @1440: "NUWA" only */
+  --step-head: clamp(2rem, 1.5rem + 2vw, 3.25rem);         /* 32 @390, 52 @1440: h2 */
+  --step-lead: clamp(1.375rem, 1.3rem + 0.35vw, 1.5rem);   /* 22.2 @390, 24 @1440 */
+  --step-body: clamp(1.0625rem, 1.03rem + 0.1vw, 1.125rem);/* 17 @390, 17.9 @1440 */
+  --step-small: 0.8125rem;                                 /* 13px */
+
+  --leading-display: 0.9;
+  --leading-head: 1.1;
+  --leading-body: 1.55;
+
+  --hero-top: 52px;
+  --band-h: 20px;
+  --bowl: min(300px, 82vw);
+}
+@media (min-width: 768px) {
+  :root { --gutter: 32px; --section-y: 112px; --band-h: 28px; --hero-top: 72px; --bowl: 420px; }
+}
+@media (min-width: 1024px) {
+  :root { --gutter: 40px; --hero-top: 88px; --bowl: 540px; }
+}
+@media (min-width: 1280px) {
+  :root { --bowl: 560px; }
+}
+
+html {
+  background: var(--color-chalk);
+  color: var(--color-ink);
+  accent-color: var(--color-tomato);
+  scrollbar-color: var(--color-ink-soft) var(--color-chalk);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-ink); color: var(--color-chalk); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.35; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.45; }
+
+/* The facade letters: thin black capitals, spaced wide, no trailing gap. */
+.t-wordmark {
+  font-family: var(--font-display);
+  font-weight: 200;
+  font-size: var(--step-display);
+  line-height: var(--leading-display);
+  letter-spacing: 0.42em;
+  margin-right: -0.42em;
+  text-transform: uppercase;
+}
+.t-tracked {
+  font-family: var(--font-display);
+  font-weight: 300;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+}
+
+/* Section headings: Jost 400, sentence case. */
+.h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--step-head);
+  line-height: var(--leading-head);
+  letter-spacing: -0.01em;
+  max-width: 18ch;
+  text-wrap: balance;
+}
+.h3 {
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: var(--step-lead);
+  line-height: 1.25;
+}
+.price { font-variant-numeric: tabular-nums; white-space: nowrap; }
+p, li { text-wrap: pretty; }
+.measure { max-width: 60ch; }
+
+/* 12-column grid from 1024px, 32px gap. */
+@media (min-width: 1024px) {
+  .grid-12 {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--grid-gap);
+  }
+}
+
+/* ---------- Focus, skip link, links ---------- */
+:focus-visible { outline: 3px solid var(--color-ink); outline-offset: 3px; }
+.on-dark :focus-visible { outline-color: var(--color-chalk); }
+
+.skip-link {
+  position: fixed; top: 8px; left: 8px; z-index: 50;
+  padding: 12px 18px; min-height: 44px;
+  background: var(--color-chalk); color: var(--color-ink);
+  font-weight: 800; border-radius: 6px;
+  transform: translateY(-160%);
+}
+.skip-link:focus-visible { transform: translateY(0); }
+
+.link {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+  transition: text-decoration-color 150ms ease-out;
+}
+.link:hover { text-decoration-color: currentColor; }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 48px; padding: 0 22px;
+  border: 2px solid transparent; border-radius: 6px;
+  font-family: var(--font-body); font-weight: 800; font-size: var(--step-body); line-height: 1.2;
+  text-decoration: none; white-space: nowrap;
+  transition: background-color 180ms ease-out, color 180ms ease-out, border-color 180ms ease-out, transform 180ms ease-out;
+}
+a.btn:hover { transform: translateY(-1px); }
+a.btn:active { transform: scale(0.98); transition-duration: 120ms; }
+.btn-primary { background: var(--color-tomato); color: var(--color-chalk); }
+.btn-primary:hover { background: var(--color-tomato-deep); }
+.btn-outline { border-color: var(--color-ink); color: var(--color-ink); }
+.btn-outline:hover { background: color-mix(in srgb, var(--color-ink) 8%, transparent); }
+.btn-onTomato { background: var(--color-chalk); color: var(--color-ink); }
+.btn-onTomato:hover { background: #ffffff; }
+.btn-onTomatoOutline { border-color: var(--color-chalk); color: var(--color-chalk); }
+.btn-onTomatoOutline:hover { background: color-mix(in srgb, var(--color-chalk) 14%, transparent); }
+/* WhatsApp placeholder: visibly not a live button until the owner gives a number. */
+.btn-pending { border-style: dashed; border-color: color-mix(in srgb, var(--color-ink) 55%, transparent); color: var(--color-ink); cursor: default; }
+.on-dark .btn-pending { border-color: color-mix(in srgb, var(--color-chalk) 70%, transparent); color: var(--color-chalk); }
+.pending-wrap { display: inline-flex; flex-direction: column; align-items: center; gap: 6px; }
+.pending-note { font-size: var(--step-small); line-height: 1.2; }
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  overflow: clip;
+  padding-top: var(--hero-top);
+  padding-bottom: var(--band-h);
+  background: var(--color-chalk);
+}
+.hero-grid { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); }
+.hero-title { position: relative; z-index: 1; }
+.hero-title .t-tracked {
+  display: block;
+  font-size: var(--step-lead);
+  line-height: 1.35;
+  margin-top: 0.55rem;
+  padding-left: calc(var(--step-display) * 0.06);
+}
+.hero-copy { position: relative; z-index: 3; margin-top: 1.75rem; }
+.hero-tagline { max-width: 26ch; text-wrap: balance; }
+.hero-hours { display: flex; align-items: center; gap: 10px; margin-top: 1.25rem; font-weight: 700; }
+.hero-hours .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--color-leaf); flex: none; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px; margin-top: 1.5rem; }
+
+.hero-bowl {
+  position: relative;
+  z-index: 1;
+  justify-self: center;
+  width: var(--bowl);
+  margin-top: 2.5rem;
+  margin-bottom: calc(-1 * (var(--band-h) + 0.12 * var(--bowl)));
+}
+.hero-bowl figcaption { text-align: center; margin-bottom: 8px; color: var(--color-ink-soft); }
+.bowl-art { display: block; width: 100%; height: auto; transform: rotate(-8deg); }
+
+.hero-band { position: absolute; left: 0; right: 0; bottom: 0; z-index: 4; }
+
+@media (min-width: 768px) {
+  .hero-bowl { justify-self: end; margin-top: 1rem; }
+}
+@media (min-width: 1024px) {
+  .hero-title { grid-column: 1 / span 7; grid-row: 1; }
+  .hero-copy { grid-column: 1 / span 5; grid-row: 2; margin-top: 2.5rem; padding-bottom: 3rem; }
+  .hero-bowl {
+    grid-column: 7 / span 6; grid-row: 2;
+    justify-self: end; align-self: start;
+    margin-top: -2.75rem;
+  }
+  .hero-bowl figcaption {
+    position: absolute;
+    right: calc(100% - 8px);
+    bottom: calc(var(--band-h) + 0.12 * var(--bowl) + 14px);
+    margin: 0; text-align: right; white-space: nowrap;
+  }
+}
+
+/* Festoon wire: full bleed, in front of the wordmark, like the facade photo. */
+.festoon {
+  position: absolute;
+  left: 0; right: 0;
+  top: calc(var(--hero-top) - 0.35 * var(--step-display));
+  height: calc(1.3 * var(--step-display));
+  z-index: 2;
+  pointer-events: none;
+}
+.festoon-wire { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.festoon-bulb { position: absolute; width: 12px; height: auto; transform: translateX(-50%); }
+.festoon-bulb[data-wide-only] { display: none; }
+@media (min-width: 768px) { .festoon-bulb { width: 15px; } .festoon-bulb[data-wide-only] { display: block; } }
+
+/* Ramen toppings: hidden only when motion is allowed, with a CSS failsafe at 1.5 s. */
+html.js-motion .topping { opacity: 0; animation: topping-failsafe 0.01s 1.5s forwards; }
+@keyframes topping-failsafe { to { opacity: 1; } }
+
+/* Rim band: the bowl's tomato zigzag and rim-blue triangles. */
+.rim-band { display: block; width: 100%; height: var(--band-h); }
+
+/* ---------- Menu andalan ---------- */
+.menu-head { display: grid; gap: 1rem; }
+.menu-intro p + p { margin-top: 0.5rem; }
+.menu-body { display: grid; gap: 2.5rem; margin-top: 2.5rem; }
+.menu-groups { display: grid; gap: 2.5rem; }
+.menu-group h3 { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 12px; row-gap: 2px; }
+.menu-group h3 .price { font-size: var(--step-body); font-weight: 700; }
+.menu-list { margin-top: 0.75rem; border-top: 1.5px solid color-mix(in srgb, var(--color-ink) 22%, transparent); padding-top: 0.75rem; }
+.menu-list li { padding-block: 0.2rem; }
+.menu-list .name { font-weight: 700; }
+.menu-list .note { color: var(--color-ink-soft); }
+.menu-list .price { margin-left: 12px; font-weight: 700; }
+.ramen-desc { margin-top: 0.75rem; max-width: 46ch; }
+.lunch-strip {
+  display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 12px; row-gap: 4px;
+  margin-top: 3rem; padding: 18px 22px;
+  background: var(--color-chalk);
+}
+.lunch-strip .h3 { margin-right: 4px; }
+.lunch-strip .price { font-weight: 800; }
+
+@media (min-width: 768px) {
+  .menu-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--grid-gap); row-gap: 2.5rem; }
+}
+@media (min-width: 1024px) {
+  .menu-head { row-gap: 0; align-items: end; }
+  .menu-head .h2 { grid-column: 1 / span 6; }
+  .menu-intro { grid-column: 7 / span 6; }
+  .menu-body { margin-top: 3.5rem; row-gap: 0; }
+  .menu-ramen { grid-column: 1 / span 5; }
+  .menu-groups { grid-column: 6 / span 7; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* ---------- Ngopi di NUWA ---------- */
+.coffee-grid { display: grid; gap: 2rem; grid-template-areas: "head" "art" "lists"; }
+.coffee-head { grid-area: head; }
+.coffee-art { grid-area: art; display: flex; align-items: flex-end; justify-content: center; gap: 20px; }
+.coffee-lists { grid-area: lists; display: grid; gap: 2rem; }
+.coffee-art figure { display: flex; flex-direction: column; align-items: center; }
+.coffee-art figcaption { margin-top: 10px; font-weight: 700; }
+.cup-art { width: min(190px, 52vw); height: auto; }
+.glass-art { width: min(124px, 34vw); height: auto; }
+.drink-list li { display: flex; flex-wrap: wrap; column-gap: 12px; padding-block: 0.2rem; }
+.drink-list .name { font-weight: 700; }
+.drink-list .price { font-weight: 700; }
+@media (min-width: 768px) {
+  .coffee-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas: "art head" "art lists";
+    column-gap: var(--grid-gap); row-gap: 2rem; align-items: start;
+  }
+  .coffee-art { align-self: center; }
+  .cup-art { width: 200px; }
+  .glass-art { width: 130px; }
+}
+@media (min-width: 1024px) {
+  .coffee-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-areas: none; row-gap: 2.5rem; }
+  .coffee-art { grid-column: 1 / span 6; grid-row: 1 / span 2; gap: 40px; }
+  .coffee-head { grid-column: 7 / span 6; grid-row: 1; }
+  .coffee-lists { grid-column: 7 / span 6; grid-row: 2; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--grid-gap); }
+  .cup-art { width: 290px; }
+  .glass-art { width: 206px; }
+}
+
+/* ---------- Suasana NUWA: the breeze-block wall ---------- */
+.ambience-head { display: grid; gap: 1rem; }
+@media (min-width: 1024px) {
+  .ambience-head { align-items: end; }
+  .ambience-head .h2 { grid-column: 1 / span 5; }
+  .ambience-head p { grid-column: 7 / span 6; }
+}
+.roster-wall {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 2px; padding: 2px;
+  background: color-mix(in srgb, var(--color-ink) 8%, var(--color-chalk));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-areas:
+    "photo photo"
+    "photo photo"
+    "vines terang"
+    "chair meja"
+    "bulbs roster1";
+}
+.roster-cell { position: relative; background: var(--color-chalk); aspect-ratio: 1; min-width: 0; }
+.roster-cell svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.roster-cell[data-phone-hidden] { display: none; }
+.roster-text { display: flex; align-items: flex-end; padding: 16px; font-weight: 800; }
+.roster-photo {
+  position: absolute; inset: 14px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
+  border: 2px dashed color-mix(in srgb, var(--color-ink) 30%, transparent);
+  text-align: center; padding: 16px;
+}
+.roster-photo svg { position: static; width: 44px; height: 44px; }
+@media (min-width: 768px) {
+  .roster-wall {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-areas:
+      "photo photo vines terang"
+      "photo photo chair meja"
+      "bulbs roster1 shelf roster2";
+  }
+  .roster-cell[data-phone-hidden] { display: block; }
+}
+@media (min-width: 1024px) {
+  .roster-wall {
+    margin-top: 3.5rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-areas:
+      "vines roster1 photo photo terang chair"
+      "meja bulbs photo photo shelf roster2";
+  }
+}
+
+/* ---------- Kata mereka ---------- */
+.praise-grid { display: grid; gap: 2rem; }
+.praise-list li { padding-block: 1.25rem; border-top: 1px solid color-mix(in srgb, var(--color-chalk) 25%, transparent); }
+.praise-list li:last-child { border-bottom: 1px solid color-mix(in srgb, var(--color-chalk) 25%, transparent); }
+@media (min-width: 1024px) {
+  .praise-grid { align-items: start; }
+  .praise-side { grid-column: 1 / span 4; }
+  .praise-list { grid-column: 6 / span 7; }
+}
+
+/* ---------- Kunjungi kami ---------- */
+.visit-grid { display: grid; gap: 2rem; grid-template-areas: "info" "map" "cta"; }
+.visit-info { grid-area: info; }
+.visit-map { grid-area: map; aspect-ratio: 4 / 3; border: 1px solid color-mix(in srgb, var(--color-ink) 15%, transparent); background: color-mix(in srgb, var(--color-ink) 5%, var(--color-chalk)); }
+.visit-map iframe { display: block; width: 100%; height: 100%; border: 0; }
+.visit-map:focus-within { outline: 3px solid var(--color-ink); outline-offset: 3px; }
+.visit-cta { grid-area: cta; }
+@media (min-width: 768px) {
+  .visit-grid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    grid-template-areas: "info map" "cta map";
+    column-gap: var(--grid-gap); row-gap: 1.75rem; align-items: start;
+  }
+  .visit-map { aspect-ratio: 16 / 10; }
+}
+@media (min-width: 1024px) {
+  .visit-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-areas: none; }
+  .visit-info { grid-column: 1 / span 5; grid-row: 1; }
+  .visit-cta { grid-column: 1 / span 5; grid-row: 2; }
+  .visit-map { grid-column: 6 / span 7; grid-row: 1 / span 2; }
+}
+
+/* ---------- Hubungi kami ---------- */
+.close-grid { display: grid; gap: 2rem; }
+.close-actions { display: flex; flex-direction: column; gap: 12px; }
+.close-actions .btn { width: 100%; }
+.close-actions .pending-wrap { width: 100%; }
+@media (min-width: 768px) {
+  .close-actions { max-width: 360px; }
+}
+@media (min-width: 1024px) {
+  .close-grid { align-items: center; }
+  .close-text { grid-column: 1 / span 7; }
+  .close-actions { grid-column: 9 / span 4; max-width: none; }
+}
+
+/* ---------- Footer ---------- */
+.footer-grid { display: grid; gap: 1.25rem; padding-block: 40px 48px; }
+@media (min-width: 768px) {
+  .footer-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: var(--grid-gap); align-items: start; }
+}
+@media (min-width: 1024px) {
+  .footer-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+  .footer-mark { grid-column: 1 / span 4; }
+  .footer-addr { grid-column: 5 / span 4; }
+  .footer-note { grid-column: 9 / span 4; }
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small); line-height: 1.4; text-align: center; padding: 8px 20px;
+  background: var(--color-ink); color: var(--color-chalk);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  a.btn:hover, a.btn:active { transform: none; }
+}
+.drink-list .price { margin-left: 0; }
+.bowl-wrap { width: 100%; }
+
+/* Two chalk sections in a row (Ngopi, then Suasana): one shared gap, not two paddings. */
+.section-follow { padding-top: calc(var(--section-y) * 0.5); }

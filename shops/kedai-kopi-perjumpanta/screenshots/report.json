@@ -1,0 +1,284 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 5877,
+    "sizes": [
+      {
+        "el": "h1#judul \"Kedai Kopi Perjumpanta\"",
+        "fontSize": 48.1,
+        "lineHeight": "45.7377px",
+        "textWidth": 350,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#rasa-judul \"Rasa kampung halaman\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.882px",
+        "textWidth": 271,
+        "pctOfContentWidth": 77
+      },
+      {
+        "el": "h3 \"Ngumpul dan ngobrol\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 260,
+        "pctOfContentWidth": 74
+      },
+      {
+        "el": "h3 \"Masakan Karo\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 175,
+        "pctOfContentWidth": 50
+      },
+      {
+        "el": "h3 \"Malam yang ramai\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 224,
+        "pctOfContentWidth": 64
+      },
+      {
+        "el": "h3 \"Kabar kampung dan nobar\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 321,
+        "pctOfContentWidth": 92
+      },
+      {
+        "el": "h2#sedia-judul \"SEDIA\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.882px",
+        "textWidth": 135,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3#grup-minum \"MINUM\"",
+        "fontSize": 13,
+        "lineHeight": "18.242px",
+        "textWidth": 54,
+        "pctOfContentWidth": 15
+      },
+      {
+        "el": "h3#grup-makan \"MAKAN\"",
+        "fontSize": 13,
+        "lineHeight": "18.242px",
+        "textWidth": 55,
+        "pctOfContentWidth": 16
+      },
+      {
+        "el": "h2#kata-judul \"Kata mereka\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.882px",
+        "textWidth": 235,
+        "pctOfContentWidth": 67
+      },
+      {
+        "el": "h2#kunjungi-judul \"Kunjungi kami\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.882px",
+        "textWidth": 276,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h2#hubungi-judul \"Hubungi kami\"",
+        "fontSize": 32.6,
+        "lineHeight": "35.882px",
+        "textWidth": 263,
+        "pctOfContentWidth": 75
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 43
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5800,
+    "sizes": [
+      {
+        "el": "h1#judul \"Kedai Kopi Perjumpanta\"",
+        "fontSize": 65.3,
+        "lineHeight": "62.0768px",
+        "textWidth": 708,
+        "pctOfContentWidth": 100
+      },
+      {
+        "el": "h2#rasa-judul \"Rasa kampung halaman\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.3664px",
+        "textWidth": 532,
+        "pctOfContentWidth": 75
+      },
+      {
+        "el": "h3 \"Ngumpul dan ngobrol\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.0352px",
+        "textWidth": 273,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h3 \"Masakan Karo\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.0352px",
+        "textWidth": 183,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Malam yang ramai\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.0352px",
+        "textWidth": 235,
+        "pctOfContentWidth": 33
+      },
+      {
+        "el": "h3 \"Kabar kampung dan nobar\"",
+        "fontSize": 23.1,
+        "lineHeight": "30.0352px",
+        "textWidth": 337,
+        "pctOfContentWidth": 48
+      },
+      {
+        "el": "h2#sedia-judul \"SEDIA\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.3664px",
+        "textWidth": 163,
+        "pctOfContentWidth": 23
+      },
+      {
+        "el": "h3#grup-minum \"MINUM\"",
+        "fontSize": 13.4,
+        "lineHeight": "18.7712px",
+        "textWidth": 56,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h3#grup-makan \"MAKAN\"",
+        "fontSize": 13.4,
+        "lineHeight": "18.7712px",
+        "textWidth": 56,
+        "pctOfContentWidth": 8
+      },
+      {
+        "el": "h2#kata-judul \"Kata mereka\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.3664px",
+        "textWidth": 284,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#kunjungi-judul \"Kunjungi kami\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.3664px",
+        "textWidth": 333,
+        "pctOfContentWidth": 47
+      },
+      {
+        "el": "h2#hubungi-judul \"Hubungi kami\"",
+        "fontSize": 39.4,
+        "lineHeight": "43.3664px",
+        "textWidth": 318,
+        "pctOfContentWidth": 45
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 43
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4402,
+    "sizes": [
+      {
+        "el": "h1#judul \"Kedai Kopi Perjumpanta\"",
+        "fontSize": 95.9,
+        "lineHeight": "91.124px",
+        "textWidth": 690,
+        "pctOfContentWidth": 57
+      },
+      {
+        "el": "h2#rasa-judul \"Rasa kampung halaman\"",
+        "fontSize": 51.5,
+        "lineHeight": "56.672px",
+        "textWidth": 428,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h3 \"Ngumpul dan ngobrol\"",
+        "fontSize": 25.1,
+        "lineHeight": "32.656px",
+        "textWidth": 163,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h3 \"Masakan Karo\"",
+        "fontSize": 25.1,
+        "lineHeight": "32.656px",
+        "textWidth": 200,
+        "pctOfContentWidth": 17
+      },
+      {
+        "el": "h3 \"Malam yang ramai\"",
+        "fontSize": 25.1,
+        "lineHeight": "32.656px",
+        "textWidth": 255,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h3 \"Kabar kampung dan nobar\"",
+        "fontSize": 25.1,
+        "lineHeight": "32.656px",
+        "textWidth": 220,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h2#sedia-judul \"SEDIA\"",
+        "fontSize": 51.5,
+        "lineHeight": "56.672px",
+        "textWidth": 213,
+        "pctOfContentWidth": 18
+      },
+      {
+        "el": "h3#grup-minum \"MINUM\"",
+        "fontSize": 14,
+        "lineHeight": "19.6px",
+        "textWidth": 58,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h3#grup-makan \"MAKAN\"",
+        "fontSize": 14,
+        "lineHeight": "19.6px",
+        "textWidth": 59,
+        "pctOfContentWidth": 5
+      },
+      {
+        "el": "h2#kata-judul \"Kata mereka\"",
+        "fontSize": 51.5,
+        "lineHeight": "56.672px",
+        "textWidth": 371,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#kunjungi-judul \"Kunjungi kami\"",
+        "fontSize": 51.5,
+        "lineHeight": "56.672px",
+        "textWidth": 435,
+        "pctOfContentWidth": 36
+      },
+      {
+        "el": "h2#hubungi-judul \"Hubungi kami\"",
+        "fontSize": 51.5,
+        "lineHeight": "56.672px",
+        "textWidth": 416,
+        "pctOfContentWidth": 35
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 43
+  }
+}

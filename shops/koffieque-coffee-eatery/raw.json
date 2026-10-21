@@ -1,0 +1,372 @@
+{
+  "id": "ChIJD7EJitKNaS4RVT12jP_HjpY",
+  "types": [
+    "cafe",
+    "food",
+    "point_of_interest",
+    "establishment"
+  ],
+  "formattedAddress": "Jl. Rawa Domba, RT.3/RW.16, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+  "rating": 4.4,
+  "googleMapsUri": "https://maps.google.com/?cid=10848828452769250645&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 10,
+          "minute": 30
+        },
+        "close": {
+          "day": 0,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "hour": 10,
+          "minute": 30
+        },
+        "close": {
+          "day": 1,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 10,
+          "minute": 30
+        },
+        "close": {
+          "day": 2,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 10,
+          "minute": 30
+        },
+        "close": {
+          "day": 3,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 10,
+          "minute": 30
+        },
+        "close": {
+          "day": 4,
+          "hour": 22,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 30
+        },
+        "close": {
+          "day": 5,
+          "hour": 23,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "hour": 8,
+          "minute": 30
+        },
+        "close": {
+          "day": 6,
+          "hour": 23,
+          "minute": 30
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 10:30 AM – 10:00 PM",
+      "Tuesday: 10:30 AM – 10:00 PM",
+      "Wednesday: 10:30 AM – 10:00 PM",
+      "Thursday: 10:30 AM – 10:00 PM",
+      "Friday: 8:30 AM – 11:30 PM",
+      "Saturday: 8:30 AM – 11:30 PM",
+      "Sunday: 10:30 AM – 10:00 PM"
+    ],
+    "nextOpenTime": "2026-10-21T03:30:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "priceLevel": "PRICE_LEVEL_MODERATE",
+  "userRatingCount": 248,
+  "displayName": {
+    "text": "KoffieQue Coffee & Eatery",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Cafe",
+    "languageCode": "en-US"
+  },
+  "primaryType": "cafe",
+  "reviews": [
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/reviews/Ci9DQUlRQUNvZENodHljRjlvT21FNU1XNUpjVEE0Wm1vM1RWZExORkJ6UVhScFEwRRAB",
+      "relativePublishTimeDescription": "a year ago",
+      "rating": 5,
+      "text": {
+        "text": "I enjoyed my time here. The place is easy to pop into, quite comfy and clean with decent facilities (clean toilet and a small mushala that fits for 2-3 person). The menus is quite various from Western to Indonesian, the portion is adequate. Their coffee is good and varies with pretty reasonable price for the area. KoffieQue is such an instant go-to place on my way to work!",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "I enjoyed my time here. The place is easy to pop into, quite comfy and clean with decent facilities (clean toilet and a small mushala that fits for 2-3 person). The menus is quite various from Western to Indonesian, the portion is adequate. Their coffee is good and varies with pretty reasonable price for the area. KoffieQue is such an instant go-to place on my way to work!",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Siska",
+        "uri": "https://www.google.com/maps/contrib/103669480109675752396/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWksZwPGoDmArwg7VW9xb9C18bS9-27m7Iio9CxXC-3KUUBQBmq=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-10-09T09:05:06.766963974Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21FNU1XNUpjVEE0Wm1vM1RWZExORkJ6UVhScFEwRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21FNU1XNUpjVEE0Wm1vM1RWZExORkJ6UVhScFEwRRAB!2m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tKdkxWWllZMnRIVFhSS2J6VllTVTV2U213eFRsRRAB",
+      "relativePublishTimeDescription": "5 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Nice place for WFA with short duration max 2 Hours. The food quite Affordable and delicious. Have a nice small musholla",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Nice place for WFA with short duration max 2 Hours. The food quite Affordable and delicious. Have a nice small musholla",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Dimas Ryan Ramadhan",
+        "uri": "https://www.google.com/maps/contrib/115581418243512535717/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJqqzJpAynhBawocebzqL2G4j0xGg_5drPXjicadI7OLcettQ=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2026-05-20T08:22:06.680588136Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2tKdkxWWllZMnRIVFhSS2J6VllTVTV2U213eFRsRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2tKdkxWWllZMnRIVFhSS2J6VllTVTV2U213eFRsRRAB!2m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/reviews/ChdDSUhNMG9nS0VJQ0FnSUNibnVmb2d3RRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 1,
+      "text": {
+        "text": "Trying new dine place which just having soft opening few days ago. It needs a lot of improvement.\n\nThe ambience quite nice..clean, bright, beautiful, each seating got their own power socket.\n\nThe menu booklet is awful.. have several blank Pages and the choice of food are standard.\n\nTaste off beverages are so so.. and the food also nothing special..\n\nI hope they’ll improved and got tastier in the future..",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Trying new dine place which just having soft opening few days ago. It needs a lot of improvement.\n\nThe ambience quite nice..clean, bright, beautiful, each seating got their own power socket.\n\nThe menu booklet is awful.. have several blank Pages and the choice of food are standard.\n\nTaste off beverages are so so.. and the food also nothing special..\n\nI hope they’ll improved and got tastier in the future..",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "ari prayogo",
+        "uri": "https://www.google.com/maps/contrib/103737825026867156242/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUIq-K01cfmguobQv13Blot5UXDTmJBGvfeWFatEvUJRMAtlpJR=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2024-07-27T13:05:25.238235Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNibnVmb2d3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNibnVmb2d3RRAB!2m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/reviews/Ci9DQUlRQUNvZENodHljRjlvT21ob2IyRTFXa05NYW5KYVREaFJMWGhsVVVOM1ZWRRAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 3,
+      "text": {
+        "text": "service was not great, i was about to pay for my table (i was with my 5 other friends) and the cashier said “tapi ini gak bisa split bill ya kak” when i DID NOT ASK to SPLIT BILL??? i clearly want to pay for the whole food n drinks our table bought??? i’ve been living for 21 years now and this is the first time a cashier said this to me, i did not even know split bill was an option during payment #lol, anyways please train your staff better next time and make sure your staff gak ngeliatin customer terus ya its uncomfortable 👋🏻",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "service was not great, i was about to pay for my table (i was with my 5 other friends) and the cashier said “tapi ini gak bisa split bill ya kak” when i DID NOT ASK to SPLIT BILL??? i clearly want to pay for the whole food n drinks our table bought??? i’ve been living for 21 years now and this is the first time a cashier said this to me, i did not even know split bill was an option during payment #lol, anyways please train your staff better next time and make sure your staff gak ngeliatin customer terus ya its uncomfortable 👋🏻",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Azlia Noor Callula",
+        "uri": "https://www.google.com/maps/contrib/100732487268673361613/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXQlCrsfA8XbuqyV-J_izaPGC3B5eE1Xweo6zujWlWjHFhtCaPe=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2026-03-31T16:54:58.121140323Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21ob2IyRTFXa05NYW5KYVREaFJMWGhsVVVOM1ZWRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21ob2IyRTFXa05NYW5KYVREaFJMWGhsVVVOM1ZWRRAB!2m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xaUVpUbENjbVoyVFhGWGRWbHdTVUZRU2t0b1NHYxAB",
+      "relativePublishTimeDescription": "10 months ago",
+      "rating": 5,
+      "text": {
+        "text": "The coffee was great, I wish the platter were as good. The main area was equipped with conference room, ready for activities. Outdoor canopies looked good also.",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "The coffee was great, I wish the platter were as good. The main area was equipped with conference room, ready for activities. Outdoor canopies looked good also.",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Gole Rech",
+        "uri": "https://www.google.com/maps/contrib/113255838456077926632/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUSMV9y2Faec57OGtYbXP0XIcEW1Bkaoju83s8i2CXhxKRmh-hGzw=s128-c0x00000000-cc-rp-mo-ba5"
+      },
+      "publishTime": "2025-12-21T16:24:24.473202896Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2xaUVpUbENjbVoyVFhGWGRWbHdTVUZRU2t0b1NHYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2xaUVpUbENjbVoyVFhGWGRWbHdTVUZRU2t0b1NHYxAB!2m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMbeFzPnAmTRgyhsrNt2_eyLkCY6cvmaRsLBcIAGXmwEwK3KdgvYnaEj5Yj-Tm1A1bYx0pCABA7oitBJ_znm0H7YsU1W7eyVoPWF5iTsPn_fhvemZGoPl4yq6STBgHYK-NdrTcJkb5HL88LrR4-8uJf7U8r8jcQ2EanjyBQNpmBGFTRXtvTXgx-4H58HgUys_qCoVBR4xOuwhxl2MdL9SIu7U-7xnJKrbdwXXcIcpj_dz_cktdzovuGxrsXTk4wtZLMXF1Mk6B_V-T9t6RoitWY-TTKYsregOj-ceJsuVofp2aZ2tEIi7mPwMGGnbSpwjC5P0D7DXDr3lu8sbGyqqNe1vcaGEtdRNp4Ser0JqZ_jKVmp1tCGZW0b3-JCA2hIIsBfIrERTdFdObeEBqimg_UKR3WpaMk",
+      "widthPx": 2268,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Febrianty Arum",
+          "uri": "https://maps.google.com/maps/contrib/116795440479066014224",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWP-KW95_dJKE0GHWJjzSdWi7yHKwYoDkFcEA3zJNhr54sx3XGpvQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICb7M35ggE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICb7M35ggE!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMa5pG_M38Hl1pt5a_4hO2nzBSU6hIDYTaxsxZ5ipSh9CprnieV0zQCe62HXChhy7qKti2FQ4zMsukH92AycV9KqMkdcqdde_Gpv9l_rmEJWaHSnWl4rGDrdY29lxXv3YViGEY4HcJ9_Yp2U4TftIKkXUp1utowgzthud1JMxiQ0tWqdbsVee6DBgu9TQOPcyfb_rkp_npPNoOBcB8JyqElfLnWLufCNucSeMLkp02PL7auvKqKQ6-muiiKQZ2tusnDy0xj52tREyKeoDrNhqgb84vlMZxM3HJ_HamPhp00iN5kyZY47dWKwbA2h_89RjifbQVKZi7BbXQbIXXF4TlVtHnh_lo_qpZOXRHjcKTI-TSQ1KV2Q6IH09ByWiHOG3ROnyCt-guKcbGyYUwhNlc79oVOl0-4",
+      "widthPx": 352,
+      "heightPx": 422,
+      "authorAttributions": [
+        {
+          "displayName": "KoffieQue Coffee & Eatery",
+          "uri": "https://maps.google.com/maps/contrib/102798432679631280458",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUbTyICVwzHS3kodFneaEpFsrRomTiXYsGnEQFk0a0oSTxBVxE=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgID_uuSq6wE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID_uuSq6wE!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMaa1yOJowsRYjx0k9CQU3mQezK2gkzbuAWSVEPymwPdjEOQ3tVMzYgENKGRnNruxnT42VJ00Dj52HXOg6pnh_9CRr7PvEgUmffcJePqKEP0aQ002uro8X95-L-6559316caHbikRP4CCvDGQG0n5SV8gjTiBGjPr_5AKYGm3F5XBiS4kpQZCIW8ZrSLZdEwsUeevpuoroZZiwKTbFvhXkh4kv5idkmTIRGVvY6urdcKzHzsbOXhL_zDLL2OAHhTOJ4J-Xm42IfFVhfAaimRrdDwsrDAr-XNhMrCylF5sXPTcH5VkyGOCDqbPdQJcCJ5QAcK6uNsohVQ9euCLSHOmM8s7JyP6I49T7aqct1sP14jMC9pyOp2SkQeFGCOm8fTJ4i720nf-yG_U4dtlt-S7gDBBXWUtBzCvRV19paQvZU-hg",
+      "widthPx": 1020,
+      "heightPx": 1020,
+      "authorAttributions": [
+        {
+          "displayName": "Arinatul Ulya",
+          "uri": "https://maps.google.com/maps/contrib/106045822606803215340",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWw4sHAiCHk_GtLknHz2HVkmWsI9y7Lpuizcaq9uiaDeKPrhvQ6=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCdzyiipKZRHl3vqptSnJxR&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCdzyiipKZRHl3vqptSnJxR!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMa74sBJRYM75EQB4P6s9OPlOKHvLi_ifpUwWd435iuCHQhn0b5mS_iqp9-K0Di6zDv-_jqHYdEVMOlhnZR7WfR0wJn06WiKcm5-7j3Os72CcgpA4KP1cnlQwQkx1b77nAwkMDXHwh1JtCXMOfZ6jDRxsmd3WOVd0up61VsV9XHjDggIIPaLngWvi8mBjpu3je9zYhJzjn9hWON35MWdaooRK3dUVGUiPOUsfjWRE0__sDdZl1AwQQqvzFTKE3uTraviGcgLdddnWPfKAs-jE_fTmrbj2OHeDk3gyIBGCLRUcyA_xDMY5-Ys8-TckkJErR7MuWxSxsYWHmfwUekaUGDyGkjzpzaU77Llp7k0MSL_vJ6MV8ee4SOTWniLtU93JDGO6eO3czncz55_KHlwNWiN8nsvQH9gG9jq8AGhh_pREg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Nurul Maulidina",
+          "uri": "https://maps.google.com/maps/contrib/116314966941077662007",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW4S5nMaI8BhIa49ge9GORbloATWLO2tQhx389KR-KSm-zBVBUQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAe-R67oppuEK7VqFwAW_0k&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAe-R67oppuEK7VqFwAW_0k!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMYera9o3_1vVyd9jBdoNLNP1JWVfv1XO1DNGGMOVYv2BTTY0x_mPf84kdunFUjjSNRLCcQEe5YmriO24FjjbBUH6c7YosBGI2xns6H72QA-GJzylRmQouDMYFrV0zMM4ibo_-sp0CoG9BR8Gg13dwdAWew9bkGK8QWor7pyJ8qNsKs6BlNXYpMlbguLNwaEG-DpdW0h1Utq2MFYu6r3L_iyT6312hdnIgxfEFHAr98o8QZuS2_dAS4y4SISp5AiVTHCXGXM1CcWhggaTNGqvhNGTBguxFeEgKVQ1hH1_fWzB7lHnkqKAKavbstTT3OHLXEsyrx2HTf6E9G8P2lvs1wq7oWqvqDOnCMrvNMLhFXJQi97O0K1T9XbaSBrfBtntC-IP9c4h4pU3iZNptvsigTNLRDHZ-788MwltfxAyuel2w",
+      "widthPx": 2700,
+      "heightPx": 4800,
+      "authorAttributions": [
+        {
+          "displayName": "putri dianita",
+          "uri": "https://maps.google.com/maps/contrib/103406092370850731910",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXxM3fsHMNmdUygDJcjifPntMxqYIWtqW6l7OH4SoFVq_YSSJuAYA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhAlbIxaL0nm56EFDOgd1T0p&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAlbIxaL0nm56EFDOgd1T0p!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMYOlFuDlu_e8jZBXFldA0TpqKdvWiavwJ6RdpR9tQJsRzEoCB2RgDOZ7yqvGHIuNjaJjpQwZvnKs53aYXdFyFFps25M-3HREEJZkiDj9Ux55YebE28T7X6KCv_Rh-veIdxO95Ryi79Xh4jaxDp-nhQfQjEbheblSJnhB0eLktxK9tTc57fszoCwx-kG1rGbR4g05Gr7vIZNTDL4SNfRW7LLfOVUd51dxkuY1KaX_5IROqcOPlKae9NEhr-WWCYDQeCZO3miidp9RtdAnjuNXWhys-zsboxhimD5_GEhXAC77_mVvE5stQi5CZRCeW_36W72ABPTvj90TYbI_T7iamMpx8q6AqT_2jyxCMHXkKDjUxktHQmKHJfgM0FhafMTtgNZ2osIV49OprAnhl8Is9FNBMixezHBre95ZQjTi-EDPw",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Nurul Maulidina",
+          "uri": "https://maps.google.com/maps/contrib/116314966941077662007",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW4S5nMaI8BhIa49ge9GORbloATWLO2tQhx389KR-KSm-zBVBUQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhC-Ovtre0rq7Zp0AP6nkGDE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC-Ovtre0rq7Zp0AP6nkGDE!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMYAjOEQkG7kAD_vOIST1hwo-4X9sUvrIy8M2GwmAEtZi6OLFgtBVGHXHbIzbHcQ0ik9AV584sQJkxPcIc6uHpYTdrZ6jkLcGs-N3SqT1ZnvEWPIkGSjpUZ59wew6i7a3bHE7TKKTSqs-zLoRL0OhN2KAoWsNirXUh1bF5CoIRyCFr121zbPR7kzNFSK_JRowc7CDF-GVS1L2g1Cx9k8co0lXJ5UUNTJJDsQHdL4Q116JEEI9MLeVw-dQX5lZ2-9qLoZaQeDw2i17WXUMUlHyRUug8XFCdr9rZIv313NkD7H6yOHLWeAJ-nPaoNVPjEnyqPYfOpupKGK4i4JzOGqUh0Fg_O2XB0B-HYZoeiXldxUoaNem0CAxaAeHMkc_i3tPuDG9XzLkMWbZZx77HhCI_HBpRkFT7-rJ3GLAawFUHh3",
+      "widthPx": 4032,
+      "heightPx": 3024,
+      "authorAttributions": [
+        {
+          "displayName": "Prima Anindratia",
+          "uri": "https://maps.google.com/maps/contrib/104268089543328962381",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWLbbUBJCC7kZ6Jw1bASKWx83Skwr733OrpAypiAOhRpZ7z1cP-=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCzlAqutnwuaq-cubXSzIuz&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCzlAqutnwuaq-cubXSzIuz!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMZbt4W1wvLvCyhj9Zvrj_SLRrSr-ytxQIMjyK6Yvz3D99x0--xK_bfrH3kMCkPWWwi6qMGUkLtl8NhJnjmzS-LCK4M0hSc2_pLKzC69sgITtQaWYPjxndgxatHqkLkDZHO84ouPbWl2QGPuuQUmBH9Lgf7SeZuqC7QsfGz7yWk1lkXo12nBlKl-gbAN9MkCU6o5yVAQxvivjCRICHoK-qLt4UIPyZhJwoe3hHiTrgYpzGjkMgFhV3k6DU-NtpSFlXF5A20OJkTnmhmEt1t3dzXuxrW3hJBorIOkmocJLRQJ9xZw3SMy44--6_UdPzD4UxlxCLo7eMntXCbvE0thTCpG5ci2-rFbc_8zoTYUTAgFSTrWdSyBw3ykWJu5m8fCx76rLHlDbiHimdzHKL0Whiep8aHiWuh-LismZ8KUEpAg9Q",
+      "widthPx": 2992,
+      "heightPx": 2992,
+      "authorAttributions": [
+        {
+          "displayName": "Siska",
+          "uri": "https://maps.google.com/maps/contrib/103669480109675752396",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWksZwPGoDmArwg7VW9xb9C18bS9-27m7Iio9CxXC-3KUUBQBmq=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCDGcy9q8qrHJAGsGWxzuvh&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCDGcy9q8qrHJAGsGWxzuvh!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMaPmGABjnnZgpV7Phmuv4KcsiywaJLbooksWSW4a3yCzGLiGnoJlP9YPpUz8Vfibr5NM2dMZegOMpMHB2eLg8Wak5Ki0vTRwGkIWP_HwAE0fBy5IgunLoJdEQHIsOabWYp_4vcKrhfkXPO0gsPmCrkUq2AnV5BVjr-2SbTcki2URSwiPhjW2oAyI8kYTDQ-axvKM0T9k6iebrMue2JHaxysfUUFWq2zQgo4eV9Ixjr9pW8FyrfJwjTMcto-YKXNAvRcOqxM9qMs6i2Cpf5DqdXzisTF6u6xGJIqva_wGsf-CwBn1oHmBIRw19JVX2i9E7kXLpeH-1F534wq5McmQ2RSCLq7Cfb4xSqPJkxEw-Q8a3wP0BTPj_OdJDRFvlkkzNU8A7nXwfQjOwdEjSpfgSWzAaqCdTy7P5DUiVIJ9VKa",
+      "widthPx": 4064,
+      "heightPx": 3048,
+      "authorAttributions": [
+        {
+          "displayName": "Auliya Zahra",
+          "uri": "https://maps.google.com/maps/contrib/114735589602085099227",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWIdecv-VLYcDdKqlNxFbIfLWjPN88KMlYexO-9yaOqRs0qqEw=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCuLunhPZb44tc32cNWkAmU&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCuLunhPZb44tc32cNWkAmU!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    },
+    {
+      "name": "places/ChIJD7EJitKNaS4RVT12jP_HjpY/photos/Aa-ngMbaDMuzBLYzBwrfluWbtAD1tYCxB0CRIpWMl9xEqYgbTVr5Sh5QOH8pQorQ6aiBQEnlwEkXcKKGndRzZIp9kCbFz5E1C4AN1EJhmMeVzL_VrvYWEcAGVz8CCd--CGVvtTVVMkwvbRESeF0lmD0nRQ7LusLeC51F_wXIesJiEx2-nwg4wiU-sFs3TW5LglW1AYUYWK0zIbr_1rwMYtpy1pNVEPBG2MtLvhyrD5UEJPI7CG9IKGgsDIlpz3XEFXYvalUrKFWRz0292bOoDzOYCe0ae_lU304clC5SBlVW35Emp0dDshHGixoQK2eB7KXM6MU_yaBoMOSil-SZB0Ea-Uo6a9OcMRxS_CyvPJuoul2rKIvhyRXeioxBjNCnpZuKY_APBOe5rWMPH4lMUzJK3ZVWmVhvOWKSMJqZETNR30rwPg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Prima Anindratia",
+          "uri": "https://maps.google.com/maps/contrib/104268089543328962381",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWLbbUBJCC7kZ6Jw1bASKWx83Skwr733OrpAypiAOhRpZ7z1cP-=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhBkVJMB49h9V_ZiuVA8Dr1x&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBkVJMB49h9V_ZiuVA8Dr1x!2e10!4m2!3m1!1s0x2e698dd28a09b10f:0x968ec7ff8c763d55"
+    }
+  ]
+}
