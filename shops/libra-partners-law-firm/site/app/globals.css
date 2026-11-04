@@ -1,0 +1,300 @@
+@import "tailwindcss";
+
+/* Design tokens: docs/design-brief.md §3–5.
+   Colours become Tailwind utilities (bg-papan, text-tinta, ...). */
+@theme {
+  --color-papan: #F4F6F8;   /* page ground: the signboard plate; text on green */
+  --color-tinta: #13223F;   /* all text on light grounds, primary buttons, rules, the scales mark */
+  --color-lis: #4A5A70;     /* secondary text, decode-line rest letters, primary hover */
+  --color-kabut: #E3E9EE;   /* quiet ground: practice areas, map frame */
+  --color-rolling: #0F3B32; /* the one drenched field: the debt-collector steps */
+  --color-emas: #C9A227;    /* marks only. Never text or focus ring on light grounds */
+}
+@theme inline {
+  --font-display: var(--font-besley), Georgia, serif;
+  --font-body: var(--font-atkinson), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Layout and type scale. Sizes live here as variables, never as Tailwind arbitrary
+   values with spaces (text-[clamp(1rem, 2vw, 3rem)] silently does nothing). */
+:root {
+  --container: 1200px;
+  --gutter: 20px;
+  --section-y: 64px;
+  --grid-gap: 24px;
+
+  --step-display: clamp(4.5rem, 2.83rem + 6.86vw, 9rem);         /* 72 → 144: "LIBRA" only */
+  --step-head: clamp(1.875rem, 1.46rem + 1.71vw, 3rem);          /* 30 → 48: h2, hero mission */
+  --step-lead: clamp(1.375rem, 1.28rem + 0.38vw, 1.625rem);      /* 22 → 26 */
+  --step-body: clamp(1.094rem, 1.06rem + 0.14vw, 1.188rem);      /* 17.5 → 19 */
+  --step-small: clamp(0.875rem, 0.85rem + 0.1vw, 0.9375rem);     /* 14 → 15 */
+
+  --leading-display: 0.9;
+  --leading-head: 1.12;
+  --leading-body: 1.55;
+}
+@media (min-width: 768px) {
+  :root { --gutter: 40px; --section-y: 112px; }
+}
+@media (min-width: 1024px) {
+  :root { --grid-gap: 48px; }
+}
+
+html {
+  background: var(--color-papan);
+  color: var(--color-tinta);
+  scrollbar-color: var(--color-lis) var(--color-papan);
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--step-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--color-emas); color: var(--color-tinta); }
+
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; }
+h2 { font-weight: 600; letter-spacing: -0.012em; }
+h3 { font-weight: 600; }
+p { text-wrap: pretty; }
+
+/* Focus: 3px tinta at 3px offset on light grounds, emas on the green field. */
+:focus-visible { outline: 3px solid var(--color-tinta); outline-offset: 3px; }
+.on-green :focus-visible { outline-color: var(--color-emas); }
+
+.container-page {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.section { padding-block: var(--section-y); }
+/* A section that follows another on the same ground: the previous one's padding is the gap. */
+.section-flow { padding-top: 0; }
+
+.t-display { font-size: var(--step-display); line-height: var(--leading-display); }
+.t-head    { font-size: var(--step-head);    line-height: var(--leading-head); }
+.t-lead    { font-size: var(--step-lead);    line-height: 1.3; }
+.t-body    { font-size: var(--step-body);    line-height: var(--leading-body); }
+.t-small   { font-size: var(--step-small);   line-height: 1.4; }
+
+/* Decode line: room for the gold underlines when it wraps (overrides .t-lead, so unlayered). */
+.t-lead.kop-decode { line-height: 1.6; }
+
+.caps-lead  { text-transform: uppercase; letter-spacing: 0.06em; }
+.caps-small { text-transform: uppercase; letter-spacing: 0.12em; }
+.measure    { max-width: 62ch; }
+
+@layer components {
+  /* 12 columns from 1024px; one column below. */
+  .g12 {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    column-gap: var(--grid-gap);
+  }
+  @media (min-width: 1024px) {
+    .g12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+    /* Left column stacks two blocks; the right column spans both rows. */
+    .g12-split-rows { grid-template-rows: auto 1fr; }
+  }
+
+  /* The kop's double rule: thick over thin, like a letterhead. Used twice only. */
+  .double-rule {
+    border: 0;
+    border-top: 3px solid var(--color-tinta);
+    border-bottom: 1px solid var(--color-tinta);
+    height: 2px;
+    box-sizing: content-box;
+    margin: 0;
+    color: inherit;
+  }
+  @media (min-width: 768px) {
+    .double-rule { border-top-width: 4px; height: 3px; }
+  }
+
+  /* Buttons: 52px tall, 4px radius (a plate's corner). */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: var(--step-body);
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition:
+      background-color 150ms ease-out,
+      border-color 150ms ease-out,
+      color 150ms ease-out,
+      transform 100ms ease-out;
+  }
+  .btn:active { transform: translateY(1px); }
+  .btn-primary { background: var(--color-tinta); border-color: var(--color-tinta); color: var(--color-papan); }
+  .btn-primary:hover { background: var(--color-lis); border-color: var(--color-lis); }
+  .btn-secondary { background: transparent; border-color: var(--color-tinta); color: var(--color-tinta); }
+  .btn-secondary:hover { background: var(--color-kabut); }
+  .btn-primary.btn-green { background: var(--color-papan); border-color: var(--color-papan); color: var(--color-tinta); }
+  .btn-primary.btn-green:hover { background: var(--color-kabut); border-color: var(--color-kabut); }
+  .btn-secondary.btn-green { border-color: var(--color-papan); color: var(--color-papan); }
+  .btn-secondary.btn-green:hover { background: color-mix(in oklab, var(--color-papan) 12%, var(--color-rolling)); }
+
+  /* Standalone text links: underlined, 44px tall tap target. */
+  .link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+  }
+  .link:hover { text-decoration-thickness: 2px; }
+
+  /* Hero decode line. Initials never move; the rest fills in word by word. */
+  .dl-word { white-space: nowrap; }
+  .dl-i {
+    font-weight: 700;
+    color: var(--color-tinta);
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-emas);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-decoration-skip-ink: none;
+  }
+  .dl-r { font-weight: 400; color: var(--color-lis); }
+
+  /* Debt-collector steps: Besley numerals in emas on the green field. */
+  .steps { counter-reset: step; }
+  .steps > li {
+    counter-increment: step;
+    display: grid;
+    grid-template-columns: 2.25rem minmax(0, 1fr);
+    column-gap: 0.75rem;
+    align-items: baseline;
+  }
+  .steps > li::before {
+    content: counter(step);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: var(--step-lead);
+    line-height: 1;
+    color: var(--color-emas);
+  }
+  .on-green .soft { color: color-mix(in oklab, var(--color-papan) 82%, var(--color-rolling)); }
+
+  /* 1. Kop */
+  .kop { padding-top: 22px; padding-bottom: var(--section-y); }
+  .kop-mark { width: 40px; height: 40px; flex: none; }
+  .kop-rule { margin-top: 20px; }
+  .kop-decode { margin-top: 20px; }
+  .kop-mission { margin-top: 14px; }
+  .kop-actions { margin-top: 24px; max-width: 26rem; }
+  .kop-contact { margin-top: 32px; color: var(--color-lis); }
+  @media (min-width: 768px) {
+    .kop { padding-top: 64px; }
+    /* The drawn base is 7px above the SVG box; drop it onto LIBRA's baseline. */
+    .kop-mark { width: 56px; height: 56px; margin-bottom: -7px; }
+    .kop-rule { margin-top: 40px; }
+    .kop-decode { margin-top: 24px; }
+    .kop-mission { margin-top: 20px; }
+    .kop-actions { margin-top: 32px; }
+  }
+  /* Tablet: actions and the letterhead address share a row instead of stacking. */
+  @media (min-width: 768px) and (max-width: 1023.98px) {
+    .kop-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    .kop-grid > * { grid-column: 1 / -1; }
+    .kop-grid > .kop-actions { grid-column: 1; max-width: none; }
+    .kop-grid > .kop-contact { grid-column: 2; align-self: end; margin-top: 0; }
+  }
+  @media (min-width: 1024px) {
+    .kop-mission, .kop-actions { margin-top: 48px; }
+    .kop-actions { max-width: none; }
+    .kop-contact { margin-top: 0; }
+  }
+
+  /* 3. Fee note: a small plate, 1px tinta. */
+  .fee-note {
+    max-width: 24rem;
+    padding: 14px 16px;
+    border: 1px solid var(--color-tinta);
+    border-radius: 4px;
+  }
+
+  /* 5. Review themes: a short emas bar above each paraphrased theme. */
+  .theme::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 3px;
+    margin-bottom: 14px;
+    background: var(--color-emas);
+  }
+
+  /* 7. Closing: call full width on phones, then two; one row from 768. */
+  .closing-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .closing-actions > .closing-call { grid-column: 1 / -1; }
+  @media (min-width: 768px) {
+    .closing-actions { display: flex; flex-wrap: wrap; }
+    .closing-actions > .btn { padding-inline: 1.5rem; }
+  }
+
+  /* The footer line follows closely. */
+  .closing { padding-bottom: 56px; }
+  @media (min-width: 768px) {
+    .closing { padding-bottom: 80px; }
+  }
+
+  /* Map frame: kabut while the embed loads, so it never reads as a broken white box. */
+  .map-frame {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    background: var(--color-kabut);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .map-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  /* Focus moves into Google's frame, so ring the frame itself. */
+  .map-frame:focus-within { outline: 3px solid var(--color-tinta); outline-offset: 3px; }
+}
+
+/* The signature moment: CSS only, and only when motion is welcome. The starter's
+   reduced-motion rule shortens durations but not delays, so this whole block sits
+   inside no-preference instead. */
+@media (prefers-reduced-motion: no-preference) {
+  .dl-r {
+    display: inline-block;
+    animation: dl-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: calc(0.25s + var(--w) * 0.1s);
+  }
+  @keyframes dl-in {
+    from { opacity: 0; transform: translateX(-6px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+.mockup-banner {
+  font-size: var(--step-small);
+  line-height: 1.4;
+  text-align: center;
+  padding: 8px var(--gutter);
+  background: var(--color-tinta);
+  color: var(--color-papan);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .btn:active { transform: none; }
+}

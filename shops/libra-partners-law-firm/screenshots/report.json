@@ -1,0 +1,263 @@
+{
+  "390": {
+    "horizontalOverflow": false,
+    "pageHeight": 5510,
+    "sizes": [
+      {
+        "el": "h1#nama \"LIBRA & PARTNERS LAW FIRM\"",
+        "fontSize": 72,
+        "lineHeight": "64.8306px",
+        "textWidth": 331,
+        "pctOfContentWidth": 95
+      },
+      {
+        "el": "p \"Lembaga Hukum Indonesia Bebas Riba Lemba\"",
+        "fontSize": 22,
+        "lineHeight": "35.2px",
+        "textWidth": 556,
+        "pctOfContentWidth": 159
+      },
+      {
+        "el": "p \"Mendampingi Anda menghadapi masalah utan\"",
+        "fontSize": 30,
+        "lineHeight": "33.6325px",
+        "textWidth": 313,
+        "pctOfContentWidth": 89
+      },
+      {
+        "el": "h2#arti \"Arti nama LIBRA\"",
+        "fontSize": 30,
+        "lineHeight": "33.6325px",
+        "textWidth": 275,
+        "pctOfContentWidth": 79
+      },
+      {
+        "el": "h2#bantu \"Kami bisa membantu\"",
+        "fontSize": 30,
+        "lineHeight": "33.6325px",
+        "textWidth": 327,
+        "pctOfContentWidth": 93
+      },
+      {
+        "el": "h3 \"Utang dan pembiayaan\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 266,
+        "pctOfContentWidth": 76
+      },
+      {
+        "el": "h3 \"Perkara lain\"",
+        "fontSize": 22,
+        "lineHeight": "28.6px",
+        "textWidth": 141,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#ditagih \"Kalau Anda ditagih debt collector\"",
+        "fontSize": 30,
+        "lineHeight": "33.6325px",
+        "textWidth": 300,
+        "pctOfContentWidth": 86
+      },
+      {
+        "el": "h2#ulasan \"Dari ulasan Google\"",
+        "fontSize": 30,
+        "lineHeight": "33.6325px",
+        "textWidth": 293,
+        "pctOfContentWidth": 84
+      },
+      {
+        "el": "h2#kunjungi \"Kunjungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33.6325px",
+        "textWidth": 231,
+        "pctOfContentWidth": 66
+      },
+      {
+        "el": "h2#hubungi \"Hubungi kami\"",
+        "fontSize": 30,
+        "lineHeight": "33.6325px",
+        "textWidth": 221,
+        "pctOfContentWidth": 63
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 23
+  },
+  "768": {
+    "horizontalOverflow": false,
+    "pageHeight": 5273,
+    "sizes": [
+      {
+        "el": "h1#nama \"LIBRA & PARTNERS LAW FIRM\"",
+        "fontSize": 98,
+        "lineHeight": "88.1683px",
+        "textWidth": 368,
+        "pctOfContentWidth": 53
+      },
+      {
+        "el": "p \"Lembaga Hukum Indonesia Bebas Riba Lemba\"",
+        "fontSize": 23.4,
+        "lineHeight": "37.4374px",
+        "textWidth": 919,
+        "pctOfContentWidth": 134
+      },
+      {
+        "el": "p \"Mendampingi Anda menghadapi masalah utan\"",
+        "fontSize": 36.5,
+        "lineHeight": "40.8719px",
+        "textWidth": 590,
+        "pctOfContentWidth": 86
+      },
+      {
+        "el": "h2#arti \"Arti nama LIBRA\"",
+        "fontSize": 36.5,
+        "lineHeight": "40.8719px",
+        "textWidth": 335,
+        "pctOfContentWidth": 49
+      },
+      {
+        "el": "h2#bantu \"Kami bisa membantu\"",
+        "fontSize": 36.5,
+        "lineHeight": "40.8719px",
+        "textWidth": 397,
+        "pctOfContentWidth": 58
+      },
+      {
+        "el": "h3 \"Utang dan pembiayaan\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4179px",
+        "textWidth": 282,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h3 \"Perkara lain\"",
+        "fontSize": 23.4,
+        "lineHeight": "30.4179px",
+        "textWidth": 150,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h2#ditagih \"Kalau Anda ditagih debt collector\"",
+        "fontSize": 36.5,
+        "lineHeight": "40.8719px",
+        "textWidth": 626,
+        "pctOfContentWidth": 91
+      },
+      {
+        "el": "h2#ulasan \"Dari ulasan Google\"",
+        "fontSize": 36.5,
+        "lineHeight": "40.8719px",
+        "textWidth": 356,
+        "pctOfContentWidth": 52
+      },
+      {
+        "el": "h2#kunjungi \"Kunjungi kami\"",
+        "fontSize": 36.5,
+        "lineHeight": "40.8719px",
+        "textWidth": 280,
+        "pctOfContentWidth": 41
+      },
+      {
+        "el": "h2#hubungi \"Hubungi kami\"",
+        "fontSize": 36.5,
+        "lineHeight": "40.8719px",
+        "textWidth": 268,
+        "pctOfContentWidth": 39
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 23
+  },
+  "1440": {
+    "horizontalOverflow": false,
+    "pageHeight": 4184,
+    "sizes": [
+      {
+        "el": "h1#nama \"LIBRA & PARTNERS LAW FIRM\"",
+        "fontSize": 144,
+        "lineHeight": "129.6px",
+        "textWidth": 541,
+        "pctOfContentWidth": 45
+      },
+      {
+        "el": "p \"Lembaga Hukum Indonesia Bebas Riba Lemba\"",
+        "fontSize": 26,
+        "lineHeight": "41.5232px",
+        "textWidth": 1020,
+        "pctOfContentWidth": 85
+      },
+      {
+        "el": "p \"Mendampingi Anda menghadapi masalah utan\"",
+        "fontSize": 48,
+        "lineHeight": "53.7421px",
+        "textWidth": 665,
+        "pctOfContentWidth": 55
+      },
+      {
+        "el": "h2#arti \"Arti nama LIBRA\"",
+        "fontSize": 48,
+        "lineHeight": "53.7421px",
+        "textWidth": 252,
+        "pctOfContentWidth": 21
+      },
+      {
+        "el": "h2#bantu \"Kami bisa membantu\"",
+        "fontSize": 48,
+        "lineHeight": "53.7421px",
+        "textWidth": 260,
+        "pctOfContentWidth": 22
+      },
+      {
+        "el": "h3 \"Utang dan pembiayaan\"",
+        "fontSize": 26,
+        "lineHeight": "33.7376px",
+        "textWidth": 313,
+        "pctOfContentWidth": 26
+      },
+      {
+        "el": "h3 \"Perkara lain\"",
+        "fontSize": 26,
+        "lineHeight": "33.7376px",
+        "textWidth": 166,
+        "pctOfContentWidth": 14
+      },
+      {
+        "el": "h2#ditagih \"Kalau Anda ditagih debt collector\"",
+        "fontSize": 48,
+        "lineHeight": "53.7421px",
+        "textWidth": 480,
+        "pctOfContentWidth": 40
+      },
+      {
+        "el": "h2#ulasan \"Dari ulasan Google\"",
+        "fontSize": 48,
+        "lineHeight": "53.7421px",
+        "textWidth": 468,
+        "pctOfContentWidth": 39
+      },
+      {
+        "el": "h2#kunjungi \"Kunjungi kami\"",
+        "fontSize": 48,
+        "lineHeight": "53.7421px",
+        "textWidth": 368,
+        "pctOfContentWidth": 31
+      },
+      {
+        "el": "h2#hubungi \"Hubungi kami\"",
+        "fontSize": 48,
+        "lineHeight": "53.7421px",
+        "textWidth": 353,
+        "pctOfContentWidth": 29
+      }
+    ],
+    "overlappingText": [],
+    "mockupBanner": true,
+    "noindex": true,
+    "mockupItems": 23
+  }
+}

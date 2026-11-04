@@ -1,0 +1,184 @@
+{
+  "id": "ChIJgwAdNQAhai4RIqewO6LZD6o",
+  "types": [
+    "lawyer",
+    "consultant",
+    "point_of_interest",
+    "service",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "0811-8421-184",
+  "internationalPhoneNumber": "+62 811-8421-184",
+  "formattedAddress": "Jl. Duren No.31 16, RT.1/RW.7, Semper Bar., Kec. Cilincing, Jkt Utara, Daerah Khusus Ibukota Jakarta 14130, Indonesia",
+  "rating": 5,
+  "googleMapsUri": "https://maps.google.com/?cid=12254252401907771170&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": true,
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "hour": 0,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: Open 24 hours",
+      "Tuesday: Open 24 hours",
+      "Wednesday: Open 24 hours",
+      "Thursday: Open 24 hours",
+      "Friday: Open 24 hours",
+      "Saturday: Open 24 hours",
+      "Sunday: Open 24 hours"
+    ]
+  },
+  "businessStatus": "OPERATIONAL",
+  "userRatingCount": 16,
+  "displayName": {
+    "text": "LIBRA & PARTNERS LAW FIRM",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Attorney",
+    "languageCode": "en-US"
+  },
+  "primaryType": "lawyer",
+  "reviews": [
+    {
+      "name": "places/ChIJgwAdNQAhai4RIqewO6LZD6o/reviews/ChZDSUhNMG9nS0VJQ0FnSUNibXBhUWZ3EAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "\"One of the most successful lawyers in the world is a CONSCIENCE\"",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "\"Salah satu pengacara sukses paling sukses di dunia ADALAH HATI NURANI\"",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Fajri Pasinringi",
+        "uri": "https://www.google.com/maps/contrib/104808284812311395495/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKSzihHLbaFKtISt6oTPwD6IPZ-LHYFDzV0bHpkytSxOhamCQ=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-07-26T01:21:25.826326Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNibXBhUWZ3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNibXBhUWZ3EAE!2m1!1s0x2e6a2100351d0083:0xaa0fd9a23bb0a722"
+    },
+    {
+      "name": "places/ChIJgwAdNQAhai4RIqewO6LZD6o/reviews/ChZDSUhNMG9nS0VJQ0FnSUNiMnVmdExREAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "The service is great.\nThe office is cool.\n\nReally recommended.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Pelayan oke ,\nKantornya sejuk .\n\nPokoknya rekomended",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Guntur Alfatih",
+        "uri": "https://www.google.com/maps/contrib/103407037023542067040/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKdX-h98qLeL0fVXbNEuTPpnqxGlWGLHfj9gFbATdxFUJZiDg=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-07-26T05:31:52.670845Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNiMnVmdExREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNiMnVmdExREAE!2m1!1s0x2e6a2100351d0083:0xaa0fd9a23bb0a722"
+    },
+    {
+      "name": "places/ChIJgwAdNQAhai4RIqewO6LZD6o/reviews/ChdDSUhNMG9nS0VJQ0FnSUNibXI2aWhRRRAB",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Thank God, the service was excellent. Recommended.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Alhamdulillah melayani dengan baik. Rekomended",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Ikhsan Makassar",
+        "uri": "https://www.google.com/maps/contrib/104975202060117105358/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWdYm7LKlOxBYWoZV1CTV_cds42HhjT2a2ZPBGPggaGtUrRMRq3=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2024-07-26T01:20:09.535445Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNibXI2aWhRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNibXI2aWhRRRAB!2m1!1s0x2e6a2100351d0083:0xaa0fd9a23bb0a722"
+    },
+    {
+      "name": "places/ChIJgwAdNQAhai4RIqewO6LZD6o/reviews/ChZDSUhNMG9nS0VJQ0FnSUNibW9HcFJREAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Very good service, satisfying",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Pelayanan sangat bagus, memuaskan",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Ashyabul Asraf Khan",
+        "uri": "https://www.google.com/maps/contrib/103946319990756244800/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIrzmhwqWp34R1vwUCkIyJQbBBwQZT8BDNuPRvos-nsVw7wJg=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-07-26T01:23:52.909780Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNibW9HcFJREAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNibW9HcFJREAE!2m1!1s0x2e6a2100351d0083:0xaa0fd9a23bb0a722"
+    },
+    {
+      "name": "places/ChIJgwAdNQAhai4RIqewO6LZD6o/reviews/ChZDSUhNMG9nS0VJQ0FnSUNidXFxYkR3EAE",
+      "relativePublishTimeDescription": "2 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Recommend for those looking for a lawyer, this is the place.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Recommend buat yg cari lawyer di sini tempatnya.",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Deden Faradilla Delana",
+        "uri": "https://www.google.com/maps/contrib/113882285538180614262/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXZSwjGIgDBkXn8pBhpO3N4bXu7S7cloLy9csZAGnxceBDU-wJ4Ww=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2024-07-26T06:31:24.768338Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNidXFxYkR3EAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNidXFxYkR3EAE!2m1!1s0x2e6a2100351d0083:0xaa0fd9a23bb0a722"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJgwAdNQAhai4RIqewO6LZD6o/photos/Aa-ngMYXShxccIQt86g1b8fLf7mjGBhFnKbzjaidlrG2NIx__tt4WJ3LC-MNb1D8vG-2UD6OvVdj1kpxgMZLDyPsJ2bqsaH73VtcoAr9FIYRF-ElOJ1MLgM_4sHrux4gDlXwWas7teIc7oCpnPTcqKSPJApSISd6BkXpMS4xeAHH440o8ld-MIz5yqBsZH4ui1NXxsfppFwYxWtf_hyERF-fud4ZjGKzgpwBhiO6DxGYFruvseIcy1qF6BHUfa2a8elMklJGrWnQjq-rvVbDZat2zfogwF2Ss-n5BwbvZLNi9TZEM3R8O3PjWSg5gWl8jt5GalJft3KW7GvhVx-U0EZ2-tX8VxHWRSWvFxKgkYDgFKbgPL-WBL4_5vp1FOg7U1OAwRe12QmF-k0x2nVgPp6V4D2FlEK6",
+      "widthPx": 899,
+      "heightPx": 1599,
+      "authorAttributions": [
+        {
+          "displayName": "Ahsan Pasinringi",
+          "uri": "https://maps.google.com/maps/contrib/110372116482607948717",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVCNnjglnJfSTHAY6JLguTmbPoeaBZlVNiajEIpxpgoQPLq4nTQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICr5LzJmQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICr5LzJmQE!2e10!4m2!3m1!1s0x2e6a2100351d0083:0xaa0fd9a23bb0a722"
+    },
+    {
+      "name": "places/ChIJgwAdNQAhai4RIqewO6LZD6o/photos/Aa-ngMYJL0NKkjDl7-qdXxHG9Kf7_R34HiROAYw9C1cxzZo4pGzzJxExd29m45Kp0AHQ1bHGpw5gv9NgvrOOYlHZutd9LYoKzoEAOG-ipmghvJ1gQuAFRuZyP2uMzinQCj4EicISrjp4Ori40PMjBQjsuz60WqHYhDk23B8qrPwiH_mywssQIyi-_Ufizcbv0F8iCX5vwvw-_3J-dfZEUqPQU_evGXO2BYxmdsIUvmJKgJ19c2jecGOZRbsgS7ADFX0utHR6DlqYLmVbHns1DyQuFvhOz-1F6r6aiGD-hMN_VvQU-EHtZqH0TjAbIhH_oxiSqfpCY7k9-vPjF_Pprl-2_j1nLUWNXVGtp1UR0jWk39mzeiRxYmUIeGKcrQFW-S9huxHlGxTsbxDI5FLBceo55tub_K7_jvE",
+      "widthPx": 899,
+      "heightPx": 1599,
+      "authorAttributions": [
+        {
+          "displayName": "Ahsan Pasinringi",
+          "uri": "https://maps.google.com/maps/contrib/110372116482607948717",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVCNnjglnJfSTHAY6JLguTmbPoeaBZlVNiajEIpxpgoQPLq4nTQ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICr5Lzp3wE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICr5Lzp3wE!2e10!4m2!3m1!1s0x2e6a2100351d0083:0xaa0fd9a23bb0a722"
+    }
+  ]
+}

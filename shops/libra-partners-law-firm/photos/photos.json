@@ -1,0 +1,14 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "Ahsan Pasinringi",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Ahsan Pasinringi",
+    "owner": false,
+    "usable_on_site": false
+  }
+]
