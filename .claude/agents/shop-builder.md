@@ -31,6 +31,9 @@ Follow `implementation-plan.md` step by step, ticking the boxes in that file as 
   `site/public/`. `photo-*.jpg` (customer uploads) are reference only, never on the site.
   Where a photo is still needed, use a tasteful placeholder labelled for the owner.
 - Reviews paraphrased, never quoted or attributed to names. Keep the banner and `noindex`.
+- **Link preview:** keep the starter's `openGraph` and `twitter` metadata in `app/layout.tsx`,
+  using the same title and description as the page, and set `metadataBase` to the preview URL
+  from your prompt. `npm run shots` writes the preview image, `public/og.jpg`.
 - Accessibility follows the TRD: contrast from the design brief's palette table, visible focus,
   44px tap targets, alt text, and reduced motion honoured everywhere.
 

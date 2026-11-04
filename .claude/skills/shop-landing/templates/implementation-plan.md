@@ -23,5 +23,6 @@ Work top to bottom. Tick each step only when its "done when" holds.
       builder's visual checklist.
 - [ ] 10. Remove-one-thing pass. Cut one animation or decoration that isn't earning its place.
 - [ ] 11. Final checks. Build passes; banner present; `data-mockup` on every mockup item;
-      `noindex` on; final `npm run shots` so the screenshots match the finished site.
+      `noindex` on; `metadataBase` is the preview URL; final `npm run shots` so the screenshots
+      and the link-preview image (`public/og.jpg`) match the finished site.
 - [ ] 12. Write `shops/<slug>/owner-checklist.md` from the PRD's open questions plus every placeholder.

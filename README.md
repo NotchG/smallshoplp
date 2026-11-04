@@ -83,6 +83,10 @@ font sizes, overlapping text, horizontal scroll, banner and `noindex` checks) to
 `shops/<slug>/screenshots/`. The builder looks at them, fixes problems and repeats, up to 3
 rounds. You can run it yourself in any site folder too.
 
+`npm run shots` also writes `public/og.jpg`, the top of the page at 1200×630. It's the image
+WhatsApp, iMessage and Slack show when you send someone the link, so rerun it after changing
+a site's first screen.
+
 The first time on a machine, `npm run shots:setup` downloads the headless browser it uses.
 
 ## Cloud sessions

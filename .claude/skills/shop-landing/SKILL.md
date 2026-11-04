@@ -147,7 +147,11 @@ Every site is planned before it's built. Two subagents per shop, in this order:
 
 **Build** (shops with status `planned`)
 3. Launch one `shop-builder` subagent per shop, at most 25 at a time:
-   "Build the mockup site for shop `<slug>`."
+   "Build the mockup site for shop `<slug>`. Its preview URL is `<url>`."
+   The URL is where Mode 5 will publish it: `preview_scheme` (default `https`) plus the host
+   from `domain_pattern` (or `<slug>.<domain_suffix>`) in `data/coolify.json`. Link previews
+   need it. If that file is missing, leave the URL out and tell the user previews won't show
+   until it's set in the site's `app/layout.tsx`.
 4. When it finishes, check that `shops/<slug>/site/out/index.html`,
    `shops/<slug>/screenshots/report.json` and `shops/<slug>/owner-checklist.md` exist, and that
    report.json shows no overlapping text and no horizontal scroll at any width. If the report

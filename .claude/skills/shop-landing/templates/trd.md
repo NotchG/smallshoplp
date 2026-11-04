@@ -40,6 +40,8 @@ semantic landmarks, alt text on every placeholder, tap targets at least 44 px,
 
 ## SEO / meta
 Title and description from `content.ts`. `noindex` stays on (starter default) until the owner approves.
+Link preview: `openGraph` and `twitter` use the same title and description, `metadataBase` is the
+preview URL, and the image is `/og.jpg` (1200×630, written by `npm run shots`).
 
 ## Type and layout implementation
 Sizes and widths come from the CSS variables in `globals.css` (`--step-*`, `--container`,

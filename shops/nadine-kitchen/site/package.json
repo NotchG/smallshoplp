@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "shots": "node scripts/shots.mjs",
+    "shots": "node scripts/shots.mjs && node scripts/og.mjs",
     "shots:setup": "playwright install chromium"
   },
   "dependencies": {

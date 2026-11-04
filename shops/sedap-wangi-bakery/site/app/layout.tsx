@@ -23,6 +23,16 @@ const atkinson = Atkinson_Hyperlegible_Next({
 export const metadata: Metadata = {
   title: copy.metaTitle,
   description: copy.metaDescription,
+  // Link previews (WhatsApp, iMessage, Slack) need absolute URLs. og.jpg is written by `npm run shots`.
+  metadataBase: new URL("https://sedap-wangi-bakery-mockup.achmedfidel.com"),
+  openGraph: {
+    type: "website",
+    url: "/",
+    title: copy.metaTitle,
+    description: copy.metaDescription,
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: copy.metaTitle }],
+  },
+  twitter: { card: "summary_large_image" },
   robots: { index: false, follow: false }, // mockup: keep out of search until the owner approves
 };
 
