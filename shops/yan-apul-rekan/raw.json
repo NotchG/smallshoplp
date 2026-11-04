@@ -1,0 +1,334 @@
+{
+  "id": "ChIJT4Oe-wr1aS4R2JecWZWhqJA",
+  "types": [
+    "lawyer",
+    "consultant",
+    "service",
+    "point_of_interest",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "(021) 3142331",
+  "internationalPhoneNumber": "+62 21 3142331",
+  "formattedAddress": "Menara Thamrin Lt. 21, Suite 2102, JL. M.H. Thamrin, Kavling 3, 10250, RT.9/RW.5, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10250, Indonesia",
+  "rating": 4.6,
+  "googleMapsUri": "https://maps.google.com/?cid=10423759000374646744&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 18,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 18,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 18,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 18,
+          "minute": 30
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 8,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 18,
+          "minute": 30
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 8:00 AM – 6:30 PM",
+      "Tuesday: 8:00 AM – 6:30 PM",
+      "Wednesday: 8:00 AM – 6:30 PM",
+      "Thursday: 8:00 AM – 6:30 PM",
+      "Friday: 8:00 AM – 6:30 PM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ],
+    "nextOpenTime": "2026-10-26T01:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "userRatingCount": 20,
+  "displayName": {
+    "text": "Yan Apul & Rekan",
+    "languageCode": "en"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Consultant",
+    "languageCode": "en-US"
+  },
+  "primaryType": "consultant",
+  "reviews": [
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pCUFFYaExhMlpCWTBzNWFYZFhSRlJOTkhvdFRYYxAB",
+      "relativePublishTimeDescription": "3 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Met with Mrs. Lina Girsang at the YAN AFUL Office.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Bertemu dengan ibu Lina Girsang di Kantor YAN AFUL.",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Setia Budi",
+        "uri": "https://www.google.com/maps/contrib/101671408581416095109/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVMpmES9GUSu1XA1osLq4AwxuoMMeMxqoZdxthOW5spaLpVufjj=s128-c0x00000000-cc-rp-mo-ba4"
+      },
+      "publishTime": "2026-07-01T02:10:27.735544557Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT2pCUFFYaExhMlpCWTBzNWFYZFhSRlJOTkhvdFRYYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT2pCUFFYaExhMlpCWTBzNWFYZFhSRlJOTkhvdFRYYxAB!2m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/reviews/ChZDSUhNMG9nS0VJQ0FnSUQtd0ktakJnEAE",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "The corridor leading to the Thamrin Tower building",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Lorong menuju gedung Menara Thamrin",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Muljabar Channel",
+        "uri": "https://www.google.com/maps/contrib/110964003762892480199/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXF4xMdG4Rygn2Pdlti4R2nD-WR6umHQzWDUstpew8Eih-GtxPi=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2022-11-18T12:03:25.455517Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUQtd0ktakJnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUQtd0ktakJnEAE!2m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/reviews/ChdDSUhNMG9nS0VJQ0FnSUNCNnVtQXVBRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "text": {
+        "text": "A great place to chill out, relax, smile, laugh and sing with family and friends.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Tempat yang enak buat santai, rileks, tersenyum, tertawa dan bernyanyi bersama keluarga dan teman..",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Hang Tuah",
+        "uri": "https://www.google.com/maps/contrib/111675522090819512530/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUmmtUNAwj5xnDg-mjS1gxb6hJaG6ExAnk09EqWyAhWELC9t_9V=s128-c0x00000000-cc-rp-mo-ba3"
+      },
+      "publishTime": "2022-12-22T15:29:05.712982Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNCNnVtQXVBRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNCNnVtQXVBRRAB!2m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/reviews/ChZDSUhNMG9nS0VJQ0FnSUNDZ1plMGNnEAE",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 5,
+      "authorAttribution": {
+        "displayName": "Inge Tjahjadi",
+        "uri": "https://www.google.com/maps/contrib/106031192144771853286/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK4voeo2erJelxQ_pDaeiis4a1pZ3whdu2YV_ZgiRmN3-_osA=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2020-08-25T06:49:55.452996Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNDZ1plMGNnEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNDZ1plMGNnEAE!2m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/reviews/ChZDSUhNMG9nS0VJQ0FnSUNDd2RfTmVBEAE",
+      "relativePublishTimeDescription": "6 years ago",
+      "rating": 5,
+      "authorAttribution": {
+        "displayName": "Novaldo Effendi",
+        "uri": "https://www.google.com/maps/contrib/101343219554993487072/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLKcI15P8CYMHO6LTqVXIUZw2ttjPD_v5uxZ-yKMd7jHL-uzA=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2020-08-25T14:12:52.848665Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNDd2RfTmVBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNDd2RfTmVBEAE!2m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMY6axCkNSrUE48SekTRlwtwfx9pL-wQFliBVDMO__TanEKYbKN11WLf1K3YabyZ4lSXjXjyMod2AA8y5zn3dUw5JmE-CJKrHeIlNdMCtc3_tYBrGtnIbLdq-ljKuOqEcbChNlh9oTNOKX6021g0v4qQ99iZzqGg2lu3NrthYM-beVZ6nkNWwHIzWxrydBGm29MB-uNH7Uy_6WapOgeS9aSyrdQBPvhozd0Vzsc9oLLiAxp9RQ4hjtEbie13uyT8u3zH2qbhdDhztfttlM9wXUptUYPdYn55lWzMPn36QVeyPUFJ8zSfgtxBt-3wNUkxMwdmcvBhvRCdKT96q7jZfO8_Iii1_4qpIXjH-0WQRTtnNWRwS5YqeAkT5bQQm_goKal0BzqiijlmRNLcGzd9iBOQ8A",
+      "widthPx": 1280,
+      "heightPx": 960,
+      "authorAttributions": [
+        {
+          "displayName": "Yan Apul & Rekan",
+          "uri": "https://maps.google.com/maps/contrib/113429585858361293014",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKyP8-dqHnz-Dc3Pkztn6L45lVrqz7Xtfsa2f8JKVcU7_MmTA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC89aaPQA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC89aaPQA!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMZpoG6GKF0psNLRnJcqKBet377gxzy2vZTmhz7UqbI_XvgNK8ZWuu3XAVCq8sf1BmneEx-c0J12O0Gmjbv8gteI8jHCkrtH3UF3V-Ae5aLTqeF2NfhsitoyWfJenALrhKpZflgvr_TBDW7eN4JrR2_DMZ-A3hJGfLpff0KqXV_vUWHRjTcFOvwTvbFglLPUJ4XErksGKc6CWuEi8t7zbTTeH78-2Xh9aZN0nExFaAkiJS48SA41kA74_eNk5006_uSx76EdtJiwdIN9p9NmHD5wqED1RnqlflaR2qzQFzSYJY5jzgaqW-OxzB0GN7B4vUppIM1mv90s4gkOriPx60Y8JWkFukikRJNk_H7V-hZTfybGlmXXyhUrLTPbSVtJOI0UB02e6pUhZGUCTfoVdEWCb1ud",
+      "widthPx": 1280,
+      "heightPx": 960,
+      "authorAttributions": [
+        {
+          "displayName": "Yan Apul & Rekan",
+          "uri": "https://maps.google.com/maps/contrib/113429585858361293014",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKyP8-dqHnz-Dc3Pkztn6L45lVrqz7Xtfsa2f8JKVcU7_MmTA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC89frxrQE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC89frxrQE!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMZLhNEEDJrF4kE_4vNZvN18V4SbFvMprLE2bKC1ih7ClOfiOzctX1XmTkKwRB0USmg0lmwvImHpe_mDgwO9aDjXMfT-vmejf3xkse6rxx4DzNf8S9Zesp6elrjttwskTaSp_X6t17rUtZqF6XPwC1THchLesyB-SWhgEhQN3o5XlDL9oZkxwkGIdeD6T7QFXKhRQfi734bcXF--HAicBl6JANkLEanR29VHBiIzcACxiWHAtpRIugg_MlbNgOR1Q369P1Ur59pdlQlll4dsTjTUzKMXYxtHWMxLJcw0qFBLveZ9XUmLqXjdKLVc80zmSB0zIFDwfRBSZjJF0mJDf2kU1g58rQfCDHUp2FrMDEWUGLTw_d0VAe58xw6g_2xFnr5IPccp0p-mUq2thZaAhDqHsLs",
+      "widthPx": 2448,
+      "heightPx": 1835,
+      "authorAttributions": [
+        {
+          "displayName": "Yan Apul & Rekan",
+          "uri": "https://maps.google.com/maps/contrib/113429585858361293014",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKyP8-dqHnz-Dc3Pkztn6L45lVrqz7Xtfsa2f8JKVcU7_MmTA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC89cayFA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC89cayFA!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMas_3CtZVKqb2jNSDsiwxbbiI_P40ormrJAKyJX2hLCFVMLPFo8emyr1PkjsFte3geoyEsEi2qdQBNqapgzf8arhHZEsGeFWHV2khtpZIAPBNWIYwH4IqOsI8Ql-nyHNsvlPvBEUB8_gyulLYpNwkgY_DV0yQOXGwJd1Ph2jE1wH8WMN-Z1PrzGK1-kwtJYVbBqiWduEUijBuoIab-wa8hbOzG0ok5dTV91ZYoJ93LbEuh4fni_LWtfXrHGssqg22G4fIP-PTujgAJMOKeoYxBAhjh3Eu83gCw2pJ_nhLTPkUZzn5yA9_BodWylWR1rvw24lPLgSJlS7stMyA7hgLLofJvHzInnL3kZsTOShGaX0FTZH9NJkqZGYXbqSVOLDonBrboUGKgpUzF6bLEGeYZCEZg",
+      "widthPx": 3024,
+      "heightPx": 4032,
+      "authorAttributions": [
+        {
+          "displayName": "Yan Apul & Rekan",
+          "uri": "https://maps.google.com/maps/contrib/113429585858361293014",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKyP8-dqHnz-Dc3Pkztn6L45lVrqz7Xtfsa2f8JKVcU7_MmTA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC89ab3Pw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC89ab3Pw!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMYl6kDCikUVyCYJVLEf9Fth8Ve5nEdRDnuzkLTSU1xx3zCJVdD2B8xZrRAD_mQ-r96M1fw8QqLMHlZjtN_yB01vx4EOxM_FIaUk1njfSTNQOncr53NuIoqUgxuTpZ1crLIltWPds5ntAaxK1DGRmsIyqVsP6KdutIgkN9rJEsFYFQAtbV91LXDlF2Fy6ca5-XriA5_5dpsQZEgmI8MYnYmXujX3BeA9hWtuCvhLdApyTk3gFMhYt1ddmD-SLfIiJXZ8daiPYSqbY4IGROb4VZpBLO2bNmxz1m5O0dr-eo33oF_6thGAzzHnG2vsitQBnMRa5yhoA6ZytCUenulwUZXRkt0B-VubbHaqKEQzkCEkZj1BRquf-5jhnHYaSIhlM-sJ1nKYo-JMzJiVnbsIvDfNzg",
+      "widthPx": 1802,
+      "heightPx": 1742,
+      "authorAttributions": [
+        {
+          "displayName": "Yan Apul & Rekan",
+          "uri": "https://maps.google.com/maps/contrib/113429585858361293014",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKyP8-dqHnz-Dc3Pkztn6L45lVrqz7Xtfsa2f8JKVcU7_MmTA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC89dr7Fg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC89dr7Fg!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMZFs-K8Bl3LYgYpFEFxVpoHcYBmZpLADB0MQY346TYPXvfuFjBe4Xxb0EuhPnCSGxat2RWoTjqmUuOel75KqQtH72sq5RqEYizr8zStuDf8FnXtbDCCqfaYkVG92OeUCAx-y1xqAQkDpsdXEE5x3IbnZR4Kek7h45TRQakW-UM_unurDxcvVIK-QaQVf4NLZG220HFnaCCYJlEAOsnFoRfoSWY9U1WDBbe-OCci0HlqwiG5cMZsEXYCEzFiikMzTPnPiTu5I5-krnprM1GoRNAr_dmu2hbiKK77Mbfgyup2fJxWJoFxNRh8uLjP1yzBCveoGHv-bMccGWPvWVy85aQAORMnNhRRoanDnz8BoFh5dKlRu4Bp4tgOFwwII7XBMyQsh3Fh_tfq2GsYQPJZ1vybMg",
+      "widthPx": 900,
+      "heightPx": 1600,
+      "authorAttributions": [
+        {
+          "displayName": "Yan Apul & Rekan",
+          "uri": "https://maps.google.com/maps/contrib/113429585858361293014",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKyP8-dqHnz-Dc3Pkztn6L45lVrqz7Xtfsa2f8JKVcU7_MmTA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC89cayHg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC89cayHg!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMbbe2MzZGTJNx5h4ECL1IzkK4j6a_v2YTJzKmtz1ZEtD5jPocrad13Jh2Mqme9Y5MtZnelfRF3RO1s09s5buysXVx_jeI8vF6yhSLDbb0UwEjBhdlxlkBaqqhALLjklNhNWBggyT9Q8a0Vl9PpkM-jwugAZ024KtG3qqKrj0RjRBQINM8keiTdHy47TweAlMXc2UqP_7poXoEp7j_3xk5JZ1tWDMxP20A8MZEF0hLxXFlDqhgkxbfwOw5xA-34hNyBwst1CiVGh8ChhfT4tBO464YRBDbdEdKQsbtt_EMBYbIT1avBf_RrBUCZRoNJen9LKEZ9OnyRAlQtzBQb7-J2-r08s5vP-cVIzQoUg5--CDZHN3Uyj8sA6FuCUAMIhi3S5PBNmnA68UBSgqU1g7IVF8g",
+      "widthPx": 640,
+      "heightPx": 640,
+      "authorAttributions": [
+        {
+          "displayName": "Renita Girsang",
+          "uri": "https://maps.google.com/maps/contrib/110371546259845011060",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVvYcDbtu-3KNbT2aGGDrhJIF97Ir37JleGitnO7xmwb5ZVRTKJ=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICEo56pbw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICEo56pbw!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMaMdFsFLKJojCvmbnFYYKpw4NnKc5mS1axdEFf17f5SfEELPbJCpy6eYy8Uso1Hi-09xuibuM4yfcBaxAnLIqZm7s3epx9NxqPEjXB1AehFX_eDSFBKAKFY0Rrcd6uQ2ufbPI8cWg805WPlefMPFYM6tolX2vYKUJXkzyjMLL6HALUHniiI_-knIlyU4hKo88LNbl9MBSmlPgNsMKmcByG-ab7AK4DejCsCPVuYGYDLJdSzfkHwXbX5GZFZM6VliDcz8vAHKrM1ejxokPigIaga1eoaTs6atqIHoeS7zpFAHHO6vzbzaduHiIK3rmh5t4m1pSpEze3ajh6tBE3hgXqeb5BO0TkVlM1GGhaH2krLrpfa3YF-dwkricdprPLxzkO_NfAZKyAibPHS9sQKoQAHUQ",
+      "widthPx": 1772,
+      "heightPx": 1772,
+      "authorAttributions": [
+        {
+          "displayName": "Yan Apul & Rekan",
+          "uri": "https://maps.google.com/maps/contrib/113429585858361293014",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKyP8-dqHnz-Dc3Pkztn6L45lVrqz7Xtfsa2f8JKVcU7_MmTA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC89cayVA&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC89cayVA!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMZVqnyV8tQOgxKJ2lDwn_iJtOuIGuGkOqXN1HELaDpx39HcuMroTzf1ej84seoGFO-7cZp5jSdrD33WaG0sUX005QkGzDO4ntIxYmff03b-eSGjVe6io20ackwuuPFjVic2aj5b62Qio6U6hrDZm0na_RW2ONY-eZlNx5sbpJ4nGZ7n1qsVzvQKN8EzIp_5GMa7DLTfsupuTC92Gz15002PIbxPthxwU2mcHe0Y8a7epRVhVFOGAqH2toAXrqonVdfLOCh8TWLYudhSg1QMgVhVgkrwJ6AV5xHvzicuOf_ixq7eMcj3GPqjS-4UIXfijDFpO6ur1er0yYrhdLIPDqwtTrjNrMxqr-q08iG_p9n9_4dE_BHStvNBh2YLnti3r2jqIbql978sRuIuc6b6WB5-sss",
+      "widthPx": 1920,
+      "heightPx": 1536,
+      "authorAttributions": [
+        {
+          "displayName": "Yan Apul & Rekan",
+          "uri": "https://maps.google.com/maps/contrib/113429585858361293014",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKyP8-dqHnz-Dc3Pkztn6L45lVrqz7Xtfsa2f8JKVcU7_MmTA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC89cayUg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC89cayUg!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    },
+    {
+      "name": "places/ChIJT4Oe-wr1aS4R2JecWZWhqJA/photos/Aa-ngMaNNUI8zUK-rfIu1t-eVk0fKTJlvaLEQroLAxWQdNNq2GPXXAlo9-Gg2UyTKcZB2hxuKhSbvQXl-0C5sFWDJIs_wBUkEIZlW0l-aA89f7LgPQojdd1vEoJjRA1T4Nri1cjF0qBi8H6jjPufwAk-dPhYhinfU1C0XAJSd8sGjADY2ZUF1NPaUE9eX-JihMZwCW5be-wXDaCiK5Ws17Uoxowa_Rfu12aDLbVMYfhRmlLCOHINS_vmHWwHsAbb2KMLEgKRhZcBQIAuMt_rGX5hfrPp2mu0aoYEwaS-f8gQSYhG-h_MEVFQU-dJuQIVtjMe_ZH3Oq3n1xg92gKuSooUA-1sJh-O6vhnaf6L7OsiJkIrziVG0Zi_un8LNUChEk6DJTDMHyDS8PmrtJe0d4t9cJ1XJ0g",
+      "widthPx": 1536,
+      "heightPx": 1536,
+      "authorAttributions": [
+        {
+          "displayName": "Yan Apul & Rekan",
+          "uri": "https://maps.google.com/maps/contrib/113429585858361293014",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKyP8-dqHnz-Dc3Pkztn6L45lVrqz7Xtfsa2f8JKVcU7_MmTA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC89caycg&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC89caycg!2e10!4m2!3m1!1s0x2e69f50afb9e834f:0x90a8a195599c97d8"
+    }
+  ]
+}

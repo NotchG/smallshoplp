@@ -55,7 +55,9 @@ api() {
 }
 
 if [ "$ALL" = 1 ]; then
-  mapfile -t SLUGS < <(jq -r '.shops[] | select((.status=="built" or .status=="owner_approved") and ((.coolify_uuid // "") == "")) | .slug' "$SHOPS_JSON")
+  # A read loop rather than mapfile, which macOS's bash 3.2 doesn't have.
+  while IFS= read -r s; do [ -n "$s" ] && SLUGS+=("$s"); done \
+    < <(jq -r '.shops[] | select((.status=="built" or .status=="owner_approved") and ((.coolify_uuid // "") == "")) | .slug' "$SHOPS_JSON")
   [ "${#SLUGS[@]}" -gt 0 ] || { echo "No built shops without a Coolify app."; exit 0; }
 fi
 

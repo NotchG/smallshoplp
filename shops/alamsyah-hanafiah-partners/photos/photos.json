@@ -1,0 +1,20 @@
+[
+  {
+    "file": "photo-1.jpg",
+    "author": "Iwan Hardiansah Pro Justitia",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-2.jpg",
+    "author": "Kinza Oyabun",
+    "owner": false,
+    "usable_on_site": false
+  },
+  {
+    "file": "photo-3.jpg",
+    "author": "Iwan Hardiansah Pro Justitia",
+    "owner": false,
+    "usable_on_site": false
+  }
+]

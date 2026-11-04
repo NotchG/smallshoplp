@@ -1,0 +1,878 @@
+{
+  "query": "kantor advokat di Jakarta Timur",
+  "includedType": "lawyer",
+  "fetched_at": "2026-10-23T16:31:06Z",
+  "count": 50,
+  "places": [
+    {
+      "id": "ChIJ57wgc-INEQER07i3w9yCQKE",
+      "formattedAddress": "Jl. Raya Rw. Kuning No.14, RT.2/RW.16, Pulo Gebang, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13950, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=11619430923303893203&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hdplawyer.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 83,
+      "displayName": {
+        "text": "Kantor Pengacara Jakarta HDP",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJqZbGm5HtaS4RP20fyAn6hA4",
+      "formattedAddress": "Jl. Raya Klp. Dua Wetan, RT.7/RW.4, Klp. Dua Wetan, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13730, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=1046235933375950143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.hdplawyer.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 35,
+      "displayName": {
+        "text": "Pengacara Advokat & Konsultan Hukum HMPLawyer",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJ58c5n7iNaS4RIk8K3rmvrqI",
+      "formattedAddress": "Jalan Radin Inten II Blok AG.14, Nomor 1B, RT.8/RW.14, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=11722500092921007906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 45,
+      "displayName": {
+        "text": "Kantor Pengacara Sirhan Sandi, SH.,MM.,MH dan Rekan",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJzzGwn3PtaS4RJhPMdBYMzOo",
+      "formattedAddress": "Jl. H. Baping Jl. Bakti I No.44, RT.10/RW.7, Susukan, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13750, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=16918911190712455974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://mekarsari-poge.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 133,
+      "displayName": {
+        "text": "Kantor Pengacara & Advokat Bantuan Hukum Mekarsari Poge - Nirzon & Rekan. (Klik Tombol \"Website\" utk Konsultasi))",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJg73aECXzaS4Rx2yqz8B3VZ8",
+      "formattedAddress": "Green Business Centre Palma One,7th floor #709, Jl. H. R. Rasuna Said No.N0. 4 Kav X2, RT.8/RW.4, Kuningan Tim., Kecamatan Setiabudi, Jakarta, Daerah Khusus Ibukota Jakarta 12950, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=11481214495052426439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.lawofficeindonesia.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 658,
+      "displayName": {
+        "text": "Kantor Hukum Herdiyan Nuryadin, SH.,MH.,CLA & Partners",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJnSbOPaj0aS4RJXgIF20mcvY",
+      "formattedAddress": "Jl. I Gusti Ngurah Rai No.13 A, RT.8/RW.06, Klender, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13470, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=17758298530655008805&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://appehamonanganhutauruk.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 92,
+      "displayName": {
+        "text": "Law Firm Appe Hamonangan Hutauruk & Associates",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJ9VnBhIyPaS4RjgngzlmV4v4",
+      "formattedAddress": "Jl. Kp. Jatibulak Blok Masda No.94, RT.03/RW.02, Jatimulya, Kec. Tambun Sel., Kabupaten Bekasi, Jawa Barat 17510, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=18366406443325720974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://bit.ly/KANTORADVOKATSURANTO",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 67,
+      "displayName": {
+        "text": "KANTOR ADVOKAT & KONSULTAN HUKUM SURANTO, S.H. & PARTNERS",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Local Government Office",
+        "languageCode": "en-US"
+      },
+      "primaryType": "local_government_office"
+    },
+    {
+      "id": "ChIJ30LEofX0aS4RNHHgH68I7gA",
+      "formattedAddress": "Jl. Raya Condet No.19A, RT.2/RW.1, Balekambang, Kec. Kramat jati, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13530, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=67000592704237876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://ombunsuryonosidauruk.lawyer/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 10,
+      "displayName": {
+        "text": "Mallasak Law Office Ombun Suryono Sidauruk & Partners",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJk_UvG4XzaS4Rx3dR8cq5YLI",
+      "formattedAddress": "Jl. Albaidho II Kav. Ruko 8 No.102, RT.3/RW.11, Lubang Buaya, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13810, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=12853477617798576071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.jumlaw.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 12,
+      "displayName": {
+        "text": "Kantor Hukum Jakarta Jumadin Sidabutar",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJqaaaWq2TaS4RSYT9JAto08k",
+      "formattedAddress": "Jl. Vila Nusa Indah Raya No.12A Blok D2, Bojong Kulur, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16969, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=14543082018783986761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.iswahyudi-wahyu.blogspot.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 112,
+      "displayName": {
+        "text": "Kantor Hukum/ Pengacara IW Law Firm Iswahyudi RZ, S.Sy., M.H. & Partners | Konsultan Waris Islam | Pertanahan | Bisnis dll",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJWb_JfkfzaS4R5eyPgcAixL4",
+      "formattedAddress": "RT.1/RW.4, Pondok Bambu, Durensawit, East Jakarta City, Jakarta 13430, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=13746150172844354789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 3,
+      "displayName": {
+        "text": "Kantor Hukum HENDRA PARULIAN, SH & PARTNERS (HPP LAW OFFICE)",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJA453anXtaS4RlLyAbvblV30",
+      "formattedAddress": "Jl. Raya Poncol No.19, RT.12/RW.7, Susukan, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13750, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=9031940424293465236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Kantor Advokat /Pengacara Deasy Anna Victorina and Partners",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJCaeNqJSLaS4RXci2gy7Kz9Q",
+      "formattedAddress": "Perum Metland Menteng Blok C3. No.23, RT.8/RW.07, Ujung Menteng, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13960, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=15334697557346928733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Kantor Advokat Afandi Arief Harahap SH & Rekan",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Government Office",
+        "languageCode": "en-US"
+      },
+      "primaryType": "government_office"
+    },
+    {
+      "id": "ChIJhY1kHofzaS4RS9omMo_FTEw",
+      "formattedAddress": "Jl. Otista Raya No.6, RT.1/RW.1, Bidara Cina, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13330, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=5497986463924935243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 5,
+      "displayName": {
+        "text": "Kantor Advokat Napal Januar Sembiring, S.H & Rekan",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJmW8JTgDzaS4R2jOMeNl-ftY",
+      "formattedAddress": "Jl. Otista 3 No.50, RT.1/RW.4, Cipinang Cempedak, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=15455930443677578202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 4,
+      "displayName": {
+        "text": "Kantor Advokat EL & PARTNERS",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJTV5Sfdz1aS4Rv8o_reLifkc",
+      "formattedAddress": "Jl. Jenderal Ahmad Yani No.5, RT.19/RW.10, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=5151804486955551423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://youtube.com/c/TOPAD10",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Kantor Advokat dan Kuasa Hukum Pajak Parluhutan Simanjuntak SE Ak, SH, M Ak, CA, CMA, CMed, CPLA",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJYz5QEuX0aS4RljCRBv0I3gU",
+      "formattedAddress": "Jl. Waringin Raya No.9, RT.6/RW.8, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13210, Indonesia",
+      "rating": 4.4,
+      "googleMapsUri": "https://maps.google.com/?cid=422785297849331862&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://kario-lumbanradja-associates.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 5,
+      "displayName": {
+        "text": "Kantor Hukum Kario Lumbanradja & Associates",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJSZxtPADzaS4RoB5xYGFHxI4",
+      "formattedAddress": "Jl. DI. Panjaitan No.94, RT.1/RW.6, Cawang, Kec. Makasar, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13650, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=10287425932376481440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Kantor Advokat Aminton Sihite S.H.,M.H & PARTNERS",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJlzSYYwDzaS4RlrKx9dDWIi8",
+      "formattedAddress": "Jl. A Tanah 80 No.4, RT.4/RW.8, Klender, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13470, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=3396513261954380438&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Kantor Advokat MUFIDA,SH",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJRxUOFF70aS4RY7WR0UHDROs",
+      "formattedAddress": "Jl. Pramuka No.158, RT.7/RW.2, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=16952889584785667427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.miguna-partners.com/contact.php",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Kantor Pengacara Miguna & Partners",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJE-NUrqv1aS4RYxXqT0l4Gy0",
+      "formattedAddress": "Jl. Bina Marga No.150 6, RT.6/RW.2, Cipayung, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13840, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=3250323812346631523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Kantor Advokat : Jaferson R. Hasibuan SH.MH",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJh5Nj8inzaS4R5JASEFWKang",
+      "formattedAddress": "Aldeoz Building, Ktr. Aldeoz Building, Jl. Wr. Jati Timur Raya Barat No.39 Lantai 6, RT.1/RW.9, Kalibata, Pancoran, South Jakarta City, Jakarta 12740, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=8676899730029187300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://about.me/redhopurnomo",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 38,
+      "displayName": {
+        "text": "KANTOR HUKUM REDHO PURNOMO & PARTNERS (RPP LAWYERS - Litigator & Legal Advisor)",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJbaBCYgD3aS4RoywyqjvVkO0",
+      "formattedAddress": "Jl. Kesehatan Jl. Tanah Abang No.36c, RT.4/RW.3, Petojo Sel., Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10160, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=17118416635870456995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.lawyersclubs.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 59,
+      "displayName": {
+        "text": "⚖️Pengacara/Lawyer Jakarta | KANTOR HUKUM MARBONI & REKAN",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Consultant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "consultant"
+    },
+    {
+      "id": "ChIJ13i46pb0aS4RJJ3PkEybwgQ",
+      "formattedAddress": "JL Kamboja, RT. 07 RW. 02 No. 36 A, Cijantung, Pasar Rebo, RT.7/RW.9, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13770, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=343007274782924068&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Kantor Advokat Made Rahman Marabessy, S.H. & Rekan",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJIfkztPD1aS4RdhZtwr3Ayzo",
+      "formattedAddress": "Komplek Bina Marga Jl. Pramuka No.55, RT.001/RW.6, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13140, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=4236691795715364470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://faktareview.com/berbekal-tekad-dan-kemauan/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 9,
+      "displayName": {
+        "text": "Kantor Pengacara Haposan Hutagalung & Partners",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJl8s_MqyNaS4R_ZfmONr62Qs",
+      "formattedAddress": "Jl. Taman Galaxy Raya No.Lt.3 Blok A No.27, RT.001/RW.014, Jaka Setia, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17147, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=853989419527870461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://sites.google.com/view/hrplawoffice",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 32,
+      "displayName": {
+        "text": "HRP LAW OFFICE ( Advokat - Pengacara - Penasihat Hukum Di Bekasi )",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJa14BVr2NaS4RW8PuN--DKvo",
+      "formattedAddress": "Ruko Grand Galaxy City, Jl. Pulo Sirih Utama No.Blok AE No. 103A, RT.008/RW.013, Pekayon Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17147, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=18026365521962648411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://firmancandra.wordpress.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 30,
+      "displayName": {
+        "text": "FIRMAN CANDRA LAW FIRM",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJHxQ7zBONaS4ReUQuIHz8AAk",
+      "formattedAddress": "Jl. Bintara XI, RT.09/RW.13, Bintara, Kec. Bekasi Bar., Kota Bks, Jawa Barat 17134, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=648795956387398777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 25,
+      "displayName": {
+        "text": "bantuan hukum murah berkualitas",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJ978MlfP1aS4RYH9SbFIt7Qk",
+      "formattedAddress": "J&P Law Office, East Square, Jalan Pemuda No 65, Jati, RT.1/RW.8, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "googleMapsUri": "https://maps.google.com/?cid=715277747849690976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://junawan-lawfirm.blogspot.com/",
+      "businessStatus": "OPERATIONAL",
+      "displayName": {
+        "text": "Advokat, Pengacara dan Konsultan Hukum",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJvZBYQHL1aS4R9dhKHqyNp-M",
+      "formattedAddress": "Gedung Utaka 87, Jl. Utan Kayu Raya No.87, RT.2/RW.8, Utan Kayu Utara, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13120, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=16404235938102434037&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.ferdinandlawyer.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 12,
+      "displayName": {
+        "text": "Ferdinand Hutahaean & Co",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Local Government Office",
+        "languageCode": "en-US"
+      },
+      "primaryType": "local_government_office"
+    },
+    {
+      "id": "ChIJbfbj-u-NaS4RvYXlR7O0lyI",
+      "formattedAddress": "Apartment Grand Icon, Jl. Caman Raya No.21 Kav. A1, RT.008/RW.001, Jatibening, Kec. Pd. Gede, Kota Bks, Jawa Barat 17412, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=2492659600871228861&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://linktr.ee/notaris.untung",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 445,
+      "displayName": {
+        "text": "Kantor Notaris & PPAT Achmad Untung Wibowo SH MKn",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Banking and Finance",
+        "languageCode": "en-US"
+      },
+      "primaryType": "finance"
+    },
+    {
+      "id": "ChIJA2LUzaKNaS4RQUFd1g1NFVY",
+      "formattedAddress": "Ardians Building, Grand Galaxy City, Blok FE 437, Jl. Boulevard Raya No.RT/RW 002/015, RT.002/RW.015, Jaka Setia, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17147, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=6202948783599075649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://ardiansnco.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 37,
+      "displayName": {
+        "text": "Lawfirm Ardians & Co - Attorney and Counsellor at Law",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Consultant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "consultant"
+    },
+    {
+      "id": "ChIJvR6akvfzaS4RSYytqNtwjPs",
+      "formattedAddress": "Menara Kuningan Lt. 14, Jl. HR Rasuna Said Bl X-7 6, RT.2/RW.5, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=18125986688989498441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://kailimang-ponto.com/Id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 14,
+      "displayName": {
+        "text": "Kantor Advokat Kailimang & Ponto",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJw5eE-gnxaS4Rnj5Uq6tiD2c",
+      "formattedAddress": "Menara Mandiri 2 Floor 11 th Jl. Jend. Sudirman, Jl. H Kavling No.54 - 55, RT.5/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190, Indonesia",
+      "rating": 4.7,
+      "googleMapsUri": "https://maps.google.com/?cid=7426262800010591902&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 3,
+      "displayName": {
+        "text": "Kantor Advokat & Konsultan Hukum Andreas FK & Katjasungkana",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJP6tAq4TzaS4RXwszKy0wnsc",
+      "formattedAddress": "Gedung Selmis, Jl. Asem Baris Raya No.52 Kav.4-5, RT.1/RW.5, Kb. Baru, Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12830, Indonesia",
+      "rating": 4.6,
+      "googleMapsUri": "https://maps.google.com/?cid=14383987230424370015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 11,
+      "displayName": {
+        "text": "Kantor Advokat Thomas Tampubolon & Partners",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJDSSLYc-RaS4R2m1dPrDorm0",
+      "formattedAddress": "Grand apartemen center point tower c GF 36, RT.005/RW.002, Marga Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17320, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=7903510239739997658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://pengacaramesak.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 21,
+      "displayName": {
+        "text": "Pengacara Perceraian - Kantor Hukum Mesak Nainggolan & Partners",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJ_0hDcWDzaS4Rhbo2XEoJ3WI",
+      "formattedAddress": "Menara 165, Jl. TB Simatupang No.Kav 1 Lt 3, Unit H, RT.3/RW.3, Cilandak Tim., Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560, Indonesia",
+      "rating": 4.9,
+      "googleMapsUri": "https://maps.google.com/?cid=7123860400549313157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://kantorhukumjakarta.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 21,
+      "displayName": {
+        "text": "Kantor Hukum Jakarta - Advocates and Legal Consultant",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Consultant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "consultant"
+    },
+    {
+      "id": "ChIJCVAneiz1aS4R7dwEbMLJo54",
+      "formattedAddress": "Jl. Pulo Mas V C No.16, RT.7/RW.11, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13210, Indonesia",
+      "googleMapsUri": "https://maps.google.com/?cid=11431202116069547245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "displayName": {
+        "text": "Kantor Advokat Hakiki & Partners",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJBRDvFFz1aS4RYcQrwEKiWT0",
+      "formattedAddress": "Jl. Pulo Mas Bar. VI No.28, RT.3/RW.10, Kayu Putih, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13210, Indonesia",
+      "googleMapsUri": "https://maps.google.com/?cid=4420742916816487521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "http://www.sempartners.id/",
+      "businessStatus": "OPERATIONAL",
+      "displayName": {
+        "text": "Kantor Hukum SEM & Partners",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJid1kegD1aS4RiP4TgzjioaE",
+      "formattedAddress": "Jl. Utan Kayu Raya No.38, RT.2/RW.5, Rawamangun, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "googleMapsUri": "https://maps.google.com/?cid=11646838843701984904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "displayName": {
+        "text": "KANTOR ADVOKAT F. TAMPUBOLON & ASSOCIATE",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJ6wNW7fKNaS4RMXxK3xX0z4U",
+      "formattedAddress": "Jl. Pd. Kelapa Raya No.1, Pd. Klp., Kec. Duren Sawit, Jakarta, Daerah Khusus Ibukota Jakarta 13450, Indonesia",
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=9642193702001212465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://pengacarajohnmirza.com/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 6,
+      "displayName": {
+        "text": "Pengacara John Mirza, SH",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJL5GDtgD1aS4RQFrQuVVM00o",
+      "formattedAddress": "Jl. Letjen Suprapto No.18 12, RT.12/RW.4, Cemp. Baru, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10640, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=5391737109965986368&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Kantor Advokat / Pengacara Samuel Ginting & Rekan",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJxYicqYeMaS4RC9mY8CZUjB0",
+      "formattedAddress": "Jl. Bintara VIII No.143, RT.001/RW.003, Bintara, Kec. Bekasi Bar., Kota Bks, Jawa Barat 17134, Indonesia",
+      "rating": 2,
+      "googleMapsUri": "https://maps.google.com/?cid=2129169250061441291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "Kantor Advokat & Konsultan Hukum \"V.Sigalingging SH.MM\"",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJaeeZBZHzaS4RmH6Wc966Ojo",
+      "formattedAddress": "Jl. KH Abdullah Syafei Lapangan Ros Selatan No.7 Wisma Laena, RT.7/RW.11, Tebet Tim., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12860, Indonesia",
+      "rating": 4,
+      "googleMapsUri": "https://maps.google.com/?cid=4195871467433787032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://id.wikipedia.org/wiki/Amstrong_Sembiring",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Kantor Advokat Amstrong Sembiring Dan Rekan",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJG69q2aWNaS4RuuRkHLDklEY",
+      "formattedAddress": "Jl. Palem VIIIB No.1066, RT.003/RW.008, Jakamulya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17146, Indonesia",
+      "rating": 4.5,
+      "googleMapsUri": "https://maps.google.com/?cid=5085941324249883834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 6,
+      "displayName": {
+        "text": "YOGI PAJAR SUPRAYOGI AND PARTNERS",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJS19GTkD1aS4RUSHH_qAyQyk",
+      "formattedAddress": "The Kensington Office Tower, Jl. Boulevard Raya No.1 Lt.10-H, Klp. Gading Tim., Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14240, Indonesia",
+      "rating": 4.8,
+      "googleMapsUri": "https://maps.google.com/?cid=2973275846045278545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "websiteUri": "https://www.juliusrizaldi.co.id/",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 6,
+      "displayName": {
+        "text": "Law Office Julius Rizaldi & Partners",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Consultant",
+        "languageCode": "en-US"
+      },
+      "primaryType": "consultant"
+    },
+    {
+      "id": "ChIJuVfvcqn0aS4RhTX2p4V9lzM",
+      "formattedAddress": "Gedung, East Square, Jl. Pemuda No.65, RT.1/RW.8, Rawamangun, Kec. Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13220, Indonesia",
+      "rating": 3,
+      "googleMapsUri": "https://maps.google.com/?cid=3717578030419686789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 1,
+      "displayName": {
+        "text": "LBH LEKASIA",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Local Government Office",
+        "languageCode": "en-US"
+      },
+      "primaryType": "local_government_office"
+    },
+    {
+      "id": "ChIJDSjPzKmNaS4RFTJfzaqGYrc",
+      "formattedAddress": "Jl. Bintara No.8- 3, RT.007/RW.001, Bintara, Kec. Bekasi Bar., Kota Bks, Jawa Barat 17134, Indonesia",
+      "rating": 5,
+      "googleMapsUri": "https://maps.google.com/?cid=13214272324806586901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 13,
+      "displayName": {
+        "text": "PRINGGONDANI NUSANTARA & PARTNERS",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJw3PD7Kz1aS4RLQ1__1sayfc",
+      "formattedAddress": "Wisma Tuahta Ras, Jl. Letjen Suprapto No.9A, RT.1/RW.1, Cemp. Baru, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10640, Indonesia",
+      "rating": 4,
+      "googleMapsUri": "https://maps.google.com/?cid=17854831180117904685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 4,
+      "displayName": {
+        "text": "KANTOR ADVOKAT Dr. PUTRA KABAN, S.H., M.H & REKAN",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    },
+    {
+      "id": "ChIJE6KK-0n0aS4RLtSmRrpjWow",
+      "formattedAddress": "Kramat Kwitang No.18, RT.5/RW.7, Kwitang, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10420, Indonesia",
+      "rating": 4,
+      "googleMapsUri": "https://maps.google.com/?cid=10113505564914275374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 2,
+      "displayName": {
+        "text": "Kantor Advokat Pengacara R. Tigor Tampubolon",
+        "languageCode": "id"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Attorney",
+        "languageCode": "en-US"
+      },
+      "primaryType": "lawyer"
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "id": "ChIJLewHNYv1aS4R4H38NZ3tva0",
+  "types": [
+    "lawyer",
+    "consultant",
+    "point_of_interest",
+    "service",
+    "establishment"
+  ],
+  "nationalPhoneNumber": "(021) 42884647",
+  "internationalPhoneNumber": "+62 21 42884647",
+  "formattedAddress": "Jl.Letjend R. Suprapto Ruko Cempaka Mas Ruko Cempaka Mas Barat Blok C.No.07, RW.8, Sumur Batu, Kec. Kemayoran, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10640, Indonesia",
+  "rating": 4.8,
+  "googleMapsUri": "https://maps.google.com/?cid=12519423798631235040&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  "regularOpeningHours": {
+    "openNow": false,
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 1,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 2,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 3,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 4,
+          "hour": 17,
+          "minute": 0
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "hour": 9,
+          "minute": 0
+        },
+        "close": {
+          "day": 5,
+          "hour": 17,
+          "minute": 0
+        }
+      }
+    ],
+    "weekdayDescriptions": [
+      "Monday: 9:00 AM – 5:00 PM",
+      "Tuesday: 9:00 AM – 5:00 PM",
+      "Wednesday: 9:00 AM – 5:00 PM",
+      "Thursday: 9:00 AM – 5:00 PM",
+      "Friday: 9:00 AM – 5:00 PM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ],
+    "nextOpenTime": "2026-10-26T02:00:00Z"
+  },
+  "businessStatus": "OPERATIONAL",
+  "userRatingCount": 18,
+  "displayName": {
+    "text": "Law Office Alamsyah Hanafiah & Partners",
+    "languageCode": "id"
+  },
+  "primaryTypeDisplayName": {
+    "text": "Attorney",
+    "languageCode": "en-US"
+  },
+  "primaryType": "lawyer",
+  "reviews": [
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/reviews/ChdDSUhNMG9nS0VJQ0FnSURTdGNiTXZ3RRAB",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 4,
+      "text": {
+        "text": "Good offices",
+        "languageCode": "en"
+      },
+      "originalText": {
+        "text": "Good offices",
+        "languageCode": "en"
+      },
+      "authorAttribution": {
+        "displayName": "Hasmetri Hasan",
+        "uri": "https://www.google.com/maps/contrib/110960802510538554825/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUMcJ5xmGY46J20L2hZAOzo-ngwjxcnN8aEhKkatj46OMcwBWG8Qw=s128-c0x00000000-cc-rp-mo-ba2"
+      },
+      "publishTime": "2021-01-03T23:59:38.656481Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURTdGNiTXZ3RRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURTdGNiTXZ3RRAB!2m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/reviews/Ci9DQUlRQUNvZENodHljRjlvT21wS1pXZHFVSGx6VkdoMGVYWnhNSE5TY0VVNWEyYxAB",
+      "relativePublishTimeDescription": "6 months ago",
+      "rating": 4,
+      "text": {
+        "text": "Ask for the lawyer's WA contact number",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Minta no kontak wa utk pengacaranya",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "BLESSING INDONESIA",
+        "uri": "https://www.google.com/maps/contrib/115918137701699168302/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUPEtiqI8eaawbb3L6wAjqLvbIkEYk4hWQIjx2hu4PrC8HkHOZ_sw=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2026-03-30T01:48:10.245797420Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=Ci9DQUlRQUNvZENodHljRjlvT21wS1pXZHFVSGx6VkdoMGVYWnhNSE5TY0VVNWEyYxAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sCi9DQUlRQUNvZENodHljRjlvT21wS1pXZHFVSGx6VkdoMGVYWnhNSE5TY0VVNWEyYxAB!2m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/reviews/ChdDSUhNMG9nS0VJQ0FnSUN4cV9lZjdRRRAB",
+      "relativePublishTimeDescription": "3 years ago",
+      "rating": 5,
+      "authorAttribution": {
+        "displayName": "Sigit Pramudito",
+        "uri": "https://www.google.com/maps/contrib/106331432135929738096/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWD5ryOweftL1vlW9KrpKh1IcATIkrGbn3-KfLy11TI-UIXmWfcig=s128-c0x00000000-cc-rp-mo-ba6"
+      },
+      "publishTime": "2023-05-26T11:46:09.703736Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN4cV9lZjdRRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN4cV9lZjdRRRAB!2m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/reviews/ChdDSUhNMG9nS0VJQ0FnSURpMHVpUTBnRRAB",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "text": {
+        "text": "Extraordinary",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Luar biasa",
+        "languageCode": "id"
+      },
+      "authorAttribution": {
+        "displayName": "Rojikin Ikin",
+        "uri": "https://www.google.com/maps/contrib/111470301954229069208/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIBFHWEl_iOjxOv9hiNLIfiRr5OYH-1-d5JAA9T-i6Dd4ypiw=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2020-12-01T01:52:20.200572Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURpMHVpUTBnRRAB&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURpMHVpUTBnRRAB!2m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ2azVERldBEAE",
+      "relativePublishTimeDescription": "5 years ago",
+      "rating": 5,
+      "authorAttribution": {
+        "displayName": "Rafka Aulian",
+        "uri": "https://www.google.com/maps/contrib/110114777919503143513/reviews",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK36T414mQ79suYzK3QoYvRy0sbMXr65DngZEIC4bcgCo9HHQ=s128-c0x00000000-cc-rp-mo"
+      },
+      "publishTime": "2021-10-10T05:31:04.465149Z",
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUQ2azVERldBEAE&d=17924085&t=1&wv=1",
+      "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUQ2azVERldBEAE!2m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    }
+  ],
+  "photos": [
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMaZcSsPTmxKhd2Ho1rIx2B_Xqy7cmz9hBz7t4OqWamyjNYuoYPCsiGyNkYEX4Q6-J2PxX0LbJonhrnQWc6jGI2ODub1Po2ttQSOrTObVOFhzzQBihT-xYoFj2yrMD6LG1k3e5uVbjD98QKfH24TnIpW5OdGkvkLNiD7-EYCNyxH6CToyxUYYy1XsD3tO2bUMeSRJKB49eNn98Evyop9FBvJrHh-lr3Ra_jzclOM1LoUoR9Lv7-Bpxz49DORbIm6LueeZV37M65fo9xRL-s4kEc5ML0M8xcGSKG-WRu6GC_d46qJYfGaumYPJTMVskBaC5bg8O5m-ebomhOP3M1gAaMGPM-ZgF7ocoodL4IMLjpLHCxcIlUC8gtRHTNXXGWrvAnBZXTQbT1K_4wZD4ftogm4iiekUx8",
+      "widthPx": 780,
+      "heightPx": 1040,
+      "authorAttributions": [
+        {
+          "displayName": "Iwan Hardiansah Pro Justitia",
+          "uri": "https://maps.google.com/maps/contrib/113468347446461453314",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUtZQZQ-jSuHj1gtWwH18u-7UHRMisVWdDOno3jptqHnmc3afk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC66d2tjwE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC66d2tjwE!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMYbNbDXTT72YJtblth1c0ij2ivzm-KP-vYTY9yVzMYVywQLPMjQuFenQdQTJA7lWs07zxdzs1VWAuSXaYVE1DEc_Lua_3mZ4n2ZHZ_Ot_cGKleLqg0gFkHS8OVmw-k3DJdznrsfqTuAnKo-jl6qVTTeIfJB5OqUf5VdZBDpI9O-hNIJKhvoZCafaFXUU9X-3sx9FlfJU6qkmZF3340I8zaCsv_LJ2A23LKtonO08hqiifCqcbzNY2zAQj3kj3NKPoYAHIT75xON3xrpbwWLcMTmcS19ZhmRhcmakDIaxQUfO3WLZcFgfYyD-Ro8BMt8Dl4qAO-cF959HKolBJFn038KAxk4LDnL4xGtVkTWdF7q9US8y36gejpqeJRAOo39s6Cn48dD4RRxPPQuxDex0Lo98tUmgGjmNV9yNHFB_YW5VQ",
+      "widthPx": 1600,
+      "heightPx": 1200,
+      "authorAttributions": [
+        {
+          "displayName": "Kinza Oyabun",
+          "uri": "https://maps.google.com/maps/contrib/111771757254084562603",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVF_hG5H3chSTLA5wxwwovwERR4Nn5VyN6zECs7r9gmGLazVbnP=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhD5zOoTKu-O7rzmroOaLNni&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD5zOoTKu-O7rzmroOaLNni!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMZukCYc2DK_iUZLr5iqdqI4II1gowBBt8yY7NTYLe5d92dDyhoh00AHuPB9z3EhHZaZ5pyte76XKQXkZd0ZX5aOv2J_xwU_8L2Sv8bDl_W-jte-scflUyeMztWxN1ZcF40VDbJuS7MrTH1Gdfd8WrOfTwn5HNFj2L1AOCbWAEnDkdw6fbj_QMfFOhve24oDuMyiDse0XsFrBITmzNghoqpComb1QKmJI9cOkl3lxCn_4Y8Ajux2rxVH86B8_LWWXiclC2iezFDdIEWK3X6UozbDhJY0cjA3iScXws9BzGYW-TcVNm57ipBCHc6hYiW86g926WommrNTwK_hlFY4WJ3BRN200iAPHgEUa-HRc6-GiVdEO5roshcOYxZWFPROQBQ9Xu08MQyRjv1y2IB63FtWxLo",
+      "widthPx": 720,
+      "heightPx": 540,
+      "authorAttributions": [
+        {
+          "displayName": "Iwan Hardiansah Pro Justitia",
+          "uri": "https://maps.google.com/maps/contrib/113468347446461453314",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUtZQZQ-jSuHj1gtWwH18u-7UHRMisVWdDOno3jptqHnmc3afk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC66YuaYw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC66YuaYw!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMbsilzk-QT5whTtu_cCY0_zBfUL_AmWfL05UVLKm_qDfsdPjqFGLlhltclMuxCKSykpF1P0cFFXDO-WX_Zvv1XZcIahZiERPIGRAEV7bxG3wijFCzYO8__gA0oCRSFpJJv68e9mwTLadhvfn3cTpb82t579gCzoRuC0D-1mNg5r5Qm_Z9w9bkpr1sliBg0ZYVdO-ghw2M6NfrrgDqDO-k02LUH53uKp87zJ18rU7uWcqnh4YmMS8VDARoYt6p2IO_HsgrSlPCgDu_h0SO-v3XW7vIwh43dnSszsDjbiXhB-IJwNwNL55cCMgnoAib4dvCdbkw-4Sa9DIgQKihVKcRkcuYhJ16HYjA0-KbGgCQovZz8WVpHrSR44cqz_5ewsc8uvfSX-UEMQtO8SVM_SItiRghKjJHo",
+      "widthPx": 4000,
+      "heightPx": 3000,
+      "authorAttributions": [
+        {
+          "displayName": "Sigit Pramudito",
+          "uri": "https://maps.google.com/maps/contrib/106331432135929738096",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWD5ryOweftL1vlW9KrpKh1IcATIkrGbn3-KfLy11TI-UIXmWfcig=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgICxq_ef3QE&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICxq_ef3QE!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMawunVvSsIAan5bs6ueHylmc1RcbJJWNonRWjWgYGQ3qiqOqq-gUG3bylNLVWyClHzJGJIeG__QFdj8szYzQHJ-EgilMDS1M0VqnIabOkZVwW4Ta0jQ6xlj5LH2WiKW5Pp5PRZnLDKz7asRYsGh1B9IgQRjykKTQCp6GzLK2shJvMHQjPJeeJh2wEIIBKARLJgWC8SQYdHuK48gdV2Pz_cYxajIda5LZiPLSOTAddSLTPYRDxFbH80OxKOOl6t90t-RAuZ8N5cVxPCudhQ_do2Awd0u7KrT_khORwmuZhGmiEVMZc_2hHLDb0hmB8xusYYN1mjIsRIxyBtM_pY2ZixEayYX1U4ebstajpHW53jhGrt1qJ7iOw4ns9GQ_RRuMJa0HjlxwhkM17GXuwBCyhvH2x0",
+      "widthPx": 4128,
+      "heightPx": 2006,
+      "authorAttributions": [
+        {
+          "displayName": "Iwan Hardiansah Pro Justitia",
+          "uri": "https://maps.google.com/maps/contrib/113468347446461453314",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUtZQZQ-jSuHj1gtWwH18u-7UHRMisVWdDOno3jptqHnmc3afk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC66c30Mw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC66c30Mw!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMY0gSHFYQvXjUxEcyZCyqWlWStmhMhgCKZFoUzBv7sRg1BZ5ynAU8nlW7tueLKJVV_uFGsXAtLk7EfIkSsVSGAzHLB1ZGXvT4RbjLgEVMcfPKdeFY7W4J3yzMGUmXjSYANO5a5x2UTK27monbdWQAYN_S3uzKf8x9sLnUiGZ92VaAeArGrubZJHWlE9qyViZ2FVlE-OVnZCf759pof94yev39HmNnpBbZpEW4M5HVvepfibzlG5v-XKUhTFkpNIY-gSW5l82C4EigUhClGhYmhS0SaHxxxY2I5R9jyBkh9u3BhPbv6Cw03lhN3s6vJrHgaaqENRkO3vlK46y-A2lzbC5EC0XDIvBtA7XzyN3036yZeLzzMvdAUOz39tedzM7gP9um1N6kQMzqSKqvAaO760wQ",
+      "widthPx": 2006,
+      "heightPx": 4128,
+      "authorAttributions": [
+        {
+          "displayName": "Iwan Hardiansah Pro Justitia",
+          "uri": "https://maps.google.com/maps/contrib/113468347446461453314",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUtZQZQ-jSuHj1gtWwH18u-7UHRMisVWdDOno3jptqHnmc3afk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC66Y3wFw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC66Y3wFw!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMaKQ7ITojr4rruIqVwTkOiLcLqjqHT5wfbFQRepGDuq9A7GllIksrgFAgzu8nmtGnVtwyEiz8wQV2ehIxFISSJfMbO1L4Gnli7zDFMWQWH9T3MbaZ2Vu3MQRUnkRJh_chymmTqA7nmO3MCGUqQeffWhwWMZwjtd4lSyiEe1wqO-84MeJENBPjMf4G6-q8dnXYYwsJxPzM9mY9nCkgWuPLeccqqUOCC7vb9_L9aVLJ6EhHoIhVGRn7_t4dRD5hiLdcXaH5ThZF_iabiX_Ee-zvRuiEkTGSRtNCoWujXjeGabsdZpczb_8xUi4CTnYNx7decucKL6ibY7MkO6o3UDdhv4JBsz0zBoaZQTR4XkJPfiRA6_G1gk6YGR4qgw129c55LM08YzqToQuz6Q0SEjW7ut3WR3yj8ua_POPqLyTsF30Q",
+      "widthPx": 1800,
+      "heightPx": 4000,
+      "authorAttributions": [
+        {
+          "displayName": "IWAN Hardiansah",
+          "uri": "https://maps.google.com/maps/contrib/112357440673998087818",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI4MGhoKxDCW_8vTAWs1Bqukk3IAl0j0W7ByfyqHbkkn5VFLA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhChO1jfA5n0qe60NdFF7mQL&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhChO1jfA5n0qe60NdFF7mQL!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMZgBhvHdhRknH-N9mQTsJbLcOM6M9cJdeW2sfIpyDjsUFhftAG_Kwokr_lUXVNloTHQAL-TLpPx1kdWzv1j7s1tkl-2Cxgg1FSLa0funfYrbWTKxM92smZn0TjkEQ3pxQ7vj0EilpAFrwEkeqUVvXh2rmCGHJPesLbRQBRniE7WqGClxDrPdkT81ccEptIK4E7Kfb1FtUKnXzQ_y3QIJFH3WspxeVmTIBYQdGv2IjgdPi1Zo4jNZzUlz-k6xPxV5lpdkI5Nt3hS6Q9com-GGpl4Ld1Ohf5ixZT7NZNZW1z0zfHoKpAEcdaOMWGCt_N_4ppmMlvIvRqP9ESisUm8hCTRlHjMvKS-tTMF3VEg510Vr25Pd8mJk-_Z1Nwd-xmzlMeS4bb1lqmLk90uch2bXgIuhcEcc2AdZLg1qYp-BYDrQQ",
+      "widthPx": 719,
+      "heightPx": 716,
+      "authorAttributions": [
+        {
+          "displayName": "IWAN Hardiansah",
+          "uri": "https://maps.google.com/maps/contrib/112357440673998087818",
+          "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI4MGhoKxDCW_8vTAWs1Bqukk3IAl0j0W7ByfyqHbkkn5VFLA=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIABIhCY4dmSYmBvBL3X1z2USOMM&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCY4dmSYmBvBL3X1z2USOMM!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMYRBclwZBPDcWjShmfDCPf7b7Q47SDizLOLVc-fuYLgyxm7r8EbfAeQt4bXm1qoydMhil-hU8ExdC7AY8dGcM0Nv2gEQijhXIoBVySMkGPRezth4XCGrZU0-sm9UHHf-ZGRfBywRPICaFxsjmtmcxCBTKNmeTp1sxxBaRdC_NY4cFfpNYhxjN_JoT5uxXJT9iKPwPNXKYTonG8RCYoHbId1M3MzBhsA9IIldDLX6lym_s2fmtI3VWqZxUf1tvfCHvPMS0sMwDg8urAzHOGpuu-T3FAV7iKhEwzQBhh4rejw_crS9C4_h9TIDLiouwC5W1Co-BVcF5KsxOIMKff6z6ps3HcRlz7eiR-NlRgjG28HlujhGJalFszPI5bX3xaOIP8-F1ayERIV_CI8E9skBHqcJUY",
+      "widthPx": 780,
+      "heightPx": 1040,
+      "authorAttributions": [
+        {
+          "displayName": "Iwan Hardiansah Pro Justitia",
+          "uri": "https://maps.google.com/maps/contrib/113468347446461453314",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUtZQZQ-jSuHj1gtWwH18u-7UHRMisVWdDOno3jptqHnmc3afk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC66d3xTw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC66d3xTw!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    },
+    {
+      "name": "places/ChIJLewHNYv1aS4R4H38NZ3tva0/photos/Aa-ngMZVGmN15vl41w2HPuZl4N4hBgBulz1CBhX05NcAAXCp9V4jkZSFJp6NCVl1aK25LXL2ni140e_CJggX-117x-zWj5eTyZ6erhPJnIa-yacR22cWm1p1dBVF9N8VeWv5R0NoJhFkDZfMYXrK3gKZUQR6aAl1w7-xlVik0P-OHbiA-oJAqZgk7NU4xvFcsm6-KL2poGNhWxy3G-Hh9o7VSJQ9UU_EVJn4fcpuqIud21QmijOp03ULSH3diMTIA7wHFguS8TYGyTBRXLMtYusUUP714CZ3IAJc3oDxlbyGyjYS3ylId56-Z-sgjGq2MBitTzO6Z6jH9LzeBueUCuVxucr9EOhnV49jh-bL0NoQjdNPV8JEGb_92ZNGklh0sRMJQnUU9RloCmCTnaWiThAKK6q6pA",
+      "widthPx": 4128,
+      "heightPx": 2006,
+      "authorAttributions": [
+        {
+          "displayName": "Iwan Hardiansah Pro Justitia",
+          "uri": "https://maps.google.com/maps/contrib/113468347446461453314",
+          "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUtZQZQ-jSuHj1gtWwH18u-7UHRMisVWdDOno3jptqHnmc3afk=s100-p-k-no-mo"
+        }
+      ],
+      "flagContentUri": "https://www.google.com/local/content/rap/report?postId=!1e10!2sCIHM0ogKEICAgIC66bW-Pw&t=27&cb_client=maps_api_places.places_api&hl=en-US",
+      "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC66bW-Pw!2e10!4m2!3m1!1s0x2e69f58b3507ec2d:0xadbded9d35fc7de0"
+    }
+  ]
+}
