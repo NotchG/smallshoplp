@@ -154,7 +154,8 @@ Every site is planned before it's built. Two subagents per shop, in this order:
    until it's set in the site's `app/layout.tsx`.
 4. When it finishes, check that `shops/<slug>/site/out/index.html`,
    `shops/<slug>/screenshots/report.json` and `shops/<slug>/owner-checklist.md` exist, and that
-   report.json shows no overlapping text and no horizontal scroll at any width. If the report
+   report.json shows no overlapping text and no horizontal scroll at any width, and that its
+   `linkPreview` is the preview URL's `/og.jpg`, not `example.com`. If the report
    still flags problems, send the builder back once with the report. Then
    `./scripts/set-status.sh <slug> built`.
 5. When all are done, list each built shop with the builder's summary and point the user to

@@ -101,6 +101,8 @@ function inspect() {
     overlappingText: overlaps,
     mockupBanner: !!document.querySelector(".mockup-banner"),
     noindex: !!document.querySelector('meta[name="robots"][content*="noindex"]'),
+    // The og:image URL, absolute. Still on example.com means metadataBase wasn't set.
+    linkPreview: document.querySelector('meta[property="og:image"]')?.content ?? null,
     mockupItems: document.querySelectorAll("[data-mockup]").length,
   };
 }
@@ -162,6 +164,8 @@ const main = async () => {
       r.overlappingText.length && `${r.overlappingText.length} overlapping text pairs`,
       !r.mockupBanner && "no mockup banner",
       !r.noindex && "no noindex",
+      !r.linkPreview && "no link preview",
+      r.linkPreview?.startsWith("https://example.com") && "link preview URL not set (metadataBase)",
     ].filter(Boolean);
     console.log(`${w}px: ${flags.length ? "CHECK " + flags.join(", ") : "ok"}`);
   }
