@@ -16,9 +16,9 @@ esac
 jq -e --arg s "$SLUG" 'any(.shops[]; .slug == $s)' "$SHOPS_JSON" >/dev/null \
   || { echo "No shop with slug: $SLUG" >&2; exit 1; }
 
-jq --arg s "$SLUG" --arg st "$STATUS" --arg note "$NOTE" --arg now "$(now)" '
+update_shops --arg s "$SLUG" --arg st "$STATUS" --arg note "$NOTE" --arg now "$(now)" '
   .shops |= map(if .slug == $s
     then . + {status: $st, updated_at: $now} + (if $note != "" then {brief_note: $note} else {} end)
     else . end)
-' "$SHOPS_JSON" | write_shops_json
+'
 echo "$SLUG → $STATUS"

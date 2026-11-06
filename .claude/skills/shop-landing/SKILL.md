@@ -10,6 +10,11 @@ and suggest the next step. Read `CLAUDE.md` first if you have not: its rules app
 
 All `data/shops.json` changes go through `scripts/`. Never hand-edit that file.
 
+**Headless runs.** The dashboard's worker on the NAS runs this skill as `claude -p "/shop-landing …"`.
+Nobody can answer a question there: never stop to ask. Make the reasonable choice, finish the
+mode, and say what you chose and anything left undone in the final message, since that message is
+what the dashboard shows. The worker commits and pushes after the run; don't commit yourself.
+
 **One shop or all of them.** If the request names one or more shop slugs
 (`/shop-landing build komuka`, `/shop-landing brief kopi-teduh, sate-madura`), act only on those,
 and say so if a named shop isn't in the status that mode expects. Without slugs, act on every

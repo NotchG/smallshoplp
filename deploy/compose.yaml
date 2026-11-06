@@ -1,0 +1,55 @@
+# smallshoplp on TrueNAS SCALE 24.10+: Apps → Discover Apps → ⋮ → Install via YAML.
+# Paste this file and replace every <placeholder> first. deploy/README.md has the whole setup.
+# TrueNAS drops these comments when it saves the app.
+#
+# Host paths (a dataset owned by 568:568, the image's runner user):
+#   /mnt/NotchGPool/smallshoplp/repo   git checkout, the only place data changes
+#   /mnt/NotchGPool/smallshoplp/home   runner's home: Claude config, npm cache, ~/.ssh deploy key
+#
+# The app is reached only through the NAS's Cloudflare Tunnel, behind Cloudflare Access, at
+# https://leads.<your-domain> (deploy/README.md, step 5).
+
+services:
+  # The approval app. It has no login of its own, so it listens on the NAS's loopback only and
+  # cloudflared (which reaches the host's localhost) is the one way in, behind Cloudflare Access.
+  lms:
+    image: <dockerhub-user>/smallshoplp-runner:latest
+    command: ["node_modules/.bin/next", "start", "-p", "3030"]
+    environment:
+      SMALLSHOP_ROOT: /repo
+      TZ: Asia/Jakarta
+    volumes:
+      - /mnt/NotchGPool/smallshoplp/repo:/repo
+    ports:
+      - "127.0.0.1:3030:3030"
+    init: true
+    restart: unless-stopped
+
+  # Runs queued jobs one at a time: git pull, the job, commit, push.
+  worker:
+    image: <dockerhub-user>/smallshoplp-runner:latest
+    command: ["node", "/repo/worker/run.mjs"]
+    working_dir: /repo
+    environment:
+      SMALLSHOP_ROOT: /repo
+      TZ: Asia/Jakarta
+      # The same values as repo/.env (the scripts read both; keep them in step).
+      GOOGLE_PLACES_KEY: <google-places-key>
+      COOLIFY_URL: <http://nas-lan-ip:8000>
+      COOLIFY_TOKEN: <coolify-api-token>
+      # Claude: the subscription token, or an API key instead (delete the token line and
+      # uncomment the key line, before pasting: TrueNAS drops comments).
+      CLAUDE_CODE_OAUTH_TOKEN: <token-from-claude-setup-token>
+      # ANTHROPIC_API_KEY: <sk-ant-api-key>
+      # Author of the worker's commits.
+      GIT_AUTHOR_NAME: smallshoplp worker
+      GIT_AUTHOR_EMAIL: <you@example.com>
+      GIT_COMMITTER_NAME: smallshoplp worker
+      GIT_COMMITTER_EMAIL: <you@example.com>
+    volumes:
+      - /mnt/NotchGPool/smallshoplp/repo:/repo
+      - /mnt/NotchGPool/smallshoplp/home:/home/runner
+    # Chromium needs more than Docker's default 64 MB of /dev/shm for long pages.
+    shm_size: 1gb
+    init: true
+    restart: unless-stopped

@@ -8,3 +8,5 @@ shops/*/screenshots/*.mp4
 .impeccable/mocks/
 .impeccable/review/
 .impeccable/questions/
+data/.lock/
+data/jobs/

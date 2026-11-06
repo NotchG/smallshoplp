@@ -1,18 +1,21 @@
-// Outreach media for the WhatsApp pitch, made from a shop's built mockup (site/out/).
+// Outreach media for the WhatsApp pitch, made from a shop's built mockup (site/out/), or from
+// its live preview_url when there is no out/ (a fresh clone, as on the NAS, has none).
 // Usage: node scripts/outreach-media.mjs <slug>… | --all [--force]
 // Writes shops/<slug>/screenshots/:
 //   outreach-phone.png   the hero on a phone, 780×1688 (390×844 at 2x)
 //   outreach-scroll.mp4  hold on the hero, eased scroll to the bottom, hold; H.264, 30 fps
-// Acts on shops with status "built" and a site/out/index.html. Skips shops that already have
-// both files unless --force. Writes nothing under site/: pushes there trigger Coolify redeploys.
-// Playwright comes from each shop's own site/node_modules; ffmpeg needs libx264.
+// Acts on shops with status "built" and a site/out/index.html or a preview_url. Skips shops that
+// already have both files unless --force. Writes nothing under site/: pushes there trigger
+// Coolify redeploys.
+// Playwright comes from each shop's own site/node_modules, else from the global npm install
+// (the runner image has one); ffmpeg needs libx264.
 // Frames use reduced motion (Lenis off, GSAP skipped), so every run looks the same.
 import http from "node:http";
 import fs from "node:fs/promises";
 import { constants, existsSync, rmSync } from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { spawn } from "node:child_process";
+import { execFileSync, spawn } from "node:child_process";
 import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 
@@ -61,6 +64,22 @@ function run(cmd, args, cwd) {
   });
 }
 
+// The site's own Playwright when it has node_modules, else the global one.
+let globalRoot = null;
+function loadPlaywright(siteDir) {
+  const require = createRequire(import.meta.url);
+  try {
+    return require(require.resolve("playwright", { paths: [siteDir] }));
+  } catch {
+    try {
+      globalRoot ??= execFileSync("npm", ["root", "-g"], { encoding: "utf8" }).trim();
+      return require(require.resolve("playwright", { paths: [globalRoot] }));
+    } catch {
+      throw new Error("no Playwright in site/node_modules or the global npm root (npm i -g playwright@1.63.0)");
+    }
+  }
+}
+
 const easeInOut = (t) => (1 - Math.cos(Math.PI * t)) / 2;
 const mb = (bytes) => `${(bytes / 1e6).toFixed(1)} MB`;
 
@@ -70,20 +89,23 @@ process.on("SIGINT", () => {
   process.exit(130);
 });
 
-async function makeMedia(slug) {
+// liveUrl: capture the published mockup instead of serving site/out/.
+async function makeMedia(slug, liveUrl) {
   const siteDir = path.join(ROOT, "shops", slug, "site");
   const shotsDir = path.join(ROOT, "shops", slug, "screenshots");
-  const { chromium } = createRequire(path.join(siteDir, "package.json"))("playwright");
+  const { chromium } = loadPlaywright(siteDir);
   tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), `outreach-${slug}-`));
   const tmp = tmpDir;
-  const server = await serve(path.join(siteDir, "out"));
+  const server = liveUrl ? null : await serve(path.join(siteDir, "out"));
   let browser;
   try {
     browser = await chromium.launch(
       process.env.PW_CHROMIUM_PATH ? { executablePath: process.env.PW_CHROMIUM_PATH } : {},
     );
     const page = await browser.newPage({ viewport: VIEWPORT, deviceScaleFactor: 2, reducedMotion: "reduce" });
-    await page.goto(`http://127.0.0.1:${server.address().port}/`, { waitUntil: "networkidle" });
+    const target = liveUrl || `http://127.0.0.1:${server.address().port}/`;
+    const res = await page.goto(target, { waitUntil: "networkidle" });
+    if (!res?.ok()) throw new Error(`${target} answered ${res?.status() ?? "nothing"}`);
     await page.evaluate(() => document.fonts.ready);
 
     // Lazy images below the fold only load once scrolled near. Scroll through the page once
@@ -158,10 +180,10 @@ async function makeMedia(slug) {
     await fs.copyFile(path.join(tmp, "outreach-phone.png"), path.join(shotsDir, "outreach-phone.png"));
     const pngBytes = (await fs.stat(path.join(shotsDir, "outreach-phone.png"))).size;
     return `${(n / FPS).toFixed(1)} s video, ${mb(bytes)} mp4 (crf ${crf}${bytes > MAX_BYTES ? ", over 4 MB" : ""}), `
-      + `${mb(pngBytes)} png`;
+      + `${mb(pngBytes)} png${liveUrl ? `, from ${liveUrl}` : ""}`;
   } finally {
     await browser?.close();
-    server.close();
+    server?.close();
     await fs.rm(tmp, { recursive: true, force: true });
     tmpDir = null;
   }
@@ -180,15 +202,16 @@ const main = async () => {
 
   const { shops } = JSON.parse(await fs.readFile(path.join(ROOT, "data", "shops.json"), "utf8"));
   const hasOut = (slug) => exists(path.join(ROOT, "shops", slug, "site", "out", "index.html"));
+  // The local build when there is one, else the published mockup.
+  const canCapture = async (shop) => (await hasOut(shop.slug)) || Boolean(shop.preview_url);
+  const NO_SOURCE = "no site/out/index.html (run npm run build there first) and no preview_url";
   let targets = slugs;
   if (all) {
-    const built = shops.filter((s) => s.status === "built").map((s) => s.slug);
+    const built = shops.filter((s) => s.status === "built");
     targets = [];
     const unbuilt = [];
-    for (const slug of built) (await hasOut(slug) ? targets : unbuilt).push(slug);
-    if (unbuilt.length) {
-      console.error(`No site/out/index.html (run npm run build there first): ${unbuilt.join(", ")}`);
-    }
+    for (const shop of built) (await canCapture(shop) ? targets : unbuilt).push(shop.slug);
+    if (unbuilt.length) console.error(`${NO_SOURCE}: ${unbuilt.join(", ")}`);
   }
 
   let failed = 0;
@@ -198,7 +221,7 @@ const main = async () => {
     let problem = null;
     if (!shop) problem = "not in data/shops.json";
     else if (shop.status !== "built") problem = `status is ${shop.status}, not built`;
-    else if (!(await hasOut(slug))) problem = "no site/out/index.html (run npm run build there first)";
+    else if (!(await canCapture(shop))) problem = NO_SOURCE;
     if (problem) { failed++; console.log(`✗ ${slug}: ${problem}`); continue; }
 
     const shotsDir = path.join(ROOT, "shops", slug, "screenshots");
@@ -208,7 +231,7 @@ const main = async () => {
       continue;
     }
     try {
-      const summary = await makeMedia(slug);
+      const summary = await makeMedia(slug, (await hasOut(slug)) ? null : shop.preview_url);
       console.log(`✓ ${slug}: ${summary}, ${Math.round((Date.now() - started) / 1000)} s`);
     } catch (err) {
       failed++;

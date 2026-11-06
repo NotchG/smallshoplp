@@ -35,6 +35,18 @@ declines, or doesn't answer the follow-up, the human closes it in the app and th
 `rejected`. `scripts/archive-rejected.sh` then deletes its site and Coolify app and keeps
 `brief.md`, `raw.json` and `photos/` in `shops/_rejected/<slug>/` (sets `archived_at`).
 
+## Where the pipeline runs
+
+On the NAS (see `deploy/README.md`): one checkout there is the only place data changes. The
+approval app (`approve-app/`, a lead dashboard) queues jobs; `worker/run.mjs` runs them one at a
+time, headless (`claude -p "/shop-landing …"` or a script), then commits and pushes so Coolify
+sees the sites. The Mac is for code changes only: push them, and the worker pulls before every
+job. Don't run `/shop-landing` against data on the Mac once the NAS is live.
+
+`data/shops.json` has three writers (the app, the scripts, the worker's git steps), so every
+write holds the same lock, `data/.lock`: the app via `withShopsLock` in `approve-app/lib/store.ts`,
+the scripts via `update_shops` in `scripts/_common.sh`.
+
 ## Hard rules
 
 1. **Sites are mockups for pitching the owner, so filling gaps is fine, but tag it.**
@@ -48,6 +60,7 @@ declines, or doesn't answer the follow-up, the human closes it in the app and th
    (or `shops/_rejected/<slug>/` once it's archived), plus status updates through
    `scripts/set-status.sh`.
 3. **Edit `data/shops.json` only through the scripts** in `scripts/` (`add-candidates.sh`, `set-status.sh`, and the others).
+   A new script that writes it uses `update_shops` from `_common.sh`, never a bare `jq … | write_shops_json`.
    Never hand-edit it. The approval app reads it too, and a broken file breaks the app.
 4. **Never read or print the API key.** Scripts load `GOOGLE_PLACES_KEY` from `.env` themselves.
 5. **Photos:** `photos/photos.json` says who uploaded each one.

@@ -4,6 +4,8 @@ import { useParams } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import Stepper from "../../components/Stepper";
 import CopyBlock from "../../components/CopyBlock";
+import { RunButton } from "../../components/Jobs";
+import { copyText } from "@/lib/actions";
 import OnlineBadge, { useOnline } from "../../components/OnlineBadge";
 import { announceChange } from "../../useShops";
 import DealStepper from "../../components/DealStepper";
@@ -153,7 +155,7 @@ function MessageComposer({ shop, listing, template, hook, actionLabel, onAction,
   const wa = whatsappLink(listing?.phone, text);
 
   async function copy() {
-    try { await navigator.clipboard.writeText(text); } catch {}
+    if (!(await copyText(text))) return;
     setCopied(true); setTimeout(() => setCopied(false), 1600);
   }
 
@@ -260,8 +262,8 @@ function OwnerPanel({ shop, listing, files, online, act, busy }: {
         {timeline}
         {photo && <MediaBlock slug={shop.slug} media={{ kind: "image", file: photo, download: `${shop.slug}-preview.png` }} />}
         {photo !== OUTREACH_PHOTO && (
-          <CopyBlock label="The sharp phone screenshot isn't made yet. Run in a terminal:"
-            text={`node scripts/outreach-media.mjs ${shop.slug}`} />
+          <div className="actions-row"><span className="meta" style={{ margin: 0 }}>The sharp phone screenshot isn&rsquo;t made yet.</span>
+            <RunButton kind="outreach-media" args={{ slugs: [shop.slug] }} label="Make it" /></div>
         )}
         <MessageComposer shop={shop} listing={listing}
           template={shop.link_sent_at ? LINK_FOLLOWUP_TEMPLATE : FOLLOWUP_TEMPLATE}
@@ -380,7 +382,6 @@ function NextPanel({ shop, listing, outreach, files, online, reload }: {
 
   return (
     <section className="next" aria-labelledby="next-title">
-      <p className="panel-title" style={{ margin: 0 }}>NEXT STEP</p>
       <h2 id="next-title">{title}</h2>
       {action.text && action.kind !== "owner" && <p>{action.text}</p>}
 
@@ -397,9 +398,18 @@ function NextPanel({ shop, listing, outreach, files, online, reload }: {
         </div>
       )}
 
-      {action.kind === "claude" && action.commands.map((c) => (
-        <CopyBlock key={c.label} label={c.label} text={c.text} />
-      ))}
+      {action.kind === "claude" && (
+        <>
+          {action.job && (
+            <div className="actions-row"><RunButton kind={action.job} args={{ slugs: [shop.slug] }} primary />
+              <Link href="/production/build" className="meta" style={{ margin: 0 }}>The log shows under Build queue</Link></div>
+          )}
+          <details>
+            <summary className="meta" style={{ cursor: "pointer" }}>Run it yourself instead</summary>
+            {action.commands.map((c) => <CopyBlock key={c.label} label={c.label} text={c.text} />)}
+          </details>
+        </>
+      )}
 
       {action.kind === "send" && (
         <>
@@ -407,12 +417,12 @@ function NextPanel({ shop, listing, outreach, files, online, reload }: {
           {files.screenshots.includes(OUTREACH_VIDEO) ? (
             <MediaBlock slug={shop.slug} media={{ kind: "video", file: OUTREACH_VIDEO, download: `${shop.slug}-preview.mp4` }} />
           ) : (
-            <CopyBlock label="No preview video yet. Run in a terminal (about a minute):"
-              text={`node scripts/outreach-media.mjs ${shop.slug}`} />
+            <div className="actions-row"><span className="meta" style={{ margin: 0 }}>No preview video yet (about a minute to make).</span>
+              <RunButton kind="outreach-media" args={{ slugs: [shop.slug] }} label="Make it" /></div>
           )}
           {!outreach && (
-            <CopyBlock label="No personalized line yet, so the message skips it. To add one, run in Claude Code:"
-              text={`/shop-landing outreach ${shop.slug}`} />
+            <div className="actions-row"><span className="meta" style={{ margin: 0 }}>No personal line yet, so the message skips it.</span>
+              <RunButton kind="outreach-lines" args={{ slugs: [shop.slug] }} label="Write it" /></div>
           )}
           <MessageComposer shop={shop} listing={listing} template={OUTREACH_TEMPLATE} hook={outreach?.hook}
             actionLabel="Mark as sent" busy={busy} onAction={() => act({ outreach_sent: true })} />
@@ -461,7 +471,7 @@ export default function ShopPage() {
   const { data, error, reload } = useShop(slug);
   const online = useOnline(slug, !!data?.shop?.preview_url);
 
-  if (error) return <><Link href="/" className="back">Dashboard</Link><p className="error">{error}</p></>;
+  if (error) return <><Link href="/leads" className="back">Leads</Link><p className="error">{error}</p></>;
   if (!data) return <p className="empty">Loading…</p>;
   const { shop, listing, outreach, files } = data;
   const step = currentStep(shop);
@@ -470,7 +480,7 @@ export default function ShopPage() {
 
   return (
     <>
-      <Link href="/" className="back">Dashboard</Link>
+      <Link href="/leads" className="back">Leads</Link>
       <div className="shop-head">
         <h1>{shop.name}</h1>
         <span className="status-pill">{
@@ -482,7 +492,7 @@ export default function ShopPage() {
       </div>
       <p className="lede" style={{ marginBottom: 8 }}>{[shop.type, shop.address].filter(Boolean).join(", ")}</p>
       <p className="shop-links">
-        {listing?.rating != null && <span>{listing.rating}★ from {listing.reviews} reviews</span>}
+        {listing?.rating != null && <span>{listing.rating} from {listing.reviews} reviews</span>}
         {listing?.mapsUrl && <a href={listing.mapsUrl} target="_blank" rel="noreferrer">Google Maps</a>}
         {listing?.website && <a href={listing.website} target="_blank" rel="noreferrer">Current website</a>}
         {shop.preview_url && <a href={shop.preview_url} target="_blank" rel="noreferrer">Mockup</a>}

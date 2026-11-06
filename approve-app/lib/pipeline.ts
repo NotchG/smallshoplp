@@ -1,4 +1,5 @@
 import { FOLLOW_UP_AFTER_DAYS, NO_ANSWER_AFTER_DAYS, daysToMs, msSince } from "./outreach";
+import type { JobKind } from "./jobkinds";
 import type { Shop } from "./types";
 
 export type StepKey = "found" | "brief" | "review" | "plan" | "build" | "publish" | "send" | "decision";
@@ -58,7 +59,7 @@ export interface Command {
 
 export type NextAction =
   | { kind: "decide" | "brief" | "send" | "owner" | "done" | "rejected"; title: string; text?: string }
-  | { kind: "claude"; title: string; text?: string; commands: Command[] };
+  | { kind: "claude"; title: string; text?: string; commands: Command[]; job?: JobKind };
 
 export function nextAction(shop: Shop): NextAction {
   const slug = shop.slug;
@@ -72,7 +73,8 @@ export function nextAction(shop: Shop): NextAction {
     return {
       kind: "claude",
       title: `${title}: archive the site`,
-      text: "Deletes the site and its Coolify app, and keeps the brief, listing and photos in shops/_rejected/. Run it locally, since it talks to your Coolify.",
+      text: "Deletes the site and its Coolify app, and keeps the brief, listing and photos in shops/_rejected/.",
+      job: "archive",
       commands: [
         { label: "Claude Code", text: `/shop-landing archive ${slug}` },
         { label: "Or terminal", text: `./scripts/archive-rejected.sh ${slug}` },
@@ -89,8 +91,9 @@ export function nextAction(shop: Shop): NextAction {
         kind: "claude",
         title: shop.status === "brief_rework" ? "Claude revises the brief" : "Claude writes the brief",
         text: shop.status === "brief_rework"
-          ? `You sent the brief back with: "${shop.brief_note}". Run this in Claude Code (needs the Places key, so run it locally):`
-          : "Run this in Claude Code. It calls the Places API, so run it locally, not in a cloud session.",
+          ? `You sent the brief back with: "${shop.brief_note}". Claude revises it from the listing.`
+          : "Claude fetches the listing and photos and writes the brief.",
+        job: "brief",
         commands: [{ label: "Claude Code", text: `/shop-landing brief ${slug}` }],
       };
     case "review":
@@ -99,7 +102,8 @@ export function nextAction(shop: Shop): NextAction {
       return {
         kind: "claude",
         title: "Claude plans and builds the site",
-        text: "Plans first, then builds, in one run. Works locally or in a cloud session (push first). Add \"plan only\" to read the docs before anything is built.",
+        text: "Plans first (PRD, TRD, design brief, implementation plan), then builds and reviews the site, in one run.",
+        job: "build",
         commands: [
           { label: "Plan and build", text: `/shop-landing build ${slug}` },
           { label: "Plan only", text: `/shop-landing build ${slug}, plan only` },
@@ -109,14 +113,16 @@ export function nextAction(shop: Shop): NextAction {
       return {
         kind: "claude",
         title: "Claude builds the site",
-        text: "The plan is ready (see the docs below). Run this to build and review the site.",
+        text: "The plan is ready (see the docs below). Claude builds the site and reviews it in screenshots.",
+        job: "build",
         commands: [{ label: "Claude Code", text: `/shop-landing build ${slug}` }],
       };
     case "publish":
       return {
         kind: "claude",
         title: "Publish to Coolify",
-        text: "Coolify builds from GitHub, so push the site first, then create its app. Run the publish step locally, since it talks to your Coolify.",
+        text: "Creates its Coolify app. The worker pushes the site to GitHub first, since Coolify builds from there.",
+        job: "publish",
         commands: [
           { label: "Terminal: push the site", text: `git add shops/${slug} data/shops.json && git commit -m "Add ${slug} mockup" && git push` },
           { label: "Claude Code", text: `/shop-landing publish ${slug}` },
@@ -129,14 +135,6 @@ export function nextAction(shop: Shop): NextAction {
       return { kind: "owner", title: "Waiting for the owner", text: STEPS[7].about };
   }
 }
-
-// Commands that move every shop in a group at once, for the home page.
-export const BATCH: Record<"brief" | "build" | "publish" | "archive", string> = {
-  brief: "/shop-landing brief",
-  build: "/shop-landing build",
-  publish: "/shop-landing publish",
-  archive: "/shop-landing archive",
-};
 
 // Where a shop stands with its owner once the preview has been sent.
 // phase:

@@ -101,9 +101,9 @@ archive() {
   done
   rm -rf "$dir" || { echo "✗ $slug: couldn't delete shops/$slug"; return 1; }
 
-  jq --arg s "$slug" --arg now "$(now)" '
+  update_shops --arg s "$slug" --arg now "$(now)" '
     .shops |= map(if .slug == $s then . + {archived_at: $now, coolify_uuid: "", preview_url: "", updated_at: $now} else . end)
-  ' "$SHOPS_JSON" | write_shops_json || { echo "✗ $slug: files archived but shops.json wasn't updated"; return 1; }
+  ' || { echo "✗ $slug: files archived but shops.json wasn't updated"; return 1; }
   echo "✓ $slug: archived to shops/_rejected/$slug (${keep[*]:-nothing kept})"
   DONE+=("shops/$slug" "shops/_rejected/$slug")
 }

@@ -98,6 +98,23 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ slug: 
           if (!sentBuilt || stage !== "prospect" || !shop.link_sent_at) return fail("There's no link to undo.");
           shop.link_sent_at = "";
           break;
+        // Undo buttons for the dashboard's toasts: each reverses exactly one step, and only before archiving.
+        case "unreply":
+          if (!sentBuilt || stage !== "prospect" || shop.link_sent_at) return fail("There's no reply to undo.");
+          shop.owner_stage = "";
+          shop.owner_stage_at = "";
+          break;
+        case "unclose":
+          if (shop.status !== "rejected" || stage !== "no_answer" || shop.archived_at) return fail("There's no close to undo.");
+          shop.status = "built";
+          shop.owner_stage = "";
+          shop.owner_stage_at = "";
+          break;
+        case "undecline":
+          if (shop.status !== "rejected" || !shop.declined_at || shop.archived_at) return fail("There's no decline to undo.");
+          shop.status = "built";
+          shop.declined_at = "";
+          break;
         case "reopen":
           // The owner declined or went quiet, then replied after all.
           if (!isOwnerClosed(shop)) return fail("Only a shop the owner declined or didn't answer can be reopened.");

@@ -102,9 +102,9 @@ publish() {
       || manual+=("Environment variable: $kv")
   done
 
-  jq --arg s "$slug" --arg u "$uuid" --arg url "$preview" --arg now "$(now)" '
+  update_shops --arg s "$slug" --arg u "$uuid" --arg url "$preview" --arg now "$(now)" '
     .shops |= map(if .slug == $s then . + {coolify_uuid: $u, preview_url: $url, updated_at: $now} else . end)
-  ' "$SHOPS_JSON" | write_shops_json
+  '
 
   # Coolify versions differ on how a deploy is started; try each form quietly.
   if api POST "/deploy?uuid=$uuid" >/dev/null 2>&1 \

@@ -1,0 +1,66 @@
+# Builds the NAS image (deploy/Dockerfile) and pushes it to Docker Hub as
+# <DOCKERHUB_USERNAME>/smallshoplp-runner, tagged latest and with the commit SHA. The image is
+# public; it holds only approve-app/ (see deploy/Dockerfile.dockerignore), no data or secrets.
+# Needs, in the GitHub repo's Settings → Secrets and variables → Actions:
+#   variable DOCKERHUB_USERNAME   your Docker Hub username
+#   secret   DOCKERHUB_TOKEN      a Docker Hub access token with Read & Write
+# The NAS pulls :latest (deploy/README.md, "Updating").
+name: runner image
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - deploy/**
+      - approve-app/**
+      - worker/**
+      - .github/workflows/runner-image.yml
+  # Run by hand to rebuild with nothing changed, e.g. to pick up a newer Claude Code.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: runner-image
+  cancel-in-progress: true
+
+env:
+  IMAGE: docker.io/${{ vars.DOCKERHUB_USERNAME }}/smallshoplp-runner
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: docker/setup-buildx-action@v3
+
+      - uses: docker/login-action@v3
+        with:
+          username: ${{ vars.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.IMAGE }}
+          tags: |
+            type=raw,value=latest
+            type=sha,format=long
+
+      # A real version, not "latest", so the layer cache rebuilds when Claude Code has a new release.
+      - id: claude
+        run: echo "version=$(npm view @anthropic-ai/claude-code version)" >> "$GITHUB_OUTPUT"
+
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: deploy/Dockerfile
+          platforms: linux/amd64
+          build-args: CLAUDE_CODE_VERSION=${{ steps.claude.outputs.version }}
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

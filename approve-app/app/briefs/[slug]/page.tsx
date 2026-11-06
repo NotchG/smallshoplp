@@ -8,22 +8,27 @@ import type { Shop, Status } from "@/lib/types";
 
 type ApiShop = { shop?: Shop; brief?: string | null; error?: string };
 
+// Briefs are hard-wrapped markdown: a line that isn't blank, a heading or a new bullet continues
+// the paragraph or bullet above it, so a sentence reads as one block.
 function Preview({ text }: { text: string }) {
-  const lines = text.split("\n");
+  const blocks: { kind: "h2" | "h3" | "li" | "p" | "gap"; body: string }[] = [];
+  for (const raw of text.split("\n")) {
+    const last = blocks[blocks.length - 1];
+    if (!raw.trim()) { if (last && last.kind !== "gap") blocks.push({ kind: "gap", body: "" }); continue; }
+    if (raw.startsWith("# ")) blocks.push({ kind: "h2", body: raw.slice(2) });
+    else if (raw.startsWith("## ")) blocks.push({ kind: "h3", body: raw.slice(3) });
+    else if (/^\s*[-*] /.test(raw)) blocks.push({ kind: "li", body: raw.replace(/^\s*[-*] /, "") });
+    else if (last && (last.kind === "p" || last.kind === "li")) last.body += ` ${raw.trim()}`;
+    else blocks.push({ kind: "p", body: raw.trim() });
+  }
   return (
     <div className="preview" aria-label="Brief preview">
-      {lines.map((raw, i) => {
-        const mock = raw.includes(MOCKUP_TAG);
-        let kind = "p";
-        let body = raw;
-        if (raw.startsWith("# ")) { kind = "h2"; body = raw.slice(2); }
-        else if (raw.startsWith("## ")) { kind = "h3"; body = raw.slice(3); }
-        else if (/^\s*[-*] /.test(raw)) { kind = "li"; body = raw.replace(/^\s*[-*] /, ""); }
-        if (!body.trim()) return <div key={i} style={{ height: 8 }} />;
-        const content = mock ? <mark>{body}</mark> : body;
-        if (kind === "h2") return <h2 key={i}>{content}</h2>;
-        if (kind === "h3") return <h3 key={i}>{content}</h3>;
-        return <p key={i} className={kind === "li" ? "li" : undefined}>{content}</p>;
+      {blocks.map((b, i) => {
+        if (b.kind === "gap") return <div key={i} style={{ height: 8 }} />;
+        const content = b.body.includes(MOCKUP_TAG) ? <mark>{b.body}</mark> : b.body;
+        if (b.kind === "h2") return <h2 key={i}>{content}</h2>;
+        if (b.kind === "h3") return <h3 key={i}>{content}</h3>;
+        return <p key={i} className={b.kind === "li" ? "li" : undefined}>{content}</p>;
       })}
     </div>
   );

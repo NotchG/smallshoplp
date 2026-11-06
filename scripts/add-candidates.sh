@@ -23,11 +23,11 @@ COLLISIONS="$(jq -r --slurpfile cur "$SHOPS_JSON" '
 
 BEFORE="$(jq '.shops | length' "$SHOPS_JSON")"
 NOW="$(now)"
-jq --slurpfile new "$FILE" --arg now "$NOW" '
+update_shops --slurpfile new "$FILE" --arg now "$NOW" '
   (.shops | map(.place_id)) as $ids
   | ($new[0] | map(select((.place_id | IN($ids[])) | not))) as $fresh
   | .shops += ($fresh | map(. + {status: "candidate", brief_note: "", created_at: $now, updated_at: $now}))
-' "$SHOPS_JSON" | write_shops_json
+'
 
 ADDED=$(( $(jq '.shops | length' "$SHOPS_JSON") - BEFORE ))
 TOTAL="$(jq length "$FILE")"

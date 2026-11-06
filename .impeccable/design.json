@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T02:04:11Z",
+  "title": "Design System: smallshoplp leads",
+  "extensions": {
+    "colorMeta": {
+      "void": {
+        "role": "neutral",
+        "displayName": "Void Black",
+        "canonical": "#0a0a0b",
+        "tonalRamp": [
+          "oklch(15% 0.002 286.1)",
+          "oklch(26% 0.002 286.1)",
+          "oklch(38% 0.002 286.1)",
+          "oklch(49% 0.002 286.1)",
+          "oklch(61% 0.002 286.1)",
+          "oklch(72% 0.002 286.1)",
+          "oklch(84% 0.002 286.1)",
+          "oklch(95% 0.002 286.1)"
+        ]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "Night Console",
+        "canonical": "#121316",
+        "tonalRamp": [
+          "oklch(15% 0.006 271.1)",
+          "oklch(26% 0.006 271.1)",
+          "oklch(38% 0.006 271.1)",
+          "oklch(49% 0.006 271.1)",
+          "oklch(61% 0.006 271.1)",
+          "oklch(72% 0.006 271.1)",
+          "oklch(84% 0.006 271.1)",
+          "oklch(95% 0.006 271.1)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel Slate",
+        "canonical": "#16171b",
+        "tonalRamp": [
+          "oklch(15% 0.008 274.5)",
+          "oklch(26% 0.008 274.5)",
+          "oklch(38% 0.008 274.5)",
+          "oklch(49% 0.008 274.5)",
+          "oklch(61% 0.008 274.5)",
+          "oklch(72% 0.008 274.5)",
+          "oklch(84% 0.008 274.5)",
+          "oklch(95% 0.008 274.5)"
+        ]
+      },
+      "slate": {
+        "role": "neutral",
+        "displayName": "Slate Well",
+        "canonical": "#1b1d22",
+        "tonalRamp": [
+          "oklch(15% 0.010 268.2)",
+          "oklch(26% 0.010 268.2)",
+          "oklch(38% 0.010 268.2)",
+          "oklch(49% 0.010 268.2)",
+          "oklch(61% 0.010 268.2)",
+          "oklch(72% 0.010 268.2)",
+          "oklch(84% 0.010 268.2)",
+          "oklch(95% 0.010 268.2)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised Slate",
+        "canonical": "#22252c",
+        "tonalRamp": [
+          "oklch(15% 0.014 267.0)",
+          "oklch(26% 0.014 267.0)",
+          "oklch(38% 0.014 267.0)",
+          "oklch(49% 0.014 267.0)",
+          "oklch(61% 0.014 267.0)",
+          "oklch(72% 0.014 267.0)",
+          "oklch(84% 0.014 267.0)",
+          "oklch(95% 0.014 267.0)"
+        ]
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Mist Line",
+        "canonical": "#2c313b",
+        "tonalRamp": [
+          "oklch(15% 0.019 264.2)",
+          "oklch(26% 0.019 264.2)",
+          "oklch(38% 0.019 264.2)",
+          "oklch(49% 0.019 264.2)",
+          "oklch(61% 0.019 264.2)",
+          "oklch(72% 0.019 264.2)",
+          "oklch(84% 0.019 264.2)",
+          "oklch(95% 0.019 264.2)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#1d1f24",
+        "tonalRamp": [
+          "oklch(15% 0.010 268.3)",
+          "oklch(26% 0.010 268.3)",
+          "oklch(38% 0.010 268.3)",
+          "oklch(49% 0.010 268.3)",
+          "oklch(61% 0.010 268.3)",
+          "oklch(72% 0.010 268.3)",
+          "oklch(84% 0.010 268.3)",
+          "oklch(95% 0.010 268.3)"
+        ]
+      },
+      "fog": {
+        "role": "neutral",
+        "displayName": "Fog Grey",
+        "canonical": "#7d8592",
+        "tonalRamp": [
+          "oklch(15% 0.022 260.2)",
+          "oklch(26% 0.022 260.2)",
+          "oklch(38% 0.022 260.2)",
+          "oklch(49% 0.022 260.2)",
+          "oklch(61% 0.022 260.2)",
+          "oklch(72% 0.022 260.2)",
+          "oklch(84% 0.022 260.2)",
+          "oklch(95% 0.022 260.2)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Steel",
+        "canonical": "#a0a7b2",
+        "tonalRamp": [
+          "oklch(15% 0.018 259.4)",
+          "oklch(26% 0.018 259.4)",
+          "oklch(38% 0.018 259.4)",
+          "oklch(49% 0.018 259.4)",
+          "oklch(61% 0.018 259.4)",
+          "oklch(72% 0.018 259.4)",
+          "oklch(84% 0.018 259.4)",
+          "oklch(95% 0.018 259.4)"
+        ]
+      },
+      "text-soft": {
+        "role": "neutral",
+        "displayName": "Soft Paper",
+        "canonical": "#d7dbe0",
+        "tonalRamp": [
+          "oklch(15% 0.008 253.9)",
+          "oklch(26% 0.008 253.9)",
+          "oklch(38% 0.008 253.9)",
+          "oklch(49% 0.008 253.9)",
+          "oklch(61% 0.008 253.9)",
+          "oklch(72% 0.008 253.9)",
+          "oklch(84% 0.008 253.9)",
+          "oklch(95% 0.008 253.9)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "#eef0f2",
+        "tonalRamp": [
+          "oklch(15% 0.003 247.9)",
+          "oklch(26% 0.003 247.9)",
+          "oklch(38% 0.003 247.9)",
+          "oklch(49% 0.003 247.9)",
+          "oklch(61% 0.003 247.9)",
+          "oklch(72% 0.003 247.9)",
+          "oklch(84% 0.003 247.9)",
+          "oklch(95% 0.003 247.9)"
+        ]
+      },
+      "sand": {
+        "role": "neutral",
+        "displayName": "Warm Sand",
+        "canonical": "#c7b9a6",
+        "tonalRamp": [
+          "oklch(15% 0.031 75.6)",
+          "oklch(26% 0.031 75.6)",
+          "oklch(38% 0.031 75.6)",
+          "oklch(49% 0.031 75.6)",
+          "oklch(61% 0.031 75.6)",
+          "oklch(72% 0.031 75.6)",
+          "oklch(84% 0.031 75.6)",
+          "oklch(95% 0.031 75.6)"
+        ]
+      },
+      "white": {
+        "role": "primary",
+        "displayName": "Signal White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "white-hover": {
+        "role": "primary",
+        "displayName": "Pressed White",
+        "canonical": "#e4e6e9",
+        "tonalRamp": [
+          "oklch(15% 0.005 258.3)",
+          "oklch(26% 0.005 258.3)",
+          "oklch(38% 0.005 258.3)",
+          "oklch(49% 0.005 258.3)",
+          "oklch(61% 0.005 258.3)",
+          "oklch(72% 0.005 258.3)",
+          "oklch(84% 0.005 258.3)",
+          "oklch(95% 0.005 258.3)"
+        ]
+      },
+      "wa": {
+        "role": "secondary",
+        "displayName": "WhatsApp Green",
+        "canonical": "#25d366",
+        "tonalRamp": [
+          "oklch(15% 0.201 149.7)",
+          "oklch(26% 0.201 149.7)",
+          "oklch(38% 0.201 149.7)",
+          "oklch(49% 0.201 149.7)",
+          "oklch(61% 0.201 149.7)",
+          "oklch(72% 0.201 149.7)",
+          "oklch(84% 0.201 149.7)",
+          "oklch(95% 0.201 149.7)"
+        ]
+      },
+      "wa-ink": {
+        "role": "secondary",
+        "displayName": "Deep Green Ink",
+        "canonical": "#04210f",
+        "tonalRamp": [
+          "oklch(15% 0.050 153.1)",
+          "oklch(26% 0.050 153.1)",
+          "oklch(38% 0.050 153.1)",
+          "oklch(49% 0.050 153.1)",
+          "oklch(61% 0.050 153.1)",
+          "oklch(72% 0.050 153.1)",
+          "oklch(84% 0.050 153.1)",
+          "oklch(95% 0.050 153.1)"
+        ]
+      },
+      "amber": {
+        "role": "secondary",
+        "displayName": "Due Amber",
+        "canonical": "#f2b24a",
+        "tonalRamp": [
+          "oklch(15% 0.139 76.3)",
+          "oklch(26% 0.139 76.3)",
+          "oklch(38% 0.139 76.3)",
+          "oklch(49% 0.139 76.3)",
+          "oklch(61% 0.139 76.3)",
+          "oklch(72% 0.139 76.3)",
+          "oklch(84% 0.139 76.3)",
+          "oklch(95% 0.139 76.3)"
+        ]
+      },
+      "coral": {
+        "role": "secondary",
+        "displayName": "Overdue Coral",
+        "canonical": "#ff6b5e",
+        "tonalRamp": [
+          "oklch(15% 0.183 27.7)",
+          "oklch(26% 0.183 27.7)",
+          "oklch(38% 0.183 27.7)",
+          "oklch(49% 0.183 27.7)",
+          "oklch(61% 0.183 27.7)",
+          "oklch(72% 0.183 27.7)",
+          "oklch(84% 0.183 27.7)",
+          "oklch(95% 0.183 27.7)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The shop name on the Today caption, uppercase, balanced; 34px on phone."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Screen titles in the header row, uppercase; 34px on phone."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Funnel numbers on Metrics; 40px on phone."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section titles on document pages and in the brief preview, uppercase."
+      },
+      "title-column": {
+        "displayName": "Column title",
+        "purpose": "Pipeline column heads, uppercase; vertical in collapsed columns."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "The smallshoplp wordmark, uppercase, with \"shop\" in sand."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All interface text; names in lists and cards at 600."
+      },
+      "message": {
+        "displayName": "Message",
+        "purpose": "The WhatsApp draft and the brief editor."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Hints, sub-lines, caption facts, quiet text buttons."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Secondary lines in cards, rows and legends."
+      },
+      "chip": {
+        "displayName": "Chip",
+        "purpose": "Stage chips, with an 8px state marker."
+      },
+      "count": {
+        "displayName": "Count",
+        "purpose": "Bare-number counts in tabular figures (nav, segments, columns, bars)."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase heading of a side or panel section, nav groups, table heads. Never a kicker above a heading."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Uppercase labels on every outlined and filled button."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Uppercase rail captions and the no-video frame badge."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Copyable commands, the brief editor and the job log."
+      }
+    },
+    "shadows": [
+      {
+        "name": "frame-lift",
+        "value": "0 30px 60px -20px #000c, 0 0 0 1px #ffffff14",
+        "purpose": "The phone frame on desktop Today and in the Leads drawer; the inner hairline keeps its edge on dark video."
+      },
+      {
+        "name": "toast-lift",
+        "value": "0 12px 30px -8px #000",
+        "purpose": "The bottom-centre toast, the one transient layer."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Expo-out curve (--ease) for things that move: the slide leaving, the drawer, the bottom sheet, the toast."
+      },
+      {
+        "name": "duration-row",
+        "value": "120ms",
+        "purpose": "Table row hover fill."
+      },
+      {
+        "name": "duration-hover",
+        "value": "150ms",
+        "purpose": "Colour and border fades on buttons, nav items, rail glyphs."
+      },
+      {
+        "name": "duration-toast",
+        "value": "200ms",
+        "purpose": "Toast fades in and rises 20px."
+      },
+      {
+        "name": "duration-slide",
+        "value": "220ms",
+        "purpose": "A Today slide fades and rises 40px after its action; the Leads drawer opens."
+      },
+      {
+        "name": "duration-sheet",
+        "value": "250ms",
+        "purpose": "The phone bottom sheet slides up."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Under prefers-reduced-motion every transition and smooth scroll is off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "White fill, void ink: primary actions such as Approve, Send back, Find shops, the drawer's next step.",
+      "html": "<div class=\"ds-stage\"><button type=\"button\" class=\"ds-btn-primary\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg>Approve</button></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 36px; padding: 0 14px; border-radius: 6px; font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: background .15s, border-color .15s, color .15s; border: 1px solid var(--white, #fff); background: var(--white, #fff); color: var(--void, #0a0a0b); } .ds-btn-primary:hover { background: #e4e6e9; } .ds-btn-primary:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; } .ds-btn-primary:disabled { opacity: .4; cursor: not-allowed; } .ds-btn-primary svg { flex: none; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "The default control: transparent, 1px mist outline, tracked capitals. Hover adds a fog border and slate fill.",
+      "html": "<div class=\"ds-stage\"><button type=\"button\" class=\"ds-btn\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\" ry=\"2\"/><path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\"/></svg>Copy message</button></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 36px; padding: 0 14px; border-radius: 6px; font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: background .15s, border-color .15s, color .15s; border: 1px solid var(--mist, #2c313b); background: transparent; color: var(--text, #eef0f2); } .ds-btn:hover { border-color: var(--fog, #7d8592); background: var(--slate, #1b1d22); } .ds-btn:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; } .ds-btn:disabled { opacity: .4; cursor: not-allowed; } .ds-btn svg { flex: none; }"
+    },
+    {
+      "name": "WhatsApp Button",
+      "kind": "button",
+      "refersTo": "button-whatsapp",
+      "description": "The only green in the system: opens WhatsApp with the drafted message. Hover darkens it to #1fbd5a.",
+      "html": "<div class=\"ds-stage\"><button type=\"button\" class=\"ds-btn-wa\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/></svg>Open in WhatsApp</button></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-btn-wa { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 36px; padding: 0 14px; border-radius: 6px; font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: background .15s, border-color .15s, color .15s; border: 1px solid var(--wa, #25d366); background: var(--wa, #25d366); color: #04210f; } .ds-btn-wa:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; } .ds-btn-wa svg { flex: none; }"
+    },
+    {
+      "name": "Stop Button",
+      "kind": "button",
+      "refersTo": "button-stop",
+      "description": "Coral label over a 40% coral border, for decline and reject actions.",
+      "html": "<div class=\"ds-stage\"><button type=\"button\" class=\"ds-btn-stop\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/></svg>Owner declined</button></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-btn-stop { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 36px; padding: 0 14px; border-radius: 6px; font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: background .15s, border-color .15s, color .15s; border: 1px solid #ff6b5e66; background: transparent; color: var(--coral, #ff6b5e); } .ds-btn-stop:hover { background: var(--slate, #1b1d22); } .ds-btn-stop:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; } .ds-btn-stop:disabled { opacity: .4; cursor: not-allowed; } .ds-btn-stop svg { flex: none; }"
+    },
+    {
+      "name": "Text Field and Select",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "36px slate fields with a 1px mist border; the select draws its own small chevron.",
+      "html": "<div class=\"ds-stage\"><input class=\"ds-input\" type=\"search\" placeholder=\"Search shops, types, areas\" aria-label=\"Search\"><select class=\"ds-input ds-select\" aria-label=\"Area\"><option>All areas</option><option>Cakung</option></select></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-input { height: 36px; border: 1px solid var(--mist, #2c313b); border-radius: 6px; background: var(--slate, #1b1d22); color: var(--text, #eef0f2); padding: 0 12px; font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; min-width: 0; } .ds-input::placeholder { color: var(--fog, #7d8592); } .ds-input:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; } .ds-select { padding-right: 28px; appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--muted, #a0a7b2) 50%), linear-gradient(135deg, var(--muted, #a0a7b2) 50%, transparent 50%); background-position: calc(100% - 15px) 16px, calc(100% - 10px) 16px; background-size: 5px 5px; background-repeat: no-repeat; }"
+    },
+    {
+      "name": "Segmented Filter",
+      "kind": "chip",
+      "refersTo": "segment",
+      "description": "Concentric segmented control (7px outside, 5px segments); the pressed segment is raised with white text, counts in fog.",
+      "html": "<div class=\"ds-stage\"><div class=\"ds-seg\" role=\"group\" aria-label=\"Show\"><button type=\"button\" aria-pressed=\"true\">All<span class=\"ds-seg-c\">15</span></button><button type=\"button\" aria-pressed=\"false\">Follow-ups<span class=\"ds-seg-c\">1</span></button><button type=\"button\" aria-pressed=\"false\">To close<span class=\"ds-seg-c\">6</span></button><button type=\"button\" aria-pressed=\"false\">Previews<span class=\"ds-seg-c\">5</span></button></div></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-seg { display: inline-flex; border: 1px solid var(--mist, #2c313b); border-radius: 7px; padding: 2px; gap: 2px; } .ds-seg button { white-space: nowrap; border: 0; background: none; height: 30px; padding: 0 12px; border-radius: 5px; font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 13px; font-weight: 500; color: var(--muted, #a0a7b2); display: inline-flex; align-items: center; cursor: pointer; } .ds-seg button[aria-pressed=\"true\"] { background: var(--raised, #22252c); color: var(--white, #fff); } .ds-seg button:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; } .ds-seg-c { color: var(--fog, #7d8592); margin-left: 4px; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Side Nav",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Void column with the wordmark, tracked group labels, lucide items and tabular counts; the Today count is an amber pill.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main\"><a class=\"ds-nav-brand\" href=\"#\">small<span>shop</span>lp</a><div class=\"ds-nav-group\"><h2>Sales</h2><a class=\"ds-nav-item\" href=\"#\" aria-current=\"page\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polyline points=\"22 12 16 12 14 15 10 15 8 12 2 12\"/><path d=\"M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z\"/></svg>Today<span class=\"ds-nav-n ds-nav-due\">15</span></a><a class=\"ds-nav-item\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 5v11\"/><path d=\"M12 5v6\"/><path d=\"M18 5v14\"/></svg>Pipeline</a><a class=\"ds-nav-item\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 12h.01\"/><path d=\"M3 18h.01\"/><path d=\"M3 6h.01\"/><path d=\"M8 12h13\"/><path d=\"M8 18h13\"/><path d=\"M8 6h13\"/></svg>Leads<span class=\"ds-nav-n\">75</span></a><a class=\"ds-nav-item\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 3v16a2 2 0 0 0 2 2h16\"/><path d=\"M18 17V9\"/><path d=\"M13 17V5\"/><path d=\"M8 17v-3\"/></svg>Metrics</a></div></nav>",
+      "css": ".ds-nav { width: 232px; background: var(--void, #0a0a0b); color: var(--text, #eef0f2); border-right: 1px solid #1a1b1f; display: flex; flex-direction: column; gap: 22px; padding: 20px 14px 16px; font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; } .ds-nav-brand { font: 600 26px/1 var(--display, Antonio, \"Arial Narrow\", sans-serif); letter-spacing: .01em; text-transform: uppercase; padding: 2px 10px; color: var(--text, #eef0f2); text-decoration: none; } .ds-nav-brand span { color: var(--sand, #c7b9a6); } .ds-nav-group h2 { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--fog, #7d8592); font-weight: 600; margin: 0 10px 6px; } .ds-nav-item { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 6px; color: var(--muted, #a0a7b2); text-decoration: none; font-weight: 500; transition: background .15s, color .15s; } .ds-nav-item:hover { background: var(--slate, #1b1d22); color: var(--text, #eef0f2); } .ds-nav-item[aria-current=\"page\"] { background: var(--raised, #22252c); color: var(--white, #fff); } .ds-nav-item:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; } .ds-nav-item svg { flex: none; } .ds-nav-n { margin-left: auto; font-size: 12px; color: var(--muted, #a0a7b2); font-variant-numeric: tabular-nums; } .ds-nav-due { color: var(--void, #0a0a0b); background: var(--amber, #f2b24a); border-radius: 10px; padding: 0 7px; font-weight: 700; }"
+    },
+    {
+      "name": "Stage Chips",
+      "kind": "chip",
+      "refersTo": "chip-open",
+      "description": "Shape carries the state, colour reinforces it: outline circle open, filled circle done, rotated square overdue, strikethrough closed.",
+      "html": "<div class=\"ds-stage\"><span class=\"ds-chip\">Ready to send</span><span class=\"ds-chip ds-chip-done\">Preview sent</span><span class=\"ds-chip ds-chip-due\">Brief to review</span><span class=\"ds-chip ds-chip-over\">Follow-up due</span><span class=\"ds-chip ds-chip-ok\">Prospect</span><span class=\"ds-chip ds-chip-ok ds-chip-done\">Ordered</span><span class=\"ds-chip ds-chip-closed\">Declined</span><span class=\"ds-chip ds-chip-prod\">Candidate</span></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-chip { display: inline-flex; align-items: center; gap: 6px; font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 12px; font-weight: 500; color: var(--muted, #a0a7b2); white-space: nowrap; } .ds-chip::before { content: \"\"; box-sizing: border-box; width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid currentColor; } .ds-chip-done::before { background: currentColor; } .ds-chip-due { color: var(--amber, #f2b24a); } .ds-chip-due::before { background: currentColor; } .ds-chip-over { color: var(--coral, #ff6b5e); } .ds-chip-over::before { background: currentColor; border-radius: 1px; transform: rotate(45deg); } .ds-chip-ok { color: var(--white, #fff); } .ds-chip-closed { color: var(--fog, #7d8592); text-decoration: line-through; } .ds-chip-prod { color: var(--sand, #c7b9a6); }"
+    },
+    {
+      "name": "Pipeline Column and Lead Card",
+      "kind": "card",
+      "refersTo": "lead-card",
+      "description": "Slate cards with a phone-ratio thumbnail inside a panel-toned column; the border turns mist on hover.",
+      "html": "<div class=\"ds-stage\"><section class=\"ds-col\"><header><b>Follow-up due</b><span>2</span></header><div class=\"ds-col-list\"><a class=\"ds-card\" href=\"#\"><span class=\"ds-thumb\"></span><span><strong>Warung Contoh</strong><small>Duren Sawit · Sent 4 d ago</small></span></a><a class=\"ds-card ds-card-text\" href=\"#\"><span><strong>Toko Roti Contoh</strong><small>Cakung · 328 reviews</small></span></a></div></section></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-col { width: 236px; display: flex; flex-direction: column; background: var(--panel, #16171b); border-radius: 10px; } .ds-col header { display: flex; align-items: baseline; gap: 8px; padding: 12px 12px 10px; } .ds-col header b { font: 500 20px/1 var(--display, Antonio, \"Arial Narrow\", sans-serif); text-transform: uppercase; letter-spacing: .01em; } .ds-col header span { color: var(--muted, #a0a7b2); margin-left: auto; font-size: 13px; font-variant-numeric: tabular-nums; } .ds-col-list { padding: 0 10px 10px; display: flex; flex-direction: column; gap: 8px; } .ds-card { display: grid; grid-template-columns: 52px 1fr; gap: 10px; padding: 8px; border-radius: 8px; background: var(--slate, #1b1d22); border: 1px solid transparent; color: var(--text, #eef0f2); text-decoration: none; cursor: grab; } .ds-card:hover { border-color: var(--mist, #2c313b); } .ds-card:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; } .ds-card-text { grid-template-columns: 1fr; } .ds-card strong { display: block; font-weight: 600; line-height: 1.25; } .ds-card small { display: block; color: var(--muted, #a0a7b2); font-size: 12px; margin: 3px 0 6px; } .ds-thumb { display: block; width: 52px; aspect-ratio: 390 / 844; border-radius: 5px; background: var(--raised, #22252c); }"
+    },
+    {
+      "name": "Action Rail",
+      "kind": "custom",
+      "refersTo": "rail-action",
+      "description": "Signature: the Today action stack. 56px circles with tracked captions; white disc for the main action, green for WhatsApp, coral icon to decline.",
+      "html": "<div class=\"ds-stage\"><div class=\"ds-rail\"><button type=\"button\" class=\"ds-rail-btn ds-rail-wa\"><span class=\"ds-rail-g\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M15 3h6v6\"/><path d=\"M10 14 21 3\"/><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"/></svg></span>WhatsApp</button><button type=\"button\" class=\"ds-rail-btn ds-rail-main\"><span class=\"ds-rail-g\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"/></svg></span>Link sent</button><button type=\"button\" class=\"ds-rail-btn ds-rail-stop\"><span class=\"ds-rail-g\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/></svg></span>Declined</button><button type=\"button\" class=\"ds-rail-btn\"><span class=\"ds-rail-g\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></span>Skip</button></div></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-rail { display: flex; flex-direction: column; gap: 18px; } .ds-rail-btn { display: flex; flex-direction: column; align-items: center; gap: 6px; background: none; border: 0; color: var(--muted, #a0a7b2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; } .ds-rail-g { box-sizing: border-box; width: 56px; height: 56px; border-radius: 50%; border: 1px solid var(--mist, #2c313b); display: grid; place-items: center; color: var(--text, #eef0f2); transition: background .15s, border-color .15s, transform .15s; } .ds-rail-btn:hover .ds-rail-g { background: var(--slate, #1b1d22); border-color: var(--fog, #7d8592); } .ds-rail-btn:active .ds-rail-g { transform: scale(.94); } .ds-rail-btn:focus-visible { outline: 2px solid var(--white, #fff); outline-offset: 2px; border-radius: 4px; } .ds-rail-main .ds-rail-g, .ds-rail-main:hover .ds-rail-g { background: var(--white, #fff); border-color: var(--white, #fff); color: var(--void, #0a0a0b); } .ds-rail-wa .ds-rail-g, .ds-rail-wa:hover .ds-rail-g { background: var(--wa, #25d366); border-color: var(--wa, #25d366); color: #04210f; } .ds-rail-stop .ds-rail-g { color: var(--coral, #ff6b5e); }"
+    },
+    {
+      "name": "Today Caption",
+      "kind": "custom",
+      "refersTo": "phone-frame",
+      "description": "Signature: the phone frame with its near-solid void scrim ending just above the shop name, the facts line and the why chip.",
+      "html": "<div class=\"ds-stage\"><div class=\"ds-frame\"><div class=\"ds-scrim\"><h3>Warung Contoh</h3><div class=\"ds-facts\"><span>Coffee Shop</span><span>Duren Sawit</span><span>4.6 from 328 reviews</span></div><span class=\"ds-why ds-why-over\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/></svg>Preview sent 4 days ago, no reply</span></div></div></div>",
+      "css": ".ds-stage { background: var(--bg, #121316); color: var(--text, #eef0f2); font-family: var(--sans, \"Schibsted Grotesk\", system-ui, sans-serif); font-size: 14px; line-height: 1.45; padding: 20px; border-radius: 8px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; } .ds-frame { position: relative; width: 300px; aspect-ratio: 390 / 844; border-radius: 22px; overflow: hidden; background: var(--slate, #1b1d22); box-shadow: 0 30px 60px -20px #000c, 0 0 0 1px #ffffff14; } .ds-scrim { position: absolute; inset: auto 0 0 0; padding: 150px 20px 20px; background: linear-gradient(to top, #0a0a0b 0%, #0a0a0b 55%, #0a0a0bcc 75%, transparent); } .ds-scrim h3 { font: 500 48px/.92 var(--display, Antonio, \"Arial Narrow\", sans-serif); text-transform: uppercase; letter-spacing: .005em; margin: 0 0 8px; text-wrap: balance; color: var(--text, #eef0f2); } .ds-facts { color: #d7dbe0; font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; } .ds-why { margin-top: 10px; display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; padding: 6px 10px; border-radius: 6px; background: #ffffff1a; backdrop-filter: blur(6px); } .ds-why-over { color: var(--coral, #ff6b5e); } .ds-why svg { flex: none; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Lead Is the Screen",
+    "overview": "The console is dark because of how it is used: one operator, beside WhatsApp Desktop, working through leads whose best asset is their own mockup site. The shell is a stack of near-black slates that recede, so on Today the brightest, most colourful thing on screen is the shop's scroll video, standing full height in a phone frame, with its actions stacked on a rail beside it. Every other screen is a dense, ordinary console: a side nav with counts, a board, a table with a drawer, a metrics page. They share the same small set of controls and chips.\n\nColour carries meaning, never decoration. White is the go voice and the active state. Sand is the one warm neutral, used for the wordmark, production stages and secondary data. Green, amber and coral each mean exactly one thing, and every state is coded twice, by chip shape and by colour. Type is a two-face system: Antonio, a tall condensed face in capitals, for shop names, screen titles and big figures, and Schibsted Grotesk for everything else, with tracked capitals on buttons and labels. The first screen rejects the CRM default of KPI tiles over a kanban of text cards.\n\nDepth comes from tone, not shadow; only the phone frame and the toast lift. Motion is short and quiet: 120 to 150ms colour fades on hover, and one expo-out curve for the slide that leaves after an action, the drawer, the bottom sheet and the toast, all switched off under reduced motion.",
+    "keyCharacteristics": [
+      "Dark by use: void-to-mist slate shell, colour reserved for the lead's own media and for signals.",
+      "One lead at a time on Today: full-height phone frame, near-solid caption scrim, action rail, message column.",
+      "White is primary and active; green only on WhatsApp send; amber due; coral overdue or declined.",
+      "State is double-coded: outline circle, filled circle, rotated square, strikethrough.",
+      "Condensed capitals for names and titles, a clean grotesk for the rest, tracked capitals on controls.",
+      "Outlined controls, lucide line icons at a 1.5 stroke, 1px borders, tonal surfaces, almost no shadow."
+    ],
+    "rules": [
+      {
+        "name": "The One Green Rule",
+        "body": "WhatsApp green appears only on WhatsApp send actions. It never marks success, done, online or a chart series.",
+        "section": "colors"
+      },
+      {
+        "name": "The White Is Go Rule",
+        "body": "White is the primary and active colour. No coloured brand accent competes with it.",
+        "section": "colors"
+      },
+      {
+        "name": "The Signal Rule",
+        "body": "Amber means due; coral means overdue or declined. Neither is used as decoration, emphasis or a chart colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Bare Number Rule",
+        "body": "Tabular figures apply only to bare numbers: nav counts, segment counts, column counts, bar values, the feed position. Ratings, review counts with commas and dates stay proportional, because Schibsted Grotesk widens punctuation under tnum.",
+        "section": "typography"
+      },
+      {
+        "name": "The Condensed Name Rule",
+        "body": "Antonio is for shop names, screen titles, column heads and big figures, always in capitals. Buttons, labels and body copy are Schibsted Grotesk.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Kicker Rule",
+        "body": "No kickers or eyebrow labels above headings. The 11px tracked label is itself the heading of a side or panel section; it never sits stacked above a display title.",
+        "section": "typography"
+      },
+      {
+        "name": "The Phone Feed Rule",
+        "body": "On phone, Today is a full-bleed feed: the frame loses its radius and shadow and fills the screen, the rail floats over the video at the right, the message moves into a bottom sheet opened from the rail, and a 64px tab bar replaces the side nav.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Console Rule",
+        "body": "Cards, panels, columns, inputs and the nav cast no shadow. Only the phone frame and the toast lift.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Scrim Rule",
+        "body": "The Today caption sits on a near-solid scrim that ends just above the shop name: void, solid to 55%, 80% at 75%, then clear. Name, facts and the why chip always read on solid void, whatever the video shows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Shape Carries State Rule",
+        "body": "State shows through chip shape as well as colour: an outline circle for open, a filled circle for done, a rotated square for overdue, strikethrough for closed. Colour reinforces the shape; it never stands alone.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Line Icon Rule",
+        "body": "Icons are lucide line icons at a 1.5 stroke: 18px by default, 22px on the rail, 13px beside a rating. No unicode glyphs as icons.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do use white (#ffffff) with void ink for primary actions and the active state; everything else is outlined in mist (1px) with 12px tracked capitals.",
+      "Do reserve WhatsApp green (#25d366, ink #04210f) for the WhatsApp send action.",
+      "Do mark amber (#f2b24a) for due and coral (#ff6b5e) for overdue or declined, and nothing else.",
+      "Do code every state by shape and colour: outline circle open, filled circle done, rotated square overdue, strikethrough closed.",
+      "Do apply tabular figures only to bare numbers.",
+      "Do draw icons with lucide at a 1.5 stroke (18px default, 22px on the rail).",
+      "Do step surfaces by tone (bg #121316, panel #16171b, slate #1b1d22, raised #22252c) and separate them with 1px borders.",
+      "Do keep the Today caption on the near-solid void scrim that ends just above the shop name.",
+      "Do switch Today to the full-bleed feed, bottom-sheet message and 64px tab bar at 760px and below.",
+      "Do keep transitions between 120 and 250ms, move things (slide, drawer, sheet, toast) on cubic-bezier(.16, 1, .3, 1), and turn transitions off under reduced motion."
+    ],
+    "donts": [
+      "Don't use green for success, online status, confirmation or charts.",
+      "Don't use amber or coral as decoration, emphasis or a data colour.",
+      "Don't tell states apart by colour alone.",
+      "Don't put kickers or eyebrow labels above headings.",
+      "Don't use unicode glyphs as icons.",
+      "Don't set tabular figures on ratings, comma-grouped counts or dates.",
+      "Don't add shadows to cards, panels, columns or inputs.",
+      "Don't set buttons, labels or body copy in Antonio."
+    ]
+  }
+}

@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { SALES, areaOf, leadStage, type BriefSummary, type Lead } from "./leads";
 import type { Outreach, ShopFiles, ShopsFile } from "./types";
 
 // The project root is the folder above approve-app/, unless SMALLSHOP_ROOT says otherwise.
@@ -38,12 +39,34 @@ export async function writeShops(data: ShopsFile): Promise<void> {
   await writeAtomic(SHOPS_JSON, JSON.stringify(data, null, 2) + "\n");
 }
 
-// Read-modify-write in one go to keep the window small (Claude's scripts also write this file).
+// One writer at a time across the app, scripts/_common.sh (update_shops) and the worker's git
+// steps. mkdir is atomic; a lock older than STALE_MS was left by a crashed writer.
+const LOCK = path.join(ROOT, "data", ".lock");
+const STALE_MS = 5 * 60_000;
+
+export async function withShopsLock<T>(fn: () => Promise<T>): Promise<T> {
+  const deadline = Date.now() + 20_000;
+  await fs.mkdir(path.dirname(LOCK), { recursive: true });
+  for (;;) {
+    try { await fs.mkdir(LOCK); break; } catch (err) {
+      if ((err as NodeJS.ErrnoException).code !== "EEXIST") throw err;
+      const age = await fs.stat(LOCK).then((s) => Date.now() - s.mtimeMs, () => 0);
+      if (age > STALE_MS) { await fs.rm(LOCK, { recursive: true, force: true }); continue; }
+      if (Date.now() > deadline) throw new Error("A job is writing shops.json right now; try again in a moment.");
+      await new Promise((r) => setTimeout(r, 100));
+    }
+  }
+  try { return await fn(); } finally { await fs.rm(LOCK, { recursive: true, force: true }); }
+}
+
+// Read-modify-write under the lock, so no other writer's change is lost.
 export async function updateShops<T>(fn: (data: ShopsFile) => T): Promise<T> {
-  const data = await readShops();
-  const result = fn(data);
-  await writeShops(data);
-  return result;
+  return withShopsLock(async () => {
+    const data = await readShops();
+    const result = fn(data);
+    await writeShops(data);
+    return result;
+  });
 }
 
 const isDir = (p: string) => fs.stat(p).then((s) => s.isDirectory(), () => false);
@@ -130,6 +153,41 @@ export async function shopFiles(slug: string): Promise<ShopFiles> {
     docs: await listDir(path.join(base, "docs"), (f) => f.endsWith(".md")),
     screenshots: await listDir(path.join(base, "screenshots"), (f) => f.endsWith(".png") || f.endsWith(".mp4")),
   };
+}
+
+// For briefs waiting on review: the brief's section headings, its personality line, and how many
+// [MOCKUP] lines it has.
+export async function readBriefSummary(slug: string): Promise<BriefSummary | null> {
+  const text = await readBrief(slug);
+  if (text === null) return null;
+  // The paragraph is hard-wrapped: take it up to the blank line, unwrap it, drop "(reviews 1, 3)" tags.
+  const para = (/## Personality\n+([\s\S]*?)\n\s*\n/.exec(text)?.[1] ?? "").replace(/\s*\n\s*/g, " ");
+  return {
+    personality: para.replace(/\s*\([^()]*\)/g, "").split(/(?<=\.)\s/)[0],
+    sections: [...text.matchAll(/^## (.+)$/gm)].map((m) => m[1]),
+    mockups: (text.match(/\[MOCKUP\]/g) || []).length,
+  };
+}
+
+// Every shop as a lead: its stage, area, which outreach media exist, its personal line and phone.
+export async function listLeads(): Promise<Lead[]> {
+  const { shops } = await readShops();
+  const now = Date.now();
+  return Promise.all(shops.map(async (shop): Promise<Lead> => {
+    const stage = leadStage(shop, now);
+    const base = await shopDir(shop.slug);
+    const has = (rel: string) => fs.access(path.join(base, rel)).then(() => true, () => false);
+    const [video, phone, fold, outreach, raw, brief] = await Promise.all([
+      has("screenshots/outreach-scroll.mp4"), has("screenshots/outreach-phone.png"), has("screenshots/390-fold.png"),
+      readOutreach(shop.slug),
+      SALES.has(stage) ? readRaw(shop.slug) : Promise.resolve(null),
+      stage === "brief_ready" ? readBriefSummary(shop.slug) : Promise.resolve(null),
+    ]);
+    return {
+      ...shop, stage, area: areaOf(shop.address), media: { video, phone, fold }, hook: outreach?.hook ?? "",
+      phone: raw?.internationalPhoneNumber || raw?.nationalPhoneNumber || "", brief,
+    };
+  }));
 }
 
 // Only files inside these folders of a shop can be served, nothing else.

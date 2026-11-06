@@ -17,22 +17,27 @@ and build a Next.js mockup site for each.
 
 ## The dashboard
 
-http://localhost:3030 (run from `approve-app/`). Local only, no login: it reads and writes the
-project files directly.
+A lead management dashboard (`approve-app/`). It runs on the NAS next to a job worker (setup in
+`deploy/README.md`), and you open it at `https://leads.achmedfidel.com` from the Mac or your
+phone, through the NAS's Cloudflare Tunnel behind a Cloudflare Access email login. The app itself
+has no login, so it is never reachable any other way. Locally it still runs with
+`cd approve-app && npm run dev` on http://localhost:3030.
 
-- **Home:** what's waiting on you (candidates, briefs, mockups to send, owners to hear back
-  from), what's waiting on Claude Code with a copy-ready command per group, and every built
-  site with its screenshot and whether its mockup is online.
-- **Shop page** (click any shop): the 8 steps with the current one highlighted, and a Next
-  step panel. For your steps it has the buttons; for Claude's steps, the exact command to copy
-  (`/shop-landing build komuka`); once the mockup is online, the preview video and the WhatsApp
-  message to the owner, filled in, editable, with Download video, Copy, Open in WhatsApp, and
-  Mark as sent. Below: screenshots and the planning docs.
-- **Candidates** and **Briefs:** the approval screens, as before.
+- **Today:** everything due, one lead at a time. The lead's own scroll video fills the middle,
+  its actions sit on the right (WhatsApp, Sent, Replied, Close, Skip), and the side column holds
+  the filled-in Indonesian message. J/K move, E does the main action, and every action can be
+  undone from the toast. On a phone, Video shares straight into WhatsApp.
+- **Pipeline:** a board of every stage, Sales or Production. Drag a lead to move it; only moves
+  that mean something are allowed.
+- **Leads:** every shop in a sortable table, with a drawer for the video, timeline and next step.
+- **Metrics:** the outreach funnel, sends per week, where the leads are, mockups by category.
+- **Production:** candidates to approve, briefs to review, the Build queue (find shops on Maps,
+  then Run each of Claude's steps, with each job's live log) and every published mockup.
+- **Lead page** (`/shops/<slug>`): the full history and next step for one shop; Claude's steps
+  have a Run button, with the commands to run yourself folded underneath.
 - Written in TypeScript (strict). `npm run typecheck` checks it without building.
-- **Docs:** every Claude Code command, terminal command and reusable prompt, grouped by step,
-  each with a Copy button. Pick a shop and an area at the top and the commands fill in.
-  Content lives in `approve-app/lib/docs.ts`.
+
+The worker (`worker/run.mjs`) runs one job at a time: git pull, the job, then commit and push.
 
 Outreach is video-first. A link from an unknown number looks like the WhatsApp scams owners
 are used to, so the first messages carry none:
@@ -58,8 +63,8 @@ node scripts/outreach-media.mjs --all   # video + phone screenshot, about a minu
 ```
 then `/shop-landing outreach` for the personalized lines. New builds get both automatically.
 
-The home page lists previews to send, links to send, follow-ups due, deals in progress, and
-owners you're waiting on.
+Today lists previews to send (5 a day, to keep the WhatsApp number in good standing), links to
+send, follow-ups due, briefs to review and leads to close.
 
 The messages and the 3-day timings live in `approve-app/lib/outreach.ts`.
 Your name for the message is entered once on a shop page and remembered in that browser.

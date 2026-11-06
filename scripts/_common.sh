@@ -30,3 +30,26 @@ write_shops_json() {
 }
 
 now() { date -u +%Y-%m-%dT%H:%M:%SZ; }
+
+# One writer at a time with the approval app and the worker's git steps (approve-app/lib/store.ts
+# takes the same lock). mkdir is atomic; a lock older than 5 minutes was left by a crashed writer.
+LOCK_DIR="$ROOT/data/.lock"
+lock_shops() {
+  local tries=0
+  until mkdir "$LOCK_DIR" 2>/dev/null; do
+    if [ -n "$(find "$LOCK_DIR" -maxdepth 0 -mmin +5 2>/dev/null)" ]; then rm -rf "$LOCK_DIR"; continue; fi
+    [ "$tries" -lt 200 ] || { echo "shops.json is busy (another writer holds the lock); try again." >&2; return 1; }
+    sleep 0.1; tries=$((tries + 1))
+  done
+}
+unlock_shops() { rm -rf "$LOCK_DIR"; }
+
+# Apply a jq filter to shops.json and write it back, holding the lock from read to write:
+#   update_shops [jq options...] '<filter>'
+update_shops() {
+  lock_shops || return 1
+  local rc=0
+  jq "$@" "$SHOPS_JSON" | write_shops_json || rc=1
+  unlock_shops
+  return "$rc"
+}

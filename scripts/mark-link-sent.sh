@@ -8,9 +8,9 @@ ensure_shops_json
 COUNT="$(jq '[.shops[] | select((.outreach_sent_at // "") != "" and (.link_sent_at // "") == "")] | length' "$SHOPS_JSON")"
 [ "$COUNT" -gt 0 ] || { echo "Nothing to do: every contacted shop already has link_sent_at."; exit 0; }
 
-jq '
+update_shops '
   .shops |= map(if (.outreach_sent_at // "") != "" and (.link_sent_at // "") == ""
     then . + {link_sent_at: .outreach_sent_at}
     else . end)
-' "$SHOPS_JSON" | write_shops_json
+'
 echo "Marked the link as sent for $COUNT shop(s)."

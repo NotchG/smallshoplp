@@ -1,0 +1,8 @@
+# Build context for deploy/Dockerfile (BuildKit reads <Dockerfile>.dockerignore next to it).
+# The image only needs approve-app/; everything else is mounted at /repo at runtime.
+# Keeps local builds from uploading shops/ (node_modules, photos) and the secrets.
+*
+!approve-app/
+approve-app/node_modules/
+approve-app/.next/
+approve-app/tsconfig.tsbuildinfo

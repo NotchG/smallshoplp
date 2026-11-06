@@ -53,8 +53,8 @@ export default function Docs() {
           <div className="doc-items">
             {section.items.map((item) => (
               <div key={item.label} className="doc-item">
-                <span className={`kind ${item.kind}`}>{KIND[item.kind]}</span>
-                <CopyBlock label={item.label} text={fill(item.text, { slug, area })} multiline={item.kind === "prompt"} />
+                <p className="copy-label">{item.label} <span className={`kind ${item.kind}`}>{KIND[item.kind]}</span></p>
+                <CopyBlock text={fill(item.text, { slug, area })} multiline={item.kind === "prompt"} />
               </div>
             ))}
           </div>
