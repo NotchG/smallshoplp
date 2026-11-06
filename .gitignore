@@ -4,3 +4,7 @@ node_modules/
 .DS_Store
 *.tmp
 data/coolify.json
+shops/*/screenshots/*.mp4
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/questions/

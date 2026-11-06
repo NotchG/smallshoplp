@@ -26,6 +26,9 @@ export const DOC_SECTIONS: DocSection[] = [
       { kind: "claude", label: "3. Plan and build approved briefs (locally or in a cloud session)", text: "/shop-landing build" },
       { kind: "terminal", label: "4. Push the built sites", text: "git add shops data/shops.json && git commit -m \"Add mockups\" && git push" },
       { kind: "claude", label: "5. Publish to Coolify (run locally)", text: "/shop-landing publish" },
+      { kind: "terminal", label: "6. Preview videos for built shops (run locally, about a minute per shop)", text: "node scripts/outreach-media.mjs --all" },
+      { kind: "claude", label: "7. Personalized lines for the owner messages", text: "/shop-landing outreach" },
+      { kind: "claude", label: "Archive declined and unanswered shops (run locally)", text: "/shop-landing archive" },
       { kind: "claude", label: "Where is everything, and what's next?", text: "/shop-landing status" },
     ],
   },
@@ -87,6 +90,27 @@ export const DOC_SECTIONS: DocSection[] = [
       { kind: "terminal", label: "Check what would be created", text: "./scripts/coolify-publish.sh --dry-run {slug}" },
       { kind: "terminal", label: "Publish by hand", text: "./scripts/coolify-publish.sh {slug}" },
       { kind: "terminal", label: "Is the mockup reachable?", text: "curl -sI \"$(jq -r --arg s {slug} '.shops[] | select(.slug == $s) | .preview_url' data/shops.json)\" | head -1" },
+    ],
+  },
+  {
+    id: "outreach",
+    title: "Outreach",
+    intro: "The first message carries a scroll video and no link; the follow-up a phone screenshot. The link goes out once the owner replies. Send everything from the shop pages.",
+    items: [
+      { kind: "terminal", label: "Video and phone screenshot, every built shop that lacks them", text: "node scripts/outreach-media.mjs --all" },
+      { kind: "terminal", label: "Remake one shop's after changing its site", text: "node scripts/outreach-media.mjs {slug} --force" },
+      { kind: "claude", label: "Personalized lines, every built shop that lacks one", text: "/shop-landing outreach" },
+      { kind: "claude", label: "Rewrite one shop's line", text: "/shop-landing outreach {slug}" },
+    ],
+  },
+  {
+    id: "archive",
+    title: "Declined and unanswered shops",
+    intro: "Mark them in the app (Owner declined, or Mark as not answered after the follow-up). Archiving deletes the site and its Coolify app and keeps the brief, listing and photos in shops/_rejected/. Run locally.",
+    items: [
+      { kind: "claude", label: "Archive all of them", text: "/shop-landing archive" },
+      { kind: "terminal", label: "See what would be deleted", text: "./scripts/archive-rejected.sh --dry-run {slug}" },
+      { kind: "terminal", label: "Archive one by hand", text: "./scripts/archive-rejected.sh {slug}" },
     ],
   },
   {

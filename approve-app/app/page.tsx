@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useShops } from "./useShops";
 import CopyBlock from "./components/CopyBlock";
 import OnlineBadge, { useOnline } from "./components/OnlineBadge";
-import { BATCH, ownerPhase, type OwnerPhaseName } from "@/lib/pipeline";
+import { BATCH, isOwnerClosed, ownerPhase, type OwnerPhaseName } from "@/lib/pipeline";
 import type { Shop } from "@/lib/types";
 import { formatDuration } from "@/lib/outreach";
 import useNow from "./components/useNow";
@@ -27,11 +27,11 @@ function SiteCard({ shop }: { shop: Shop }) {
   const [noShot, setNoShot] = useState(false);
   const PHASE_LABEL: Record<OwnerPhaseName, string> = {
     waiting: "Sent, waiting", followup_due: "Follow-up due", waiting_followup: "Followed up, waiting",
-    no_answer_due: "No reply to follow-up", no_answer: "No answer", prospect: "Prospect",
-    hot: "Hot prospect", do: "DO (ordered)", declined: "Owner declined",
+    no_answer_due: "No reply to follow-up", no_answer: "No answer", link_due: "Replied, send link",
+    prospect: "Prospect", hot: "Hot prospect", do: "DO (ordered)", declined: "Owner declined",
   };
   const phase = ownerPhase(shop).phase;
-  const step = phase ? PHASE_LABEL[phase] : !shop.coolify_uuid ? "Not published" : "Ready to send";
+  const step = phase ? PHASE_LABEL[phase] : !shop.coolify_uuid ? "Not published" : "Ready to send preview";
   return (
     <Link href={`/shops/${shop.slug}`} className="site">
       <div className="site-thumb">
@@ -84,19 +84,23 @@ export default function Home() {
   const inPhase = (...ps: OwnerPhaseName[]) => by((s) => { const p = phaseOf(s).phase; return p !== null && ps.includes(p); });
   const followupsDue = inPhase("followup_due");
   const noAnswerDue = inPhase("no_answer_due");
+  // A reopened archived shop is link_due again only once it's rebuilt and published.
+  const linkDue = inPhase("link_due").filter((s) => !!s.coolify_uuid);
   const deals = inPhase("prospect", "hot");
   const waitingOwners = inPhase("waiting", "waiting_followup");
   const noAnswer = inPhase("no_answer");
+  const declined = inPhase("declined");
   const ordered = inPhase("do");
   const needBrief = by((s) => s.status === "approved" || s.status === "brief_rework");
   const needBuild = by((s) => s.status === "brief_approved" || s.status === "planned");
   const needPublish = by((s) => s.status === "built" && !s.coolify_uuid);
+  const needArchive = by((s) => isOwnerClosed(s) && !s.archived_at);
   const sites = by((s) => s.status === "built" || s.status === "owner_approved");
-  const rejected = by((s) => s.status === "rejected");
+  const rejected = by((s) => s.status === "rejected" && !isOwnerClosed(s));
 
   const youCount = candidates.length + briefsToReview.length + toSend.length
-    + followupsDue.length + noAnswerDue.length + deals.length;
-  const claudeCount = needBrief.length + needBuild.length + needPublish.length;
+    + followupsDue.length + noAnswerDue.length + linkDue.length + deals.length;
+  const claudeCount = needBrief.length + needBuild.length + needPublish.length + needArchive.length;
   const waitedFor = (s: Shop) => `No answer for ${formatDuration(phaseOf(s).waited || 0)}`;
   const stageLabel = (s: Shop) => (phaseOf(s).phase === "hot" ? "Hot prospect" : "Prospect");
 
@@ -123,7 +127,8 @@ export default function Home() {
           </div>
         )}
         <Group title="Briefs to review" shops={briefsToReview} side={() => "Review brief"} />
-        <Group title="Mockups ready to send" shops={toSend} side={() => "Send message"} />
+        <Group title="Previews ready to send" shops={toSend} side={() => "Send preview"} />
+        <Group title="Replied: send the link" shops={linkDue} side={() => "Send the link"} />
         <Group title="Follow-ups due" shops={followupsDue} side={waitedFor} />
         <Group title="No reply to the follow-up" shops={noAnswerDue} side={() => "Close as no answer"} />
         <Group title="Deals in progress" shops={deals} side={stageLabel} />
@@ -146,6 +151,9 @@ export default function Home() {
           note="Plans and builds all of these, 3 at a time. Locally or in a cloud session." />
         <Group title="Built, not published" shops={needPublish} command={BATCH.publish}
           note="Push to GitHub first, then run this locally to create their Coolify apps." />
+        <Group title="Declined or no answer: archive" shops={needArchive} command={BATCH.archive}
+          note="Deletes their sites and Coolify apps, keeps the briefs. Run locally."
+          side={(s) => (s.declined_at ? "Owner declined" : "No answer")} />
       </section>
 
       <section aria-labelledby="sites">
@@ -155,14 +163,17 @@ export default function Home() {
         )}
       </section>
 
-      {(ordered.length > 0 || noAnswer.length > 0 || rejected.length > 0) && (
+      {(ordered.length > 0 || noAnswer.length > 0 || declined.length > 0 || rejected.length > 0) && (
         <p className="empty-line">
           {[
             ordered.length && `${ordered.length} ordered (DO)`,
             noAnswer.length && `${noAnswer.length} no answer`,
-            rejected.length && `${rejected.length} rejected or declined`,
+            declined.length && `${declined.length} declined`,
+            rejected.length && `${rejected.length} rejected`,
           ].filter(Boolean).join(" · ")}
-          {rejected.length > 0 && <> · <Link href="/candidates">rejected shops are under Candidates → Rejected</Link></>}
+          {(rejected.length + declined.length + noAnswer.length) > 0 && (
+            <> · <Link href="/candidates">they&rsquo;re under Candidates → Rejected</Link></>
+          )}
         </p>
       )}
     </div>

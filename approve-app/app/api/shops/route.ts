@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { readShops, updateShops } from "@/lib/store";
 import { canMove, isStatus } from "@/lib/statuses";
+import { isOwnerClosed } from "@/lib/pipeline";
 
 export const dynamic = "force-dynamic";
 
@@ -23,7 +24,7 @@ export async function POST(req: Request) {
   const moved = await updateShops((data) => {
     const done: string[] = [];
     for (const shop of data.shops) {
-      if (slugs.includes(shop.slug) && canMove(shop.status, status)) {
+      if (slugs.includes(shop.slug) && canMove(shop.status, status) && !isOwnerClosed(shop)) {
         shop.status = status;
         shop.updated_at = now;
         done.push(shop.slug);

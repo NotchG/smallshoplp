@@ -1,11 +1,13 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import type { ShopFiles, ShopsFile } from "./types";
+import type { Outreach, ShopFiles, ShopsFile } from "./types";
 
 // The project root is the folder above approve-app/, unless SMALLSHOP_ROOT says otherwise.
 export const ROOT = process.env.SMALLSHOP_ROOT || path.resolve(process.cwd(), "..");
 const SHOPS_JSON = path.join(ROOT, "data", "shops.json");
-const SLUG_RE = /^[a-z0-9][a-z0-9-]{0,80}$/;
+// Archived shops (declined or no answer) keep their brief, listing and photos here.
+const REJECTED_DIR = path.join(ROOT, "shops", "_rejected");
+const SLUG_RE = /^[a-z0-9][a-z0-9-]{0,80}$/; // never matches _rejected
 
 const isNotFound = (err: unknown) =>
   typeof err === "object" && err !== null && "code" in err && (err as NodeJS.ErrnoException).code === "ENOENT";
@@ -44,13 +46,31 @@ export async function updateShops<T>(fn: (data: ShopsFile) => T): Promise<T> {
   return result;
 }
 
-function briefPath(slug: string): string {
-  return path.join(ROOT, "shops", slug, "brief.md");
+const isDir = (p: string) => fs.stat(p).then((s) => s.isDirectory(), () => false);
+
+// shops/<slug>, or shops/_rejected/<slug> once the shop has been archived.
+export async function shopDir(slug: string): Promise<string> {
+  const live = path.join(ROOT, "shops", slug);
+  const archived = path.join(REJECTED_DIR, slug);
+  return !(await isDir(live)) && (await isDir(archived)) ? archived : live;
+}
+
+// Moves an archived shop's folder back to shops/<slug>, so Claude can rebuild it from its brief.
+export async function restoreShopDir(slug: string): Promise<void> {
+  const live = path.join(ROOT, "shops", slug);
+  const archived = path.join(REJECTED_DIR, slug);
+  if (!(await isDir(archived))) return;
+  if (await isDir(live)) throw new Error(`Both shops/${slug} and shops/_rejected/${slug} exist; merge them by hand.`);
+  await fs.rename(archived, live);
+}
+
+async function briefPath(slug: string): Promise<string> {
+  return path.join(await shopDir(slug), "brief.md");
 }
 
 export async function readBrief(slug: string): Promise<string | null> {
   try {
-    return await fs.readFile(briefPath(slug), "utf8");
+    return await fs.readFile(await briefPath(slug), "utf8");
   } catch (err) {
     if (isNotFound(err)) return null;
     throw err;
@@ -58,8 +78,9 @@ export async function readBrief(slug: string): Promise<string | null> {
 }
 
 export async function writeBrief(slug: string, text: string): Promise<void> {
-  await fs.mkdir(path.dirname(briefPath(slug)), { recursive: true });
-  await writeAtomic(briefPath(slug), text);
+  const file = await briefPath(slug);
+  await fs.mkdir(path.dirname(file), { recursive: true });
+  await writeAtomic(file, text);
 }
 
 // --- Shop detail: listing facts, docs and screenshots (read-only) ---
@@ -76,7 +97,17 @@ export interface RawListing {
 
 export async function readRaw(slug: string): Promise<RawListing | null> {
   try {
-    return JSON.parse(await fs.readFile(path.join(ROOT, "shops", slug, "raw.json"), "utf8")) as RawListing;
+    return JSON.parse(await fs.readFile(path.join(await shopDir(slug), "raw.json"), "utf8")) as RawListing;
+  } catch {
+    return null;
+  }
+}
+
+// The personalized line for the first WhatsApp message, written by /shop-landing outreach.
+export async function readOutreach(slug: string): Promise<Outreach | null> {
+  try {
+    const data = JSON.parse(await fs.readFile(path.join(await shopDir(slug), "outreach.json"), "utf8")) as Partial<Outreach>;
+    return typeof data.hook === "string" && data.hook.trim() ? { hook: data.hook.trim() } : null;
   } catch {
     return null;
   }
@@ -91,23 +122,23 @@ async function listDir(dir: string, filter: (name: string) => boolean): Promise<
 }
 
 export async function shopFiles(slug: string): Promise<ShopFiles> {
-  const base = path.join(ROOT, "shops", slug);
+  const base = await shopDir(slug);
   const exists = (p: string) => fs.access(path.join(base, p)).then(() => true, () => false);
   return {
     brief: await exists("brief.md"),
     checklist: await exists("owner-checklist.md"),
     docs: await listDir(path.join(base, "docs"), (f) => f.endsWith(".md")),
-    screenshots: await listDir(path.join(base, "screenshots"), (f) => f.endsWith(".png")),
+    screenshots: await listDir(path.join(base, "screenshots"), (f) => f.endsWith(".png") || f.endsWith(".mp4")),
   };
 }
 
 // Only files inside these folders of a shop can be served, nothing else.
-const SERVABLE = /^(docs\/[a-z0-9-]+\.md|screenshots\/[a-z0-9-]+\.png|owner-checklist\.md|brief\.md)$/;
+const SERVABLE = /^(docs\/[a-z0-9-]+\.md|screenshots\/[a-z0-9-]+\.(png|mp4)|owner-checklist\.md|brief\.md)$/;
 
 export async function readShopFile(slug: string, rel: string): Promise<Buffer | null> {
   if (!validSlug(slug) || !SERVABLE.test(rel)) return null;
   try {
-    return await fs.readFile(path.join(ROOT, "shops", slug, rel));
+    return await fs.readFile(path.join(await shopDir(slug), rel));
   } catch {
     return null;
   }

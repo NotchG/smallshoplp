@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
-import { readBrief, readRaw, readShops, shopFiles, updateShops, validSlug } from "@/lib/store";
+import {
+  readBrief, readOutreach, readRaw, readShops, restoreShopDir, shopFiles, updateShops, validSlug,
+} from "@/lib/store";
+import { isOwnerClosed } from "@/lib/pipeline";
 import { canMove, isStatus } from "@/lib/statuses";
 import type { Shop } from "@/lib/types";
 
@@ -16,7 +19,7 @@ export const dynamic = "force-dynamic";
 
 const now = () => new Date().toISOString().replace(/\.\d+Z$/, "Z");
 
-// Everything the shop page needs: the shop, a few listing facts, and which files exist.
+// Everything the shop page needs: the shop, a few listing facts, the outreach line, and which files exist.
 export async function GET(_req: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   if (!validSlug(slug)) return NextResponse.json({ error: "Invalid shop." }, { status: 400 });
@@ -33,6 +36,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ slug: s
       rating: raw.rating ?? null,
       reviews: raw.userRatingCount ?? null,
     },
+    outreach: await readOutreach(slug),
     files: await shopFiles(slug),
   });
 }
@@ -43,10 +47,22 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ slug: 
   if (!validSlug(slug)) return NextResponse.json({ error: "Invalid shop." }, { status: 400 });
   const body = (await req.json()) as PatchBody;
 
-  // Owner follow-up and deal stages: { owner: "followup_sent" | "followup_unsent" | "no_answer"
-  //                                          | "prospect" | "hot" | "do" }
+  // Owner follow-up, link and deal stages: { owner: "followup_sent" | "followup_unsent" | "no_answer"
+  //   | "prospect" | "link_sent" | "link_unsent" | "hot" | "do" | "reopen" }
   if (typeof body.owner === "string") {
     const op = body.owner;
+
+    // An archived shop that comes back needs its folder back before Claude can rebuild it.
+    let restored = false;
+    if (op === "reopen") {
+      const shop = (await readShops()).shops.find((s) => s.slug === slug);
+      if (shop && isOwnerClosed(shop) && shop.archived_at) {
+        try { await restoreShopDir(slug); }
+        catch (err) { return NextResponse.json({ error: err instanceof Error ? err.message : String(err) }, { status: 409 }); }
+        restored = true;
+      }
+    }
+
     const result = await updateShops((data): Result => {
       const shop = data.shops.find((s) => s.slug === slug);
       if (!shop) return { error: "No such shop.", code: 404 };
@@ -67,9 +83,33 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ slug: 
         case "no_answer":
           if (!sentBuilt || stage || !shop.followup_sent_at) return fail("Send the follow-up before closing as no answer.");
           setStage("no_answer");
+          shop.status = "rejected"; // archive-rejected.sh picks it up from here
           break;
         case "prospect":
-          if (!sentBuilt) return fail("Send the mockup first.");
+          if (!sentBuilt) return fail("Send the preview first.");
+          setStage("prospect");
+          break;
+        case "link_sent":
+          if (!sentBuilt || (stage !== "prospect" && stage !== "hot")) return fail("Mark the owner as replied first.");
+          if (shop.link_sent_at) return fail("The link is already marked as sent.");
+          shop.link_sent_at = now();
+          break;
+        case "link_unsent":
+          if (!sentBuilt || stage !== "prospect" || !shop.link_sent_at) return fail("There's no link to undo.");
+          shop.link_sent_at = "";
+          break;
+        case "reopen":
+          // The owner declined or went quiet, then replied after all.
+          if (!isOwnerClosed(shop)) return fail("Only a shop the owner declined or didn't answer can be reopened.");
+          if (restored || shop.archived_at) {
+            // The site is gone: rebuild it from the kept brief, then send the new link.
+            shop.status = "brief_approved";
+            shop.archived_at = "";
+            shop.link_sent_at = "";
+          } else {
+            shop.status = "built";
+          }
+          shop.declined_at = "";
           setStage("prospect");
           break;
         case "hot":
@@ -78,7 +118,7 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ slug: 
           setStage("hot");
           break;
         case "do":
-          if (!sentBuilt || (stage !== "prospect" && stage !== "hot")) return fail("Mark the owner as a prospect first.");
+          if (!sentBuilt || (stage !== "prospect" && stage !== "hot")) return fail("Mark the owner as replied first.");
           setStage("do");
           shop.status = "owner_approved";
           break;
@@ -125,16 +165,10 @@ export async function PATCH(req: Request, { params }: { params: Promise<{ slug: 
     if (!canMove(shop.status, status)) {
       return { error: `Can't move from ${shop.status} to ${status}.`, code: 409 };
     }
-    // A built shop the owner declined can go back to built; a rejected candidate can't.
-    if (shop.status === "rejected" && status === "built" && !shop.declined_at) {
-      return { error: "Only a shop the owner declined can go back to built.", code: 409 };
+    if (isOwnerClosed(shop)) {
+      return { error: "The owner turned this shop down. Use \"Owner replied after all\" on its page instead.", code: 409 };
     }
     if (shop.status === "built" && status === "rejected") shop.declined_at = now();
-    if (shop.status === "rejected" && status === "built") {
-      shop.declined_at = "";
-      shop.owner_stage = "prospect"; // owner changed their mind
-      shop.owner_stage_at = now();
-    }
     shop.status = status;
     shop.updated_at = now();
     if (status === "brief_rework") shop.brief_note = (note ?? "").trim();

@@ -19,9 +19,15 @@ export const STEPS: readonly Step[] = [
   { key: "plan",     title: "Plan",           who: "claude", about: "Claude writes the PRD, TRD, design brief and implementation plan." },
   { key: "build",    title: "Build",          who: "claude", about: "Claude builds the Next.js mockup and reviews it in screenshots." },
   { key: "publish",  title: "Publish",        who: "claude", about: "Push the site to GitHub and create its Coolify app, so it goes online." },
-  { key: "send",     title: "Send to owner",  who: "you",    about: "Send the owner the mockup link on WhatsApp." },
-  { key: "decision", title: "Owner decision", who: "you",    about: "Wait for a reply, follow up if needed, then track the deal through to the order." },
+  { key: "send",     title: "Send preview",   who: "you",    about: "Send the owner a short video of their mockup on WhatsApp. No link yet." },
+  { key: "decision", title: "Owner decision", who: "you",    about: "Wait for a reply, follow up if needed. When they reply, send the link, then track the deal through to the order." },
 ];
+
+// The owner declined, or never answered the follow-up. These shops are rejected, and
+// scripts/archive-rejected.sh deletes their site and Coolify app (sets archived_at).
+export function isOwnerClosed(shop: Shop): boolean {
+  return shop.status === "rejected" && (!!shop.declined_at || shop.owner_stage === "no_answer");
+}
 
 // Index of the current step. STEPS.length means finished; -1 means rejected.
 export function currentStep(shop: Shop): number {
@@ -57,7 +63,22 @@ export type NextAction =
 export function nextAction(shop: Shop): NextAction {
   const slug = shop.slug;
   const step = currentStep(shop);
-  if (step === -1) return { kind: "rejected", title: "Rejected", text: "This shop was rejected. Move it back to review if you change your mind." };
+  if (step === -1) {
+    if (!isOwnerClosed(shop)) return { kind: "rejected", title: "Rejected", text: "This shop was rejected. Move it back to review if you change your mind." };
+    const title = shop.declined_at ? "Owner declined" : "No answer";
+    if (shop.archived_at) {
+      return { kind: "rejected", title, text: `The site and its Coolify app are deleted; the brief, listing and photos are kept in shops/_rejected/${slug}/.` };
+    }
+    return {
+      kind: "claude",
+      title: `${title}: archive the site`,
+      text: "Deletes the site and its Coolify app, and keeps the brief, listing and photos in shops/_rejected/. Run it locally, since it talks to your Coolify.",
+      commands: [
+        { label: "Claude Code", text: `/shop-landing archive ${slug}` },
+        { label: "Or terminal", text: `./scripts/archive-rejected.sh ${slug}` },
+      ],
+    };
+  }
   if (step >= STEPS.length) return { kind: "done", title: "Owner approved", text: "The owner wants the site. Next: turn the mockup into the real site." };
 
   switch (STEPS[step].key) {
@@ -103,27 +124,29 @@ export function nextAction(shop: Shop): NextAction {
         ],
       };
     case "send":
-      return { kind: "send", title: "Send the mockup to the owner", text: STEPS[6].about };
+      return { kind: "send", title: "Send the preview to the owner", text: STEPS[6].about };
     case "decision":
       return { kind: "owner", title: "Waiting for the owner", text: STEPS[7].about };
   }
 }
 
 // Commands that move every shop in a group at once, for the home page.
-export const BATCH: Record<"brief" | "build" | "publish", string> = {
+export const BATCH: Record<"brief" | "build" | "publish" | "archive", string> = {
   brief: "/shop-landing brief",
   build: "/shop-landing build",
   publish: "/shop-landing publish",
+  archive: "/shop-landing archive",
 };
 
-// Where a shop stands with its owner once the mockup has been sent.
+// Where a shop stands with its owner once the preview has been sent.
 // phase:
 //   "waiting"          first message sent, waiting for a reply
 //   "followup_due"     no reply for FOLLOW_UP_AFTER_DAYS → send the follow-up
 //   "waiting_followup" follow-up sent, waiting
 //   "no_answer_due"    no reply for NO_ANSWER_AFTER_DAYS after the follow-up → close it
-//   "no_answer"        closed as no answer
-//   "prospect" | "hot" | "do"   owner replied; the deal stages
+//   "no_answer"        closed as no answer (the shop is rejected)
+//   "link_due"         owner replied → send the mockup link
+//   "prospect" | "hot" | "do"   the deal stages
 //   "declined"         owner said no
 //   null               not sent yet
 export type DealStage = "prospect" | "hot" | "do";
@@ -135,7 +158,7 @@ export const DEAL_STAGES: readonly { key: DealStage; title: string; about: strin
 
 export type OwnerPhaseName =
   | "waiting" | "followup_due" | "waiting_followup" | "no_answer_due" | "no_answer"
-  | "prospect" | "hot" | "do" | "declined";
+  | "link_due" | "prospect" | "hot" | "do" | "declined";
 
 export interface OwnerPhase {
   phase: OwnerPhaseName | null;
@@ -146,10 +169,12 @@ export interface OwnerPhase {
 export function ownerPhase(shop: Shop, now: number = Date.now()): OwnerPhase {
   if (shop.status === "owner_approved") return { phase: "do", since: shop.owner_stage_at };
   if (shop.status === "rejected" && shop.declined_at) return { phase: "declined", since: shop.declined_at };
+  if (shop.status === "rejected" && shop.owner_stage === "no_answer") return { phase: "no_answer", since: shop.owner_stage_at };
   if (shop.status !== "built" || !shop.outreach_sent_at) return { phase: null };
   const stage = shop.owner_stage || "";
+  if (stage === "prospect" && !shop.link_sent_at) return { phase: "link_due", since: shop.owner_stage_at };
   if (stage === "prospect" || stage === "hot") return { phase: stage, since: shop.owner_stage_at };
-  if (stage === "no_answer") return { phase: "no_answer", since: shop.owner_stage_at };
+  if (stage === "no_answer") return { phase: "no_answer", since: shop.owner_stage_at }; // closed before no answer meant rejected
   if (!shop.followup_sent_at) {
     const waited = msSince(shop.outreach_sent_at, now);
     return { phase: waited >= daysToMs(FOLLOW_UP_AFTER_DAYS) ? "followup_due" : "waiting", since: shop.outreach_sent_at, waited };

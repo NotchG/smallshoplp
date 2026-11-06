@@ -12,7 +12,6 @@
 . "$(dirname "$0")/_common.sh"
 ensure_shops_json
 
-CONFIG="$ROOT/data/coolify.json"
 DRY=0; ALL=0; SLUGS=()
 for a in "$@"; do
   case "$a" in
@@ -24,14 +23,7 @@ for a in "$@"; do
 done
 [ "$ALL" = 1 ] || [ "${#SLUGS[@]}" -gt 0 ] || { echo "Usage: coolify-publish.sh [--dry-run] <slug>|--all" >&2; exit 1; }
 
-# Secrets from .env
-if [ -f "$ROOT/.env" ]; then set -a; . "$ROOT/.env"; set +a; fi
-: "${COOLIFY_URL:?Set COOLIFY_URL in .env (e.g. http://192.168.1.60:8000)}"
-: "${COOLIFY_TOKEN:?Set COOLIFY_TOKEN in .env (Coolify → Keys & Tokens → API tokens)}"
-COOLIFY_URL="${COOLIFY_URL%/}"
-
-[ -f "$CONFIG" ] || { echo "Missing $CONFIG. Copy data/coolify.example.json and fill it in." >&2; exit 1; }
-cfg() { jq -r --arg k "$1" '.[$k] // empty' "$CONFIG"; }
+. "$(dirname "$0")/_coolify.sh"
 for k in project_uuid environment_name server_uuid github_app_uuid git_repository git_branch; do
   [ -n "$(cfg "$k")" ] || { echo "data/coolify.json is missing \"$k\"" >&2; exit 1; }
 done
@@ -42,17 +34,6 @@ if [ -n "$PATTERN" ] && [[ "$PATTERN" != *"{slug}"* ]]; then echo "domain_patter
 host_for() { if [ -n "$PATTERN" ]; then echo "${PATTERN//\{slug\}/$1}"; else echo "$1.$(cfg domain_suffix)"; fi; }
 SCHEME="$(cfg domain_scheme)"; SCHEME="${SCHEME:-http}"            # what Coolify serves
 PREVIEW_SCHEME="$(cfg preview_scheme)"; PREVIEW_SCHEME="${PREVIEW_SCHEME:-https}"  # what visitors open
-
-# api METHOD PATH [JSON] → prints body; fails on HTTP >= 300
-api() {
-  local method="$1" path="$2" body="${3:-}" out code
-  out="$(mktemp)"
-  code="$(curl -sS -o "$out" -w '%{http_code}' -X "$method" "$COOLIFY_URL/api/v1$path" \
-    -H "Authorization: Bearer $COOLIFY_TOKEN" -H "Content-Type: application/json" -H "Accept: application/json" \
-    ${body:+-d "$body"})" || { rm -f "$out"; echo "Can't reach Coolify at $COOLIFY_URL" >&2; return 1; }
-  cat "$out"; rm -f "$out"
-  [ "$code" -lt 300 ] || { echo "" >&2; echo "Coolify API $method $path → HTTP $code" >&2; return 1; }
-}
 
 if [ "$ALL" = 1 ]; then
   # A read loop rather than mapfile, which macOS's bash 3.2 doesn't have.

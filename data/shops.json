@@ -18,7 +18,8 @@
       "preview_url": "https://komuka-mockup.achmedfidel.com",
       "outreach_sent_at": "2026-10-16T05:39:30Z",
       "followup_sent_at": "2026-10-22T06:23:59Z",
-      "declined_at": "2026-10-22T17:37:34Z"
+      "declined_at": "2026-10-22T17:37:34Z",
+      "link_sent_at": "2026-10-16T05:39:30Z"
     },
     {
       "slug": "publika-eat-and-coffee",
@@ -54,7 +55,8 @@
       "coolify_uuid": "ohguhin52krlzuyw1xerzdoo",
       "preview_url": "https://pabbo-unifirst-mockup.achmedfidel.com",
       "outreach_sent_at": "2026-10-16T05:40:25Z",
-      "followup_sent_at": "2026-10-22T06:24:46Z"
+      "followup_sent_at": "2026-10-22T06:24:46Z",
+      "link_sent_at": "2026-10-16T05:40:25Z"
     },
     {
       "slug": "kawan-kopi-cakung",
@@ -73,7 +75,8 @@
       "coolify_uuid": "sbp80ojqu2c16qt8kueceuxh",
       "preview_url": "https://kawan-kopi-cakung-mockup.achmedfidel.com",
       "outreach_sent_at": "2026-10-16T05:41:12Z",
-      "followup_sent_at": "2026-10-22T06:26:42Z"
+      "followup_sent_at": "2026-10-22T06:26:42Z",
+      "link_sent_at": "2026-10-16T05:41:12Z"
     },
     {
       "slug": "ulusalu-coffee-roastery",
@@ -92,7 +95,8 @@
       "coolify_uuid": "cs5jpttrzrwxa2ihut6dzgy7",
       "preview_url": "https://ulusalu-coffee-roastery-mockup.achmedfidel.com",
       "outreach_sent_at": "2026-10-16T05:41:49Z",
-      "followup_sent_at": "2026-10-22T06:27:17Z"
+      "followup_sent_at": "2026-10-22T06:27:17Z",
+      "link_sent_at": "2026-10-16T05:41:49Z"
     },
     {
       "slug": "warkop-bank-gondrong-jgc",
@@ -128,7 +132,8 @@
       "coolify_uuid": "9cs19vgdi8lr9oylx9e0fgen",
       "preview_url": "https://dalle-coffee-eatery-mockup.achmedfidel.com",
       "outreach_sent_at": "2026-10-16T05:42:59Z",
-      "followup_sent_at": "2026-10-22T06:27:40Z"
+      "followup_sent_at": "2026-10-22T06:27:40Z",
+      "link_sent_at": "2026-10-16T05:42:59Z"
     },
     {
       "slug": "2sons-coffee",
@@ -164,7 +169,8 @@
       "coolify_uuid": "bxhzeice9jfsqsjqbs1rihwu",
       "preview_url": "https://happy-kopi-mockup.achmedfidel.com",
       "outreach_sent_at": "2026-10-16T05:43:46Z",
-      "followup_sent_at": "2026-10-22T06:28:09Z"
+      "followup_sent_at": "2026-10-22T06:28:09Z",
+      "link_sent_at": "2026-10-16T05:43:46Z"
     },
     {
       "slug": "have-a-treat",
@@ -332,7 +338,8 @@
       "coolify_uuid": "zljllepnekdafbrkctywa47p",
       "preview_url": "https://kyo-coffee-roaster-mockup.achmedfidel.com",
       "outreach_sent_at": "2026-10-16T07:19:19Z",
-      "followup_sent_at": "2026-10-22T06:28:50Z"
+      "followup_sent_at": "2026-10-22T06:28:50Z",
+      "link_sent_at": "2026-10-16T07:19:19Z"
     },
     {
       "slug": "kupinami-cafe-resto",
@@ -518,7 +525,8 @@
       "updated_at": "2026-10-16T07:18:16Z",
       "coolify_uuid": "idryfjnjt6bbnbpfum9dbkya",
       "preview_url": "https://paras-lawas-kopi-mockup.achmedfidel.com",
-      "outreach_sent_at": "2026-10-16T07:18:16Z"
+      "outreach_sent_at": "2026-10-16T07:18:16Z",
+      "link_sent_at": "2026-10-16T07:18:16Z"
     },
     {
       "slug": "mardin-baklava-patisserie",

@@ -27,9 +27,12 @@ export interface Shop {
   // Owner outreach
   outreach_sent_at?: string;
   followup_sent_at?: string;
+  link_sent_at?: string;
   owner_stage?: OwnerStage;
   owner_stage_at?: string;
   declined_at?: string;
+  // Set by scripts/archive-rejected.sh once the site and its Coolify app are deleted.
+  archived_at?: string;
 }
 
 export interface ShopsFile {
@@ -42,6 +45,11 @@ export interface Listing {
   website: string;
   rating: number | null;
   reviews: number | null;
+}
+
+// shops/<slug>/outreach.json, written by /shop-landing outreach.
+export interface Outreach {
+  hook: string;
 }
 
 export interface ShopFiles {

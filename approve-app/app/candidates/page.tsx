@@ -1,6 +1,7 @@
 "use client";
 import { useMemo, useState } from "react";
 import type { Status } from "@/lib/types";
+import { isOwnerClosed } from "@/lib/pipeline";
 import { moveShops, useShops } from "../useShops";
 
 const VIEWS: { status: Status; label: string }[] = [
@@ -114,11 +115,15 @@ export default function Candidates() {
                     <button className="btn go" disabled={busy} onClick={() => move([s.slug], "approved")}>Approve</button>
                   </>
                 )}
-                {view !== "candidate" && (
+                {view !== "candidate" && (isOwnerClosed(s) ? (
+                  <a href={`/shops/${s.slug}`} className="btn quiet">
+                    {s.declined_at ? "Owner declined" : "No answer"}{s.archived_at ? ", archived" : ""}
+                  </a>
+                ) : (
                   <button className="btn quiet" disabled={busy} onClick={() => move([s.slug], "candidate")}>
                     Move back to review
                   </button>
-                )}
+                ))}
               </div>
             </div>
           ))}

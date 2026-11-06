@@ -28,6 +28,13 @@ candidate ──► approved ──► brief_ready ──► brief_approved ─�
 
 Never set `approved`, `rejected`, `brief_approved` or `owner_approved` yourself. Those are human decisions.
 
+Between `built` and `owner_approved`, the approval app tracks the owner in fields, not statuses
+(`outreach_sent_at`, `followup_sent_at`, `link_sent_at`, `owner_stage`). The first message
+carries a scroll video and no link; the link goes out once the owner replies. When the owner
+declines, or doesn't answer the follow-up, the human closes it in the app and the shop becomes
+`rejected`. `scripts/archive-rejected.sh` then deletes its site and Coolify app and keeps
+`brief.md`, `raw.json` and `photos/` in `shops/_rejected/<slug>/` (sets `archived_at`).
+
 ## Hard rules
 
 1. **Sites are mockups for pitching the owner, so filling gaps is fine, but tag it.**
@@ -37,16 +44,18 @@ Never set `approved`, `rejected`, `brief_approved` or `owner_approved` yourself.
    `owner-checklist.md` so the owner can confirm or correct it.
    **Never invent, even as `[MOCKUP]`:** testimonials or reviews, ratings, awards, certifications,
    years in business, staff or owner names. Those only come from the listing.
-2. **Stay in your folder.** When working on a shop, only read and write inside `shops/<slug>/`,
-   plus status updates through `scripts/set-status.sh`.
-3. **Edit `data/shops.json` only through the scripts** (`add-candidates.sh`, `set-status.sh`).
+2. **Stay in your folder.** When working on a shop, only read and write inside `shops/<slug>/`
+   (or `shops/_rejected/<slug>/` once it's archived), plus status updates through
+   `scripts/set-status.sh`.
+3. **Edit `data/shops.json` only through the scripts** in `scripts/` (`add-candidates.sh`, `set-status.sh`, and the others).
    Never hand-edit it. The approval app reads it too, and a broken file breaks the app.
 4. **Never read or print the API key.** Scripts load `GOOGLE_PLACES_KEY` from `.env` themselves.
 5. **Photos:** `photos/photos.json` says who uploaded each one.
    - `owner-*.jpg` were uploaded to Google by the business itself. They may appear on the mockup.
    - `photo-*.jpg` are customer uploads: reference only, for reading the shop's look and feel.
      Never on the site.
-6. **Reviews are paraphrased, never quoted verbatim on a site,** and never attributed to a named reviewer.
+6. **Reviews are paraphrased, never quoted verbatim on a site or in a message to the owner,**
+   and never attributed to a named reviewer.
 7. Sites are mockups until `owner_approved`. Every mockup shows a small banner saying it's a draft
    and has `noindex`. Do not deploy anything.
 8. **Plan before building.** No site is built without its four docs. The stack is fixed by
@@ -69,5 +78,8 @@ scripts/                       Places API + shops.json helpers (need curl and jq
 data/shops.json                source of truth for every shop
 data/searches/                 raw discovery results
 approve-app/                   Next.js app where the human approves candidates and briefs
-shops/<slug>/                  raw.json, photos/, brief.md, docs/, site/, screenshots/, owner-checklist.md
+shops/<slug>/                  raw.json, photos/, brief.md, docs/, site/, screenshots/, owner-checklist.md,
+                               outreach.json (the owner message's personalized line)
+shops/<slug>/screenshots/      review shots + outreach-phone.png and outreach-scroll.mp4 (gitignored)
+shops/_rejected/<slug>/        archived shops: brief.md, raw.json, photos/ only
 ```

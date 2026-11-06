@@ -224,6 +224,10 @@ textarea.message {
 .waiting.due { border-color: var(--stop); }
 .timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; font-size: 13px; color: var(--muted); }
 .timeline li::before { content: "· "; }
+.media { display: flex; gap: 14px; align-items: flex-start; }
+.media-preview { flex: none; width: 150px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); display: block; }
+.media-side { display: grid; gap: 8px; align-content: start; }
+@media (max-width: 560px) { .media { flex-direction: column; } }
 .deal { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
 .deal-step { display: flex; gap: 10px; align-items: flex-start; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); }
 .deal-step.current { border-color: var(--ink); }

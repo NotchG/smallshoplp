@@ -25,25 +25,43 @@ project files directly.
   site with its screenshot and whether its mockup is online.
 - **Shop page** (click any shop): the 8 steps with the current one highlighted, and a Next
   step panel. For your steps it has the buttons; for Claude's steps, the exact command to copy
-  (`/shop-landing build komuka`); once the mockup is online, the WhatsApp message to the owner,
-  filled in, editable, with Copy, Open in WhatsApp, and Mark as sent. Below: screenshots and
-  the planning docs.
+  (`/shop-landing build komuka`); once the mockup is online, the preview video and the WhatsApp
+  message to the owner, filled in, editable, with Download video, Copy, Open in WhatsApp, and
+  Mark as sent. Below: screenshots and the planning docs.
 - **Candidates** and **Briefs:** the approval screens, as before.
 - Written in TypeScript (strict). `npm run typecheck` checks it without building.
 - **Docs:** every Claude Code command, terminal command and reusable prompt, grouped by step,
   each with a Copy button. Pick a shop and an area at the top and the commands fill in.
   Content lives in `approve-app/lib/docs.ts`.
 
-After you mark the message as sent, the shop page tracks the owner:
-- a timer ("No answer for 2 days 5 hours"); after 3 days with no reply, the follow-up message
-  appears with Copy, Open in WhatsApp and Mark follow-up as sent;
-- 3 days after the follow-up with still no reply, Mark as not answered closes it (reopen any time
-  with Owner replied);
-- once they reply, a deal stepper: Prospect → Hot prospect → DO (ordered), or Owner declined.
+Outreach is video-first. A link from an unknown number looks like the WhatsApp scams owners
+are used to, so the first messages carry none:
+- **First message:** a ~15 s phone video scrolling through their mockup
+  (`screenshots/outreach-scroll.mp4`), plus a message that opens with one personalized line
+  (`outreach.json`) and asks whether you may send the link. wa.me can't attach files, so you
+  download the video, drag it into the chat and send it, then send the message.
+- **Follow-up:** after 3 days with no reply, a sharp phone screenshot
+  (`screenshots/outreach-phone.png`, which you can copy straight into the chat) and a nudge.
+- **Link:** when they reply, press Owner replied. The link message appears with Mark link as
+  sent; then comes the deal stepper (Prospect → Hot prospect → DO, ordered) or Owner declined.
+- **No reply:** 3 days after the follow-up, Mark as not answered closes it.
 
-The home page lists follow-ups due, deals in progress, and owners you're waiting on.
+Declined and unanswered shops become `rejected`. `/shop-landing archive` (or
+`./scripts/archive-rejected.sh --all`) then deletes their sites and Coolify apps, keeping
+`brief.md`, `raw.json` and `photos/` in `shops/_rejected/<slug>/`. If an owner comes back,
+Owner replied after all moves the shop back (to `brief_approved` once archived, so Claude
+rebuilds it).
 
-Both messages and the 3-day timings live in `approve-app/lib/outreach.ts`.
+To prepare outreach for built shops:
+```bash
+node scripts/outreach-media.mjs --all   # video + phone screenshot, about a minute per shop
+```
+then `/shop-landing outreach` for the personalized lines. New builds get both automatically.
+
+The home page lists previews to send, links to send, follow-ups due, deals in progress, and
+owners you're waiting on.
+
+The messages and the 3-day timings live in `approve-app/lib/outreach.ts`.
 Your name for the message is entered once on a shop page and remembered in that browser.
 
 ## The loop
@@ -55,7 +73,8 @@ Your name for the message is entered once on a shop page and remembered in that 
 | 3 | Claude Code | `/shop-landing brief` → fetches details + photos, writes `brief.md` |
 | 4 | App, Briefs | Check the highlighted `[MOCKUP]` lines, edit if needed, approve or send back |
 | 5 | Claude Code | `/shop-landing build` → per shop, `shop-planner` writes the PRD, TRD, design brief and implementation plan in `docs/`, then `shop-builder` builds the Next.js site from them (3 shops at a time) |
-| 6 | You | Look at `shops/<slug>/screenshots/` first, then `cd shops/<slug>/site && npm run dev` to try it; send the owner the site plus `owner-checklist.md` |
+| 6 | Claude Code | `/shop-landing publish` → a Coolify app per shop (run locally) |
+| 7 | App, shop page | Send the owner the preview video; send the link once they reply; go through `owner-checklist.md` with them |
 
 Say `/shop-landing build, plan only` at step 5 to read the docs before anything is built.
 `/shop-landing status` tells you where everything is and what to run next.
@@ -138,4 +157,5 @@ The preview URL is saved to `shops.json` as `preview_url`. Or tell Claude
 ## Statuses
 
 `candidate → approved → brief_ready → brief_approved → planned → built → owner_approved`,
-plus `rejected` and `brief_rework`. Details in `CLAUDE.md`.
+plus `rejected` (also for shops the owner declined or never answered) and `brief_rework`.
+Details in `CLAUDE.md`.

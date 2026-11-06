@@ -8,17 +8,18 @@ import OnlineBadge, { useOnline } from "../../components/OnlineBadge";
 import { announceChange } from "../../useShops";
 import DealStepper from "../../components/DealStepper";
 import useNow from "../../components/useNow";
-import { currentStep, nextAction, ownerPhase } from "@/lib/pipeline";
+import { currentStep, isOwnerClosed, nextAction, ownerPhase } from "@/lib/pipeline";
 import {
-  FOLLOW_UP_AFTER_DAYS, FOLLOWUP_TEMPLATE, NO_ANSWER_AFTER_DAYS, OUTREACH_TEMPLATE,
-  daysToMs, fillMessage, formatDuration, whatsappLink,
+  FALLBACK_PHOTO, FOLLOW_UP_AFTER_DAYS, FOLLOWUP_TEMPLATE, LINK_FOLLOWUP_TEMPLATE, LINK_TEMPLATE, NO_ANSWER_AFTER_DAYS,
+  OUTREACH_PHOTO, OUTREACH_TEMPLATE, OUTREACH_VIDEO, daysToMs, fillMessage, formatDuration, whatsappLink,
 } from "@/lib/outreach";
 import { LABELS } from "@/lib/statuses";
-import type { Listing, OnlineState, Shop, ShopFiles } from "@/lib/types";
+import type { Listing, OnlineState, Outreach, Shop, ShopFiles } from "@/lib/types";
 
 interface ShopDetail {
   shop: Shop;
   listing: Listing | null;
+  outreach: Outreach | null;
   files: ShopFiles;
 }
 
@@ -26,7 +27,17 @@ interface ShopDetail {
 type ShopPatch =
   | { status: Shop["status"]; note?: string }
   | { outreach_sent: boolean }
-  | { owner: "followup_sent" | "followup_unsent" | "no_answer" | "prospect" | "hot" | "do" };
+  | { owner: "followup_sent" | "followup_unsent" | "no_answer" | "prospect" | "link_sent" | "link_unsent"
+      | "hot" | "do" | "reopen" };
+
+// A file from shops/<slug>/screenshots/ to send along with a message.
+interface Media {
+  kind: "video" | "image";
+  file: string;
+  download: string; // file name for the download
+}
+
+const shotUrl = (slug: string, file: string) => `/api/shops/${slug}/file?path=screenshots/${file}`;
 
 type Act = (body: ShopPatch) => Promise<void>;
 
@@ -61,10 +72,63 @@ async function patch(slug: string, body: ShopPatch): Promise<{ shop: Shop }> {
   return json;
 }
 
-function MessageComposer({ shop, listing, template, actionLabel, onAction, busy }: {
+// The video or image that goes with a message: preview, Download, and Copy for images.
+// wa.me can't attach files, so the media is sent by hand before the message.
+function MediaBlock({ slug, media }: { slug: string; media: Media }) {
+  const src = shotUrl(slug, media.file);
+  const [size, setSize] = useState("");
+  const [copied, setCopied] = useState("");
+
+  useEffect(() => {
+    if (media.kind !== "video") return;
+    fetch(src, { method: "HEAD" }).then((r) => {
+      const bytes = Number(r.headers.get("content-length"));
+      if (bytes) setSize(`${(bytes / 1e6).toFixed(1)} MB`);
+    }).catch(() => {});
+  }, [src, media.kind]);
+
+  async function copyImage() {
+    try {
+      // A promise inside ClipboardItem keeps Safari's user-gesture check happy.
+      await navigator.clipboard.write([new ClipboardItem({ "image/png": fetch(src).then((r) => r.blob()) })]);
+      setCopied("Copied");
+    } catch {
+      setCopied("Couldn't copy; use Download");
+    }
+    setTimeout(() => setCopied(""), 1600);
+  }
+
+  return (
+    <div className="media">
+      {media.kind === "video" ? (
+        <video src={src} controls muted playsInline preload="metadata" className="media-preview" />
+      ) : (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={src} alt="Phone screenshot of the mockup" className="media-preview" />
+      )}
+      <div className="media-side">
+        <p className="copy-label">{media.kind === "video" ? "Video" : "Image"} to send first{size && `, ${size}`}</p>
+        <div className="actions-row">
+          {media.kind === "image" && <button className="btn" onClick={copyImage}>{copied || "Copy image"}</button>}
+          <a className="btn" href={src} download={media.download} style={{ textDecoration: "none" }}>
+            Download {media.kind}
+          </a>
+        </div>
+        <p className="meta" style={{ margin: 0 }}>
+          {media.kind === "video"
+            ? "Drag the downloaded video into the WhatsApp chat and send it, then send the message."
+            : "Paste the image into the WhatsApp chat (⌘V) and send it, then send the message."}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function MessageComposer({ shop, listing, template, hook, actionLabel, onAction, busy }: {
   shop: Shop;
   listing: Listing | null;
   template: string;
+  hook?: string;
   actionLabel: string;
   onAction: () => void;
   busy: boolean;
@@ -82,8 +146,8 @@ function MessageComposer({ shop, listing, template, actionLabel, onAction, busy 
   }
 
   const generated = useMemo(
-    () => fillMessage(template, { name: shop.name, sender, link: shop.preview_url }),
-    [template, shop.name, sender, shop.preview_url],
+    () => fillMessage(template, { name: shop.name, sender, hook, link: shop.preview_url }),
+    [template, shop.name, sender, hook, shop.preview_url],
   );
   const text = edited ?? generated;
   const wa = whatsappLink(listing?.phone, text);
@@ -108,7 +172,9 @@ function MessageComposer({ shop, listing, template, actionLabel, onAction, busy 
         <textarea className="message" value={text} onChange={(e) => setEdited(e.target.value)}
           aria-label="Message to the owner" />
       </div>
-      {!sender.trim() && <p className="note">Add your name so the message doesn&rsquo;t say &lt;nama kamu&gt;.</p>}
+      {!sender.trim() && template.includes("{sender}") && (
+        <p className="note">Add your name so the message doesn&rsquo;t say &lt;nama kamu&gt;.</p>
+      )}
       <div className="actions-row">
         <button className="btn" onClick={copy}>{copied ? "Copied" : "Copy message"}</button>
         {wa ? (
@@ -122,10 +188,10 @@ function MessageComposer({ shop, listing, template, actionLabel, onAction, busy 
   );
 }
 
-function MockupLine({ shop, online }: { shop: Shop; online: OnlineState | null }) {
+function MockupLine({ shop, online, label = "Mockup:" }: { shop: Shop; online: OnlineState | null; label?: string }) {
   return (
     <div className="actions-row">
-      <span>Mockup:</span>
+      <span>{label}</span>
       <a href={shop.preview_url} target="_blank" rel="noreferrer">{shop.preview_url}</a>
       <OnlineBadge state={online} />
     </div>
@@ -134,9 +200,10 @@ function MockupLine({ shop, online }: { shop: Shop; online: OnlineState | null }
 
 const when = (iso: string | undefined) => !iso ? "" : new Date(iso).toLocaleString("id-ID", { dateStyle: "medium", timeStyle: "short" });
 
-function OwnerPanel({ shop, listing, online, act, busy }: {
+function OwnerPanel({ shop, listing, files, online, act, busy }: {
   shop: Shop;
   listing: Listing | null;
+  files: ShopFiles;
   online: OnlineState | null;
   act: Act;
   busy: boolean;
@@ -147,9 +214,10 @@ function OwnerPanel({ shop, listing, online, act, busy }: {
 
   const timeline = (
     <ul className="timeline">
-      <li>Mockup sent {when(shop.outreach_sent_at)}</li>
+      <li>Preview sent {when(shop.outreach_sent_at)}</li>
       {shop.followup_sent_at && <li>Follow-up sent {when(shop.followup_sent_at)}</li>}
       {shop.owner_stage_at && shop.owner_stage && <li>{STAGE_NOTE[shop.owner_stage]} {when(shop.owner_stage_at)}</li>}
+      {shop.link_sent_at && <li>Link sent {when(shop.link_sent_at)}</li>}
     </ul>
   );
 
@@ -184,12 +252,19 @@ function OwnerPanel({ shop, listing, online, act, busy }: {
   }
 
   if (phase === "followup_due") {
+    const photo = files.screenshots.includes(OUTREACH_PHOTO) ? OUTREACH_PHOTO
+      : files.screenshots.includes(FALLBACK_PHOTO) ? FALLBACK_PHOTO : null;
     return (
       <>
         <p className="waiting due"><strong>No answer for {formatDuration(waited)}.</strong> Time for the follow-up.</p>
         {timeline}
-        <MockupLine shop={shop} online={online} />
-        <MessageComposer shop={shop} listing={listing} template={FOLLOWUP_TEMPLATE}
+        {photo && <MediaBlock slug={shop.slug} media={{ kind: "image", file: photo, download: `${shop.slug}-preview.png` }} />}
+        {photo !== OUTREACH_PHOTO && (
+          <CopyBlock label="The sharp phone screenshot isn't made yet. Run in a terminal:"
+            text={`node scripts/outreach-media.mjs ${shop.slug}`} />
+        )}
+        <MessageComposer shop={shop} listing={listing}
+          template={shop.link_sent_at ? LINK_FOLLOWUP_TEMPLATE : FOLLOWUP_TEMPLATE}
           actionLabel="Mark follow-up as sent" busy={busy} onAction={() => act({ owner: "followup_sent" })} />
         <p className="meta" style={{ margin: 0 }}>Replied in the meantime?</p>
         {replied}
@@ -202,7 +277,8 @@ function OwnerPanel({ shop, listing, online, act, busy }: {
       <>
         <p className="waiting due">
           <strong>No answer for {formatDuration(waited)} since the follow-up.</strong> Close it as no answer,
-          so it stops showing up as waiting. You can reopen it if they reply later.
+          so it stops showing up as waiting. Its site then gets archived (the brief is kept), and you
+          can still reopen it if they reply later.
         </p>
         {timeline}
         <div className="actions-row">
@@ -223,6 +299,24 @@ function OwnerPanel({ shop, listing, online, act, busy }: {
     );
   }
 
+  if (phase === "link_due") {
+    return (
+      <>
+        <DealStepper stage="prospect" />
+        {timeline}
+        <MockupLine shop={shop} online={online} />
+        {online && !online.online && (
+          <p className="note">The mockup isn&rsquo;t online right now. Check Coolify before sending the link.</p>
+        )}
+        <MessageComposer shop={shop} listing={listing} template={LINK_TEMPLATE}
+          actionLabel="Mark link as sent" busy={busy} onAction={() => act({ owner: "link_sent" })} />
+        <div className="actions-row">
+          <button className="btn stop" disabled={busy} onClick={() => act({ status: "rejected" })}>Owner declined</button>
+        </div>
+      </>
+    );
+  }
+
   // prospect / hot
   return (
     <>
@@ -236,6 +330,9 @@ function OwnerPanel({ shop, listing, online, act, busy }: {
         {phase === "hot" && (
           <button className="btn quiet" disabled={busy} onClick={() => act({ owner: "prospect" })}>Back to prospect</button>
         )}
+        {phase === "prospect" && shop.link_sent_at && (
+          <button className="btn quiet" disabled={busy} onClick={() => act({ owner: "link_unsent" })}>Link not sent after all</button>
+        )}
         <button className="btn stop" disabled={busy} onClick={() => act({ status: "rejected" })}>Owner declined</button>
       </div>
     </>
@@ -243,7 +340,7 @@ function OwnerPanel({ shop, listing, online, act, busy }: {
 }
 
 const STAGE_NOTE: Record<string, string> = {
-  prospect: "Became a prospect", hot: "Became a hot prospect", do: "Ordered",
+  prospect: "Replied", hot: "Became a hot prospect", do: "Ordered",
   no_answer: "Closed as no answer",
 };
 
@@ -253,13 +350,16 @@ const OWNER_TITLES: Record<string, string> = {
   waiting_followup: "Waiting for a reply to the follow-up",
   no_answer_due: "No reply to the follow-up",
   no_answer: "No answer",
+  link_due: "Owner replied: send the link",
   prospect: "Prospect",
   hot: "Hot prospect",
 };
 
-function NextPanel({ shop, listing, online, reload }: {
+function NextPanel({ shop, listing, outreach, files, online, reload }: {
   shop: Shop;
   listing: Listing | null;
+  outreach: Outreach | null;
+  files: ShopFiles;
   online: OnlineState | null;
   reload: () => Promise<void>;
 }) {
@@ -303,16 +403,25 @@ function NextPanel({ shop, listing, online, reload }: {
 
       {action.kind === "send" && (
         <>
-          <MockupLine shop={shop} online={online} />
-          {online && !online.online && (
-            <p className="note">Wait until the mockup is online before sending. Coolify may still be building it.</p>
+          <MockupLine shop={shop} online={online} label="Mockup, for you to check (don't send the link yet):" />
+          {files.screenshots.includes(OUTREACH_VIDEO) ? (
+            <MediaBlock slug={shop.slug} media={{ kind: "video", file: OUTREACH_VIDEO, download: `${shop.slug}-preview.mp4` }} />
+          ) : (
+            <CopyBlock label="No preview video yet. Run in a terminal (about a minute):"
+              text={`node scripts/outreach-media.mjs ${shop.slug}`} />
           )}
-          <MessageComposer shop={shop} listing={listing} template={OUTREACH_TEMPLATE}
+          {!outreach && (
+            <CopyBlock label="No personalized line yet, so the message skips it. To add one, run in Claude Code:"
+              text={`/shop-landing outreach ${shop.slug}`} />
+          )}
+          <MessageComposer shop={shop} listing={listing} template={OUTREACH_TEMPLATE} hook={outreach?.hook}
             actionLabel="Mark as sent" busy={busy} onAction={() => act({ outreach_sent: true })} />
         </>
       )}
 
-      {action.kind === "owner" && <OwnerPanel shop={shop} listing={listing} online={online} act={act} busy={busy} />}
+      {action.kind === "owner" && (
+        <OwnerPanel shop={shop} listing={listing} files={files} online={online} act={act} busy={busy} />
+      )}
 
       {action.kind === "done" && (
         <>
@@ -324,13 +433,21 @@ function NextPanel({ shop, listing, online, reload }: {
         </>
       )}
 
-      {action.kind === "rejected" && (
+      {isOwnerClosed(shop) ? (
+        <>
+          {shop.archived_at && <p className="meta" style={{ margin: 0 }}>Archived {when(shop.archived_at)}.</p>}
+          <div className="actions-row">
+            <button className="btn" disabled={busy} onClick={() => act({ owner: "reopen" })}>Owner replied after all</button>
+          </div>
+          <p className="meta" style={{ margin: 0 }}>
+            {shop.archived_at
+              ? "Moves the shop back and sends it to Claude to rebuild from the kept brief. Then publish it and send the link."
+              : shop.link_sent_at ? "Moves it back to the deal." : "Moves it back to the deal, ready for you to send the link."}
+          </p>
+        </>
+      ) : action.kind === "rejected" && (
         <div className="actions-row">
-          {shop.declined_at ? (
-            <button className="btn" disabled={busy} onClick={() => act({ status: "built" })}>Owner changed their mind: back to prospect</button>
-          ) : (
-            <button className="btn" disabled={busy} onClick={() => act({ status: "candidate" })}>Move back to review</button>
-          )}
+          <button className="btn" disabled={busy} onClick={() => act({ status: "candidate" })}>Move back to review</button>
         </div>
       )}
 
@@ -346,9 +463,9 @@ export default function ShopPage() {
 
   if (error) return <><Link href="/" className="back">Dashboard</Link><p className="error">{error}</p></>;
   if (!data) return <p className="empty">Loading…</p>;
-  const { shop, listing, files } = data;
+  const { shop, listing, outreach, files } = data;
   const step = currentStep(shop);
-  const shot = (name: string) => `/api/shops/${slug}/file?path=screenshots/${name}`;
+  const shot = (name: string) => shotUrl(slug, name);
   const hasShots = files.screenshots.includes("1440-fold.png");
 
   return (
@@ -357,9 +474,9 @@ export default function ShopPage() {
       <div className="shop-head">
         <h1>{shop.name}</h1>
         <span className="status-pill">{
-          shop.declined_at && shop.status === "rejected" ? "Owner declined"
-          : shop.status === "built" && shop.owner_stage ? OWNER_TITLES[shop.owner_stage]
-          : shop.status === "built" && shop.outreach_sent_at ? "Sent to owner"
+          isOwnerClosed(shop) ? `${shop.declined_at ? "Owner declined" : "No answer"}${shop.archived_at ? ", archived" : ""}`
+          : shop.status === "built" && shop.owner_stage ? OWNER_TITLES[ownerPhase(shop).phase ?? shop.owner_stage]
+          : shop.status === "built" && shop.outreach_sent_at ? "Preview sent"
           : LABELS[shop.status]
         }</span>
       </div>
@@ -374,7 +491,7 @@ export default function ShopPage() {
 
       <div className="shop-layout">
         <Stepper current={step} />
-        <NextPanel shop={shop} listing={listing} online={online} reload={reload} />
+        <NextPanel shop={shop} listing={listing} outreach={outreach} files={files} online={online} reload={reload} />
       </div>
 
       {hasShots && (

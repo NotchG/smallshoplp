@@ -26,7 +26,7 @@ export const LABELS: Record<Status, string> = {
 // Moves the human is allowed to make from this app.
 export const HUMAN_MOVES: Partial<Record<Status, readonly Status[]>> = {
   candidate: ["approved", "rejected"],
-  rejected: ["candidate", "built"],
+  rejected: ["candidate"], // shops the owner turned down come back with the owner op "reopen"
   approved: ["candidate"],
   brief_ready: ["brief_approved", "brief_rework"],
   brief_approved: ["brief_ready"],
