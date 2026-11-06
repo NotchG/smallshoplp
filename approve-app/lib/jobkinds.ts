@@ -22,6 +22,7 @@ export interface Job {
   endedAt?: string;
   exitCode?: number | null;
   error?: string;
+  stopping?: boolean; // running, and cancelled from the app: the worker is stopping it
 }
 
 const list = (slugs?: string[]) => (slugs?.length ? (slugs.length > 3 ? `${slugs.length} shops` : slugs.join(", ")) : "every shop waiting");

@@ -92,11 +92,12 @@ export function JobsList() {
             <small>{when(j.startedAt || j.createdAt)}{j.error ? ` · ${j.error}` : ""}</small>
           </button>
           {(j.status === "queued" || j.status === "running") && (
-            <button type="button" className="btn small stop" onClick={async () => {
-              await fetch(`/api/jobs/${j.id}/cancel`, { method: "POST" });
+            <button type="button" className="btn small stop" disabled={j.stopping} onClick={async () => {
+              const res = await fetch(`/api/jobs/${j.id}/cancel`, { method: "POST" }).catch(() => null);
               window.dispatchEvent(new Event("jobs-changed"));
-              toast(j.status === "queued" ? "Job cancelled" : "Stopping the job…");
-            }}><Square size={12} />Cancel</button>
+              if (!res?.ok) toast("Couldn't cancel that job. Try again.", { error: true });
+              else toast(j.status === "queued" ? "Job cancelled" : "Stopping the job…");
+            }}><Square size={12} />{j.stopping ? "Stopping…" : "Cancel"}</button>
           )}
           {open === j.id && <Log job={j} />}
         </div>

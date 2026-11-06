@@ -4,7 +4,7 @@
 //                                         GOOGLE_PLACES_KEY, COOLIFY_URL, COOLIFY_TOKEN)
 // Test hooks: WORKER_GIT=off skips git; CLAUDE_BIN points at a stand-in for the claude CLI; WORKER_ONCE=1
 // exits when the queue is empty.
-import { spawn } from "node:child_process";
+import { spawn, spawnSync } from "node:child_process";
 import fs from "node:fs";
 import fsp from "node:fs/promises";
 import path from "node:path";
@@ -61,13 +61,55 @@ async function withLock(fn) {
   try { return await fn(); } finally { await fsp.rm(LOCK, { recursive: true, force: true }); }
 }
 
+// A process and everything it started, from /proc on Linux (the NAS) or ps elsewhere. Claude's tools
+// can run in their own process groups, so killing the group alone can miss them.
+function processTree(root) {
+  const kids = new Map();
+  const add = (pid, ppid) => { if (!kids.has(ppid)) kids.set(ppid, []); kids.get(ppid).push(pid); };
+  try {
+    for (const name of fs.readdirSync("/proc")) {
+      if (!/^\d+$/.test(name)) continue;
+      try { const stat = fs.readFileSync(`/proc/${name}/stat`, "utf8"); add(Number(name), Number(stat.slice(stat.lastIndexOf(")") + 2).split(" ")[1])); } catch {}
+    }
+  } catch {
+    const out = spawnSync("ps", ["-A", "-o", "pid=,ppid="], { encoding: "utf8" }).stdout ?? "";
+    for (const l of out.trim().split("\n")) { const [pid, ppid] = l.trim().split(/\s+/).map(Number); add(pid, ppid); }
+  }
+  const tree = [root];
+  for (let i = 0; i < tree.length; i++) tree.push(...(kids.get(tree[i]) ?? []));
+  return tree.filter((pid) => pid !== process.pid);
+}
+
+const alive = (pid) => { try { process.kill(pid, 0); return true; } catch { return false; } };
+
 // Runs a command, streaming its output to the job log through `line`. Resolves with the exit code.
+// Stopping it (timeout or cancel) sends SIGTERM to the whole tree, then SIGKILL to whatever is
+// still alive 10 seconds later: claude doesn't always exit on SIGTERM mid-tool.
 function run(cmd, args, { line, timeout = 10 * MIN, cancelled = () => false } = {}) {
   return new Promise((resolve) => {
     const child = spawn(cmd, args, { cwd: ROOT, env: process.env, detached: true, stdio: ["ignore", "pipe", "pipe"] });
-    const kill = (why) => { line(why); try { process.kill(-child.pid, "SIGTERM"); } catch {} };
+    let stopping = false;
+    const signal = (pids, sig) => {
+      try { process.kill(-child.pid, sig); } catch {}
+      for (const pid of pids) try { process.kill(pid, sig); } catch {}
+    };
+    const kill = (why) => {
+      if (stopping) return;
+      stopping = true;
+      line(why);
+      const pids = processTree(child.pid);
+      signal(pids, "SIGTERM");
+      setTimeout(() => {
+        const left = [...new Set([...pids, ...processTree(child.pid)])].filter(alive);
+        if (!left.length) return;
+        line("Still running 10 seconds later; killing it.");
+        signal(left, "SIGKILL");
+      }, 10_000);
+    };
     const timer = setTimeout(() => kill(`Stopped: took longer than ${Math.round(timeout / MIN)} minutes.`), timeout);
     const watch = setInterval(() => { if (cancelled()) { clearInterval(watch); kill("Stopping: cancelled from the app."); } }, 1000);
+    // A process the command left behind can hold its output open after it exits; don't wait on it.
+    child.on("exit", () => setTimeout(() => { child.stdout.destroy(); child.stderr.destroy(); }, 5000).unref());
     for (const stream of [child.stdout, child.stderr]) {
       let buf = "";
       stream.on("data", (d) => { buf += d; const parts = buf.split("\n"); buf = parts.pop(); parts.forEach(line); });

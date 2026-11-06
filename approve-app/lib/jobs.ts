@@ -46,7 +46,10 @@ export async function createJob(kind: JobKind, args: JobArgs): Promise<Job> {
 
 export async function readJob(id: string): Promise<Job | null> {
   if (!JOB_ID.test(id)) return null;
-  try { return JSON.parse(await fs.readFile(file(id, "json"), "utf8")) as Job; } catch { return null; }
+  let job: Job;
+  try { job = JSON.parse(await fs.readFile(file(id, "json"), "utf8")) as Job; } catch { return null; }
+  if (job.status === "running") job.stopping = await fs.access(file(id, "cancel")).then(() => true, () => false);
+  return job;
 }
 
 export async function listJobs(limit = 30): Promise<Job[]> {
