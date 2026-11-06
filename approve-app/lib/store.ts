@@ -177,21 +177,22 @@ export async function listLeads(): Promise<Lead[]> {
     const stage = leadStage(shop, now);
     const base = await shopDir(shop.slug);
     const has = (rel: string) => fs.access(path.join(base, rel)).then(() => true, () => false);
-    const [video, phone, fold, outreach, raw, brief] = await Promise.all([
-      has("screenshots/outreach-scroll.mp4"), has("screenshots/outreach-phone.png"), has("screenshots/390-fold.png"),
+    const [video, poster, phone, fold, outreach, raw, brief] = await Promise.all([
+      has("screenshots/outreach-scroll.mp4"), has("screenshots/outreach-poster.jpg"),
+      has("screenshots/outreach-phone.png"), has("screenshots/390-fold.png"),
       readOutreach(shop.slug),
       SALES.has(stage) ? readRaw(shop.slug) : Promise.resolve(null),
       stage === "brief_ready" ? readBriefSummary(shop.slug) : Promise.resolve(null),
     ]);
     return {
-      ...shop, stage, area: areaOf(shop.address), media: { video, phone, fold }, hook: outreach?.hook ?? "",
+      ...shop, stage, area: areaOf(shop.address), media: { video, poster, phone, fold }, hook: outreach?.hook ?? "",
       phone: raw?.internationalPhoneNumber || raw?.nationalPhoneNumber || "", brief,
     };
   }));
 }
 
 // Only files inside these folders of a shop can be served, nothing else.
-const SERVABLE = /^(docs\/[a-z0-9-]+\.md|screenshots\/[a-z0-9-]+\.(png|mp4)|owner-checklist\.md|brief\.md)$/;
+const SERVABLE = /^(docs\/[a-z0-9-]+\.md|screenshots\/[a-z0-9-]+\.(png|jpg|mp4)|owner-checklist\.md|brief\.md)$/;
 
 export async function readShopFile(slug: string, rel: string): Promise<Buffer | null> {
   if (!validSlug(slug) || !SERVABLE.test(rel)) return null;

@@ -14,6 +14,7 @@ export type Stage =
 
 export interface LeadMedia {
   video: boolean;   // screenshots/outreach-scroll.mp4
+  poster: boolean;  // screenshots/outreach-poster.jpg: the video is the current laptop-and-phone style (9:16)
   phone: boolean;   // screenshots/outreach-phone.png
   fold: boolean;    // screenshots/390-fold.png
 }
@@ -87,6 +88,12 @@ export const shotUrl = (slug: string, file: string) => `/api/shops/${slug}/file?
 // The best still for a lead: the sharp phone shot, else the build's 1x phone screenshot.
 export const stillOf = (l: Lead): string =>
   l.media.phone ? shotUrl(l.slug, "outreach-phone.png") : l.media.fold ? shotUrl(l.slug, "390-fold.png") : "";
+
+// The video's poster: its own first frame when it's the current style, else the phone still.
+export const posterOf = (l: Lead): string => (l.media.poster ? shotUrl(l.slug, "outreach-poster.jpg") : stillOf(l));
+
+// A video still in the old phone-only style (or none) needs making again.
+export const needsVideo = (l: Lead): boolean => !l.media.video || !l.media.poster;
 
 // ---------- Today ----------
 export type TodayAction = "followup" | "link" | "close" | "brief" | "send";

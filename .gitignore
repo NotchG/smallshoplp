@@ -5,6 +5,13 @@ node_modules/
 *.tmp
 data/coolify.json
 shops/*/screenshots/*.mp4
+# Outreach media is remade on demand (scripts/outreach-media.mjs); the poster belongs with its video.
+shops/*/screenshots/outreach-poster.jpg
+shops/*/screenshots/outreach-phone.png
+# Site builds. Each site's own .gitignore covers them, but archiving deletes that file along with
+# the site, and a build left behind on another checkout would then show up as new files.
+shops/*/site/out/
+shops/*/site/next-env.d.ts
 .impeccable/mocks/
 .impeccable/review/
 .impeccable/questions/

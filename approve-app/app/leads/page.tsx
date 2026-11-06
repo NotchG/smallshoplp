@@ -5,7 +5,7 @@ import { useMemo, useState } from "react";
 import { ArrowUpDown, ExternalLink } from "lucide-react";
 import { useLeads } from "../useLeads";
 import Rating from "../components/Rating";
-import { NEXT, SALES, STAGE, URGENCY, daysSince, shotUrl, stillOf, type Lead, type Stage } from "@/lib/leads";
+import { NEXT, SALES, STAGE, URGENCY, daysSince, posterOf, shotUrl, stillOf, type Lead, type Stage } from "@/lib/leads";
 
 type SortKey = "name" | "area" | "reviews" | "next" | "touch";
 const touched = (l: Lead) => l.followup_sent_at || l.outreach_sent_at || l.updated_at || l.created_at || "";
@@ -32,9 +32,9 @@ function Drawer({ lead }: { lead: Lead }) {
   const still = stillOf(lead);
   return (
     <>
-      <div className="frame">
+      <div className={`frame${lead.media.video && lead.media.poster ? " stage" : ""}`}>
         {lead.media.video
-          ? <video key={lead.slug} src={shotUrl(lead.slug, "outreach-scroll.mp4")} poster={still} muted loop playsInline autoPlay />
+          ? <video key={lead.slug} src={shotUrl(lead.slug, "outreach-scroll.mp4")} poster={posterOf(lead)} muted loop playsInline autoPlay />
           // eslint-disable-next-line @next/next/no-img-element
           : still ? <img src={still} alt={`${lead.name} mockup on a phone`} />
           : <div className="brief-doc"><h4>{lead.type}</h4><p>{lead.why}</p></div>}

@@ -41,7 +41,8 @@ The worker (`worker/run.mjs`) runs one job at a time: git pull, the job, then co
 
 Outreach is video-first. A link from an unknown number looks like the WhatsApp scams owners
 are used to, so the first messages carry none:
-- **First message:** a ~15 s phone video scrolling through their mockup
+- **First message:** a ~10 s video of their mockup on a laptop and a phone together, scrolling
+  with the site's own motion, on a tint of the shop's colour with its name above
   (`screenshots/outreach-scroll.mp4`), plus a message that opens with one personalized line
   (`outreach.json`) and asks whether you may send the link. wa.me can't attach files, so you
   download the video, drag it into the chat and send it, then send the message.

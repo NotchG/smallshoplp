@@ -12,7 +12,7 @@ export const OUTREACH_TEMPLATE = `Halo, {name}. Saya {sender}, pembuat website u
 
 {hook}
 
-Saya sudah menyiapkan contoh website untuk {name}. Videonya memperlihatkan tampilannya di HP, lengkap dengan tombol WhatsApp dan petunjuk arah.
+Saya sudah menyiapkan contoh website untuk {name}. Videonya memperlihatkan tampilannya di HP dan laptop, lengkap dengan tombol WhatsApp dan petunjuk arah.
 
 Ini masih draf: beberapa detail berupa perkiraan dan bisa disesuaikan. Melihatnya gratis dan tanpa kewajiban.
 

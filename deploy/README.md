@@ -238,12 +238,16 @@ usual causes are `worker/run.mjs` not yet on `main`, a wrong Claude token, or fi
 
 ## 9. First jobs after install
 
-The NAS clone has no `site/out/` builds and no scroll videos: both are gitignored. In the app,
+The NAS clone has no `site/out/` builds and no preview videos: both are gitignored. In the app,
 run these two jobs, in this order:
 
 1. **outreach-media** for all ready shops. Without `site/out/`, the script records each shop's
-   live `preview_url`, using the image's own Playwright. Expect about 20 seconds per shop.
+   live `preview_url`, using the image's own Playwright. Expect 15 to 30 seconds per shop.
 2. **outreach-lines** for the same shops, to write each owner's personalized line.
+
+When the video's style changes, **Production → Build queue → Make preview videos** lists every
+ready shop whose video is missing or in an older style (an old video has no
+`outreach-poster.jpg`). One click remakes them all.
 
 From then on, run the pipeline only from the app. Nothing on the Mac should touch
 `data/shops.json` or `shops/`.

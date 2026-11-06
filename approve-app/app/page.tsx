@@ -9,7 +9,7 @@ import { useLeads } from "./useLeads";
 import { useToast } from "./components/Toast";
 import { EFFECTS, copyText, patchShop, type Effect } from "@/lib/actions";
 import {
-  DAILY_SENDS, daysSince, sentTodayCount, shotUrl, stillOf, todayQueue, type Lead, type TodayAction,
+  DAILY_SENDS, daysSince, posterOf, sentTodayCount, shotUrl, stillOf, todayQueue, type Lead, type TodayAction,
 } from "@/lib/leads";
 import {
   FOLLOWUP_TEMPLATE, LINK_FOLLOWUP_TEMPLATE, LINK_TEMPLATE, OUTREACH_TEMPLATE, fillMessage, whatsappLink,
@@ -70,7 +70,7 @@ function Media({ lead, action }: { lead: Lead; action: TodayAction }) {
     );
   }
   if (action === "send" && lead.media.video) {
-    return <video src={shotUrl(lead.slug, "outreach-scroll.mp4")} poster={stillOf(lead)} muted loop playsInline preload="metadata" aria-label={`Scroll video of the ${lead.name} mockup`} />;
+    return <video src={shotUrl(lead.slug, "outreach-scroll.mp4")} poster={posterOf(lead)} muted loop playsInline preload="metadata" aria-label={`Preview video of the ${lead.name} mockup`} />;
   }
   const still = stillOf(lead);
   return (
@@ -234,7 +234,7 @@ export default function Today() {
               return (
                 <article key={`${l.slug}:${q.action}`} className={`slide ${leaving === l.slug ? "leaving" : ""}`} data-i={i} aria-label={`${l.name}: ${a.title}`}
                   style={stillOf(l) ? ({ "--poster": `url('${stillOf(l)}')` } as React.CSSProperties) : undefined}>
-                  <div className="frame">
+                  <div className={`frame${q.action === "send" && l.media.video && l.media.poster ? " stage" : ""}`}>
                     <Media lead={l} action={q.action} />
                     <div className="scrim">
                       <h3>{l.name}</h3>
@@ -338,7 +338,7 @@ function SidePanel({ lead, action, text, sender, setSender, onEdit, onWa, onMedi
       </div>
     );
   }
-  const attach = action === "send" ? (lead.media.video ? "Scroll video of their mockup" : "Video not made yet")
+  const attach = action === "send" ? (lead.media.video ? "Preview video of their mockup" : "Video not made yet")
     : action === "followup" ? "Phone screenshot of the hero" : null;
   return (
     <>

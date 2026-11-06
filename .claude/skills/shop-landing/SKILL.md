@@ -163,8 +163,8 @@ Every site is planned before it's built. Two subagents per shop, in this order:
    `linkPreview` is the preview URL's `/og.jpg`, not `example.com`. If the report
    still flags problems, send the builder back once with the report. Then
    `./scripts/set-status.sh <slug> built`.
-5. Prepare its outreach: `node scripts/outreach-media.mjs <slug> --force` (the scroll video
-   and phone screenshot, about a minute; `--force` because the site just changed), then
+5. Prepare its outreach: `node scripts/outreach-media.mjs <slug> --force` (the preview video
+   and phone screenshot, under a minute; `--force` because the site just changed), then
    Mode 6 for that shop.
 6. When all are done, list each built shop with the builder's summary and point the user to
    `shops/<slug>/screenshots/` to review.
@@ -198,7 +198,7 @@ Shops that already have an app redeploy automatically on push; don't publish the
 ## Mode 6: outreach
 
 Writes the personalized line that opens the first WhatsApp message to each owner. That message
-goes with the scroll video and carries no link; the approval app fills in the rest
+goes with the preview video and carries no link; the approval app fills in the rest
 (`approve-app/lib/outreach.ts`). Applies to `built` shops without `shops/<slug>/outreach.json`,
 or to the named shops, rewriting theirs.
 
@@ -220,9 +220,13 @@ For each shop:
    rules. Then check every file is valid JSON with a non-empty `hook`.
 
 The media: `node scripts/outreach-media.mjs <slug>…` (or `--all`) makes
-`screenshots/outreach-scroll.mp4` (first message) and `screenshots/outreach-phone.png`
-(follow-up) from the built `site/out/`. About a minute per shop, so run it in the background
-for many shops. Videos are gitignored; the script can always make them again.
+`screenshots/outreach-scroll.mp4` (first message: the site on a laptop and a phone together,
+scrolling with its own motion), `screenshots/outreach-poster.jpg` (the video's first frame, for
+the dashboard) and `screenshots/outreach-phone.png` (follow-up) from the built `site/out/`, or
+from the live `preview_url` when there is no build. Under a minute per shop, so run it in the
+background for many shops. Videos are gitignored; the script can always make them again. A shop
+whose video has no poster has an old phone-only video: the script and the dashboard's Make
+preview videos step both treat it as missing.
 
 ---
 

@@ -95,7 +95,7 @@ export const DOC_SECTIONS: DocSection[] = [
   {
     id: "outreach",
     title: "Outreach",
-    intro: "The first message carries a scroll video and no link; the follow-up a phone screenshot. The link goes out once the owner replies. Send everything from the shop pages.",
+    intro: "The first message carries a preview video and no link; the follow-up a phone screenshot. The link goes out once the owner replies. Send everything from the shop pages.",
     items: [
       { kind: "terminal", label: "Video and phone screenshot, every built shop that lacks them", text: "node scripts/outreach-media.mjs --all" },
       { kind: "terminal", label: "Remake one shop's after changing its site", text: "node scripts/outreach-media.mjs {slug} --force" },

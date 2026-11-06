@@ -9,7 +9,7 @@ import { useToast } from "../../components/Toast";
 import Rating from "../../components/Rating";
 import { JobsList, RunButton, queueJob } from "../../components/Jobs";
 import { EFFECTS, patchShop } from "@/lib/actions";
-import { STAGE, stillOf, type Lead } from "@/lib/leads";
+import { STAGE, needsVideo, stillOf, type Lead } from "@/lib/leads";
 
 const TABS: [string, string, (l: Lead) => boolean][] = [
   ["candidates", "Candidates", (l) => l.stage === "candidate"],
@@ -120,14 +120,14 @@ function BuildQueue({ leads }: { leads: Lead[] }) {
   const needBuild = at("brief_approved", "planned");
   const needPublish = at("to_publish");
   const ready = at("ready");
-  const needVideo = ready.filter((l) => !l.media.video);
+  const needVideo = ready.filter(needsVideo);
   const needLine = ready.filter((l) => !l.hook);
   const needArchive = at("no_answer", "declined").filter((l) => !l.archived_at);
   const steps: [string, string, Lead[], React.ReactNode][] = [
     ["Write briefs", "Approved candidates and briefs you sent back. Uses the Places key.", needBrief, <RunButton key="b" kind="brief" args={{ slugs: slugs(needBrief) }} primary />],
     ["Plan and build", "Approved briefs: Claude writes the PRD, TRD, design brief and plan, then builds and reviews the site.", needBuild, <RunButton key="p" kind="build" args={{ slugs: slugs(needBuild) }} primary />],
     ["Publish", "Built sites without a Coolify app yet.", needPublish, <RunButton key="u" kind="publish" args={{ slugs: slugs(needPublish) }} primary />],
-    ["Make preview videos", "Ready shops without a scroll video (about a minute each).", needVideo, <RunButton key="v" kind="outreach-media" args={{ slugs: slugs(needVideo) }} />],
+    ["Make preview videos", "Ready shops without a laptop-and-phone video, including old phone-only ones (under a minute each).", needVideo, <RunButton key="v" kind="outreach-media" args={{ slugs: slugs(needVideo) }} />],
     ["Write personal lines", "Ready shops without the opening line for their first message.", needLine, <RunButton key="l" kind="outreach-lines" args={{ slugs: slugs(needLine) }} />],
     ["Archive", "Declined and unanswered shops: deletes the site and Coolify app, keeps the brief.", needArchive, <RunButton key="a" kind="archive" args={{ slugs: slugs(needArchive) }} />],
   ];

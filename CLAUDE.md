@@ -30,7 +30,7 @@ Never set `approved`, `rejected`, `brief_approved` or `owner_approved` yourself.
 
 Between `built` and `owner_approved`, the approval app tracks the owner in fields, not statuses
 (`outreach_sent_at`, `followup_sent_at`, `link_sent_at`, `owner_stage`). The first message
-carries a scroll video and no link; the link goes out once the owner replies. When the owner
+carries a preview video and no link; the link goes out once the owner replies. When the owner
 declines, or doesn't answer the follow-up, the human closes it in the app and the shop becomes
 `rejected`. `scripts/archive-rejected.sh` then deletes its site and Coolify app and keeps
 `brief.md`, `raw.json` and `photos/` in `shops/_rejected/<slug>/` (sets `archived_at`).
@@ -93,6 +93,6 @@ data/searches/                 raw discovery results
 approve-app/                   Next.js app where the human approves candidates and briefs
 shops/<slug>/                  raw.json, photos/, brief.md, docs/, site/, screenshots/, owner-checklist.md,
                                outreach.json (the owner message's personalized line)
-shops/<slug>/screenshots/      review shots + outreach-phone.png and outreach-scroll.mp4 (gitignored)
+shops/<slug>/screenshots/      review shots + outreach-phone.png, outreach-scroll.mp4 and outreach-poster.jpg (gitignored)
 shops/_rejected/<slug>/        archived shops: brief.md, raw.json, photos/ only
 ```

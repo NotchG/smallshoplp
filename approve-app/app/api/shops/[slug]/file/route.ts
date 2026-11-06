@@ -2,7 +2,7 @@ import { readShopFile } from "@/lib/store";
 
 export const dynamic = "force-dynamic";
 
-const TYPES: Record<string, string> = { png: "image/png", mp4: "video/mp4" };
+const TYPES: Record<string, string> = { png: "image/png", jpg: "image/jpeg", mp4: "video/mp4" };
 
 // Serves a shop's screenshots, outreach video and docs: /api/shops/<slug>/file?path=screenshots/1440-fold.png
 // Videos answer a single Range request with 206, which Safari needs to play <video>.
