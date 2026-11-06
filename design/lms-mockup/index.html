@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>smallshoplp · Leads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400..700&family=Schibsted+Grotesk:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <nav class="nav" aria-label="Main">
+    <div class="brand">small<span>shop</span>lp</div>
+    <div class="nav-group">
+      <h2>Sales</h2>
+      <a href="#today" data-screen="today"><i data-lucide="inbox"></i>Today <span class="n due" data-count="today"></span></a>
+      <a href="#pipeline" data-screen="pipeline"><i data-lucide="kanban"></i>Pipeline</a>
+      <a href="#leads" data-screen="leads"><i data-lucide="list"></i>Leads <span class="n" data-count="leads"></span></a>
+      <a href="#metrics" data-screen="metrics"><i data-lucide="chart-column"></i>Metrics</a>
+    </div>
+    <div class="nav-group">
+      <h2>Production</h2>
+      <a href="#production/candidates" data-screen="production" data-tab="candidates"><i data-lucide="map-pin"></i>Candidates <span class="n" data-count="candidates"></span></a>
+      <a href="#production/briefs" data-screen="production" data-tab="briefs"><i data-lucide="file-text"></i>Briefs <span class="n" data-count="briefs"></span></a>
+      <a href="#production/build" data-screen="production" data-tab="build"><i data-lucide="hammer"></i>Build queue <span class="n" data-count="build"></span></a>
+      <a href="#production/published" data-screen="production" data-tab="published"><i data-lucide="globe"></i>Published <span class="n" data-count="published"></span></a>
+    </div>
+    <p class="nav-foot" id="snapshot"></p>
+  </nav>
+
+  <main>
+    <section class="screen" id="today" aria-label="Today"></section>
+    <section class="screen" id="pipeline" aria-label="Pipeline"></section>
+    <section class="screen" id="leads" aria-label="Leads"></section>
+    <section class="screen" id="metrics" aria-label="Metrics"></section>
+    <section class="screen" id="production" aria-label="Production"></section>
+  </main>
+</div>
+
+<nav class="mobile-tabs" aria-label="Main">
+  <a href="#today" data-screen="today"><i data-lucide="inbox"></i>Today</a>
+  <a href="#pipeline" data-screen="pipeline"><i data-lucide="kanban"></i>Pipeline</a>
+  <a href="#leads" data-screen="leads"><i data-lucide="list"></i>Leads</a>
+  <a href="#metrics" data-screen="metrics"><i data-lucide="chart-column"></i>Metrics</a>
+  <a href="#production/candidates" data-screen="production"><i data-lucide="hammer"></i>Production</a>
+</nav>
+
+<div class="toast" role="status" aria-live="polite"><span></span><button type="button">Undo</button></div>
+
+<script src="data.js"></script>
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
