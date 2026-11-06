@@ -247,7 +247,8 @@ run these two jobs, in this order:
 
 When the video's style changes, **Production → Build queue → Make preview videos** lists every
 ready shop whose video is missing or in an older style (an old video has no
-`outreach-poster.jpg`). One click remakes them all.
+`outreach-poster.jpg`). One click remakes them all. **Remake all**, in the same row, makes every
+ready shop's video again whatever its style, for when the script itself was fixed.
 
 From then on, run the pipeline only from the app. Nothing on the Mac should touch
 `data/shops.json` or `shops/`.

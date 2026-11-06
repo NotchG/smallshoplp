@@ -177,14 +177,20 @@ function siteStops(indexes) {
   return [0, ...indexes.map((i) => (all[i] ? Math.min(max, Math.round(all[i].getBoundingClientRect().top + scrollY)) : max))];
 }
 
-// In the site: a sizeable CSS-animated piece of the hero below the fold (a signature moment such
-// as a box opening), to glide down to before the first section. null when there is none.
+// In the site: a sizeable piece of the hero below the fold to glide down to before the first
+// section. A CSS-animated one first (a signature moment such as a box opening), else the hero's
+// picture. null when there is none.
 function heroGlide(limit) {
-  for (const el of document.querySelectorAll("body *")) {
-    if (getComputedStyle(el).animationName === "none") continue;
+  const target = (el) => {
     const r = el.getBoundingClientRect();
     const top = r.top + scrollY;
-    if (r.width >= 120 && r.height >= 120 && top > innerHeight * 0.55 && top < limit) return Math.max(0, Math.round(top - 150));
+    return r.width >= 120 && r.height >= 120 && top > innerHeight * 0.55 && top < limit ? Math.max(0, Math.round(top - 150)) : null;
+  };
+  for (const el of document.querySelectorAll("body *")) {
+    if (getComputedStyle(el).animationName !== "none" && target(el) !== null) return target(el);
+  }
+  for (const el of document.querySelectorAll("svg, img, picture, canvas, video")) {
+    if (target(el) !== null) return target(el);
   }
   return null;
 }
@@ -216,10 +222,14 @@ function installSync() {
   window.__sync();
 }
 
-// Lazy images load eagerly, so no frame shows a blank box.
+// Lazy images load eagerly, so no frame shows a blank box. Polls from Node: on a paused clock the
+// page's own timers and animation frames don't run.
 async function ready(frame) {
   await frame.evaluate(() => document.querySelectorAll("img[loading=lazy]").forEach((img) => { img.loading = "eager"; }));
-  await frame.waitForFunction(() => [...document.images].every((img) => img.complete), null, { timeout: 8000 }).catch(() => {});
+  for (let i = 0; i < 40; i++) {
+    if (await frame.evaluate(() => [...document.images].every((img) => img.complete))) break;
+    await frame.page().waitForTimeout(200);
+  }
   await frame.evaluate(() => document.fonts.ready);
 }
 
@@ -309,8 +319,12 @@ async function makeMedia(shop, liveUrl) {
     await still.close();
 
     // The video: the stage on a fake clock, so the site's motion is stepped one frame at a time.
+    // Paused at once: an installed clock otherwise keeps running on wall time, and the site's load
+    // animations would be over before the first frame.
     const page = await browser.newPage({ viewport: { width: 540, height: 960 }, deviceScaleFactor: 2 });
-    await page.clock.install();
+    const t0 = Date.now();
+    await page.clock.install({ time: t0 });
+    await page.clock.pauseAt(t0 + 1000);
     server.setStage(stageHtml({ name: shop.name || shop.slug, ...palette(null) }));
     await page.goto(`${base}/__stage.html`, { waitUntil: "networkidle" });
     let [, desk, phone] = page.frames();
@@ -323,18 +337,11 @@ async function makeMedia(shop, liveUrl) {
     await ready(phone);
     await page.evaluate(stageType);
     await page.evaluate(() => document.fonts.ready);
-    await page.waitForTimeout(300); // from Node: on the fake clock the page's own timers don't run
+    await page.waitForTimeout(300); // from Node: on the paused clock the page's own timers don't run
     await page.evaluate(fitName);
 
-    // Scroll reveals measure their positions once after load, and on the fake clock that measure
-    // goes stale; a resize makes the site measure again (debounced, hence the run). It also checks
-    // that the clock reaches the iframes: if not, their motion would run on wall time.
-    const before = await phone.evaluate(() => performance.now());
-    for (const f of [desk, phone]) await f.evaluate(() => window.dispatchEvent(new Event("resize")));
-    await page.clock.runFor(500);
-    const moved = (await phone.evaluate(() => performance.now())) - before;
-    if (Math.abs(moved - 500) > 50) throw new Error(`the site's clock moved ${Math.round(moved)} ms for 500 ms`);
-
+    // The clock hasn't moved since the site loaded, so its own load animations (GSAP intros
+    // included) are still at their start and play in the first frames, as a visitor sees them.
     const sections = await phone.evaluate(siteSections, SKIP_SECTION.source);
     const phoneStops = await phone.evaluate(siteStops, sections);
     const deskStops = await desk.evaluate(siteStops, sections);
@@ -346,6 +353,11 @@ async function makeMedia(shop, liveUrl) {
 
     await desk.evaluate(installSync);
     await phone.evaluate(installSync);
+    // Scroll reveals measure their positions once after load, and on the fake clock that measure
+    // goes stale. A resize makes the site measure again; it's debounced, so it lands a few frames
+    // into the hold on the hero, before anything scrolls.
+    for (const f of [desk, phone]) await f.evaluate(() => window.dispatchEvent(new Event("resize")));
+    const clockStart = await phone.evaluate(() => performance.now());
     let n = 0;
     const frame = (i) => path.join(tmp, `frame-${String(i).padStart(4, "0")}.jpg`);
     const at = (stops, p) => {
@@ -357,7 +369,8 @@ async function makeMedia(shop, liveUrl) {
       for (let k = 1; k <= move; k++) positions.push(stop - 1 + easeInOut(k / move));
       for (let k = 0; k < hold; k++) positions.push(stop);
       for (const p of positions) {
-        await page.clock.runFor(1000 / FPS);
+        // runFor takes whole milliseconds: step to each frame's rounded time so they add up exactly.
+        await page.clock.runFor(Math.round(((n + 1) * 1000) / FPS) - Math.round((n * 1000) / FPS));
         for (const [f, stops] of [[desk, deskStops], [phone, phoneStops]]) {
           // Whole device pixels keep text crisp.
           await f.evaluate((top) => { window.scrollTo({ top, behavior: "instant" }); window.__sync(); }, Math.round(at(stops, p) * 2) / 2);
@@ -365,6 +378,9 @@ async function makeMedia(shop, liveUrl) {
         await page.screenshot({ path: frame(n++), type: "jpeg", quality: 90 });
       }
     }
+    // The fake clock must reach the iframes, or their motion ran on wall time and the video is wrong.
+    const moved = (await phone.evaluate(() => performance.now())) - clockStart;
+    if (Math.abs(moved - (n * 1000) / FPS) > 50) throw new Error(`the site's clock moved ${Math.round(moved)} ms over ${n} frames`);
     await page.close();
 
     // Raise the CRF until the video fits WhatsApp comfortably.

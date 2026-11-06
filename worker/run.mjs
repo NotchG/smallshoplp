@@ -25,7 +25,7 @@ const KINDS = {
   build: { timeout: 180 * MIN, claude: (a) => `/shop-landing build${shops(a) ? ` ${a.slugs.join(", ")}` : ""}` },
   "outreach-lines": { timeout: 30 * MIN, claude: (a) => `/shop-landing outreach${shops(a) ? ` ${a.slugs.join(", ")}` : ""}` },
   publish: { timeout: 20 * MIN, cmd: (a) => ["bash", ["scripts/coolify-publish.sh", ...(shops(a) ?? ["--all"])]] },
-  "outreach-media": { timeout: 180 * MIN, cmd: (a) => ["node", ["scripts/outreach-media.mjs", ...(shops(a) ?? ["--all"])]] },
+  "outreach-media": { timeout: 180 * MIN, cmd: (a) => ["node", ["scripts/outreach-media.mjs", ...(shops(a) ?? ["--all"]), ...(a.force ? ["--force"] : [])]] },
   archive: { timeout: 20 * MIN, cmd: (a) => ["bash", ["scripts/archive-rejected.sh", ...(shops(a) ?? ["--all"])]] },
   sync: { timeout: 5 * MIN },
 };

@@ -31,6 +31,10 @@ export function validateJob(body: unknown): { kind: JobKind; args: JobArgs } | s
       if (!Array.isArray(b.slugs) || b.slugs.length > 100 || !b.slugs.every(validSlug)) return "Invalid shop list.";
       if (b.slugs.length) args.slugs = b.slugs;
     }
+    if (b.force !== undefined) {
+      if (kind !== "outreach-media" || typeof b.force !== "boolean") return "Only preview videos can be remade.";
+      if (b.force) args.force = true;
+    }
   }
   return { kind, args };
 }

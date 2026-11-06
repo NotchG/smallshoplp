@@ -123,11 +123,13 @@ function BuildQueue({ leads }: { leads: Lead[] }) {
   const needVideo = ready.filter(needsVideo);
   const needLine = ready.filter((l) => !l.hook);
   const needArchive = at("no_answer", "declined").filter((l) => !l.archived_at);
-  const steps: [string, string, Lead[], React.ReactNode][] = [
+  // [title, about, the leads waiting, its run button, a button that shows even with none waiting]
+  const steps: [string, string, Lead[], React.ReactNode, React.ReactNode?][] = [
     ["Write briefs", "Approved candidates and briefs you sent back. Uses the Places key.", needBrief, <RunButton key="b" kind="brief" args={{ slugs: slugs(needBrief) }} primary />],
     ["Plan and build", "Approved briefs: Claude writes the PRD, TRD, design brief and plan, then builds and reviews the site.", needBuild, <RunButton key="p" kind="build" args={{ slugs: slugs(needBuild) }} primary />],
     ["Publish", "Built sites without a Coolify app yet.", needPublish, <RunButton key="u" kind="publish" args={{ slugs: slugs(needPublish) }} primary />],
-    ["Make preview videos", "Ready shops without a laptop-and-phone video, including old phone-only ones (under a minute each).", needVideo, <RunButton key="v" kind="outreach-media" args={{ slugs: slugs(needVideo) }} />],
+    ["Make preview videos", "Ready shops without a laptop-and-phone video, including old phone-only ones (under a minute each).", needVideo, <RunButton key="v" kind="outreach-media" args={{ slugs: slugs(needVideo) }} />,
+      ready.length ? <RunButton key="vr" kind="outreach-media" args={{ slugs: slugs(ready), force: true }} label={`Remake all ${ready.length}`} /> : null],
     ["Write personal lines", "Ready shops without the opening line for their first message.", needLine, <RunButton key="l" kind="outreach-lines" args={{ slugs: slugs(needLine) }} />],
     ["Archive", "Declined and unanswered shops: deletes the site and Coolify app, keeps the brief.", needArchive, <RunButton key="a" kind="archive" args={{ slugs: slugs(needArchive) }} />],
   ];
@@ -136,10 +138,10 @@ function BuildQueue({ leads }: { leads: Lead[] }) {
       <section className="panel">
         <h2>Find shops on Maps</h2><FindShops />
         <h2 style={{ marginTop: 22 }}>Claude&rsquo;s steps</h2>
-        <div className="steps">{steps.map(([title, about, ls, button]) => (
+        <div className="steps">{steps.map(([title, about, ls, button, always]) => (
           <div className="steprow" key={title}>
             <div><strong>{title} <span style={{ color: "var(--muted)", fontWeight: 400 }}>{ls.length}</span></strong><small>{about}</small></div>
-            <div className="acts">{ls.length ? button : <span className="hint">Nothing waiting</span>}</div>
+            <div className="acts">{ls.length ? button : <span className="hint">Nothing waiting</span>}{always}</div>
           </div>
         ))}</div>
         <div className="acts" style={{ marginTop: 14 }}><RunButton kind="sync" label="Sync with GitHub" /></div>

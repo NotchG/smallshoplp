@@ -9,6 +9,7 @@ export interface JobArgs {
   area?: string;         // discover
   types?: string;        // discover, e.g. "bakeries and cafes"
   count?: number;        // discover
+  force?: boolean;       // outreach-media: make the videos again even where they exist
 }
 
 export interface Job {
@@ -33,7 +34,7 @@ export const KINDS: Record<JobKind, { title: string; label: (a: JobArgs) => stri
   build: { title: "Plan and build", claude: true, label: (a) => `Plan and build: ${list(a.slugs)}` },
   "outreach-lines": { title: "Write personal lines", claude: true, label: (a) => `Personal lines: ${list(a.slugs)}` },
   publish: { title: "Publish", claude: false, label: (a) => `Publish to Coolify: ${list(a.slugs)}` },
-  "outreach-media": { title: "Make preview videos", claude: false, label: (a) => `Preview videos: ${list(a.slugs)}` },
+  "outreach-media": { title: "Make preview videos", claude: false, label: (a) => `${a.force ? "Remake preview videos" : "Preview videos"}: ${list(a.slugs)}` },
   archive: { title: "Archive", claude: false, label: (a) => `Archive: ${list(a.slugs)}` },
   sync: { title: "Sync with GitHub", claude: false, label: () => "Sync with GitHub" },
 };
