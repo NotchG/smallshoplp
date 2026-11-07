@@ -223,12 +223,13 @@ function installSync() {
 }
 
 // Lazy images load eagerly, so no frame shows a blank box. Polls from Node: on a paused clock the
-// page's own timers and animation frames don't run.
+// page's own timers and animation frames don't run. Takes a page (the phone still) or a frame.
 async function ready(frame) {
+  const page = typeof frame.page === "function" ? frame.page() : frame;
   await frame.evaluate(() => document.querySelectorAll("img[loading=lazy]").forEach((img) => { img.loading = "eager"; }));
   for (let i = 0; i < 40; i++) {
     if (await frame.evaluate(() => [...document.images].every((img) => img.complete))) break;
-    await frame.page().waitForTimeout(200);
+    await page.waitForTimeout(200);
   }
   await frame.evaluate(() => document.fonts.ready);
 }
