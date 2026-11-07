@@ -101,6 +101,8 @@ select.input { padding-right: 28px; appearance: none; background-image: linear-g
 .scrim .facts { color: #d7dbe0; font-size: 13px; display: flex; gap: 10px; flex-wrap: wrap; }
 .scrim .why { margin-top: 10px; display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; padding: 6px 10px; border-radius: 6px; background: #ffffff1a; backdrop-filter: blur(6px); }
 .scrim .why.over { color: var(--coral); } .scrim .why.due { color: var(--amber); }
+.scrim .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; } .scrim .chips .why { margin-top: 0; }
+.scrim .why.later { color: var(--muted); }
 .novid { position: absolute; top: 14px; left: 14px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; padding: 5px 8px; border-radius: 5px; background: #0a0a0bcc; color: var(--muted); }
 .rail { display: flex; flex-direction: column; gap: 18px; align-self: flex-end; margin-bottom: 40px; }
 .rail button, .rail a { display: flex; flex-direction: column; align-items: center; gap: 6px; background: none; border: 0; color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; }

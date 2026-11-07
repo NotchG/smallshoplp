@@ -23,10 +23,14 @@ phone, through the NAS's Cloudflare Tunnel behind a Cloudflare Access email logi
 has no login, so it is never reachable any other way. Locally it still runs with
 `cd approve-app && npm run dev` on http://localhost:3030.
 
-- **Today:** everything due, one lead at a time. The lead's own scroll video fills the middle,
+- **Today:** everything due, one lead at a time. The lead's own preview video fills the middle,
   its actions sit on the right (WhatsApp, Sent, Replied, Close, Skip), and the side column holds
   the filled-in Indonesian message. J/K move, E does the main action, and every action can be
   undone from the toast. On a phone, Video shares straight into WhatsApp.
+  Previews and follow-ups wait for a quiet hour at the shop (`approve-app/lib/sendtime.ts`):
+  weekdays 09:30–11:00 and 14:00–16:30 while it's open (Friday morning only), worked out from its
+  Google hours in Jakarta time. Shops in a window now come first with "Good time to message"; the
+  rest go last and say when, such as "Closed now · best Mon 09:30". Sending outside still works.
 - **Pipeline:** a board of every stage, Sales or Production. Drag a lead to move it; only moves
   that mean something are allowed.
 - **Leads:** every shop in a sortable table, with a drawer for the video, timeline and next step.

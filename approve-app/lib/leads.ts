@@ -1,6 +1,7 @@
 // One lead per shop, with the stage it's at across both halves of the pipeline.
 // Shared by the server (GET /api/leads) and the browser.
 import { daysToMs, msSince, FOLLOW_UP_AFTER_DAYS, NO_ANSWER_AFTER_DAYS } from "./outreach";
+import { sendTiming, type OpeningPeriod } from "./sendtime";
 import type { Shop } from "./types";
 
 export type Stage =
@@ -32,6 +33,7 @@ export interface Lead extends Shop {
   hook: string;
   phone: string;
   brief: BriefSummary | null;
+  hours: OpeningPeriod[] | null; // Google opening hours (sales stages only), for when to message
 }
 
 export function leadStage(s: Shop, now: number = Date.now()): Stage {
@@ -99,17 +101,29 @@ export const needsVideo = (l: Lead): boolean => !l.media.video || !l.media.poste
 export type TodayAction = "followup" | "link" | "close" | "brief" | "send";
 export const DAILY_SENDS = 5; // previews per day, to keep the WhatsApp number in good standing
 
-export function todayQueue(leads: Lead[], sentToday: number): { lead: Lead; action: TodayAction }[] {
+// The cold messages (preview and follow-up) wait for a good time at the shop (lib/sendtime.ts):
+// the ones in a window now keep their place, the rest go last, soonest window first. A link goes
+// out whenever: the owner asked for it.
+export function todayQueue(leads: Lead[], sentToday: number, now: number = Date.now()): { lead: Lead; action: TodayAction }[] {
   const at = (st: Stage, action: TodayAction, sort?: (a: Lead, b: Lead) => number) =>
     leads.filter((l) => l.stage === st).sort(sort ?? (() => 0)).map((lead) => ({ lead, action }));
   const t = (iso?: string) => (iso ? new Date(iso).getTime() : 0);
-  const ready = leads.filter((l) => l.stage === "ready").sort((a, b) => (b.reviews || 0) - (a.reviews || 0));
+  const timing = new Map(leads.map((l) => [l.slug, sendTiming(l.hours, now)]));
+  const good = (l: Lead) => timing.get(l.slug)!.now;
+  const next = (l: Lead) => timing.get(l.slug)!.at;
+  // Today's previews: the best-reviewed shops in a window now, then the soonest to open one.
+  const ready = leads.filter((l) => l.stage === "ready")
+    .sort((a, b) => Number(good(b)) - Number(good(a)) || (good(a) ? 0 : next(a) - next(b)) || (b.reviews || 0) - (a.reviews || 0));
+  const followups = at("followup_due", "followup", (a, b) => t(a.outreach_sent_at) - t(b.outreach_sent_at));
+  const sends = ready.slice(0, Math.max(0, DAILY_SENDS - sentToday)).map((lead) => ({ lead, action: "send" as const }));
+  const later = [...followups, ...sends].filter((q) => !good(q.lead)).sort((a, b) => next(a.lead) - next(b.lead));
   return [
-    ...at("followup_due", "followup", (a, b) => t(a.outreach_sent_at) - t(b.outreach_sent_at)),
+    ...followups.filter((q) => good(q.lead)),
     ...at("link_due", "link"),
     ...at("no_answer_due", "close", (a, b) => t(a.followup_sent_at) - t(b.followup_sent_at)),
     ...at("brief_ready", "brief"),
-    ...ready.slice(0, Math.max(0, DAILY_SENDS - sentToday)).map((lead) => ({ lead, action: "send" as const })),
+    ...sends.filter((q) => good(q.lead)),
+    ...later,
   ];
 }
 

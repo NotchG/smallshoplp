@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
   Archive, Calendar, Check, ChevronDown, CircleCheck, Clock, Copy, Download, ExternalLink, FileText, Image as ImageIcon,
-  MessageCircle, MessageSquareText, Play, Send, Share2, Undo2, X, type LucideIcon,
+  Hourglass, MessageCircle, MessageSquareText, Play, Send, Share2, Undo2, X, type LucideIcon,
 } from "lucide-react";
 import { useLeads } from "./useLeads";
 import { useToast } from "./components/Toast";
@@ -11,6 +11,7 @@ import { EFFECTS, copyText, patchShop, type Effect } from "@/lib/actions";
 import {
   DAILY_SENDS, daysSince, posterOf, sentTodayCount, shotUrl, stillOf, todayQueue, type Lead, type TodayAction,
 } from "@/lib/leads";
+import { sendTiming, type SendTiming } from "@/lib/sendtime";
 import {
   FOLLOWUP_TEMPLATE, LINK_FOLLOWUP_TEMPLATE, LINK_TEMPLATE, OUTREACH_TEMPLATE, fillMessage, whatsappLink,
 } from "@/lib/outreach";
@@ -93,6 +94,12 @@ export default function Today() {
   const [sender, setSender] = useSender();
   const [edited, setEdited] = useState<Record<string, string>>({});
   const feed = useRef<HTMLDivElement>(null);
+  // Jakarta clock for the send-time chips; the queue's order refreshes with the leads (every 30 s).
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => { const t = setInterval(() => setNow(Date.now()), 60_000); return () => clearInterval(t); }, []);
+  // Cold messages wait for a quiet hour at the shop (lib/sendtime.ts); other actions don't.
+  const timingOf = (lead: Lead, action: TodayAction): SendTiming | null =>
+    action === "send" || action === "followup" ? sendTiming(lead.hours, now) : null;
 
   const all = useMemo(() => (leads ? todayQueue(leads, sentTodayCount(leads)) : []), [leads]);
   const list = useMemo(() => all.filter((q) => filter === "all" || q.action === filter), [all, filter]);
@@ -231,6 +238,7 @@ export default function Today() {
               const a = ACTIONS[q.action];
               const l = q.lead;
               const WhyIcon = a.cls === "over" ? Clock : q.action === "send" ? Send : Calendar;
+              const when = timingOf(l, q.action);
               return (
                 <article key={`${l.slug}:${q.action}`} className={`slide ${leaving === l.slug ? "leaving" : ""}`} data-i={i} aria-label={`${l.name}: ${a.title}`}
                   style={stillOf(l) ? ({ "--poster": `url('${stillOf(l)}')` } as React.CSSProperties) : undefined}>
@@ -239,7 +247,10 @@ export default function Today() {
                     <div className="scrim">
                       <h3>{l.name}</h3>
                       <div className="facts">{[l.type, l.area, l.rating ? `${l.rating} from ${(l.reviews ?? 0).toLocaleString("en-US")} reviews` : ""].filter(Boolean).map((f) => <span key={f}>{f}</span>)}</div>
-                      <span className={`why ${a.cls}`}><WhyIcon />{a.why(l)}</span>
+                      <div className="chips">
+                        <span className={`why ${a.cls}`}><WhyIcon />{a.why(l)}</span>
+                        {when?.label && <span className={`why ${when.now ? "" : "later"}`}>{when.now ? <Check /> : <Hourglass />}{when.label}</span>}
+                      </div>
                     </div>
                   </div>
                   <div className="rail">
@@ -270,18 +281,22 @@ export default function Today() {
             text={message(item.lead, item.action)} sender={sender} setSender={setSender}
             onEdit={(v) => setEdited((e) => ({ ...e, [`${item.lead.slug}:${item.action}`]: v }))}
             onWa={() => run(list.indexOf(item), { kind: "wa" })} onMedia={() => media(item.lead, item.action)}
+            timing={timingOf(item.lead, item.action)}
             rework={rework} setRework={setRework} onRework={(note) => sendBack(item.lead, note)}
             onCopy={async () => (await copyText(message(item.lead, item.action)) ? toast("Message copied") : toast("Couldn't copy; select the text instead", { error: true }))} />
             : <div><h2>All clear</h2><p className="hint">Nothing else is due today.</p></div>}
           <div>
             <h2>Up next</h2>
             <div className="upnext">
-              {list.slice(current + 1, current + 6).map((u, k) => (
-                <button key={`${u.lead.slug}:${u.action}`} type="button" onClick={() => go(current + 1 + k)}>
-                  <span className="thumb" style={{ backgroundImage: stillOf(u.lead) ? `url('${stillOf(u.lead)}')` : undefined }} />
-                  <span><strong>{u.lead.name}</strong><small>{ACTIONS[u.action].title}</small></span>
-                </button>
-              ))}
+              {list.slice(current + 1, current + 6).map((u, k) => {
+                const when = timingOf(u.lead, u.action);
+                return (
+                  <button key={`${u.lead.slug}:${u.action}`} type="button" onClick={() => go(current + 1 + k)}>
+                    <span className="thumb" style={{ backgroundImage: stillOf(u.lead) ? `url('${stillOf(u.lead)}')` : undefined }} />
+                    <span><strong>{u.lead.name}</strong><small>{ACTIONS[u.action].title}{when && !when.now && when.label ? ` · ${when.label}` : ""}</small></span>
+                  </button>
+                );
+              })}
               {list.length <= current + 1 && <p className="hint">That&rsquo;s the last one today.</p>}
             </div>
           </div>
@@ -303,8 +318,8 @@ function AutoTextarea({ value, onChange, label }: { value: string; onChange: (v:
   return <textarea ref={ref} className="msg" value={value} onChange={(e) => onChange(e.target.value)} aria-label={label} />;
 }
 
-function SidePanel({ lead, action, text, sender, setSender, onEdit, onWa, onMedia, onCopy, rework, setRework, onRework }: {
-  lead: Lead; action: TodayAction; text: string; sender: string; setSender: (v: string) => void;
+function SidePanel({ lead, action, text, sender, setSender, onEdit, onWa, onMedia, onCopy, rework, setRework, onRework, timing }: {
+  lead: Lead; action: TodayAction; text: string; sender: string; setSender: (v: string) => void; timing: SendTiming | null;
   onEdit: (v: string) => void; onWa: () => void; onMedia: () => void; onCopy: () => void;
   rework: string | null; setRework: (v: string | null) => void; onRework: (note: string) => void;
 }) {
@@ -353,6 +368,9 @@ function SidePanel({ lead, action, text, sender, setSender, onEdit, onWa, onMedi
         <button type="button" className="btn small" onClick={onCopy}><Copy />Copy message</button>
         <button type="button" className="btn small wa" onClick={onWa}><ExternalLink />Open in WhatsApp</button>
       </div>
+      {timing && !timing.now && timing.label && (
+        <p className="hint">{timing.label}. Sending now still works; it&rsquo;s just more likely to be missed.</p>
+      )}
     </>
   );
 }

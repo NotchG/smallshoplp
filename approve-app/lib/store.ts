@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { SALES, areaOf, leadStage, type BriefSummary, type Lead } from "./leads";
+import type { OpeningPeriod } from "./sendtime";
 import type { Outreach, ShopFiles, ShopsFile } from "./types";
 
 // The project root is the folder above approve-app/, unless SMALLSHOP_ROOT says otherwise.
@@ -116,6 +117,7 @@ export interface RawListing {
   websiteUri?: string;
   rating?: number;
   userRatingCount?: number;
+  regularOpeningHours?: { periods?: OpeningPeriod[] };
 }
 
 export async function readRaw(slug: string): Promise<RawListing | null> {
@@ -187,6 +189,7 @@ export async function listLeads(): Promise<Lead[]> {
     return {
       ...shop, stage, area: areaOf(shop.address), media: { video, poster, phone, fold }, hook: outreach?.hook ?? "",
       phone: raw?.internationalPhoneNumber || raw?.nationalPhoneNumber || "", brief,
+      hours: raw?.regularOpeningHours?.periods ?? null,
     };
   }));
 }
